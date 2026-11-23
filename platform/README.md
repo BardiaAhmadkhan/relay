@@ -9,7 +9,14 @@ Use Node 24.12 and npm in this directory. The test suite uses generated inputs, 
 ```sh
 npm ci
 npm run verify
-npm run test:gateway
+```
+
+The gateway integration starts the production web server and the recognition desk together. From the repository root, run the following after installing this workspace.
+
+```sh
+npm ci
+npm run build
+npm --prefix platform run test:gateway
 ```
 
 For the acquisition worker, use Python 3.10 or 3.11. For example, create a virtual environment with `python -m venv .venv`, activate it, then run the commands below. The Python checks exercise image preparation, provenance and the worker's safeguards on CPU.
