@@ -1,0 +1,221 @@
+{
+  "experiment": "quality-002",
+  "recordedAt": "2026-10-26T06:56:56.067Z",
+  "source": "assets/fixtures/originals/leather-jacket.jpg",
+  "sourceSha256": "aa69eda797d6b467eff141a7889aa428f49125683f69049d57c738e43e34c573",
+  "provenance": "assets/fixtures/manifest.json",
+  "environment": {
+    "node": "v24.12.0",
+    "os": "win32",
+    "architecture": "x64",
+    "cpu": "Intel(R) Core(TM) Ultra 9 275HX"
+  },
+  "results": [
+    {
+      "variant": "reference-1600",
+      "sourceBytes": 240055,
+      "normalizedBytes": 205181,
+      "quality": {
+        "width": 1092,
+        "height": 1355,
+        "brightness": 108.56636136424753,
+        "sharpness": 1681.2027148823074,
+        "warnings": []
+      },
+      "latencyMs": {
+        "cold": 92.8965,
+        "warmSamples": [
+          95.19979999999998,
+          94.16240000000005,
+          90.04550000000006,
+          91.16230000000007,
+          93.66309999999999
+        ],
+        "median": 93.66309999999999,
+        "p95": 95.19979999999998
+      }
+    },
+    {
+      "variant": "resize-960",
+      "sourceBytes": 133219,
+      "normalizedBytes": 115102,
+      "quality": {
+        "width": 774,
+        "height": 960,
+        "brightness": 108.60923045860471,
+        "sharpness": 1531.3681588221716,
+        "warnings": []
+      },
+      "latencyMs": {
+        "cold": 51.64390000000003,
+        "warmSamples": [
+          52.49879999999996,
+          53.74750000000006,
+          54.774599999999964,
+          54.576499999999896,
+          55.95790000000011
+        ],
+        "median": 54.576499999999896,
+        "p95": 55.95790000000011
+      }
+    },
+    {
+      "variant": "resize-480",
+      "sourceBytes": 41978,
+      "normalizedBytes": 36402,
+      "quality": {
+        "width": 387,
+        "height": 480,
+        "brightness": 108.43137551747417,
+        "sharpness": 1916.4324118508666,
+        "warnings": []
+      },
+      "latencyMs": {
+        "cold": 20.36779999999999,
+        "warmSamples": [
+          19.252500000000055,
+          18.689000000000078,
+          19.256800000000112,
+          18.896199999999908,
+          18.402499999999918
+        ],
+        "median": 18.896199999999908,
+        "p95": 19.256800000000112
+      }
+    },
+    {
+      "variant": "compressed-q35",
+      "sourceBytes": 85196,
+      "normalizedBytes": 111789,
+      "quality": {
+        "width": 1092,
+        "height": 1355,
+        "brightness": 108.4660961760749,
+        "sharpness": 1678.4346834556484,
+        "warnings": []
+      },
+      "latencyMs": {
+        "cold": 58.82810000000018,
+        "warmSamples": [
+          60.14499999999998,
+          57.928499999999985,
+          60.54729999999995,
+          59.31700000000001,
+          59.11789999999996
+        ],
+        "median": 59.31700000000001,
+        "p95": 60.54729999999995
+      }
+    },
+    {
+      "variant": "blur-sigma8",
+      "sourceBytes": 83748,
+      "normalizedBytes": 74382,
+      "quality": {
+        "width": 1092,
+        "height": 1355,
+        "brightness": 108.77247370295846,
+        "sharpness": 122.30756082033682,
+        "warnings": []
+      },
+      "latencyMs": {
+        "cold": 51.26519999999982,
+        "warmSamples": [
+          48.66640000000007,
+          49.302999999999884,
+          48.83989999999994,
+          53.635299999999916,
+          49.465000000000146
+        ],
+        "median": 49.302999999999884,
+        "p95": 53.635299999999916
+      }
+    },
+    {
+      "variant": "severe-dark",
+      "sourceBytes": 20678,
+      "normalizedBytes": 17914,
+      "quality": {
+        "width": 1092,
+        "height": 1355,
+        "brightness": 2.7845053091398446,
+        "sharpness": 2.9719088958004907,
+        "warnings": [
+          "dark",
+          "soft"
+        ]
+      },
+      "latencyMs": {
+        "cold": 35.7023999999999,
+        "warmSamples": [
+          37.16289999999981,
+          39.81889999999976,
+          35.56970000000001,
+          36.865200000000186,
+          36.680199999999786
+        ],
+        "median": 36.865200000000186,
+        "p95": 39.81889999999976
+      }
+    },
+    {
+      "variant": "severe-bright",
+      "sourceBytes": 12099,
+      "normalizedBytes": 9113,
+      "quality": {
+        "width": 1092,
+        "height": 1355,
+        "brightness": 250.61614278897852,
+        "sharpness": 0.7722297465045381,
+        "warnings": [
+          "bright",
+          "soft"
+        ]
+      },
+      "latencyMs": {
+        "cold": 34.621799999999894,
+        "warmSamples": [
+          32.79419999999982,
+          33.14310000000023,
+          33.29890000000023,
+          32.952600000000075,
+          32.419200000000274
+        ],
+        "median": 32.952600000000075,
+        "p95": 33.29890000000023
+      }
+    },
+    {
+      "variant": "low-resolution",
+      "sourceBytes": 5997,
+      "normalizedBytes": 5273,
+      "quality": {
+        "width": 120,
+        "height": 149,
+        "brightness": 109.35385687500305,
+        "sharpness": 568.2544129422746,
+        "warnings": [
+          "low_resolution"
+        ]
+      },
+      "latencyMs": {
+        "cold": 5.258000000000266,
+        "warmSamples": [
+          5.1865999999999985,
+          4.736199999999826,
+          5.037199999999757,
+          6.095499999999902,
+          4.921900000000278
+        ],
+        "median": 5.037199999999757,
+        "p95": 6.095499999999902
+      }
+    }
+  ],
+  "limitations": [
+    "One source image with synthetic degradations; not image-quality rejection accuracy on representative rider photos.",
+    "Five warm repetitions per variant; no phone timing, upload timing or condition ground truth.",
+    "Blur is an advisory heuristic, not a hard safety or usability gate.",
+    "CC BY-SA source derivatives retain original attribution/licence; generated in memory only."
+  ]
+}

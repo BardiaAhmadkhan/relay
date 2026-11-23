@@ -1,0 +1,8 @@
+{
+  "id": "recognition-01.location",
+  "purpose": "Test the earlier plan's missing ability to locate a mark without knowing its coordinates. An inference-free second-look proposal only.",
+  "comparison": "For all reviewed positive fabric photos in quality-audit-01 with publisher boxes class >=1 plus 16 previously unselected class 2/3 material photos from recognition-02, compare center alone, center+image-independent hashed second, center+spectral-residual second. Do not use labels to select a crop. Equal input area: one central third-width by third-height rectangle plus a nonoverlapping rectangle of identical size. Candidates are a fixed 5x5 grid of valid centers.",
+  "candidate": "Use grayscale images scaled proportionally to 80 and 160 longest sides. Apply squared spectral residual saliency with 12 px reflected padding, local 3x3 log-amplitude averaging, Gaussian smoothing sigma 2. Normalize each map by its mean, average at 160 scale. Use each crop's 90th percentile. Select once without tuning. Fix deterministic tie resolution.",
+  "metrics": "Primary: at least one publisher defect-box center lies inside the requested crops. Secondary: any proposed crop center lies inside a publisher box. Separate by source session and defects outside the center. Count paired rescued/lost images vs equal-area baseline. A proposer always chooses on clean photos too; measure no detection precision or safety. No rider-facing highlight unless real gear localization independently qualifies.",
+  "gate": "Greater recall than matched-area control on both the archival and new source-photo sets, with adequate coverage of off-center defects. Even a pass is a material-only shadow signal."
+}

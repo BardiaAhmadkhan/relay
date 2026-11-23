@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-26T23:45:57.962Z",
+  "scope": "Latest program executed through real Fastify routes with exact recorded model responses from the current HTTP audit. All model responses including the earlier corrective review are recorded; no new inference is permitted. This is NOT another 194-image live inference or HTTP timing measurement.",
+  "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1+evidence-claims-4+review-index-1+focused-tear-context-3",
+  "sources": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "sha256": "e84a4de7138f643c1365e0fe882b0d5ec4da9990a004a4b7541e0b85a878c8ab"
+    },
+    {
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "b17b87124700ad7295e3ec79b361f4d521693f4456cb84f3c5f454f9fa00805e"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "packages/vision/review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455"
+    },
+    {
+      "path": "packages/vision/cache-policy.ts",
+      "sha256": "93490c72093f14e19771be29961ebca321829d935e10dfc184384f0884b51f63"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "80c55ff73b19b4cee0b1fe7765974816f61337945c45df9081f7cd5153e55c3d"
+    },
+    {
+      "path": "scripts/quality-cycle-02-final-replay.ts",
+      "sha256": "61dcb9118d18c8a4caee81da6042b4d761243e3eb3a936b6baaaceb0d6e6b13c"
+    }
+  ]
+}

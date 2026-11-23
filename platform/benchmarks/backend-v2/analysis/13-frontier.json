@@ -1,0 +1,740 @@
+{
+ "keep": 0.98,
+ "wrongBlock": 0.01,
+ "repeats": 30,
+ "ids": 223,
+ "results": [
+  {
+   "name": "4b@1600",
+   "n": 223,
+   "auc": 0.9841512469831054,
+   "aucGear": 0.9917808219178083,
+   "cost": 1998,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 237,
+    "damagedBlocked": 3033,
+    "cleanCleared": 2479,
+    "cleanReview": 776,
+    "cleanBlocked": 45
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 117,
+    "damagedBlocked": 333,
+    "cleanCleared": 1609,
+    "cleanReview": 568,
+    "cleanBlocked": 13
+   }
+  },
+  {
+   "name": "4b@1024",
+   "n": 223,
+   "auc": 0.981456154465004,
+   "aucGear": 0.9917808219178083,
+   "cost": 1333,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 90,
+    "damagedReview": 300,
+    "damagedBlocked": 3000,
+    "cleanCleared": 2010,
+    "cleanReview": 1260,
+    "cleanBlocked": 30
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 120,
+    "damagedBlocked": 330,
+    "cleanCleared": 1175,
+    "cleanReview": 1015,
+    "cleanBlocked": 0
+   }
+  },
+  {
+   "name": "4b@768",
+   "n": 223,
+   "auc": 0.9868061142397425,
+   "aucGear": 0.9945205479452055,
+   "cost": 865,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 150,
+    "damagedReview": 318,
+    "damagedBlocked": 2922,
+    "cleanCleared": 2565,
+    "cleanReview": 692,
+    "cleanBlocked": 43
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 115,
+    "damagedBlocked": 335,
+    "cleanCleared": 1670,
+    "cleanReview": 507,
+    "cleanBlocked": 13
+   }
+  },
+  {
+   "name": "4b@512",
+   "n": 223,
+   "auc": 0.9794851166532582,
+   "aucGear": 0.9926940639269406,
+   "cost": 558,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 470,
+    "damagedBlocked": 2800,
+    "cleanCleared": 2516,
+    "cleanReview": 742,
+    "cleanBlocked": 42
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 80,
+    "damagedBlocked": 370,
+    "cleanCleared": 1651,
+    "cleanReview": 527,
+    "cleanBlocked": 12
+   }
+  },
+  {
+   "name": "4b@384",
+   "n": 223,
+   "auc": 0.9592115848753017,
+   "aucGear": 0.993607305936073,
+   "cost": 464,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 1340,
+    "damagedBlocked": 1930,
+    "cleanCleared": 1815,
+    "cleanReview": 1436,
+    "cleanBlocked": 49
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 172,
+    "damagedBlocked": 278,
+    "cleanCleared": 975,
+    "cleanReview": 1198,
+    "cleanBlocked": 17
+   }
+  },
+  {
+   "name": "2b@1600",
+   "n": 223,
+   "auc": 0.9868061142397425,
+   "aucGear": 0.9863013698630136,
+   "cost": 1073,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 93,
+    "damagedReview": 491,
+    "damagedBlocked": 2806,
+    "cleanCleared": 2671,
+    "cleanReview": 559,
+    "cleanBlocked": 70
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 3,
+    "damagedReview": 131,
+    "damagedBlocked": 316,
+    "cleanCleared": 1951,
+    "cleanReview": 209,
+    "cleanBlocked": 30
+   }
+  },
+  {
+   "name": "0.8b@1600",
+   "n": 223,
+   "auc": 0.953419147224457,
+   "aucGear": 0.9808219178082191,
+   "cost": 657,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 90,
+    "damagedReview": 1092,
+    "damagedBlocked": 2208,
+    "cleanCleared": 1623,
+    "cleanReview": 1635,
+    "cleanBlocked": 42
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 206,
+    "damagedBlocked": 244,
+    "cleanCleared": 963,
+    "cleanReview": 1197,
+    "cleanBlocked": 30
+   }
+  },
+  {
+   "name": "gemma4@1600",
+   "n": 223,
+   "auc": 0.8510860820595334,
+   "aucGear": 0.8415525114155251,
+   "cost": 445,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 0,
+    "damagedReview": 1680,
+    "damagedBlocked": 1710,
+    "cleanCleared": 0,
+    "cleanReview": 3300,
+    "cleanBlocked": 0
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 390,
+    "damagedBlocked": 60,
+    "cleanCleared": 0,
+    "cleanReview": 2190,
+    "cleanBlocked": 0
+   }
+  },
+  {
+   "name": "mark@512 (one contrastive question)",
+   "n": 223,
+   "auc": 0.9777152051488335,
+   "aucGear": 0.9799086757990868,
+   "cost": 246,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 60,
+    "damagedReview": 1182,
+    "damagedBlocked": 2148,
+    "cleanCleared": 2565,
+    "cleanReview": 696,
+    "cleanBlocked": 39
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 302,
+    "damagedBlocked": 148,
+    "cleanCleared": 1725,
+    "cleanReview": 435,
+    "cleanBlocked": 30
+   }
+  },
+  {
+   "name": "max(broken, mark)@512",
+   "n": 223,
+   "auc": 0.9783588093322607,
+   "aucGear": 0.982648401826484,
+   "cost": 537,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 60,
+    "damagedReview": 1076,
+    "damagedBlocked": 2254,
+    "cleanCleared": 2565,
+    "cleanReview": 696,
+    "cleanBlocked": 39
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 255,
+    "damagedBlocked": 195,
+    "cleanCleared": 1725,
+    "cleanReview": 435,
+    "cleanBlocked": 30
+   }
+  },
+  {
+   "name": "mark@512 -> 4b@1600",
+   "n": 223,
+   "auc": 0.9841512469831054,
+   "aucGear": 0.9917808219178083,
+   "cost": 806.8735426008968,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 150,
+    "damagedReview": 165,
+    "damagedBlocked": 3075,
+    "cleanCleared": 2802,
+    "cleanReview": 435,
+    "cleanBlocked": 63
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 117,
+    "damagedBlocked": 333,
+    "cleanCleared": 1902,
+    "cleanReview": 257,
+    "cleanBlocked": 31
+   }
+  },
+  {
+   "name": "mark@512 -> 4b@512",
+   "n": 223,
+   "auc": 0.9794851166532582,
+   "aucGear": 0.9926940639269406,
+   "cost": 402.64035874439463,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 470,
+    "damagedBlocked": 2800,
+    "cleanCleared": 2728,
+    "cleanReview": 511,
+    "cleanBlocked": 61
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 80,
+    "damagedBlocked": 370,
+    "cleanCleared": 1863,
+    "cleanReview": 296,
+    "cleanBlocked": 31
+   }
+  },
+  {
+   "name": "4b@512 -> 4b@1600, mark veto",
+   "n": 223,
+   "auc": 0.9841512469831054,
+   "aucGear": 0.9917808219178083,
+   "cost": 1165.9695067264574,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 60,
+    "damagedReview": 170,
+    "damagedBlocked": 3160,
+    "cleanCleared": 2395,
+    "cleanReview": 860,
+    "cleanBlocked": 45
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 80,
+    "damagedBlocked": 370,
+    "cleanCleared": 1555,
+    "cleanReview": 622,
+    "cleanBlocked": 13
+   }
+  },
+  {
+   "name": "max(broken, road, mark)@512",
+   "n": 223,
+   "auc": 0.9781174577634755,
+   "aucGear": 0.982648401826484,
+   "cost": 804,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 60,
+    "damagedReview": 1076,
+    "damagedBlocked": 2254,
+    "cleanCleared": 2552,
+    "cleanReview": 709,
+    "cleanBlocked": 39
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 255,
+    "damagedBlocked": 195,
+    "cleanCleared": 1712,
+    "cleanReview": 448,
+    "cleanBlocked": 30
+   }
+  },
+  {
+   "name": "4b@512 + 4b@768",
+   "n": 223,
+   "auc": 0.9857602574416734,
+   "aucGear": 0.9945205479452055,
+   "cost": 1423,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 349,
+    "damagedBlocked": 2921,
+    "cleanCleared": 2555,
+    "cleanReview": 690,
+    "cleanBlocked": 55
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 109,
+    "damagedBlocked": 341,
+    "cleanCleared": 1665,
+    "cleanReview": 500,
+    "cleanBlocked": 25
+   }
+  },
+  {
+   "name": "4b@768 + 4b@1024",
+   "n": 223,
+   "auc": 0.9851971037811745,
+   "aucGear": 0.9926940639269406,
+   "cost": 2198,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 90,
+    "damagedReview": 275,
+    "damagedBlocked": 3025,
+    "cleanCleared": 2290,
+    "cleanReview": 967,
+    "cleanBlocked": 43
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 125,
+    "damagedBlocked": 325,
+    "cleanCleared": 1430,
+    "cleanReview": 747,
+    "cleanBlocked": 13
+   }
+  },
+  {
+   "name": "4b@512 + 4b@1024",
+   "n": 223,
+   "auc": 0.983668543845535,
+   "aucGear": 0.9945205479452055,
+   "cost": 1891,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 90,
+    "damagedReview": 321,
+    "damagedBlocked": 2979,
+    "cleanCleared": 2374,
+    "cleanReview": 896,
+    "cleanBlocked": 30
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 81,
+    "damagedBlocked": 369,
+    "cleanCleared": 1514,
+    "cleanReview": 676,
+    "cleanBlocked": 0
+   }
+  },
+  {
+   "name": "2b@1600 + 0.8b@1600",
+   "n": 223,
+   "auc": 0.9886564762670957,
+   "aucGear": 0.993607305936073,
+   "cost": 1730,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 93,
+    "damagedReview": 423,
+    "damagedBlocked": 2874,
+    "cleanCleared": 2895,
+    "cleanReview": 345,
+    "cleanBlocked": 60
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 3,
+    "damagedReview": 99,
+    "damagedBlocked": 348,
+    "cleanCleared": 1965,
+    "cleanReview": 195,
+    "cleanBlocked": 30
+   }
+  },
+  {
+   "name": "2b@1600 + 4b@1600",
+   "n": 223,
+   "auc": 0.9900241351568785,
+   "aucGear": 0.9954337899543378,
+   "cost": 3071,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 175,
+    "damagedReview": 232,
+    "damagedBlocked": 2983,
+    "cleanCleared": 2834,
+    "cleanReview": 403,
+    "cleanBlocked": 63
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 107,
+    "damagedBlocked": 343,
+    "cleanCleared": 1874,
+    "cleanReview": 284,
+    "cleanBlocked": 32
+   }
+  },
+  {
+   "name": "2b@1600 + 4b@768",
+   "n": 223,
+   "auc": 0.9924376508447305,
+   "aucGear": 0.9972602739726028,
+   "cost": 1938,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 175,
+    "damagedReview": 230,
+    "damagedBlocked": 2985,
+    "cleanCleared": 2870,
+    "cleanReview": 373,
+    "cleanBlocked": 57
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 105,
+    "damagedBlocked": 345,
+    "cleanCleared": 1910,
+    "cleanReview": 264,
+    "cleanBlocked": 16
+   }
+  },
+  {
+   "name": "4b@512 -> 4b@1024",
+   "n": 223,
+   "auc": 0.981456154465004,
+   "aucGear": 0.9917808219178083,
+   "cost": 799.4941704035874,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 200,
+    "damagedBlocked": 3070,
+    "cleanCleared": 2556,
+    "cleanReview": 672,
+    "cleanBlocked": 72
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 80,
+    "damagedBlocked": 370,
+    "cleanCleared": 1666,
+    "cleanReview": 512,
+    "cleanBlocked": 12
+   }
+  },
+  {
+   "name": "4b@384 -> 4b@1024",
+   "n": 223,
+   "auc": 0.981456154465004,
+   "aucGear": 0.9917808219178083,
+   "cost": 1017.1252615844544,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 283,
+    "damagedBlocked": 2987,
+    "cleanCleared": 2115,
+    "cleanReview": 1106,
+    "cleanBlocked": 79
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 103,
+    "damagedBlocked": 347,
+    "cleanCleared": 1250,
+    "cleanReview": 923,
+    "cleanBlocked": 17
+   }
+  },
+  {
+   "name": "4b@512 -> 4b@1600",
+   "n": 223,
+   "auc": 0.9841512469831054,
+   "aucGear": 0.9917808219178083,
+   "cost": 919.9695067264574,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 120,
+    "damagedReview": 110,
+    "damagedBlocked": 3160,
+    "cleanCleared": 2649,
+    "cleanReview": 606,
+    "cleanBlocked": 45
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 80,
+    "damagedBlocked": 370,
+    "cleanCleared": 1749,
+    "cleanReview": 428,
+    "cleanBlocked": 13
+   }
+  },
+  {
+   "name": "0.8b@1600 -> 4b@1600",
+   "n": 223,
+   "auc": 0.9841512469831054,
+   "aucGear": 0.9917808219178083,
+   "cost": 1471.4313901345292,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 210,
+    "damagedReview": 197,
+    "damagedBlocked": 2983,
+    "cleanCleared": 2577,
+    "cleanReview": 637,
+    "cleanBlocked": 86
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 117,
+    "damagedBlocked": 333,
+    "cleanCleared": 1647,
+    "cleanReview": 500,
+    "cleanBlocked": 43
+   }
+  },
+  {
+   "name": "2b@1600 -> 4b@1600",
+   "n": 223,
+   "auc": 0.9841512469831054,
+   "aucGear": 0.9917808219178083,
+   "cost": 1386.5874439461884,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 213,
+    "damagedReview": 87,
+    "damagedBlocked": 3090,
+    "cleanCleared": 2962,
+    "cleanReview": 236,
+    "cleanBlocked": 102
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 3,
+    "damagedReview": 27,
+    "damagedBlocked": 420,
+    "cleanCleared": 1972,
+    "cleanReview": 176,
+    "cleanBlocked": 42
+   }
+  },
+  {
+   "name": "4b@1024 per-question bands",
+   "n": 223,
+   "auc": 0.981456154465004,
+   "aucGear": 0.9917808219178083,
+   "cost": 1333,
+   "all": {
+    "damaged": 3390,
+    "clean": 3300,
+    "damagedCleared": 115,
+    "damagedReview": 284,
+    "damagedBlocked": 2991,
+    "cleanCleared": 2270,
+    "cleanReview": 979,
+    "cleanBlocked": 51
+   },
+   "gear": {
+    "damaged": 450,
+    "clean": 2190,
+    "damagedCleared": 0,
+    "damagedReview": 129,
+    "damagedBlocked": 321,
+    "cleanCleared": 1433,
+    "cleanReview": 718,
+    "cleanBlocked": 39
+   }
+  }
+ ],
+ "text": [
+  "photographs: 223 (the set every source covers); grouped 5-fold x 30; keep 0.98, wrongBlock 0.01",
+  "candidate                               cost ms  AUC    gear   | damaged: clear  review block | clean: clear review block | gear clean: clear review | gear damaged cleared",
+  "4b@1600                                    1998  0.984  0.992  |            3.5   7.0  89.5 |         75.1  23.5   1.4 |              73.5  25.9 |    0.0",
+  "4b@1024                                    1333  0.981  0.992  |            2.7   8.8  88.5 |         60.9  38.2   0.9 |              53.7  46.3 |    0.0",
+  "4b@768                                      865  0.987  0.995  |            4.4   9.4  86.2 |         77.7  21.0   1.3 |              76.3  23.2 |    0.0",
+  "4b@512                                      558  0.979  0.993  |            3.5  13.9  82.6 |         76.2  22.5   1.3 |              75.4  24.1 |    0.0",
+  "4b@384                                      464  0.959  0.994  |            3.5  39.5  56.9 |         55.0  43.5   1.5 |              44.5  54.7 |    0.0",
+  "2b@1600                                    1073  0.987  0.986  |            2.7  14.5  82.8 |         80.9  16.9   2.1 |              89.1   9.5 |    0.7",
+  "0.8b@1600                                   657  0.953  0.981  |            2.7  32.2  65.1 |         49.2  49.5   1.3 |              44.0  54.7 |    0.0",
+  "gemma4@1600                                 445  0.851  0.842  |            0.0  49.6  50.4 |          0.0 100.0   0.0 |               0.0 100.0 |    0.0",
+  "mark@512 (one contrastive question)         246  0.978  0.980  |            1.8  34.9  63.4 |         77.7  21.1   1.2 |              78.8  19.9 |    0.0",
+  "max(broken, mark)@512                       537  0.978  0.983  |            1.8  31.7  66.5 |         77.7  21.1   1.2 |              78.8  19.9 |    0.0",
+  "mark@512 -> 4b@1600                         807  0.984  0.992  |            4.4   4.9  90.7 |         84.9  13.2   1.9 |              86.8  11.7 |    0.0",
+  "mark@512 -> 4b@512                          403  0.979  0.993  |            3.5  13.9  82.6 |         82.7  15.5   1.8 |              85.1  13.5 |    0.0",
+  "4b@512 -> 4b@1600, mark veto               1166  0.984  0.992  |            1.8   5.0  93.2 |         72.6  26.1   1.4 |              71.0  28.4 |    0.0",
+  "max(broken, road, mark)@512                 804  0.978  0.983  |            1.8  31.7  66.5 |         77.3  21.5   1.2 |              78.2  20.5 |    0.0",
+  "4b@512 + 4b@768                            1423  0.986  0.995  |            3.5  10.3  86.2 |         77.4  20.9   1.7 |              76.0  22.8 |    0.0",
+  "4b@768 + 4b@1024                           2198  0.985  0.993  |            2.7   8.1  89.2 |         69.4  29.3   1.3 |              65.3  34.1 |    0.0",
+  "4b@512 + 4b@1024                           1891  0.984  0.995  |            2.7   9.5  87.9 |         71.9  27.2   0.9 |              69.1  30.9 |    0.0",
+  "2b@1600 + 0.8b@1600                        1730  0.989  0.994  |            2.7  12.5  84.8 |         87.7  10.5   1.8 |              89.7   8.9 |    0.7",
+  "2b@1600 + 4b@1600                          3071  0.990  0.995  |            5.2   6.8  88.0 |         85.9  12.2   1.9 |              85.6  13.0 |    0.0",
+  "2b@1600 + 4b@768                           1938  0.992  0.997  |            5.2   6.8  88.1 |         87.0  11.3   1.7 |              87.2  12.1 |    0.0",
+  "4b@512 -> 4b@1024                           799  0.981  0.992  |            3.5   5.9  90.6 |         77.5  20.4   2.2 |              76.1  23.4 |    0.0",
+  "4b@384 -> 4b@1024                          1017  0.981  0.992  |            3.5   8.3  88.1 |         64.1  33.5   2.4 |              57.1  42.1 |    0.0",
+  "4b@512 -> 4b@1600                           920  0.984  0.992  |            3.5   3.2  93.2 |         80.3  18.4   1.4 |              79.9  19.5 |    0.0",
+  "0.8b@1600 -> 4b@1600                       1471  0.984  0.992  |            6.2   5.8  88.0 |         78.1  19.3   2.6 |              75.2  22.8 |    0.0",
+  "2b@1600 -> 4b@1600                         1387  0.984  0.992  |            6.3   2.6  91.2 |         89.8   7.2   3.1 |              90.0   8.0 |    0.7",
+  "4b@1024 per-question bands                 1333  0.981  0.992  |            3.4   8.4  88.2 |         68.8  29.7   1.5 |              65.4  32.8 |    0.0"
+ ]
+}

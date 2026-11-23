@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-26T23:08:02.391Z",
+  "health": {
+    "status": "ok",
+    "schemaVersion": "1.0",
+    "policyVersion": "2026-10-26.2",
+    "provider": "local_vlm",
+    "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1+evidence-claims-4+focused-tear-context-1",
+    "externalProvider": false,
+    "processing": "ephemeral",
+    "coverage": "visual_observations",
+    "maxImages": 6
+  },
+  "cases": 2,
+  "scope": "Actual full HTTP inference, one first request per image, no retries. Original control is reconstructed by replaying exactly matching recorded model request/response pairs through the frozen original adapter. Optional focus requests are unused by the control. This isolates the change without doubling inference or pretending historical model outputs are current.",
+  "sources": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "sha256": "b65b90b6296551ffc6ee000ff4018cead689ee4db47e9be69cd3471ea75d77ae"
+    },
+    {
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "99932fef8b89650c34f01b3dea58a0bd8ad0c28b7106a15b958a01ca49b4d769"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "7a007f38e4e1cea86e422b0385a138e267003f8ad5832067f2bc9b2fb5034ff5"
+    },
+    {
+      "path": "datasets/quality-audit-01/labels.json",
+      "sha256": "e7bcabdc1e5dc57aebfb1e00ecfe4a8be181fea3e87bbcb2b4e535e038b7004e"
+    },
+    {
+      "path": "scripts/quality-cycle-02-http-audit.ts",
+      "sha256": "2346b5a0d02e40f992ab8cbb66dc2564834ecaea2eccfd053f2d9045adba0de3"
+    }
+  ]
+}

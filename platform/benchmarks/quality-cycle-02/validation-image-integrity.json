@@ -1,0 +1,463 @@
+{
+  "at": "2026-10-26T23:41:12.382Z",
+  "images": 64,
+  "uniqueEncodedImages": 64,
+  "previouslyEvaluatedSources": [
+    "fresh-commons-003",
+    "fresh-commons-004",
+    "fresh-commons-005",
+    "fresh-commons-006",
+    "fresh-commons-008"
+  ],
+  "labelsRetained": true,
+  "hashes": [
+    {
+      "id": "fresh-commons-001",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-001.jpg",
+      "sha256": "1f0f02949b6e1de52c71fb85a70a806e104396abc2d9597368a709b1fac5cd54",
+      "source": "https://commons.wikimedia.org/wiki/File:Dainese_racing_gloves.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "fresh-commons-002",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-002.jpg",
+      "sha256": "6c2a60b8baef987f816b328a0fab161f49d71fa75f3e755984f2bc907fdd68a2",
+      "source": "https://commons.wikimedia.org/wiki/File:Dainese_racing_glove_palms.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "fresh-commons-003",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-003.jpg",
+      "sha256": "c40e604d73fb049eff2e6cb1fd9633e0b1107bc7898b9495dd414b8bd3d26b7b",
+      "source": "https://commons.wikimedia.org/wiki/File:Hyod_racing_gloves_(26301938210).jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "id": "fresh-commons-004",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-004.jpg",
+      "sha256": "0cd3c9b213f60087b17698c6aff84860e87bfab012b0eb69dca368581d8609c0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hyod_racing_gloves_(26574882235).jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "id": "fresh-commons-005",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-005.jpg",
+      "sha256": "02ca843ca48509b75c7367aa2fa09a99a065e4ecf1b7212f0be01eef15a4e126",
+      "source": "https://commons.wikimedia.org/wiki/File:AXO_touring_boots.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "fresh-commons-006",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-006.jpg",
+      "sha256": "c791f1f72ebcc89d8c5a8d3d40a9f0ca9651fa451ec3c4201b8c576f5b6e7b98",
+      "source": "https://commons.wikimedia.org/wiki/File:MotorcycleRacingBootShin.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "fresh-commons-007",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-007.jpg",
+      "sha256": "73be84d36fe44dba0f77c079b634606260925fdd34ff3588fd20e8dd7a5f6243",
+      "source": "https://commons.wikimedia.org/wiki/File:Motorcycle_racing_boot.jpeg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "fresh-commons-008",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-008.jpg",
+      "sha256": "0b6ee2bd2d92e81073ca00ba68dae8665788a603f159705973121a9f1103f5a9",
+      "source": "https://commons.wikimedia.org/wiki/File:Alpinestars_S-MX_Motorcycle_boots.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "fresh-commons-010",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-010.jpg",
+      "sha256": "f6828e17a538eb5ad5f56306a931aaca59ff2723241bb9cd3c7f1f667c208905",
+      "source": "https://commons.wikimedia.org/wiki/File:MotoEqipments_HelmetBootsJacketAndGloves.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "fresh-commons-011",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-011.jpg",
+      "sha256": "2d1a725fcb7be9d09171332e6782f64305b515c14b44f53b055816b58e8179f2",
+      "source": "https://commons.wikimedia.org/wiki/File:Umar_Khan_posing_in_motorcycle_clothing.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "fresh-commons-015",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-015.jpg",
+      "sha256": "a52cfec8d22d3f48f7f4b5c6acc867a2151d2c4181c336f049cfa4b4c8680bdb",
+      "source": "https://commons.wikimedia.org/wiki/File:Man_wearing_jeans_and_black_leather_jacket_poses_in_front_of_a_fence.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "fresh-commons-016",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-016.jpg",
+      "sha256": "eaeafefd56aaa91484b7bcfdcb86735d33ab8b4100482c99ebbd300a8863aee8",
+      "source": "https://commons.wikimedia.org/wiki/File:Mustapha_Chichaoui_leather_brown_jacket.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "fresh-commons-018",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-018.jpg",
+      "sha256": "3c7cf01a4ab1eb544efc05cde93a68c6800db39762352a3a9221458a867c38af",
+      "source": "https://commons.wikimedia.org/wiki/File:In_ripped_jeans_eating_popcorn_(Unsplash).jpg",
+      "license": "CC0"
+    },
+    {
+      "id": "fresh-commons-019",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-019.jpg",
+      "sha256": "ec778c36e8617bada521d0bcdc09122498d3cb5823e6f50f110c5debb177eb58",
+      "source": "https://commons.wikimedia.org/wiki/File:Fat_Sunday_2024_on_Bourbon_Street,_New_Orleans_2024-02-11_-_Ripped_jeans_mask_flash.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "id": "fresh-commons-020",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-020.jpg",
+      "sha256": "e72d83d5913328896ab6e87204a019a9ad978ad4fd317baf1392652a877b23f1",
+      "source": "https://commons.wikimedia.org/wiki/File:Carteira-zipper-louis-vuitton-6_(24821129472).jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "fresh-commons-021",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-021.jpg",
+      "sha256": "a3c55fa1efaec187d253cfa8474084144ee43195a6e095d38559839ce6c6884f",
+      "source": "https://commons.wikimedia.org/wiki/File:Carteira-zipper-louis-vuitton-5_(24821130512).jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "fresh-commons-022",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-022.jpg",
+      "sha256": "66e2c9b8746fd5e6ca0e78869c96bfccefd08dc9125c33c8fc8f96132c200824",
+      "source": "https://commons.wikimedia.org/wiki/File:Bodysuit_with_a_front_zipper_and_crotch_snaps_-_made_of_tightly_ribbed_fabric.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "fresh-commons-023",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-023.jpg",
+      "sha256": "a50a4b0dd18269363c521ff5c349fcdf7c4167f4d91f73685c49a76ecaf1502b",
+      "source": "https://commons.wikimedia.org/wiki/File:Bodysuit_with_a_front_zipper_and_crotch_snaps_-_made_of_tightly_ribbed_fabric_-_Pose_with_thumbs_in_the_belt_loops_to_emphasise_the_tucked-in_look.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "fresh-commons-024",
+      "path": "datasets/quality-cycle-02/images/fresh-commons-024.jpg",
+      "sha256": "686954f4547fa9b54b63479cc625cbeb567ead601a232d9757b6813695b552ab",
+      "source": "https://commons.wikimedia.org/wiki/File:Leather_jacket_with_quilted_details_-_worn_with_low_rise_denim_shorts_and_a_bodysuit_over_sheer_to_waist_tights_-_ModelTanja.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "fresh-fabric-001",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-001.jpg",
+      "sha256": "cfc33527b6c17b791506447d93db93dd9fa72636d775bd6e2e2fcd9ca22b19ac",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-002",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-002.jpg",
+      "sha256": "37e3c5207a3df45cc151aca0543cdca0078bc29f163f56ba06586c165e63c5b7",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-003",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-003.jpg",
+      "sha256": "0cecc6ac0110542ba7464549e1394ae4a17666ffd9222af64aed47d861998553",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-004",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-004.jpg",
+      "sha256": "cdb8ffacb837f0b36b6a3d4b8cd84e6f07d73a8e518ed47841758f608013c515",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-005",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-005.jpg",
+      "sha256": "ef3171c2f72c08c285d3cd9417f69d6c7fe684c502ddf9ae16367296ae869766",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-006",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-006.jpg",
+      "sha256": "624e3cd513ca65d6ac6c49369312b1155d633065d23041e842d85583854ab0ce",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-007",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-007.jpg",
+      "sha256": "d5756e053de9f185099602541ac1ead9387a850ca708d8a94925a05815be3121",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-008",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-008.jpg",
+      "sha256": "9a95dba9cd7690a276b0ce7c86161c8fc813306306a4a05f2a2c22ee35570a24",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-009",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-009.jpg",
+      "sha256": "a0623cad4b2ba00fd895384b64864e6ee6cf1d9eeda5a08a04daa9a7476eb5b1",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-010",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-010.jpg",
+      "sha256": "d9cb10dc1a5f59b4fba5f3123c0a7d9ea5ebf830095b99d55d1cbbc48061af76",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-011",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-011.jpg",
+      "sha256": "a0ca3060f993e4959e905ed2af767ec3b188ce5ffae0f8a0cabae5e61a7aa3db",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-012",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-012.jpg",
+      "sha256": "06f7c61bc2f92d296e9798d825b3111e06475aa54fab60ad55dcb5863a36aaa4",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-013",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-013.jpg",
+      "sha256": "a9e30a55da201627642d130d3c4f0cfb1fb081f5f9e180fc9a0a77756092d262",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-014",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-014.jpg",
+      "sha256": "5c8157679e247bc307dca3676e8c0e20a03973db7594b65b1a457c6bad95c53e",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-015",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-015.jpg",
+      "sha256": "910049edeafd43e5996bf86ff500d79ef59faf8714830dd0fa4e061e874a1b8e",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-016",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-016.jpg",
+      "sha256": "fe3f04242dc03807c22b83691ced03ca578d9c19b51c187459c690373074cc5f",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-017",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-017.jpg",
+      "sha256": "ddccc99ae46b2d72198601ba58b49b929e07927252cbf3694bee30df539c270b",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-018",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-018.jpg",
+      "sha256": "94d6336a3c6361850e06e433a2772b6e044c6d74d4c83f266c1c05f68bad8d5a",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-019",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-019.jpg",
+      "sha256": "1c0ea66e9c25bf8d52407ea950f07bfc3326d22b413ae0343a7f9cf2427fecb7",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-020",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-020.jpg",
+      "sha256": "6ccd92507d07afb162d84f05f91e22604764ace65ec9366d115bdd024c2f52e7",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-021",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-021.jpg",
+      "sha256": "502109ea8dc208b03626d9f340f05c2ad2d644d40a1ed70fc2ec0662fd1b58b0",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-022",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-022.jpg",
+      "sha256": "f2f670be87edde1d75ddbf69bc0a2d8f58c86d34723e3813f99567ae9989001b",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-023",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-023.jpg",
+      "sha256": "951f6c7d84242628d4f8d17ab62c91a5c16eaa3569a3f544cb88ed8d4d71cb71",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-024",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-024.jpg",
+      "sha256": "51c655f2a4fe793150dd40770ad311d29ab0f4955c255aa9ded3ab5622ae5ec3",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-025",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-025.jpg",
+      "sha256": "b37596fed121a29eeb993c6441e07c0b5b9d09f84652d223f320e545eedd40cf",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-026",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-026.jpg",
+      "sha256": "c6ae28f25bbfeab6a3f5cc22ba2f441166d1c87dee73263551ea7b13de2ba928",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-027",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-027.jpg",
+      "sha256": "40b9098bd50c5d25c3010ed2456bb529efa125063a43698bfc61843e3efe05d4",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-028",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-028.jpg",
+      "sha256": "cb5e7d4fd3a507fb05df75b69667de2329d7cc141757cf9b5cf42b4eef738a2a",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-029",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-029.jpg",
+      "sha256": "cd43e9fe5a00ee0468c0b605014fb4a393786ba611dc217c0706d22a9f56d4ec",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-030",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-030.jpg",
+      "sha256": "5f0a4404c1dbcd183d28346ec56f549eba0013723c9b75ced534aab8176af0cd",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-031",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-031.jpg",
+      "sha256": "7f85d4e973cdba5eb1a91f9dfdc4fb2df945bd0ffdc3a1f6d38e1a45d68a0587",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-032",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-032.jpg",
+      "sha256": "999e62fa9281b2fca0aa12e7c03f3e908c01a77f74596c656ea8b864ace9fc9f",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-033",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-033.jpg",
+      "sha256": "6efcab15822cde5944d03839ff4081dce982c8cc82fbe31ba2ee06f06b77af2d",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-034",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-034.jpg",
+      "sha256": "b08229eda9195bef6bf2706801e022a31eaae2e4a862616e313532144e857ac0",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-035",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-035.jpg",
+      "sha256": "26d37295b482555f335fe0f119c8a5aecab903118f98118b1278838043275817",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-036",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-036.jpg",
+      "sha256": "93c7ee9433a5f4bb748c7cb91ed847da5921e7326ce209ba7332c166a8595d3b",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-037",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-037.jpg",
+      "sha256": "917f2a381aa0e02fd42a9180553fe33eebd18570f73d31a79a6a17981c9408db",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-038",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-038.jpg",
+      "sha256": "e91de57b319d061c0e9b5f2f80eec25e1e2bf89fd223f328f481877e777366c4",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-039",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-039.jpg",
+      "sha256": "2c0cb1c169469d32ee185c6f9a99e1172d57b78fdb9ad3529873b0b0438ea741",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "fresh-fabric-040",
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-040.jpg",
+      "sha256": "a200c3690aa4628fb79ae35a0bd3209ca14c475cd5769533574ab0eed792c632",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "final-fabric-001",
+      "path": "datasets/quality-cycle-02/images/final-fabric-001.jpg",
+      "sha256": "4c80852fe2bbd566dd4f5b6985f673e50f1a6e65e4c4052fb41951bac1bbf08a",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "final-fabric-002",
+      "path": "datasets/quality-cycle-02/images/final-fabric-002.jpg",
+      "sha256": "5fdc1fe199878ca408f76dc9828decc7bdbdf31f6fd65b70b80aa78f9676a15d",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "final-fabric-003",
+      "path": "datasets/quality-cycle-02/images/final-fabric-003.jpg",
+      "sha256": "9cf22384cf2bf7536d8719e03df2336c581e8c08ff0aef535d21bbd55d82b14c",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "final-fabric-004",
+      "path": "datasets/quality-cycle-02/images/final-fabric-004.jpg",
+      "sha256": "5eb2c0f938c26ee0eea748cc349a7df9c3814a3886952d81352b36f68a9afbd0",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "final-fabric-005",
+      "path": "datasets/quality-cycle-02/images/final-fabric-005.jpg",
+      "sha256": "98774621349e95844983ff5f00bf615cd924c217c108bc45dbe05d63298464ba",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

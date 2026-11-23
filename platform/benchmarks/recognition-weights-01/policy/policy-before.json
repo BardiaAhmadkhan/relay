@@ -1,0 +1,4930 @@
+{
+  "version": "2026-11-16.1",
+  "normal": {
+    "outcome": "offer",
+    "grade": "B",
+    "category": "jacket",
+    "reasons": [
+      "history_clear",
+      "photos_clear",
+      "grade"
+    ],
+    "request": null
+  },
+  "fixtures": [
+    {
+      "view": "front",
+      "key": "usable",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "usable",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "broken",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "broken",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "road_contact",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "road_contact",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "repair",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "repair",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "gear",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "gear",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "single_item",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "single_item",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "category",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "category",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "wear",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "front",
+      "key": "wear",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "usable",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "usable",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "broken",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "broken",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "road_contact",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "road_contact",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "repair",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "repair",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "gear",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "gear",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "single_item",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "single_item",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "category",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "category",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "wear",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "back",
+      "key": "wear",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "label",
+      "key": "label_legible",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "label",
+      "key": "label_legible",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "usable",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "usable",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "broken",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "broken",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "road_contact",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "road_contact",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "repair",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "repair",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "wear",
+      "mode": "missing",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    },
+    {
+      "view": "detail",
+      "key": "wear",
+      "mode": "unusable_type",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null
+    }
+  ],
+  "replay": [
+    {
+      "id": "cm-002",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-003",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-004",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-007",
+      "outcome": "review",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "category_unclear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-008",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-012",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-013",
+      "outcome": "retake",
+      "grade": null,
+      "category": "armour",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-014",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-016",
+      "outcome": "review",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "not_recognised_as_gear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-021",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-022",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-023",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-024",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-025",
+      "outcome": "review",
+      "grade": null,
+      "category": "armour",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-026",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-027",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-029",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-030",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-031",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "suit",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-033",
+      "outcome": "review",
+      "grade": null,
+      "category": "armour",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-034",
+      "outcome": "retake",
+      "grade": null,
+      "category": "armour",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-038",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-039",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-040",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-041",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-042",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-044",
+      "outcome": "offer",
+      "grade": "A",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-046",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-047",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-048",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-049",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-050",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-051",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-053",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-054",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-055",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-056",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-057",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-058",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-059",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "visible_broken_protective_area"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-060",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-061",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-063",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-064",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-066",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-069",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "visible_broken_protective_area"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-070",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-072",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-073",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-075",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-077",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-078",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-080",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-082",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-084",
+      "outcome": "review",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "category_unclear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-088",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-089",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-090",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "possible_broken"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-091",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "visible_broken_protective_area"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-096",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-097",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-099",
+      "outcome": "retake",
+      "grade": null,
+      "category": "armour",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-101",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-105",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-106",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-107",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "boots",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-108",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-109",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-110",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-111",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-112",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-114",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-115",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-117",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-118",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-119",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-120",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-121",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-122",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-124",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-125",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-126",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-129",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-130",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-134",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-135",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-136",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-142",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-144",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-145",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-146",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-147",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-150",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-151",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-152",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-155",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-158",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-159",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-160",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-161",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-162",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-163",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-171",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-176",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-178",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-182",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-183",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-184",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-186",
+      "outcome": "review",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-187",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-193",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-194",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-195",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-196",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-197",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-198",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-201",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-202",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-205",
+      "outcome": "retake",
+      "grade": null,
+      "category": "other",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-207",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-208",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-210",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-211",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-212",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-214",
+      "outcome": "offer",
+      "grade": "C",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-215",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-219",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-220",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-227",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-232",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-233",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-236",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": false
+    },
+    {
+      "id": "cm-238",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-243",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-244",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-245",
+      "outcome": "review",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "not_recognised_as_gear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-246",
+      "outcome": "review",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "not_recognised_as_gear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-247",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-248",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-255",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-257",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-258",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-260",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-263",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-264",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "possible_broken"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-272",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-273",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-281",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-282",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-283",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-284",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-285",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-286",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-287",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-289",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-290",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-293",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-294",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-295",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "suit",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-296",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-297",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-298",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-299",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-300",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-301",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-302",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-303",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-304",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-305",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-306",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-307",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-308",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-309",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-310",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-311",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-314",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-316",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-317",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-318",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-319",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-320",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact",
+        "possible_repair"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-323",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-324",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-325",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-327",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-328",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-329",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-330",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-333",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-337",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-338",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-339",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-340",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-341",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-342",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-343",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-344",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-345",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-346",
+      "outcome": "review",
+      "grade": null,
+      "category": "armour",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-347",
+      "outcome": "offer",
+      "grade": "A",
+      "category": "suit",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-348",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-349",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-350",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-351",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-352",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "suit",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-353",
+      "outcome": "offer",
+      "grade": "A",
+      "category": "suit",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-354",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-356",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-357",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-358",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-359",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-360",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-361",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-362",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-363",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-364",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-365",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-366",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-371",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-372",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-373",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-374",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-375",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-376",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-377",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-379",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-381",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-383",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-384",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-385",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-386",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-387",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-388",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-389",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-391",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-392",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-395",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-396",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-402",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-403",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-405",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-406",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-407",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-408",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-409",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-410",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-411",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-412",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-413",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-414",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-416",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-417",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-418",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-421",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-423",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-425",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-427",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-431",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-433",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-434",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-435",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-438",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-440",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-442",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-444",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-447",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-449",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-450",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-451",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-452",
+      "outcome": "review",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-458",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-462",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-464",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-467",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-468",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-469",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-500",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-501",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-503",
+      "outcome": "retake",
+      "grade": null,
+      "category": "trousers",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-507",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-508",
+      "outcome": "review",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "category_unclear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-509",
+      "outcome": "review",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact",
+        "possible_repair"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-513",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "boots",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-514",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-515",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-521",
+      "outcome": "retake",
+      "grade": null,
+      "category": "trousers",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-525",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-526",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-527",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-528",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-529",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-530",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-531",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-532",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "cm-535",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "photo_unusable"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-004",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-007",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-008",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-011",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "visible_broken_protective_area"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-013",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-015",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-016",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-017",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-018",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-019",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-020",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-021",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-022",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-023",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-024",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-025",
+      "outcome": "review",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "category_review_only"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-026",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "visible_broken_protective_area",
+        "visible_repair_protective_area"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-027",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "photo_out_of_focus"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-028",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "photo_out_of_focus"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-029",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-030",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-031",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-032",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-033",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-034",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-035",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-036",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-038",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-039",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-040",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-043",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-047",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-048",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-049",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-050",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-051",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-054",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-056",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-062",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-063",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-064",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-072",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-073",
+      "outcome": "retake",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-078",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "suit",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-079",
+      "outcome": "retake",
+      "grade": null,
+      "category": "helmet",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-080",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-081",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "gloves",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-083",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-084",
+      "outcome": "review",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-089",
+      "outcome": "review",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "possible_road_contact",
+        "possible_repair"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-091",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-093",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "visible_broken_protective_area"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-094",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-095",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-097",
+      "outcome": "review",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "category_unclear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-100",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-103",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-108",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-110",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-112",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "back",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-113",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-114",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-119",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-121",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-129",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-137",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-138",
+      "outcome": "retake",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ox-140",
+      "outcome": "offer",
+      "grade": "A",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-002",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-003",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "trousers",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-014",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-006",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "trousers",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-007",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "trousers",
+      "reasons": [
+        "visible_road_contact"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-008",
+      "outcome": "no_offer",
+      "grade": null,
+      "category": "unknown",
+      "reasons": [
+        "visible_broken_protective_area"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-005",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-052",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-001",
+      "outcome": "review",
+      "grade": null,
+      "category": "other",
+      "reasons": [
+        "category_unclear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-038",
+      "outcome": "offer",
+      "grade": "A",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-039",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-041",
+      "outcome": "offer",
+      "grade": "B",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-043",
+      "outcome": "retake",
+      "grade": null,
+      "category": "jacket",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-045",
+      "outcome": "offer",
+      "grade": "A",
+      "category": "jacket",
+      "reasons": [
+        "history_clear",
+        "photos_clear",
+        "grade"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-048",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "possible_broken",
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-051",
+      "outcome": "retake",
+      "grade": null,
+      "category": "gloves",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-060",
+      "outcome": "review",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "not_recognised_as_gear"
+      ],
+      "request": null,
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-061",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-063",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-065",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-066",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "multiple_items"
+      ],
+      "request": "front",
+      "historicalMatch": true
+    },
+    {
+      "id": "ov-068",
+      "outcome": "retake",
+      "grade": null,
+      "category": "boots",
+      "reasons": [
+        "possible_road_contact"
+      ],
+      "request": "detail",
+      "historicalMatch": true
+    }
+  ]
+}

@@ -1,0 +1,4809 @@
+{
+  "schemaVersion": "1.0",
+  "protocolSha256": "7d0d03b8ebb895a1af1b69394f5161422c31aa9ac6f37a5e5e3f1817f0172347",
+  "generatedAt": "2026-10-26T16:21:32.993Z",
+  "rawRuns": [
+    {
+      "phase": "development",
+      "file": "benchmarks/round-02/quality/measurements.development.2026-10-26T16-16-15-579Z.jsonl",
+      "sha256": "b1566c8cfbcc2c5ad5dcbb18e938418bfc453a92545cc709cf8e41929598266d",
+      "rows": 72,
+      "groups": 3
+    },
+    {
+      "phase": "evaluation",
+      "file": "benchmarks/round-02/quality/measurements.evaluation.2026-10-26T16-16-30-239Z.jsonl",
+      "sha256": "a19f2be1365640f927b2c9d2e7617d527b1f43a269d574dcd0eb8ef71ca4f8e3",
+      "rows": 120,
+      "groups": 4
+    }
+  ],
+  "counts": {
+    "images": 8,
+    "independentItemGroups": 7,
+    "transformsPerImage": 24,
+    "variants": 192,
+    "pipelineMeasurements": 576,
+    "developmentImages": 3,
+    "developmentGroups": 3,
+    "evaluationImages": 5,
+    "evaluationGroups": 4
+  },
+  "productionBaselineAgreement": [
+    {
+      "fixtureId": "leather-jacket",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 774,
+        "height": 960,
+        "brightness": 108.60371471185132,
+        "sharpness": 1532.019611059935,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 774,
+        "height": 960,
+        "brightness": 108.60371471185132,
+        "sharpness": 1532.019611059935,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "armour-jacket",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 559,
+        "height": 960,
+        "brightness": 99.1293345533113,
+        "sharpness": 983.0654504087526,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 559,
+        "height": 960,
+        "brightness": 99.1293345533113,
+        "sharpness": 983.0654504087526,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "mixed-gear",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 640,
+        "brightness": 89.0945981608067,
+        "sharpness": 1354.429812663514,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 640,
+        "brightness": 89.0945981608067,
+        "sharpness": 1354.429812663514,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "gloves-back",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 640,
+        "brightness": 132.05239758301096,
+        "sharpness": 1525.1922698509954,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 640,
+        "brightness": 132.05239758301096,
+        "sharpness": 1525.1922698509954,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "gloves-palm",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 640,
+        "brightness": 165.77956846516912,
+        "sharpness": 1759.737429246647,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 640,
+        "brightness": 165.77956846516912,
+        "sharpness": 1759.737429246647,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "racing-boot",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 720,
+        "brightness": 65.817140357349,
+        "sharpness": 1462.2881352138222,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 720,
+        "brightness": 65.817140357349,
+        "sharpness": 1462.2881352138222,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "crashed-shoulder",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 725,
+        "height": 960,
+        "brightness": 73.6984775933912,
+        "sharpness": 1286.9453490397343,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 725,
+        "height": 960,
+        "brightness": 73.6984775933912,
+        "sharpness": 1286.9453490397343,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "backpack-label",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 720,
+        "brightness": 87.37966955295076,
+        "sharpness": 1391.0874603140946,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 720,
+        "brightness": 87.37966955295076,
+        "sharpness": 1391.0874603140946,
+        "warnings": []
+      }
+    }
+  ],
+  "thresholds": {
+    "protocolId": "relay-quality-round-02-v1",
+    "protocolSha256": "7d0d03b8ebb895a1af1b69394f5161422c31aa9ac6f37a5e5e3f1817f0172347",
+    "frozenAt": "2026-10-26T16:16:22.883Z",
+    "rule": "For each metric, 0.5 times the minimum server-direct identity score among development images. Existing soft threshold 20 is also reported unchanged. No evaluation image participates.",
+    "developmentRawFile": "benchmarks/round-02/quality/measurements.development.2026-10-26T16-16-15-579Z.jsonl",
+    "developmentRawSha256": "b1566c8cfbcc2c5ad5dcbb18e938418bfc453a92545cc709cf8e41929598266d",
+    "developmentFixtureIds": [
+      "leather-jacket",
+      "armour-jacket",
+      "mixed-gear"
+    ],
+    "thresholds": {
+      "laplacian192": 491.5327252043763,
+      "normalizedLaplacian192": 0.09744632316315577,
+      "tenengrad192": 127.0945820681119,
+      "normalizedTenengrad192": 0.027007322328701212,
+      "multiscaleNormalizedTenengrad": 0.036463167610420774
+    },
+    "identityScores": {
+      "leather-jacket": {
+        "laplacian192": 1532.019611059935,
+        "normalizedLaplacian192": 0.3134467938998093,
+        "tenengrad192": 398.6058071904362,
+        "normalizedTenengrad192": 0.08155359852557388,
+        "multiscaleNormalizedTenengrad": 0.10906568729632107
+      },
+      "armour-jacket": {
+        "laplacian192": 983.0654504087526,
+        "normalizedLaplacian192": 0.19489264632631154,
+        "tenengrad192": 272.4573347415688,
+        "normalizedTenengrad192": 0.054014644657402425,
+        "multiscaleNormalizedTenengrad": 0.07292633522084155
+      },
+      "mixed-gear": {
+        "laplacian192": 1354.429812663514,
+        "normalizedLaplacian192": 0.583674989805276,
+        "tenengrad192": 254.1891641362238,
+        "normalizedTenengrad192": 0.10953971656461214,
+        "multiscaleNormalizedTenengrad": 0.12765742900443547
+      }
+    },
+    "legacySoftThreshold": 20,
+    "interpretation": "Exploratory controlled-transformation thresholds only; not operational bad-photo cutoffs."
+  },
+  "comparisons": [
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 6,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.748228130739897,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 6,
+        "denominator": 6,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.748228130739897,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 5,
+        "denominator": 6,
+        "fraction": 0.8333333333333334
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.006946763174038306,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.8333333333333334
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 6,
+        "fraction": 0.3333333333333333
+      },
+      "syntheticRankSeparationAuc": 0.9444444444444444,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7495873814772009,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.3333333333333333
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 1,
+        "denominator": 6,
+        "fraction": 0.16666666666666666
+      },
+      "syntheticRankSeparationAuc": 0.8888888888888888,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0016612378089166935,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.16666666666666666
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 6,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 0.8888888888888888,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0010622750535032033,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 6,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.751448638092508,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 6,
+        "denominator": 6,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.751448638092508,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 5,
+        "denominator": 6,
+        "fraction": 0.8333333333333334
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.03284586048571847,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.8333333333333334
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 6,
+        "fraction": 0.3333333333333333
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7485016261433035,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.3333333333333333
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 1,
+        "denominator": 6,
+        "fraction": 0.16666666666666666
+      },
+      "syntheticRankSeparationAuc": 0.8888888888888888,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.006434639971134581,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.16666666666666666
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 6,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 0.8888888888888888,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.004686361373714254,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 6,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7475356096213388,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 6,
+        "denominator": 6,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7475356096213388,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 5,
+        "denominator": 6,
+        "fraction": 0.8333333333333334
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.010516519708934524,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.8333333333333334
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 6,
+        "fraction": 0.3333333333333333
+      },
+      "syntheticRankSeparationAuc": 0.9444444444444444,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.749448251292594,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.3333333333333333
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 1,
+        "denominator": 6,
+        "fraction": 0.16666666666666666
+      },
+      "syntheticRankSeparationAuc": 0.8888888888888888,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0028609608311529477,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.16666666666666666
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 3,
+      "groups": 3,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 3,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 6,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 0.8888888888888888,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 9,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 15,
+        "denominator": 15,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0021696426910917666,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 1,
+        "denominator": 10,
+        "fraction": 0.1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.748861598210437,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.125
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 10,
+        "denominator": 10,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.748861598210437,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 10,
+        "denominator": 10,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.003006615836824711,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 6,
+        "denominator": 10,
+        "fraction": 0.6
+      },
+      "syntheticRankSeparationAuc": 0.88,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7498293899262127,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.6875
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 3,
+        "denominator": 10,
+        "fraction": 0.3
+      },
+      "syntheticRankSeparationAuc": 0.9,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0004926984892559272,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.3125
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 10,
+        "fraction": 0.2
+      },
+      "syntheticRankSeparationAuc": 0.8,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.000686152238724147,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.25
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 10,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7584736939229682,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 10,
+        "denominator": 10,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7584736939229682,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 9,
+        "denominator": 10,
+        "fraction": 0.9
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.037367851296926435,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.875
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 5,
+        "denominator": 10,
+        "fraction": 0.5
+      },
+      "syntheticRankSeparationAuc": 0.88,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7494538187445164,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.5625
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 3,
+        "denominator": 10,
+        "fraction": 0.3
+      },
+      "syntheticRankSeparationAuc": 0.9,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.004963206911024032,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.3125
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 10,
+        "fraction": 0.2
+      },
+      "syntheticRankSeparationAuc": 0.8,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.00482105864292548,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.25
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 10,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7480703541286935,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 10,
+        "denominator": 10,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7480703541286935,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 10,
+        "denominator": 10,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.005842766147882816,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 6,
+        "denominator": 10,
+        "fraction": 0.6
+      },
+      "syntheticRankSeparationAuc": 0.88,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7496268532994552,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.6875
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 3,
+        "denominator": 10,
+        "fraction": 0.3
+      },
+      "syntheticRankSeparationAuc": 0.9,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0002632294841318217,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.3125
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 5,
+      "groups": 4,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 5,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 10,
+        "fraction": 0.2
+      },
+      "syntheticRankSeparationAuc": 0.8,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 15,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 25,
+        "denominator": 25,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 20,
+        "denominator": 25,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0008423964916290938,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.25
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 1,
+        "denominator": 16,
+        "fraction": 0.0625
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7484377280127482,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.07142857142857142
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 16,
+        "denominator": 16,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7484377280127482,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 15,
+        "denominator": 16,
+        "fraction": 0.9375
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.005708308969913256,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.9285714285714286
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 8,
+        "denominator": 16,
+        "fraction": 0.5
+      },
+      "syntheticRankSeparationAuc": 0.9296875,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7496314932599265,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.5357142857142857
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 4,
+        "denominator": 16,
+        "fraction": 0.25
+      },
+      "syntheticRankSeparationAuc": 0.90625,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0008750045465377165,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.25
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 16,
+        "fraction": 0.125
+      },
+      "syntheticRankSeparationAuc": 0.828125,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0008742136461136751,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.14285714285714285
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 16,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7564433626397671,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 16,
+        "denominator": 16,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7564433626397671,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 14,
+        "denominator": 16,
+        "fraction": 0.875
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.03506191768117245,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.8571428571428571
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 7,
+        "denominator": 16,
+        "fraction": 0.4375
+      },
+      "syntheticRankSeparationAuc": 0.9375,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7489347952647105,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.4642857142857143
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 4,
+        "denominator": 16,
+        "fraction": 0.25
+      },
+      "syntheticRankSeparationAuc": 0.90625,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.005760600256241255,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.25
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 16,
+        "fraction": 0.125
+      },
+      "syntheticRankSeparationAuc": 0.828125,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.004753710008319867,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.14285714285714285
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "candidate": "legacy_soft20",
+      "metric": "laplacian192",
+      "threshold": 20,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 0,
+        "denominator": 16,
+        "fraction": 0
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7475551198793802,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_laplacian192",
+      "metric": "laplacian192",
+      "threshold": 491.5327252043763,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 16,
+        "denominator": 16,
+        "fraction": 1
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7475551198793802,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 1
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_normalizedLaplacian192",
+      "metric": "normalizedLaplacian192",
+      "threshold": 0.09744632316315577,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 15,
+        "denominator": 16,
+        "fraction": 0.9375
+      },
+      "syntheticRankSeparationAuc": 1,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.008311881510488117,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 4,
+          "denominator": 4,
+          "fraction": 1
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.9285714285714286
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_tenengrad192",
+      "metric": "tenengrad192",
+      "threshold": 127.0945820681119,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 8,
+        "denominator": 16,
+        "fraction": 0.5
+      },
+      "syntheticRankSeparationAuc": 0.9296875,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.7495891910455504,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.5357142857142857
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_normalizedTenengrad192",
+      "metric": "normalizedTenengrad192",
+      "threshold": 0.027007322328701212,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 4,
+        "denominator": 16,
+        "fraction": 0.25
+      },
+      "syntheticRankSeparationAuc": 0.90625,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0006492875870848236,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": 0.5
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 1,
+          "denominator": 4,
+          "fraction": 0.25
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.25
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "candidate": "dev_half_min_multiscaleNormalizedTenengrad",
+      "metric": "multiscaleNormalizedTenengrad",
+      "threshold": 0.036463167610420774,
+      "images": 8,
+      "groups": 7,
+      "identityWarnings": {
+        "numerator": 0,
+        "denominator": 8,
+        "fraction": 0
+      },
+      "heavySyntheticBlurWarnings": {
+        "numerator": 2,
+        "denominator": 16,
+        "fraction": 0.125
+      },
+      "syntheticRankSeparationAuc": 0.828125,
+      "newWarningsOnBenignRotation": {
+        "numerator": 0,
+        "denominator": 24,
+        "fraction": 0
+      },
+      "nonincreasingBlurSteps": {
+        "numerator": 40,
+        "denominator": 40,
+        "fraction": 1
+      },
+      "strictlyDecreasingBlurSteps": {
+        "numerator": 32,
+        "denominator": 40,
+        "fraction": 0.8
+      },
+      "halfGainMedianAbsoluteRelativeDrift": 0.0010807692485418352,
+      "groupHeavyBlurWarnings": [
+        {
+          "group": "lewis-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "herobiker-jacket-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "mixed-gear-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "dainese-gloves-01",
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": 0
+        },
+        {
+          "group": "sidi-boot-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "crashed-panel-01",
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": 0
+        },
+        {
+          "group": "backpack-label-01",
+          "numerator": 2,
+          "denominator": 2,
+          "fraction": 1
+        }
+      ],
+      "groupMacroHeavyBlurRate": 0.14285714285714285
+    }
+  ],
+  "warningParity": [
+    {
+      "split": "development",
+      "total": 72,
+      "anyWarningDisagreements": 1,
+      "blockingWarningDisagreements": 0,
+      "mismatches": [
+        {
+          "fixtureId": "mixed-gear",
+          "group": "mixed-gear-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 10.278965047198245,
+            "sharpness": 18.92433813799198,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 10.65214070638111,
+            "sharpness": 25.624246074058586,
+            "warnings": [
+              "dark"
+            ]
+          }
+        }
+      ],
+      "medianAbsoluteBrightnessDelta": 0.439714734834304,
+      "medianAbsoluteSharpnessDelta": 38.6541851197336,
+      "maximumAbsoluteSharpnessDelta": 270.272236787235,
+      "jpegDecoderWarningDisagreements": 0,
+      "medianJpegDecoderByteDifference": 0.8343774704706102
+    },
+    {
+      "split": "evaluation",
+      "total": 120,
+      "anyWarningDisagreements": 4,
+      "blockingWarningDisagreements": 0,
+      "mismatches": [
+        {
+          "fixtureId": "gloves-back",
+          "group": "dainese-gloves-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 15.797273396808558,
+            "sharpness": 19.41073001692433,
+            "warnings": [
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 16.14036418457246,
+            "sharpness": 26.65132821513127,
+            "warnings": []
+          }
+        },
+        {
+          "fixtureId": "racing-boot",
+          "group": "sidi-boot-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 7.701892643229275,
+            "sharpness": 19.47279237763486,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 7.846174732350314,
+            "sharpness": 26.258030413188305,
+            "warnings": [
+              "dark"
+            ]
+          }
+        },
+        {
+          "fixtureId": "crashed-shoulder",
+          "group": "crashed-panel-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 725,
+            "height": 960,
+            "brightness": 8.06105266523195,
+            "sharpness": 14.752220205728388,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 725,
+            "height": 960,
+            "brightness": 8.742210790232884,
+            "sharpness": 25.62934245894498,
+            "warnings": [
+              "dark"
+            ]
+          }
+        },
+        {
+          "fixtureId": "backpack-label",
+          "group": "backpack-label-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 10.266125708914448,
+            "sharpness": 17.04783111028313,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 10.419547591148252,
+            "sharpness": 26.44296527160019,
+            "warnings": [
+              "dark"
+            ]
+          }
+        }
+      ],
+      "medianAbsoluteBrightnessDelta": 0.4015010698694823,
+      "medianAbsoluteSharpnessDelta": 56.947217459095384,
+      "maximumAbsoluteSharpnessDelta": 512.9672544337393,
+      "jpegDecoderWarningDisagreements": 0,
+      "medianJpegDecoderByteDifference": 0.7317527488425926
+    },
+    {
+      "split": "all",
+      "total": 192,
+      "anyWarningDisagreements": 5,
+      "blockingWarningDisagreements": 0,
+      "mismatches": [
+        {
+          "fixtureId": "mixed-gear",
+          "group": "mixed-gear-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 10.278965047198245,
+            "sharpness": 18.92433813799198,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 10.65214070638111,
+            "sharpness": 25.624246074058586,
+            "warnings": [
+              "dark"
+            ]
+          }
+        },
+        {
+          "fixtureId": "gloves-back",
+          "group": "dainese-gloves-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 15.797273396808558,
+            "sharpness": 19.41073001692433,
+            "warnings": [
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 640,
+            "brightness": 16.14036418457246,
+            "sharpness": 26.65132821513127,
+            "warnings": []
+          }
+        },
+        {
+          "fixtureId": "racing-boot",
+          "group": "sidi-boot-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 7.701892643229275,
+            "sharpness": 19.47279237763486,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 7.846174732350314,
+            "sharpness": 26.258030413188305,
+            "warnings": [
+              "dark"
+            ]
+          }
+        },
+        {
+          "fixtureId": "crashed-shoulder",
+          "group": "crashed-panel-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 725,
+            "height": 960,
+            "brightness": 8.06105266523195,
+            "sharpness": 14.752220205728388,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 725,
+            "height": 960,
+            "brightness": 8.742210790232884,
+            "sharpness": 25.62934245894498,
+            "warnings": [
+              "dark"
+            ]
+          }
+        },
+        {
+          "fixtureId": "backpack-label",
+          "group": "backpack-label-01",
+          "transform": "gain-0.125",
+          "mobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 10.266125708914448,
+            "sharpness": 17.04783111028313,
+            "warnings": [
+              "dark",
+              "soft"
+            ]
+          },
+          "serverAfterMobile": {
+            "width": 960,
+            "height": 720,
+            "brightness": 10.419547591148252,
+            "sharpness": 26.44296527160019,
+            "warnings": [
+              "dark"
+            ]
+          }
+        }
+      ],
+      "medianAbsoluteBrightnessDelta": 0.4233513825107309,
+      "medianAbsoluteSharpnessDelta": 44.782690320766505,
+      "maximumAbsoluteSharpnessDelta": 512.9672544337393,
+      "jpegDecoderWarningDisagreements": 0,
+      "medianJpegDecoderByteDifference": 0.8033220035173161
+    }
+  ],
+  "warningBreakdown": [
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "family": "identity",
+      "count": 3,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "family": "blur",
+      "count": 15,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "family": "gain",
+      "count": 21,
+      "warnings": {
+        "soft": 4,
+        "dark": 5,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "family": "resolution",
+      "count": 12,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 9
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "family": "rotation",
+      "count": 9,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_direct",
+      "family": "jpeg",
+      "count": 12,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "family": "identity",
+      "count": 3,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "family": "blur",
+      "count": 15,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "family": "gain",
+      "count": 21,
+      "warnings": {
+        "soft": 5,
+        "dark": 5,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "family": "resolution",
+      "count": 12,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 9
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "family": "rotation",
+      "count": 9,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "mobile_proxy",
+      "family": "jpeg",
+      "count": 12,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "family": "identity",
+      "count": 3,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "family": "blur",
+      "count": 15,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "family": "gain",
+      "count": 21,
+      "warnings": {
+        "soft": 4,
+        "dark": 5,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "family": "resolution",
+      "count": 12,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 9
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "family": "rotation",
+      "count": 9,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "development",
+      "pipeline": "server_after_mobile",
+      "family": "jpeg",
+      "count": 12,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "family": "identity",
+      "count": 5,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "family": "blur",
+      "count": 25,
+      "warnings": {
+        "soft": 1,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "family": "gain",
+      "count": 35,
+      "warnings": {
+        "soft": 5,
+        "dark": 8,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "family": "resolution",
+      "count": 20,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 15
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "family": "rotation",
+      "count": 15,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_direct",
+      "family": "jpeg",
+      "count": 20,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "family": "identity",
+      "count": 5,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "family": "blur",
+      "count": 25,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "family": "gain",
+      "count": 35,
+      "warnings": {
+        "soft": 9,
+        "dark": 8,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "family": "resolution",
+      "count": 20,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 15
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "family": "rotation",
+      "count": 15,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "mobile_proxy",
+      "family": "jpeg",
+      "count": 20,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "family": "identity",
+      "count": 5,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "family": "blur",
+      "count": 25,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "family": "gain",
+      "count": 35,
+      "warnings": {
+        "soft": 5,
+        "dark": 8,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "family": "resolution",
+      "count": 20,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 15
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "family": "rotation",
+      "count": 15,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "evaluation",
+      "pipeline": "server_after_mobile",
+      "family": "jpeg",
+      "count": 20,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "family": "identity",
+      "count": 8,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "family": "blur",
+      "count": 40,
+      "warnings": {
+        "soft": 1,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "family": "gain",
+      "count": 56,
+      "warnings": {
+        "soft": 9,
+        "dark": 13,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "family": "resolution",
+      "count": 32,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 24
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "family": "rotation",
+      "count": 24,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_direct",
+      "family": "jpeg",
+      "count": 32,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "family": "identity",
+      "count": 8,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "family": "blur",
+      "count": 40,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "family": "gain",
+      "count": 56,
+      "warnings": {
+        "soft": 14,
+        "dark": 13,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "family": "resolution",
+      "count": 32,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 24
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "family": "rotation",
+      "count": 24,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "mobile_proxy",
+      "family": "jpeg",
+      "count": 32,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "family": "identity",
+      "count": 8,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "family": "blur",
+      "count": 40,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "family": "gain",
+      "count": 56,
+      "warnings": {
+        "soft": 9,
+        "dark": 13,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "family": "resolution",
+      "count": 32,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 24
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "family": "rotation",
+      "count": 24,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    },
+    {
+      "split": "all",
+      "pipeline": "server_after_mobile",
+      "family": "jpeg",
+      "count": 32,
+      "warnings": {
+        "soft": 0,
+        "dark": 0,
+        "bright": 0,
+        "low_resolution": 0
+      }
+    }
+  ],
+  "timing": [
+    {
+      "pipeline": "server_direct",
+      "observations": 192,
+      "medianPreprocessMs": 34.57034999999996,
+      "medianCandidateMetricMs": 0.28929999999991196,
+      "limitation": "Shared-host observations; not a controlled latency comparison or a native device benchmark."
+    },
+    {
+      "pipeline": "mobile_proxy",
+      "observations": 192,
+      "medianPreprocessMs": 11.91375000000005,
+      "medianCandidateMetricMs": 0.2799499999998716,
+      "limitation": "Shared-host observations; not a controlled latency comparison or a native device benchmark."
+    },
+    {
+      "pipeline": "server_after_mobile",
+      "observations": 192,
+      "medianPreprocessMs": 34.47624999999971,
+      "medianCandidateMetricMs": 0.28779999999983374,
+      "limitation": "Shared-host observations; not a controlled latency comparison or a native device benchmark."
+    }
+  ],
+  "limits": [
+    "No rider photo-utility annotations or condition/protective-performance labels.",
+    "Gaussian sigma labels establish controlled transformation severity, not real poor-photo sensitivity.",
+    "Identity sources are not verified good photos; their warnings cannot be called real-world false positives.",
+    "Rotation new-warning rate is a stipulated benign-transformation false-warning proxy only.",
+    "Five evaluation images represent four items; the two glove views are correlated.",
+    "The preregistered random group split contains no evaluation jacket; do not deploy a jacket threshold based on these results.",
+    "No parameter or threshold revised after evaluation; normalized candidate formulas remain exploratory.",
+    "The mobile path is a Sharp/jpeg-js proxy, not iOS/Android Expo execution."
+  ]
+}

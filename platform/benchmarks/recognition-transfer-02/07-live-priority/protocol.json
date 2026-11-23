@@ -1,0 +1,19 @@
+{
+  "version": "relay-4b-priority-07",
+  "studyType": "unguided",
+  "arms": {
+    "base": 0
+  },
+  "parameters": {
+    "text": 4205751296,
+    "vision": 333514240
+  },
+  "referenceDigest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "maxParameters": 4539265536,
+  "maxLearnedBytes": 3324162336,
+  "salt": "relay-priority-live-original-07",
+  "rationale": "The owner clarified that the original model called 4B, including its projector, is the live size ceiling. The fixed 2B studies were faster research. Evaluate the replicated location method on original stock 4B before enabling it in Relay. No weight edit is promoted by this comparison.",
+  "primary": "All 224 items from studies 3/4 have no prior 4B scores. Compare on whole and both centre/shift captures. Stock baseline whole p>=0.50; candidate preserves baseline and additionally flags a marked crop scoring >=0.90. Compare 0.50-on-mark against the primary directly. Require at least one recovered hole in each collection and both locations, no newly flagged spots in any collection/location and zero lost stock detections. If the high threshold fails, disclose whether it reduced errors while retaining gains; do not retune on this test or deploy an automated threshold. The ordinary evidence path and mark ranking are separate.",
+  "limits": "Ordinary apparel, publisher-supplied locations rather than actual rider taps, and a spot label applies to its annotated region. Whole-frame comparisons are diagnostic. No 2B safetensors may be cross-loaded into the non-identical 4B architecture.",
+  "discovery": "On first 4B development cohorts, all 64 publisher spots scored below 0.883 on marked regions. Choose rounded 0.90 before a new 4B run, and keep every original stock-whole diagnostic hit. This is an expert attention flag only; 0.50 and 0.90 are not offer thresholds."
+}

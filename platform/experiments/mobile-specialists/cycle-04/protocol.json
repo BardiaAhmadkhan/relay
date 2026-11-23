@@ -1,0 +1,7 @@
+{
+  "frozenAt": "2026-10-26T17:57:12Z",
+  "factor": "Half-precision weight storage instead of failed int8 activation quantization; float input/output contract retained. Original head unchanged.",
+  "gate": "No lost correct baseline decision on originals or quality variants, unchanged encoder/head contract. Speed is measured independently and may regress.",
+  "testProtocol": "../cycle-03/protocol.json",
+  "scope": "Inactive research-only artifact; does not repair known routing or damage limitations."
+}

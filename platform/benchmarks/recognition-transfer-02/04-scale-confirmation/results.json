@@ -1,0 +1,392 @@
+{
+  "items": 128,
+  "mainRows": 1024,
+  "repeatCount": 6,
+  "repeatMaxDifference": 0.0,
+  "hardware": {
+    "peakTemp": 73,
+    "peakVramMiB": 3201,
+    "minFreeRamMiB": 6944,
+    "peakPowerW": 110.33,
+    "samples": 503
+  },
+  "report": {
+    "centre": {
+      "A": {
+        "count": 64,
+        "holes": 32,
+        "spots": 32,
+        "triggered": 1,
+        "tightQueries": 0,
+        "sameScaleRenders": 20,
+        "extraTokenFraction": 0.015625,
+        "meanExtraWarmMs": 2.2735015624998596,
+        "rules": {
+          "stock": {
+            "tp": 12,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "rawEdit": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 1,
+            "addedAlarms": 0
+          },
+          "loose": {
+            "tp": 12,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "strong": {
+            "tp": 12,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "twoStock": {
+            "tp": 12,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "primary": {
+            "tp": 12,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 12,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          }
+        }
+      },
+      "B": {
+        "count": 64,
+        "holes": 32,
+        "spots": 32,
+        "triggered": 2,
+        "tightQueries": 0,
+        "sameScaleRenders": 20,
+        "extraTokenFraction": 0.03125,
+        "meanExtraWarmMs": 4.841943749999871,
+        "rules": {
+          "stock": {
+            "tp": 11,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "rawEdit": {
+            "tp": 12,
+            "fp": 0,
+            "gained": 1,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "loose": {
+            "tp": 11,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "strong": {
+            "tp": 11,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "twoStock": {
+            "tp": 12,
+            "fp": 0,
+            "gained": 1,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "primary": {
+            "tp": 11,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 11,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          }
+        }
+      },
+      "all": {
+        "count": 128,
+        "holes": 64,
+        "spots": 64,
+        "triggered": 3,
+        "tightQueries": 0,
+        "sameScaleRenders": 40,
+        "extraTokenFraction": 0.0234375,
+        "meanExtraWarmMs": 3.557722656249865,
+        "rules": {
+          "stock": {
+            "tp": 23,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "rawEdit": {
+            "tp": 23,
+            "fp": 1,
+            "gained": 1,
+            "lost": 1,
+            "addedAlarms": 0
+          },
+          "loose": {
+            "tp": 23,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "strong": {
+            "tp": 23,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "twoStock": {
+            "tp": 24,
+            "fp": 1,
+            "gained": 1,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "primary": {
+            "tp": 23,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 23,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          }
+        }
+      }
+    },
+    "shift": {
+      "A": {
+        "count": 64,
+        "holes": 32,
+        "spots": 32,
+        "triggered": 3,
+        "tightQueries": 0,
+        "sameScaleRenders": 20,
+        "extraTokenFraction": 0.046875,
+        "meanExtraWarmMs": 6.97008281250055,
+        "rules": {
+          "stock": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "rawEdit": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "loose": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "strong": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "twoStock": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "primary": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 11,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          }
+        }
+      },
+      "B": {
+        "count": 64,
+        "holes": 32,
+        "spots": 32,
+        "triggered": 3,
+        "tightQueries": 1,
+        "sameScaleRenders": 20,
+        "extraTokenFraction": 0.0625,
+        "meanExtraWarmMs": 9.50958281250064,
+        "rules": {
+          "stock": {
+            "tp": 13,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "rawEdit": {
+            "tp": 14,
+            "fp": 0,
+            "gained": 1,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "loose": {
+            "tp": 14,
+            "fp": 0,
+            "gained": 1,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "strong": {
+            "tp": 13,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "twoStock": {
+            "tp": 13,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "primary": {
+            "tp": 13,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 13,
+            "fp": 0,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          }
+        }
+      },
+      "all": {
+        "count": 128,
+        "holes": 64,
+        "spots": 64,
+        "triggered": 6,
+        "tightQueries": 1,
+        "sameScaleRenders": 40,
+        "extraTokenFraction": 0.0546875,
+        "meanExtraWarmMs": 8.239832812500595,
+        "rules": {
+          "stock": {
+            "tp": 24,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "rawEdit": {
+            "tp": 25,
+            "fp": 1,
+            "gained": 1,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "loose": {
+            "tp": 25,
+            "fp": 1,
+            "gained": 1,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "strong": {
+            "tp": 24,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "twoStock": {
+            "tp": 24,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "primary": {
+            "tp": 24,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 24,
+            "fp": 1,
+            "gained": 0,
+            "lost": 0,
+            "addedAlarms": 0
+          }
+        }
+      }
+    }
+  },
+  "gates": {
+    "noNewFalseAlarms": true,
+    "everyStockPositivePreserved": true,
+    "gainsInBothPartitionsBothLocations": false,
+    "beatsStockAtSameCentredBudget": false
+  },
+  "passesProxyGate": false
+}

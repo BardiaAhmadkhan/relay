@@ -1,0 +1,25 @@
+E5. Image reuse between questions (experiments/backend-v2/probe-prefix-cache.mjs, commons-031 at edge 1280)
+qwen3.5:4b              inline       step 0  break    promptTokens   838  promptMs  392  totalMs   514  p(yes) 0.9536
+qwen3.5:4b              inline       step 1  slide    promptTokens   827  promptMs  385  totalMs   460  p(yes) 0.86917
+qwen3.5:4b              inline       step 2  repair   promptTokens   797  promptMs  376  totalMs   449  p(yes) 0.04342
+qwen3.5:4b              inline       step 3  break    promptTokens   838  promptMs  381  totalMs   448  p(yes) 0.9536
+qwen3.5:4b              image_turn   step 0  break    promptTokens   854  promptMs  383  totalMs   494  p(yes) 0.95001
+qwen3.5:4b              image_turn   step 1  slide    promptTokens   843  promptMs  377  totalMs   445  p(yes) 0.83704
+qwen3.5:4b              image_turn   step 2  repair   promptTokens   813  promptMs  377  totalMs   449  p(yes) 0.07867
+qwen3.5:4b              image_turn   step 3  break    promptTokens   854  promptMs  406  totalMs   479  p(yes) 0.95001
+qwen3-vl:4b-instruct    inline       step 0  break    promptTokens  1210  promptMs  585  totalMs   713  p(yes) 1
+qwen3-vl:4b-instruct    inline       step 1  slide    promptTokens  1198  promptMs   35  totalMs   109  p(yes) 0.98808
+qwen3-vl:4b-instruct    inline       step 2  repair   promptTokens  1168  promptMs   30  totalMs    99  p(yes) 0
+qwen3-vl:4b-instruct    inline       step 3  break    promptTokens  1210  promptMs   38  totalMs   109  p(yes) 1
+qwen3-vl:4b-instruct    image_turn   step 0  break    promptTokens  1226  promptMs   46  totalMs   193  p(yes) 1
+qwen3-vl:4b-instruct    image_turn   step 1  slide    promptTokens  1214  promptMs   35  totalMs   100  p(yes) 0.76131
+qwen3-vl:4b-instruct    image_turn   step 2  repair   promptTokens  1184  promptMs   28  totalMs    96  p(yes) 0
+qwen3-vl:4b-instruct    image_turn   step 3  break    promptTokens  1226  promptMs   38  totalMs   105  p(yes) 1
+gemma4:e2b              inline       step 0  break    promptTokens   473  promptMs  193  totalMs  7070  p(yes) 0.04399
+gemma4:e2b              inline       step 1  slide    promptTokens   463  promptMs  140  totalMs   219  p(yes) 0.85738
+gemma4:e2b              inline       step 2  repair   promptTokens   433  promptMs  135  totalMs   206  p(yes) 0.00481
+gemma4:e2b              inline       step 3  break    promptTokens   473  promptMs  142  totalMs   220  p(yes) 0.04399
+gemma4:e2b              image_turn   step 0  break    promptTokens   489  promptMs  132  totalMs   195  p(yes) 0.00479
+gemma4:e2b              image_turn   step 1  slide    promptTokens   479  promptMs  134  totalMs   193  p(yes) 0.84773
+gemma4:e2b              image_turn   step 2  repair   promptTokens   449  promptMs  138  totalMs   198  p(yes) 0.01327
+gemma4:e2b              image_turn   step 3  break    promptTokens   489  promptMs  141  totalMs   198  p(yes) 0.00479

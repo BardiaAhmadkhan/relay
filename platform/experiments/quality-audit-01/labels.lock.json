@@ -1,0 +1,45 @@
+{
+  "recordedAt": "2026-10-26T21:00:07.858Z",
+  "files": [
+    {
+      "path": "datasets/quality-audit-01/labels.json",
+      "sha256": "e7bcabdc1e5dc57aebfb1e00ecfe4a8be181fea3e87bbcb2b4e535e038b7004e"
+    },
+    {
+      "path": "datasets/quality-audit-01/labels.csv",
+      "sha256": "68388843a9c5c2e7c93751422a99c31635a87fca3efd5c625d876b05c81f0372"
+    },
+    {
+      "path": "datasets/quality-audit-01/annotations/commons-part1.json",
+      "sha256": "e1d7078f82149371ddce7679c59fe8a926972f8b54efff7df91a6a00c6d3376d"
+    },
+    {
+      "path": "datasets/quality-audit-01/annotations/commons-part2.json",
+      "sha256": "341d875af4c7725876e47e50793e4c4e08d710204d8f6892dd1ebdd361539e99"
+    },
+    {
+      "path": "datasets/quality-audit-01/annotations/fabric.json",
+      "sha256": "990da0a27b5963af828823c17ee6b1495fd4925cf9e23add8e5d7cd6cde0f972"
+    },
+    {
+      "path": "datasets/quality-audit-01/annotations/leather.json",
+      "sha256": "2c79a51c42c02878ec224ef90d8bff257aea4e5fd11450dfad3ae5c3af3d9d58"
+    },
+    {
+      "path": "experiments/quality-audit-01/commons-acquisition.json",
+      "sha256": "c5b33206f19490f834498bee10488ef86cef93062302c205963ef425050c90ea"
+    },
+    {
+      "path": "experiments/quality-audit-01/fabric-acquisition.json",
+      "sha256": "0e9c45b6603106170d20e7c037693285772e034f2e7e3595f13b1497fa22fa73"
+    },
+    {
+      "path": "experiments/quality-audit-01/leather-acquisition.json",
+      "sha256": "fe5498a0392f3f9067860467966e6aa5c4f1181b3fdfe6831acc50829120909d"
+    },
+    {
+      "path": "experiments/quality-audit-01/protocol.json",
+      "sha256": "ac200aa2806491adb06c28da14a0affb07811f0bc92531330565ec68588ebd6c"
+    }
+  ]
+}

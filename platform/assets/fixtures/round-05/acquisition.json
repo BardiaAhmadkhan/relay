@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-26T18:44:56.135Z",
+  "acquired": [
+    {
+      "id": "worn-detail-2",
+      "title": "Black worn leather jacket detail 2.jpg",
+      "group": "worn",
+      "relation": "Same garment/source session as old worn-detail; not independent.",
+      "author": "W.carter",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_worn_leather_jacket_detail_2.jpg",
+      "pageRevision": 1001351562,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Black_worn_leather_jacket_detail_2.jpg/960px-Black_worn_leather_jacket_detail_2.jpg",
+      "retrievedAt": "2026-10-26T18:44:50.487Z",
+      "downloadSha256": "375999b9ea41a9dc7844c2b8cf87d9a31f6ba9e422370c9fb1d8799839c1a7b7",
+      "file": "assets/fixtures/round-05/worn-detail-2.jpg",
+      "sha256": "c19e6f47b9c91ba63f9801803e34223d65dc3cc334e1f403a96aee24da1ed0aa",
+      "width": 960,
+      "height": 628,
+      "transformation": "960px Commons thumbnail; rotate, sRGB JPEG88 <=960px, metadata stripped.",
+      "label": null
+    },
+    {
+      "id": "worn-detail-3",
+      "title": "Black worn leather jacket detail 3.jpg",
+      "group": "worn",
+      "relation": "Same garment/source session as old worn-detail; not independent.",
+      "author": "W.carter",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_worn_leather_jacket_detail_3.jpg",
+      "pageRevision": 1001351577,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Black_worn_leather_jacket_detail_3.jpg/960px-Black_worn_leather_jacket_detail_3.jpg",
+      "retrievedAt": "2026-10-26T18:44:54.379Z",
+      "downloadSha256": "bfda288fe073d2f28d5e014e99b48cd37634ce9cd824ccae24e29e7cbc1efddc",
+      "file": "assets/fixtures/round-05/worn-detail-3.jpg",
+      "sha256": "f02919032dd930078e8c2c16d0f1e57b58f5091e542d9152e7bd9685b1dc8cc0",
+      "width": 960,
+      "height": 540,
+      "transformation": "960px Commons thumbnail; rotate, sRGB JPEG88 <=960px, metadata stripped.",
+      "label": null
+    },
+    {
+      "id": "lewis-vintage",
+      "title": "D Lewis vintage style.jpg",
+      "group": "new-lewis-vintage",
+      "author": "Timken Bearing",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D_Lewis_vintage_style.jpg",
+      "pageRevision": 1057654932,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/D_Lewis_vintage_style.jpg/960px-D_Lewis_vintage_style.jpg",
+      "retrievedAt": "2026-10-26T18:44:56.135Z",
+      "downloadSha256": "e9252c00ba2146e5536a49dc7d7155e0a69445dff3aa4edbfcb57d050588634d",
+      "file": "assets/fixtures/round-05/lewis-vintage.jpg",
+      "sha256": "d62a62e38b6752f237aefcd1887d9e2a918f7467827e49eb365ab6235d81e6a9",
+      "width": 960,
+      "height": 720,
+      "transformation": "960px Commons thumbnail; rotate, sRGB JPEG88 <=960px, metadata stripped.",
+      "label": null
+    }
+  ],
+  "excluded": [
+    {
+      "id": "biker-black",
+      "title": "Black leather biker jacket.jpg",
+      "group": "new-biker-black",
+      "reason": "Error: Unresolved attribution/licence Public domain"
+    },
+    {
+      "id": "schott-613",
+      "title": "70s Schott 613.jpg",
+      "group": "new-schott-613",
+      "reason": "Error: Unresolved attribution/licence Public domain"
+    }
+  ]
+}

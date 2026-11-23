@@ -1,0 +1,95 @@
+{
+  "at": "2026-10-26T23:41:12.382Z",
+  "metrics": {
+    "audit": {
+      "total": 194,
+      "positives": 75,
+      "negatives": 85,
+      "baselineMatched": 61,
+      "candidateMatched": 63,
+      "baselineFalse": 45,
+      "candidateFalse": 41,
+      "baselineCorrespondence": {
+        "matched": 61,
+        "partial": 10,
+        "missed": 3,
+        "processing_failure": 1
+      },
+      "candidateCorrespondence": {
+        "matched": 63,
+        "partial": 10,
+        "missed": 2
+      },
+      "regressions": 0,
+      "completed": 193,
+      "selectedProgramCompleted": 194,
+      "visualFailures": 53
+    },
+    "validation": {
+      "total": 64,
+      "positives": 35,
+      "negatives": 25,
+      "baselineMatched": 28,
+      "candidateMatched": 28,
+      "baselineFalse": 9,
+      "candidateFalse": 9,
+      "baselineCorrespondence": {
+        "partial": 6,
+        "missed": 1,
+        "matched": 28
+      },
+      "candidateCorrespondence": {
+        "partial": 6,
+        "missed": 1,
+        "matched": 28
+      },
+      "regressions": 0,
+      "completed": 64,
+      "selectedProgramCompleted": 64,
+      "visualFailures": 16
+    }
+  },
+  "positiveReview": "current-correspondence-review.json",
+  "changes": [
+    {
+      "id": "commons-099",
+      "improved": true,
+      "reliabilityImproved": false
+    },
+    {
+      "id": "fabric-049",
+      "improved": true,
+      "reliabilityImproved": false
+    },
+    {
+      "id": "fabric-069",
+      "improved": false,
+      "reliabilityImproved": true
+    },
+    {
+      "id": "commons-090",
+      "improved": true,
+      "reliabilityImproved": false
+    },
+    {
+      "id": "commons-035",
+      "improved": true,
+      "reliabilityImproved": false
+    },
+    {
+      "id": "commons-066",
+      "improved": true,
+      "reliabilityImproved": false
+    },
+    {
+      "id": "commons-065",
+      "improved": true,
+      "reliabilityImproved": false
+    }
+  ],
+  "limits": [
+    "194 real HTTP first requests: 193 completed, no socket disconnects, one invalid-index failure. Final program replay preserved those 193 outputs and repaired the failure using one 1.9-second live review. Original control uses exact captured model replies. Counts reflect assistant visual references; the corpus includes garments, raw fabric and leather, not 194 motorcycle jackets.",
+    "64 additional licensed images: 59 informed the conservative uncertainty guard; the final five were frozen before inference. Five are previously evaluated source controls. Many fabric photos share a capture population, so these are not independent field data. No validation accuracy gain is claimed.",
+    "A matched defect does not mean every claim or damage type is correct. 106 difficult variants and the original crash-damage photographs remain separate regression controls. Unknown history and photo-only limitations never authorize an offer or certify protective performance. The 4B model remains local to this computer; phone integration is paused."
+  ]
+}

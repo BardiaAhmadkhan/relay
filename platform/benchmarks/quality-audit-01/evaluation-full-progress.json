@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-26T21:22:49.245Z",
+  "completed": 194,
+  "total": 194,
+  "last": "fabric-036",
+  "firstAttemptFailures": 20,
+  "counts": {
+    "correct_negative": 40,
+    "detected": 73,
+    "ambiguous_flagged": 21,
+    "ambiguous_unflagged": 7,
+    "false_flag": 45,
+    "unassessable_unflagged": 6,
+    "miss": 2
+  }
+}

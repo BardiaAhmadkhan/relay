@@ -1,0 +1,73 @@
+name: Verify Relay
+on:
+  push:
+    branches: [public-release]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  release:
+    name: Verify on Node ${{ matrix.node }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['22.13.0', '24']
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - run: npm run verify
+      - name: Scan reachable Git history for credentials
+        if: matrix.node == '24'
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive="$RUNNER_TEMP/relay-gitleaks.tar.gz"
+          curl -fsSL --retry 3 https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz -o "$archive"
+          printf '%s  %s\n' '551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb' "$archive" | sha256sum --check --status
+          tar -xzf "$archive" -C "$RUNNER_TEMP" gitleaks
+          "$RUNNER_TEMP/gitleaks" git --redact=100 --no-banner --log-opts=HEAD .
+      - name: Install test browsers
+        if: matrix.node == '24'
+        run: npx --no-install playwright install --with-deps chromium webkit
+      - name: Exercise the rider journey in Chromium
+        if: matrix.node == '24'
+        run: npm run test:browser -- chromium
+      - name: Exercise the rider journey in WebKit
+        if: matrix.node == '24'
+        run: npm run test:browser -- webkit
+
+  recognition:
+    name: Recognition, mobile and gateway contracts
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24.12.0'
+          cache: npm
+          cache-dependency-path: platform/package-lock.json
+      - run: npm ci
+        working-directory: platform
+      - run: npm run verify
+        working-directory: platform
+      - run: npm run test:gateway
+        working-directory: platform
+      - name: Verify Python acquisition
+        working-directory: platform
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install -r requirements.txt
+          .venv/bin/python -B -m unittest discover -s tests/python
+          .venv/bin/python -B scripts/v4/acquire.py --help

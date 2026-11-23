@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-26T21:21:02.463Z",
+  "timing": "Secondary full-image review after model outputs. These are proposed label-quality caveats, not retrospective edits to the frozen benchmark.",
+  "effect": "Primary frozen-label scores remain unchanged. Also report a sensitivity count excluding these disputed negative cases, without treating that as a new blind evaluation.",
+  "reviewer": "Assistant direct visual review, not independent expert adjudication.",
+  "cases": [
+    {
+      "id": "commons-038",
+      "frozenCondition": "no_visible_defect",
+      "proposedCondition": "ambiguous",
+      "reason": "At full size the displayed boots have substantial lighter worn areas. Soil, scuffing and coating loss cannot be confidently separated; the initial negative label was too strong."
+    },
+    {
+      "id": "commons-024",
+      "frozenCondition": "no_visible_defect",
+      "proposedCondition": "ambiguous",
+      "reason": "Full-size glove piping shows rough/fuzzy edges. Normal raw trim versus wear-related fraying is not confidently separable."
+    },
+    {
+      "id": "commons-061",
+      "frozenCondition": "no_visible_defect",
+      "proposedCondition": "ambiguous",
+      "reason": "The vintage leather coat has finish variation and edge wear. Patina, reflections and coating loss are not reliably separable, so a strict negative label is debatable."
+    }
+  ]
+}

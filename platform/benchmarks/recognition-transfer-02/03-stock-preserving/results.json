@@ -1,0 +1,393 @@
+{
+  "items": 96,
+  "mainRows": 384,
+  "repeats": 6,
+  "repeatMaximum": 0.0,
+  "hardware": {
+    "peakTemp": 73,
+    "peakVramMiB": 3184,
+    "minFreeRamMiB": 7240,
+    "peakPowerW": 106.59,
+    "samples": 205
+  },
+  "comparison": {
+    "centre": {
+      "A": {
+        "n": 48,
+        "holes": 24,
+        "spots": 24,
+        "rendersSame": 1,
+        "triggered": 6,
+        "extraTokenFraction": 0.125,
+        "meanExtraInferenceMsPerMarkedView": 18.608299999999986,
+        "warmExtraMedianMs": 148.52124999999796,
+        "result": {
+          "stock": {
+            "tp": 7,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "edited": {
+            "tp": 9,
+            "fp": 1,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          },
+          "thresholdOnly": {
+            "tp": 11,
+            "fp": 2,
+            "recoveredHoles": 4,
+            "lostHoles": 0,
+            "newSpotAlarms": 2
+          },
+          "rescue": {
+            "tp": 9,
+            "fp": 1,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          },
+          "otherView": {
+            "tp": 7,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "concordant": {
+            "tp": 7,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 9,
+            "fp": 1,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          }
+        }
+      },
+      "B": {
+        "n": 48,
+        "holes": 24,
+        "spots": 24,
+        "rendersSame": 1,
+        "triggered": 0,
+        "extraTokenFraction": 0.0,
+        "meanExtraInferenceMsPerMarkedView": 0.0,
+        "warmExtraMedianMs": 0,
+        "result": {
+          "stock": {
+            "tp": 13,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "edited": {
+            "tp": 14,
+            "fp": 0,
+            "recoveredHoles": 2,
+            "lostHoles": 1,
+            "newSpotAlarms": 0
+          },
+          "thresholdOnly": {
+            "tp": 14,
+            "fp": 0,
+            "recoveredHoles": 1,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "rescue": {
+            "tp": 13,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "otherView": {
+            "tp": 13,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "concordant": {
+            "tp": 13,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 13,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          }
+        }
+      },
+      "all": {
+        "n": 96,
+        "holes": 48,
+        "spots": 48,
+        "rendersSame": 2,
+        "triggered": 6,
+        "extraTokenFraction": 0.0625,
+        "meanExtraInferenceMsPerMarkedView": 9.304149999999993,
+        "warmExtraMedianMs": 148.52124999999796,
+        "result": {
+          "stock": {
+            "tp": 20,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "edited": {
+            "tp": 23,
+            "fp": 1,
+            "recoveredHoles": 4,
+            "lostHoles": 1,
+            "newSpotAlarms": 1
+          },
+          "thresholdOnly": {
+            "tp": 25,
+            "fp": 2,
+            "recoveredHoles": 5,
+            "lostHoles": 0,
+            "newSpotAlarms": 2
+          },
+          "rescue": {
+            "tp": 22,
+            "fp": 1,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          },
+          "otherView": {
+            "tp": 20,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "concordant": {
+            "tp": 20,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 22,
+            "fp": 1,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          }
+        }
+      }
+    },
+    "shift": {
+      "A": {
+        "n": 48,
+        "holes": 24,
+        "spots": 24,
+        "rendersSame": 1,
+        "triggered": 5,
+        "extraTokenFraction": 0.10416666666666667,
+        "meanExtraInferenceMsPerMarkedView": 15.800504166667451,
+        "warmExtraMedianMs": 152.99599999999919,
+        "result": {
+          "stock": {
+            "tp": 7,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "edited": {
+            "tp": 8,
+            "fp": 1,
+            "recoveredHoles": 1,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          },
+          "thresholdOnly": {
+            "tp": 10,
+            "fp": 2,
+            "recoveredHoles": 3,
+            "lostHoles": 0,
+            "newSpotAlarms": 2
+          },
+          "rescue": {
+            "tp": 8,
+            "fp": 1,
+            "recoveredHoles": 1,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          },
+          "otherView": {
+            "tp": 7,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "concordant": {
+            "tp": 7,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 9,
+            "fp": 0,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          }
+        }
+      },
+      "B": {
+        "n": 48,
+        "holes": 24,
+        "spots": 24,
+        "rendersSame": 1,
+        "triggered": 3,
+        "extraTokenFraction": 0.0625,
+        "meanExtraInferenceMsPerMarkedView": 10.127235416666736,
+        "warmExtraMedianMs": 165.6094000000012,
+        "result": {
+          "stock": {
+            "tp": 11,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "edited": {
+            "tp": 14,
+            "fp": 1,
+            "recoveredHoles": 3,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          },
+          "thresholdOnly": {
+            "tp": 15,
+            "fp": 0,
+            "recoveredHoles": 4,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "rescue": {
+            "tp": 14,
+            "fp": 0,
+            "recoveredHoles": 3,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "otherView": {
+            "tp": 13,
+            "fp": 0,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "concordant": {
+            "tp": 13,
+            "fp": 0,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 14,
+            "fp": 0,
+            "recoveredHoles": 3,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          }
+        }
+      },
+      "all": {
+        "n": 96,
+        "holes": 48,
+        "spots": 48,
+        "rendersSame": 2,
+        "triggered": 8,
+        "extraTokenFraction": 0.08333333333333333,
+        "meanExtraInferenceMsPerMarkedView": 12.963869791667094,
+        "warmExtraMedianMs": 154.4068000000043,
+        "result": {
+          "stock": {
+            "tp": 18,
+            "fp": 0,
+            "recoveredHoles": 0,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "edited": {
+            "tp": 22,
+            "fp": 2,
+            "recoveredHoles": 4,
+            "lostHoles": 0,
+            "newSpotAlarms": 2
+          },
+          "thresholdOnly": {
+            "tp": 25,
+            "fp": 2,
+            "recoveredHoles": 7,
+            "lostHoles": 0,
+            "newSpotAlarms": 2
+          },
+          "rescue": {
+            "tp": 22,
+            "fp": 1,
+            "recoveredHoles": 4,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          },
+          "otherView": {
+            "tp": 20,
+            "fp": 0,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "concordant": {
+            "tp": 20,
+            "fp": 0,
+            "recoveredHoles": 2,
+            "lostHoles": 0,
+            "newSpotAlarms": 0
+          },
+          "sameBudgetStock": {
+            "tp": 22,
+            "fp": 1,
+            "recoveredHoles": 4,
+            "lostHoles": 0,
+            "newSpotAlarms": 1
+          }
+        }
+      }
+    }
+  },
+  "gates": {
+    "stockPositivePreserved": true,
+    "noNewFalseAlarmsBothPositions": false,
+    "recoveriesBothHalvesAndPositions": false,
+    "beatsStockAtSameReviewBudget": false
+  },
+  "passesProxyGate": false,
+  "timingBoundary": "Measured conditional warm inference only; transfer/switching, queuing, decoding and API latency excluded."
+}

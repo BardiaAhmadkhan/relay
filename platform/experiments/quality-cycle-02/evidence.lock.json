@@ -1,0 +1,1510 @@
+{
+  "at": "2026-10-26T23:52:47.801Z",
+  "scope": "Final Relay quality cycle 02 evidence, rejected/failed experiments retained, selected source snapshots, approved image corpus, complete report bundle and verification records. Not a claim that all recognition mistakes are solved.",
+  "files": [
+    {
+      "path": "artifacts/Relay-quality-cycle-02-review.zip",
+      "sha256": "d494fd214931546458e9ad04318e8b2349b7d168295ac182f3bac6664986c760"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/activation-final.json",
+      "sha256": "6083c75d3ebbdb92daba0db23c070c674c0ac7070dec52f566bbac02ee44222f"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/activation.json",
+      "sha256": "5768f48eff1369348d3aaeaeb5f0e5063acdd221e48ae4c51acd9c8498311647"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/browser-verification.json",
+      "sha256": "8f16a36b18a5fd0e157c4ef96c7bf2a80b3b9fd3f5f92bd16842b81d4cdae65d"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/cache-eviction-fixed.json",
+      "sha256": "ae6220657e355de6d26c962239669a65ff157305d389b5e35600e0aec6a7dbf6"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/cache-eviction-repro.json",
+      "sha256": "5df12c158d789f0fb7c792ad58032e843e7d68985038713b7688b2cd6a81d73e"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/cache-fixed-output-equivalence.json",
+      "sha256": "0607bf1e1c739fc4d40d20236a545ab077f260943902c67454c73a370b5d11c3"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/cache-fixed-program-replay-calls.json",
+      "sha256": "b8130d52a47fb085319b03bd2a37ef69c7a35f08d0d975a328caaaf6cde1e7c8"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "sha256": "d62f85ea96c1cb80108c3b675b60de92afd15964f0f100993bf34b87bd0da341"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/cache-fixed-program-replay.jsonl",
+      "sha256": "f642682dc13d4fbe173d142f9e63c3c089f2e2a11e5670b9900e549d4b21be74"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/canary-calls.jsonl",
+      "sha256": "a5f15298c50cbe8545238db272e3a0ef19e1869e9eb7cd63e9bb5e8d8adfd83d"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/canary-final-calls.jsonl",
+      "sha256": "7458998ed73ab15a784dbfdba1c65bc6a02426b013f3616fe950d772d2d5d000"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/canary-selected-calls.jsonl",
+      "sha256": "e4d6cbc163daf43066fffc88fbdf7f2f5703e501951a303ac43e146a525961e9"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/closed-guard-and-focus-tests.json",
+      "sha256": "ff97770654e6798c539d05f6cf7857f64dcae60a3a487d42076da4b9800f998e"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/closed-vocabulary-equivalence.json",
+      "sha256": "fe8af5c4bf2720ebddf4c56ab6f78d7caca07c5b1f379dfe813a14cd9c014c40"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/closed-vocabulary-tests.json",
+      "sha256": "53b79ae624b0b22dd2c6ba5572356dc76ea2bb0ab2e9cc27e724d8490a2d3735"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/cosmetic-claims-replay.json",
+      "sha256": "bef1f0eb53481595e56f1faf658f6566b23f809d88fe209a6b83083aaa018f82"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/current-correspondence-review.json",
+      "sha256": "7c9dde434208bd0bd8dc1d3dca0e0b74c562bd00a31d3865a84a45ab19d7327b"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/current-http-audit-protocol.json",
+      "sha256": "e9cf333c74558bb390471f58a0baffb79cd09a9b09578d9f355b6dde3bea38e7"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/current-http-audit.jsonl",
+      "sha256": "2cc2e99d9fb9943f4fb4ce03d1a00d877afafc0f520ad4ca03c2be5ded9fa551"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/current-http-smoke-protocol.json",
+      "sha256": "5dff944fdb4ae2008a26ac5e1314e43ea18a89ec33373f327ead789b06ec4e79"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/current-http-smoke.jsonl",
+      "sha256": "2671ae2f1aff6cfcc01468e0cf2e684c195d78158308ddfed1655aa6c58b9121"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/documentation-check.json",
+      "sha256": "f2bfacc27a2483e0cf20008577fd2b22915e98dc5c53214efce2413f731718a5"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/documentation-final.json",
+      "sha256": "a25659941f5254cdbf9588386689ee3ab15014b5e0212471002f4b95035e63f1"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/documentation-release.json",
+      "sha256": "9de11f130fd495a8e3eb0de59e2923c1746e42e689562a0cda102b8ba2464964"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/evidence-contract-tests-v2.json",
+      "sha256": "72eded9926ab0224b5247dc0828feb074fb9b648c16e261d404d1f3da26bee5f"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/evidence-contract-tests.json",
+      "sha256": "318b92ddbae15a272dab1eb241e418e8350cb0fbd1f71ac443b6f837ab491e15"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/fabric-069-error-diagnostic.json",
+      "sha256": "8cf130777a90d4a85949fb82e51663ba3b0edbf7cf8b862931f427c6e263da6d"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/failed-focus-cache-reproduction.json",
+      "sha256": "6e4e4a206113d07b7798cae49ea4cf01ad8f7a09f4ef227696a4c6e6dcd54c21"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-activation-live-protocol.json",
+      "sha256": "0be9d6b88c1db9f5c8b2069f7ade9f747f32ecce5b88200b27020a6c2bad866a"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-activation-live.jsonl",
+      "sha256": "cda3b375fae90da80cdbf29e847754b910fb4a19e9372898d71063f15f13ae57"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-cache-output-equivalence.json",
+      "sha256": "d5678f15229669fdb0fa55bcd36f36b4ee1984acd4a9f86ee88cb77e5b5c6283"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-evaluation.json",
+      "sha256": "c1fd059cb15abd89820241a7b728952618eb1b89a4ce53b6488b930bb0388faf"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-program-replay-calls.json",
+      "sha256": "b8130d52a47fb085319b03bd2a37ef69c7a35f08d0d975a328caaaf6cde1e7c8"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "sha256": "563a3267eb1d59d7bb05326fd428dd5734499b4d17c622a69509d434f7f0f3bb"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-program-replay.jsonl",
+      "sha256": "28b27316b4dd904114f5c6bbeed049bde779c1e653891228b5a407723fe4bd44"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/final-verification.json",
+      "sha256": "2a18e8d45d1a4cc97c8f9c86e577f3d6086f485349c8afb65967fdd1cb9aa46a"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/fixed-slot-review-tests-v2.json",
+      "sha256": "b591961c8a8429140d2b25f5e802fa1643de8eef07ed25e3c7fb467dc85772da"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/fixed-slot-review-tests.json",
+      "sha256": "5aa114147d2d382b3365faec02b8587d82cb58958163b11491fa745ef6750149"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-audit-invalid.json",
+      "sha256": "d2e15a72c32d7ce04b5d2e9099d4fa0a116cc9d7e40c6fcd877d03d4eeacf00e"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-audit-protocol.json",
+      "sha256": "c3e9c9c4ba601832a4ae6059abc12dbab6fd89fb903278372180a81990f3c754"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-audit-v2-protocol.json",
+      "sha256": "59b5458a3af800669cfdb1d518f1b8cacb1c8d9239c2172984edc3a60d8074cd"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-audit-v2.jsonl",
+      "sha256": "8000ef0e834cbd24b8f8bed4f7e17b9ec0e3d4ed700dea947fd20c02988cf89d"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-audit.jsonl",
+      "sha256": "c35caed4cbcd59e5904a4e7033aee94e3d1740fce9299b70ead7b34d4a7c2563"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-audit-protocol.json",
+      "sha256": "d5b36f9e0e8ea26f287c9db9bed74a16a9bbd2caae18d83054c4541372f046c4"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-audit.jsonl",
+      "sha256": "351e9f05747e0a9b08e8a84a29c8b08f80e31d2cbe836b39947fd9b55aca6d26"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-final-five-protocol.json",
+      "sha256": "5ecec5a8b821572652e5cf1b25cdd2156c74e50f018c7703d109e0e885e60f6b"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-final-five.jsonl",
+      "sha256": "f35d6ecb2f4ac33ad03a83b1199805664a255a9b67f88e652e0597cdb75bfa39"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-fresh-protocol.json",
+      "sha256": "60c8cf2bef3abd527d61eff87db79de2b712106e427bd93ca1ce1cc284a1c8a4"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-fresh.jsonl",
+      "sha256": "50c33da640230ed3174b54fc75e46e55c2b346f2cef084c104f704ef6a132c3a"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-hard-protocol.json",
+      "sha256": "c33470b7ac5daa42535e39c04ca5d98796d9b5a3a2a21ec85906127b57d3ed84"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-hard.jsonl",
+      "sha256": "1464942ccbe67ccfbdd24d291fa0f892680a3a5dd14949928e46a4d37ac44755"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-smoke-protocol.json",
+      "sha256": "52f9ce8626dcc7c9592325890f89ca84f803713d8813a1de981cdd3da51d0480"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-context-smoke.jsonl",
+      "sha256": "9723618c5c5f53ae729a39354f084aea5023876e2a778b0b649151503383e38e"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-smoke-protocol.json",
+      "sha256": "cee2d91cbafdc771c07ad5a401a392e3aebb0f2b6021492d44a4eede94940309"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focus-smoke.jsonl",
+      "sha256": "49873aaf5b9557099b7df2910e65a4432e3348349a6b14d64bc3e42feeb3c5a7"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/focused-contracts.json",
+      "sha256": "9e3e1780914d1764d593e82d4ea664610b4b0fbbfb68bb26981e15ea7acd2f22"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/format-before.txt",
+      "sha256": "2f2660207850b7429b1e16b9a6f738eb06a3dd33d2bc8eda6ad7740d645dea6a"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/http-focus-cache-reproduction.json",
+      "sha256": "04ad356bbdb3b61e66393d088fe93cb5539abf2d6d68140129d55f0550d6c6ec"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/independent-review-decision.json",
+      "sha256": "22494da307467fa8646ee4c25253b3541bba109637e94e14c2db25d4016831b8"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/independent-v2-probe.jsonl",
+      "sha256": "8f67cea008d53e80b3eabba77b90d477c9aa4e8a5a670eb4f094d5bef78933b1"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/independent-v2-reason.jsonl",
+      "sha256": "33f0bdbdad9b3631c1551214d5499c566008d7d69eb9e805dc7f3bcd64666173"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/integrated-claim-tests.json",
+      "sha256": "c8e91c31b42efd1e7f189475828b6734d855d21d8d0203b946eefbfd580f82d2"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/live-http.jsonl",
+      "sha256": "372e66eccafa5f186d229a9ae9372eeac6e8edab63b524c997e57e34d821301c"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/localized-category-probe.jsonl",
+      "sha256": "35243a9d81044af664337a46fb7a4d38b0fd07fce7254b4fb1cf1c381fd5d2f3"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/localized-probe-invalid.json",
+      "sha256": "99ea61dbbc077e15e2d5e5de95ad1cfe0577979e49ead8e50587a996f15abbc6"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/localized-probe-v2.jsonl",
+      "sha256": "09cf6087f5437d89a4a71f2e52c761edf1934809d602508d49f3277ecb49d8aa"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/localized-probe.jsonl",
+      "sha256": "0fc603014fa4a0601027204efa9b43c9b252a8b8aa586aea39c41264ec2a7b79"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/negative-evidence-replay.json",
+      "sha256": "6483d768240992477b147ed6cfd5ddadc5ddcac08db4138587a3d66cc3e8d804"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/neutral-subject-decision.json",
+      "sha256": "89d1def065fedde00e4dc7de0eaa3d5c3ac8e1bcc3c12a0d29c05a6d8b268c2e"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/neutral-subject-full.jsonl",
+      "sha256": "a9f63faaead6a8a58b5264aa89c97e812516c3bc3ce9b0990f54663f5d30453b"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/neutral-subject-probe.jsonl",
+      "sha256": "7618ed994541590fe9d9d98a6ce2bc809008493cbef5b8b967e286db7005626d"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/ordinary-feature-tests.json",
+      "sha256": "346d2fd3af06b0ad585452e507a0b05ef89802040b00116a4f5501a17a322bc3"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/paired-repeat.jsonl",
+      "sha256": "bad6617dd978ee1365ccab8b145c9ab1979e2bedc16632182e71a114df92beb2"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/provenance-check.json",
+      "sha256": "58853da9c4ca74a2e929718388914f6457047bbe0f3ce3345fa51936f204f8ab"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/provenance-resolution.json",
+      "sha256": "a944c26fec0258a3f1a8969337b4ff2c4f341a925d47cd21b72ac800a4640015"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/review-package.json",
+      "sha256": "d440b6916b4fd62e35160c08126e58883ef2c311edb8dc393389e7e5fec1b51b"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/review-repair-and-speed-contracts.json",
+      "sha256": "30e5d9612aefad6c7ae37fb16f5cab8f349cf5c12a11e67e0fd92e3ea474127d"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/review-repair-existing-contracts.json",
+      "sha256": "aacf320a463e73606ade98cc8dcc84333634f2ebc892ed667243e42bdd7e784f"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/review-v1-decision.json",
+      "sha256": "9e4ebf02eb86c99e44eac66b91026c62bc0a5fd910797bcbaac682a3847f8f47"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/review-v1-full.jsonl",
+      "sha256": "f8570080231311bfd6bdcf5d3941fcdeb97def094f300530a979ed5b8a163665"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/review-v1-probe.jsonl",
+      "sha256": "96400cc86b022a4767bac2c44b07f7b88f9b28899bd3bf49ef3494a122786e08"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-claims-regressions.json",
+      "sha256": "2dc3600409bd9ce894881b6a893d88441344ad5ce3ee06b8818f0edc811cb31a"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-live-http-protocol.json",
+      "sha256": "5216a1b35c7b02d399d5d574d7916a21814e7b3d785b65cdd4c25bcb3da1f00f"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-live-http.jsonl",
+      "sha256": "992eef49ed32dbea7e2ec95f04522a52687a24de6e75d0b7f4285466ab14b91c"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-program-replay-calls.json",
+      "sha256": "24a4edc75183862d58d4ff0a86e1a6b7fedcf8db2a89dc50a5e71ad7e4e24510"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-program-replay-protocol.json",
+      "sha256": "2a6124ebf9dd809b326da21a23706c051faf80c281cc81bae3daaf235896a197"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-program-replay.jsonl",
+      "sha256": "3d040c8fbfe1d4c649df291088d662d854ecb0be302afddd8029e679aadb5308"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-scope-regressions.json",
+      "sha256": "f3bdbb57d7ec69b9bc6d6cbd1426f6a938bb5e4c2101ea066ff51c4e6fb6ea84"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/selected-summary.json",
+      "sha256": "fafdf0ffd6218dfb18302ec7f2ca984b1743bc02a8600e7f3f1ddd54c86cb00f"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/text-assertion-v1.jsonl",
+      "sha256": "ca3f51db8e1824b84dcf3553d879346046384edca81456d60d12d25f42865250"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/transport-tests-v2.json",
+      "sha256": "6ce32ec047ee217db54923ce2c63e3294c01790ac943b5abed7b0f74111be1b1"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/transport-tests.json",
+      "sha256": "fe7e5f56ca093d873e13756ffdba84f6e82c6194968ffe75a8a5648d6c5b96d5"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/uncertainty-preservation-tests-v2.json",
+      "sha256": "0e8582e1b94873902004112db90f100d57c2c6852278629dda9e27c25674a5af"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/uncertainty-preservation-tests.json",
+      "sha256": "192d49190a05765a255381725ec7b0b7b5f66cad2a3fbd38d791eac2ce9d4998"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/unit-claim-transport.json",
+      "sha256": "85bd2585fe540d578917338b9ed12c0af42f19083c5eb320cadbd675f3e71305"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/unit-final-cache-fixed.json",
+      "sha256": "9aa5ea23b40597411989edf0c25086a37e1f0a88ae6b560ddeaed19b783d5cc9"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/unit-final-selected.json",
+      "sha256": "c71b8ff6da6e4c5637a8c807610a1651e7868c0f7ab821d584c433a6c8dd33fe"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/unit-final.json",
+      "sha256": "85df3945bad9bab8324bc98575781dd42aef1589e2928788a6b23fc6ef4233c0"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/unit-sealed-candidate.json",
+      "sha256": "59cfe69f70f7360ac9e0a4e784624a5f35d32112ee9c37cb7a879e680195782f"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/unit-selected.json",
+      "sha256": "a7cbdfd514d74c9a4a9a0b130f41056d39a5e83edd01279ebc496248a3eb48f3"
+    },
+    {
+      "path": "benchmarks/quality-cycle-02/validation-image-integrity.json",
+      "sha256": "102d58b5e82a06c65698bf4708c9b6d9db2699e1598658137f22e9da9c83342d"
+    },
+    {
+      "path": "datasets/quality-cycle-02/attribution.json",
+      "sha256": "84a2e1d9433462c2bcb228e76a4cfe7bdd55858756224224bd86139142e9f3e5"
+    },
+    {
+      "path": "datasets/quality-cycle-02/comparison.csv",
+      "sha256": "ef54b965e0acd83a85b505a0c708761d5f7d341d7df66d55da12f884ce1cce69"
+    },
+    {
+      "path": "datasets/quality-cycle-02/comparison.json",
+      "sha256": "667a1eea3e80bd8de0778af04b78cbf2de6fa2fb2069201183238fd6e55c3ea3"
+    },
+    {
+      "path": "datasets/quality-cycle-02/final-holdout-labels.json",
+      "sha256": "d1d022ffb51695ee1df9ec0d46eb089c288d9bd638f7accdfb39194a111250d9"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/final-fabric-001.jpg",
+      "sha256": "4c80852fe2bbd566dd4f5b6985f673e50f1a6e65e4c4052fb41951bac1bbf08a"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/final-fabric-002.jpg",
+      "sha256": "5fdc1fe199878ca408f76dc9828decc7bdbdf31f6fd65b70b80aa78f9676a15d"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/final-fabric-003.jpg",
+      "sha256": "9cf22384cf2bf7536d8719e03df2336c581e8c08ff0aef535d21bbd55d82b14c"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/final-fabric-004.jpg",
+      "sha256": "5eb2c0f938c26ee0eea748cc349a7df9c3814a3886952d81352b36f68a9afbd0"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/final-fabric-005.jpg",
+      "sha256": "98774621349e95844983ff5f00bf615cd924c217c108bc45dbe05d63298464ba"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-001.jpg",
+      "sha256": "1f0f02949b6e1de52c71fb85a70a806e104396abc2d9597368a709b1fac5cd54"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-002.jpg",
+      "sha256": "6c2a60b8baef987f816b328a0fab161f49d71fa75f3e755984f2bc907fdd68a2"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-003.jpg",
+      "sha256": "c40e604d73fb049eff2e6cb1fd9633e0b1107bc7898b9495dd414b8bd3d26b7b"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-004.jpg",
+      "sha256": "0cd3c9b213f60087b17698c6aff84860e87bfab012b0eb69dca368581d8609c0"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-005.jpg",
+      "sha256": "02ca843ca48509b75c7367aa2fa09a99a065e4ecf1b7212f0be01eef15a4e126"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-006.jpg",
+      "sha256": "c791f1f72ebcc89d8c5a8d3d40a9f0ca9651fa451ec3c4201b8c576f5b6e7b98"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-007.jpg",
+      "sha256": "73be84d36fe44dba0f77c079b634606260925fdd34ff3588fd20e8dd7a5f6243"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-008.jpg",
+      "sha256": "0b6ee2bd2d92e81073ca00ba68dae8665788a603f159705973121a9f1103f5a9"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-010.jpg",
+      "sha256": "f6828e17a538eb5ad5f56306a931aaca59ff2723241bb9cd3c7f1f667c208905"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-011.jpg",
+      "sha256": "2d1a725fcb7be9d09171332e6782f64305b515c14b44f53b055816b58e8179f2"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-015.jpg",
+      "sha256": "a52cfec8d22d3f48f7f4b5c6acc867a2151d2c4181c336f049cfa4b4c8680bdb"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-016.jpg",
+      "sha256": "eaeafefd56aaa91484b7bcfdcb86735d33ab8b4100482c99ebbd300a8863aee8"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-018.jpg",
+      "sha256": "3c7cf01a4ab1eb544efc05cde93a68c6800db39762352a3a9221458a867c38af"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-019.jpg",
+      "sha256": "ec778c36e8617bada521d0bcdc09122498d3cb5823e6f50f110c5debb177eb58"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-020.jpg",
+      "sha256": "e72d83d5913328896ab6e87204a019a9ad978ad4fd317baf1392652a877b23f1"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-021.jpg",
+      "sha256": "a3c55fa1efaec187d253cfa8474084144ee43195a6e095d38559839ce6c6884f"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-022.jpg",
+      "sha256": "66e2c9b8746fd5e6ca0e78869c96bfccefd08dc9125c33c8fc8f96132c200824"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-023.jpg",
+      "sha256": "a50a4b0dd18269363c521ff5c349fcdf7c4167f4d91f73685c49a76ecaf1502b"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-commons-024.jpg",
+      "sha256": "686954f4547fa9b54b63479cc625cbeb567ead601a232d9757b6813695b552ab"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-001.jpg",
+      "sha256": "cfc33527b6c17b791506447d93db93dd9fa72636d775bd6e2e2fcd9ca22b19ac"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-002.jpg",
+      "sha256": "37e3c5207a3df45cc151aca0543cdca0078bc29f163f56ba06586c165e63c5b7"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-003.jpg",
+      "sha256": "0cecc6ac0110542ba7464549e1394ae4a17666ffd9222af64aed47d861998553"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-004.jpg",
+      "sha256": "cdb8ffacb837f0b36b6a3d4b8cd84e6f07d73a8e518ed47841758f608013c515"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-005.jpg",
+      "sha256": "ef3171c2f72c08c285d3cd9417f69d6c7fe684c502ddf9ae16367296ae869766"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-006.jpg",
+      "sha256": "624e3cd513ca65d6ac6c49369312b1155d633065d23041e842d85583854ab0ce"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-007.jpg",
+      "sha256": "d5756e053de9f185099602541ac1ead9387a850ca708d8a94925a05815be3121"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-008.jpg",
+      "sha256": "9a95dba9cd7690a276b0ce7c86161c8fc813306306a4a05f2a2c22ee35570a24"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-009.jpg",
+      "sha256": "a0623cad4b2ba00fd895384b64864e6ee6cf1d9eeda5a08a04daa9a7476eb5b1"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-010.jpg",
+      "sha256": "d9cb10dc1a5f59b4fba5f3123c0a7d9ea5ebf830095b99d55d1cbbc48061af76"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-011.jpg",
+      "sha256": "a0ca3060f993e4959e905ed2af767ec3b188ce5ffae0f8a0cabae5e61a7aa3db"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-012.jpg",
+      "sha256": "06f7c61bc2f92d296e9798d825b3111e06475aa54fab60ad55dcb5863a36aaa4"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-013.jpg",
+      "sha256": "a9e30a55da201627642d130d3c4f0cfb1fb081f5f9e180fc9a0a77756092d262"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-014.jpg",
+      "sha256": "5c8157679e247bc307dca3676e8c0e20a03973db7594b65b1a457c6bad95c53e"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-015.jpg",
+      "sha256": "910049edeafd43e5996bf86ff500d79ef59faf8714830dd0fa4e061e874a1b8e"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-016.jpg",
+      "sha256": "fe3f04242dc03807c22b83691ced03ca578d9c19b51c187459c690373074cc5f"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-017.jpg",
+      "sha256": "ddccc99ae46b2d72198601ba58b49b929e07927252cbf3694bee30df539c270b"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-018.jpg",
+      "sha256": "94d6336a3c6361850e06e433a2772b6e044c6d74d4c83f266c1c05f68bad8d5a"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-019.jpg",
+      "sha256": "1c0ea66e9c25bf8d52407ea950f07bfc3326d22b413ae0343a7f9cf2427fecb7"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-020.jpg",
+      "sha256": "6ccd92507d07afb162d84f05f91e22604764ace65ec9366d115bdd024c2f52e7"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-021.jpg",
+      "sha256": "502109ea8dc208b03626d9f340f05c2ad2d644d40a1ed70fc2ec0662fd1b58b0"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-022.jpg",
+      "sha256": "f2f670be87edde1d75ddbf69bc0a2d8f58c86d34723e3813f99567ae9989001b"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-023.jpg",
+      "sha256": "951f6c7d84242628d4f8d17ab62c91a5c16eaa3569a3f544cb88ed8d4d71cb71"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-024.jpg",
+      "sha256": "51c655f2a4fe793150dd40770ad311d29ab0f4955c255aa9ded3ab5622ae5ec3"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-025.jpg",
+      "sha256": "b37596fed121a29eeb993c6441e07c0b5b9d09f84652d223f320e545eedd40cf"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-026.jpg",
+      "sha256": "c6ae28f25bbfeab6a3f5cc22ba2f441166d1c87dee73263551ea7b13de2ba928"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-027.jpg",
+      "sha256": "40b9098bd50c5d25c3010ed2456bb529efa125063a43698bfc61843e3efe05d4"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-028.jpg",
+      "sha256": "cb5e7d4fd3a507fb05df75b69667de2329d7cc141757cf9b5cf42b4eef738a2a"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-029.jpg",
+      "sha256": "cd43e9fe5a00ee0468c0b605014fb4a393786ba611dc217c0706d22a9f56d4ec"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-030.jpg",
+      "sha256": "5f0a4404c1dbcd183d28346ec56f549eba0013723c9b75ced534aab8176af0cd"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-031.jpg",
+      "sha256": "7f85d4e973cdba5eb1a91f9dfdc4fb2df945bd0ffdc3a1f6d38e1a45d68a0587"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-032.jpg",
+      "sha256": "999e62fa9281b2fca0aa12e7c03f3e908c01a77f74596c656ea8b864ace9fc9f"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-033.jpg",
+      "sha256": "6efcab15822cde5944d03839ff4081dce982c8cc82fbe31ba2ee06f06b77af2d"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-034.jpg",
+      "sha256": "b08229eda9195bef6bf2706801e022a31eaae2e4a862616e313532144e857ac0"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-035.jpg",
+      "sha256": "26d37295b482555f335fe0f119c8a5aecab903118f98118b1278838043275817"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-036.jpg",
+      "sha256": "93c7ee9433a5f4bb748c7cb91ed847da5921e7326ce209ba7332c166a8595d3b"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-037.jpg",
+      "sha256": "917f2a381aa0e02fd42a9180553fe33eebd18570f73d31a79a6a17981c9408db"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-038.jpg",
+      "sha256": "e91de57b319d061c0e9b5f2f80eec25e1e2bf89fd223f328f481877e777366c4"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-039.jpg",
+      "sha256": "2c0cb1c169469d32ee185c6f9a99e1172d57b78fdb9ad3529873b0b0438ea741"
+    },
+    {
+      "path": "datasets/quality-cycle-02/images/fresh-fabric-040.jpg",
+      "sha256": "a200c3690aa4628fb79ae35a0bd3209ca14c475cd5769533574ab0eed792c632"
+    },
+    {
+      "path": "datasets/quality-cycle-02/labels.json",
+      "sha256": "8a109e28cd89063ee486802ff70284c5ae4c6ad8b64708860e421e8d3d98dc9e"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review.html",
+      "sha256": "f2b80e6eb8c6681ec7b898faee8e54dba6876d8aebb7a8d4cc8920b66de5ee21"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/current-positive-01.jpg",
+      "sha256": "b27584af155fe9b237376bd77b71839a81cc99042102d944e42872051f09c024"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/current-positive-02.jpg",
+      "sha256": "4f7a54edf650dbb621176748f09aa2a4a8f16cebdd1186cfa66a429ede472716"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/current-positive-03.jpg",
+      "sha256": "f05b956df506248abe386a567cce4c754194dd959fbd7022e9e47c14f49de14e"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/current-positive-04.jpg",
+      "sha256": "0c10b240a295091187f7997a1133b59c0375467ab639af9723defe033e88f348"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/current-positive-05.jpg",
+      "sha256": "e6e76f4aa348d061153b0f0b7887a4d5632c6bd251499ff86cc265374470a86b"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/current-positive-06.jpg",
+      "sha256": "f500ca9f45678c50f71e95e59594a70e274fc942af3681c2c516c2a0f9623483"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/current-positive-07.jpg",
+      "sha256": "ff1bed1cd2fa8d9e7bd4ccb4ac75df03ef2688f9e7895286fca7d5189ea8da5f"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/fresh-01.jpg",
+      "sha256": "362e98e4aebaa02565c08e8c5d9bf843c4c56d9b403ad73f6bf5c2677e2f04ae"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/fresh-02.jpg",
+      "sha256": "b5d793daf77ae9aa98791d055f4ba8707d9a23f8c418d6ee8b55bc179163a93f"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/fresh-03.jpg",
+      "sha256": "0eaac51c1117f1e5eba1adff22bbb996de95fc9f619fe68de0469a787904cddc"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/fresh-04.jpg",
+      "sha256": "341c6a9c6bd94d65aba3d6cd8bfb42b4af3bad7f959b91eb6128867ee421066f"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/fresh-05.jpg",
+      "sha256": "453221de3e7a5888d687046770a2e2e65e354886b58d50ec63033947190979ad"
+    },
+    {
+      "path": "datasets/quality-cycle-02/review/fresh-06.jpg",
+      "sha256": "fabcb784a8529280fc9b06984c755fc5824471c51145aed8ad40e92ccd2827af"
+    },
+    {
+      "path": "docs/15-testing-and-qa/quality-cycle-02.md",
+      "sha256": "5e9c31eba4387937f936516c4426def4c0a29af47b51af10b310d665728163e9"
+    },
+    {
+      "path": "experiments/quality-cycle-02/app.before-http-cache-repair.source.txt",
+      "sha256": "7a007f38e4e1cea86e422b0385a138e267003f8ad5832067f2bc9b2fb5034ff5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/packages--core--policy.ts",
+      "sha256": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/packages--core--schema.ts",
+      "sha256": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/packages--vision--abrasion-cue.ts",
+      "sha256": "dead47a82cddd316efc43155c77645fb7138406a13a77687d0c90c4ea52c212e"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/packages--vision--inspection-prompt.ts",
+      "sha256": "f1f1acf1171a484ebf40556fefc61c55a44304bf72096a8eaa543472b1a1b5d4"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/packages--vision--inspection.ts",
+      "sha256": "596dcc860d3a76afa2f61c872f0033a8625a79f49fdeac60262ab4e992653b25"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/packages--vision--validation.ts",
+      "sha256": "4f0f38584b09368709d8de27c34a0b1f5e1905cb6f0492b8f42e15c543801074"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/packages--vision--verification-prompt.ts",
+      "sha256": "89524bb5b87e0b82ab404c5cf77c7905b89a28ea2f95e1e2e655b64dc4f74320"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/server--app.ts",
+      "sha256": "59d851df41297873634cfa93146d937588a1460b575f42d70668d40c4da21a7f"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/server--images.ts",
+      "sha256": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/tests--api.test.ts",
+      "sha256": "9d073399d12d6099e72dbd622f27ba6469680d89b82308f8a6d508aee5b32331"
+    },
+    {
+      "path": "experiments/quality-cycle-02/baseline/tests--inspection.test.ts",
+      "sha256": "12a313a39c3eb572d4db160dd4c786dc51e45170299ff1e565c108b1df5673f3"
+    },
+    {
+      "path": "experiments/quality-cycle-02/cosmetic-claims.ts",
+      "sha256": "da9a646c4ceda52d82f46fe37831cf3cacef7cb39585324a9e3177e8fdd7bbdf"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-commons-087.png",
+      "sha256": "d84c86e18424caaebb294ce70442db4c8a0dcfdad414dffb87d787fe53b4d106"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-commons-090.png",
+      "sha256": "4319d1f81835dc974763f22e30b484fea494c49a67481e6d52ee5921132fa494"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-commons-096.png",
+      "sha256": "650b3a3db4ea2ad772a4893917459c36e7916bf8c0569061145ed6d813441ff3"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-fabric-001.png",
+      "sha256": "b904e8784a37814ca0577a33b6e629b22990254786e3b682c3ac248360129aa9"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-fabric-012.png",
+      "sha256": "9416384930366823e528f6088e15047c38b9168461e1d1802fc1bb1ac0b76e14"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-fabric-051.png",
+      "sha256": "9afc98ab56be61b702b48c892b98fb41f95cde4ce489a1e686833ae08c64db82"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-fabric-058.png",
+      "sha256": "0ad6088e68a2795c63cd33d86e671766b15f235fea826162d8c3ad90673dae2d"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-fabric-066.png",
+      "sha256": "eb3c6fe272af37a14f4305a636313f779572657ae36a9bc5ca463d55531e7903"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-category-probe-fabric-067.png",
+      "sha256": "eb1d27727c35df17efb33093700bbe9714427c37bdb38cc1a7d6f7aacafb4da8"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-commons-002.png",
+      "sha256": "043253c6040e416c225cea282a1e541f70fb7d8676006300d08ffd78228a3ae8"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-commons-087.png",
+      "sha256": "be05c8d60ff1c3cda630ab041dd4f68e14b090f8a0adef6626960bd5dfcd8cb5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-commons-090.png",
+      "sha256": "953f303834abd9ee2b9936c9071266bcbfa7c41392abcdb4b7e44c1af251f9f5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-commons-096.png",
+      "sha256": "2fb664eeeb8ecb5be5bc9db1ac29bd506476488dd18eb853d55e397c036b048c"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-commons-098.png",
+      "sha256": "bcf25cc8aeb6c00d2911026db9fd8204a0c7a25927fea56abd6fe08e312e39be"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-commons-099.png",
+      "sha256": "d3d14249a218a56092c7079c4e17bbde4b572afeecdc5d1770a0bff89c2a08e2"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-001.png",
+      "sha256": "f241dacaf0a449b4062119f57d8e71a35ff127ddf33d727a5062e55ce67d0b7b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-007.png",
+      "sha256": "b0dcfcb21f196cc1d205231ef80b671cb764446e1e8d04b7424db2c9b56db974"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-011.png",
+      "sha256": "f82d5d25cdd646dfe0663296b0e59e4af82200221cb338261350e5672e58113c"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-012.png",
+      "sha256": "9d322f30d8a48c4b18a19856a1d2df1eff7663edf5205a753e296f360795cd2e"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-049.png",
+      "sha256": "db52a6d0c88234a7aaccbd97e071d56477b7fad5139c655ba77203cf8903a25c"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-051.png",
+      "sha256": "f561ff9415d00275756a7b9e8174ac10f3df0f043b8c4d7e89c9dbd548f6445b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-058.png",
+      "sha256": "3189f831863471467f0fc2a91d8b44ee84abeae7d71b38aef4b9c0d47e56fea1"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-066.png",
+      "sha256": "f263d834b3af5b60c9f7d071453d9db748c72964a2639b08c95a0db940b2b956"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-067.png",
+      "sha256": "eb1d27727c35df17efb33093700bbe9714427c37bdb38cc1a7d6f7aacafb4da8"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-069.png",
+      "sha256": "1db5c5ebd5a563d98b04a813e0c94a5871ca1bcc8b5941372c126018c7110f1b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/crops/localized-probe-v2-fabric-079.png",
+      "sha256": "32794d05861d4a939f2fcab11a2f35606dd453f2b65c15fd9d03b107d5ad3726"
+    },
+    {
+      "path": "experiments/quality-cycle-02/evidence-claims-v1.source.txt",
+      "sha256": "d0e4acf9c6cc45b8a53b4ff915d5b3dc8e3daf6262678eee5042b915b3ef1f19"
+    },
+    {
+      "path": "experiments/quality-cycle-02/evidence-claims-v2.source.txt",
+      "sha256": "84b442828aadff7556f5d3a95b3afd2b3e88c9d84ab902a3abee9f3d97bbec13"
+    },
+    {
+      "path": "experiments/quality-cycle-02/evidence-claims-v3.source.txt",
+      "sha256": "17fa39ebae5a2d2e79cb4109e4441cda1ee1d54b20ab5aa1bf1a2b83bbf9871b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-acquire.mjs",
+      "sha256": "ed78d3b57788d9eeab5bfe294888634df59e3f2f8eeea57604de4f6a54a27996"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-canary-final.ts",
+      "sha256": "a3ec8aa3e1538cbcd4742b749a7ba3d3806248f9909753aefafcb6ec230715e0"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-canary-selected.ts",
+      "sha256": "2cc9c00e58fd93d0587edbc4fcd278bd874dd9f6b3d77e5bb95d6db5286760f8"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-canary.ts",
+      "sha256": "0fd8dac8cc67d055f1d1da5378418e6f08b7165a8343014cd3ef04bd2ef7aad0"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-claim-equivalence.ts",
+      "sha256": "e19fca25a3a18cc93300efa958827e66ae3abb91c150db89b96b61e732a5f2c5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-contact.py",
+      "sha256": "63b242acfa2202b273ccd92a072209274bffee4b6d653a0b81d5f57cb30e4d03"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-contract.ts",
+      "sha256": "883862eb7bd81a24f561d995b91985450a747d2d7fd1ee9af9d6f7fa6fe3d009"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-cosmetic.ts",
+      "sha256": "27d186ce54d03aec47a1bb69fac50ed7db416f8b405912b1999a1499e9ebf735"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-crop-v2.ts",
+      "sha256": "63c240174ea0773ae79d9b56b8ba282c2da32d38e31573cab24fe590e312e7bf"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-crop-v3.ts",
+      "sha256": "dccc30878192ffc6b4b44af8eaf86f241654a8c9dacab5783d6ef3202fd2e070"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-crop.ts",
+      "sha256": "0d62891f397fd67b85d6cd000e0fa436b8a30da6b660814cb91b199e530a3c92"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-current-contact.py",
+      "sha256": "e892f9a8bb585bb7a83c2eeb974d01da47ec4f98335fa807790e1f0ac9de29cc"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-error-diagnostic.ts",
+      "sha256": "b936c0a195b357701504b2d9fd33807d854bc96e07c64ead4e23ffcb7fd62db0"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-final-evaluation.ts",
+      "sha256": "c4eb254e9b476b4a527acfe330883f48ba6424b74a5c009a388848e87f246893"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-final-five.mjs",
+      "sha256": "b72c9b0b5d751726a472ce10f204b1f66c8c1b277c927267bafb41c1a9c80446"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-focus-evaluate-final.ts",
+      "sha256": "d3225141b5ce92d24425d3f170c749551db413d413ae7de2c1b93332e852fd54"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-focus-evaluate-v2.ts",
+      "sha256": "1f4cd5e7098b7668d04e0061cf917ddd0897e39eff547d6d6c486dd3dad6cdc8"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-focus-evaluate-v3.ts",
+      "sha256": "474b0ce429fd4efbb96b04928539b4875a911ae669e202d0f3bf23035ad4821d"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-focus-evaluate.ts",
+      "sha256": "5433bc5db6333749a89aa751798177c0001c74c5fe2e92dc79472d5e9b4a3774"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-http-audit.ts",
+      "sha256": "a42d187d92dc967c5dead9b53143c326c40aefab6e4b3ee4795529436dc2b2b1"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-independent.ts",
+      "sha256": "20656524669911e37c1559b61476997ab6866e8b64479ccb90a5583660a4e261"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-live.ts",
+      "sha256": "9216154f8f613fb53b384b1d478cb21698197b6436c50bbf1ba5c0f9cc8c1162"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-neutral-gated.ts",
+      "sha256": "2f26d0ebba123afa7cb5fa65ee7dc39b2e19fdd22c1a0ca9c09a0bcd004879d0"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-neutral.ts",
+      "sha256": "12452f8dacf25b4a92bad0fc0c6a7593bc73558cd7ead2f92b636db562abd4ac"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-paired-repeat.ts",
+      "sha256": "d9d13198a74b0e0c9289e6a1cec1a86bbf95e201949d081db141552803962089"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-report.mjs",
+      "sha256": "5a601f483cabf8fe475494d6c3f30c2f2475aa9b642d5afb221f7fef00fff04c"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-review-reason.ts",
+      "sha256": "797f89f8eb83bc166158c375f8ee1d619f69ff8406dd61f7a59284624ddc8fea"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-review-template.html",
+      "sha256": "1239a9be35fe71e51ed0c9538f806cb4da7590b0d8be27e1f2a25e0f4f8efd61"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-review.ts",
+      "sha256": "177060553a04a737652161e8adf95926ea18f1d65bcac9bb865898c087a8acc5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-selected-contract.ts",
+      "sha256": "edec504df2a13c601ae2b6be5fe138f9d15387a54c3097be230cf85be0641bc6"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-selected-live.ts",
+      "sha256": "4481f9cef33923ffd0a67f7116e7be33dc49b2eb3e14ce626fd4dd49e77d9771"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-selected-replay.ts",
+      "sha256": "b642e6c74224e075a8b160903f8abeb1e6c7a84cc049c661b5de3124f3a73320"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-selected-scope.ts",
+      "sha256": "506de2c0fd0a17d5cb69a6891d21036428e0a60144602f60e99b5f00bd40b440"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-serve.mjs",
+      "sha256": "3d6de895d6aea0a6cd4847e2285dc5f8c3e8b87ac361892dda60edd520102c28"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-final-scripts/quality-cycle-02-text.ts",
+      "sha256": "0cd62d557431715ad03a0e409a530e637d0876e58540c0b500f0f04e5056dccc"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-acquire.mjs",
+      "sha256": "43d7185c889e849406d6c4def73c2044f8dd853bda1ac4e2dfaa0994364ecf77"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-canary.ts",
+      "sha256": "5f0446c842954bda6483c170b3905288f787fd65bf389a37113ffc4ea2851e1e"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-claim-equivalence.ts",
+      "sha256": "7742ed1e81f1e887025101d123748a65a68c747c1283e96c6ab78d02ac493e0e"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-contract.ts",
+      "sha256": "d31ad7860eb5a1e337baf001df15cab8a08eacd32f79c36c4ebd33a5f0825b7a"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-cosmetic.ts",
+      "sha256": "b59e5646b591b99f6d9bcb2cd164241f41a320cd126bff6bfd974d45036d65ce"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-crop-v2.ts",
+      "sha256": "c32b5fae83a28fe5f06fc2b1f03462b0d25029affd536177cf80ba922e89d3dd"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-crop-v3.ts",
+      "sha256": "d985c5cfdd3e82f523bac4054d975dca178e0a2bb9b3e56bcc84409153445e19"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-crop.ts",
+      "sha256": "b7b0531678b440237b2896f46bba93441157649c00cbb6f1b3ceee65d233e837"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-final-evaluation.ts",
+      "sha256": "bd1e7d133f22fce385cdcf6803943eb05aa4516978f85a08be7ea7f328206e4d"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-final-five.mjs",
+      "sha256": "613413a83b63a0fb78eae80baae861af0f98fd6a092ceb50c494073bd39874af"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-focus-evaluate-final.ts",
+      "sha256": "fc743ec2bab76d8576f6cbbf11a716a17540280300f9102e43bf4ab1a2984971"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-focus-evaluate-v2.ts",
+      "sha256": "feb33af5ed718cf67071e6cc8e6e2ee1ed0dbf88ba0a2787886d61153802d01b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-focus-evaluate-v3.ts",
+      "sha256": "b6fe27529633fbbf7e72dfb01f635f7f716d83cd33c595c9434020cccee0ece5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-focus-evaluate.ts",
+      "sha256": "d78c2535122a838b5600d896155b11d63368d95c537adaaca9b476d59ae0b01b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-http-audit-smoke.ts",
+      "sha256": "2346b5a0d02e40f992ab8cbb66dc2564834ecaea2eccfd053f2d9045adba0de3"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-independent.ts",
+      "sha256": "af12379a54b1a3262bc9740daa94a3e9b8f82c82ca11996a0cbacb86a86e3886"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-live.ts",
+      "sha256": "054fbb919b961ba30cf86bf54d8e9444b217f042d1a94895906a10d9fd7f92b3"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-neutral-gated.ts",
+      "sha256": "4c52fc5aa63a9296754814453f219f4215c06bef3b0e849b9ca0accbcea31541"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-neutral.ts",
+      "sha256": "6f585dd1075fc388982d7b2891d0dea794112ad7d988846e07d72c0ce7cccea1"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-paired-repeat.ts",
+      "sha256": "71af5eb3b866fc3b635fab3a14eb6e5e19f44f41e4212232aa52c7ee4428e4cc"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-review-reason.ts",
+      "sha256": "97fc03693b0f0b1ec374e53fb1c159be6a4f25c38459182003093ba44ad6eb35"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-review.ts",
+      "sha256": "a70ea521ad5545d9f9d3a1a32120f377bb12de5bb741060cd7375cb3bee0df34"
+    },
+    {
+      "path": "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-text.ts",
+      "sha256": "53d7fa6262e883d3d812d9faf181dcab0b731d60610fb8dbd223b292df31a1f7"
+    },
+    {
+      "path": "experiments/quality-cycle-02/failure-ledger-reviewed.json",
+      "sha256": "8b4996a592c8526d9475b02cf8239d77813f9fca8f9c0091b7ea0e14344a3557"
+    },
+    {
+      "path": "experiments/quality-cycle-02/failure-ledger.json",
+      "sha256": "8e8f3800dea9ec2c4861ab58785ae938f7613a2706aace068c621f17f8e207a7"
+    },
+    {
+      "path": "experiments/quality-cycle-02/final-five-acquisition.json",
+      "sha256": "168f2716a227a8865c06402113ed6b8b4fd4e03ab198005033d5d29e55cbc61f"
+    },
+    {
+      "path": "experiments/quality-cycle-02/final-five-selection.json",
+      "sha256": "a392a6a6431c8599f6e82752717a1b5a6e461e00a33d4d48e64c4db56215527f"
+    },
+    {
+      "path": "experiments/quality-cycle-02/final-holdout-protocol.json",
+      "sha256": "5e4c89490abc58c73660ff15affd089f589f90e353735085c24b0b2b4f1d66d3"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-context-inspection.ts",
+      "sha256": "a6b770b9550ca5c0a632eb344906cbbb0c5a7f4a35a118bc4e4405a64f51e3c5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-inspection.ts",
+      "sha256": "23fa54a47fb9e400f17aca3b232c14f868ee5f544fc37eec314b4a5d33b17f9b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-tear-before-scope.source.txt",
+      "sha256": "99932fef8b89650c34f01b3dea58a0bd8ad0c28b7106a15b958a01ca49b4d769"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-tear-context-v1.source.txt",
+      "sha256": "9819d4b84a77e2f1b422e6c5bc8ec75fd2efa9423a8c07282f2841e6e1e0bf9a"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-tear-context.ts",
+      "sha256": "09a23b38fab19c1746fa72dc4bd363719d5b95b0261dfc88e956e101199a7baa"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-tear.ts",
+      "sha256": "1272512fc1eb95af9be9b02d9bda60f5dd0d2674b227aeb68c8129708e3d1c30"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-tear.ts.before-failed-focus-cache.source.txt",
+      "sha256": "ce473aae69e67f06c58865de8299b5ccb004a9d7c086089727024f19f8c32b12"
+    },
+    {
+      "path": "experiments/quality-cycle-02/fresh-acquisition.json",
+      "sha256": "979455ac138df2ba220f51a12891740a51d2cc1cbb6cbedc154f54f728969180"
+    },
+    {
+      "path": "experiments/quality-cycle-02/fresh-labels.lock.json",
+      "sha256": "435835a545dcfc90f173afd33d805885ac1dd5ae2c5b80d81edea774228743fa"
+    },
+    {
+      "path": "experiments/quality-cycle-02/fresh-selection.json",
+      "sha256": "bb6c9ea84ef7fcc6bbe4ff4d564b950f05e670dd010289d7b5663b8e26b7ed30"
+    },
+    {
+      "path": "experiments/quality-cycle-02/harness/quality-cycle-02-focus-evaluate-v2.ts",
+      "sha256": "705abf6eab89e1b5aa43026228b641479f44e37563d17f2f7ad29400cea578d9"
+    },
+    {
+      "path": "experiments/quality-cycle-02/harness/quality-cycle-02-focus-evaluate.ts",
+      "sha256": "07f380f74b8409b87396d62f7b45b1adbe84ee55980070a00013ff6760ba219a"
+    },
+    {
+      "path": "experiments/quality-cycle-02/independent-review-v2.ts",
+      "sha256": "734df236f93c8878beb28eb8b5a1af65ff598b0fc7681054f3881a0236519515"
+    },
+    {
+      "path": "experiments/quality-cycle-02/inspection-before-review-repair.source.txt",
+      "sha256": "b65b90b6296551ffc6ee000ff4018cead689ee4db47e9be69cd3471ea75d77ae"
+    },
+    {
+      "path": "experiments/quality-cycle-02/inspection.ts.before-failed-focus-cache.source.txt",
+      "sha256": "4b3f380437d0fded9969d4bc216e1574ae4799d4026e615d88ccc8535efa12ca"
+    },
+    {
+      "path": "experiments/quality-cycle-02/localized-category-probe-protocol.json",
+      "sha256": "f1e3a77af24a4cc2634386201e0a4f16c989a00a71c340fab0f2cfb163a89b8b"
+    },
+    {
+      "path": "experiments/quality-cycle-02/localized-probe-protocol.json",
+      "sha256": "493515493220ab4870113096a27ac13cb57ac90e618180cb19376f0ce44dc849"
+    },
+    {
+      "path": "experiments/quality-cycle-02/localized-probe-v2-protocol.json",
+      "sha256": "66f4bca65989e9f6db6cbdee6973430e0178d4e088298d0a0dfc8a3a93f2861c"
+    },
+    {
+      "path": "experiments/quality-cycle-02/negative-evidence-selected.ts",
+      "sha256": "25702cf12f443df4b69550d29dfb1f99a863b73f7bf524b60a1547c877ebeed9"
+    },
+    {
+      "path": "experiments/quality-cycle-02/neutral-inspection-prompt.ts",
+      "sha256": "adaaa3a022c7351b10ccf3a01e141490a2d5cc0e682e14f039cc24c14d032435"
+    },
+    {
+      "path": "experiments/quality-cycle-02/neutral-inspection.ts",
+      "sha256": "817c5cac9694587cc641bfbc381a10470654a3f64db00279064c889ce3dc42fa"
+    },
+    {
+      "path": "experiments/quality-cycle-02/original-inspection.ts",
+      "sha256": "a37f126192fbc325fa7b2e7f27288b5b579abd5a8625f9e67c17f0fd9f41be36"
+    },
+    {
+      "path": "experiments/quality-cycle-02/physical-review-v1.ts",
+      "sha256": "08539050547545b8d5d45baeeec51068b10f7486c26108f924a5827c69ca7ac4"
+    },
+    {
+      "path": "experiments/quality-cycle-02/protocol.json",
+      "sha256": "dc64bb8d6f6939c83717074614a3cade058cf962a5d82be482d2839e8d9310f4"
+    },
+    {
+      "path": "experiments/quality-cycle-02/reconstructed-incomplete-cache-prototype.source.txt",
+      "sha256": "e84a4de7138f643c1365e0fe882b0d5ec4da9990a004a4b7541e0b85a878c8ab"
+    },
+    {
+      "path": "experiments/quality-cycle-02/review-repair-array-prototype.source.txt",
+      "sha256": "4db1eeb2fa987df739d70b17c5beeb0543594472abe375af43016223932c8b41"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/packages--vision--cache-policy.ts",
+      "sha256": "93490c72093f14e19771be29961ebca321829d935e10dfc184384f0884b51f63"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/packages--vision--evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/packages--vision--focused-tear.ts",
+      "sha256": "b17b87124700ad7295e3ec79b361f4d521693f4456cb84f3c5f454f9fa00805e"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/packages--vision--inspection.ts",
+      "sha256": "ecf14d202fdae0466040f2a1d7e8d7d357848aab3ab1fa4bdebfbaca112b3193"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/packages--vision--review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/server--app.ts",
+      "sha256": "80c55ff73b19b4cee0b1fe7765974816f61337945c45df9081f7cd5153e55c3d"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/tests--api.test.ts",
+      "sha256": "97231503d6096129ed51441b29315d0ed4ccc9ed8633a75d39105df80697e9a3"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/tests--evidence-contract.test.ts",
+      "sha256": "3b47d6d119171cf1d4f9eb9da7fad6d31554a0f5f2fec2664596958b65d1af97"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/tests--focused-tear.test.ts",
+      "sha256": "7d7db77fcc5ac0856a32e461675d66f0efb6cf59e6b27dca4f3de9d2ff758646"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/tests--inspection.test.ts",
+      "sha256": "6398ed3bd9f29eb0f3977fed8a8f379524862ee59aee15d940dc47a4da92ec44"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected-final/tests--review-repair.test.ts",
+      "sha256": "92ba0eecad41e865af039965c550ae5103a64f29a834bd58590de66a49cdfac8"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected/focused-context-inspection.ts",
+      "sha256": "a6b770b9550ca5c0a632eb344906cbbb0c5a7f4a35a118bc4e4405a64f51e3c5"
+    },
+    {
+      "path": "experiments/quality-cycle-02/selected/focused-tear-context.ts",
+      "sha256": "09a23b38fab19c1746fa72dc4bd363719d5b95b0261dfc88e956e101199a7baa"
+    },
+    {
+      "path": "experiments/quality-cycle-02/text-assertion-v1-protocol.json",
+      "sha256": "5a1877fb100bf5d06495c5013f461b8048a12ad6d5db1ce01671a8e8644055e9"
+    },
+    {
+      "path": "output/playwright/quality-cycle-02/comparison-390.png",
+      "sha256": "94db236aa57fb7be807f716cb7d9ef0257ff0a8ee954b934abec3a883096ba8a"
+    },
+    {
+      "path": "output/playwright/quality-cycle-02/comparison-detail-390.png",
+      "sha256": "c97615abddce2bc83c838e366548e85652a7ad35fb54ba09ddbd58aef8300244"
+    },
+    {
+      "path": "output/playwright/quality-cycle-02/comparison-top-390.png",
+      "sha256": "e911defd57211ca40fcd1be842e5116d43bf40767821e7bc8fcb60a6c6487da9"
+    },
+    {
+      "path": "output/playwright/quality-cycle-02/graphic-control-390.png",
+      "sha256": "d66b936a250d0ced9abe6dec977002320a3a765aa7ffd2e20cb806be0f7cca40"
+    },
+    {
+      "path": "output/playwright/quality-cycle-02/result-390.png",
+      "sha256": "244e60dbfe9694328b0e59ef42d38eaf95e1fb43b9984b52cbb0adbb89963ce2"
+    },
+    {
+      "path": "scripts/quality-cycle-02-acquire.mjs",
+      "sha256": "ed78d3b57788d9eeab5bfe294888634df59e3f2f8eeea57604de4f6a54a27996"
+    },
+    {
+      "path": "scripts/quality-cycle-02-cache-fixed-replay.ts",
+      "sha256": "e83b89018dfd750388a775e528287eb1e70df28539cfd107cdad0762425b4d37"
+    },
+    {
+      "path": "scripts/quality-cycle-02-canary-final.ts",
+      "sha256": "a3ec8aa3e1538cbcd4742b749a7ba3d3806248f9909753aefafcb6ec230715e0"
+    },
+    {
+      "path": "scripts/quality-cycle-02-canary-selected.ts",
+      "sha256": "7571f915f0ed2277807f70cdb74af0f3369d82a1a5fab575423ffba7275a79c2"
+    },
+    {
+      "path": "scripts/quality-cycle-02-canary.ts",
+      "sha256": "0fd8dac8cc67d055f1d1da5378418e6f08b7165a8343014cd3ef04bd2ef7aad0"
+    },
+    {
+      "path": "scripts/quality-cycle-02-claim-equivalence.ts",
+      "sha256": "e19fca25a3a18cc93300efa958827e66ae3abb91c150db89b96b61e732a5f2c5"
+    },
+    {
+      "path": "scripts/quality-cycle-02-contact.py",
+      "sha256": "63b242acfa2202b273ccd92a072209274bffee4b6d653a0b81d5f57cb30e4d03"
+    },
+    {
+      "path": "scripts/quality-cycle-02-contract.ts",
+      "sha256": "883862eb7bd81a24f561d995b91985450a747d2d7fd1ee9af9d6f7fa6fe3d009"
+    },
+    {
+      "path": "scripts/quality-cycle-02-cosmetic.ts",
+      "sha256": "27d186ce54d03aec47a1bb69fac50ed7db416f8b405912b1999a1499e9ebf735"
+    },
+    {
+      "path": "scripts/quality-cycle-02-crop-v2.ts",
+      "sha256": "63c240174ea0773ae79d9b56b8ba282c2da32d38e31573cab24fe590e312e7bf"
+    },
+    {
+      "path": "scripts/quality-cycle-02-crop-v3.ts",
+      "sha256": "dccc30878192ffc6b4b44af8eaf86f241654a8c9dacab5783d6ef3202fd2e070"
+    },
+    {
+      "path": "scripts/quality-cycle-02-crop.ts",
+      "sha256": "0d62891f397fd67b85d6cd000e0fa436b8a30da6b660814cb91b199e530a3c92"
+    },
+    {
+      "path": "scripts/quality-cycle-02-current-contact.py",
+      "sha256": "e892f9a8bb585bb7a83c2eeb974d01da47ec4f98335fa807790e1f0ac9de29cc"
+    },
+    {
+      "path": "scripts/quality-cycle-02-error-diagnostic.ts",
+      "sha256": "9987aa32a6d1350abd623ae48ac1a5db2cd035b94c380ae6e18da9fb5fc98fc0"
+    },
+    {
+      "path": "scripts/quality-cycle-02-final-evaluation.ts",
+      "sha256": "c4eb254e9b476b4a527acfe330883f48ba6424b74a5c009a388848e87f246893"
+    },
+    {
+      "path": "scripts/quality-cycle-02-final-five.mjs",
+      "sha256": "b72c9b0b5d751726a472ce10f204b1f66c8c1b277c927267bafb41c1a9c80446"
+    },
+    {
+      "path": "scripts/quality-cycle-02-final-live.ts",
+      "sha256": "3636dd03cd841fddab1f7ae99a95f85e2b44d594aa74130c7cf132567eafe9ef"
+    },
+    {
+      "path": "scripts/quality-cycle-02-final-replay.ts",
+      "sha256": "61dcb9118d18c8a4caee81da6042b4d761243e3eb3a936b6baaaceb0d6e6b13c"
+    },
+    {
+      "path": "scripts/quality-cycle-02-focus-evaluate-final.ts",
+      "sha256": "d3225141b5ce92d24425d3f170c749551db413d413ae7de2c1b93332e852fd54"
+    },
+    {
+      "path": "scripts/quality-cycle-02-focus-evaluate-v2.ts",
+      "sha256": "1f4cd5e7098b7668d04e0061cf917ddd0897e39eff547d6d6c486dd3dad6cdc8"
+    },
+    {
+      "path": "scripts/quality-cycle-02-focus-evaluate-v3.ts",
+      "sha256": "474b0ce429fd4efbb96b04928539b4875a911ae669e202d0f3bf23035ad4821d"
+    },
+    {
+      "path": "scripts/quality-cycle-02-focus-evaluate.ts",
+      "sha256": "5433bc5db6333749a89aa751798177c0001c74c5fe2e92dc79472d5e9b4a3774"
+    },
+    {
+      "path": "scripts/quality-cycle-02-http-audit.ts",
+      "sha256": "a42d187d92dc967c5dead9b53143c326c40aefab6e4b3ee4795529436dc2b2b1"
+    },
+    {
+      "path": "scripts/quality-cycle-02-independent.ts",
+      "sha256": "20656524669911e37c1559b61476997ab6866e8b64479ccb90a5583660a4e261"
+    },
+    {
+      "path": "scripts/quality-cycle-02-live.ts",
+      "sha256": "9216154f8f613fb53b384b1d478cb21698197b6436c50bbf1ba5c0f9cc8c1162"
+    },
+    {
+      "path": "scripts/quality-cycle-02-neutral-gated.ts",
+      "sha256": "2f26d0ebba123afa7cb5fa65ee7dc39b2e19fdd22c1a0ca9c09a0bcd004879d0"
+    },
+    {
+      "path": "scripts/quality-cycle-02-neutral.ts",
+      "sha256": "12452f8dacf25b4a92bad0fc0c6a7593bc73558cd7ead2f92b636db562abd4ac"
+    },
+    {
+      "path": "scripts/quality-cycle-02-package.py",
+      "sha256": "74de6f22aafb1755e01d570217c9fc92c8de23e8a12cdb234cd9dd1c9bcf6ef0"
+    },
+    {
+      "path": "scripts/quality-cycle-02-paired-repeat.ts",
+      "sha256": "d9d13198a74b0e0c9289e6a1cec1a86bbf95e201949d081db141552803962089"
+    },
+    {
+      "path": "scripts/quality-cycle-02-report.mjs",
+      "sha256": "d0facc86ccffbf57225570764ca69eefa03714e78e738cc88a6cf790acfdcaf3"
+    },
+    {
+      "path": "scripts/quality-cycle-02-review-reason.ts",
+      "sha256": "797f89f8eb83bc166158c375f8ee1d619f69ff8406dd61f7a59284624ddc8fea"
+    },
+    {
+      "path": "scripts/quality-cycle-02-review-template.html",
+      "sha256": "da4ba89e78596c600cb27b6473f04a579d5e1922739b4f39f0cfed4354ac0e6f"
+    },
+    {
+      "path": "scripts/quality-cycle-02-review.ts",
+      "sha256": "177060553a04a737652161e8adf95926ea18f1d65bcac9bb865898c087a8acc5"
+    },
+    {
+      "path": "scripts/quality-cycle-02-selected-contract.ts",
+      "sha256": "edec504df2a13c601ae2b6be5fe138f9d15387a54c3097be230cf85be0641bc6"
+    },
+    {
+      "path": "scripts/quality-cycle-02-selected-live.ts",
+      "sha256": "5d22b28ff93d74000cf6f3b1d4ced6307712e5c6d15259cae8d64eb3763c9964"
+    },
+    {
+      "path": "scripts/quality-cycle-02-selected-replay.ts",
+      "sha256": "b642e6c74224e075a8b160903f8abeb1e6c7a84cc049c661b5de3124f3a73320"
+    },
+    {
+      "path": "scripts/quality-cycle-02-selected-scope.ts",
+      "sha256": "3640f569d5c45f55510ba566ba9c23881619098bcf49343dbdc33b67f56d953f"
+    },
+    {
+      "path": "scripts/quality-cycle-02-serve.mjs",
+      "sha256": "31b09331052c40188b5ad81378031239157c7c6a934e20f9581b339952835fb6"
+    },
+    {
+      "path": "scripts/quality-cycle-02-text.ts",
+      "sha256": "0cd62d557431715ad03a0e409a530e637d0876e58540c0b500f0f04e5056dccc"
+    }
+  ]
+}

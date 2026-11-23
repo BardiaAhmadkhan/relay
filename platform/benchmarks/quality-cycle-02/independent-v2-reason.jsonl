@@ -1,0 +1,5 @@
+{"id":"commons-001","condition":"no_visible_defect","version":"independent-structure-2","reasoning":true,"ms":12605.3243,"value":{"subject":"scene","findings":[]},"usage":{"input":1065,"output":1011}}
+{"id":"commons-031","error":"Expected values to be strictly equal:\n\n'length' !== 'stop'\n","ms":35637.392700000004}
+{"id":"commons-035","condition":"no_visible_defect","version":"independent-structure-2","reasoning":true,"ms":11673.397800000006,"value":{"subject":"finished_item","findings":[]},"usage":{"input":1095,"output":968}}
+{"id":"commons-043","condition":"no_visible_defect","version":"independent-structure-2","reasoning":true,"ms":11211.950500000006,"value":{"subject":"uncertain","findings":[]},"usage":{"input":1005,"output":916}}
+{"id":"commons-065","condition":"no_visible_defect","version":"independent-structure-2","reasoning":true,"ms":9724.272099999987,"value":{"subject":"uncertain","findings":[]},"usage":{"input":915,"output":803}}

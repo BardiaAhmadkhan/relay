@@ -1,0 +1,15 @@
+{
+  "referencePolicySha256": "a97fb6872959d45745f6104453d24cc614a63d5c26cc53a3cca5c437754fd845",
+  "currentPolicySha256": "ad076c9fd5b5ce2793af02e9e047816d2801d0d14a9e25f0b3941a1f28812ff2",
+  "rawScoresSha256": "2c281f74d9a68c330baa0705cf88d4210702819b5e00b3c433b9a43d3800872a",
+  "actual4BScoreRecords": 261,
+  "controlledContexts": 24,
+  "totalComparisons": 6264,
+  "entireDecisionMismatches": 0,
+  "outcomes": {
+    "retake": 918,
+    "review": 918,
+    "no_offer": 4428
+  },
+  "limitations": "The archived calibration rows identify the tag, not the runtime digest. This tests ordinary policy parity with historical thresholds; the separate service smoke verifies the pinned running digest."
+}

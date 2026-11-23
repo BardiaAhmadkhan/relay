@@ -1,0 +1,264 @@
+{
+  "apk": "C:\\gear-recognition-lab\\app\\android\\app\\build\\outputs\\apk\\release\\app-release.apk",
+  "bytes": 3316296350,
+  "sha256": "447307420510cd06595fb34c91bf9e56f9c2c4d799d9a7ffc2f098169f9353bd",
+  "models": [
+    {
+      "name": "vision.gguf",
+      "bytes": 2648593216,
+      "sha256": "a9d0a3e1d8c91732a3812becd31f8d4a8ff57414903f226306069f0437e2ac50",
+      "compressedBytes": 2600702279
+    },
+    {
+      "name": "projector.gguf",
+      "bytes": 675569120,
+      "sha256": "e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60",
+      "compressedBytes": 531940736
+    }
+  ],
+  "nativeLibraries": [
+    {
+      "name": "lib/arm64-v8a/libappmodules.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libbarhopper_v3.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libc++_shared.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libexpo-modules-core.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libfbjni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libgifimage.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libhermestooling.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libhermesvm.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libimagepipeline.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libjsi.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libnative-filters.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libnative-imagetranscoder.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libreact_codegen_rnsvg.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libreactnative.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod_i8mm.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod_i8mm_hexagon_opencl.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_i8mm.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_dotprod.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_dotprod_i8mm.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_dotprod_i8mm_hexagon_opencl.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_i8mm.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libstatic-webp.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libsurface_util_jni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/arm64-v8a/libzstd-kmp.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libappmodules.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libbarhopper_v3.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libc++_shared.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libexpo-modules-core.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libfbjni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libgifimage.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libhermestooling.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libhermesvm.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libimage_processing_util_jni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libimagepipeline.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libjsi.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libnative-filters.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libnative-imagetranscoder.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libreact_codegen_rnsvg.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libreact_codegen_safeareacontext.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libreactnative.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/librnllama.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/librnllama_jni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/librnllama_jni_x86_64.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/librnllama_x86_64.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libstatic-webp.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libsurface_util_jni.so",
+      "minLoadAlignment": 16384
+    },
+    {
+      "name": "lib/x86_64/libzstd-kmp.so",
+      "minLoadAlignment": 16384
+    }
+  ],
+  "mergedManifestHasInternetPermission": false,
+  "badging": [
+    "package: name='ca.relaygearlab.experimental' versionCode='2' versionName='0.2.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+    "sdkVersion:'24'",
+    "targetSdkVersion:'36'",
+    "native-code: 'arm64-v8a' 'x86_64'"
+  ],
+  "permissions": [
+    "package: ca.relaygearlab.experimental",
+    "uses-permission: name='android.permission.CAMERA'",
+    "uses-permission: name='android.permission.READ_EXTERNAL_STORAGE' maxSdkVersion='32'",
+    "uses-permission: name='android.permission.VIBRATE'",
+    "uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE' maxSdkVersion='32'",
+    "permission: ca.relaygearlab.experimental.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "uses-permission: name='ca.relaygearlab.experimental.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+  ],
+  "signer": "Signer #1 certificate SHA-256 digest: fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+  "sameSignerAsPreviousApk": true,
+  "zipAlignment16KiB": true
+}

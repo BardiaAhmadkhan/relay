@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-10-26T19:22:29.373Z",
+  "scope": "Read-only research supporting a low-resolution representation hypothesis; not proof of gear-detection quality.",
+  "sources": [
+    {
+      "url": "https://github.com/QwenLM/Qwen3-VL",
+      "use": "Official processor guidance uses a 32-pixel spatial compression factor and configurable pixel/token budgets."
+    },
+    {
+      "url": "https://github.com/ollama/ollama/issues/17218",
+      "use": "Reported Qwen3.5 runtime/tokenization regression; collaborator describes LLAMA_ARG_IMAGE_MIN_TOKENS. Not treated as proof our runtime has the identical defect."
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/issues/16842",
+      "use": "Primary implementation discussion on QwenVL image sizing; motivates the controlled rendering experiments."
+    }
+  ],
+  "localEvidence": "In the probe, extraction prompt tokens increased from 480 to 1436 after bounded enlargement, with unchanged model weights and task prompt. No claim that interpolation restores lost physical detail."
+}

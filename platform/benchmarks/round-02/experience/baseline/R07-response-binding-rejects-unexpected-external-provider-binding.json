@@ -1,0 +1,45 @@
+{
+  "kind": "unexpected-external-provider",
+  "acceptedResult": true,
+  "observation": {
+    "schemaVersion": "1.0",
+    "category": "motorcycle_jacket",
+    "attributes": [],
+    "concerns": [],
+    "missingViews": [],
+    "multipleItems": false,
+    "provider": "openai",
+    "model": "unconsented-model",
+    "coverage": "visual_observations",
+    "durationMs": 1,
+    "usage": null
+  },
+  "returnedPhotos": [
+    {
+      "id": "d2cd8464-0357-4751-8f7d-3025d0d41079",
+      "view": "front"
+    },
+    {
+      "id": "828d6287-5796-4cb6-8088-a183a6f149cb",
+      "view": "back"
+    },
+    {
+      "id": "33d61889-29c8-49dc-9fe6-a7d4848cc3c7",
+      "view": "label"
+    }
+  ],
+  "expectedPhotos": [
+    {
+      "id": "d2cd8464-0357-4751-8f7d-3025d0d41079",
+      "view": "front"
+    },
+    {
+      "id": "828d6287-5796-4cb6-8088-a183a6f149cb",
+      "view": "back"
+    },
+    {
+      "id": "33d61889-29c8-49dc-9fe6-a7d4848cc3c7",
+      "view": "label"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "at": "2026-10-26T19:48:38.174Z",
+  "health": {
+    "status": "ok",
+    "schemaVersion": "1.0",
+    "policyVersion": "2026-10-26.2",
+    "provider": "local_vlm",
+    "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+    "externalProvider": false,
+    "processing": "ephemeral",
+    "coverage": "visual_observations",
+    "maxImages": 6
+  },
+  "runtime": {
+    "version": "0.40.4"
+  },
+  "rows": [
+    {
+      "id": "round05-normal",
+      "view": "front",
+      "elapsedMs": 4418.7037,
+      "body": {
+        "schemaVersion": "1.0",
+        "assessmentId": "round05-normal",
+        "status": "complete",
+        "photos": [
+          {
+            "id": "round05-normal",
+            "view": "front",
+            "sha256": "14178a2fd1b8b5125df96b80440e2155e242b995120ebd95a603ef07a735eb1e",
+            "byteLength": 10242,
+            "quality": {
+              "width": 240,
+              "height": 320,
+              "brightness": 129.5262663411402,
+              "sharpness": 1249.133919539324,
+              "warnings": [
+                "low_resolution"
+              ]
+            }
+          }
+        ],
+        "observation": {
+          "schemaVersion": "1.0",
+          "category": "motorcycle_jacket",
+          "attributes": [
+            {
+              "field": "material",
+              "value": "leather",
+              "kind": "inference",
+              "imageIds": [
+                "round05-normal"
+              ]
+            }
+          ],
+          "concerns": [
+            {
+              "kind": "abrasion",
+              "area": "unknown",
+              "imageId": "round05-normal"
+            }
+          ],
+          "missingViews": [
+            "back",
+            "label"
+          ],
+          "multipleItems": false,
+          "inspection": {
+            "version": "photo-evidence-1",
+            "photos": [
+              {
+                "findings": [
+                  {
+                    "evidence": "irregular loss of surface coating",
+                    "zone": "unknown",
+                    "kind": "abrasion",
+                    "clarity": "possible"
+                  }
+                ],
+                "crashPattern": "unclear",
+                "category": "motorcycle_jacket",
+                "material": "leather",
+                "imageId": "round05-normal"
+              }
+            ]
+          },
+          "provider": "local_vlm",
+          "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+          "coverage": "visual_observations",
+          "durationMs": 4393.4356999999945,
+          "usage": {
+            "inputTokens": 2135,
+            "outputTokens": 311
+          }
+        },
+        "decision": {
+          "state": "human_inspection",
+          "policyVersion": "2026-10-26.2",
+          "title": "A detail needs a closer look",
+          "summary": "A possible defect needs checking. The item stays on hold for specialist inspection.",
+          "reasons": [
+            {
+              "code": "concern_abrasion",
+              "text": "Visible area: irregular loss of surface coating"
+            }
+          ],
+          "nextAction": "Set this item aside for physical inspection. Adding a clean view or changing a history answer does not establish protective performance.",
+          "offerRecommended": false,
+          "protectivePerformanceCertified": false
+        },
+        "timing": {
+          "totalMs": 4410.071400000001,
+          "preprocessingMs": 13.912499999998545,
+          "inferenceMs": 4393.4356999999945,
+          "cached": false
+        }
+      }
+    },
+    {
+      "id": "round05-reuse",
+      "view": "back",
+      "elapsedMs": 20.411199999999553,
+      "body": {
+        "schemaVersion": "1.0",
+        "assessmentId": "round05-reuse",
+        "status": "complete",
+        "photos": [
+          {
+            "id": "round05-reuse",
+            "view": "back",
+            "sha256": "14178a2fd1b8b5125df96b80440e2155e242b995120ebd95a603ef07a735eb1e",
+            "byteLength": 10242,
+            "quality": {
+              "width": 240,
+              "height": 320,
+              "brightness": 129.5262663411402,
+              "sharpness": 1249.133919539324,
+              "warnings": [
+                "low_resolution"
+              ]
+            }
+          }
+        ],
+        "observation": {
+          "schemaVersion": "1.0",
+          "category": "motorcycle_jacket",
+          "attributes": [
+            {
+              "field": "material",
+              "value": "leather",
+              "kind": "inference",
+              "imageIds": [
+                "round05-reuse"
+              ]
+            }
+          ],
+          "concerns": [
+            {
+              "kind": "abrasion",
+              "area": "unknown",
+              "imageId": "round05-reuse"
+            }
+          ],
+          "missingViews": [
+            "front",
+            "label"
+          ],
+          "multipleItems": false,
+          "inspection": {
+            "version": "photo-evidence-1",
+            "photos": [
+              {
+                "findings": [
+                  {
+                    "evidence": "irregular loss of surface coating",
+                    "zone": "unknown",
+                    "kind": "abrasion",
+                    "clarity": "possible"
+                  }
+                ],
+                "crashPattern": "unclear",
+                "category": "motorcycle_jacket",
+                "material": "leather",
+                "imageId": "round05-reuse"
+              }
+            ]
+          },
+          "provider": "local_vlm",
+          "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+          "coverage": "visual_observations",
+          "durationMs": 0.0539000000062515,
+          "usage": {
+            "inputTokens": 0,
+            "outputTokens": 0
+          }
+        },
+        "decision": {
+          "state": "human_inspection",
+          "policyVersion": "2026-10-26.2",
+          "title": "A detail needs a closer look",
+          "summary": "A possible defect needs checking. The item stays on hold for specialist inspection.",
+          "reasons": [
+            {
+              "code": "concern_abrasion",
+              "text": "Visible area: irregular loss of surface coating"
+            }
+          ],
+          "nextAction": "Set this item aside for physical inspection. Adding a clean view or changing a history answer does not establish protective performance.",
+          "offerRecommended": false,
+          "protectivePerformanceCertified": false
+        },
+        "timing": {
+          "totalMs": 10.690699999999197,
+          "preprocessingMs": 10.260999999998603,
+          "inferenceMs": 0.0539000000062515,
+          "cached": false
+        }
+      }
+    }
+  ]
+}

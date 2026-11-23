@@ -1,0 +1,18 @@
+{
+  "version": "relay-original-4b-transfer-05",
+  "studyType": "unguided",
+  "arms": {
+    "base": 0
+  },
+  "parameters": {
+    "text": 4205751296,
+    "vision": 333514240
+  },
+  "referenceDigest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "maxParameters": 4539265536,
+  "maxLearnedBytes": 3324162336,
+  "salt": "relay-native-4b-crossover-05",
+  "rationale": "The owner clarified that the original model called 4B, including its projector, is the live size ceiling. The fixed 2B studies were faster research. Evaluate the replicated location method on original stock 4B before enabling it in Relay. No weight edit is promoted by this comparison.",
+  "primary": "On the same two disjoint Wargon sets from rounds 1 and 2 (32 holes +32 spots each), compare the original unplanned broken question on the source-mark chip versus the retained whole photo using stock 4B. Require positive region-minus-whole pair-ranking AUC in each independent item set, positive pooled stratified paired bootstrap 95% lower bound (5000 trials, seed 11807), complete scores, and exact stock repeat readback. Do not threshold the mark into an autonomous offer or exclusion. If the conditions fail, keep the mark in research until a new independent qualification. Report the 2B reference on exactly the same hashes and paired class-specific errors at diagnostic 0.50 separately.",
+  "limits": "Ordinary apparel, publisher-supplied locations rather than actual rider taps, and a spot label applies to its annotated region. Whole-frame comparisons are diagnostic. No 2B safetensors may be cross-loaded into the non-identical 4B architecture."
+}

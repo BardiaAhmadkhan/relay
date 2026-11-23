@@ -1,0 +1,18 @@
+{
+  "vision-half": {
+    "projectorSha256": "4188179917eccb20a033fb009531f06ab9c39bedb70f62d629ce84ca93d475ff",
+    "bytes": 671372768
+  },
+  "vision-full": {
+    "projectorSha256": "e104246dc12bcf7879408e07cb63527bc03ec247e368cda49b59d7b36e0c8d1b",
+    "bytes": 671372768
+  },
+  "attention": {
+    "projectorSha256": "dd8a15768e5fe948d4cb2960812f5bbf03bbaa4e2da53fc04068561cb1b209b2",
+    "bytes": 671372768
+  },
+  "mlp": {
+    "projectorSha256": "40d6fe7b1946b52ae30f469eb9cee1b53085f3cc13bd5d0102595f0d695bdd88",
+    "bytes": 671372768
+  }
+}

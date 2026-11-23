@@ -1,0 +1,23 @@
+{
+  "startedAt": "2026-10-26T22:52:37.191Z",
+  "set": "final",
+  "cases": 5,
+  "mode": "New actual baseline inference plus isolated candidate recovery",
+  "model": "qwen3.5:4b",
+  "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "sourceHashes": [
+    {
+      "path": "experiments/quality-cycle-02/focused-tear-context.ts",
+      "sha256": "09a23b38fab19c1746fa72dc4bd363719d5b95b0261dfc88e956e101199a7baa"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "scripts/quality-cycle-02-focus-evaluate-final.ts",
+      "sha256": "fc743ec2bab76d8576f6cbbf11a716a17540280300f9102e43bf4ab1a2984971"
+    }
+  ],
+  "gate": "No recovery on any visually negative image; no lost or altered previously matched positive evidence; every new recovery inspected for correspondence. Ambiguous images separate. Operational fallback preserves baseline. Fresh labels frozen before this run."
+}

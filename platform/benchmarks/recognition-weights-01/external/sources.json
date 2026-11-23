@@ -1,0 +1,616 @@
+{
+  "atUtc": "2026-11-19T04:58:09.234083+00:00",
+  "protocolSha": "2af3cd1b17abe78ad3f44090cf402e08c90399c08088dfd15d3d69cd0095aa98",
+  "wargon": {
+    "holesItemsSelected": 12,
+    "spotsPolygonInstances": 3,
+    "spotsItemsSelected": 12
+  },
+  "rise": {
+    "goldIdGroupsWithExplicitVotes": 97,
+    "consensusPools": {
+      "holes": 1,
+      "no_holes": 88
+    },
+    "selectedPerClass": 1,
+    "mixedGroups": 6,
+    "insufficientIndependentRecords": 2,
+    "unmappedMetadataFiles": 28,
+    "goldZipSpanBytes": 236170246,
+    "fullArchiveBytes": 26812054849
+  },
+  "members": [
+    {
+      "id": "w-holes-20260304_132531_b2b5ea30",
+      "item": "20260304_132531_b2b5ea30",
+      "date": "20260304",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260304_132531_b2b5ea30_front_nobg_png.rf.d9dbdfe093745dc45b4d7f69db5fe711.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260304_132531_b2b5ea30_front_nobg_png.rf.d9dbdfe093745dc45b4d7f69db5fe711.jpg",
+      "sourceSha256": "af46dba614c94aae74e733a32a212f580c06b723049c9d45aa24e1bd6da6a315",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260304_132531_b2b5ea30_front_nobg_png.rf.d9dbdfe093745dc45b4d7f69db5fe711.txt",
+      "labelSha256": "6dd9ba89e965159d4689e8ac4f84da179385f5b458046055acc7d803e48f1595",
+      "box": [
+        0.3875,
+        0.56875,
+        0.0109375,
+        0.02734375
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260302_105956_8a5451af",
+      "item": "20260302_105956_8a5451af",
+      "date": "20260302",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260302_105956_8a5451af_front_nobg_png_png.rf.d969ad1bf255c9894f3926797cdcfb57.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260302_105956_8a5451af_front_nobg_png_png.rf.d969ad1bf255c9894f3926797cdcfb57.jpg",
+      "sourceSha256": "c0dfadc36320f3ea9f1e940422307950065b2e453c2791a1606f6b8554ea9657",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260302_105956_8a5451af_front_nobg_png_png.rf.d969ad1bf255c9894f3926797cdcfb57.txt",
+      "labelSha256": "8b3006131f5e626255334d4f11bada4d6ecb04cc06bc941f3ea9c679389a1377",
+      "box": [
+        0.440125,
+        0.74765625,
+        0.0067916666666667,
+        0.003992187499999981
+      ],
+      "countBoxes": 10,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260302_095252_35866721",
+      "item": "20260302_095252_35866721",
+      "date": "20260302",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260302_095252_35866721_front_nobg_png.rf.0e58a4926955fdcae51361523b562ba7.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260302_095252_35866721_front_nobg_png.rf.0e58a4926955fdcae51361523b562ba7.jpg",
+      "sourceSha256": "163a19b55fff0f2eea79e31c7cd2b854ee564b369e37a5652b49fbaf008e4d46",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260302_095252_35866721_front_nobg_png.rf.0e58a4926955fdcae51361523b562ba7.txt",
+      "labelSha256": "490e5dce51b64e3f6c3f7d1eeff4926094f2b429e515a871d1ec05e07c7f98da",
+      "box": [
+        0.059027777777777776,
+        0.6828333333333333,
+        0.0663564814814815,
+        0.012369791666666666
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260303_141447_feb95922",
+      "item": "20260303_141447_feb95922",
+      "date": "20260303",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260303_141447_feb95922_front_nobg_png.rf.7756b28f083e428e59a12523a8fdfb07.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260303_141447_feb95922_front_nobg_png.rf.7756b28f083e428e59a12523a8fdfb07.jpg",
+      "sourceSha256": "97dcdcc2f99063eaf0700a42138c424f1262e5c3fd58c77fea5fe302ce0fe3c5",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260303_141447_feb95922_front_nobg_png.rf.7756b28f083e428e59a12523a8fdfb07.txt",
+      "labelSha256": "caaae8157091f0df20e203c03075152d715f2de002fc7de037702d426d1e5f98",
+      "box": [
+        0.1484375,
+        0.490625,
+        0.03515625,
+        0.0203125
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260317_150658_4db3e9bc",
+      "item": "20260317_150658_4db3e9bc",
+      "date": "20260317",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260317_150658_4db3e9bc_front_nobg_png.rf.17bf804c6777429e6678acb6554f71e2.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260317_150658_4db3e9bc_front_nobg_png.rf.17bf804c6777429e6678acb6554f71e2.jpg",
+      "sourceSha256": "a306e7203ab8c8b20c9f64caaafd33732f5f545a2fd9b9606467aa46b7db24d6",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260317_150658_4db3e9bc_front_nobg_png.rf.17bf804c6777429e6678acb6554f71e2.txt",
+      "labelSha256": "508b20f3d0d3b7304654dacc745a56737052ab949c38c1e6870428dbcb011178",
+      "box": [
+        0.35756018518518523,
+        0.6003463541666666,
+        0.04660648148148151,
+        0.04479166666666667
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260227_083110_bfbdd559",
+      "item": "20260227_083110_bfbdd559",
+      "date": "20260227",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260227_083110_bfbdd559_front_nobg_png.rf.79b122cb666570f55391bd5bbe2086b5.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260227_083110_bfbdd559_front_nobg_png.rf.79b122cb666570f55391bd5bbe2086b5.jpg",
+      "sourceSha256": "33775812a880d8f675f16bf5037bc69c99a68cff1dccc90a6ffe5c65796d854b",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260227_083110_bfbdd559_front_nobg_png.rf.79b122cb666570f55391bd5bbe2086b5.txt",
+      "labelSha256": "f2bc08ddf9833de6d6b28b84a166076fcd4537006513dcbf80ff39bee68df211",
+      "box": [
+        0.27031944444444445,
+        0.3019375,
+        0.03446296296296299,
+        0.01996614583333335
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260316_142950_e2be8da0",
+      "item": "20260316_142950_e2be8da0",
+      "date": "20260316",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260316_142950_e2be8da0_front_nobg_png.rf.e8301f62a17dc82b637ab8f2e9cbb9c9.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260316_142950_e2be8da0_front_nobg_png.rf.e8301f62a17dc82b637ab8f2e9cbb9c9.jpg",
+      "sourceSha256": "aae9cb60edff562b2a6346bdf062404c48e20e85224d0d6f8e2822c0e91d6761",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260316_142950_e2be8da0_front_nobg_png.rf.e8301f62a17dc82b637ab8f2e9cbb9c9.txt",
+      "labelSha256": "b56aed16f90805eef2717e537120927f8deaaa5115e3edd7de3a613633a50ce7",
+      "box": [
+        0.40079166666666666,
+        0.29864322916666663,
+        0.013226851851851823,
+        0.008369791666666633
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260224_112748_590f74e5",
+      "item": "20260224_112748_590f74e5",
+      "date": "20260224",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260224_112748_590f74e5_front_nobg_png.rf.c1e320bdb249dc94698284274416e467.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260224_112748_590f74e5_front_nobg_png.rf.c1e320bdb249dc94698284274416e467.jpg",
+      "sourceSha256": "f7eb6c5fbeac360c20eaf3b03147e796778ba5caedab3631e38464e747f7cf7d",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260224_112748_590f74e5_front_nobg_png.rf.c1e320bdb249dc94698284274416e467.txt",
+      "labelSha256": "62a35a2c154a06f58af03615839e09f87bfce2dabd2458db8afff52f3607902d",
+      "box": [
+        0.31015625,
+        0.66484375,
+        0.00546875,
+        0.003125
+      ],
+      "countBoxes": 2,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260311_151435_b0802668",
+      "item": "20260311_151435_b0802668",
+      "date": "20260311",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260311_151435_b0802668_front_nobg_png.rf.31eecdc8392dbcc076f6c10478301103.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260311_151435_b0802668_front_nobg_png.rf.31eecdc8392dbcc076f6c10478301103.jpg",
+      "sourceSha256": "e6ee2f09667a71e583c046c4539ac410a5f4ef607ce035a53578258d2df93011",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260311_151435_b0802668_front_nobg_png.rf.31eecdc8392dbcc076f6c10478301103.txt",
+      "labelSha256": "b7deb0d8e19172ca175d320b21bad0e6e7d8762769d68b41936cb271617df911",
+      "box": [
+        0.3984375,
+        0.465625,
+        0.01484375,
+        0.009375
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260318_113821_86aee031",
+      "item": "20260318_113821_86aee031",
+      "date": "20260318",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260318_113821_86aee031_front_nobg_png.rf.6b5289486ed74c19095b4e9da6315511.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260318_113821_86aee031_front_nobg_png.rf.6b5289486ed74c19095b4e9da6315511.jpg",
+      "sourceSha256": "740f52d2e6b582992832448ada60ba4fafc45f3109cf558e6aa80c94e8cfa2c5",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260318_113821_86aee031_front_nobg_png.rf.6b5289486ed74c19095b4e9da6315511.txt",
+      "labelSha256": "3cef3e8c7dad9a591f1099a8226c3cb180a57b03998ba17854f543caaabac2e0",
+      "box": [
+        0.24296875,
+        0.74609375,
+        0.02890625,
+        0.01328125
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260330_084035_d4c00d5b",
+      "item": "20260330_084035_d4c00d5b",
+      "date": "20260330",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260330_084035_d4c00d5b_front_nobg_png.rf.057e9b1d278b9dede98e45c79990c334.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260330_084035_d4c00d5b_front_nobg_png.rf.057e9b1d278b9dede98e45c79990c334.jpg",
+      "sourceSha256": "9d3850af06e25ef063c0f1f31c257992c1fd49ccf1d86fd81431de783ae411e4",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260330_084035_d4c00d5b_front_nobg_png.rf.057e9b1d278b9dede98e45c79990c334.txt",
+      "labelSha256": "14da437ddadce5aa59ba2ce8da17c0d6000fae70b36950317e6bfe630f415b53",
+      "box": [
+        0.3730324074074074,
+        0.7080729166666667,
+        0.009953703703703704,
+        0.01328125
+      ],
+      "countBoxes": 3,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-holes-20260227_135157_a26d4b04",
+      "item": "20260227_135157_a26d4b04",
+      "date": "20260227",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "holes",
+      "sourcePath": "valid/images/20260227_135157_a26d4b04_front_nobg_png.rf.ab06d988b4738befbabb431154fc4fd1.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/images/20260227_135157_a26d4b04_front_nobg_png.rf.ab06d988b4738befbabb431154fc4fd1.jpg",
+      "sourceSha256": "93bfc5b81858834dd91f02fa396e21fd7a542ba3eb72803ee7d527aee008601a",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_holes/resolve/3b81cb807188690222ef2a6af9cbfd2271292a32/valid/labels/20260227_135157_a26d4b04_front_nobg_png.rf.ab06d988b4738befbabb431154fc4fd1.txt",
+      "labelSha256": "bb638b98e9ea4f57e1ed0d32b11c50f6ae3dde7d9381f697be9f455847c4c57b",
+      "box": [
+        0.52734375,
+        0.72734375,
+        0.00625,
+        0.00234375
+      ],
+      "countBoxes": 2,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260304_134748_488152fe",
+      "item": "20260304_134748_488152fe",
+      "date": "20260304",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260304_134748_488152fe_front_nobg_png.rf.57bdef623c471f61470b63b93af8ef74.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260304_134748_488152fe_front_nobg_png.rf.57bdef623c471f61470b63b93af8ef74.jpg",
+      "sourceSha256": "6b7cecd1f5aa91022a8d82790ce2adfbe4395d69da833a181507ab7ecd7c4492",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260304_134748_488152fe_front_nobg_png.rf.57bdef623c471f61470b63b93af8ef74.txt",
+      "labelSha256": "5ad92e9cfcb39193759bd106b489e884292c0adea3750c16e72f830bd6be8841",
+      "box": [
+        0.3921875,
+        0.446875,
+        0.0171875,
+        0.0046875
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260304_122459_43aa93de",
+      "item": "20260304_122459_43aa93de",
+      "date": "20260304",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260304_122459_43aa93de_front_nobg_png.rf.d7b7a69bc93d915b0b553c1c906631e2.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260304_122459_43aa93de_front_nobg_png.rf.d7b7a69bc93d915b0b553c1c906631e2.jpg",
+      "sourceSha256": "b00488cb31ac1b0cb6c1453007449b7b02c93973874214bf812d59dd36ebe94d",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260304_122459_43aa93de_front_nobg_png.rf.d7b7a69bc93d915b0b553c1c906631e2.txt",
+      "labelSha256": "906d97bf858f14cec68b0e76ae643c645513c4df79c21b7dc4f286d218e709a3",
+      "box": [
+        0.284375,
+        0.60859375,
+        0.0390625,
+        0.0296875
+      ],
+      "countBoxes": 7,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260304_113705_538ae541",
+      "item": "20260304_113705_538ae541",
+      "date": "20260304",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260304_113705_538ae541_front_nobg_png.rf.29be962c7829de914cc0508aaa39de70.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260304_113705_538ae541_front_nobg_png.rf.29be962c7829de914cc0508aaa39de70.jpg",
+      "sourceSha256": "2f90e2feaa1dcb2033c1417825ca138d451422bb8e05619745366b6beffd2bf9",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260304_113705_538ae541_front_nobg_png.rf.29be962c7829de914cc0508aaa39de70.txt",
+      "labelSha256": "b22c2eb42f21a36fad82c450b860e89007d12d15b2f39a7a5e8cce79f7db806a",
+      "box": [
+        0.22984259259259257,
+        0.2903645833333333,
+        0.0819814814814815,
+        0.051867187500000016
+      ],
+      "countBoxes": 14,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260302_154139_20ef016a",
+      "item": "20260302_154139_20ef016a",
+      "date": "20260302",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260302_154139_20ef016a_front_nobg_png.rf.e6a3ef08c9ff77642e26848bc11c2df5.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260302_154139_20ef016a_front_nobg_png.rf.e6a3ef08c9ff77642e26848bc11c2df5.jpg",
+      "sourceSha256": "fc43173848376fdda8b2b596ab01df438b3717ac24ae9e9661737578df1fb779",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260302_154139_20ef016a_front_nobg_png.rf.e6a3ef08c9ff77642e26848bc11c2df5.txt",
+      "labelSha256": "5999890bbbf057006d5e2a20ac99a59cdb3406a21e67ea8488d0727e04a8130e",
+      "box": [
+        0.5883194444444444,
+        0.48707812500000003,
+        0.2941574074074075,
+        0.06069791666666665
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260302_124043_e2857f8f",
+      "item": "20260302_124043_e2857f8f",
+      "date": "20260302",
+      "sharedDate": true,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260302_124043_e2857f8f_front_nobg_png.rf.7031bbaa26ac8692d54b20ac3a3fa28c.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260302_124043_e2857f8f_front_nobg_png.rf.7031bbaa26ac8692d54b20ac3a3fa28c.jpg",
+      "sourceSha256": "186ab7854e300810a74628fd8aa2b696aaadabcc6309ddcf00dfc72905b981a5",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260302_124043_e2857f8f_front_nobg_png.rf.7031bbaa26ac8692d54b20ac3a3fa28c.txt",
+      "labelSha256": "4c945c2564c4000e9ebb336bcef8676c6458d3e78cdf5cc800c0dae95cce192b",
+      "box": [
+        0.3711712962962963,
+        0.1917578125,
+        0.018342592592592542,
+        0.009315104166666663
+      ],
+      "countBoxes": 8,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260220_153331_ac34bb11",
+      "item": "20260220_153331_ac34bb11",
+      "date": "20260220",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260220_153331_ac34bb11_front_nobg_png.rf.7018a588e50a60f9fe502b6e0c99af74.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260220_153331_ac34bb11_front_nobg_png.rf.7018a588e50a60f9fe502b6e0c99af74.jpg",
+      "sourceSha256": "eed79a1077783e39266031aab3c585dd98e2e617ec21bda97419271a53d7652a",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260220_153331_ac34bb11_front_nobg_png.rf.7018a588e50a60f9fe502b6e0c99af74.txt",
+      "labelSha256": "17bb0f8ec6336363165561b84b7c3d2c728838bc00243617746530fe12a4d87d",
+      "box": [
+        0.3265625,
+        0.365625,
+        0.0375,
+        0.0046875
+      ],
+      "countBoxes": 2,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260226_131011_ce90279f",
+      "item": "20260226_131011_ce90279f",
+      "date": "20260226",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260226_131011_ce90279f_front_nobg_png.rf.76c52fa045312a4a30e145317b6ad52b.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260226_131011_ce90279f_front_nobg_png.rf.76c52fa045312a4a30e145317b6ad52b.jpg",
+      "sourceSha256": "14f54a720757442fb30eb82958db53558c50fbe448d10134710d834607320919",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260226_131011_ce90279f_front_nobg_png.rf.76c52fa045312a4a30e145317b6ad52b.txt",
+      "labelSha256": "8d9e3029431ee3da8d9478a7a6b9a073690f186f22e5b18693e9922b67a2f023",
+      "box": [
+        0.3604166666666667,
+        0.5938802083333333,
+        0.07916666666666666,
+        0.11015624999999996
+      ],
+      "countBoxes": 5,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260217_082232_f288d061",
+      "item": "20260217_082232_f288d061",
+      "date": "20260217",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260217_082232_f288d061_front_nobg_png.rf.aecc7fec1d69de7e9ae39d754451879e.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260217_082232_f288d061_front_nobg_png.rf.aecc7fec1d69de7e9ae39d754451879e.jpg",
+      "sourceSha256": "1c1c79e7f30a630b120c2681f24b4a2e774016a1e9e4a5a2d2a19b1042ba9a37",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260217_082232_f288d061_front_nobg_png.rf.aecc7fec1d69de7e9ae39d754451879e.txt",
+      "labelSha256": "a773e61d7b92996a6797dcf621be89b6441db90a67d7a96e4a2dd9f24e160de8",
+      "box": [
+        0.375,
+        0.271875,
+        0.13359375,
+        0.01171875
+      ],
+      "countBoxes": 12,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260218_121551_8eeaed7e",
+      "item": "20260218_121551_8eeaed7e",
+      "date": "20260218",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260218_121551_8eeaed7e_front_nobg_png.rf.fafcbf1af3ffdb810a4ad681fd6731f1.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260218_121551_8eeaed7e_front_nobg_png.rf.fafcbf1af3ffdb810a4ad681fd6731f1.jpg",
+      "sourceSha256": "92076c326904a1f76f91369ce1c299acb013454a3dcb1ba1d88a2a73fa155133",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260218_121551_8eeaed7e_front_nobg_png.rf.fafcbf1af3ffdb810a4ad681fd6731f1.txt",
+      "labelSha256": "8d36d1e7ea131214d804fc767935bfda9b2315989f29efb5ecb618c124640356",
+      "box": [
+        0.3273287037037037,
+        0.5799348958333332,
+        0.011689814814814814,
+        0.006091145833333419
+      ],
+      "countBoxes": 18,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260225_142033_fc08de99",
+      "item": "20260225_142033_fc08de99",
+      "date": "20260225",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260225_142033_fc08de99_front_nobg_png.rf.586336b1d1ab230d9c6da37a9677ea7d.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260225_142033_fc08de99_front_nobg_png.rf.586336b1d1ab230d9c6da37a9677ea7d.jpg",
+      "sourceSha256": "4a2d7a3100f16228f9afbb9d999fa2d0ba281eef172a5b99302838e9e29e97eb",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260225_142033_fc08de99_front_nobg_png.rf.586336b1d1ab230d9c6da37a9677ea7d.txt",
+      "labelSha256": "b8ab12d4c2c83afc5620433982fca6365efbded21b906f95300a7cfee76ca080",
+      "box": [
+        0.43125,
+        0.28515625,
+        0.05859375,
+        0.03828125
+      ],
+      "countBoxes": 12,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260219_082320_9647339a",
+      "item": "20260219_082320_9647339a",
+      "date": "20260219",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260219_082320_9647339a_front_nobg_png.rf.efced7fe4008bb49e3dc56c665503f44.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260219_082320_9647339a_front_nobg_png.rf.efced7fe4008bb49e3dc56c665503f44.jpg",
+      "sourceSha256": "a7d9db2116d87049a38b543ef1d8470d07dfea46854c2d670f8089cf42becf6a",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260219_082320_9647339a_front_nobg_png.rf.efced7fe4008bb49e3dc56c665503f44.txt",
+      "labelSha256": "275da55319b67ae7951a8aa4a88e22bfc6d91e98bd732ac11c4b4e26071e7272",
+      "box": [
+        0.19711574074074073,
+        0.5102161458333333,
+        0.013888888888888888,
+        0.010817708333333323
+      ],
+      "countBoxes": 27,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "w-spots-20260220_125811_08f732b9",
+      "item": "20260220_125811_08f732b9",
+      "date": "20260220",
+      "sharedDate": false,
+      "source": "wargon",
+      "class": "spots",
+      "sourcePath": "valid/images/20260220_125811_08f732b9_front_nobg_png.rf.9e3307f8b66b3b3a37238446ae1fde13.jpg",
+      "sourceUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/images/20260220_125811_08f732b9_front_nobg_png.rf.9e3307f8b66b3b3a37238446ae1fde13.jpg",
+      "sourceSha256": "48b1a6cbefc51074831ee6eabab663e0d1f95d4ad1ea27a1455e5f5038a1e100",
+      "labelUrl": "https://huggingface.co/datasets/wargoninnovation/Garment_condition_spots/resolve/3483dfb0336564b626e811437e802bf56a2dca68/valid/labels/20260220_125811_08f732b9_front_nobg_png.rf.9e3307f8b66b3b3a37238446ae1fde13.txt",
+      "labelSha256": "42e43c9db872d6bf8fa293e6a1d23fdeb522ae99469f1a840b97166039b07ec1",
+      "box": [
+        0.39652777777777776,
+        0.31471354166666665,
+        0.09583333333333334,
+        0.015364583333333333
+      ],
+      "countBoxes": 1,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "gold-037-front",
+      "item": "gold-037",
+      "view": "front",
+      "source": "rise",
+      "class": "holes",
+      "sourcePath": "test100/station1/feb2023/front_2023_02_09_07_06_51.jpg",
+      "sourceSha256": "ae054fe76be6e9f08b11a1fca78d4eb0e861c6e5951dc7c1c8c16d0a192c7748",
+      "memberCrc32": "078f78b8",
+      "station": "station1",
+      "explicitRecords": 2,
+      "stations": [
+        "station1",
+        "station3"
+      ],
+      "stainReported": true,
+      "metadataMemberSha256": [
+        "dd09c643a6ee94f49887f0a59064693d9dee2f9d66e7849986fd21ab4a482aa5",
+        "d23f1a780d86625a00d2e7af2b05453b445c2328d83c0889b812674f8c0b63a8"
+      ],
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "gold-037-back",
+      "item": "gold-037",
+      "view": "back",
+      "source": "rise",
+      "class": "holes",
+      "sourcePath": "test100/station1/feb2023/back_2023_02_09_07_06_51.jpg",
+      "sourceSha256": "254c1ba0c7e19cd183616b54c7e139ba33533384ef259afaf3a26aaaad5fa644",
+      "memberCrc32": "18853cca",
+      "station": "station1",
+      "explicitRecords": 2,
+      "stations": [
+        "station1",
+        "station3"
+      ],
+      "stainReported": true,
+      "metadataMemberSha256": [
+        "dd09c643a6ee94f49887f0a59064693d9dee2f9d66e7849986fd21ab4a482aa5",
+        "d23f1a780d86625a00d2e7af2b05453b445c2328d83c0889b812674f8c0b63a8"
+      ],
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "gold-038-front",
+      "item": "gold-038",
+      "view": "front",
+      "source": "rise",
+      "class": "no_holes",
+      "sourcePath": "test100/station1/feb2023/front_2023_02_09_07_10_12.jpg",
+      "sourceSha256": "3887bd378d85c1b37fc360abf7f8dc7ee481bd9154849d49c3f675df91a3951a",
+      "memberCrc32": "e3352d92",
+      "station": "station1",
+      "explicitRecords": 2,
+      "stations": [
+        "station1",
+        "station3"
+      ],
+      "stainReported": true,
+      "metadataMemberSha256": [
+        "fa90fbcdd59d65accf9ed86a0a82038a24f8aa37d35130b882d5036552b3f8fd",
+        "dc707678f58a826dec44de55f5e0837a20dad2fbd353961d761fbe71b6f0d53c"
+      ],
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "gold-038-back",
+      "item": "gold-038",
+      "view": "back",
+      "source": "rise",
+      "class": "no_holes",
+      "sourcePath": "test100/station1/feb2023/back_2023_02_09_07_10_12.jpg",
+      "sourceSha256": "7184c12a44ebf8ab52b966ee66a75eb4a9552e08ba8c25045c3777cfa4de90d1",
+      "memberCrc32": "2f4971d6",
+      "station": "station1",
+      "explicitRecords": 2,
+      "stations": [
+        "station1",
+        "station3"
+      ],
+      "stainReported": true,
+      "metadataMemberSha256": [
+        "fa90fbcdd59d65accf9ed86a0a82038a24f8aa37d35130b882d5036552b3f8fd",
+        "dc707678f58a826dec44de55f5e0837a20dad2fbd353961d761fbe71b6f0d53c"
+      ],
+      "license": "CC BY 4.0"
+    }
+  ]
+}

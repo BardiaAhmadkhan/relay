@@ -1,0 +1,1422 @@
+{
+  "title": "Relay v3.1 verification and research ledger",
+  "asOf": "2026-11-18 America/Vancouver",
+  "productChanges": 0,
+  "deployment": "none; local reference only",
+  "costCurrency": "USD",
+  "testRun": {
+    "typecheck": "tsc --noEmit, exit 0",
+    "vitest": {
+      "command": "node node_modules/vitest/vitest.mjs run --reporter=dot --no-cache --configLoader runner",
+      "passed": 584,
+      "filesPassed": 32,
+      "seconds": 19.57
+    }
+  },
+  "runtimeEnvironment": {
+    "computer": "NVIDIA GeForce RTX 5060 Laptop GPU, Windows",
+    "python": "3.10.8",
+    "externalInference": false
+  },
+  "experiments": {
+    "baselineSources": {
+      "sourceFingerprint": "a86007801c7e2188e278e1f32908fdf178df07f93a358bb590cf3c3635dec403",
+      "sourceAndEvidenceSha256": {
+        "app/App.tsx": "224e83a395d1cca2a30431e9a1f1600488688a942cdf52bec563a740f717d780",
+        "app/app.json": "ef6c60fc8a6cf037f2d64722267f6a9f44684b4967d99414fc65dc0e7acd3fbe",
+        "app/package.json": "463bde90a6441595950b79a70f8589df8b6841eded05c9181c47110b6cf9ed7e",
+        "app/src/api-v2.ts": "0d56af7e62cb5e39f67931b7b393522731c38031ceb3be25b8989f2cfabc82f0",
+        "app/src/api.android.ts": "a6ae6f33701013ab2ef31af815bd1be968bfacd2b22983efcfbcd32768acea83",
+        "app/src/api.ts": "561286f12ba850a23d67b34be9ab2d8377503f310aeb5059d4440d2a4c0e73a9",
+        "app/src/brief-v2.ts": "32f9da9785e15d2c7d56473168b24d977ccf84f8418cf69029959dfc61dfb281",
+        "app/src/briefs.ts": "8cb8f5fd5b986c433c450be5583487e95204c6027ed0be86dcdf3ac71fdccbc1",
+        "app/src/capture-footer.tsx": "6708ace5f14ca9086b8d2bae12099d44a6efe620310849eaa643a4127537af59",
+        "app/src/design.tsx": "2c64a39adb407c05b08114ea22baa375de4b3a013bafeb1ddb8a6819bd72c53e",
+        "app/src/device-engine.android.ts": "5c04ab49d0e9d644848d35495a6a306732913169335288d8e97fd16baf686eb5",
+        "app/src/home.tsx": "da362db67f020054e8f3ee56eee408b9079476cceb536235194ddf9b444e4543",
+        "app/src/inspection-evidence.tsx": "2e2ebd30f0de184dbc115bfea35a077a7ef6806dddf82fc3a1206b37234c04a8",
+        "app/src/notebook.tsx": "71fc20f48eff64a26ad9a42ec20cd248e9cc72dffb9e14fbe7aa4dc7eba345ba",
+        "app/src/photo-web.ts": "5b038b9585d1002ca21ae4445e46e272842376594823be0cc54433fa597e02ef",
+        "app/src/result-v2.tsx": "26fcc2b1809aa914b10438b56448f1bebe6aeddca82cfac08c4c90176c5eb437",
+        "app/src/screens-intake.tsx": "d01c69e1c284fb6b60db15a9766fc2fbddaa268f02bc2f44ff2f14e284365f65",
+        "app/src/screens-review.tsx": "22e23d105b25fc0b49ce8a4fdee80b14c0ee5783acb02a4f5930f5a7f6b33cf0",
+        "app/src/session.ts": "1df0e7f1cf55c88c2b5176174f3375ca272f1eeeda616c0d909a43ea9dce2c08",
+        "app/src/styles.ts": "27986be73c8c95b1406c1eb43e8ed93a04736748e6a06d4ff8f266d2e666245a",
+        "app/src/useRelay.ts": "ef16a1c6d4c9e155e77e0da1cfeaf41a1ddecb127db6f9254edcd89227fd93b5",
+        "benchmarks/backend-v2/battery--b1--qwen3.5-4b--e1600--corpus-needle-break+slide.jsonl": "d1f1607093b1c65a307b7f14d9314c81214553b09366cf0f002cc7bb4dc1f978",
+        "benchmarks/backend-v2/battery--b1--qwen3.5-4b--e1600.jsonl": "56d7f5e0c36856d08e54fc7e7676cd3d692c2b8317416a1f7127a11a6c817b2b",
+        "benchmarks/backend-v2/realworld--v3--cache-off-repeat.jsonl": "ef0ac9001ad9b40cf26ddb717735eecc874167fa1440f14fb43d92429c66cf70",
+        "benchmarks/backend-v2/realworld--v3--cache-off.jsonl": "6ef1709780ba74b3c5b34b46c085983070bf9dcb1ee5f1600e64f3f80e81ead5",
+        "benchmarks/backend-v2/realworld--v3.jsonl": "c2826d16c556d09a1038f59e3f85e2430f3e86a6a2e6eb95d2692569b51b42cd",
+        "datasets/needle-v3/labels.json": "b95bca8c911892e031602ba501044b2c950b2b098e09f3b6c781cb0876881a8a",
+        "datasets/realworld-v3/audit.txt": "9aaf0892164ca0ab42ff5a9af86d2aa61e6efcd571e7b51ff5263951b1833195",
+        "datasets/realworld-v3/labels.json": "4d97917b01d8b58db804d7e972315efe4c61ba8c366998ec86bbb8038eb3a6ca",
+        "experiments/backend-v2/analyze_realworld.py": "b49a50a58fe996598580b7df90a0e45e203b743d11b6f9599122791c6a48259d",
+        "experiments/backend-v2/label-realworld.mjs": "7aa58355ac7ff6bc5232e5695cea3cd520df99b56c96eb24b59570b3288860a3",
+        "experiments/backend-v2/make-mosaics.mjs": "f9307a43fdadfff1bcb0c591413ef399f7166ecc6514bfe42277d0706ec058b6",
+        "package-lock.json": "82b688ff82292848cd1527a304765f10f53047b561bf34e2b5f18d7ecb9234d9",
+        "package.json": "a98bfa27ac2e23e4b49bae7edeeb5351eebb5ac1fe0914f5e03cee9edc965348",
+        "packages/core/policy.ts": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1",
+        "packages/core/quality.ts": "66cce54655ad1406e58c3dadbdf6fc02d129a8ad539da18b06e17a7d2cb71742",
+        "packages/core/recovery.ts": "3a46dae0a95cf0428092012aaa0860cac8c1a4997065e4855032339d64134c7d",
+        "packages/core/schema.ts": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0",
+        "packages/core/v2/calibration.ts": "ad3f6cdd483fa8b4c68006f2d8bcddcdfff63c359d47cc25525aef483350fd2e",
+        "packages/core/v2/crossval.ts": "b4faba6b72476893a04d694bf7a81417ee460747022a3a61ccdfd8b649beff13",
+        "packages/core/v2/feedback.ts": "2e48e152f9e269d6fcfb647934423fce93685c3fe7aa1bdb26d0b8f04ec0396b",
+        "packages/core/v2/focus.ts": "b6f297ed46f631283b55edbc9a2d22e8c718c3d129a911f838f70caa42234a74",
+        "packages/core/v2/policy.config.json": "c0550a57520e006659e57687a0b9f684f15c2ebbfd971f2b8eef0343f9e6449a",
+        "packages/core/v2/policy.ts": "4079048fbd1977d7a2dfc77c70762a261698c2bfc31b9526700c0986c9f7fcac",
+        "packages/core/v2/schema.ts": "5a49bb8abb13088871572da58d64ad6deee80b820c01d878e76964bb56aed521",
+        "packages/core/v2/thresholds.cascade512.json": "fae4411f2a7f8b3da3633a965b9e870b3c6cb26cff2b99219e051b29f2432986",
+        "packages/core/v2/thresholds.cascade512.report.json": "5e9a3232cc3ead17396ce9a0b557781af30fa0dbb1033ee1cb42c280f1b0f6f9",
+        "packages/core/v2/thresholds.json": "e98a3208cfa53c70b0709f86b5ab70b6a846ce72ebb152a8843aaf13cabbcdd8",
+        "packages/core/v2/thresholds.report.json": "50fa1fa8865e18ea6ce8bf71a421ae00475bda92590517e9a9b1e77c28f048fb",
+        "packages/vision/v2/battery.ts": "ffdfe30fa12d718a930bf6a2e068bc27e8965e0269aa7abfab38d05325912ed5",
+        "packages/vision/v2/plan.ts": "8371705756d497e582b934cdbc4f48912e032a7996d9bdd4e5863fd80d81866b",
+        "packages/vision/v2/scorer-chain.ts": "8355da75f29de7df7f7ee91f33a3f4f336725ceece28ab4b49611d24d3548b9a",
+        "packages/vision/v2/scorer-decisions.ts": "f4a92b326c0f18129f9cb86856f407f4a2d0804442622a496ba642d5ff6caa93",
+        "packages/vision/v2/scorer-local.ts": "ab6d62138823fd2d784f66067f075ed1af11ab37b13793c58e67bbccf6863e42",
+        "packages/vision/v2/scorer.ts": "1ebfce486db94c6004e01045970968af6d1bf7596ccbe6e0e82d284532ceed2b",
+        "scripts/local-vision.mjs": "1d10eb3ac55e155691e4a32310d3d58a8ab5f6c2a335a819892bafb566d2dab3",
+        "scripts/v3-realworld.ts": "f38f5f888cc48e78b682e050a57b3170cfc7736a482aa9fadbc215abcc89757d",
+        "server/app-v2.ts": "c2505114b4c4d32f26480f7dcd1fefc5b96cf4712c4138a6e7b84f0e86ddfc27",
+        "server/app.ts": "80c55ff73b19b4cee0b1fe7765974816f61337945c45df9081f7cd5153e55c3d",
+        "server/focus.ts": "1b6d226d60f32dfc6de514ab1332af700f127e319bc2feda0205826245eed952",
+        "server/images.ts": "172f486bb66b1c436058a967c15cf62a3cd6082352bb929923b730b003abb8a1",
+        "server/index-v2.ts": "2802d76986c2af81bcfccdcbe44897b1326e4d045519985de64e30eb310e8239",
+        "server/index.ts": "6cf5375786d6c63fe2070bb29a73c20103e3a18336057aae2cc02c0e260960a8",
+        "server/review-page.ts": "28f0a21f8437f5903f723c4cfb6956c4f1d46b9073126be424a3a66a502fa64a",
+        "server/review-v2.ts": "cd34057af11210b048b9fde770dc38ace78c76d9c83840dba2cd6a3ba592d5f4",
+        "server/stub-scorer.ts": "ab722fc670f1370a1c4ba3906fc98bd61b432c6ed72e59cf0ef0feba9b67b172"
+      },
+      "e19": {
+        "n": 385,
+        "held": 363,
+        "e14_rows": 22,
+        "e14_groups": 15,
+        "framing": {
+          "detail": 16,
+          "item": 68,
+          "label": 1,
+          "scene": 213,
+          "several_items": 9,
+          "worn": 56
+        },
+        "heldPositiveGroups": {
+          "cm-gunnery-sgt-bill-lisbon": 1,
+          "cm-thermos": 1,
+          "ov-engnrchik": 1,
+          "ov-ericlawrence": 4,
+          "ov-timfreund": 4
+        },
+        "e14_positive_ids": [
+          "ov-002",
+          "ov-003",
+          "ov-014",
+          "ov-006",
+          "ov-007",
+          "ov-008"
+        ],
+        "excludingE14Ids": 341,
+        "excludingE14IdsAndGroups": 339,
+        "newPositiveCases": [
+          [
+            "cm-008",
+            "suit",
+            "cm-thermos",
+            "block"
+          ],
+          [
+            "cm-057",
+            "gloves",
+            "cm-gunnery-sgt-bill-lisbon",
+            "block"
+          ],
+          [
+            "ox-093",
+            "jacket",
+            "ov-engnrchik",
+            "block"
+          ]
+        ],
+        "sameSourcePages": {},
+        "sameFileDigests": [],
+        "auditedNovelPositives": [
+          "cm-008",
+          "cm-057",
+          "cm-069",
+          "ox-093"
+        ],
+        "auditedPositiveGroups": {
+          "cm-gunnery-sgt-bill-lisbon": 1,
+          "cm-peprovira": 1,
+          "cm-thermos": 1,
+          "ov-engnrchik": 1,
+          "ov-ericlawrence": 4,
+          "ov-timfreund": 4
+        },
+        "blindBands": {
+          "damaged": {
+            "block": 10,
+            "review": 1
+          },
+          "clean": {
+            "block": 3,
+            "clear": 36,
+            "review": 13
+          }
+        },
+        "medianMsByView": {
+          "back": 4108.5,
+          "label": 1662.0,
+          "detail": 1630.0,
+          "front": 3904.0
+        },
+        "inputTokensByView": {
+          "back": 6649.0,
+          "label": 2583.0,
+          "detail": 2012.0,
+          "front": 6105.0
+        },
+        "receivedImagesMatchingManifestSha": 363,
+        "ambiguous": {
+          "no_offer": 3,
+          "retake": 7,
+          "review": 2
+        },
+        "intervalOneSidedZero": {
+          "3": 0.631597,
+          "6": 0.393038,
+          "11": 0.238404,
+          "12": 0.220922,
+          "59": 0.049508,
+          "149": 0.019905,
+          "299": 0.009969
+        }
+      },
+      "scaleComparison": {
+        "mosaics": 93,
+        "parents": 31,
+        "counts": {
+          "block whole / block parent": 11,
+          "clear whole / block parent": 36,
+          "clear whole / clear parent": 3,
+          "clear whole / review parent": 6,
+          "review whole / block parent": 37
+        },
+        "clear_wholes_with_nonclear_parent": 42,
+        "unique_parents_among_clear_wholes": 28,
+        "clean_whole_bands": {
+          "clear": 60
+        }
+      },
+      "recaptureSimilarity": {
+        "algorithm": "64-bit horizontal dHash; EXIF transpose; grayscale, Lanczos to 9x8; right > left; Hamming <= 4; fixed before counts.",
+        "n": 363,
+        "within4": {
+          "jpeg65": 363,
+          "crop5pct_each_edge": 12
+        },
+        "unrelatedIdPairsCompared": 65703,
+        "crossIdFlaggedPairs": []
+      }
+    },
+    "roleSensitivity": {
+      "protocol": "Fixed purposeful sentinel order. Each public photo submitted as front and detail, otherwise identical. Default required views and three synthetic no answers. Endpoints on a private loopback instance of the real entry point. Fresh process, local warmup, common preexisting runtime. No changes to model, service or thresholds.",
+      "rows": [
+        {
+          "id": "ox-089",
+          "declaredView": "detail",
+          "datasetView": "detail",
+          "publicSourceSha": "8848db3cdfcccacbdf3e53c4b9a7a97c41bf0640955060b2e17d0b86673e553a",
+          "workingSha": "d54f07a3f81ccca8d2d434eb22905f60d8fb6e65c7a4fb24da3e9ecfd377311d",
+          "ms": 6665,
+          "tokens": 3559,
+          "answers": 7,
+          "band": "review",
+          "values": {
+            "broken": 0.09193568953202268,
+            "road_contact": 0.3586745058320073,
+            "repair": 0.34219316483636536,
+            "gear": null,
+            "single_item": null,
+            "usable": 0.8727615636187674,
+            "broken_low": 0.1004326955286652,
+            "road_contact_low": 0.49853871224311774
+          },
+          "outcome": "retake",
+          "reasons": [
+            "missing_front"
+          ]
+        },
+        {
+          "id": "ox-089",
+          "declaredView": "front",
+          "datasetView": "detail",
+          "publicSourceSha": "8848db3cdfcccacbdf3e53c4b9a7a97c41bf0640955060b2e17d0b86673e553a",
+          "workingSha": "d54f07a3f81ccca8d2d434eb22905f60d8fb6e65c7a4fb24da3e9ecfd377311d",
+          "ms": 2829,
+          "tokens": 4587,
+          "answers": 7,
+          "band": "review",
+          "values": {
+            "broken": 0.09193568953202268,
+            "road_contact": 0.3586745058320073,
+            "repair": 0.20773238677871939,
+            "gear": 0.844208846141309,
+            "single_item": 0.6436021449534661,
+            "usable": 0.887763558330496,
+            "broken_low": null,
+            "road_contact_low": null
+          },
+          "outcome": "retake",
+          "reasons": [
+            "missing_back"
+          ]
+        },
+        {
+          "id": "cm-527",
+          "declaredView": "front",
+          "datasetView": "front",
+          "publicSourceSha": "1197c8e134ce89a1bf8091c517bd96c8560ec41740678b204007b69d8d002789",
+          "workingSha": "63223b398e3937fe61cd8ae05fe563a8042da1ddb2e47639feaa4c9651e6548b",
+          "ms": 1934,
+          "tokens": 2396,
+          "answers": 2,
+          "band": "block",
+          "values": {
+            "broken": null,
+            "road_contact": 0.7329142105927574,
+            "repair": null,
+            "gear": null,
+            "single_item": null,
+            "usable": null,
+            "broken_low": null,
+            "road_contact_low": null
+          },
+          "outcome": "no_offer",
+          "reasons": [
+            "visible_road_contact"
+          ]
+        },
+        {
+          "id": "cm-527",
+          "declaredView": "detail",
+          "datasetView": "front",
+          "publicSourceSha": "1197c8e134ce89a1bf8091c517bd96c8560ec41740678b204007b69d8d002789",
+          "workingSha": "63223b398e3937fe61cd8ae05fe563a8042da1ddb2e47639feaa4c9651e6548b",
+          "ms": 569,
+          "tokens": 359,
+          "answers": 2,
+          "band": "block",
+          "values": {
+            "broken": null,
+            "road_contact": 0.8729806989411069,
+            "repair": null,
+            "gear": null,
+            "single_item": null,
+            "usable": null,
+            "broken_low": null,
+            "road_contact_low": 0.8392524099593669
+          },
+          "outcome": "no_offer",
+          "reasons": [
+            "visible_road_contact"
+          ]
+        },
+        {
+          "id": "ox-140",
+          "declaredView": "front",
+          "datasetView": "front",
+          "publicSourceSha": "d06af9c5011873e4a245b3fdd4f19185d7f2e18792d1087a9354808abecb6313",
+          "workingSha": "6b78c400fb15538eb0aa29801add2f5c0c4b85c2ebfe513848bc143c72979136",
+          "ms": 7417,
+          "tokens": 10577,
+          "answers": 8,
+          "band": "clear",
+          "values": {
+            "broken": 0.030237014112029833,
+            "road_contact": 0.05190321519265104,
+            "repair": 0.02587355557290406,
+            "gear": 0.7970231935283356,
+            "single_item": 0.8456775551609541,
+            "usable": 0.9814167074767204,
+            "broken_low": null,
+            "road_contact_low": null
+          },
+          "outcome": "retake",
+          "reasons": [
+            "missing_back"
+          ]
+        },
+        {
+          "id": "ox-140",
+          "declaredView": "detail",
+          "datasetView": "front",
+          "publicSourceSha": "d06af9c5011873e4a245b3fdd4f19185d7f2e18792d1087a9354808abecb6313",
+          "workingSha": "6b78c400fb15538eb0aa29801add2f5c0c4b85c2ebfe513848bc143c72979136",
+          "ms": 1600,
+          "tokens": 2204,
+          "answers": 8,
+          "band": "clear",
+          "values": {
+            "broken": 0.01740920765308307,
+            "road_contact": 0.026516140481069452,
+            "repair": 0.024166149592779126,
+            "gear": null,
+            "single_item": null,
+            "usable": 0.9644739255043655,
+            "broken_low": 0.016705532178927528,
+            "road_contact_low": 0.025444365240196432
+          },
+          "outcome": "retake",
+          "reasons": [
+            "missing_front"
+          ]
+        }
+      ],
+      "peak": {
+        "maxC": 76,
+        "maxMiB": 4104,
+        "minFreeMiB": 6342
+      },
+      "unexpected": null,
+      "warm": {
+        "event": "scorer_warm",
+        "scorer": "local_logprob",
+        "ms": 0
+      }
+    },
+    "humanRegion": {
+      "protocol": "Three preselected diagnostic cases, original interpreted view fixed across arms. Control full image and human-selected region are both JPEG92 from source. Floored normalized top-left/bottom-right, unchanged v3.1 and required views. Region chosen from a contact sheet before these scores. No automated localization, no independent items or clearance authority.",
+      "rows": [
+        {
+          "id": "cm-091",
+          "box": null,
+          "declaredView": "front",
+          "datasetView": "front",
+          "publicSourceSha": "ec8a682d9a86832f97de8f34ef954e2a93c62751588020c649ed2623fa207260",
+          "workingSha": "e2d4ec108d09e88c169b8bfcfc7589a97f39fb652ff7b7f3ef602daa1e8e7cb6",
+          "ms": 3584,
+          "tokens": 5627,
+          "answers": 7,
+          "band": "review",
+          "values": {
+            "broken": 0.6103723087545956,
+            "road_contact": 0.014205863023368993,
+            "repair": 0.04925727007053966,
+            "gear": 0.11056946310132523,
+            "single_item": 0.07853096993442946,
+            "usable": 0.6347885198996038,
+            "broken_low": null,
+            "road_contact_low": null
+          },
+          "outcome": "retake",
+          "reasons": [
+            "missing_back"
+          ]
+        },
+        {
+          "id": "cm-091",
+          "box": [
+            0.735,
+            0,
+            0.99,
+            0.38
+          ],
+          "declaredView": "front",
+          "datasetView": "front",
+          "publicSourceSha": "ec8a682d9a86832f97de8f34ef954e2a93c62751588020c649ed2623fa207260",
+          "workingSha": "3ed1fe10afa3f61d21c938c0afaa68a8d71c346755729f1ebbf180afe968e7df",
+          "ms": 1287,
+          "tokens": 1639,
+          "answers": 7,
+          "band": "review",
+          "values": {
+            "broken": 0.2116492603077226,
+            "road_contact": 0.3242964827706079,
+            "repair": 0.24516255716640717,
+            "gear": 0.9627669410599141,
+            "single_item": 0.5038661556457416,
+            "usable": 0.8269492312763878,
+            "broken_low": null,
+            "road_contact_low": null
+          },
+          "outcome": "retake",
+          "reasons": [
+            "missing_back"
+          ]
+        },
+        {
+          "id": "cm-527",
+          "box": null,
+          "declaredView": "front",
+          "datasetView": "front",
+          "publicSourceSha": "1197c8e134ce89a1bf8091c517bd96c8560ec41740678b204007b69d8d002789",
+          "workingSha": "7f638338ff3fc991d2546584ed45bca02f0fe77664868cbb479a9d7f9dee2b7b",
+          "ms": 1933,
+          "tokens": 2396,
+          "answers": 2,
+          "band": "block",
+          "values": {
+            "broken": null,
+            "road_contact": 0.7701279090471043,
+            "repair": null,
+            "gear": null,
+            "single_item": null,
+            "usable": null,
+            "broken_low": null,
+            "road_contact_low": null
+          },
+          "outcome": "no_offer",
+          "reasons": [
+            "visible_road_contact"
+          ]
+        },
+        {
+          "id": "cm-527",
+          "box": [
+            0.02,
+            0.075,
+            0.49,
+            0.67
+          ],
+          "declaredView": "front",
+          "datasetView": "front",
+          "publicSourceSha": "1197c8e134ce89a1bf8091c517bd96c8560ec41740678b204007b69d8d002789",
+          "workingSha": "776bba0f8a1a983bd10d7779c58301f6f84a8ad2fe561a639a332680d768d680",
+          "ms": 803,
+          "tokens": 1072,
+          "answers": 2,
+          "band": "block",
+          "values": {
+            "broken": null,
+            "road_contact": 0.6493341986827683,
+            "repair": null,
+            "gear": null,
+            "single_item": null,
+            "usable": null,
+            "broken_low": null,
+            "road_contact_low": null
+          },
+          "outcome": "no_offer",
+          "reasons": [
+            "visible_road_contact"
+          ]
+        },
+        {
+          "id": "ox-093",
+          "box": null,
+          "declaredView": "detail",
+          "datasetView": "detail",
+          "publicSourceSha": "307110a0763bf4ffadef108576e6d0ae056cd94a2fdc6b1a0b371fc8b64bc891",
+          "workingSha": "f53cf6c7d91474e03bc98d722ce066d2f0c1e7be3b0b9b9ff7e48989f29f1e27",
+          "ms": 3026,
+          "tokens": 4579,
+          "answers": 11,
+          "band": "block",
+          "values": {
+            "broken": 0.8862512581749157,
+            "road_contact": 0.19839955584665758,
+            "repair": 0.4883227932460844,
+            "gear": null,
+            "single_item": null,
+            "usable": 0.8775956995675965,
+            "broken_low": 0.8560467900066729,
+            "road_contact_low": 0.18306405720025334
+          },
+          "outcome": "no_offer",
+          "reasons": [
+            "visible_broken_protective_area"
+          ]
+        },
+        {
+          "id": "ox-093",
+          "box": [
+            0.42,
+            0.29,
+            0.68,
+            0.81
+          ],
+          "declaredView": "detail",
+          "datasetView": "detail",
+          "publicSourceSha": "307110a0763bf4ffadef108576e6d0ae056cd94a2fdc6b1a0b371fc8b64bc891",
+          "workingSha": "79e6e5df5c25583066d607e28a4ad55ad27340c14d1310494b8fc0619234539c",
+          "ms": 1430,
+          "tokens": 1704,
+          "answers": 10,
+          "band": "block",
+          "values": {
+            "broken": 0.7560957450967918,
+            "road_contact": 0.15410222060670284,
+            "repair": 0.2730069395759067,
+            "gear": null,
+            "single_item": null,
+            "usable": 0.7918356261716335,
+            "broken_low": 0.6913302084840756,
+            "road_contact_low": 0.14651093830470846
+          },
+          "outcome": "no_offer",
+          "reasons": [
+            "visible_broken_protective_area"
+          ]
+        }
+      ],
+      "peak": {
+        "maxC": 68,
+        "maxMiB": 4104,
+        "minFreeMiB": 7644
+      },
+      "unexpected": null,
+      "warm": {
+        "event": "scorer_warm",
+        "scorer": "local_logprob",
+        "ms": 0
+      }
+    },
+    "policyFixtures": [
+      {
+        "case": "three_complete_control",
+        "outcome": "offer",
+        "reasonCodes": [
+          "history_clear",
+          "photos_clear",
+          "grade"
+        ],
+        "nextView": null,
+        "grade": "B"
+      },
+      {
+        "case": "history_unknown",
+        "outcome": "review",
+        "reasonCodes": [
+          "history_unknown_crash"
+        ],
+        "nextView": null,
+        "grade": null
+      },
+      {
+        "case": "reported_protective_damage_before_photos",
+        "outcome": "no_offer",
+        "reasonCodes": [
+          "reported_protective_damage"
+        ],
+        "nextView": null,
+        "grade": null
+      },
+      {
+        "case": "initial_mark_complete_set",
+        "outcome": "retake",
+        "reasonCodes": [
+          "possible_road_contact"
+        ],
+        "nextView": "detail",
+        "grade": null
+      },
+      {
+        "case": "initial_mark_plus_clear_detail",
+        "outcome": "review",
+        "reasonCodes": [
+          "possible_road_contact"
+        ],
+        "nextView": null,
+        "grade": null
+      },
+      {
+        "case": "initial_mark_plus_block_detail",
+        "outcome": "no_offer",
+        "reasonCodes": [
+          "visible_road_contact"
+        ],
+        "nextView": null,
+        "grade": null
+      },
+      {
+        "case": "same_evidence_after_prompt_counter_advanced",
+        "outcome": "review",
+        "reasonCodes": [
+          "possible_road_contact"
+        ],
+        "nextView": null,
+        "grade": null
+      },
+      {
+        "case": "mixed_subject_and_road_signal",
+        "outcome": "no_offer",
+        "reasonCodes": [
+          "visible_road_contact"
+        ],
+        "nextView": null,
+        "grade": null
+      },
+      {
+        "case": "repair_review_band",
+        "outcome": "retake",
+        "reasonCodes": [
+          "possible_repair"
+        ],
+        "nextView": "detail",
+        "grade": null
+      }
+    ],
+    "runtimeAndWeights": {
+      "warmup": {
+        "innerCalls": 0,
+        "requestKeys": [
+          "usable"
+        ],
+        "answers": {},
+        "ms": 0,
+        "tokens": 0
+      },
+      "runtime": "0.40.16",
+      "model": "qwen3.5:4b",
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "reportedBytes": 3324173934,
+      "quantization": "Q4_K_M",
+      "modelParameters": 4205751296,
+      "projectorParameters": 333514240,
+      "layers": [
+        {
+          "role": "mmproj.gguf",
+          "bytes": 675569120,
+          "sha256": "e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60"
+        },
+        {
+          "role": "model.gguf",
+          "bytes": 2648593216,
+          "sha256": "a9d0a3e1d8c91732a3812becd31f8d4a8ff57414903f226306069f0437e2ac50"
+        }
+      ],
+      "weightsBytes": 3324162336
+    },
+    "motionFocus": {
+      "method": "All E19 held-out item framings. Use shipped 1024 rendition and 512 luma grid, run shipped focusMeasures and focusVerdict. Add clamped horizontal or vertical normalized box motion on that grid at widths 11 and 21, round once before measurement. No independent focus or defect ground truth.",
+      "n": 68,
+      "soft": {
+        "base": 2,
+        "h11": 30,
+        "v11": 27,
+        "h21": 48,
+        "v21": 41
+      },
+      "matchedHistorical": 68,
+      "rows": [
+        {
+          "id": "cm-025",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-033",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-034",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-051",
+          "base": false,
+          "h11": false,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-063",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-064",
+          "base": false,
+          "h11": false,
+          "v11": true,
+          "h21": false,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-066",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-069",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-070",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-073",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-080",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-082",
+          "base": false,
+          "h11": false,
+          "v11": true,
+          "h21": false,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-088",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-089",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-090",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-207",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-245",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-246",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-264",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-320",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-347",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-352",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "cm-353",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-358",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-527",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-528",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-529",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "cm-532",
+          "base": false,
+          "h11": false,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-013",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ox-017",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-018",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-019",
+          "base": false,
+          "h11": false,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-020",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-021",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-022",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-023",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-024",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-025",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-026",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-027",
+          "base": true,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": true
+        },
+        {
+          "id": "ox-028",
+          "base": true,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": true
+        },
+        {
+          "id": "ox-078",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-079",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ox-080",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-081",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ox-140",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-002",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-003",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-014",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-006",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-007",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-008",
+          "base": false,
+          "h11": false,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-005",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-052",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-001",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-038",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-039",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-041",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-043",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-045",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-048",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-051",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-060",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": true,
+          "historical": false
+        },
+        {
+          "id": "ov-061",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-063",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": false,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-065",
+          "base": false,
+          "h11": false,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-066",
+          "base": false,
+          "h11": true,
+          "v11": false,
+          "h21": true,
+          "v21": false,
+          "historical": false
+        },
+        {
+          "id": "ov-068",
+          "base": false,
+          "h11": true,
+          "v11": true,
+          "h21": true,
+          "v21": true,
+          "historical": false
+        }
+      ]
+    },
+    "earlierFramingReplay": {
+      "method": "Existing E19 raw singleItem <0.5 on held front/back rows with a recorded score. A thought experiment for earlier reframing. Missing tests are censored by the question plan. Observed time is the full historical service time, not recoverable savings. No policy or image scoring change.",
+      "groups": {
+        "all_overviews": {
+          "all": 346,
+          "signalPresent": 335,
+          "wouldRequestReframe": 282,
+          "loggedPhotoOutcomesOnTriggers": {
+            "retake": 281,
+            "no_offer": 1
+          },
+          "loggedPhotoBandsOnTriggers": {
+            "clear": 232,
+            "review": 49,
+            "block": 1
+          },
+          "totalRecordedMsOnTriggers": 1187851,
+          "medianLoggedMsOnTriggers": 4004.5
+        },
+        "scene": {
+          "all": 213,
+          "signalPresent": 213,
+          "wouldRequestReframe": 212,
+          "loggedPhotoOutcomesOnTriggers": {
+            "retake": 211,
+            "no_offer": 1
+          },
+          "loggedPhotoBandsOnTriggers": {
+            "clear": 179,
+            "review": 32,
+            "block": 1
+          },
+          "totalRecordedMsOnTriggers": 879570,
+          "medianLoggedMsOnTriggers": 3945.5
+        },
+        "isolated_item": {
+          "all": 68,
+          "signalPresent": 59,
+          "wouldRequestReframe": 13,
+          "loggedPhotoOutcomesOnTriggers": {
+            "retake": 13
+          },
+          "loggedPhotoBandsOnTriggers": {
+            "clear": 6,
+            "review": 7
+          },
+          "totalRecordedMsOnTriggers": 46786,
+          "medianLoggedMsOnTriggers": 3009
+        },
+        "worn": {
+          "all": 56,
+          "signalPresent": 55,
+          "wouldRequestReframe": 49,
+          "loggedPhotoOutcomesOnTriggers": {
+            "retake": 49
+          },
+          "loggedPhotoBandsOnTriggers": {
+            "review": 5,
+            "clear": 44
+          },
+          "totalRecordedMsOnTriggers": 220794,
+          "medianLoggedMsOnTriggers": 4188
+        },
+        "blind_damaged": {
+          "all": 7,
+          "signalPresent": 1,
+          "wouldRequestReframe": 0,
+          "loggedPhotoOutcomesOnTriggers": {},
+          "loggedPhotoBandsOnTriggers": {},
+          "totalRecordedMsOnTriggers": 0,
+          "medianLoggedMsOnTriggers": null
+        }
+      }
+    }
+  },
+  "sizeContract": {
+    "learnedBytesMax": 3324162336,
+    "registryBytesMax": 3324173934,
+    "modelParameters": 4205751296,
+    "projectorParameters": 333514240,
+    "totalParameterMax": 4539265536,
+    "phoneModelBytes": 0
+  },
+  "priceScenarios": {
+    "source": "https://modal.com/pricing",
+    "readLocalDate": "2026-11-18",
+    "gpuL4UsdPerSecond": 0.000222,
+    "cpuPhysicalCoreUsdPerSecond": 1.31e-05,
+    "memoryGiBUsdPerSecond": 2.22e-06,
+    "assumedCpuCores": 2,
+    "assumedGiB": 8,
+    "blendedIllustrativeUsdPerSecond": 0.00026596,
+    "eightHourGpuUsd": 6.3936,
+    "eightHourBlendedIllustrativeUsd": 7.659648,
+    "providerBenchmarked": false
+  },
+  "liveRequestSummary": {
+    "signedScoreHttpRequests": 12,
+    "realPolicyHttpAssessments": 12,
+    "distinctPublicSourceFiles": 5,
+    "syntheticHistory": "three no answers for contract testing",
+    "allRequiredViewsSatisfied": false
+  }
+}

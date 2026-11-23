@@ -1,0 +1,18 @@
+{
+  "kind": "unrelated-photo-ids",
+  "acceptedResult": false,
+  "expectedPhotos": [
+    {
+      "id": "ed2aa7b5-94e4-4616-875c-83b7a698a3b0",
+      "view": "front"
+    },
+    {
+      "id": "b62ed965-6d12-4deb-9790-f6a3f741a529",
+      "view": "back"
+    },
+    {
+      "id": "901b52fb-fbb2-4ca9-8b88-a2c100d615ef",
+      "view": "label"
+    }
+  ]
+}

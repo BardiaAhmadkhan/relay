@@ -1,0 +1,18 @@
+{
+  "kind": "wrong-model",
+  "acceptedResult": false,
+  "expectedPhotos": [
+    {
+      "id": "d7050b42-75bd-4599-82e7-5779276ce019",
+      "view": "front"
+    },
+    {
+      "id": "b9ececab-51b0-404b-b992-ee46335bee56",
+      "view": "back"
+    },
+    {
+      "id": "66ce10b5-9fe7-4270-b93e-fc60ae80d429",
+      "view": "label"
+    }
+  ]
+}

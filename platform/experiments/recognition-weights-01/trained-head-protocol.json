@@ -1,0 +1,15 @@
+{
+  "id": "recognition-04.learned-head.v1",
+  "purpose": "Read a genuinely textile-defect-trained model's learned evidence for a hole and for stain at the same image location. Compile their difference into existing weights. This tests a second source of expertise, independently of word embeddings.",
+  "model": "hazemaaa/fabric-defect-detection",
+  "revision": "a24c1f2f1a661f33dd049061796a946afd8267ce",
+  "sha256": "d02abb575e9d053257f6d9839ce9ad0bc8de5d18e69623411a5aa7730e6f1ea5",
+  "sourceBytes": 41455540,
+  "weightEdit": "At each of the 3 YOLO score heads, replace only the existing hole row by W_h-W_s and bias b_h-b_s. Preserve stain, all other rows, learned boxes and every other parameter. One float16 rounding. The inverse is W_h=W_contrast+W_s in exact arithmetic. Measure actual roundoff and raw score equivalence on images. No data in calculation, no new parameters, no random edits.",
+  "absoluteEvidence": "Baseline score max_anchor P(hole). Candidate score max_anchor P_reconstructed(hole)*P(contrast); model supplies C=sigmoid(z_h-z_s), S=sigmoid(z_s); reconstruct H=sigmoid(logit(C)+logit(S)) with saturating clamp. In parallel compute the same candidate score directly from the two stock probabilities with first-order numeric clamping. This control tests whether changing weights adds information beyond a serving-time readout.",
+  "spatial": "All photos 1024-square input letterbox following published whole-view control, fixed scale and pad 114. Hole and stain class mapping from embedded ONNX metadata. Use original whole photos and annotated regions exactly as in stage 3. Separately compare strongest native score vs corrected score as a second crop in the fixed area protocol on annotated holes; record true region coverage and fixed-center baseline. Report native parameters and bytes, elapsed CPU and unchanged-channel errors.",
+  "selection": "Fresh, disjoint Wargön validation item IDs. Exclude every item in stage 3, shared IDs across source datasets and the two exploratory metadata IDs. Apply same eligibility, deterministic largest valid box, crop and one-variant rule. New salt for 12 hole and 12 spot items, or all eligible remaining if fewer. This is a same-source reserve, not a new site. No donor outputs or labels from this reserve were used to choose any edit.",
+  "salt": "relay-trained-fabric-head-reserve-1",
+  "gates": "Primary improvement requires region AUROC gain >=0.02 versus original trained hole-score baseline, no drop in whole-image discriminative ranking, and no loss in true-hole coverage with the declared compute budget. Always disclose analytic no-edit comparator and the transfer gap from loom fabric to used garments. No inference about crash histories/real offers. Preserve existing diagnosis internally; a raw contrast cannot be displayed to a rider as the original hole probability.",
+  "licenseEvidence": "Model card says MIT. The binary metadata says Ultralytics AGPL-3.0. Internal research only. No binary distribution or commercial license conclusion for this donor."
+}

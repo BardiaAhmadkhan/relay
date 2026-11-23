@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-26T18:44:48.264Z",
+  "purpose": "Additional hard low-resolution material/normal-feature controls; label by visual review before any inference.",
+  "definitions": [
+    {
+      "id": "worn-detail-2",
+      "title": "Black worn leather jacket detail 2.jpg",
+      "group": "worn",
+      "relation": "Same garment/source session as old worn-detail; not independent."
+    },
+    {
+      "id": "worn-detail-3",
+      "title": "Black worn leather jacket detail 3.jpg",
+      "group": "worn",
+      "relation": "Same garment/source session as old worn-detail; not independent."
+    },
+    {
+      "id": "biker-black",
+      "title": "Black leather biker jacket.jpg",
+      "group": "new-biker-black"
+    },
+    {
+      "id": "schott-613",
+      "title": "70s Schott 613.jpg",
+      "group": "new-schott-613"
+    },
+    {
+      "id": "lewis-vintage",
+      "title": "D Lewis vintage style.jpg",
+      "group": "new-lewis-vintage"
+    }
+  ]
+}

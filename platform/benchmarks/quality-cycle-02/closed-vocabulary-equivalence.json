@@ -1,0 +1,515 @@
+{
+  "at": "2026-10-26T22:41:42.408Z",
+  "compared": 358,
+  "differences": [
+    {
+      "set": "focus-context-audit",
+      "id": "commons-050",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "Visible stitching along the waistband seam",
+            "zone": "unknown",
+            "kind": "seam",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "trousers",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "Stained and faded text on the waistband label",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "Visible stitching along the waistband seam",
+            "zone": "unknown",
+            "kind": "seam",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "trousers",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-001",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A circular, light-colored stain on the fabric surface.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-002",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "A small, dark speck or fiber embedded in the fabric near the bottom right.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A faint, circular discoloration on the cream-colored fabric background.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "A small, dark speck or fiber embedded in the fabric near the bottom right.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-003",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "A tiny dark speck visible near the bottom right of the frame.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A small, faint yellowish stain or discoloration on the light-colored fabric.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "A tiny dark speck visible near the bottom right of the frame.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-006",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "A large circular area where the pink floral print is faded and worn away, revealing the underlying fabric.",
+            "zone": "unknown",
+            "kind": "abrasion",
+            "clarity": "clear"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A large circular area where the pink floral print is faded and worn away, revealing the underlying fabric.",
+            "zone": "unknown",
+            "kind": "abrasion",
+            "clarity": "clear"
+          },
+          {
+            "evidence": "A faint, irregular brownish stain or discoloration on the plain background fabric below the floral design.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-010",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A dark blue stain on the fabric",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-011",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "dark circular stain on blue fabric",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-012",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A small dark spot or stain is visible on the cream-colored fabric near the center.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "clear"
+          },
+          {
+            "evidence": "The fabric shows natural creasing and folds consistent with textile material.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-015",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A dark blue stain or discoloration on the fabric surface",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-016",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "Small dark specks scattered across the fabric.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A large, diffuse, light-colored stain on the fabric surface.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "Small dark specks scattered across the fabric.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-audit",
+      "id": "fabric-019",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A faint yellowish discoloration or stain is visible on the fabric surface, centered within the green geometric pattern.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-fresh",
+      "id": "fresh-commons-002",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "Black protective inserts on back of hand show slight surface wear but no tears or fraying",
+            "zone": "back",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "Red glove underneath shows minor scuffing on finger tips and palm area",
+            "zone": "cuff",
+            "kind": "abrasion",
+            "clarity": "clear"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "gloves",
+        "material": "mixed"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "White leather palm shows yellowed/brownish discoloration along edges and creases",
+            "zone": "cuff",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "Black protective inserts on back of hand show slight surface wear but no tears or fraying",
+            "zone": "back",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "Red glove underneath shows minor scuffing on finger tips and palm area",
+            "zone": "cuff",
+            "kind": "abrasion",
+            "clarity": "clear"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "gloves",
+        "material": "mixed"
+      }
+    },
+    {
+      "set": "focus-context-fresh",
+      "id": "fresh-fabric-001",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "Small dark specks scattered across the blue patterned area",
+            "zone": "unknown",
+            "kind": "abrasion",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A dark blue stain or discoloration on the fabric surface",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "Small dark specks scattered across the blue patterned area",
+            "zone": "unknown",
+            "kind": "abrasion",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-fresh",
+      "id": "fresh-fabric-003",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "A small, faint brownish spot on the fabric surface near the bottom center.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A small, faint brownish spot on the fabric surface near the bottom center.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "Minor discoloration or staining around the purple flower design.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-fresh",
+      "id": "fresh-fabric-006",
+      "condition": "no_visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A dark, irregularly shaped stain on the blue fabric",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    },
+    {
+      "set": "focus-context-fresh",
+      "id": "fresh-fabric-031",
+      "condition": "visible_defect",
+      "before": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "other",
+        "material": "textile"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "small dark stain on fabric",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "other",
+        "material": "textile"
+      }
+    }
+  ],
+  "change": "Closed cosmetic vocabulary: unfamiliar descriptions and ambiguous spot-or-stain statements are preserved. This deliberately retains uncertain alerts rather than optimizing the audit count.",
+  "positiveEvidencePreserved": true,
+  "sourceSha256": "2d5cdbb47dc829c4bb134d44cb7d487dbcaecd679e635d032424f42e1e82881b"
+}

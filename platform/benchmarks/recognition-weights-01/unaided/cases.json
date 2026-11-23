@@ -1,0 +1,1541 @@
+{
+  "protocolSha256": "3ff0bbb1dc02546b229f469a055a5d2389935f44759ee3bbe2dbf190fbd325ce",
+  "cases": [
+    {
+      "id": "w-spots-20260226_111728_8323cd31-proposed",
+      "item": "20260226_111728_8323cd31",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "a2652390d971ad7aa90f5cf2dd153a682db703370dcb07ea62925cd3c5791807",
+      "normalizedSha256": "8497305ffba02d4e8c6e014fbe8051b45f172184da50f99fb3936935ef424b5c",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_090036_96f482da-centered",
+      "item": "20260227_090036_96f482da",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "668d5aea43ed1b13a963f5c05912d239279557aa1c76fb6bf17f792429977b66",
+      "normalizedSha256": "e635798f354aadfaf2a749310747429c605a6486b8b7c36c23637a349e923741",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260218_113253_ddcee7bd-proposed",
+      "item": "20260218_113253_ddcee7bd",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "ee3a2aca91450139191e897c0361d5d5dcb35c9269f9e8a293703cd7ec3dc3a8",
+      "normalizedSha256": "50f100d4567f05c7f01d6f5fb48f94599b702ff27ad7dda0a8c7adcdfa3e8de3",
+      "geometry": {
+        "left": 0,
+        "top": 1680,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260226_144320_b5e77522-whole",
+      "item": "20260226_144320_b5e77522",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "903e34dec333f0e4509dd17ef643d268fce158d7efbff1800e82ba37416071a2",
+      "normalizedSha256": "675d5fd5a0aee5563613b2c3210ce117874055f4cc9f72c7cde05d3c2545aea5",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260217_072806_d6088397-centered",
+      "item": "20260217_072806_d6088397",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "c610e899d89433d3df26fdcea55a0bd4577768d399b7e5fe2e1aefbff4748038",
+      "normalizedSha256": "408563a34e55a7cd0c2d0661faa44a4be39b1889100caf69a38ba8b7d6e77877",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260218_112127_bfba047d-whole",
+      "item": "20260218_112127_bfba047d",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "f13526a19bac36f24af9efee43bc772bb35c5c2dc04ccdd818081ec4dc6c49f2",
+      "normalizedSha256": "0d117d04f64dd02b58185feb8b5440cfe8f1a98f4731ec503fcf11cc2a599520",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260225_121234_b9b9b0f7-whole",
+      "item": "20260225_121234_b9b9b0f7",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260225",
+      "sourceSha256": "910e0ba8eb78e3864e858470f31accf41e63d49e77997721ccc657376f1742c8",
+      "normalizedSha256": "3c45f180fdf34c1ea956e931bab6f52dbe71e5c02261bf11b5f25c8db8bb82fd",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260225_121234_b9b9b0f7-proposed",
+      "item": "20260225_121234_b9b9b0f7",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260225",
+      "sourceSha256": "910e0ba8eb78e3864e858470f31accf41e63d49e77997721ccc657376f1742c8",
+      "normalizedSha256": "e5be7a09067fbd266512f87d8300e988a8cccd5bdbdec833279017141af158d7",
+      "geometry": {
+        "left": 0,
+        "top": 1365,
+        "side": 2160
+      },
+      "containsMarkCenter": false
+    },
+    {
+      "id": "w-holes-20260224_113435_c72c4762-whole",
+      "item": "20260224_113435_c72c4762",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "968f8aa91ee48d5b053ec0e06e87d4ce34ecb9ea0048ff5dc60bcc5fff18c826",
+      "normalizedSha256": "1769b5e82a07b1defee17bc6a783a3f428d92b5bd4dfb3f786e6e51b61bb1f26",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_105737_ea73116f-oracle",
+      "item": "20260227_105737_ea73116f",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "5945259442c836baa39b30273f2ee877fd7d577afd2e539ef5d4926e76b1e958",
+      "normalizedSha256": "143af811f14bbcfce37e987429d70015f401dbc77483d114eececae511e1745d",
+      "geometry": {
+        "left": 231,
+        "top": 383,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260318_123436_09810a01-centered",
+      "item": "20260318_123436_09810a01",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260318",
+      "sourceSha256": "0c02b517c24d55c0a6051663862d0b60ea8919a6633fa2dca65675feea628be6",
+      "normalizedSha256": "7b09f4f137c3547cdd1cf62c53945721e318a7a1e7d1ec864c7345a73abeab52",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260219_082901_1fe16d20-proposed",
+      "item": "20260219_082901_1fe16d20",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "b151e601a1253271c288eb311929f20a8f99a83422c411eff00c0851528e89e9",
+      "normalizedSha256": "74ffe1ca6568f952ad9ac2c88dd4766bf155fc23f685860e0e87eab052ed2b9b",
+      "geometry": {
+        "left": 282,
+        "top": 1302,
+        "side": 471
+      },
+      "containsMarkCenter": false
+    },
+    {
+      "id": "w-holes-20260227_155138_3b38e63b-whole",
+      "item": "20260227_155138_3b38e63b",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "354985782016a38b145de75853b474715edbbc7f06a06bc3fa02852d0c5a809a",
+      "normalizedSha256": "25fdfcb320a83b21c462600bc15b8f008d17e2e51a4a1cf7c884f8fd8d10cd27",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260311_153020_6178e68f-proposed",
+      "item": "20260311_153020_6178e68f",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260311",
+      "sourceSha256": "ceb55a6d22c4bb4c67a8b28ec51b7c0e4d2f88a615eee884ba8034696a8756e2",
+      "normalizedSha256": "4abbfbaf798951884b705d3148f61a4cc228992f028223d0a9ec051a8e70a119",
+      "geometry": {
+        "left": 0,
+        "top": 1680,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_151036_d45f3222-centered",
+      "item": "20260227_151036_d45f3222",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "381b06b48c861d50ef68a47e452f0a5ba787835b32d2f2a653bd5328789eb9d5",
+      "normalizedSha256": "b323252906be3ffb722d77c92d91a860f4b908eb978abc32a09b580dd088b0e1",
+      "geometry": {
+        "left": 26,
+        "top": 26,
+        "side": 589
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260217_095044_c863235c-whole",
+      "item": "20260217_095044_c863235c",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "bb05882b7b2d76ace56bfd2eb92c07d8502f33c22cff4b1b8d755a00115d2b3e",
+      "normalizedSha256": "2846252f0eed8d8aaa676aac7007c5d2bbaef430e1bd319e4cadadc09c3f6fbd",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260224_131858_460f8164-whole",
+      "item": "20260224_131858_460f8164",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "238180babd50a37856b4d85447b4ba00d1314abef204babd39aaadccd35461a1",
+      "normalizedSha256": "149701565c5fd48a2e85a58ffe523f55a6fab771effe719bea80727edcd73538",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_141719_5126e4be-centered",
+      "item": "20260220_141719_5126e4be",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "3e6017de02842b3f1ec184949b097af5da8632767d3a77f18fc7aff7b292e31f",
+      "normalizedSha256": "f98eeea846f747db6c3e90001144e7d6946ec8085fa2c320e4f8ad023f03e03a",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_155138_3b38e63b-oracle",
+      "item": "20260227_155138_3b38e63b",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "354985782016a38b145de75853b474715edbbc7f06a06bc3fa02852d0c5a809a",
+      "normalizedSha256": "0e4e78d5006eab52b10a77cb01c56b9075cdf06235205474626c6bcd4e40ff17",
+      "geometry": {
+        "left": 156,
+        "top": 85,
+        "side": 164
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_151036_d45f3222-proposed",
+      "item": "20260227_151036_d45f3222",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "381b06b48c861d50ef68a47e452f0a5ba787835b32d2f2a653bd5328789eb9d5",
+      "normalizedSha256": "ab0bedce0eeddb105cce6d7a44bb974d365ce3a9d097e7479e92dc21f4c26326",
+      "geometry": {
+        "left": 51,
+        "top": 51,
+        "side": 589
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_105737_ea73116f-centered",
+      "item": "20260227_105737_ea73116f",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "5945259442c836baa39b30273f2ee877fd7d577afd2e539ef5d4926e76b1e958",
+      "normalizedSha256": "3a2bf9407fdf31b90c9ed81667afa188cdad06c702c24cad513c61388b80ad44",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_131858_460f8164-proposed",
+      "item": "20260224_131858_460f8164",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "238180babd50a37856b4d85447b4ba00d1314abef204babd39aaadccd35461a1",
+      "normalizedSha256": "fd4365afaaacf3846faf2a5a6c3df4fecde41361cc1b527bb0cb16bdb1ca55b9",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 293
+      },
+      "containsMarkCenter": false
+    },
+    {
+      "id": "w-holes-20260224_134241_a184d209-proposed",
+      "item": "20260224_134241_a184d209",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "90cd9181d309c491e178d5994a20ec2b4fab61c23fc95138b932d29be91d22be",
+      "normalizedSha256": "7a010b1360f6a73be7095a4a64cd44e4f4e9d27c645808ab4fb9beb948724c8a",
+      "geometry": {
+        "left": 0,
+        "top": 764,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260318_123436_09810a01-proposed",
+      "item": "20260318_123436_09810a01",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260318",
+      "sourceSha256": "0c02b517c24d55c0a6051663862d0b60ea8919a6633fa2dca65675feea628be6",
+      "normalizedSha256": "1b301d470b65f60b27962b2609c1da4a46c4e5c6e8ad75f1f28775cc1854edfc",
+      "geometry": {
+        "left": 0,
+        "top": 1388,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260218_113253_ddcee7bd-oracle",
+      "item": "20260218_113253_ddcee7bd",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "ee3a2aca91450139191e897c0361d5d5dcb35c9269f9e8a293703cd7ec3dc3a8",
+      "normalizedSha256": "ae94b3328932edbb9c5c5a2c6c9aa00cc35f0959478c1dddcf2354af42279075",
+      "geometry": {
+        "left": 781,
+        "top": 2484,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260219_082901_1fe16d20-centered",
+      "item": "20260219_082901_1fe16d20",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "b151e601a1253271c288eb311929f20a8f99a83422c411eff00c0851528e89e9",
+      "normalizedSha256": "caac511c9127dbd4f23677fe54dfc4d97cfab76e9e014aa44a5967e8259fb21a",
+      "geometry": {
+        "left": 845,
+        "top": 1685,
+        "side": 471
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260219_110148_c50b0be2-whole",
+      "item": "20260219_110148_c50b0be2",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "59baf8ce8f4f35b61c12de7e5353b56df4ef3ade609d6e00ff0ef1fceeb46d1c",
+      "normalizedSha256": "26a683e3f477982a85dd0278b008cd18b54e2691fbc4b59ed6ae229ca5d1031f",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_122128_46ec3467-proposed",
+      "item": "20260220_122128_46ec3467",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "f4459fb6855d7082c4a9108d2ad21d86d195435a0cc71a1a9b5157842d81758d",
+      "normalizedSha256": "d867ac90a6758230041185a94f4e8a2276e5e5e0014d2015f6c4ca864996ad86",
+      "geometry": {
+        "left": 0,
+        "top": 1613,
+        "side": 2160
+      },
+      "containsMarkCenter": false
+    },
+    {
+      "id": "w-holes-20260227_155138_3b38e63b-proposed",
+      "item": "20260227_155138_3b38e63b",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "354985782016a38b145de75853b474715edbbc7f06a06bc3fa02852d0c5a809a",
+      "normalizedSha256": "e9ed43c82972e5adf282e49f7ee6962d61ed4a5291b16d3a9f4a9aa9f3d9e316",
+      "geometry": {
+        "left": 180,
+        "top": 0,
+        "side": 460
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_134241_a184d209-oracle",
+      "item": "20260224_134241_a184d209",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "90cd9181d309c491e178d5994a20ec2b4fab61c23fc95138b932d29be91d22be",
+      "normalizedSha256": "a6bed6a2d6da58936be8f6cc3e521808da329ac15191f7d72417460f214d320f",
+      "geometry": {
+        "left": 824,
+        "top": 1457,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260217_072806_d6088397-proposed",
+      "item": "20260217_072806_d6088397",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "c610e899d89433d3df26fdcea55a0bd4577768d399b7e5fe2e1aefbff4748038",
+      "normalizedSha256": "0f26a20d927981365ebfd11813b8bca0cbc77e9690b91d74bf5226796f3bb5c0",
+      "geometry": {
+        "left": 0,
+        "top": 771,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260218_112127_bfba047d-centered",
+      "item": "20260218_112127_bfba047d",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "f13526a19bac36f24af9efee43bc772bb35c5c2dc04ccdd818081ec4dc6c49f2",
+      "normalizedSha256": "2b3cdd4f05136696661518e564cd86ea2883c3f1d99996c0fa2bdfc76021e06c",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260217_095044_c863235c-proposed",
+      "item": "20260217_095044_c863235c",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "bb05882b7b2d76ace56bfd2eb92c07d8502f33c22cff4b1b8d755a00115d2b3e",
+      "normalizedSha256": "afcfe4121b8f62d51db7ccb109c7e15b602eb53a5bd1362734ae5fb47551a4ee",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260311_153020_6178e68f-oracle",
+      "item": "20260311_153020_6178e68f",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260311",
+      "sourceSha256": "ceb55a6d22c4bb4c67a8b28ec51b7c0e4d2f88a615eee884ba8034696a8756e2",
+      "normalizedSha256": "9642fb285f8fc22667210c6c5256e9361edb5c3a0ce0444745604f99dfb813cc",
+      "geometry": {
+        "left": 728,
+        "top": 2265,
+        "side": 197
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_150712_d403f7ad-whole",
+      "item": "20260220_150712_d403f7ad",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "5b46433969d3c714d618f80cbb1f33c8bbd74687088937e39f296080b7e85f2a",
+      "normalizedSha256": "5e371412fc6bc7eebe387d147fbe37f77be2eff735776bd2cdafca9740a28db2",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260224_102425_2388de32-oracle",
+      "item": "20260224_102425_2388de32",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "6789a36efc53507dffd1de80b440417f7c81079ea181bc295a6c3d71ee0e7d30",
+      "normalizedSha256": "dcd9468605cfb6af1a94505713053151824d8c35a425c4366e063e17ce1caa79",
+      "geometry": {
+        "left": 210,
+        "top": 324,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_122128_46ec3467-centered",
+      "item": "20260220_122128_46ec3467",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "f4459fb6855d7082c4a9108d2ad21d86d195435a0cc71a1a9b5157842d81758d",
+      "normalizedSha256": "6ff63560269ba60789a3fb1c8ebd14921b8c87b5ff9679489a44971b18e925b4",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260226_111728_8323cd31-centered",
+      "item": "20260226_111728_8323cd31",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "a2652390d971ad7aa90f5cf2dd153a682db703370dcb07ea62925cd3c5791807",
+      "normalizedSha256": "8497305ffba02d4e8c6e014fbe8051b45f172184da50f99fb3936935ef424b5c",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260220_141719_5126e4be-oracle",
+      "item": "20260220_141719_5126e4be",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "3e6017de02842b3f1ec184949b097af5da8632767d3a77f18fc7aff7b292e31f",
+      "normalizedSha256": "c57d39c52d08ad27653d7a32c1d7ffbb882f94a9321c73fe52da76ed6cc2b124",
+      "geometry": {
+        "left": 20,
+        "top": 1018,
+        "side": 1613
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260218_113253_ddcee7bd-centered",
+      "item": "20260218_113253_ddcee7bd",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "ee3a2aca91450139191e897c0361d5d5dcb35c9269f9e8a293703cd7ec3dc3a8",
+      "normalizedSha256": "ba4d385bfffdd438be4288c61d8bf836e4f39c64681c050fbbcbc151c7618565",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_151036_d45f3222-oracle",
+      "item": "20260227_151036_d45f3222",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "381b06b48c861d50ef68a47e452f0a5ba787835b32d2f2a653bd5328789eb9d5",
+      "normalizedSha256": "0696081efbb884bf480bc4844aa1c6797ad864cd51c3e2b5c409636dce7b3b6f",
+      "geometry": {
+        "left": 325,
+        "top": 400,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_105737_ea73116f-proposed",
+      "item": "20260227_105737_ea73116f",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "5945259442c836baa39b30273f2ee877fd7d577afd2e539ef5d4926e76b1e958",
+      "normalizedSha256": "3a2bf9407fdf31b90c9ed81667afa188cdad06c702c24cad513c61388b80ad44",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_130038_b3752425-centered",
+      "item": "20260224_130038_b3752425",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "a22a165a0c59da9acd11b8c35fca33f537ced15256578936d01702c76c17ecb3",
+      "normalizedSha256": "5369cba2a81bfe830d5507e2eba3d3d023a9cfce69b9d73d274afd3068c7d52a",
+      "geometry": {
+        "left": 49,
+        "top": 49,
+        "side": 542
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260219_110148_c50b0be2-proposed",
+      "item": "20260219_110148_c50b0be2",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "59baf8ce8f4f35b61c12de7e5353b56df4ef3ade609d6e00ff0ef1fceeb46d1c",
+      "normalizedSha256": "ad860d1bf33492bb4105cc232dd5d3fe96ffb77adbcfef4d3a5c434a749733f3",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260220_122128_46ec3467-whole",
+      "item": "20260220_122128_46ec3467",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "f4459fb6855d7082c4a9108d2ad21d86d195435a0cc71a1a9b5157842d81758d",
+      "normalizedSha256": "b91c1eaaf1607babb201fb2990390a738a7e10435a3fc961c800314f74d9e6a8",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260226_144320_b5e77522-oracle",
+      "item": "20260226_144320_b5e77522",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "903e34dec333f0e4509dd17ef643d268fce158d7efbff1800e82ba37416071a2",
+      "normalizedSha256": "d2545a0e80215c2efe3aff0ec09cb73533b7f2d0030a7131fbc9318ee402c671",
+      "geometry": {
+        "left": 488,
+        "top": 1052,
+        "side": 420
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_101432_0290383e-centered",
+      "item": "20260227_101432_0290383e",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "39d9190c0917ebe50806435db8e05aaadd2336a7033ae5d60773eede5bb94069",
+      "normalizedSha256": "9e6cf808b4f987855bf6b2e286f5351ad3bcaf69c58e3663e0517240528abe2f",
+      "geometry": {
+        "left": 77,
+        "top": 77,
+        "side": 487
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_131858_460f8164-oracle",
+      "item": "20260224_131858_460f8164",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "238180babd50a37856b4d85447b4ba00d1314abef204babd39aaadccd35461a1",
+      "normalizedSha256": "7cfe6d4d5c416fa69390259182d23259212b896d747d98589d391085bdcff198",
+      "geometry": {
+        "left": 160,
+        "top": 331,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260226_111728_8323cd31-whole",
+      "item": "20260226_111728_8323cd31",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "a2652390d971ad7aa90f5cf2dd153a682db703370dcb07ea62925cd3c5791807",
+      "normalizedSha256": "c21ad8f18f6b975f6399af7ec1b5027400bf2b9691e5563fbb567a7503e1804c",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260225_121234_b9b9b0f7-oracle",
+      "item": "20260225_121234_b9b9b0f7",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260225",
+      "sourceSha256": "910e0ba8eb78e3864e858470f31accf41e63d49e77997721ccc657376f1742c8",
+      "normalizedSha256": "220d7220a7f48717ed53abc33b9853819a67f3de80806d59af7550414f67e889",
+      "geometry": {
+        "left": 714,
+        "top": 1262,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_151036_d45f3222-whole",
+      "item": "20260227_151036_d45f3222",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "381b06b48c861d50ef68a47e452f0a5ba787835b32d2f2a653bd5328789eb9d5",
+      "normalizedSha256": "4788a5393802ec4b13697f2e01363b540492879de8b360a5ff8495928204d042",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_101432_0290383e-whole",
+      "item": "20260227_101432_0290383e",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "39d9190c0917ebe50806435db8e05aaadd2336a7033ae5d60773eede5bb94069",
+      "normalizedSha256": "aada095db11da965b29041b0b5713fef1d01cf507fddb38c6a1887b9d7f8cd64",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_141719_5126e4be-whole",
+      "item": "20260220_141719_5126e4be",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "3e6017de02842b3f1ec184949b097af5da8632767d3a77f18fc7aff7b292e31f",
+      "normalizedSha256": "edc51be789a8341e9eda760c87173ac0db077569a1f0adbc2b843ba1fea0e5b7",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260218_112127_bfba047d-oracle",
+      "item": "20260218_112127_bfba047d",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "f13526a19bac36f24af9efee43bc772bb35c5c2dc04ccdd818081ec4dc6c49f2",
+      "normalizedSha256": "1a6bdceabe2df3d138ab1ebe4dd852c7400a9d99d5ff04e8528662c503bb9b2e",
+      "geometry": {
+        "left": 966,
+        "top": 1138,
+        "side": 117
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_101432_0290383e-oracle",
+      "item": "20260227_101432_0290383e",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "39d9190c0917ebe50806435db8e05aaadd2336a7033ae5d60773eede5bb94069",
+      "normalizedSha256": "95918f2bb3e52c903a81e53fc8d9bf95bd16dbf47b54b86612b81d29eba42679",
+      "geometry": {
+        "left": 189,
+        "top": 282,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260217_072806_d6088397-oracle",
+      "item": "20260217_072806_d6088397",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "c610e899d89433d3df26fdcea55a0bd4577768d399b7e5fe2e1aefbff4748038",
+      "normalizedSha256": "de7e6b29d88a084145c76990ab810f8a064d96da0a37cb225e0fd42fe7ba6da8",
+      "geometry": {
+        "left": 609,
+        "top": 2621,
+        "side": 129
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260224_113435_c72c4762-proposed",
+      "item": "20260224_113435_c72c4762",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "968f8aa91ee48d5b053ec0e06e87d4ce34ecb9ea0048ff5dc60bcc5fff18c826",
+      "normalizedSha256": "358dfc4b1badb15570de7d3b2fd0e2c36c48550695cf629c5ba637c086b1d695",
+      "geometry": {
+        "left": 0,
+        "top": 509,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260311_153020_6178e68f-whole",
+      "item": "20260311_153020_6178e68f",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260311",
+      "sourceSha256": "ceb55a6d22c4bb4c67a8b28ec51b7c0e4d2f88a615eee884ba8034696a8756e2",
+      "normalizedSha256": "d88bde89c82398f2cd29b2253ce949fe25dba80d057cddf97b4e7c8fc76e852d",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260219_110148_c50b0be2-centered",
+      "item": "20260219_110148_c50b0be2",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "59baf8ce8f4f35b61c12de7e5353b56df4ef3ade609d6e00ff0ef1fceeb46d1c",
+      "normalizedSha256": "ad860d1bf33492bb4105cc232dd5d3fe96ffb77adbcfef4d3a5c434a749733f3",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_113435_c72c4762-oracle",
+      "item": "20260224_113435_c72c4762",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "968f8aa91ee48d5b053ec0e06e87d4ce34ecb9ea0048ff5dc60bcc5fff18c826",
+      "normalizedSha256": "b69497db42600084582feea718c2d5be9b9a6f394ac40660394d5520f56fe18f",
+      "geometry": {
+        "left": 836,
+        "top": 2331,
+        "side": 72
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_090036_96f482da-whole",
+      "item": "20260227_090036_96f482da",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "668d5aea43ed1b13a963f5c05912d239279557aa1c76fb6bf17f792429977b66",
+      "normalizedSha256": "f7a3eaa84133259f9744ede6e39549b0c2476cdbe9a1bdc4a5947081f92be1b1",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260217_095044_c863235c-oracle",
+      "item": "20260217_095044_c863235c",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "bb05882b7b2d76ace56bfd2eb92c07d8502f33c22cff4b1b8d755a00115d2b3e",
+      "normalizedSha256": "7ba0422b4b8dd6c394684aca8f25fe6551cbc539e907d5dfdd657ff38c5cbfce",
+      "geometry": {
+        "left": 269,
+        "top": 157,
+        "side": 75
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_122128_46ec3467-oracle",
+      "item": "20260220_122128_46ec3467",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "f4459fb6855d7082c4a9108d2ad21d86d195435a0cc71a1a9b5157842d81758d",
+      "normalizedSha256": "5cd818bac8087ed212bef9d84e1f37bfaeeeeb7425ed7b3c7675b5e6490f088a",
+      "geometry": {
+        "left": 492,
+        "top": 880,
+        "side": 664
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260224_130038_b3752425-oracle",
+      "item": "20260224_130038_b3752425",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "a22a165a0c59da9acd11b8c35fca33f537ced15256578936d01702c76c17ecb3",
+      "normalizedSha256": "0dbe5260b4478ded1e2b4849c657638d510870049267a16455254310d3377c67",
+      "geometry": {
+        "left": 62,
+        "top": 237,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_090036_96f482da-proposed",
+      "item": "20260227_090036_96f482da",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "668d5aea43ed1b13a963f5c05912d239279557aa1c76fb6bf17f792429977b66",
+      "normalizedSha256": "29cdbb4c04a11c2a0596003a00a58c7d1c1f99a45f782ab46f388b1059b531bc",
+      "geometry": {
+        "left": 0,
+        "top": 1671,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_090036_96f482da-oracle",
+      "item": "20260227_090036_96f482da",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "668d5aea43ed1b13a963f5c05912d239279557aa1c76fb6bf17f792429977b66",
+      "normalizedSha256": "dc1b87a6c5da4c321f98d70a1c6b7090cb7aad662bedbc8c456282a7ed4c6fcf",
+      "geometry": {
+        "left": 123,
+        "top": 1723,
+        "side": 177
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260224_102425_2388de32-whole",
+      "item": "20260224_102425_2388de32",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "6789a36efc53507dffd1de80b440417f7c81079ea181bc295a6c3d71ee0e7d30",
+      "normalizedSha256": "da24e45bf62ddf457f8aa31a983655d469e314a7500b35294c4d06a7b7811182",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260226_111728_8323cd31-oracle",
+      "item": "20260226_111728_8323cd31",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "a2652390d971ad7aa90f5cf2dd153a682db703370dcb07ea62925cd3c5791807",
+      "normalizedSha256": "4a658152c93ea65cc4c65d4510d2432c9d75b52d40ad8a995e1fc8aa77f973cc",
+      "geometry": {
+        "left": 286,
+        "top": 258,
+        "side": 123
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260318_123436_09810a01-oracle",
+      "item": "20260318_123436_09810a01",
+      "class": "holes",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260318",
+      "sourceSha256": "0c02b517c24d55c0a6051663862d0b60ea8919a6633fa2dca65675feea628be6",
+      "normalizedSha256": "9edfa663369e06cd357a5538e4a787874dba3115cf874ea75df77a7a7139514a",
+      "geometry": {
+        "left": 459,
+        "top": 2046,
+        "side": 408
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260217_095044_c863235c-centered",
+      "item": "20260217_095044_c863235c",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "bb05882b7b2d76ace56bfd2eb92c07d8502f33c22cff4b1b8d755a00115d2b3e",
+      "normalizedSha256": "afcfe4121b8f62d51db7ccb109c7e15b602eb53a5bd1362734ae5fb47551a4ee",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260225_121234_b9b9b0f7-centered",
+      "item": "20260225_121234_b9b9b0f7",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260225",
+      "sourceSha256": "910e0ba8eb78e3864e858470f31accf41e63d49e77997721ccc657376f1742c8",
+      "normalizedSha256": "4f5deb87719b7c5b39a28daeff0131e17014c4a2afdecc833b191735f16016b6",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_130038_b3752425-proposed",
+      "item": "20260224_130038_b3752425",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "a22a165a0c59da9acd11b8c35fca33f537ced15256578936d01702c76c17ecb3",
+      "normalizedSha256": "8eee3f1c0a5fc19ba6e09d2cdd9b71099795d2bab892a5146ebffd6fe7b05262",
+      "geometry": {
+        "left": 98,
+        "top": 0,
+        "side": 542
+      },
+      "containsMarkCenter": false
+    },
+    {
+      "id": "w-spots-20260218_112127_bfba047d-proposed",
+      "item": "20260218_112127_bfba047d",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "f13526a19bac36f24af9efee43bc772bb35c5c2dc04ccdd818081ec4dc6c49f2",
+      "normalizedSha256": "155f2af6f5f10ced7b6fddbd769171fdeaa706bbc63fa2f24db74458fbb01468",
+      "geometry": {
+        "left": 0,
+        "top": 878,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_113435_c72c4762-centered",
+      "item": "20260224_113435_c72c4762",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "968f8aa91ee48d5b053ec0e06e87d4ce34ecb9ea0048ff5dc60bcc5fff18c826",
+      "normalizedSha256": "d22a78fa757c6019953a6cccf02fd5d9c15cd5473fa709bdbf85876c7c69b4eb",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_102425_2388de32-centered",
+      "item": "20260224_102425_2388de32",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "6789a36efc53507dffd1de80b440417f7c81079ea181bc295a6c3d71ee0e7d30",
+      "normalizedSha256": "12de57c3bd912c7ae02dec79180454d86ecef678a21046d3f18e6024aa2ef37b",
+      "geometry": {
+        "left": 94,
+        "top": 94,
+        "side": 453
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260226_144320_b5e77522-proposed",
+      "item": "20260226_144320_b5e77522",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "903e34dec333f0e4509dd17ef643d268fce158d7efbff1800e82ba37416071a2",
+      "normalizedSha256": "5814913f3e8213ae3161fe4311ee56e19881ae80fc02bb7bc97343a91585c753",
+      "geometry": {
+        "left": 0,
+        "top": 1046,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_102425_2388de32-proposed",
+      "item": "20260224_102425_2388de32",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "6789a36efc53507dffd1de80b440417f7c81079ea181bc295a6c3d71ee0e7d30",
+      "normalizedSha256": "3ae5a85ecef0b9c9a2c93bec5e3473478077a707f5e7310005e8188ef41c4b8b",
+      "geometry": {
+        "left": 187,
+        "top": 34,
+        "side": 453
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_134241_a184d209-centered",
+      "item": "20260224_134241_a184d209",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "90cd9181d309c491e178d5994a20ec2b4fab61c23fc95138b932d29be91d22be",
+      "normalizedSha256": "f15ccf810d10cee900a1d0b9faea9a45bceaf3074f699f6ad75c524f4f707232",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260218_113253_ddcee7bd-whole",
+      "item": "20260218_113253_ddcee7bd",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260218",
+      "sourceSha256": "ee3a2aca91450139191e897c0361d5d5dcb35c9269f9e8a293703cd7ec3dc3a8",
+      "normalizedSha256": "b6e98126f4e910a933c164f42073cf303292ebe6aebced519013564f9bc15cbd",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_141719_5126e4be-proposed",
+      "item": "20260220_141719_5126e4be",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "3e6017de02842b3f1ec184949b097af5da8632767d3a77f18fc7aff7b292e31f",
+      "normalizedSha256": "11dd614462f9b4d6950063109b596b8ee45e5e4de8108c5c9b0576fdf2c99be5",
+      "geometry": {
+        "left": 0,
+        "top": 1114,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260311_153020_6178e68f-centered",
+      "item": "20260311_153020_6178e68f",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260311",
+      "sourceSha256": "ceb55a6d22c4bb4c67a8b28ec51b7c0e4d2f88a615eee884ba8034696a8756e2",
+      "normalizedSha256": "9b964ff1dbdb7b806adb9573e31b3701449873103c8f185ded2ed5b5fb4d4370",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260219_082901_1fe16d20-oracle",
+      "item": "20260219_082901_1fe16d20",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "b151e601a1253271c288eb311929f20a8f99a83422c411eff00c0851528e89e9",
+      "normalizedSha256": "5d5e90b0c1304e054ac527cf0d55a82c2f2d784e7419ce53bc9cfabbb5d1efb6",
+      "geometry": {
+        "left": 1073,
+        "top": 1739,
+        "side": 333
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260227_155138_3b38e63b-centered",
+      "item": "20260227_155138_3b38e63b",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "354985782016a38b145de75853b474715edbbc7f06a06bc3fa02852d0c5a809a",
+      "normalizedSha256": "dd587c1da68190a92daee074068fe90bee2c3b6b3b629d9d8f572c1346f6870a",
+      "geometry": {
+        "left": 90,
+        "top": 90,
+        "side": 460
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260217_072806_d6088397-whole",
+      "item": "20260217_072806_d6088397",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260217",
+      "sourceSha256": "c610e899d89433d3df26fdcea55a0bd4577768d399b7e5fe2e1aefbff4748038",
+      "normalizedSha256": "fb694b5fb7a2ecee463b0a19f908465204babea57239938a8f941e8721a7e092",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260318_123436_09810a01-whole",
+      "item": "20260318_123436_09810a01",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260318",
+      "sourceSha256": "0c02b517c24d55c0a6051663862d0b60ea8919a6633fa2dca65675feea628be6",
+      "normalizedSha256": "c846ee537948f8bb18fda1ee225679255db8d45f1d2a5c0b41d36043691429a0",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260224_134241_a184d209-whole",
+      "item": "20260224_134241_a184d209",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "90cd9181d309c491e178d5994a20ec2b4fab61c23fc95138b932d29be91d22be",
+      "normalizedSha256": "4e466e61b05d7eb25ec8b67e31bdd78e553ee3795ec498953483bd58de5cc616",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_150712_d403f7ad-oracle",
+      "item": "20260220_150712_d403f7ad",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "5b46433969d3c714d618f80cbb1f33c8bbd74687088937e39f296080b7e85f2a",
+      "normalizedSha256": "e6e50409411703246161a6a81b4b2cbf1d365abe187cd3078b74e8e15c71f034",
+      "geometry": {
+        "left": 129,
+        "top": 233,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260219_082901_1fe16d20-whole",
+      "item": "20260219_082901_1fe16d20",
+      "class": "spots",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "b151e601a1253271c288eb311929f20a8f99a83422c411eff00c0851528e89e9",
+      "normalizedSha256": "b247beb543296b9c74a1bdebffc17c259cd485ddcf2ae60b20f7f390951d56f3",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-holes-20260224_131858_460f8164-centered",
+      "item": "20260224_131858_460f8164",
+      "class": "holes",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "238180babd50a37856b4d85447b4ba00d1314abef204babd39aaadccd35461a1",
+      "normalizedSha256": "212149e07fcd0b79ee5aeb1725ba7ba6349ba0355c65702cb8acd987d151c609",
+      "geometry": {
+        "left": 174,
+        "top": 174,
+        "side": 293
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260219_110148_c50b0be2-oracle",
+      "item": "20260219_110148_c50b0be2",
+      "class": "spots",
+      "mode": "oracle",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260219",
+      "sourceSha256": "59baf8ce8f4f35b61c12de7e5353b56df4ef3ade609d6e00ff0ef1fceeb46d1c",
+      "normalizedSha256": "d4b4e7ca4a7cffc1c2da91b9a49f59c0c20cd3cbd1738b5e8b0c228d627a8e69",
+      "geometry": {
+        "left": 199,
+        "top": 249,
+        "side": 64
+      },
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260226_144320_b5e77522-centered",
+      "item": "20260226_144320_b5e77522",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260226",
+      "sourceSha256": "903e34dec333f0e4509dd17ef643d268fce158d7efbff1800e82ba37416071a2",
+      "normalizedSha256": "dc59a278101e0de4d0738cecbdd03d90cbb35a07f9958dfddd772256e5de4b2e",
+      "geometry": {
+        "left": 0,
+        "top": 840,
+        "side": 2160
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-spots-20260220_150712_d403f7ad-centered",
+      "item": "20260220_150712_d403f7ad",
+      "class": "spots",
+      "mode": "centered",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "5b46433969d3c714d618f80cbb1f33c8bbd74687088937e39f296080b7e85f2a",
+      "normalizedSha256": "430745e9611d7a67580ab43a8a6e404ff19ade0727f32e8a3bd6fe79c5690b4b",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_101432_0290383e-proposed",
+      "item": "20260227_101432_0290383e",
+      "class": "holes",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "39d9190c0917ebe50806435db8e05aaadd2336a7033ae5d60773eede5bb94069",
+      "normalizedSha256": "bfddb98a8c42545ae33357b360b707d8a0deaa300a93ca9114cf25ef70453744",
+      "geometry": {
+        "left": 109,
+        "top": 153,
+        "side": 487
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260224_130038_b3752425-whole",
+      "item": "20260224_130038_b3752425",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260224",
+      "sourceSha256": "a22a165a0c59da9acd11b8c35fca33f537ced15256578936d01702c76c17ecb3",
+      "normalizedSha256": "1fca3068863a26f902deb8e18d5c548f04e6a0d58daa20b5ee50c8a87525e3ba",
+      "geometry": null,
+      "containsMarkCenter": null
+    },
+    {
+      "id": "w-spots-20260220_150712_d403f7ad-proposed",
+      "item": "20260220_150712_d403f7ad",
+      "class": "spots",
+      "mode": "proposed",
+      "view": "detail",
+      "cohort": "unaided_region",
+      "group": "20260220",
+      "sourceSha256": "5b46433969d3c714d618f80cbb1f33c8bbd74687088937e39f296080b7e85f2a",
+      "normalizedSha256": "430745e9611d7a67580ab43a8a6e404ff19ade0727f32e8a3bd6fe79c5690b4b",
+      "geometry": {
+        "left": 0,
+        "top": 0,
+        "side": 640
+      },
+      "containsMarkCenter": true
+    },
+    {
+      "id": "w-holes-20260227_105737_ea73116f-whole",
+      "item": "20260227_105737_ea73116f",
+      "class": "holes",
+      "mode": "whole",
+      "view": "front",
+      "cohort": "unaided_region",
+      "group": "20260227",
+      "sourceSha256": "5945259442c836baa39b30273f2ee877fd7d577afd2e539ef5d4926e76b1e958",
+      "normalizedSha256": "12c91c20b07371e19afd025b7f8d7be2648a1fc99344d428149b46351bc17313",
+      "geometry": null,
+      "containsMarkCenter": null
+    }
+  ]
+}

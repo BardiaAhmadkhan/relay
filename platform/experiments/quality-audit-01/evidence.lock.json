@@ -1,0 +1,129 @@
+{
+  "recordedAt": "2026-10-26T21:37:25.476Z",
+  "files": [
+    {
+      "path": "datasets/quality-audit-01/labels.json",
+      "sha256": "e7bcabdc1e5dc57aebfb1e00ecfe4a8be181fea3e87bbcb2b4e535e038b7004e"
+    },
+    {
+      "path": "datasets/quality-audit-01/labels.csv",
+      "sha256": "68388843a9c5c2e7c93751422a99c31635a87fca3efd5c625d876b05c81f0372"
+    },
+    {
+      "path": "datasets/quality-audit-01/results.csv",
+      "sha256": "ef71fcf978ebda77c0058587348e47eb6a3aa63c3d1f79449feb32e1bf977e30"
+    },
+    {
+      "path": "datasets/quality-audit-01/review.html",
+      "sha256": "8820b06e6237f821fde6a46091fc098d74b84c95dd83797233a528757c1c60cf"
+    },
+    {
+      "path": "datasets/quality-audit-01/attribution.json",
+      "sha256": "bc5cf56f899f6f1ff2c466dd97f483d8e4159208da8feeb326f19e8de067277c"
+    },
+    {
+      "path": "datasets/quality-audit-01/README.md",
+      "sha256": "b78f9280cd261b7d553a6254a200385b5655edc832339bf644f3dbb8dd60e20f"
+    },
+    {
+      "path": "docs/15-testing-and-qa/quality-audit-01.md",
+      "sha256": "8861bffb6177d09e5fb1c1b2af3d9aed838ac434bdb81698f290aad757d6735e"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/summary.json",
+      "sha256": "8270ccce8fa91dea9202bf789e6e904766abe9e4b088d8c24cb76dc454047568"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/evaluation-full.json",
+      "sha256": "98ce8a3252ed6634fe6890fa3cb41b0fea0c48b91097b8b9fd433d86174698fc"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/evaluation-full.jsonl",
+      "sha256": "d70b6246da7ed7e0e38b1fc120b08cc4590938d8735ff4563aeae8cd660ce636"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/evaluation-full-run.json",
+      "sha256": "92a7f9518a0b7e0ed0237f06c8b9055eb9d46dc806d1cb6fd52b75390835fe63"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/followup.json",
+      "sha256": "e7da7e5ab51616c05a619462aa59898adba2fd4bb81c667a16ab326054c93f3a"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/transport-timeout-proof.json",
+      "sha256": "09e3a9e8bb2f02b931e488bc681476132cfd597235336974f08bf23ffcdffacc"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/reference-label-disputes.json",
+      "sha256": "1cb06730bf5e50782c9878577fca27daacc74e06d933a299a5172f4e0a14e5e8"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/review-corrections.json",
+      "sha256": "e6aa8f682823ac3392c335e9f7de54ef60b5b85e1f5ce98d579e5fb6c9b59721"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/cold-start-interruption.json",
+      "sha256": "e58baae420feb338d845b3eed05dcca3fab4275a65679a2656219ab9242273f0"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/harness-invalid-run.json",
+      "sha256": "8fa0b967c36ff836a032f7c8a6c56407ed307a55f3510877e55f05ef8f9ce03a"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/verification.json",
+      "sha256": "88a7c7c7e39957faf93f95115c7b933e16a04fd98c40663363c9e72160278458"
+    },
+    {
+      "path": "experiments/quality-audit-01/protocol.json",
+      "sha256": "ac200aa2806491adb06c28da14a0affb07811f0bc92531330565ec68588ebd6c"
+    },
+    {
+      "path": "experiments/quality-audit-01/labels.lock.json",
+      "sha256": "d3a2f9f004bad64db25b75d26e16278b18dd3b8f4c0a5d2cc33e9cbd36e08141"
+    },
+    {
+      "path": "experiments/quality-audit-01/correspondence-review-protocol.json",
+      "sha256": "c69e109105f03ecde5a7e2be3ba7e3d5728dc0516e5139614051fca88670db16"
+    },
+    {
+      "path": "experiments/quality-audit-01/source-inventory.json",
+      "sha256": "77bb260356819b48a098046d7434cbe48a499444dd419493986cec55e77789db"
+    },
+    {
+      "path": "scripts/quality-audit-run-v3.ts",
+      "sha256": "e676f9402788a419c147b1f891166df0743e9eb055ce4a7616b93e55c742eff2"
+    },
+    {
+      "path": "scripts/quality-audit-report.mjs",
+      "sha256": "3a672b61abc98ccbbc44fa6ad0a7dff6adfa10094e27fdccc6096d51beb05647"
+    },
+    {
+      "path": "scripts/quality-audit-review-template.html",
+      "sha256": "5a3a9460f721f092bc46580c702b6d8274bcf4144b2e50c307ebef80950507e6"
+    },
+    {
+      "path": "artifacts/relay-quality-audit-01.zip",
+      "sha256": "b9dbde1a4a0c8cc14e5eb0652d8128de4988fe4f292186e62c5565a7ac6b34f6"
+    },
+    {
+      "path": "artifacts/relay-quality-audit-01.json",
+      "sha256": "03f1aa8570992f3d5d5881660b8bc99ed6e5d51e75ae61f68fb83e19c57f70a4"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/prediction-review/part-01.json",
+      "sha256": "62de8f7b3d14ce336ff13b9a1c0e98a4013fb093576d6a13ebfe1588e4008737"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/prediction-review/part-02.json",
+      "sha256": "bac8c0be3dc930e8b837219f78daf847e6b488eb96628d18d50d9efc9a8157bd"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/prediction-review/part-03.json",
+      "sha256": "9fba69e12d220b77d59291332971ff3b2d4d6b08b3527ff4142d38179e7225dc"
+    },
+    {
+      "path": "benchmarks/quality-audit-01/prediction-review/part-04.json",
+      "sha256": "1dec987d431fb517414a9955046ca29a7f9fbc6a66f7da6f9cada20401a1e9d2"
+    }
+  ]
+}

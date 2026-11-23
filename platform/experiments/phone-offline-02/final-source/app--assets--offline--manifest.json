@@ -1,0 +1,18 @@
+{
+  "revision": "qwen35-4b-q4-mobile-v2",
+  "profile": "qwen3.5-4b-q4@a9d0a3e1d8c9/phone-evidence-3",
+  "model": {
+    "source": ".cache/ollama/blobs/sha256-a9d0a3e1d8c91732a3812becd31f8d4a8ff57414903f226306069f0437e2ac50",
+    "sha256": "a9d0a3e1d8c91732a3812becd31f8d4a8ff57414903f226306069f0437e2ac50",
+    "bytes": 2648593216
+  },
+  "projector": {
+    "source": ".cache/ollama/blobs/sha256-e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60",
+    "sha256": "e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60",
+    "bytes": 675569120
+  },
+  "license": "Apache-2.0",
+  "upstream": "Qwen/Qwen3.5-4B",
+  "conversion": "Ollama local reference GGUF",
+  "sourceRevision": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04"
+}

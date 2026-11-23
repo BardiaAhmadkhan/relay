@@ -1,0 +1,18 @@
+{
+  "kind": "swapped-photo-views",
+  "acceptedResult": false,
+  "expectedPhotos": [
+    {
+      "id": "e82bcae6-6162-470d-a06f-11bcc329747f",
+      "view": "front"
+    },
+    {
+      "id": "e40c1b94-c70a-4693-882b-52b93ecf14a1",
+      "view": "back"
+    },
+    {
+      "id": "b6637b1b-e29b-4a8d-a428-d6efc266fee2",
+      "view": "label"
+    }
+  ]
+}

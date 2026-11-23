@@ -1,0 +1,52 @@
+{
+  "version": "recognition-01.r1",
+  "date": "2026-11-18 America/Vancouver",
+  "scope": "Pre-event local research only. Frozen before new inference. No training, no paid services, no deployment. No field claims.",
+  "referenceDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+  "maxParameters": 4000000000,
+  "maxLearnedBytes": 3324162336,
+  "experimentalModel": "qwen3.5:2b",
+  "originalProjector": "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+  "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+  "parameters": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "arms": {
+    "base": 1,
+    "boost": 1.125,
+    "attenuate": 0.8888888888888888
+  },
+  "primaryArm": "boost",
+  "negativeDirectionControl": "attenuate",
+  "tensors": [
+    "v.patch_embd.weight",
+    "v.patch_embd.weight.1"
+  ],
+  "operator": "For each output feature, input channel and temporal half independently calculate the mean of the 16x16 FP32 spatial filter in float64. W_new=mean+gain*(W-mean), cast once to float32. Preserve biases, projector output, language model and every other byte. No data-dependent choice.",
+  "selection": "E19 non-calibration positives, all framings. E19 clean item/detail photographs with blind visualBasis matching scuff|scratch|worn|wear|dust|crease|mud|snow|print|graphic|paint|faded|grime|dirt (case-insensitive), at most 2 per group ordered by salted SHA. Add up to 14 other clean item/detail photos, at most 1 per group. Include up to 6 ambiguous with same framings group-distinct. Add 4 scenes including cm-091, one label if available, 8 damaged plus 8 clean 4x4 E18 mosaics. Secondary E18 is industrial only. Never use label text, ID or filename as a model prompt.",
+  "salt": "relay-recognition-study-01",
+  "resolution": "1600 overview condition probes for matched A/B. Matches v3.1 whole-image damage resolution; for close-ups this controlled comparison deliberately fixes the scale. Compare historical v3.1 photo bands separately, retaining the role-dependent cascade.",
+  "questions": [
+    "broken",
+    "road_contact",
+    "repair",
+    "category (real photos only)",
+    "surface_choice normal and reversed options (stock only, real nonlabel/non-scene photos)",
+    "label_legible (label only)"
+  ],
+  "surfaceQuestion": "On the main piece of gear, which observation has the clearest direct visible evidence? If multiple objects, an obscuring feature, or insufficient detail prevents choosing, use unresolved. Treat printed patterns and factory seams as normal design unless physical disruption is visible.",
+  "surfaceOptions": {
+    "breach": "Material is open, torn, worn through, or a seam is physically separated with a gap.",
+    "repair_cue": "There is a visible non-factory patch, added stitching or adhesive suggesting a repair.",
+    "continuous_wear": "There is scuffing, dirt or surface marking, with continuous material still visible at the mark.",
+    "ordinary": "The visible surface has no suspicious mark, or shows ordinary factory features.",
+    "unresolved": "The relevant surface, identity or distinction cannot be judged."
+  },
+  "surfaceRule": "Shadow only. Where stock road_contact >= the stock 2B block boundary, broken < stock clear boundary, repair <0.30 and both option orders choose continuous_wear with >=0.75 normalized mass per order, change only terminal visual block to human review. Never emit clearance. Repair <0.30 is a conservative pilot eligibility filter, not evidence of absence. Do not change reported-history or other safety holds.",
+  "thresholds": "Use existing fitBand on archived stock 2B 1600 break/slide max with 0.98 keep / 0.01 wrongBlock, binary labels only. Freeze for all arms; do not refit candidates. Use blind condition for primary. Post-score audit labels secondary. Category and repair diagnostic separately.",
+  "analysis": "Primary: natural-photo macro AUROC comparing visible-damage vs clean with each source group within class receiving equal total weight. Also image-level AUROC, confusion vs fixed reference bands, paired IDs, review rates, subset excluding previous E14 photographers, crop-free needle stress. Use source-group resampling for a descriptive paired interval. No ranking claims for absent classes. Count unresolved as failures in completeness, not silent drops. Photo timing is diagnostic.",
+  "screen": "Gain >=0.01 primary macro AUROC, no newly cleared blind-positive, no new nominal clean block, no newly incorrect category on previously correct defined subject, no missing rows, no operational decision promotion from these development cohorts. Any alternative arm is exploratory even if it wins. Case mix has few damaged sources, no verified repair ground truth. Detail and history changes are not simulated ground truth.",
+  "controls": "Stock rerun fixed first six natural cases after other arms. Same byte-identical normalized JPEG and question wording per matched test. Verify input hashes on every arm. Deterministic alternating arm sequence across blocks with fresh unload/reset, same fixed real neutral warmup and same ordering within a block. Report runtime jitter and image/token coverage. A model edit has no right to relax a confirmed exclusion.",
+  "resources": "One isolated loopback Ollama with OLLAMA_NO_CLOUD=1, one loaded model/one lane, no shared store mutations. Serial GPU work, sample resources during inference, cool between photos, abort at >=85 C GPU, >7000 MiB VRAM, <2048 MiB RAM, or unavailable monitor. Control files hashed before/after."
+}

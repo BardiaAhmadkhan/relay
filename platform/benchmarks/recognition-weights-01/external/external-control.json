@@ -1,0 +1,7 @@
+{
+  "id": "external.reference.addendum.1",
+  "createdBeforeAnyExternalInference": true,
+  "reason": "On round 2's 10 tear-labeled and 16 clean garment images the installed stock broken-material question alone ranked all 160 positive-negative pairs correctly. The new dual-question score ranked 151/160 for stock, 152/160 for the directed edit. Comparing only the new score on the external garments could hide a stronger incumbent question.",
+  "addition": "Also ask the existing unmodified gear-2 broken-material question on every external input on all three arms. Report its separate AUC. Preserve the prespecified p(breach)-p(continuous) primary endpoint, sampling rules and weight hashes. No selection based on external predictions.",
+  "cpuSecondary": "Apply the already frozen, unmodified center/coverage/spectral-residual crop selector to the external original photos and compare with the annotated target center. Labels only score the proposal. Report by hole and spot separately."
+}

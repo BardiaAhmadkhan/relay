@@ -1,0 +1,1179 @@
+{
+  "counts": {
+    "holes": {
+      "n": 12,
+      "center": {
+        "covered": 3,
+        "pointing": 0
+      },
+      "coverage": {
+        "covered": 4,
+        "pointing": 0
+      },
+      "adaptive": {
+        "covered": 5,
+        "pointing": 0
+      }
+    },
+    "spots": {
+      "n": 12,
+      "center": {
+        "covered": 3,
+        "pointing": 1
+      },
+      "coverage": {
+        "covered": 4,
+        "pointing": 1
+      },
+      "adaptive": {
+        "covered": 8,
+        "pointing": 1
+      }
+    },
+    "all": {
+      "n": 24,
+      "center": {
+        "covered": 6,
+        "pointing": 1
+      },
+      "coverage": {
+        "covered": 8,
+        "pointing": 1
+      },
+      "adaptive": {
+        "covered": 13,
+        "pointing": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "w-holes-20260304_132531_b2b5ea30",
+      "class": "holes",
+      "ms": 10.913,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260302_105956_8a5451af",
+      "class": "holes",
+      "ms": 8.411,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260302_095252_35866721",
+      "class": "holes",
+      "ms": 8.594,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260303_141447_feb95922",
+      "class": "holes",
+      "ms": 5.528,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260317_150658_4db3e9bc",
+      "class": "holes",
+      "ms": 8.172,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260227_083110_bfbdd559",
+      "class": "holes",
+      "ms": 8.418,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260316_142950_e2be8da0",
+      "class": "holes",
+      "ms": 8.07,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260224_112748_590f74e5",
+      "class": "holes",
+      "ms": 5.363,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260311_151435_b0802668",
+      "class": "holes",
+      "ms": 5.333,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260318_113821_86aee031",
+      "class": "holes",
+      "ms": 5.062,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260330_084035_d4c00d5b",
+      "class": "holes",
+      "ms": 8.532,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260227_135157_a26d4b04",
+      "class": "holes",
+      "ms": 5.603,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260304_134748_488152fe",
+      "class": "spots",
+      "ms": 5.135,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260304_122459_43aa93de",
+      "class": "spots",
+      "ms": 5.08,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260304_113705_538ae541",
+      "class": "spots",
+      "ms": 8.416,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260302_154139_20ef016a",
+      "class": "spots",
+      "ms": 8.609,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260302_124043_e2857f8f",
+      "class": "spots",
+      "ms": 8.239,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260220_153331_ac34bb11",
+      "class": "spots",
+      "ms": 5.468,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260226_131011_ce90279f",
+      "class": "spots",
+      "ms": 8.577,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260217_082232_f288d061",
+      "class": "spots",
+      "ms": 5.234,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260218_121551_8eeaed7e",
+      "class": "spots",
+      "ms": 7.798,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260225_142033_fc08de99",
+      "class": "spots",
+      "ms": 5.089,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260219_082320_9647339a",
+      "class": "spots",
+      "ms": 8.562,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260220_125811_08f732b9",
+      "class": "spots",
+      "ms": 8.27,
+      "proposals": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    }
+  ]
+}

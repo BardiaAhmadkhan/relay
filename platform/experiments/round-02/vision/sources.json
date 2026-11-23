@@ -1,0 +1,377 @@
+[
+  {
+    "id": "R02-helmet-fullface",
+    "title": "Full-Face Helmet 9274.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Full-Face_Helmet_9274.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Ashley Pomeroy",
+    "publicationDate": null,
+    "revisionDate": "2026-09-16",
+    "sourceRevision": "1277235838",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Source explicitly identifies a full-face motorcycle helmet.",
+      "Source record states CC BY-SA 4.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-helmet-ashley"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "R02-helmet-black",
+    "title": "BlackFullCoverageMotorcycleHelmet.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:BlackFullCoverageMotorcycleHelmet.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "User Amoore on en.wikipedia",
+    "publicationDate": null,
+    "revisionDate": "2023-11-25",
+    "sourceRevision": "825053233",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Source explicitly identifies a full-face motorcycle helmet.",
+      "Source record states CC BY-SA 3.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-helmet-amoore"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "R02-hyod-a",
+    "title": "Hyod racing gloves (26301938210).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Hyod_racing_gloves_(26301938210).jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Iwao from Tokyo, Japan",
+    "publicationDate": null,
+    "revisionDate": "2026-02-02",
+    "sourceRevision": "1158031764",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Group with alternate Hyod view from same photographer/session.",
+      "Source record states CC BY-SA 2.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-hyod-pair"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "R02-hyod-b",
+    "title": "Hyod racing gloves (26574882235).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Hyod_racing_gloves_(26574882235).jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Iwao from Tokyo, Japan",
+    "publicationDate": null,
+    "revisionDate": "2026-02-02",
+    "sourceRevision": "1158031740",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Same pair as hyod-a; not an independent item.",
+      "Source record states CC BY-SA 2.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-hyod-pair"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "R02-boots-axo",
+    "title": "AXO touring boots.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:AXO_touring_boots.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Telempe",
+    "publicationDate": null,
+    "revisionDate": "2026-03-19",
+    "sourceRevision": "1183539216",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Touring boots; one pair treated as one category item.",
+      "Source record states CC BY-SA 3.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-axo-pair"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "R02-boots-alpinestars",
+    "title": "Alpinestars S-MX Motorcycle boots.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Alpinestars_S-MX_Motorcycle_boots.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Ocdp",
+    "publicationDate": null,
+    "revisionDate": "2026-03-19",
+    "sourceRevision": "1183539166",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Source describes S-MX3 motorcycle boots.",
+      "Source record states CC BY-SA 3.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-alpinestars-pair"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "R02-heated-trousers",
+    "title": "Carbon fiber heated trousers.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Carbon_fiber_heated_trousers.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Shenzheneer",
+    "publicationDate": null,
+    "revisionDate": "2024-02-02",
+    "sourceRevision": "848288747",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Source describes motorcycle heated trousers. Modified/heated construction is not evidence of protective performance.",
+      "Source record states CC BY-SA 4.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-heated-trousers"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "R02-jean-jacket",
+    "title": "Jean jacket.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Jean_jacket.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "NikosLikomitros",
+    "publicationDate": null,
+    "revisionDate": "2025-07-22",
+    "sourceRevision": "1060278028",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Source describes ordinary jean jacket. Weak out-of-domain category reference; no claim about hidden protection.",
+      "Source record states CC0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-denim-jacket"
+    ],
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "R02-winter-kit",
+    "title": "Motorkleding winterpak.JPG",
+    "url": "https://commons.wikimedia.org/wiki/File:Motorkleding_winterpak.JPG",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Piero at Dutch Wikipedia",
+    "publicationDate": null,
+    "revisionDate": "2026-07-12",
+    "sourceRevision": "1246977237",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Pending visual taxonomy review before freeze; same photographer kit conservatively grouped with salopette.",
+      "Source record states CC BY-SA 3.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-piero-kit"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "R02-salopette",
+    "title": "Motorkleding Salopette.JPG",
+    "url": "https://commons.wikimedia.org/wiki/File:Motorkleding_Salopette.JPG",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Piero at Dutch Wikipedia",
+    "publicationDate": null,
+    "revisionDate": "2025-03-09",
+    "sourceRevision": "1007668474",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Pending visual taxonomy review before freeze; conservatively grouped with winter-kit.",
+      "Source record states CC BY-SA 3.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-piero-kit"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "R02-helmet-label",
+    "title": "Ece-Sticker.JPG",
+    "url": "https://commons.wikimedia.org/wiki/File:Ece-Sticker.JPG",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Benutzer:Thomas Ihle",
+    "publicationDate": null,
+    "revisionDate": "2026-05-30",
+    "sourceRevision": "1223086702",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Real helmet marking close-up; label role should not establish garment category or certification authenticity.",
+      "Source record states CC BY-SA 3.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-helmet-label"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "R02-boot-shin-detail",
+    "title": "MotorcycleRacingBootShin.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:MotorcycleRacingBootShin.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Thermos",
+    "publicationDate": null,
+    "revisionDate": "2026-03-30",
+    "sourceRevision": "1189122870",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Source-identified boot detail; no overview category expected in the workflow.",
+      "Source record states CC BY-SA 4.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-thermos-boot"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "R02-worn-jacket",
+    "title": "Black worn leather jacket.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Black_worn_leather_jacket.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "W.carter",
+    "publicationDate": null,
+    "revisionDate": "2025-02-22",
+    "sourceRevision": "1001351535",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Leather jacket category is visually clear but motorcycle-specific design is unverified; unscored ambiguity control.",
+      "Source record states CC0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-wcarter-jacket"
+    ],
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "R02-worn-jacket-detail",
+    "title": "Black worn leather jacket detail 1.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Black_worn_leather_jacket_detail_1.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "W.carter",
+    "publicationDate": null,
+    "revisionDate": "2025-11-27",
+    "sourceRevision": "1122269820",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Actual detail view of the same leather jacket; no damage or safety ground truth.",
+      "Source record states CC0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-wcarter-jacket"
+    ],
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "R02-mixed-riding-gear",
+    "title": "Motorbike safety gear 2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Motorbike_safety_gear_2.jpg",
+    "publisher": "Wikimedia Commons; attributed image contributor",
+    "author": "Steve Parker",
+    "publicationDate": null,
+    "revisionDate": "2025-03-17",
+    "sourceRevision": "1010852131",
+    "retrievedOn": "2026-10-26",
+    "relevantClaims": [
+      "Primary page identifies Steve Parker and motorcycle leathers/other gear; visual review required before freeze.",
+      "Source record states CC BY 2.0; attribution and transformations retained."
+    ],
+    "evidenceStrength": "Primary asset/licence record; agent visual label review is weak task evidence, not expert inspection.",
+    "limitations": [
+      "No protective-condition or authenticity ground truth.",
+      "Public pretraining overlap unknown.",
+      "No inference was used to select or label this source."
+    ],
+    "howUsed": [
+      "New-to-project robustness evaluation fixture; group new-steve-gear"
+    ],
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  }
+]

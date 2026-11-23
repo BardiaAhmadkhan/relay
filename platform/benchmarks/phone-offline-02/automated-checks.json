@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-27T02:44:16.219Z",
+  "tests": {
+    "total": 505,
+    "passed": 505,
+    "failed": 0,
+    "success": true,
+    "record": "unit-suite-verification-assembly.json"
+  },
+  "typecheck": {
+    "exitCode": 0,
+    "scope": "including verifier assembly and all experiment scripts"
+  },
+  "format": {
+    "exitCode": 0
+  },
+  "platformExport": {
+    "exitCode": 0,
+    "metadata": {
+      "version": 0,
+      "bundler": "metro",
+      "fileMetadata": {
+        "ios": {
+          "bundle": "_expo/static/js/ios/index-b4fcffc282fd460971469afb8984076b.hbc",
+          "assets": [
+            {
+              "path": "assets\\74f9bb7405caec741a24db735b2c5733",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\7da0c1626a365ce0164d2ae4ebb0573b",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\b68921520b1d885dd7f854427cde3e82",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\1e3bf8f4e9f996285924f99ebc80e546",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\016e714c9a3b2b498359cc3ce0df16a1",
+              "ext": "jpg"
+            }
+          ]
+        },
+        "android": {
+          "bundle": "_expo/static/js/android/index-ddabb6f6d9ee72eee9bf48d127a04f73.hbc",
+          "assets": [
+            {
+              "path": "assets\\74f9bb7405caec741a24db735b2c5733",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\7da0c1626a365ce0164d2ae4ebb0573b",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\b68921520b1d885dd7f854427cde3e82",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\1e3bf8f4e9f996285924f99ebc80e546",
+              "ext": "ttf"
+            },
+            {
+              "path": "assets\\016e714c9a3b2b498359cc3ce0df16a1",
+              "ext": "jpg"
+            }
+          ]
+        }
+      }
+    },
+    "scope": "Successful before verifier assembly change; current Android release build separately verifies the selected assembly."
+  },
+  "boundary": "Unit tests use runtime/model doubles. Platform export proves compilation only. Native image results are separately gated."
+}

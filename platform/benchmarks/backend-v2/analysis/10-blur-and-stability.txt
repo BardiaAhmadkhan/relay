@@ -1,0 +1,45 @@
+base battery--b1--qwen3.5-4b--e1024--break+slide.jsonl: 223 photographs; bands clear < 0.145 <= review < 0.646 <= block
+
+== detection per degradation ==
+run                 qwen3.5-4b--e1024--break+slide  qwen3.5-4b--e1024--break+slide-blur1.5  qwen3.5-4b--e1024--break+slide-blur3  qwen3.5-4b--e1024--break+slide-blur6  qwen3.5-4b--e1024--break+slide-q55  qwen3.5-4b--e1024--break+slide-bright0.55
+n                                         223.0000                                223.0000                              223.0000                              223.0000                            223.0000                                   223.0000
+auc                                         0.9815                                  0.9836                                0.9399                                0.8428                              0.9859                                     0.9783
+damaged cleared                             3.0000                                  4.0000                               12.0000                               43.0000                              3.0000                                     3.0000
+damaged blocked                           103.0000                                 98.0000                               70.0000                               27.0000                            100.0000                                    97.0000
+clean blocked                               2.0000                                  1.0000                                2.0000                                1.0000                              1.0000                                     3.0000
+clean cleared                              92.0000                                 93.0000                               90.0000                               97.0000                             93.0000                                    91.0000
+damaged moved down                          0.0000                                  8.0000                               37.0000                               81.0000                              4.0000                                     7.0000
+damaged moved up                            0.0000                                  2.0000                                0.0000                                0.0000                              1.0000                                     1.0000
+mean |delta|                                0.0000                                  0.0416                                0.1353                                0.2877                              0.0234                                     0.0388
+lapVar median                             524.9000                                107.6000                               14.5000                                3.6000                            478.9000                                   120.5000
+tenengrad median                         6986.2000                               4740.9000                             2483.3000                             1154.2000                           6926.8000                                  1648.7000
+
+== focus thresholds: share of unblurred photographs asked to retake (nag) vs share caught per blur level ==
+  lapVar    threshold   nag  sigma  1.5  sigma    3  sigma    6
+  lapVar           20    0%          2%         70%        100%
+  lapVar           30    0%          4%         86%        100%
+  lapVar           40    0%          8%         92%        100%
+  lapVar           50    0%         10%         95%        100%
+  lapVar           60    1%         18%         96%        100%
+  lapVar           75    2%         32%         98%        100%
+  lapVar          100    4%         47%        100%        100%
+  lapVar          140    5%         67%        100%        100%
+  tenengrad threshold   nag  sigma  1.5  sigma    3  sigma    6
+  tenengrad       800    0%          0%          8%         31%
+  tenengrad      1200    1%          3%         18%         52%
+  tenengrad      1600    2%          6%         30%         65%
+  tenengrad      2000    3%         10%         38%         80%
+  tenengrad      2500    5%         18%         51%         91%
+  tenengrad      3200   10%         28%         63%         96%
+
+== damaged photographs newly cleared by blur, and whether a lapVar gate stops them ==
+  sigma 1.5: 1 newly cleared; stopped by lapVar < 30/50/75/100: 0 / 0 / 1 / 1
+  sigma 3: 9 newly cleared; stopped by lapVar < 30/50/75/100: 8 / 9 / 9 / 9
+  sigma 6: 40 newly cleared; stopped by lapVar < 30/50/75/100: 40 / 40 / 40 / 40
+
+  per domain (lapVar): unblurred 5th percentile, then the median at each blur level
+    commons_material_closeup      673.5 |    217.2     34.9      6.1  (n 1)
+    fabric_closeup                 78.4 |     99.7     11.8      3.2  (n 121)
+    garments_and_gear             272.4 |    156.3     22.6      4.8  (n 81)
+    hardware                      164.5 |     66.2     11.7      3.1  (n 7)
+    leather_closeup               194.2 |     70.1     14.6      2.9  (n 13)

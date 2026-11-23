@@ -1,0 +1,187 @@
+{
+  "items": 224,
+  "mainRows": 672,
+  "repeatCount": 6,
+  "repeatMaxDifference": 0.0,
+  "gates": {
+    "recoveryEveryGroupAndPosition": true,
+    "zeroNewSpotFlags": false,
+    "stockPreserved": true
+  },
+  "passesPriorityGate": false,
+  "byLocation": {
+    "centre": {
+      "third": {
+        "holes": 48,
+        "spots": 48,
+        "rules": {
+          "whole": {
+            "holeFlags": 8,
+            "spotFlags": 0,
+            "newHoleFlags": 0,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          },
+          "anyHalf": {
+            "holeFlags": 33,
+            "spotFlags": 6,
+            "newHoleFlags": 25,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 6
+          },
+          "conservative": {
+            "holeFlags": 24,
+            "spotFlags": 0,
+            "newHoleFlags": 16,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          }
+        }
+      },
+      "fourth": {
+        "holes": 64,
+        "spots": 64,
+        "rules": {
+          "whole": {
+            "holeFlags": 12,
+            "spotFlags": 1,
+            "newHoleFlags": 0,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          },
+          "anyHalf": {
+            "holeFlags": 40,
+            "spotFlags": 7,
+            "newHoleFlags": 28,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 6
+          },
+          "conservative": {
+            "holeFlags": 26,
+            "spotFlags": 3,
+            "newHoleFlags": 14,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 2
+          }
+        }
+      },
+      "pooled": {
+        "holes": 112,
+        "spots": 112,
+        "rules": {
+          "whole": {
+            "holeFlags": 20,
+            "spotFlags": 1,
+            "newHoleFlags": 0,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          },
+          "anyHalf": {
+            "holeFlags": 73,
+            "spotFlags": 13,
+            "newHoleFlags": 53,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 12
+          },
+          "conservative": {
+            "holeFlags": 50,
+            "spotFlags": 3,
+            "newHoleFlags": 30,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 2
+          }
+        }
+      }
+    },
+    "shift": {
+      "third": {
+        "holes": 48,
+        "spots": 48,
+        "rules": {
+          "whole": {
+            "holeFlags": 8,
+            "spotFlags": 0,
+            "newHoleFlags": 0,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          },
+          "anyHalf": {
+            "holeFlags": 31,
+            "spotFlags": 8,
+            "newHoleFlags": 23,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 8
+          },
+          "conservative": {
+            "holeFlags": 22,
+            "spotFlags": 0,
+            "newHoleFlags": 14,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          }
+        }
+      },
+      "fourth": {
+        "holes": 64,
+        "spots": 64,
+        "rules": {
+          "whole": {
+            "holeFlags": 12,
+            "spotFlags": 1,
+            "newHoleFlags": 0,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          },
+          "anyHalf": {
+            "holeFlags": 35,
+            "spotFlags": 7,
+            "newHoleFlags": 23,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 6
+          },
+          "conservative": {
+            "holeFlags": 27,
+            "spotFlags": 3,
+            "newHoleFlags": 15,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 2
+          }
+        }
+      },
+      "pooled": {
+        "holes": 112,
+        "spots": 112,
+        "rules": {
+          "whole": {
+            "holeFlags": 20,
+            "spotFlags": 1,
+            "newHoleFlags": 0,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 0
+          },
+          "anyHalf": {
+            "holeFlags": 66,
+            "spotFlags": 15,
+            "newHoleFlags": 46,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 14
+          },
+          "conservative": {
+            "holeFlags": 49,
+            "spotFlags": 3,
+            "newHoleFlags": 29,
+            "lostHoleFlags": 0,
+            "newSpotFlags": 2
+          }
+        }
+      }
+    }
+  },
+  "hardware": {
+    "peakTemp": 83,
+    "peakVramMiB": 4076,
+    "minFreeRamMiB": 6172,
+    "peakPowerW": 111.78,
+    "samples": 771
+  }
+}

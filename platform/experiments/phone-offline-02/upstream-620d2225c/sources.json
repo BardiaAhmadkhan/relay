@@ -1,0 +1,17 @@
+[
+  {
+    "name": "clip-model.h",
+    "source": "https://raw.githubusercontent.com/ggml-org/llama.cpp/620d2225c/tools/mtmd/clip-model.h",
+    "sha256": "b87bb15258d76f60864cb42989eb4c5ca4e22ff4207e409265b97600a4e4f164"
+  },
+  {
+    "name": "mtmd-image.cpp",
+    "source": "https://raw.githubusercontent.com/ggml-org/llama.cpp/620d2225c/tools/mtmd/mtmd-image.cpp",
+    "sha256": "25b18203a3eaf15a862acfca163e56d2f3d7c231c28cc96d4e6e0f8ce0ea96f4"
+  },
+  {
+    "name": "mtmd-image.h",
+    "source": "https://raw.githubusercontent.com/ggml-org/llama.cpp/620d2225c/tools/mtmd/mtmd-image.h",
+    "sha256": "671e40efde1d733547ce138fcc418ec5732ae1e1f3f611a882fdec9b4c5559b9"
+  }
+]

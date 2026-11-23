@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-26T23:49:01.110Z",
+  "scope": "Observed Playwright browser checks on final visual behavior before completion-metadata-only cache repair; exact 194-case replay verifies visual equivalence after that repair.",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  "positive": {
+    "id": "commons-090",
+    "result": "possible tear with source photograph",
+    "offerRecommended": false,
+    "protectivePerformanceCertified": false
+  },
+  "negative": {
+    "id": "commons-066",
+    "findings": 0,
+    "offerRecommended": false,
+    "protectivePerformanceCertified": false
+  },
+  "report": {
+    "auditFailures": 53,
+    "improvedVisualCases": 6,
+    "validationFailures": 16,
+    "sourceDialogLoaded": true,
+    "horizontalOverflow": false
+  },
+  "artifacts": [
+    "output/playwright/quality-cycle-02/result-390.png",
+    "output/playwright/quality-cycle-02/graphic-control-390.png",
+    "output/playwright/quality-cycle-02/comparison-detail-390.png",
+    "output/playwright/quality-cycle-02/comparison-top-390.png"
+  ],
+  "observedIssues": [
+    "Initial app preview favicon 404; no application error observed in the completed flows.",
+    "First report automation used an exact label selector that timed out; inspected IDs were then used and counts asserted."
+  ]
+}

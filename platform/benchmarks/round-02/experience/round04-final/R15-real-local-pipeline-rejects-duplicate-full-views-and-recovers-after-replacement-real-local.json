@@ -1,0 +1,13 @@
+{
+  "mode": "Real local CLIP with labelled synthetic images; this tests pipeline recovery, not gear recognition accuracy.",
+  "elapsedMs": 2158,
+  "provider": "local_clip",
+  "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+  "timing": {
+    "totalMs": 1486.171400000021,
+    "preprocessingMs": 113.19660000002477,
+    "inferenceMs": 1369.9241000000038,
+    "cached": false
+  },
+  "decision": "human_inspection"
+}

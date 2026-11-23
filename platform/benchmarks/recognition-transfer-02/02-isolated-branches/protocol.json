@@ -1,0 +1,40 @@
+{
+  "version": "relay-visual-attention-versus-mlp-02",
+  "studyType": "unguided",
+  "arms": {
+    "base": 0,
+    "attention": 0.5,
+    "mlp": 0.5
+  },
+  "parameters": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "maxParameters": 4000000000,
+  "maxLearnedBytes": 3324162336,
+  "referenceDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+  "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+  "originalProjector": "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+  "donor": "Intel/qwen3.5-2b-vlm-weld-explainability-lora",
+  "donorRevision": "11bc53c64d595d6a09ad1a5ca5d6f7467d05f51d",
+  "donorSha": "6182bd27804d452ab51af088591ffa61f168c4dd97b1853944bb1ef2be2e222f",
+  "edit": "Merge only the donor's 96 conventional vision-block attention and MLP weight pairs. Keep language, merger, bias and norms stock. Use the original BF16 dtype and round once. Verify remote base tensor byte anchors and the untouched bytes. No optimization, gradients, labeled fitting or learned parameters added.",
+  "salt": "relay-vision-branch-fresh-11807",
+  "perClass": 32,
+  "design": "Use Wargon publisher train split strictly as evaluation. Deduplicate original item ID across class archives and both prior Relay cohorts. Choose one labeled view per item; partition by salted order within each class into consecutive 16+16 items. No selection by prediction. Score the unchanged broken question on whole and on the publisher-identified mark. Disable external experimental extra questions via the existing unguided driver. Whole membership is not an exhaustive no-hole label.",
+  "promotion": "Freeze attention as primary before scores: region AUC gain >0 in both new halves, positive paired bootstrap lower bound, no introduced missed holes or spot false alarms at diagnostic 0.5, no incomplete answers. Whole-view score measured as a collateral stress test; require no decrease for a general deployment. Neither arm can clear a real item without separate field qualification.",
+  "input": "Canonical image preparation and crop geometry from the original external study; each arm receives hashed identical pixels.",
+  "primary": "attention",
+  "branches": {
+    "attention": [
+      "attn.qkv",
+      "attn.proj"
+    ],
+    "mlp": [
+      "mlp.linear_fc1",
+      "mlp.linear_fc2"
+    ]
+  },
+  "excludeManifestSha256": "b31b9a21a0c739fc74653d69fade6993feee002acac394f59f4cc15872f2133c",
+  "motivation": "Prior all-vision half edit recovered 5 holes and lost one at p>=0.5; overall rank was unchanged and whole context worsened. Isolate learned attention routing from learned MLP features on new original items. Primary attention at the previous half-strength, MLP is the mechanism comparator. Weight edits are candidates for a marked branch only."
+}

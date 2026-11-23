@@ -1,0 +1,27 @@
+{
+  "recordedAt": "2026-10-26T16:15:51.501Z",
+  "items": [
+    {
+      "id": "temurin-jdk21",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+      "file": "jdk21.zip",
+      "source": "https://api.adoptium.net/v3/assets/latest/21/hotspot?architecture=x64&image_type=jdk&os=windows&vendor=eclipse",
+      "localPath": ".tooling/downloads/jdk21.zip",
+      "bytes": 205073461,
+      "verifiedSha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+      "durationMs": 5173.8805999999995
+    },
+    {
+      "id": "android-command-line-tools",
+      "url": "https://dl.google.com/android/repository/commandlinetools-win-15859902_latest.zip",
+      "sha256": "90ae805d20434428bffcb699c290860f19bb5f66a67e6b330067e3de801fb04a",
+      "file": "android-command-tools.zip",
+      "source": "https://developer.android.com/studio",
+      "localPath": ".tooling/downloads/android-command-tools.zip",
+      "bytes": 155655386,
+      "verifiedSha256": "90ae805d20434428bffcb699c290860f19bb5f66a67e6b330067e3de801fb04a",
+      "durationMs": 3710.5974
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "unexpected-external-provider",
+  "acceptedResult": false,
+  "expectedPhotos": [
+    {
+      "id": "0051a3ab-6306-489d-97d3-6cc753f698fb",
+      "view": "front"
+    },
+    {
+      "id": "c97e9ff3-4f2c-41c2-975b-9700467d9df7",
+      "view": "back"
+    },
+    {
+      "id": "46fb272a-a2e6-4db9-836d-215a76a2c4dc",
+      "view": "label"
+    }
+  ]
+}

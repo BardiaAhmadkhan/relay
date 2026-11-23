@@ -1,0 +1,161 @@
+{
+  "at": "2026-10-27T04:13:46.795433+00:00",
+  "apkSha256": "ba762cc7928bf31d600dfcfcdce0dff7d194f0d3405526e651276cdac02a6a0a",
+  "profile": "qwen3.5-4b-q4@a9d0a3e1d8c9/phone-evidence-3",
+  "physicalGalaxyS26UltraTested": false,
+  "nativeCanaries": [
+    {
+      "id": "control",
+      "at": "2026-10-27T03:30:22.639Z",
+      "flagged": false,
+      "displayedSeconds": "188.4s",
+      "status": [
+        "Physical review needed",
+        "0 findings",
+        "Visible evidence"
+      ],
+      "findings": []
+    },
+    {
+      "id": "user01",
+      "at": "2026-10-27T03:32:49.364Z",
+      "flagged": true,
+      "displayedSeconds": "115.7s",
+      "status": [
+        "Offer on hold",
+        "4 findings",
+        "Visible evidence"
+      ],
+      "findings": [
+        {
+          "label": "Shoulder / Abrasion",
+          "description": "scuffed and worn surface on the shoulder armor panel",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Upper sleeve / Abrasion",
+          "description": "frayed and worn edge along the seam of the upper arm panel",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Elbow / Abrasion",
+          "description": "scuffed and worn surface on the elbow area",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Forearm / Abrasion",
+          "description": "scuffed and worn surface on the forearm area",
+          "certainty": "Visible in photo · model observation"
+        }
+      ]
+    },
+    {
+      "id": "user02",
+      "at": "2026-10-27T03:35:09.743Z",
+      "flagged": true,
+      "displayedSeconds": "106.9s",
+      "status": [
+        "Offer on hold",
+        "4 findings",
+        "Visible evidence"
+      ],
+      "findings": [
+        {
+          "label": "Elbow / Torn material",
+          "description": "Ragged hole with exposed fibers on the elbow area of the left sleeve",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Elbow / Torn material",
+          "description": "Frayed edge and torn fabric on the elbow area of the right sleeve",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Forearm / Abrasion",
+          "description": "Scraped and worn surface on the forearm area of the left sleeve",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Forearm / Abrasion",
+          "description": "Scraped and worn surface on the forearm area of the right sleeve",
+          "certainty": "Visible in photo · model observation"
+        }
+      ]
+    },
+    {
+      "id": "user03",
+      "at": "2026-10-27T03:37:13.260Z",
+      "flagged": true,
+      "displayedSeconds": "82.9s",
+      "status": [
+        "Offer on hold",
+        "4 findings",
+        "Visible evidence"
+      ],
+      "findings": [
+        {
+          "label": "Upper sleeve / Torn material",
+          "description": "Large area of torn and frayed fabric on the upper arm/shoulder region",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Cuff / Abrasion",
+          "description": "Exposed fibers and ragged edges on the sleeve area",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Elbow / Torn material",
+          "description": "Torn fabric near the elbow area",
+          "certainty": "Visible in photo · model observation"
+        },
+        {
+          "label": "Back panel / Abrasion",
+          "description": "Scraped or worn surface on the side panel",
+          "certainty": "Possible finding · check closely"
+        }
+      ]
+    }
+  ],
+  "fullPackageChecks": {
+    "installedHashMatches": true,
+    "freshBundledModelPreparation": true,
+    "offlinePhotoReview": true,
+    "cancelPreservesPhoto": true,
+    "retryClearsCancellationNotice": true,
+    "cachedRepeatDisplayedUnderOneSecond": true,
+    "previousVersionBriefRetained": true,
+    "savedResultAndPhotoSurviveRestart": true,
+    "syntheticCameraCapture": true,
+    "changedCrashAnswerDoesNotEraseExclusion": true
+  },
+  "isolation": {
+    "at": "2026-10-27T04:06:47.803Z",
+    "avd": "Relay_Offline_Final",
+    "dataPartitionGiB": 20,
+    "physicalDevice": false,
+    "airplaneMode": "1",
+    "wifiEnabled": "0",
+    "mobileDataEnabled": "0",
+    "adbReverse": "",
+    "internetPermission": false,
+    "installedPackage": "package:/data/app/~~Q5OtgY9Gxry-CKPdGORojw==/ca.relaygearlab.experimental-BE57R8mTZSFAahWWPK3Ffw==/base.apk"
+  },
+  "codeParity": {
+    "sameJavaScriptBundle": true,
+    "bundleSha256": "38ee6ca24f340ce783ec120f36bebdfe8b6494dbe47ca081793f9b6f533da0ff",
+    "sameNativeLibraries": 56,
+    "fullModelPackagingRestored": true
+  },
+  "unitTests": {
+    "passed": 505,
+    "failed": 0
+  },
+  "priorSealedFilesUnchanged": 471,
+  "limits": [
+    "Four recognition canaries are not a broad native accuracy score.",
+    "The third photo retains an ambiguous possible side-panel claim; exact localization is not independently verified.",
+    "A first run of rejected v7 timed out under host memory pressure; no result was accepted.",
+    "A 10 GB emulator could not stage the full update. The 20 GB emulator installed it successfully; allow about 12 GB free storage on the phone.",
+    "Physical Galaxy S26 Ultra speed, thermal behavior and GPU driver compatibility remain untested."
+  ]
+}

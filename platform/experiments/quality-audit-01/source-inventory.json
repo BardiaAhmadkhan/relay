@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-26T21:33:05.867579+00:00",
+  "publisherAdvertisedImages": 720,
+  "rawJpegFiles": 723,
+  "rawUniqueByteHashes": 720,
+  "annotatedExports": 720,
+  "directFilenameMatches": 680,
+  "sanitizedFilenameAliases": 40,
+  "unmatchedExports": [],
+  "rawFilesWithoutAnExport": [
+    "photo_2023-11-19_18-13-50.jpg",
+    "photo_2024-02-11_14-22-18.jpg",
+    "photo_2024-02-11_14-22-39.jpg"
+  ],
+  "auditSamplingPoolSingleClassDirectMatches": {
+    "0": 169,
+    "2": 166,
+    "3": 164,
+    "1": 171
+  },
+  "directMatchesWithMultipleClassesSkipped": 10,
+  "auditSelected": 80,
+  "boundary": "The frozen selection script skipped sanitized -2- filenames because their raw originals use (2). The audit sample is 20 per class from the directly matched single-class pool, not a uniform sample of all 720 exports. All 80 selected files match raw-source bytes. Selection occurred before inference and is not revised retrospectively."
+}

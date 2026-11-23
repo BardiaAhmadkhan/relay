@@ -1,0 +1,65 @@
+{
+  "name": "gear-recognition-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "dev:api": "node --env-file-if-exists=.env --import tsx server/index.ts",
+    "dev:app": "npm run start --workspace app",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "bench": "tsx scripts/benchmark-vision.ts",
+    "test:ui": "playwright test",
+    "check:adapters": "node --import tsx benchmarks/vision-adapter-checks.mjs",
+    "bench:quality": "tsx scripts/benchmark-quality.ts",
+    "check:docs": "node scripts/check-docs.mjs",
+    "bench:vision": "tsx scripts/benchmark-vision.ts",
+    "export:mobile": "npm run export --workspace app -- --platform all --output-dir dist",
+    "fixtures": "tsx scripts/fetch-fixtures.ts",
+    "preview": "node scripts/preview.mjs",
+    "format:check": "prettier --check app packages server scripts tests *.ts *.json",
+    "verify:record": "node scripts/capture-verification.mjs",
+    "vision:serve": "node scripts/local-vision.mjs serve",
+    "vision:pull": "node scripts/local-vision.mjs pull",
+    "vision:warm": "node scripts/local-vision.mjs warm",
+    "check:experiments": "node scripts/check-experiment-baselines.mjs",
+    "preview:review": "node scripts/review-preview.mjs",
+    "dev:api:v2": "node --env-file-if-exists=.env --import tsx server/index-v2.ts",
+    "v2:score-set": "tsx scripts/v2-score-set.ts",
+    "v2:calibrate": "tsx scripts/v2-calibrate.ts",
+    "v2:verify-decisions": "node --env-file-if-exists=.env --import tsx scripts/v2-verify-decisions.ts",
+    "desk": "node --env-file-if-exists=.env --import tsx server/v4/index.ts",
+    "foundation": "node --env-file-if-exists=.env --import tsx server/index-v2.ts",
+    "verify": "npm run typecheck && npm test && node --test tests/v35-billing.test.mjs tests/v35-hardware-comparison.test.mjs tests/v35-hardware-tiebreak.test.mjs",
+    "test:gateway": "node --import tsx scripts/test-web-intake.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.3.1",
+    "@huggingface/transformers": "^4.3.1",
+    "fastify": "^5.12.7",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "@types/react": "19.2.4",
+    "prettier": "3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "overrides": {
+    "minimatch": "11.0.9"
+  }
+}

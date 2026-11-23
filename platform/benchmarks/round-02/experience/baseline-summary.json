@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "1.0",
+  "researchDate": "2026-10-26",
+  "baselineCommit": "e3a6f58",
+  "baseline": {
+    "total": 22,
+    "passed": 15,
+    "failed": 7
+  },
+  "runs": {
+    "baseline": {
+      "total": 8,
+      "passed": 1,
+      "failed": 7,
+      "durationMs": 15867.730000000001,
+      "cases": [
+        {
+          "title": "R06 malformed successful response shows an actionable error without raw schema diagnostics",
+          "status": "failed",
+          "expectedStatus": "passed",
+          "durationMs": 937,
+          "attempts": 1,
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/invalid_type|expected.*string|\\[\\s*\\{|schemaVersion.*path/s\u001b[39m\nReceived string:      \u001b[31m\"\u001b[7m[\u001b[27m\u001b[39m\n\u001b[31m\u001b[7m  {\u001b[27m\u001b[39m\n\u001b[31m    \\\"expected\\\": \\\"string\\\",\u001b[39m\n\u001b[31m    \\\"code\\\": \\\"invalid_type\\\",\u001b[39m\n\u001b[31m    \\\"path\\\": [\u001b[39m\n\u001b[31m      \\\"assessmentId\\\"\u001b[39m\n\u001b[31m    ],\u001b[39m\n\u001b[31m    \\\"message\\\": \\\"Invalid input: expected string, received undefined\\\"\u001b[39m\n\u001b[31m  },\u001b[39m\n\u001b[31m  {\u001b[39m\n\u001b[31m    \\\"code\\\": \\\"invalid_value\\\",\u001b[39m\n\u001b[31m    \\\"values\\\": [\u001b[39m\n\u001b[31m      \\\"complete\\\",\u001b[39m\n\u001b[31m      \\\"excluded\\\"\u001b[39m\n\u001b[31m    ],\u001b[39m\n\u001b[31m    \\\"path\\\": [\u001b[39m\n\u001b[31m      \\\"status\\\"\u001b[39m\n\u001b[31m    ],\u001b[39m\n\u001b[31m    \\\"message\\\": \\\"Invalid option: expected one of \\\\\\\"complete\\\\\\\"|\\\\\\\"excluded\\\\\\\"\\\"\u001b[39m\n\u001b[31m  },\u001b[39m\n\u001b[31m  {\u001b[39m\n\u001b[31m    \\\"expected\\\": \\\"array\\\",\u001b[39m\n\u001b[31m    \\\"code\\\": \\\"invalid_type\\\",\u001b[39m\n\u001b[31m    \\\"path\\\": [\u001b[39m\n\u001b[31m    "
+        },
+        {
+          "title": "R07 response binding rejects different-assessment",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 842,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R07 response binding rejects unrelated-photo-ids",
+          "status": "failed",
+          "expectedStatus": "passed",
+          "durationMs": 806,
+          "attempts": 1,
+          "error": "Error: A response for different evidence or an unapproved analysis identity must not become the draft result.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31m{\"assessmentId\": \"80307bd1-0c16-4b34-860d-1ec965307914\", \"decision\": {\"nextAction\": \"Share the inspection brief with a specialist for an in-person review.\", \"offerRecommended\": false, \"policyVersion\": \"2026-10-26.1\", \"protectivePerformanceCertified\": false, \"reasons\": [{\"code\": \"local_scope\", \"text\": \"Local vision compares appearance with category descriptions. It does not inspect hidden damage or clear visible condition.\"}], \"state\": \"human_inspection\", \"summary\": \"The item has a suggested category. Its protective condition still needs a specialist.\", \"title\": \"Ready for a closer look\"}, \"observation\": {\"attributes\": [], \"category\": \"motorcycle_jacket\", \"concerns\": [], \"coverage\": \"category_only\", \"durationMs\": 1, \"missingViews\": [], \"model\": \"round02-disclosed-local-double\", \"multipleItems\": fal"
+        },
+        {
+          "title": "R07 response binding rejects swapped-photo-views",
+          "status": "failed",
+          "expectedStatus": "passed",
+          "durationMs": 897,
+          "attempts": 1,
+          "error": "Error: A response for different evidence or an unapproved analysis identity must not become the draft result.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31m{\"assessmentId\": \"fd3e5916-3796-451d-8cf6-c6d273602916\", \"decision\": {\"nextAction\": \"Share the inspection brief with a specialist for an in-person review.\", \"offerRecommended\": false, \"policyVersion\": \"2026-10-26.1\", \"protectivePerformanceCertified\": false, \"reasons\": [{\"code\": \"local_scope\", \"text\": \"Local vision compares appearance with category descriptions. It does not inspect hidden damage or clear visible condition.\"}], \"state\": \"human_inspection\", \"summary\": \"The item has a suggested category. Its protective condition still needs a specialist.\", \"title\": \"Ready for a closer look\"}, \"observation\": {\"attributes\": [], \"category\": \"motorcycle_jacket\", \"concerns\": [], \"coverage\": \"category_only\", \"durationMs\": 1, \"missingViews\": [], \"model\": \"round02-disclosed-local-double\", \"multipleItems\": fal"
+        },
+        {
+          "title": "R07 response binding rejects wrong-model",
+          "status": "failed",
+          "expectedStatus": "passed",
+          "durationMs": 946,
+          "attempts": 1,
+          "error": "Error: A response for different evidence or an unapproved analysis identity must not become the draft result.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31m{\"assessmentId\": \"67fef572-584a-4fd6-89be-4fd1fcc393c2\", \"decision\": {\"nextAction\": \"Share the inspection brief with a specialist for an in-person review.\", \"offerRecommended\": false, \"policyVersion\": \"2026-10-26.1\", \"protectivePerformanceCertified\": false, \"reasons\": [{\"code\": \"local_scope\", \"text\": \"Local vision compares appearance with category descriptions. It does not inspect hidden damage or clear visible condition.\"}], \"state\": \"human_inspection\", \"summary\": \"The item has a suggested category. Its protective condition still needs a specialist.\", \"title\": \"Ready for a closer look\"}, \"observation\": {\"attributes\": [], \"category\": \"motorcycle_jacket\", \"concerns\": [], \"coverage\": \"category_only\", \"durationMs\": 1, \"missingViews\": [], \"model\": \"not-the-checked-model\", \"multipleItems\": false, \"prov"
+        },
+        {
+          "title": "R07 response binding rejects unexpected-external-provider",
+          "status": "failed",
+          "expectedStatus": "passed",
+          "durationMs": 1439,
+          "attempts": 1,
+          "error": "Error: A response for different evidence or an unapproved analysis identity must not become the draft result.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31m{\"assessmentId\": \"f8323a85-344a-43cb-8378-3aa88cb65d91\", \"decision\": {\"nextAction\": \"Share the inspection brief with a specialist for an in-person review.\", \"offerRecommended\": false, \"policyVersion\": \"2026-10-26.1\", \"protectivePerformanceCertified\": false, \"reasons\": [{\"code\": \"local_scope\", \"text\": \"Local vision compares appearance with category descriptions. It does not inspect hidden damage or clear visible condition.\"}], \"state\": \"human_inspection\", \"summary\": \"The item has a suggested category. Its protective condition still needs a specialist.\", \"title\": \"Ready for a closer look\"}, \"observation\": {\"attributes\": [], \"category\": \"motorcycle_jacket\", \"concerns\": [], \"coverage\": \"visual_observations\", \"durationMs\": 1, \"missingViews\": [], \"model\": \"unconsented-model\", \"multipleItems\": false, \"pr"
+        },
+        {
+          "title": "R09 external consent withdrawal during delayed health prevents any upload",
+          "status": "failed",
+          "expectedStatus": "passed",
+          "durationMs": 969,
+          "attempts": 1,
+          "error": "Error: No upload may start using an invocation-time consent value after the current choice was withdrawn.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m"
+        },
+        {
+          "title": "R11 newer connection save wins over an older delayed check",
+          "status": "failed",
+          "expectedStatus": "passed",
+          "durationMs": 638,
+          "attempts": 1,
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"http://127.0.0.1:879\u001b[7m2\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"http://127.0.0.1:879\u001b[7m1\u001b[27m\"\u001b[39m"
+        }
+      ]
+    },
+    "baseline-recovery": {
+      "total": 14,
+      "passed": 14,
+      "failed": 0,
+      "durationMs": 14788.978000000001,
+      "cases": [
+        {
+          "title": "R01 replacement and optional detail preserve other views and invalidate prior analysis",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 1248,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R02 missing-label result targets label replacement and retains the other evidence",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 1098,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R03 unreadable replacement is recoverable and preserves the existing full photo set",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 1044,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R04 health network keeps photos and permits recovery",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 1102,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R04 health http503 keeps photos and permits recovery",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 706,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R04 health http401 keeps photos and permits recovery",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 784,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R04 health incompatible-health keeps photos and permits recovery",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 774,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R05 unavailable analysis retains photos and a retry can finish",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 706,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R08 cancellation after upload prevents a late response overwriting replacement or exclusion",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 1057,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R10 core consent cancellation and reload do not silently reauthorize processing",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 869,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R12 320px doubled text keeps history choices inside the horizontal viewport",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 394,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R13 small-screen reduced-motion camera denial keeps fallback reachable by keyboard",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 433,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R14 keyboard editing at 320px preserves correction and accessible result",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 1181,
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "title": "R15 real local pipeline rejects duplicate full views and recovers after replacement",
+          "status": "passed",
+          "expectedStatus": "passed",
+          "durationMs": 1846,
+          "attempts": 1,
+          "error": null
+        }
+      ]
+    }
+  },
+  "comparison": null,
+  "missingAfter": [],
+  "interpretation": "Pass counts are scenario contract results, not product accuracy, safety certification, user research or native-device readiness."
+}

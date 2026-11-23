@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-26T21:55:01.108Z",
+  "candidate": "physical-review-1",
+  "status": "rejected-early",
+  "completed": 73,
+  "planned": 139,
+  "reason": "Preservation gate failed; early stop saves remaining inference. These are partial diagnostic results, not full-corpus accuracy.",
+  "removedPositiveAlerts": [
+    "fabric-047",
+    "fabric-051",
+    "fabric-052",
+    "leather-007",
+    "fabric-050",
+    "fabric-049",
+    "fabric-071",
+    "fabric-042",
+    "fabric-066",
+    "fabric-053"
+  ],
+  "removedPreviouslyMatched": [
+    "fabric-047",
+    "fabric-050",
+    "fabric-071",
+    "fabric-042"
+  ],
+  "falseFlagsRemoved": 19,
+  "productionVisionChanged": false
+}

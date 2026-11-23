@@ -1,0 +1,30 @@
+{
+  "version": "relay-stock-preserving-second-look-03",
+  "studyType": "unguided",
+  "arms": {
+    "base": 0,
+    "vision-half": 0.5
+  },
+  "parameters": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "maxParameters": 4000000000,
+  "maxLearnedBytes": 3324162336,
+  "referenceDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+  "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+  "originalProjector": "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+  "donor": "Intel/qwen3.5-2b-vlm-weld-explainability-lora",
+  "donorRevision": "11bc53c64d595d6a09ad1a5ca5d6f7467d05f51d",
+  "donorSha": "6182bd27804d452ab51af088591ffa61f168c4dd97b1853944bb1ef2be2e222f",
+  "edit": "Merge only the donor's 96 conventional vision-block attention and MLP weight pairs. Keep language, merger, bias and norms stock. Use the original BF16 dtype and round once. Verify remote base tensor byte anchors and the untouched bytes. No optimization, gradients, labeled fitting or learned parameters added.",
+  "salt": "relay-conditional-recovery-fresh-20261118",
+  "perClass": 48,
+  "design": "Use Wargon publisher train split strictly as evaluation. Deduplicate original item ID across class archives and both prior Relay cohorts. Choose one labeled view per item; partition by salted order within each class into consecutive 16+16 items. No selection by prediction. Score the unchanged broken question on whole and on the publisher-identified mark. Disable external experimental extra questions via the existing unguided driver. Whole membership is not an exhaustive no-hole label.",
+  "promotion": "Require zero additional spot flags on both new halves for both positions, positive recoveries in both halves for centre and shift, and better precision yield at the same review budget than stock on the pooled centred cases; retain all stock positives and compare cost. No false-alarm safety guarantee follows from finite zero counts. A passing proxy can suggest a specialist-facing aid only. Whole/photo decisions are structurally stock. Directly compare raw edit, input-only and concordance alternatives on the same blind items. If a new rule is invented after unsealing, it needs other fresh data.",
+  "input": "Canonical image preparation and crop geometry from the original external study; each arm receives hashed identical pixels.",
+  "excludeManifestSha256": "228d2040608f081590cc6113a33b6bee63139f71dd31849670fc0a79da1222ea",
+  "discovery": "Five phase-one half-edit gains had stock p between 0.24 and 0.41 and 154-1443 native crop pixels. The one lost stock positive had 64 native pixels. Predeclare rounded bands/geometry as a development choice; never fit against new items.",
+  "primary": "On marked regions, preserve every stock positive p>=0.50. Trigger one second look only for 0.20<=p<0.50 and source side>=96. Add a specialist flag when half-edit p>=0.50. The original and all existing routes are untouched. The cutoff is diagnostic, never an eligibility threshold.",
+  "controls": "Stock p>=0.5, edited-only, stock p>=0.20 (threshold-only), equal-number highest-stock items (retrospective review-budget diagnostic), substitute same stock on a second slightly shifted view (one unchanged checkpoint), and a conservative conjunctive rule requiring the edited response AND the shifted stock response. Jitter +/- one-quarter source crop width horizontally with sign fixed from item hash, clamped. Score centre and shifted crops in identical conditions for all arms. A shifted crop is a perturbation of the same capture, not independent physical evidence."
+}

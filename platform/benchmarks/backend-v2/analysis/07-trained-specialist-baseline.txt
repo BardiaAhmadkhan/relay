@@ -1,0 +1,10 @@
+photographs 223 (113 damaged, 110 clean; gear 88: 15 damaged); groups 79; embedding dim 768
+
+== ranking quality (AUC), out of fold, grouped 5-fold x 20 ==
+  A prompted max(break, slide), no fitting      all 0.9842   gear 0.9918
+  B trained specialist on SigLIP embeddings   all 0.8467 (0.8182-0.8615)   gear 0.7329 (0.6511-0.7826)
+  C learned combiner of prompted answers       all 0.9798 (0.9736-0.9840)   gear 0.9809 (0.9671-0.9863)
+  D learned combiner + trained specialist      all 0.9815 (0.9754-0.9862)   gear 0.9803 (0.9635-0.9909)
+
+Reading: B is what a small trained specialist reaches with today's labelled photographs. C and D test whether a
+fitted combination beats the fixed max() rule. Only 15 damaged gear photographs exist, so gear figures are fragile.

@@ -1,0 +1,2439 @@
+{
+  "createdUtc": "2026-11-19T05:53:27.233Z",
+  "protocolSha256": "a95083e48032181c30f694d5039c5f0ac43883936fdb0303754f1e5df1be42e7",
+  "sourcesSha256": "42bbfad69c36af4642a2e623d0bad6fda5ad81d285a2d9da066b496eadc3c276",
+  "cases": [
+    {
+      "id": "w-holes-20260302_104344_46bc5814-whole",
+      "item": "20260302_104344_46bc5814",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260302",
+      "sourceSha256": "c59af7e24c47b0e98b93c59b520bc7be31f433f620add3a5c8bffc0348a067cd",
+      "normalizedSha256": "05ce76737b80ac5ede0276a3520e75a5125a2735a46107e8ad1e053f25a44c7c"
+    },
+    {
+      "id": "w-spots-20260219_134230_744d99a8-whole",
+      "item": "20260219_134230_744d99a8",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "7d3615128bee852627bc4d1fe22c1149fa634ba4965a7f78c678c9c65ec157db",
+      "normalizedSha256": "fbe4d8763e64e880a11bc5fdd5a54d90d09dbc9145ba37178da1608e6c50e617"
+    },
+    {
+      "id": "w-holes-20260302_104344_46bc5814-region",
+      "item": "20260302_104344_46bc5814",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260302",
+      "sourceSha256": "c59af7e24c47b0e98b93c59b520bc7be31f433f620add3a5c8bffc0348a067cd",
+      "normalizedSha256": "74212f2f38a1c03a8f7030dc1614d48e9272ef2a1d7c029a55e58cdb3e040506",
+      "nativeBoxLongPixels": 5,
+      "nativeCrop": {
+        "left": 194,
+        "top": 130,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260226_130656_11fe63d5-whole",
+      "item": "20260226_130656_11fe63d5",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260226",
+      "sourceSha256": "4cc57c12e909348b1a93cf4eaf109fa28f43dd0a86f0e806f5cb458cb180c019",
+      "normalizedSha256": "27160076abefa2051b013c5ea0190a771a3e01651469f451576468df04aaf641"
+    },
+    {
+      "id": "w-spots-20260226_135954_28b3f745-whole",
+      "item": "20260226_135954_28b3f745",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260226",
+      "sourceSha256": "8b57c9382908da28b8222ee2539deaf5c481a43e85002edae346c36be8678120",
+      "normalizedSha256": "dd24bfa6d9a014ede196a2547723649284a46b9f86a533d4bab0b20d672e3613"
+    },
+    {
+      "id": "w-spots-20260226_141230_0e46381b-whole",
+      "item": "20260226_141230_0e46381b",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260226",
+      "sourceSha256": "07955756d60d44b813648bcfe092d14ee63e7fed4e7bbd863b191ad2dd0174ad",
+      "normalizedSha256": "c7a1af0bcc1cb1dbab99e76bbb8de90d1356d4c5a5986a56d9e7b06b0c7fec6c"
+    },
+    {
+      "id": "w-spots-20260218_121357_2d924420-region",
+      "item": "20260218_121357_2d924420",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260218",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260218",
+      "sourceSha256": "1dc28c599200ea686a5df54e469cca79461b2238fdb02277e8194db0dae703e6",
+      "normalizedSha256": "c28fca942377640f6617b67086c7d92a2bb1b5912992954709991326428c4301",
+      "nativeBoxLongPixels": 32.13999999999987,
+      "nativeCrop": {
+        "left": 393,
+        "top": 1693,
+        "side": 97
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260318_124519_815509c3-whole",
+      "item": "20260318_124519_815509c3",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260318",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260318",
+      "sourceSha256": "3af20c3c81cc988a7083243523edec167022bbf94812c2de6209d1fdde12df17",
+      "normalizedSha256": "07e7a0bd0f19ba086a28c42369eca17011dda631bbf29b1742dc35026cad21f3"
+    },
+    {
+      "id": "w-spots-20260216_135124_31a284a2-whole",
+      "item": "20260216_135124_31a284a2",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260216",
+      "sourceSha256": "dd984bf2a164daae1a27c4d6cde35b7a926bf5339559b9b11336350e36138468",
+      "normalizedSha256": "ad50643b3e22a7dbcf501de650e59c469720dd33a77751af46f0615ed7afbaf7"
+    },
+    {
+      "id": "w-holes-20260519_150554_ae01232a-whole",
+      "item": "20260519_150554_ae01232a",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260519",
+      "sourceSha256": "c1e03373a0d4c62c0adc536635a5ebe4a2438d5eb9d889ef782bf106164bc719",
+      "normalizedSha256": "8ddfa9a7b956a6ab13f4b008c85a8ded1ae5be0b3a028ffba0c11551cbdc0672"
+    },
+    {
+      "id": "w-holes-20260519_152512_41a9ed19-whole",
+      "item": "20260519_152512_41a9ed19",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260519",
+      "sourceSha256": "e20115d0dd9abfe9cebdee9c16a550f4fc30e6979878b28a740f08d872c17da8",
+      "normalizedSha256": "86508ea6fe9f7d089e6c84ac50303d5452ab944f4b28504a81fec73c8cea26ef"
+    },
+    {
+      "id": "w-spots-20260220_122520_392348b8-region",
+      "item": "20260220_122520_392348b8",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260220",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260220",
+      "sourceSha256": "3fd97d1a5e187a2b7ba7df345fdddcba9ce0bce2fe60781f9d78bbf99653d22e",
+      "normalizedSha256": "fae764c08f6d2fc8ff37be73deb9344b0711a449469a7e53f6534ca5f925efb2",
+      "nativeBoxLongPixels": 11.5,
+      "nativeCrop": {
+        "left": 176,
+        "top": 424,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260224_135216_11063727-region",
+      "item": "20260224_135216_11063727",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260224",
+      "sourceSha256": "a2feef8bb07abdd8d3c0fc6a3649de4fd7965c3e88c24fa7c042cae1396ed8e3",
+      "normalizedSha256": "5967c6f383a451750d2352cf59a1098dcafbd5645004f6a7f522eb99e35d2c82",
+      "nativeBoxLongPixels": 20.5,
+      "nativeCrop": {
+        "left": 546,
+        "top": 2339,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260220_121944_70ca66e5-region",
+      "item": "20260220_121944_70ca66e5",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260220",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260220",
+      "sourceSha256": "ccddd59e90fec9207bb72622ac36ac30524ac7b4673d19f97e50b85d917a66b1",
+      "normalizedSha256": "6139d8d42edd6ccc209572eaf6def0c6577599a891d53f02f6ab38a6f27c028b",
+      "nativeBoxLongPixels": 28,
+      "nativeCrop": {
+        "left": 260,
+        "top": 294,
+        "side": 84
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260216_142331_79045aa8-whole",
+      "item": "20260216_142331_79045aa8",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260216",
+      "sourceSha256": "4fa6e37fca0a71c8a5ef5d9c0cb84ca09a288245de2704e7fc0189bef1bb57cd",
+      "normalizedSha256": "09a62cdffa409e8586def6c9bd13e2ddf5c2e8383b1b13a6eb5e13c386e76509"
+    },
+    {
+      "id": "w-holes-20260519_145551_2cf80957-region",
+      "item": "20260519_145551_2cf80957",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260519",
+      "sourceSha256": "8bdfd8293b33f3fda9c85d65eca0a110cc5fe4c5fb0a0cd46715170a0ac87e7e",
+      "normalizedSha256": "1fd8340bacc3f775f105ca550ed148900e0699e8c367fd7b4750380ee4e7a763",
+      "nativeBoxLongPixels": 80,
+      "nativeCrop": {
+        "left": 365,
+        "top": 2047,
+        "side": 240
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260318_124519_815509c3-region",
+      "item": "20260318_124519_815509c3",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260318",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260318",
+      "sourceSha256": "3af20c3c81cc988a7083243523edec167022bbf94812c2de6209d1fdde12df17",
+      "normalizedSha256": "1d3a1218d423646b25545b93a54aceb72446c9ad945b31799d7bb3cf9453a81c",
+      "nativeBoxLongPixels": 41.81999999999971,
+      "nativeCrop": {
+        "left": 881,
+        "top": 2542,
+        "side": 126
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260219_114044_5a17914b-region",
+      "item": "20260219_114044_5a17914b",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "bcd25a89b283223982bd9ea1f6dbc186bb7834364a581971a6b34de8d06481fd",
+      "normalizedSha256": "a8d95a5b7cf9b8f69f4db067881745ffbc0c212f90e99bc3045b81468965be1d",
+      "nativeBoxLongPixels": 31.5,
+      "nativeCrop": {
+        "left": 331,
+        "top": 218,
+        "side": 95
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260219_103335_0c7355ca-region",
+      "item": "20260219_103335_0c7355ca",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "a395eddeae65f1c3792822a5b5ff0f8a97045de9b837834f8855ed242c5bd2f2",
+      "normalizedSha256": "836ab819009857bf97b6839483c5bfe6fe06186b587034469d61e31ac36207fc",
+      "nativeBoxLongPixels": 5.5,
+      "nativeCrop": {
+        "left": 240,
+        "top": 332,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260224_144055_1786e1fb-whole",
+      "item": "20260224_144055_1786e1fb",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260224",
+      "sourceSha256": "cbd7177e76bf0bd20180ec057c8e2e1bae94f66afa1ac0c541230d00526bd7f0",
+      "normalizedSha256": "8e1950fcd6b88656543807fe3ae7630862568410ae7f2fdb8da8b166cbdd8028"
+    },
+    {
+      "id": "w-spots-20260216_135124_31a284a2-region",
+      "item": "20260216_135124_31a284a2",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260216",
+      "sourceSha256": "dd984bf2a164daae1a27c4d6cde35b7a926bf5339559b9b11336350e36138468",
+      "normalizedSha256": "86daff3db39e4de1002f79e3b4582bad8a659669b290329b241dcf30b38514db",
+      "nativeBoxLongPixels": 6,
+      "nativeCrop": {
+        "left": 251,
+        "top": 271,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260224_140823_af9edadf-region",
+      "item": "20260224_140823_af9edadf",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260224",
+      "sourceSha256": "10ca35675c577eade77ed295c5e6efe18509c32e01314b14699590cf9ebec0e8",
+      "normalizedSha256": "4d7c5ae5ee94c891591b52fd0404cdae4a8e2bb2e4342ec62e60118e2b8cd44d",
+      "nativeBoxLongPixels": 36,
+      "nativeCrop": {
+        "left": 702,
+        "top": 1088,
+        "side": 108
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260330_081620_59967af2-region",
+      "item": "20260330_081620_59967af2",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260330",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260330",
+      "sourceSha256": "218cbb17348af1f79a33b023305a030cce5b90308b67868fb9f24b1ddc806f73",
+      "normalizedSha256": "93a5a9285fffb29ff5be8bcff5d41ddf5577e5235aea8be67c08c85d87e3513a",
+      "nativeBoxLongPixels": 161.67000000000007,
+      "nativeCrop": {
+        "left": 1007,
+        "top": 1490,
+        "side": 486
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260220_121944_70ca66e5-whole",
+      "item": "20260220_121944_70ca66e5",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260220",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260220",
+      "sourceSha256": "ccddd59e90fec9207bb72622ac36ac30524ac7b4673d19f97e50b85d917a66b1",
+      "normalizedSha256": "2a3ac831dbd3abed68ec45d4b52ed2c4c3d7138904f5ed515d93e047010f9ad0"
+    },
+    {
+      "id": "w-spots-20260226_123358_e28ff336-region",
+      "item": "20260226_123358_e28ff336",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260226",
+      "sourceSha256": "78d5af280f2103b8ae12a14926dae2554eaa85deb63a0e027db3dfddd8ade5fb",
+      "normalizedSha256": "d58db5d8fcf04387a0fc69e28c394e71dc89ab7710c9d8363b4b2e2444d1e9b8",
+      "nativeBoxLongPixels": 274.16999999999996,
+      "nativeCrop": {
+        "left": 601,
+        "top": 1736,
+        "side": 823
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260304_132105_41626fd4-whole",
+      "item": "20260304_132105_41626fd4",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260304",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260304",
+      "sourceSha256": "ec06392bf886fa3d448a2ebab370e6a31d1178e71d461577abc840ef11e841d7",
+      "normalizedSha256": "ad0813b3167e4d5eb434349ff528217daa5c051d711c41f1c2880fc2f8329e0d"
+    },
+    {
+      "id": "w-holes-20260330_074938_912443ef-region",
+      "item": "20260330_074938_912443ef",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260330",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260330",
+      "sourceSha256": "a327b069ae52e22666e8ccda707c7771319ed2e60ef455ca1ab87bc7c73877d6",
+      "normalizedSha256": "6eac8050e7b3a8db09a9c746af66d2bd3287c225fffe9795de258b1c42d7d8a2",
+      "nativeBoxLongPixels": 77.5,
+      "nativeCrop": {
+        "left": 1040,
+        "top": 3472,
+        "side": 233
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260519_145351_e7a01c11-whole",
+      "item": "20260519_145351_e7a01c11",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260519",
+      "sourceSha256": "efd3e52d5faed85b840db1134d9b430ae5ee49512db808e5f784d737de6c2a2b",
+      "normalizedSha256": "4515df9070a0580387e7875476249b0fb459617355819cf304a110ece93446d0"
+    },
+    {
+      "id": "w-holes-20260310_133911_067a21c2-whole",
+      "item": "20260310_133911_067a21c2",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260310",
+      "sourceSha256": "dd1994f3053c4c0249d34c578fc2b89f0555c8c32430815364a7af9db186deb9",
+      "normalizedSha256": "1b41153b26fd8288fd9aea25c6bc683b98c8966f6c62756b8a3c964021e6acd8"
+    },
+    {
+      "id": "w-spots-20260220_141514_596b1ab3-whole",
+      "item": "20260220_141514_596b1ab3",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260220",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260220",
+      "sourceSha256": "a4b695df6c3f6c313967f2b35a44425bb85454e95176e952bcddfa11077f0c45",
+      "normalizedSha256": "620f3f2974d1a690bb6eee13d09b84ba71b537787248ef583eb992535f5ce468"
+    },
+    {
+      "id": "w-spots-20260217_130142_60b3ad33-region",
+      "item": "20260217_130142_60b3ad33",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260217",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260217",
+      "sourceSha256": "2e2657447418e03e866f3e06553ffd5c61cd57655bd83487623bba179ba6c4ee",
+      "normalizedSha256": "2ebcfb1dee8a54ccb4878cd4ff4ca745fab1234c313ff221817ee323a6c8bf61",
+      "nativeBoxLongPixels": 19.5,
+      "nativeCrop": {
+        "left": 75,
+        "top": 222,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260216_142331_79045aa8-region",
+      "item": "20260216_142331_79045aa8",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260216",
+      "sourceSha256": "4fa6e37fca0a71c8a5ef5d9c0cb84ca09a288245de2704e7fc0189bef1bb57cd",
+      "normalizedSha256": "196b7dc42f8706a6ab8f4c237c37ea9ec095e172aa02bf2a0b9ba68207bad5a5",
+      "nativeBoxLongPixels": 37,
+      "nativeCrop": {
+        "left": 252,
+        "top": 290,
+        "side": 111
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260317_155551_ad092f1f-whole",
+      "item": "20260317_155551_ad092f1f",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260317",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260317",
+      "sourceSha256": "d4fb56e632df2826efd0485708afd89bcc53ac20ea8e4752155db20be2cc45b6",
+      "normalizedSha256": "2308c24d963b174945aa78ddb79c74f261815af72ed9db496e896b5854b75976"
+    },
+    {
+      "id": "w-spots-20260219_152047_12301d39-whole",
+      "item": "20260219_152047_12301d39",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "4d21754ce3b2d47f3488f5186e87c68c4d794fd0bb5c62bd2c26ff06914eecc7",
+      "normalizedSha256": "b8747c2a26c7e7f7cf5ccc4da1983fd7e98dbede9cbfbb67e99ee1acec188b28"
+    },
+    {
+      "id": "w-spots-20260226_130656_11fe63d5-region",
+      "item": "20260226_130656_11fe63d5",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260226",
+      "sourceSha256": "4cc57c12e909348b1a93cf4eaf109fa28f43dd0a86f0e806f5cb458cb180c019",
+      "normalizedSha256": "112d4cc0e439a26b89fde452db8daf0a398e647e4ae0a35f2eeb26ba88a791e3",
+      "nativeBoxLongPixels": 18.5,
+      "nativeCrop": {
+        "left": 184,
+        "top": 427,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260217_121654_2ed6aa70-whole",
+      "item": "20260217_121654_2ed6aa70",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260217",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260217",
+      "sourceSha256": "1b24a07fc6fcef3802034215a2de6cdbda6da9440f16726735cc155aa7491e29",
+      "normalizedSha256": "ccf24570267e95d62d62219f66c5f5821c6442d2e96cd0cec841dd9ef533f2f9"
+    },
+    {
+      "id": "w-holes-20260310_134611_4cf2ad9d-region",
+      "item": "20260310_134611_4cf2ad9d",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260310",
+      "sourceSha256": "a2a39a6b5664b03ba9b3b575f32346bfffca29096534375474c520979205d7b2",
+      "normalizedSha256": "fef42503f7877d55082650edcde5f4a1a51e7b46430f67d38a771fd4b5a18424",
+      "nativeBoxLongPixels": 8.5,
+      "nativeCrop": {
+        "left": 281,
+        "top": 329,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260227_101720_3904a476-region",
+      "item": "20260227_101720_3904a476",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260227",
+      "sourceSha256": "5eb83312316d20affb65237210df8129ed3cbfc74f0872ef4b2e9d69c197499f",
+      "normalizedSha256": "59b4a9dda9b23c2fd9cb82f636d5e3d682ee2a2370133b2a264181d44d1bf5b4",
+      "nativeBoxLongPixels": 24.289999999999964,
+      "nativeCrop": {
+        "left": 1130,
+        "top": 1981,
+        "side": 73
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260304_132217_d96bf8a6-whole",
+      "item": "20260304_132217_d96bf8a6",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260304",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260304",
+      "sourceSha256": "c4a8cd4a46ef74dad134bbcf0250e57f7e7d8b75f342665ecceb1295dcf73117",
+      "normalizedSha256": "aa3cceb03224d5dabd359826f2bfe150d1b10f908e188bfd278b18075ab6502c"
+    },
+    {
+      "id": "w-holes-20260318_123255_ff0d6ecc-whole",
+      "item": "20260318_123255_ff0d6ecc",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260318",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260318",
+      "sourceSha256": "96b827f2266b572b29327515574b1926c9c7db83b440ec291f475ad30a937539",
+      "normalizedSha256": "eec6c943d44085c522641c3a167911edac5fb580ff7e4c1c991347c386877b3a"
+    },
+    {
+      "id": "w-spots-20260216_141426_46b2048e-whole",
+      "item": "20260216_141426_46b2048e",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260216",
+      "sourceSha256": "96007b64883f3cd73a3c7578b732f95024855d77128d9b9f3b811c085e38142a",
+      "normalizedSha256": "0f5e29cd5dd64e51113532870279bbddba74735c04ebafc797ecec2994538951"
+    },
+    {
+      "id": "w-holes-20260519_150554_ae01232a-region",
+      "item": "20260519_150554_ae01232a",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260519",
+      "sourceSha256": "c1e03373a0d4c62c0adc536635a5ebe4a2438d5eb9d889ef782bf106164bc719",
+      "normalizedSha256": "046cb9dfb271d704070bc3c45a085347eef329b95de4ad80056f54d38a1c25cc",
+      "nativeBoxLongPixels": 21.25,
+      "nativeCrop": {
+        "left": 816,
+        "top": 1149,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260318_123255_ff0d6ecc-region",
+      "item": "20260318_123255_ff0d6ecc",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260318",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260318",
+      "sourceSha256": "96b827f2266b572b29327515574b1926c9c7db83b440ec291f475ad30a937539",
+      "normalizedSha256": "a71dd6e9feab644fe34d13fb8e52b2661c40a21c47423a4376a62000644fb916",
+      "nativeBoxLongPixels": 62.67000000000008,
+      "nativeCrop": {
+        "left": 724,
+        "top": 2076,
+        "side": 189
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260219_075202_53e698aa-region",
+      "item": "20260219_075202_53e698aa",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "9ba77452fb9b2fb2d096641d75978987b188af60ea915d1d61a426eeb5ba91d6",
+      "normalizedSha256": "f2ef887fefdf0b136ae5184f4547b2f8ab2cb1600cfb4cdf7e1c82c2d7033d15",
+      "nativeBoxLongPixels": 39,
+      "nativeCrop": {
+        "left": 347,
+        "top": 246,
+        "side": 117
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260224_144055_1786e1fb-region",
+      "item": "20260224_144055_1786e1fb",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260224",
+      "sourceSha256": "cbd7177e76bf0bd20180ec057c8e2e1bae94f66afa1ac0c541230d00526bd7f0",
+      "normalizedSha256": "0b57af99f0e370a2a08240ec41ecb0c7d7cf34fe4d6747c1e6831072fcfc1dc3",
+      "nativeBoxLongPixels": 311,
+      "nativeCrop": {
+        "left": 396,
+        "top": 2357,
+        "side": 933
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260227_101720_3904a476-whole",
+      "item": "20260227_101720_3904a476",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260227",
+      "sourceSha256": "5eb83312316d20affb65237210df8129ed3cbfc74f0872ef4b2e9d69c197499f",
+      "normalizedSha256": "895587b842cde6ab54229bb0707f5cbcd68e4a74efdc48d5da2d4a1105f6b3ad"
+    },
+    {
+      "id": "w-spots-20260220_122520_392348b8-whole",
+      "item": "20260220_122520_392348b8",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260220",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260220",
+      "sourceSha256": "3fd97d1a5e187a2b7ba7df345fdddcba9ce0bce2fe60781f9d78bbf99653d22e",
+      "normalizedSha256": "de627192e60e946f2d6b7d8210b0e0c47b2d788e149fc4966cb26ca5c79c9bad"
+    },
+    {
+      "id": "w-spots-20260226_123358_e28ff336-whole",
+      "item": "20260226_123358_e28ff336",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260226",
+      "sourceSha256": "78d5af280f2103b8ae12a14926dae2554eaa85deb63a0e027db3dfddd8ade5fb",
+      "normalizedSha256": "c1df4ee569c3e92b145b8f269d1b2418b88f155522aa8d79e5b2e115a19ad7d8"
+    },
+    {
+      "id": "w-holes-20260310_133620_edfe9e0a-region",
+      "item": "20260310_133620_edfe9e0a",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260310",
+      "sourceSha256": "1252e270362edcfb279a0221cf7805e524f0b34fb4b64b97964557de880ec288",
+      "normalizedSha256": "70cce3cda2b208a4dac1bc06e12577a45eb6017ee07e8cc784bb90b509b6f6fe",
+      "nativeBoxLongPixels": 43,
+      "nativeCrop": {
+        "left": 143,
+        "top": 97,
+        "side": 129
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260224_084538_f2e3fdc4-whole",
+      "item": "20260224_084538_f2e3fdc4",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260224",
+      "sourceSha256": "bf1753f485eb6ec3b3a193a8d0e326efee8dbe94db01ead1e025dbfe8b1c1879",
+      "normalizedSha256": "bbfd4f481353da4301ea308d472140f0df5ca318567495f3e9af0e7e39868cdf"
+    },
+    {
+      "id": "w-spots-20260218_121357_2d924420-whole",
+      "item": "20260218_121357_2d924420",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260218",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260218",
+      "sourceSha256": "1dc28c599200ea686a5df54e469cca79461b2238fdb02277e8194db0dae703e6",
+      "normalizedSha256": "f8fbb4224f42c0381a5ee2983e53d618252f4e03b2c9abb1d2af5d611bedbfb9"
+    },
+    {
+      "id": "w-spots-20260226_135954_28b3f745-region",
+      "item": "20260226_135954_28b3f745",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260226",
+      "sourceSha256": "8b57c9382908da28b8222ee2539deaf5c481a43e85002edae346c36be8678120",
+      "normalizedSha256": "e3fbc960c6ca9c5348b8a87f4d98c8fbd406f88004f28561e4bd6e0e84022b69",
+      "nativeBoxLongPixels": 127.7800000000002,
+      "nativeCrop": {
+        "left": 1123,
+        "top": 1371,
+        "side": 384
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260519_145351_e7a01c11-region",
+      "item": "20260519_145351_e7a01c11",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260519",
+      "sourceSha256": "efd3e52d5faed85b840db1134d9b430ae5ee49512db808e5f784d737de6c2a2b",
+      "normalizedSha256": "41a82862e10a2f1b36fd76abc06f3b0ab22922ca3b2a31426bc233b691df8d36",
+      "nativeBoxLongPixels": 60,
+      "nativeCrop": {
+        "left": 385,
+        "top": 1983,
+        "side": 180
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260302_115214_106090a8-region",
+      "item": "20260302_115214_106090a8",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260302",
+      "sourceSha256": "d7b3bafac1bc870f0444685baeb390be4e81ee7670b5930721aef8de91158ca0",
+      "normalizedSha256": "58f79cb0306d294510cc1837a44dd2ecbdc3069c9245b146a9bf87a2bd0f918b",
+      "nativeBoxLongPixels": 20,
+      "nativeCrop": {
+        "left": 819,
+        "top": 3132,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260504_153424_aecff39e-region",
+      "item": "20260504_153424_aecff39e",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260504",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260504",
+      "sourceSha256": "209758edf9afb5a8723d53089d15887c0cd26dddf6f8c59f454203140e0c7763",
+      "normalizedSha256": "bb9836945949edec23cf5b56d1a0b09916f4f98a0db982109a8f49ddaffa514c",
+      "nativeBoxLongPixels": 489.99999999999994,
+      "nativeCrop": {
+        "left": 690,
+        "top": 1376,
+        "side": 1470
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260224_095129_02a1dd4a-whole",
+      "item": "20260224_095129_02a1dd4a",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260224",
+      "sourceSha256": "cfdeb17276eefc42ea0beff4d2eae61b039fee0bf82f869d451161229c687f01",
+      "normalizedSha256": "8218f24b36d6e98839a6757b5d559924b65616df62e4150c119f0ffcb5d2b990"
+    },
+    {
+      "id": "w-spots-20260216_141426_46b2048e-region",
+      "item": "20260216_141426_46b2048e",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260216",
+      "sourceSha256": "96007b64883f3cd73a3c7578b732f95024855d77128d9b9f3b811c085e38142a",
+      "normalizedSha256": "4c8b5eade359c28486482fe2cc7753586c76e41c1d2d35570f719d00e087ddc2",
+      "nativeBoxLongPixels": 7.5,
+      "nativeCrop": {
+        "left": 324,
+        "top": 229,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260302_082525_68d386c3-region",
+      "item": "20260302_082525_68d386c3",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260302",
+      "sourceSha256": "f3c21c9360e8b28519ebe6b10cc6130ef91f8eed0c80914b56d9e7f221519ccb",
+      "normalizedSha256": "866c850c926aa47d1a6b8a40d4beb79e66268d1353c4f11b10a11c83873a3952",
+      "nativeBoxLongPixels": 19.5,
+      "nativeCrop": {
+        "left": 261,
+        "top": 275,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260219_114044_5a17914b-whole",
+      "item": "20260219_114044_5a17914b",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "bcd25a89b283223982bd9ea1f6dbc186bb7834364a581971a6b34de8d06481fd",
+      "normalizedSha256": "86942af1d764fd773e049bd14b30ac4053ef0e3d240fd7c4d84129076061a807"
+    },
+    {
+      "id": "w-spots-20260219_093426_6e9dc0fd-whole",
+      "item": "20260219_093426_6e9dc0fd",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "70e173df8ecfccce629e69b6f1fa89bd1d31ac39e01c4450b9473dc1a2b24bc8",
+      "normalizedSha256": "fb4f266882fe4708a094dc00acb0c323bd78ed8c03fb360ef17579523c42bb5d"
+    },
+    {
+      "id": "w-spots-20260512_112533_9f41298a-whole",
+      "item": "20260512_112533_9f41298a",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260512",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260512",
+      "sourceSha256": "b296a7f37821275c8ad7a678c812905c4adbd52e614f86ac67b65e3b198a2121",
+      "normalizedSha256": "c8760a016ce921c971953bc98e56ec8436b4d42be222a1729855124bf5012e8c"
+    },
+    {
+      "id": "w-spots-20260216_125113_11f640e1-whole",
+      "item": "20260216_125113_11f640e1",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260216",
+      "sourceSha256": "bb0a2b7611ec68fdb0358f7288003cfaedfaa1f68bdc3cfcdcd1fa424b8d8a46",
+      "normalizedSha256": "8935c9e4fcf142ac94c317f1a8e0fb0723d36d5a4c0e29e179416218fd88ab62"
+    },
+    {
+      "id": "w-holes-20260224_102251_9ac63180-region",
+      "item": "20260224_102251_9ac63180",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260224",
+      "sourceSha256": "9bf60dafcdd9ef2fce2fff9d8a3f23a49197b60aeb7730ad96eb01ee0b94acda",
+      "normalizedSha256": "1e2c18747a785ed9e8aba87340dfd1e9332ea29328e14275265b2cdcb77d71f5",
+      "nativeBoxLongPixels": 6,
+      "nativeCrop": {
+        "left": 151,
+        "top": 284,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260217_095411_36d83cfa-region",
+      "item": "20260217_095411_36d83cfa",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260217",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260217",
+      "sourceSha256": "e8d44cb30da043c120bcc02965065a9c3489df4c31c3e3756b9a82ab606c95ea",
+      "normalizedSha256": "fc45f922a66c04a45a4a6e0f75a47dd71c0fb034b2e7ddd08b2dcd6e4b71df56",
+      "nativeBoxLongPixels": 95,
+      "nativeCrop": {
+        "left": 773,
+        "top": 1739,
+        "side": 285
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260519_150854_06965077-region",
+      "item": "20260519_150854_06965077",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260519",
+      "sourceSha256": "a5f7233298d5fb33e6b59ea7ebfd2f2994c135c2d868f43cf9dc71706b9a2dbc",
+      "normalizedSha256": "463c6f70a3c63a2a3def344904040186e2fbf807c6c06fee195feebcc6be128f",
+      "nativeBoxLongPixels": 55,
+      "nativeCrop": {
+        "left": 683,
+        "top": 1946,
+        "side": 165
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260317_155551_ad092f1f-region",
+      "item": "20260317_155551_ad092f1f",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260317",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260317",
+      "sourceSha256": "d4fb56e632df2826efd0485708afd89bcc53ac20ea8e4752155db20be2cc45b6",
+      "normalizedSha256": "f33288e0a4fc1483bdf1abc24f7f53be6964c6af2f6317fbcd8245312f4bd44b",
+      "nativeBoxLongPixels": 45,
+      "nativeCrop": {
+        "left": 1193,
+        "top": 973,
+        "side": 135
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260224_135216_11063727-whole",
+      "item": "20260224_135216_11063727",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260224",
+      "sourceSha256": "a2feef8bb07abdd8d3c0fc6a3649de4fd7965c3e88c24fa7c042cae1396ed8e3",
+      "normalizedSha256": "7006e51e38604cd93ed95ea54c276a60dd6ae03013a5a0154f76708b5b440f26"
+    },
+    {
+      "id": "w-spots-20260310_141654_df2aad25-whole",
+      "item": "20260310_141654_df2aad25",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260310",
+      "sourceSha256": "85f6e60b7b6c26135fc8ee2bcd882c76ccbe2b1b59bc53c561e9f9ef9a2a24e2",
+      "normalizedSha256": "accf1239a145b8871eb3826d956d2131f8562953c456e41277f4d734b3f8ef5e"
+    },
+    {
+      "id": "w-spots-20260302_155205_17ad674e-whole",
+      "item": "20260302_155205_17ad674e",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260302",
+      "sourceSha256": "648887cb23b98aa30d378929f2b5d9722541f2290c993a1b95dbb57542bca02d",
+      "normalizedSha256": "cd11e877c230e236581dbd50628ace70755dd3954da5c7692468d59b24b0f411"
+    },
+    {
+      "id": "w-holes-20260519_150854_06965077-whole",
+      "item": "20260519_150854_06965077",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260519",
+      "sourceSha256": "a5f7233298d5fb33e6b59ea7ebfd2f2994c135c2d868f43cf9dc71706b9a2dbc",
+      "normalizedSha256": "db9043eacb321d6d15e745fb1b49141677773723bcc328960faf233454603265"
+    },
+    {
+      "id": "w-holes-20260330_074938_912443ef-whole",
+      "item": "20260330_074938_912443ef",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260330",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260330",
+      "sourceSha256": "a327b069ae52e22666e8ccda707c7771319ed2e60ef455ca1ab87bc7c73877d6",
+      "normalizedSha256": "acf0cfef4806c86b419c9e0c64bde73339ba7b5428d9d284acee561f8cb386c5"
+    },
+    {
+      "id": "w-holes-20260302_115214_106090a8-whole",
+      "item": "20260302_115214_106090a8",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260302",
+      "sourceSha256": "d7b3bafac1bc870f0444685baeb390be4e81ee7670b5930721aef8de91158ca0",
+      "normalizedSha256": "9fcc42b37b2c3087755085c959df405b3a49ed38b9e68abcaacf0a07abf48f37"
+    },
+    {
+      "id": "w-spots-20260219_093426_6e9dc0fd-region",
+      "item": "20260219_093426_6e9dc0fd",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "70e173df8ecfccce629e69b6f1fa89bd1d31ac39e01c4450b9473dc1a2b24bc8",
+      "normalizedSha256": "9be7949fa8e8ed7d31baff13349a500799d373300d6e2ff3a56e7e3c0f0c1364",
+      "nativeBoxLongPixels": 413,
+      "nativeCrop": {
+        "left": 183,
+        "top": 510,
+        "side": 1239
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260220_141514_596b1ab3-region",
+      "item": "20260220_141514_596b1ab3",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260220",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260220",
+      "sourceSha256": "a4b695df6c3f6c313967f2b35a44425bb85454e95176e952bcddfa11077f0c45",
+      "normalizedSha256": "6a4422399119cd21d2428d642cf4e44c964df3d7a70488007477b914492e6f1e",
+      "nativeBoxLongPixels": 53.5,
+      "nativeCrop": {
+        "left": 136,
+        "top": 359,
+        "side": 161
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260219_075202_53e698aa-whole",
+      "item": "20260219_075202_53e698aa",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "9ba77452fb9b2fb2d096641d75978987b188af60ea915d1d61a426eeb5ba91d6",
+      "normalizedSha256": "128d1480b73e59e4bd9ec06b5b4462dc43470cb5a6f66bdf7288f43438e23103"
+    },
+    {
+      "id": "w-spots-20260217_095411_36d83cfa-whole",
+      "item": "20260217_095411_36d83cfa",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260217",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260217",
+      "sourceSha256": "e8d44cb30da043c120bcc02965065a9c3489df4c31c3e3756b9a82ab606c95ea",
+      "normalizedSha256": "bb2eb649739c578bd8eef38758f2724f8776f4b217290a5d0b0298746d5143c5"
+    },
+    {
+      "id": "w-holes-20260224_095129_02a1dd4a-region",
+      "item": "20260224_095129_02a1dd4a",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260224",
+      "sourceSha256": "cfdeb17276eefc42ea0beff4d2eae61b039fee0bf82f869d451161229c687f01",
+      "normalizedSha256": "6f33a3ab5f720f8f15e2db6ef6900d54916c07f0ec680a739c3d1c711e2e863e",
+      "nativeBoxLongPixels": 72.5,
+      "nativeCrop": {
+        "left": 1087,
+        "top": 1578,
+        "side": 218
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260302_155205_17ad674e-region",
+      "item": "20260302_155205_17ad674e",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260302",
+      "sourceSha256": "648887cb23b98aa30d378929f2b5d9722541f2290c993a1b95dbb57542bca02d",
+      "normalizedSha256": "da3d95ec0dc24dcd822461627c5a306dde1cb7e6953ab9ecd836a99252d99633",
+      "nativeBoxLongPixels": 57.8900000000001,
+      "nativeCrop": {
+        "left": 774,
+        "top": 1747,
+        "side": 174
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260304_132105_41626fd4-region",
+      "item": "20260304_132105_41626fd4",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260304",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260304",
+      "sourceSha256": "ec06392bf886fa3d448a2ebab370e6a31d1178e71d461577abc840ef11e841d7",
+      "normalizedSha256": "9e20afd24e05106b9a9f8d69fce7dc23ed207e4fb654f09c2258a7064f5de319",
+      "nativeBoxLongPixels": 150.82999999999993,
+      "nativeCrop": {
+        "left": 991,
+        "top": 1375,
+        "side": 453
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260318_120613_faa0a3fc-whole",
+      "item": "20260318_120613_faa0a3fc",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260318",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260318",
+      "sourceSha256": "564a3291dac08a9d418f1b8b6bbdaeb1832b98469417cc3e289632026d0fe3e6",
+      "normalizedSha256": "3659a3729131e1d1ee6098055302ec958a3a353f13c2917a281fe94bba990115"
+    },
+    {
+      "id": "w-spots-20260310_141654_df2aad25-region",
+      "item": "20260310_141654_df2aad25",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260310",
+      "sourceSha256": "85f6e60b7b6c26135fc8ee2bcd882c76ccbe2b1b59bc53c561e9f9ef9a2a24e2",
+      "normalizedSha256": "937c272010e9b6c3b6f7fecfb7d24f3e1cbaf31d1c01cdeca71a1f3a58c9fe5a",
+      "nativeBoxLongPixels": 56.5,
+      "nativeCrop": {
+        "left": 218,
+        "top": 462,
+        "side": 170
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260310_134611_4cf2ad9d-whole",
+      "item": "20260310_134611_4cf2ad9d",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260310",
+      "sourceSha256": "a2a39a6b5664b03ba9b3b575f32346bfffca29096534375474c520979205d7b2",
+      "normalizedSha256": "2af5ba0fa013906d977d2d7607e79defef69c8fcda437790dd8156573c4740b7"
+    },
+    {
+      "id": "w-holes-20260318_120613_faa0a3fc-region",
+      "item": "20260318_120613_faa0a3fc",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260318",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260318",
+      "sourceSha256": "564a3291dac08a9d418f1b8b6bbdaeb1832b98469417cc3e289632026d0fe3e6",
+      "normalizedSha256": "536b12d465ab8c39f94355e6ffcafcc60c408979aaa5348d0d0cdeb01a3ee256",
+      "nativeBoxLongPixels": 14.5,
+      "nativeCrop": {
+        "left": 238,
+        "top": 267,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260219_113752_f99549ce-region",
+      "item": "20260219_113752_f99549ce",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "f85c2f6264b11010cea9445072623a6bd7de9d0ec450a0ee2522337180a109b8",
+      "normalizedSha256": "9cddf30b0537e891bd54b3358dba37efb65a801cbf683d9cf2de5a5cb08fbf83",
+      "nativeBoxLongPixels": 84.61999999999989,
+      "nativeCrop": {
+        "left": 521,
+        "top": 1821,
+        "side": 254
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260310_133911_067a21c2-region",
+      "item": "20260310_133911_067a21c2",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260310",
+      "sourceSha256": "dd1994f3053c4c0249d34c578fc2b89f0555c8c32430815364a7af9db186deb9",
+      "normalizedSha256": "6df7fa5026c4933b1a3b8ee00c4bdfed9bbbab29921c8a48f1c41ee02aaca65e",
+      "nativeBoxLongPixels": 72.77999999999975,
+      "nativeCrop": {
+        "left": 1133,
+        "top": 3130,
+        "side": 219
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260520_100744_a0bfc5ff-whole",
+      "item": "20260520_100744_a0bfc5ff",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260520",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260520",
+      "sourceSha256": "bafb026a31bb3ec6d8dd2925fcfa004dec6b766aadc2498f0cadc5c9694a1b9c",
+      "normalizedSha256": "8da9ee755f7498c8c062e045e0388d04baab245a83283cb75d72b542606fe2b1"
+    },
+    {
+      "id": "w-holes-20260302_082525_68d386c3-whole",
+      "item": "20260302_082525_68d386c3",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260302",
+      "sourceSha256": "f3c21c9360e8b28519ebe6b10cc6130ef91f8eed0c80914b56d9e7f221519ccb",
+      "normalizedSha256": "f029b1d4f23fb0e9e2a0062292283247d9b696017ed4f1d4c9e0c586e8fbcbc0"
+    },
+    {
+      "id": "w-holes-20260227_132917_b6065976-region",
+      "item": "20260227_132917_b6065976",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260227",
+      "sourceSha256": "84b40b8eb97b1df508b9230c8474181be62ec962a658021071bbaf255e683a15",
+      "normalizedSha256": "d539a32cf20f2142903d14e34ad09f6b2f93576c60a0c97fe728b2f2958ede0b",
+      "nativeBoxLongPixels": 15.5,
+      "nativeCrop": {
+        "left": 161,
+        "top": 306,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260219_092950_ee753fbb-whole",
+      "item": "20260219_092950_ee753fbb",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "c98b0076725859fb98349b89ec814412415eff60ac10c64c6bf6ac86b0446839",
+      "normalizedSha256": "3e214e95b4c16d599afdf8f69d502261d6a3964c70e2e61f2d7597a858f3145e"
+    },
+    {
+      "id": "w-spots-20260217_121654_2ed6aa70-region",
+      "item": "20260217_121654_2ed6aa70",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260217",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260217",
+      "sourceSha256": "1b24a07fc6fcef3802034215a2de6cdbda6da9440f16726735cc155aa7491e29",
+      "normalizedSha256": "eb824701e9e8c64ac5f0b3e95b419c4f61da78545ad3dfa64576be36e0ebc039",
+      "nativeBoxLongPixels": 25,
+      "nativeCrop": {
+        "left": 410,
+        "top": 1913,
+        "side": 75
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260224_102251_9ac63180-whole",
+      "item": "20260224_102251_9ac63180",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260224",
+      "sourceSha256": "9bf60dafcdd9ef2fce2fff9d8a3f23a49197b60aeb7730ad96eb01ee0b94acda",
+      "normalizedSha256": "c888e1eb980f11b307f3e38306c0fe5f75088f96c09499a8d5cbe882ce60d185"
+    },
+    {
+      "id": "w-spots-20260520_100744_a0bfc5ff-region",
+      "item": "20260520_100744_a0bfc5ff",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260520",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260520",
+      "sourceSha256": "bafb026a31bb3ec6d8dd2925fcfa004dec6b766aadc2498f0cadc5c9694a1b9c",
+      "normalizedSha256": "7ea0c845c2a51772eb52b4511c9daa4fae201864d048e30224fe1423244003c8",
+      "nativeBoxLongPixels": 61.25,
+      "nativeCrop": {
+        "left": 764,
+        "top": 1038,
+        "side": 184
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260219_134230_744d99a8-region",
+      "item": "20260219_134230_744d99a8",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "7d3615128bee852627bc4d1fe22c1149fa634ba4965a7f78c678c9c65ec157db",
+      "normalizedSha256": "4282242219eaf288308b8a5efb3877400942703b1223785023c0fc83fd6fb4bf",
+      "nativeBoxLongPixels": 3.5,
+      "nativeCrop": {
+        "left": 364,
+        "top": 200,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260217_130142_60b3ad33-whole",
+      "item": "20260217_130142_60b3ad33",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260217",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260217",
+      "sourceSha256": "2e2657447418e03e866f3e06553ffd5c61cd57655bd83487623bba179ba6c4ee",
+      "normalizedSha256": "e78413c3c26d6018cc46b1c8c6d656d57f198e930b0601cf3a2a36f4fffba6df"
+    },
+    {
+      "id": "w-holes-20260227_132917_b6065976-whole",
+      "item": "20260227_132917_b6065976",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260227",
+      "sourceSha256": "84b40b8eb97b1df508b9230c8474181be62ec962a658021071bbaf255e683a15",
+      "normalizedSha256": "428f3cfee9ba85ba92f6e0592f3d80d49c94d2a13d3cec9026bd62be15f1af60"
+    },
+    {
+      "id": "w-spots-20260225_140516_13b24674-region",
+      "item": "20260225_140516_13b24674",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260225",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260225",
+      "sourceSha256": "f7e69dfb0c519c95c7cd0bc150ba7c2ac1d9d643ac147e7e3fe11539417c593e",
+      "normalizedSha256": "e8f4e4f69bd958c3199f74cd3196ab41d587d5d038581ddc7e2a90289ed063e9",
+      "nativeBoxLongPixels": 16.5,
+      "nativeCrop": {
+        "left": 229,
+        "top": 257,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260330_081620_59967af2-whole",
+      "item": "20260330_081620_59967af2",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260330",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260330",
+      "sourceSha256": "218cbb17348af1f79a33b023305a030cce5b90308b67868fb9f24b1ddc806f73",
+      "normalizedSha256": "c0c5c53beaf9045bc36c65a59190b9c510ecf538bf3ad6d43fc48d215c7c8dc4"
+    },
+    {
+      "id": "w-spots-20260216_125113_11f640e1-region",
+      "item": "20260216_125113_11f640e1",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260216",
+      "sourceSha256": "bb0a2b7611ec68fdb0358f7288003cfaedfaa1f68bdc3cfcdcd1fa424b8d8a46",
+      "normalizedSha256": "be694f3d638eb3392425423a7d3e89af630cce608298078f528ef86d6c21d177",
+      "nativeBoxLongPixels": 143.52999999999975,
+      "nativeCrop": {
+        "left": 329,
+        "top": 2365,
+        "side": 431
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260219_152047_12301d39-region",
+      "item": "20260219_152047_12301d39",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "4d21754ce3b2d47f3488f5186e87c68c4d794fd0bb5c62bd2c26ff06914eecc7",
+      "normalizedSha256": "8bfce24704499726b71e5d219a719179744d6db70434ab53bf72bbc53835cf34",
+      "nativeBoxLongPixels": 20.5,
+      "nativeCrop": {
+        "left": 284,
+        "top": 151,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260226_141230_0e46381b-region",
+      "item": "20260226_141230_0e46381b",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260226",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260226",
+      "sourceSha256": "07955756d60d44b813648bcfe092d14ee63e7fed4e7bbd863b191ad2dd0174ad",
+      "normalizedSha256": "c3d7a7b2b7f1ec1d2475771470b6f0ec6731bf17f67e83600613020d0bfd627d",
+      "nativeBoxLongPixels": 94.33333300000001,
+      "nativeCrop": {
+        "left": 267,
+        "top": 357,
+        "side": 283
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260302_125853_1dd7717a-whole",
+      "item": "20260302_125853_1dd7717a",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260302",
+      "sourceSha256": "f21c9d0fe040a81a57381982ec40b8d5b35a195d9124a9aba62ef3155b2e9d62",
+      "normalizedSha256": "aee96431c26e500e4d7bbbbf2cd87d434e87452863ba14fa93346947399513f6"
+    },
+    {
+      "id": "w-holes-20260227_154445_b75793b5-whole",
+      "item": "20260227_154445_b75793b5",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260227",
+      "sourceSha256": "0b529b4edd73ddafdf4e763e2e5aed114055b7cdad1bcb204c115fe9d5340a15",
+      "normalizedSha256": "fcd29de20fbc34d38ebe4e1bd6ceb54ea257d0132b40dbd27aae71813701e83f"
+    },
+    {
+      "id": "w-holes-20260224_115704_dbb35c55-whole",
+      "item": "20260224_115704_dbb35c55",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260224",
+      "sourceSha256": "470bcf63e2acb7af14114859634f93016ebd592ac16f4954ed1d151ec69a515b",
+      "normalizedSha256": "f9726ce2b6772025b31e2fa9eacb5157222bbe618aa240093648c1dd6b9bbf3b"
+    },
+    {
+      "id": "w-holes-20260227_133157_c75b473f-region",
+      "item": "20260227_133157_c75b473f",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260227",
+      "sourceSha256": "af0327f63d74ec76ac525205beba5a3dc52a4446c12d57c0e8397ec943950b6d",
+      "normalizedSha256": "73120b7a9df236660d4ad573758a6bf6e6ade9f757ec31e3eb4cca22451af384",
+      "nativeBoxLongPixels": 10,
+      "nativeCrop": {
+        "left": 307,
+        "top": 439,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260227_082701_99e875b3-whole",
+      "item": "20260227_082701_99e875b3",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260227",
+      "sourceSha256": "dc38ad5bfec155b0acc85c82996a2f950588f3b52a668800c22446bba65480b9",
+      "normalizedSha256": "356bf7dc5e2a7f9fc5423f22df33b1a102d069a8206ac75a017ee7eed2368708"
+    },
+    {
+      "id": "w-holes-20260224_084538_f2e3fdc4-region",
+      "item": "20260224_084538_f2e3fdc4",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260224",
+      "sourceSha256": "bf1753f485eb6ec3b3a193a8d0e326efee8dbe94db01ead1e025dbfe8b1c1879",
+      "normalizedSha256": "c2faaf7a273f666e666f3268fc5180d4c991cf0503fe74abe6c6952f0a71956b",
+      "nativeBoxLongPixels": 5.5,
+      "nativeCrop": {
+        "left": 222,
+        "top": 178,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260219_113752_f99549ce-whole",
+      "item": "20260219_113752_f99549ce",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "f85c2f6264b11010cea9445072623a6bd7de9d0ec450a0ee2522337180a109b8",
+      "normalizedSha256": "2962f30376355b1e393e0449338e0e629419fc5466a697fff5374687fe916997"
+    },
+    {
+      "id": "w-spots-20260302_125853_1dd7717a-region",
+      "item": "20260302_125853_1dd7717a",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260302",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260302",
+      "sourceSha256": "f21c9d0fe040a81a57381982ec40b8d5b35a195d9124a9aba62ef3155b2e9d62",
+      "normalizedSha256": "0d8092d21a3a2c444e036f58a3135fbcb818f45f8ac5d61a5383c0173e154d80",
+      "nativeBoxLongPixels": 29,
+      "nativeCrop": {
+        "left": 118,
+        "top": 398,
+        "side": 87
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260520_092719_0cfbca38-whole",
+      "item": "20260520_092719_0cfbca38",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260520",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260520",
+      "sourceSha256": "6a4193c3f15c7da54f407d998a61dd46cff5b9c4244dad98aa171d3aa26747f2",
+      "normalizedSha256": "e16dd122e8b4c4124ea856c661489b3d4e9e84b611680b6c16108cf4c3e71335"
+    },
+    {
+      "id": "w-holes-20260227_100620_d2cec992-region",
+      "item": "20260227_100620_d2cec992",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260227",
+      "sourceSha256": "e7984ff53bb1a1b4057d6da546947e2ebe72f445fc03b7696a77864aeae8934d",
+      "normalizedSha256": "656c0c9555702fe7166e048698b533d08243e18275243e2c8b94941b0e29bcaf",
+      "nativeBoxLongPixels": 8.5,
+      "nativeCrop": {
+        "left": 220,
+        "top": 375,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260219_103335_0c7355ca-whole",
+      "item": "20260219_103335_0c7355ca",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260219",
+      "sourceSha256": "a395eddeae65f1c3792822a5b5ff0f8a97045de9b837834f8855ed242c5bd2f2",
+      "normalizedSha256": "654ea7e3d7b9b49045d1861f3e6861d78fee6070c16fac6db89417ec511ef18c"
+    },
+    {
+      "id": "w-spots-20260219_092950_ee753fbb-region",
+      "item": "20260219_092950_ee753fbb",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260219",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260219",
+      "sourceSha256": "c98b0076725859fb98349b89ec814412415eff60ac10c64c6bf6ac86b0446839",
+      "normalizedSha256": "8eb290f791f417f3a3d952f51dc330302a278f5aa2e31b1515e8085443fe569d",
+      "nativeBoxLongPixels": 110.5,
+      "nativeCrop": {
+        "left": 76,
+        "top": 43,
+        "side": 332
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-spots-20260216_142046_8450fb80-region",
+      "item": "20260216_142046_8450fb80",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260216",
+      "sourceSha256": "0bc45f0311ac10d9e3f6258610aeca2c94ea34bc7f64ff74552ef4b5ba11f2a0",
+      "normalizedSha256": "9b053bb2aff1d674ba8186ee2e4fb7c35f8ee30b3242c7f5beb2067b069c3a71",
+      "nativeBoxLongPixels": 19,
+      "nativeCrop": {
+        "left": 858,
+        "top": 1545,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260227_082701_99e875b3-region",
+      "item": "20260227_082701_99e875b3",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260227",
+      "sourceSha256": "dc38ad5bfec155b0acc85c82996a2f950588f3b52a668800c22446bba65480b9",
+      "normalizedSha256": "fcbbed9c88becefd04c216c2e001cc1a53c4ee1423a3a1dec77e604d116f2e60",
+      "nativeBoxLongPixels": 30,
+      "nativeCrop": {
+        "left": 819,
+        "top": 1902,
+        "side": 90
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260519_152512_41a9ed19-region",
+      "item": "20260519_152512_41a9ed19",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260519",
+      "sourceSha256": "e20115d0dd9abfe9cebdee9c16a550f4fc30e6979878b28a740f08d872c17da8",
+      "normalizedSha256": "766183a29464e3b0622bba2c8e841eeb37eaa4bf9e21bb95d416722283966784",
+      "nativeBoxLongPixels": 142.5,
+      "nativeCrop": {
+        "left": 651,
+        "top": 1499,
+        "side": 428
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260304_132217_d96bf8a6-region",
+      "item": "20260304_132217_d96bf8a6",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260304",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260304",
+      "sourceSha256": "c4a8cd4a46ef74dad134bbcf0250e57f7e7d8b75f342665ecceb1295dcf73117",
+      "normalizedSha256": "69bf1da0c2457650278a44f53ec71ba1f67ac4592a77543f64be2e318db6e215",
+      "nativeBoxLongPixels": 5,
+      "nativeCrop": {
+        "left": 157,
+        "top": 465,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260227_100620_d2cec992-whole",
+      "item": "20260227_100620_d2cec992",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260227",
+      "sourceSha256": "e7984ff53bb1a1b4057d6da546947e2ebe72f445fc03b7696a77864aeae8934d",
+      "normalizedSha256": "d5198e34a98bbae7fff4f8694930833bd99bb8c20f412c5d690dfc305d8d0f10"
+    },
+    {
+      "id": "w-holes-20260310_133620_edfe9e0a-whole",
+      "item": "20260310_133620_edfe9e0a",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260310",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260310",
+      "sourceSha256": "1252e270362edcfb279a0221cf7805e524f0b34fb4b64b97964557de880ec288",
+      "normalizedSha256": "54d67d1b7cf5edcaf176aaebcddb16520a7936ec048bf4df31fbd1892f6e5504"
+    },
+    {
+      "id": "w-spots-20260520_092719_0cfbca38-region",
+      "item": "20260520_092719_0cfbca38",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260520",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260520",
+      "sourceSha256": "6a4193c3f15c7da54f407d998a61dd46cff5b9c4244dad98aa171d3aa26747f2",
+      "normalizedSha256": "324883ccb3b1344b4797e68031c048bf57dcb17e0d737ce1f097df6d982e27b2",
+      "nativeBoxLongPixels": 18.75,
+      "nativeCrop": {
+        "left": 426,
+        "top": 3031,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260504_153424_aecff39e-whole",
+      "item": "20260504_153424_aecff39e",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260504",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260504",
+      "sourceSha256": "209758edf9afb5a8723d53089d15887c0cd26dddf6f8c59f454203140e0c7763",
+      "normalizedSha256": "24ceb8862135d0ff58be830b593c421d43c4844987e3453670886ccf9ce94d91"
+    },
+    {
+      "id": "w-holes-20260227_154445_b75793b5-region",
+      "item": "20260227_154445_b75793b5",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260227",
+      "sourceSha256": "0b529b4edd73ddafdf4e763e2e5aed114055b7cdad1bcb204c115fe9d5340a15",
+      "normalizedSha256": "24608502571f3b9048687a4994b69a7f61ed14b37321294868d4d6513215da2c",
+      "nativeBoxLongPixels": 13.670000000000073,
+      "nativeCrop": {
+        "left": 789,
+        "top": 1582,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-holes-20260519_145551_2cf80957-whole",
+      "item": "20260519_145551_2cf80957",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260519",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260519",
+      "sourceSha256": "8bdfd8293b33f3fda9c85d65eca0a110cc5fe4c5fb0a0cd46715170a0ac87e7e",
+      "normalizedSha256": "61ffd069bfccebe7e3a4be64c0651eafa83ae90c5b2232a9368e57773e02ce0c"
+    },
+    {
+      "id": "w-spots-20260216_142046_8450fb80-whole",
+      "item": "20260216_142046_8450fb80",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260216",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260216",
+      "sourceSha256": "0bc45f0311ac10d9e3f6258610aeca2c94ea34bc7f64ff74552ef4b5ba11f2a0",
+      "normalizedSha256": "fb833daf74b69875279d9195f76dd8a5bfa4a91d729070ce894879e5c64635e8"
+    },
+    {
+      "id": "w-holes-20260224_115704_dbb35c55-region",
+      "item": "20260224_115704_dbb35c55",
+      "view": "detail",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260224",
+      "sourceSha256": "470bcf63e2acb7af14114859634f93016ebd592ac16f4954ed1d151ec69a515b",
+      "normalizedSha256": "569c6f393691156cb7f120dd58e8daf4efbd13a303e8700bd95f9da2e2e06898",
+      "nativeBoxLongPixels": 10,
+      "nativeCrop": {
+        "left": 192,
+        "top": 233,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "id": "w-holes-20260224_140823_af9edadf-whole",
+      "item": "20260224_140823_af9edadf",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260224",
+      "sharedDate": false,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260224",
+      "sourceSha256": "10ca35675c577eade77ed295c5e6efe18509c32e01314b14699590cf9ebec0e8",
+      "normalizedSha256": "0d4cd520cfebdca5330a06df2f2f60d115ef69592f02248af9663533d56cda34"
+    },
+    {
+      "id": "w-holes-20260227_133157_c75b473f-whole",
+      "item": "20260227_133157_c75b473f",
+      "view": "front",
+      "source": "wargon",
+      "class": "holes",
+      "date": "20260227",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260227",
+      "sourceSha256": "af0327f63d74ec76ac525205beba5a3dc52a4446c12d57c0e8397ec943950b6d",
+      "normalizedSha256": "deca41dc2a49d874fafa454a3f2a9555930e58abcb73a92fbeac3ecdf22cefe6"
+    },
+    {
+      "id": "w-spots-20260512_112533_9f41298a-region",
+      "item": "20260512_112533_9f41298a",
+      "view": "detail",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260512",
+      "sharedDate": false,
+      "cohort": "wargon_region",
+      "mode": "region",
+      "group": "20260512",
+      "sourceSha256": "b296a7f37821275c8ad7a678c812905c4adbd52e614f86ac67b65e3b198a2121",
+      "normalizedSha256": "58fe9f70bd25057f003051af82068212dabd145d2ecf777e5d8d3528a2875683",
+      "nativeBoxLongPixels": 54.440000000000055,
+      "nativeCrop": {
+        "left": 733,
+        "top": 1361,
+        "side": 164
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "id": "w-spots-20260225_140516_13b24674-whole",
+      "item": "20260225_140516_13b24674",
+      "view": "front",
+      "source": "wargon",
+      "class": "spots",
+      "date": "20260225",
+      "sharedDate": true,
+      "cohort": "wargon_whole",
+      "mode": "whole",
+      "group": "20260225",
+      "sourceSha256": "f7e69dfb0c519c95c7cd0bc150ba7c2ac1d9d643ac147e7e3fe11539417c593e",
+      "normalizedSha256": "bb9cf551c735f5b2f32ce64c3a7e37a86536280a2f311d8dc97811f0dfde5b1e"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+photographs in both runs: 261
+
+== per question: ranking quality, rank agreement and movement between sizes ==
+question  reference                 AUC 1600  AUC 512  | Spearman  mean |change|  same side of 0.5
+break     damage label                 0.981    0.982  |    0.945         0.066         93.5%
+slide     damage label                 0.918    0.915  |    0.914         0.063         91.6%
+repair    damage label                 0.944    0.959  |    0.904         0.075         87.0%
+wear      damage label                 0.871    0.869  |    0.901         0.090         88.9%
+gear      gear vs recorded domain      0.597    0.611  |    0.873         0.091         88.1%
+
+== category letter ==
+  same letter at both sizes: 96.6% of 261
+  matches the recorded subject (boots, gloves, helmet, material close-ups; n=168): 1600 px 97.6%
+  matches the recorded subject (boots, gloves, helmet, material close-ups; n=168): 512 px 97.6%
+  garment photographs answered as a garment letter (a, b, c): 1600 px 75.9%, 512 px 77.6% (n=58)
+  material letter, same at both sizes: 94.6% (the rules never read it)
+
+== cost ==
+  median ms for all 7 questions: 1600 px 6894, 512 px 1500 (22%)
+  median prompt tokens per question: 1600 px 1325, 512 px 317

@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-26T20:44:05.282Z",
+  "scope": "New external source groups only; existing evaluation photographs are excluded from training.",
+  "records": [
+    {
+      "source": "fabric",
+      "name": "FD_Dataset.7z",
+      "path": ".cache\\phone-training\\FD_Dataset.7z",
+      "bytes": 191072607,
+      "sha256": "1ead960053bdbe8529a6d53c03ebe54ae8814f5ae1a52a9fafb9400a83b11290",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 0,
+      "name": "Pic_2023_05_08_133014_2.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_133014_2.jpeg",
+      "bytes": 6506044,
+      "sha256": "de8d0aad52ce832f940eb2abe78a12c46c204a23b4af067a1cbf03a77375f3cd",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 32,
+      "name": "Pic_2023_05_08_134918_34.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_134918_34.jpeg",
+      "bytes": 4062776,
+      "sha256": "d38cf9fd04bf673a3f7870e6294b3b57b1e6cd65b0021c2a86422d6e972d9944",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 64,
+      "name": "Pic_2023_05_08_153123_47.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_153123_47.jpeg",
+      "bytes": 3532013,
+      "sha256": "3cd1c6c97519e3c87a2defd1064b26bbb816290fdbb30c094276e45aa0f7150e",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 96,
+      "name": "Pic_2023_05_08_154340_79.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_154340_79.jpeg",
+      "bytes": 4245511,
+      "sha256": "212b2276160ca08f4407fb632259983ece3920abec123248dc518fce9c09c6a9",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 128,
+      "name": "Pic_2023_05_08_160119_112.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_160119_112.jpeg",
+      "bytes": 4585404,
+      "sha256": "9664f9739dcbeccdfa1149ba3b323bfc5bf34c9d06c44959df6a4eb7383786d6",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 160,
+      "name": "Pic_2023_05_08_172749_8.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_172749_8.jpeg",
+      "bytes": 3786074,
+      "sha256": "70b2d15268706283a137b72ed3e700f6037ee84fb59238ecfd8c66b3f319ee44",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 192,
+      "name": "Pic_2023_05_08_174122_40.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_174122_40.jpeg",
+      "bytes": 3945519,
+      "sha256": "a250969a4406db3fd1bb6a3f3c8856a86d946b061c2652c5b0f97fb6ab608e80",
+      "primaryMd5Matched": true
+    },
+    {
+      "source": "leather",
+      "index": 224,
+      "name": "Pic_2023_05_08_181027_17.jpeg",
+      "path": ".cache\\phone-training\\Pic_2023_05_08_181027_17.jpeg",
+      "bytes": 5011491,
+      "sha256": "0a4f5a7b6a350370074d11cd259b98563ebc35aeb19c2e9b870b122110011181",
+      "primaryMd5Matched": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-26T21:05:33.702Z",
+  "file": "audit.json",
+  "status": "invalid-harness-run",
+  "cause": "The harness passed a fractional remaining timeout to AbortSignal.timeout, which requires an integer. All 194 rows failed before an HTTP request was sent. None is a model or application failure; exclude the entire run from quality metrics. Corrected harness fails fast on its own RangeError/ReferenceError and is smoke-tested before the complete rerun."
+}

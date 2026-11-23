@@ -1,0 +1,4 @@
+{
+  "at": "2026-10-26T19:17:18.878Z",
+  "correction": "The copied gates.latency text in verified-cue-protocol.json refers to its parent candidate. The new budget field and row boundedCalls test declared the actual experiment: at most two calls, 2500ms combined optional budget, 2600ms observed allowance. No budget or acceptance outcome has been relaxed. The candidate recovered only one required damaged variant and is not accepted."
+}

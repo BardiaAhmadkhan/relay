@@ -1,0 +1,10 @@
+
+> gear-recognition-lab@0.1.0 check:docs
+> node scripts/check-docs.mjs
+
+{
+  "checkedAt": "2026-10-26T15:50:57.450Z",
+  "documents": 29,
+  "links": 40,
+  "errors": []
+}

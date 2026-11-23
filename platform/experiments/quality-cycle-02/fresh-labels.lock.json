@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-26T22:17:00.690Z",
+  "files": [
+    {
+      "path": "datasets/quality-cycle-02/labels.json",
+      "sha256": "8a109e28cd89063ee486802ff70284c5ae4c6ad8b64708860e421e8d3d98dc9e"
+    },
+    {
+      "path": "experiments/quality-cycle-02/fresh-selection.json",
+      "sha256": "bb6c9ea84ef7fcc6bbe4ff4d564b950f05e670dd010289d7b5663b8e26b7ed30"
+    },
+    {
+      "path": "experiments/quality-cycle-02/fresh-acquisition.json",
+      "sha256": "979455ac138df2ba220f51a12891740a51d2cc1cbb6cbedc154f54f728969180"
+    }
+  ]
+}

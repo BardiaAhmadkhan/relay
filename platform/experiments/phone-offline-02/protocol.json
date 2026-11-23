@@ -1,0 +1,96 @@
+{
+  "at": "2026-10-27T00:02:37.766Z",
+  "target": "Samsung Galaxy S26 Ultra; physical phone not attached. ARM64 APK, on-device inference, bundled offline model, no computer service or cloud fallback.",
+  "baseline": [
+    {
+      "path": "package.json",
+      "snapshot": "experiments/phone-offline-02/baseline/package.json",
+      "sha256": "d97ae15bf1a9691e701ba8dc9aba0edb2ea30ba9560583cebc220500c47dba0b"
+    },
+    {
+      "path": "package-lock.json",
+      "snapshot": "experiments/phone-offline-02/baseline/package-lock.json",
+      "sha256": "59332cf6bd3cbfca5e2262007142df9732611cb0e971f86525eb69859ef0ddc7"
+    },
+    {
+      "path": "app/package.json",
+      "snapshot": "experiments/phone-offline-02/baseline/app--package.json",
+      "sha256": "7f8c7a6f641fdbdb17e4f43fbf1389c6a648c1e16533411200945278e4f551ad"
+    },
+    {
+      "path": "app/app.json",
+      "snapshot": "experiments/phone-offline-02/baseline/app--app.json",
+      "sha256": "1032e47faf0d5b7e7fb6a357c87bff05ac5c7194a89c38041a38b84810eebacf"
+    },
+    {
+      "path": "app/metro.config.js",
+      "snapshot": "experiments/phone-offline-02/baseline/app--metro.config.js",
+      "sha256": "ccc3aa9320119e1defa4b24cbba78e4d27be0dffe07fdd1f5217b4cf82bcf3c2"
+    },
+    {
+      "path": "app/App.tsx",
+      "snapshot": "experiments/phone-offline-02/baseline/app--App.tsx",
+      "sha256": "2dc71b6f537e7c3a37136cd36944bc3241edf03db4937f96a6afb6cbfc995e9c"
+    },
+    {
+      "path": "app/src/api.ts",
+      "snapshot": "experiments/phone-offline-02/baseline/app--src--api.ts",
+      "sha256": "2524736fb4aafb755127256551cf76f70d03234a1523a80042c67a2861875533"
+    },
+    {
+      "path": "app/src/useRelay.ts",
+      "snapshot": "experiments/phone-offline-02/baseline/app--src--useRelay.ts",
+      "sha256": "da967685289089d97563da0a1d47bd11b95d8cd41df5c252d12434dac2179ee4"
+    },
+    {
+      "path": "app/src/session.ts",
+      "snapshot": "experiments/phone-offline-02/baseline/app--src--session.ts",
+      "sha256": "7c574e530abc2115e6bdd7dbdc4e87a79ac18b0d0270c9c9085eedb0f4733f4b"
+    },
+    {
+      "path": "app/src/screens-intake.tsx",
+      "snapshot": "experiments/phone-offline-02/baseline/app--src--screens-intake.tsx",
+      "sha256": "b64f9a6590cd2fc97972a122f1af8ef7f5dfda8cb5dcba33841db52d5278cefc"
+    },
+    {
+      "path": "app/src/screens-review.tsx",
+      "snapshot": "experiments/phone-offline-02/baseline/app--src--screens-review.tsx",
+      "sha256": "0a5de09758d0c1614a69a852926e1cfc8835b859d7cef4654301a43138761203"
+    },
+    {
+      "path": "app/src/capture-footer.tsx",
+      "snapshot": "experiments/phone-offline-02/baseline/app--src--capture-footer.tsx",
+      "sha256": "407823e3349ef9fdc609fd44059e411f449b4c5df5012163830b1ae19dd079f0"
+    },
+    {
+      "path": "app/src/briefs.ts",
+      "snapshot": "experiments/phone-offline-02/baseline/app--src--briefs.ts",
+      "sha256": "8cb8f5fd5b986c433c450be5583487e95204c6027ed0be86dcdf3ac71fdccbc1"
+    },
+    {
+      "path": "packages/core/schema.ts",
+      "snapshot": "experiments/phone-offline-02/baseline/packages--core--schema.ts",
+      "sha256": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0"
+    },
+    {
+      "path": "packages/core/policy.ts",
+      "snapshot": "experiments/phone-offline-02/baseline/packages--core--policy.ts",
+      "sha256": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1"
+    }
+  ],
+  "priorEvidence": "experiments/quality-cycle-02/evidence.lock.json",
+  "candidate": "Qwen3.5-0.8B Q4_K_M plus F16 vision projector; evaluate before selection",
+  "gates": [
+    "No network permission in standalone release; fresh install and real image inference with airplane mode and no adb reverse",
+    "Original three damaged jackets must still show physically corresponding defects, not merely any alert",
+    "Matched positive/negative controls recorded without silently discarding failures",
+    "Deterministic history/offer policy, drafts, photo provenance, cancellation and saved briefs retained",
+    "Separate physical-phone uncertainty from native emulator evidence"
+  ],
+  "primarySources": [
+    "https://github.com/mybigday/llama.rn",
+    "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+    "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF",
+    "https://news.samsung.com/us/samsung-unveils-galaxy-s26-series-most-intuitive-galaxy-ai-phone-yet/"
+  ]
+}

@@ -1,0 +1,4431 @@
+{
+  "schemaVersion": "1.0",
+  "startedAt": "2026-10-26T06:37:23.456Z",
+  "finishedAt": "2026-10-26T06:37:38.296Z",
+  "experiment": "Pinned q8 category models; two fixed wording templates; two warm repetitions; no training or hosted inference.",
+  "environment": {
+    "node": "v24.12.0",
+    "platform": "win32",
+    "arch": "x64",
+    "osRelease": "10.0.26200",
+    "cpuModel": "Intel(R) Core(TM) Ultra 9 275HX",
+    "logicalCpus": 24,
+    "totalMemoryBytes": 33693306880,
+    "transformersVersion": "4.3.1",
+    "intraOpNumThreads": 2,
+    "interOpNumThreads": 1
+  },
+  "interpretation": "Convenience smoke corpus only. Category references are source-based weak labels. Repeated views and repetitions are not independent accuracy samples. No condition/safety accuracy, calibration or unseen generalization claim.",
+  "fixtureManifestSha256": "9e8cd77f07e21766146bb54ddccf20d82758ada443709902920f4e9924983866",
+  "models": {
+    "local_clip": {
+      "model": "Xenova/clip-vit-base-patch32",
+      "revision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+      "tokenizer": "Xenova/clip-vit-base-patch32",
+      "tokenizerRevision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+      "scoreSemantics": "candidate-relative softmax; uncalibrated"
+    },
+    "local_siglip": {
+      "model": "onnx-community/siglip-base-patch16-224-ONNX",
+      "revision": "9f0328bdd0eb4f62d0f6c10625f43d882b32102b",
+      "tokenizer": "google/siglip-base-patch16-224",
+      "tokenizerRevision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+      "scoreSemantics": "independent sigmoid; uncalibrated"
+    }
+  },
+  "labels": [
+    {
+      "label": "a motorcycle riding jacket",
+      "category": "motorcycle_jacket"
+    },
+    {
+      "label": "motorcycle riding trousers",
+      "category": "trousers"
+    },
+    {
+      "label": "motorcycle riding gloves",
+      "category": "gloves"
+    },
+    {
+      "label": "motorcycle riding boots",
+      "category": "boots"
+    },
+    {
+      "label": "a motorcycle helmet",
+      "category": "helmet"
+    },
+    {
+      "label": "ordinary clothing not designed for motorcycle riding",
+      "category": "other"
+    },
+    {
+      "label": "multiple different pieces of motorcycle gear",
+      "category": "multiple"
+    },
+    {
+      "label": "an unrelated object or an empty scene",
+      "category": "other"
+    }
+  ],
+  "promptTemplates": [
+    "A photo of {}.",
+    "This image shows {}."
+  ],
+  "scoreSemantics": "CLIP candidate-relative softmax and SigLIP independent sigmoid; never compare numeric scores as calibrated confidence.",
+  "aggregateRule": "A view requires prompt-template top-category agreement; all non-label views must agree and at least one overview must exist. Otherwise unknown. Uniform decoded frames are rejected by a narrow pixel-variance heuristic.",
+  "percentileMethod": "nearest rank ceil(n*0.95); small n is descriptive only",
+  "summaries": [
+    {
+      "kind": "local_clip",
+      "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+      "modelLoadMs": 883.9204,
+      "warmRequests": 16,
+      "medianMs": 121.00260000000003,
+      "p95NearestRankMs": 137.5664999999999,
+      "firstPass": [
+        {
+          "id": "leather-jacket",
+          "group": "lewis-jacket-01",
+          "expected": "motorcycle_jacket",
+          "predicted": "motorcycle_jacket",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "armour-jacket",
+          "group": "herobiker-jacket-01",
+          "expected": "motorcycle_jacket",
+          "predicted": "motorcycle_jacket",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "gloves-back",
+          "group": "dainese-gloves-01",
+          "expected": "gloves",
+          "predicted": "gloves",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "gloves-palm",
+          "group": "dainese-gloves-01",
+          "expected": "gloves",
+          "predicted": "gloves",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "racing-boot",
+          "group": "sidi-boot-01",
+          "expected": "boots",
+          "predicted": "boots",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "mixed-gear",
+          "group": "mixed-gear-01",
+          "expected": "multiple",
+          "predicted": "motorcycle_jacket",
+          "scored": true,
+          "correct": false
+        },
+        {
+          "id": "crashed-shoulder",
+          "group": "crashed-panel-01",
+          "expected": "unknown",
+          "predicted": "helmet",
+          "scored": false,
+          "correct": false
+        },
+        {
+          "id": "backpack-label",
+          "group": "backpack-label-01",
+          "expected": "other",
+          "predicted": "motorcycle_jacket",
+          "scored": false,
+          "correct": false
+        }
+      ],
+      "scoredImages": 6,
+      "correctScoredImages": 5,
+      "scoredItemGroups": 5,
+      "allViewsCorrectItemGroups": 4,
+      "sanity": {
+        "labelOnlyUnknown": true,
+        "labelOnlyHasNoFindings": true,
+        "cancellationRejected": true,
+        "conflictingOverviewCategory": "unknown",
+        "conflictingOverviewUnknown": true
+      }
+    },
+    {
+      "kind": "local_siglip",
+      "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+      "modelLoadMs": 718.9896999999996,
+      "warmRequests": 16,
+      "medianMs": 593.55375,
+      "p95NearestRankMs": 693.1906000000008,
+      "firstPass": [
+        {
+          "id": "leather-jacket",
+          "group": "lewis-jacket-01",
+          "expected": "motorcycle_jacket",
+          "predicted": "other",
+          "scored": true,
+          "correct": false
+        },
+        {
+          "id": "armour-jacket",
+          "group": "herobiker-jacket-01",
+          "expected": "motorcycle_jacket",
+          "predicted": "other",
+          "scored": true,
+          "correct": false
+        },
+        {
+          "id": "gloves-back",
+          "group": "dainese-gloves-01",
+          "expected": "gloves",
+          "predicted": "gloves",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "gloves-palm",
+          "group": "dainese-gloves-01",
+          "expected": "gloves",
+          "predicted": "gloves",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "racing-boot",
+          "group": "sidi-boot-01",
+          "expected": "boots",
+          "predicted": "boots",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "mixed-gear",
+          "group": "mixed-gear-01",
+          "expected": "multiple",
+          "predicted": "multiple",
+          "scored": true,
+          "correct": true
+        },
+        {
+          "id": "crashed-shoulder",
+          "group": "crashed-panel-01",
+          "expected": "unknown",
+          "predicted": "boots",
+          "scored": false,
+          "correct": false
+        },
+        {
+          "id": "backpack-label",
+          "group": "backpack-label-01",
+          "expected": "other",
+          "predicted": "unknown",
+          "scored": false,
+          "correct": false
+        }
+      ],
+      "scoredImages": 6,
+      "correctScoredImages": 4,
+      "scoredItemGroups": 5,
+      "allViewsCorrectItemGroups": 3,
+      "sanity": {
+        "labelOnlyUnknown": true,
+        "labelOnlyHasNoFindings": true,
+        "cancellationRejected": true,
+        "conflictingOverviewCategory": "unknown",
+        "conflictingOverviewUnknown": true
+      }
+    }
+  ],
+  "runs": [
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "leather-jacket",
+      "itemGroup": "lewis-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 120.16539999999986,
+      "rssBytesAfter": 634019840,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 118.24589999999989,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "leather-jacket",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 50.093200000000024,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.9311979413032532
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.045854534953832626
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.012366416864097118
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.005550470668822527
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0022388275247067213
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0020543148275464773
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0006916410056874156
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00004585612623486668
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 41.41390000000001,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.9495849013328552
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.02429296262562275
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.014479564502835274
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.004696578253060579
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.004011859651654959
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0016375223640352488
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0012385493610054255
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0000580516061745584
+                }
+              ]
+            }
+          ],
+          "durationMs": 118.18359999999984
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "armour-jacket",
+      "itemGroup": "herobiker-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 106.92589999999996,
+      "rssBytesAfter": 644575232,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 106.78460000000018,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "armour-jacket",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 40.970800000000054,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.48299306631088257
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.41900941729545593
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.07149848341941833
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.016551215201616287
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0037178117781877518
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0030992638785392046
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0030133668333292007
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00011735258885892108
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 38.70720000000006,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5741636157035828
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.282498300075531
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.08997400850057602
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.029661623761057854
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.012439577840268612
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0068281544372439384
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.004238711204379797
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00019598235667217523
+                }
+              ]
+            }
+          ],
+          "durationMs": 106.7313999999999
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "gloves-back",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 107.28639999999996,
+      "rssBytesAfter": 651063296,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 107.1848,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-back",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 41.832999999999856,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.8406222462654114
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.038584817200899124
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.03663638234138489
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.028470797464251518
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.022362761199474335
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0196671299636364
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.012572229839861393
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0010836466681212187
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 42.781999999999925,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.7503980994224548
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.06137852370738983
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.05909102037549019
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.05739348754286766
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.029458612203598022
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.02156541682779789
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.019258908927440643
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0014559468254446983
+                }
+              ]
+            }
+          ],
+          "durationMs": 107.16660000000002
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "gloves-palm",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 123.92749999999978,
+      "rssBytesAfter": 663793664,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 123.83420000000001,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-palm",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 46.278099999999995,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.9725124835968018
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.005895982030779123
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005891148466616869
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.005357009824365377
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.004265964962542057
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0030933229718357325
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.002911611460149288
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00007245137385325506
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 50.96070000000009,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.9382007122039795
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.013512215577065945
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.013387948274612427
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.01272622961550951
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.01168778259307146
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0065116239711642265
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0038481319788843393
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00012533074186649173
+                }
+              ]
+            }
+          ],
+          "durationMs": 123.81799999999998
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "racing-boot",
+      "itemGroup": "sidi-boot-01",
+      "expectedCategory": "boots",
+      "scoreCategory": true,
+      "durationMs": 101.22130000000016,
+      "rssBytesAfter": 671031296,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "boots",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 101.12870000000021,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "racing-boot",
+          "view": "front",
+          "category": "boots",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 39.50279999999998,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.6831730604171753
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.20174922049045563
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.030796708539128304
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.02737230621278286
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0270919818431139
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.023525487631559372
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005733160302042961
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0005580441211350262
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 36.97250000000008,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.6650412678718567
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.18258889019489288
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.05178327113389969
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.038835469633340836
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.031100479885935783
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.02170509099960327
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.008385633118450642
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0005598876159638166
+                }
+              ]
+            }
+          ],
+          "durationMs": 101.10369999999989
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "mixed-gear",
+      "itemGroup": "mixed-gear-01",
+      "expectedCategory": "multiple",
+      "scoreCategory": true,
+      "durationMs": 109.77080000000001,
+      "rssBytesAfter": 681005056,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 109.6757,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "mixed-gear",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 42.87160000000017,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.4582468271255493
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.20459111034870148
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.18225714564323425
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.09464091062545776
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.03877386078238487
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.012283159419894218
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.008914372883737087
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0002926031011156738
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 41.76579999999967,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5461201667785645
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.17085570096969604
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.13893648982048035
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.06703758239746094
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.04950372129678726
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.013805440627038479
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.013254701159894466
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00048617905122227967
+                }
+              ]
+            }
+          ],
+          "durationMs": 109.66509999999994
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "crashed-shoulder",
+      "itemGroup": "crashed-panel-01",
+      "expectedCategory": "unknown",
+      "scoreCategory": false,
+      "durationMs": 105.59630000000016,
+      "rssBytesAfter": 692736000,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "helmet",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 105.51560000000018,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "crashed-shoulder",
+          "view": "front",
+          "category": "helmet",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 38.18719999999985,
+              "ranking": [
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.44592052698135376
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.26840320229530334
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0893075168132782
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.07477908581495285
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.042324911803007126
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.03264209255576134
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.02368147484958172
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.022941185161471367
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 38.29489999999987,
+              "ranking": [
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.4189288318157196
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.33958908915519714
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.06953242421150208
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.053794682025909424
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.042265668511390686
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.03636536747217178
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.020183704793453217
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.01934022828936577
+                }
+              ]
+            }
+          ],
+          "durationMs": 105.50629999999956
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 0,
+      "fixtureId": "backpack-label",
+      "itemGroup": "backpack-label-01",
+      "expectedCategory": "other",
+      "scoreCategory": false,
+      "durationMs": 121.8398000000002,
+      "rssBytesAfter": 485842944,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 121.7502999999997,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "backpack-label",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 44.28530000000001,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5517183542251587
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.170863538980484
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.1602795422077179
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.04873866215348244
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.03975991532206535
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.014451595023274422
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.00975989829748869
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00442847004160285
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 52.302599999999984,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5553146004676819
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.15482507646083832
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.15312905609607697
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.06188613921403885
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.04165463522076607
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.014618833549320698
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.011081043630838394
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.007490590680390596
+                }
+              ]
+            }
+          ],
+          "durationMs": 121.73919999999998
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "leather-jacket",
+      "itemGroup": "lewis-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 111.99369999999999,
+      "rssBytesAfter": 501678080,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 111.88419999999996,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "leather-jacket",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 43.17960000000039,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.9311979413032532
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.045854534953832626
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.012366416864097118
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.005550470668822527
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0022388275247067213
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0020543148275464773
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0006916410056874156
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00004585612623486668
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 38.179999999999836,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.9495849013328552
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.02429296262562275
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.014479564502835274
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.004696578253060579
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.004011859651654959
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0016375223640352488
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0012385493610054255
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0000580516061745584
+                }
+              ]
+            }
+          ],
+          "durationMs": 111.86660000000029
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "armour-jacket",
+      "itemGroup": "herobiker-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 137.5664999999999,
+      "rssBytesAfter": 490381312,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 137.4427999999998,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "armour-jacket",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 54.65099999999984,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.48299306631088257
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.41900941729545593
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.07149848341941833
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.016551215201616287
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0037178117781877518
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0030992638785392046
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0030133668333292007
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00011735258885892108
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 53.51890000000003,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5741636157035828
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.282498300075531
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.08997400850057602
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.029661623761057854
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.012439577840268612
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0068281544372439384
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.004238711204379797
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00019598235667217523
+                }
+              ]
+            }
+          ],
+          "durationMs": 137.42819999999983
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "gloves-back",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 136.60719999999992,
+      "rssBytesAfter": 492437504,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 136.5032000000001,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-back",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 47.77350000000024,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.8406222462654114
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.038584817200899124
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.03663638234138489
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.028470797464251518
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.022362761199474335
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0196671299636364
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.012572229839861393
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0010836466681212187
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 47.059799999999996,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.7503980994224548
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.06137852370738983
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.05909102037549019
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.05739348754286766
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.029458612203598022
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.02156541682779789
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.019258908927440643
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0014559468254446983
+                }
+              ]
+            }
+          ],
+          "durationMs": 136.4929000000002
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "gloves-palm",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 125.50340000000006,
+      "rssBytesAfter": 493232128,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 125.4344000000001,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-palm",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 43.45289999999977,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.9725124835968018
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.005895982030779123
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005891148466616869
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.005357009824365377
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.004265964962542057
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0030933229718357325
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.002911611460149288
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00007245137385325506
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 51.13560000000007,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.9382007122039795
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.013512215577065945
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.013387948274612427
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.01272622961550951
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.01168778259307146
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0065116239711642265
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0038481319788843393
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00012533074186649173
+                }
+              ]
+            }
+          ],
+          "durationMs": 125.42560000000003
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "racing-boot",
+      "itemGroup": "sidi-boot-01",
+      "expectedCategory": "boots",
+      "scoreCategory": true,
+      "durationMs": 136.25620000000026,
+      "rssBytesAfter": 494743552,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "boots",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 136.17849999999999,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "racing-boot",
+          "view": "front",
+          "category": "boots",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 58.896200000000135,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.6831730604171753
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.20174922049045563
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.030796708539128304
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.02737230621278286
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0270919818431139
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.023525487631559372
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005733160302042961
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0005580441211350262
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 47.16319999999996,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.6650412678718567
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.18258889019489288
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.05178327113389969
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.038835469633340836
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.031100479885935783
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.02170509099960327
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.008385633118450642
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0005598876159638166
+                }
+              ]
+            }
+          ],
+          "durationMs": 136.16790000000037
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "mixed-gear",
+      "itemGroup": "mixed-gear-01",
+      "expectedCategory": "multiple",
+      "scoreCategory": true,
+      "durationMs": 130.82510000000002,
+      "rssBytesAfter": 495497216,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 130.74569999999994,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "mixed-gear",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 54.2503999999999,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.4582468271255493
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.20459111034870148
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.18225714564323425
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.09464091062545776
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.03877386078238487
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.012283159419894218
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.008914372883737087
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0002926031011156738
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 50.312700000000405,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5461201667785645
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.17085570096969604
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.13893648982048035
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.06703758239746094
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.04950372129678726
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.013805440627038479
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.013254701159894466
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.00048617905122227967
+                }
+              ]
+            }
+          ],
+          "durationMs": 130.73549999999977
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "crashed-shoulder",
+      "itemGroup": "crashed-panel-01",
+      "expectedCategory": "unknown",
+      "scoreCategory": false,
+      "durationMs": 114.9390000000003,
+      "rssBytesAfter": 499736576,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "helmet",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 114.86550000000034,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "crashed-shoulder",
+          "view": "front",
+          "category": "helmet",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 44.082600000000184,
+              "ranking": [
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.44592052698135376
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.26840320229530334
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0893075168132782
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.07477908581495285
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.042324911803007126
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.03264209255576134
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.02368147484958172
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.022941185161471367
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 41.98849999999993,
+              "ranking": [
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.4189288318157196
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.33958908915519714
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.06953242421150208
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.053794682025909424
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.042265668511390686
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.03636536747217178
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.020183704793453217
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.01934022828936577
+                }
+              ]
+            }
+          ],
+          "durationMs": 114.85500000000002
+        }
+      ]
+    },
+    {
+      "kind": "local_clip",
+      "repeat": 1,
+      "fixtureId": "backpack-label",
+      "itemGroup": "backpack-label-01",
+      "expectedCategory": "other",
+      "scoreCategory": false,
+      "durationMs": 129.69000000000005,
+      "rssBytesAfter": 496943104,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "motorcycle_jacket",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_clip",
+        "model": "Xenova/clip-vit-base-patch32@d15189d7028b:q8",
+        "coverage": "category_only",
+        "durationMs": 129.62220000000025,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "backpack-label",
+          "view": "front",
+          "category": "motorcycle_jacket",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 47.2175000000002,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5517183542251587
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.170863538980484
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.1602795422077179
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.04873866215348244
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.03975991532206535
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.014451595023274422
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.00975989829748869
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00442847004160285
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 54.29330000000027,
+              "ranking": [
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.5553146004676819
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.15482507646083832
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.15312905609607697
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.06188613921403885
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.04165463522076607
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.014618833549320698
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.011081043630838394
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.007490590680390596
+                }
+              ]
+            }
+          ],
+          "durationMs": 129.61250000000018
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "leather-jacket",
+      "itemGroup": "lewis-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 659.8422,
+      "rssBytesAfter": 631353344,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "other",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 659.7696000000005,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "leather-jacket",
+          "view": "front",
+          "category": "other",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 327.8590000000004,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.043758612126111984
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.00944709125906229
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0018588586244732141
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00008729072578717023
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000005568299002334243
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000003917790309060365
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0000032662383091519587
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 6.850951308479125e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 300.1882000000005,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.01777559332549572
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005797153804451227
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0007065038662403822
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00008500066178385168
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000010495005881239194
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.000008400498700211756
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0000030347468964464497
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 2.833015741998679e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 659.7546999999995
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "armour-jacket",
+      "itemGroup": "herobiker-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 577.2761,
+      "rssBytesAfter": 663052288,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "other",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 577.2165999999997,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "armour-jacket",
+          "view": "front",
+          "category": "other",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 279.3001999999997,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.09658756107091904
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0210976991802454
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005562230944633484
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0003349469043314457
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.00003837642361759208
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000012350075849099085
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000004924819222651422
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 5.395563817955917e-8
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 271.47540000000026,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.12070972472429276
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.028559625148773193
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0074906740337610245
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.000530342455022037
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.00012637536565307528
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000046135442971717566
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000010358580766478553
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 3.0413819018804134e-8
+                }
+              ]
+            }
+          ],
+          "durationMs": 577.2088000000003
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "gloves-back",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 601.6750999999995,
+      "rssBytesAfter": 684167168,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 601.6152000000002,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-back",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 294.97749999999996,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.5397869348526001
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.029866183176636696
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.024560576304793358
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0007099108770489693
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0006885582115501165
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000621833314653486
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00011379225907148793
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 8.002038498489128e-8
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 281.83519999999953,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.5220931768417358
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.020999658852815628
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.0103961993008852
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0013019900070503354
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0007781650056131184
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.00029796783928759396
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00008445569255854934
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 5.0928317563148084e-8
+                }
+              ]
+            }
+          ],
+          "durationMs": 601.6060000000007
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "gloves-palm",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 671.7599,
+      "rssBytesAfter": 706023424,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 671.6939000000002,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-palm",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 333.6313,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0886281430721283
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.002548410790041089
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0019900023471564054
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00004737444032798521
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0000343637220794335
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0000254479527939111
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000002760835513981874
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 1.5750644877243758e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 308.2049999999999,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.08040695637464523
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.001253755297511816
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0009371520718559623
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00005021866309107281
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00004466134851099923
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.00001605683246452827
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000002026286892942153
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 4.733136194090548e-8
+                }
+              ]
+            }
+          ],
+          "durationMs": 671.6823999999997
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "racing-boot",
+      "itemGroup": "sidi-boot-01",
+      "expectedCategory": "boots",
+      "scoreCategory": true,
+      "durationMs": 693.1906000000008,
+      "rssBytesAfter": 739213312,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "boots",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 693.1000999999997,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "racing-boot",
+          "view": "front",
+          "category": "boots",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 318.3564000000006,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.542540431022644
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.025829244405031204
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.021854890510439873
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.002785342512652278
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0027269425336271524
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0005458335508592427
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00034187454730272293
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 2.2893765105891362e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 342.8683000000001,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.6150472164154053
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.013296840712428093
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.007888572290539742
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0039293537847697735
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0023499999660998583
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0004314157413318753
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0002233328705187887
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 1.1455625781309209e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 693.0846000000001
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "mixed-gear",
+      "itemGroup": "mixed-gear-01",
+      "expectedCategory": "multiple",
+      "scoreCategory": true,
+      "durationMs": 607.1216999999988,
+      "rssBytesAfter": 759058432,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "multiple",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": true,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 607.0407999999998,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "mixed-gear",
+          "view": "front",
+          "category": "multiple",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 302.1306999999997,
+              "ranking": [
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.9343613386154175
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.9260835647583008
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.20639951527118683
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.07766304165124893
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.020761655643582344
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00783633440732956
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.001887077116407454
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0000022349070150085026
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 263.77560000000085,
+              "ranking": [
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.8957505822181702
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.8698935508728027
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.10784512013196945
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.09157057851552963
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.01594965159893036
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.006221501622349024
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0026928407605737448
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 7.801045853739197e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 607.0297999999993
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "crashed-shoulder",
+      "itemGroup": "crashed-panel-01",
+      "expectedCategory": "unknown",
+      "scoreCategory": false,
+      "durationMs": 591.7295999999988,
+      "rssBytesAfter": 786092032,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "boots",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 591.6288000000004,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "crashed-shoulder",
+          "view": "front",
+          "category": "boots",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 277.8842999999997,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.025155071169137955
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.021443484351038933
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.011426345445215702
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.008899759501218796
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.004579651635140181
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0016284550074487925
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0013751075603067875
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.000007048584848234896
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 282.7433000000001,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.021533239632844925
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.00527202570810914
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0047765616327524185
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.003567721229046583
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.002826514421030879
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0012406063033267856
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0008512560743838549
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0000024896305603760993
+                }
+              ]
+            }
+          ],
+          "durationMs": 591.6186000000016
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 0,
+      "fixtureId": "backpack-label",
+      "itemGroup": "backpack-label-01",
+      "expectedCategory": "other",
+      "scoreCategory": false,
+      "durationMs": 560.9750000000004,
+      "rssBytesAfter": 809418752,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "unknown",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 560.9033999999992,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "backpack-label",
+          "view": "front",
+          "category": "unknown",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 263.5671000000002,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.00515985582023859
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.002595372498035431
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0018194321310147643
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0011505241272971034
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00037980233901180327
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.00004943117528455332
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00004648587855626829
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 3.068474256906484e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 265.9158000000007,
+              "ranking": [
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.002638626843690872
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.00237922347150743
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0010514199966564775
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0008156554540619254
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00015429274935740978
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00004195208748569712
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.000040626877307659015
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 1.8459556372363295e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 560.8917000000001
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "leather-jacket",
+      "itemGroup": "lewis-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 526.6515999999992,
+      "rssBytesAfter": 818360320,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "other",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 526.5861000000004,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "leather-jacket",
+          "view": "front",
+          "category": "other",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 241.16660000000047,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.043758612126111984
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.00944709125906229
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0018588586244732141
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00008729072578717023
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000005568299002334243
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000003917790309060365
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0000032662383091519587
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 6.850951308479125e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 252.89280000000144,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.01777559332549572
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005797153804451227
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0007065038662403822
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00008500066178385168
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000010495005881239194
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.000008400498700211756
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0000030347468964464497
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 2.833015741998679e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 526.5757000000012
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "armour-jacket",
+      "itemGroup": "herobiker-jacket-01",
+      "expectedCategory": "motorcycle_jacket",
+      "scoreCategory": true,
+      "durationMs": 540.8365999999987,
+      "rssBytesAfter": 825970688,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "other",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 540.7723999999998,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "armour-jacket",
+          "view": "front",
+          "category": "other",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 263.2654000000002,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.09658756107091904
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0210976991802454
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.005562230944633484
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0003349469043314457
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.00003837642361759208
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000012350075849099085
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000004924819222651422
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 5.395563817955917e-8
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 252.85100000000057,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.12070972472429276
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.028559625148773193
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0074906740337610245
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.000530342455022037
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.00012637536565307528
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000046135442971717566
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000010358580766478553
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 3.0413819018804134e-8
+                }
+              ]
+            }
+          ],
+          "durationMs": 540.762999999999
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "gloves-back",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 595.3779000000013,
+      "rssBytesAfter": 591257600,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 595.3112000000001,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-back",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 273.91129999999976,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.5397869348526001
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.029866183176636696
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.024560576304793358
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0007099108770489693
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0006885582115501165
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.000621833314653486
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00011379225907148793
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 8.002038498489128e-8
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 276.15090000000055,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.5220931768417358
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.020999658852815628
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.0103961993008852
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0013019900070503354
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0007781650056131184
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.00029796783928759396
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00008445569255854934
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 5.0928317563148084e-8
+                }
+              ]
+            }
+          ],
+          "durationMs": 595.3009000000002
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "gloves-palm",
+      "itemGroup": "dainese-gloves-01",
+      "expectedCategory": "gloves",
+      "scoreCategory": true,
+      "durationMs": 628.9988999999987,
+      "rssBytesAfter": 610775040,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "gloves",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 628.9341000000004,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "gloves-palm",
+          "view": "front",
+          "category": "gloves",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 329.2301000000007,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0886281430721283
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.002548410790041089
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0019900023471564054
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00004737444032798521
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0000343637220794335
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.0000254479527939111
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000002760835513981874
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 1.5750644877243758e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 274.90769999999975,
+              "ranking": [
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.08040695637464523
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.001253755297511816
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0009371520718559623
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.00005021866309107281
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00004466134851099923
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.00001605683246452827
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.000002026286892942153
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 4.733136194090548e-8
+                }
+              ]
+            }
+          ],
+          "durationMs": 628.9238999999998
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "racing-boot",
+      "itemGroup": "sidi-boot-01",
+      "expectedCategory": "boots",
+      "scoreCategory": true,
+      "durationMs": 552.0739999999987,
+      "rssBytesAfter": 620052480,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "boots",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 551.9938000000002,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "racing-boot",
+          "view": "front",
+          "category": "boots",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 282.02640000000065,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.542540431022644
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.025829244405031204
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.021854890510439873
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.002785342512652278
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0027269425336271524
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0005458335508592427
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00034187454730272293
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 2.2893765105891362e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 246.38490000000093,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.6150472164154053
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.013296840712428093
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.007888572290539742
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0039293537847697735
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.0023499999660998583
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0004314157413318753
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0002233328705187887
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 1.1455625781309209e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 551.9840999999997
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "mixed-gear",
+      "itemGroup": "mixed-gear-01",
+      "expectedCategory": "multiple",
+      "scoreCategory": true,
+      "durationMs": 587.8988000000008,
+      "rssBytesAfter": 601894912,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "multiple",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": true,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 587.8274000000001,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "mixed-gear",
+          "view": "front",
+          "category": "multiple",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 277.1183999999994,
+              "ranking": [
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.9343613386154175
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.9260835647583008
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.20639951527118683
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.07766304165124893
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.020761655643582344
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00783633440732956
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.001887077116407454
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0000022349070150085026
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 281.51820000000043,
+              "ranking": [
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.8957505822181702
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.8698935508728027
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.10784512013196945
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.09157057851552963
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.01594965159893036
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.006221501622349024
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.0026928407605737448
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 7.801045853739197e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 587.8170999999984
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "crashed-shoulder",
+      "itemGroup": "crashed-panel-01",
+      "expectedCategory": "unknown",
+      "scoreCategory": false,
+      "durationMs": 613.4603000000006,
+      "rssBytesAfter": 605151232,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "boots",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 613.3953999999994,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "crashed-shoulder",
+          "view": "front",
+          "category": "boots",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 295.46730000000025,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.025155071169137955
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.021443484351038933
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.011426345445215702
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.008899759501218796
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.004579651635140181
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0016284550074487925
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0013751075603067875
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.000007048584848234896
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 292.922700000001,
+              "ranking": [
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.021533239632844925
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.00527202570810914
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0047765616327524185
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.003567721229046583
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.002826514421030879
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.0012406063033267856
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0008512560743838549
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 0.0000024896305603760993
+                }
+              ]
+            }
+          ],
+          "durationMs": 613.3849000000009
+        }
+      ]
+    },
+    {
+      "kind": "local_siglip",
+      "repeat": 1,
+      "fixtureId": "backpack-label",
+      "itemGroup": "backpack-label-01",
+      "expectedCategory": "other",
+      "scoreCategory": false,
+      "durationMs": 559.2212,
+      "rssBytesAfter": 611168256,
+      "observation": {
+        "schemaVersion": "1.0",
+        "category": "unknown",
+        "attributes": [],
+        "concerns": [],
+        "missingViews": [
+          "back",
+          "label"
+        ],
+        "multipleItems": false,
+        "provider": "local_siglip",
+        "model": "onnx-community/siglip-base-patch16-224-ONNX@9f0328bdd0eb:q8",
+        "coverage": "category_only",
+        "durationMs": 559.1677999999993,
+        "usage": null
+      },
+      "views": [
+        {
+          "imageId": "backpack-label",
+          "view": "front",
+          "category": "unknown",
+          "rejectedAsUniform": false,
+          "prompts": [
+            {
+              "template": "A photo of {}.",
+              "durationMs": 275.47969999999987,
+              "ranking": [
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.00515985582023859
+                },
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.002595372498035431
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0018194321310147643
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0011505241272971034
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00037980233901180327
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.00004943117528455332
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00004648587855626829
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 3.068474256906484e-7
+                }
+              ]
+            },
+            {
+              "template": "This image shows {}.",
+              "durationMs": 259.2649000000001,
+              "ranking": [
+                {
+                  "label": "motorcycle riding trousers",
+                  "category": "trousers",
+                  "score": 0.002638626843690872
+                },
+                {
+                  "label": "ordinary clothing not designed for motorcycle riding",
+                  "category": "other",
+                  "score": 0.00237922347150743
+                },
+                {
+                  "label": "multiple different pieces of motorcycle gear",
+                  "category": "multiple",
+                  "score": 0.0010514199966564775
+                },
+                {
+                  "label": "a motorcycle riding jacket",
+                  "category": "motorcycle_jacket",
+                  "score": 0.0008156554540619254
+                },
+                {
+                  "label": "a motorcycle helmet",
+                  "category": "helmet",
+                  "score": 0.00015429274935740978
+                },
+                {
+                  "label": "motorcycle riding boots",
+                  "category": "boots",
+                  "score": 0.00004195208748569712
+                },
+                {
+                  "label": "motorcycle riding gloves",
+                  "category": "gloves",
+                  "score": 0.000040626877307659015
+                },
+                {
+                  "label": "an unrelated object or an empty scene",
+                  "category": "other",
+                  "score": 1.8459556372363295e-7
+                }
+              ]
+            }
+          ],
+          "durationMs": 559.1589999999997
+        }
+      ]
+    }
+  ],
+  "cacheFiles": [
+    {
+      "file": ".cache/models/google/siglip-base-patch16-224/7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed/tokenizer.json",
+      "bytes": 2399357,
+      "sha256": "c6e405cb7c670d56636a9402c81023a55bc6c3c53d89cf02b92f5c5005bfe920"
+    },
+    {
+      "file": ".cache/models/google/siglip-base-patch16-224/7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed/tokenizer_config.json",
+      "bytes": 711,
+      "sha256": "d6423dae508cc3a129d22ea443841c111832a1a73125b8f25ea8736951698bcb"
+    },
+    {
+      "file": ".cache/models/onnx-community/siglip-base-patch16-224-ONNX/9f0328bdd0eb4f62d0f6c10625f43d882b32102b/config.json",
+      "bytes": 918,
+      "sha256": "e97dd7d219a4689bbbe90ef767ce757cee99b99879d9d62010bdb1fa6620592a"
+    },
+    {
+      "file": ".cache/models/onnx-community/siglip-base-patch16-224-ONNX/9f0328bdd0eb4f62d0f6c10625f43d882b32102b/onnx/model_quantized.onnx",
+      "bytes": 210058412,
+      "sha256": "6f4f2d66dac783d6a72204961df627789fc559c98ab76f8ea36c4f6b1ba89058"
+    },
+    {
+      "file": ".cache/models/onnx-community/siglip-base-patch16-224-ONNX/9f0328bdd0eb4f62d0f6c10625f43d882b32102b/preprocessor_config.json",
+      "bytes": 394,
+      "sha256": "bec6ca696ddd6c2050ce0ea9fcb7581b052d267059a3341b6c1456cab54b1d07"
+    },
+    {
+      "file": ".cache/models/Xenova/clip-vit-base-patch32/d15189d7028b43f1d3e65039190477f6af591c2a/config.json",
+      "bytes": 4524,
+      "sha256": "493ef57ff783e42d1530c91b53469b7fdf8db8a9c1408e86998fcb7899a4f495"
+    },
+    {
+      "file": ".cache/models/Xenova/clip-vit-base-patch32/d15189d7028b43f1d3e65039190477f6af591c2a/onnx/model_quantized.onnx",
+      "bytes": 153695702,
+      "sha256": "0898a3facfdb27f0a041e57649b4989cfd094e4a0040d6ae75ed69917dfc7328"
+    },
+    {
+      "file": ".cache/models/Xenova/clip-vit-base-patch32/d15189d7028b43f1d3e65039190477f6af591c2a/preprocessor_config.json",
+      "bytes": 520,
+      "sha256": "6f638fb9401a6d6296feff533ee7efe657b787c49f954f82f5906b36ef2a1b1f"
+    },
+    {
+      "file": ".cache/models/Xenova/clip-vit-base-patch32/d15189d7028b43f1d3e65039190477f6af591c2a/tokenizer.json",
+      "bytes": 2224119,
+      "sha256": "f7f3b7af117d467b58374797691a6438d3e6b9e9cef800dfd5dced7f697a90cd"
+    },
+    {
+      "file": ".cache/models/Xenova/clip-vit-base-patch32/d15189d7028b43f1d3e65039190477f6af591c2a/tokenizer_config.json",
+      "bytes": 775,
+      "sha256": "60ba2912bc6344c94bc16bbdec27fa1209409167b6f2fdf3cfe9e65462ea3967"
+    }
+  ]
+}

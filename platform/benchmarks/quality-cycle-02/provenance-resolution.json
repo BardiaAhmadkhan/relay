@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-26T23:50:27.120Z",
+  "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+  "originalPath": "packages/vision/inspection.ts",
+  "snapshot": "experiments/quality-cycle-02/reconstructed-incomplete-cache-prototype.source.txt",
+  "sha256": "e84a4de7138f643c1365e0fe882b0d5ec4da9990a004a4b7541e0b85a878c8ab",
+  "method": "Reconstructed the intermediate source by removing the subsequently added completion-propagation line. The exact bytes match the SHA-256 recorded before that intermediate run.",
+  "status": "This intermediate prototype failed its HTTP-cache test and was superseded. The final cache-fixed protocol directly matches current source and selected-final snapshots."
+}

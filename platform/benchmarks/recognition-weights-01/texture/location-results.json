@@ -1,0 +1,3740 @@
+{
+  "protocolSha": "faa7cdc0c2ebb7f4503ce491c46086b5ca7920bee6e98d43b65b013f05fa4d82",
+  "summary": {
+    "archive": {
+      "n": 59,
+      "center": {
+        "covered": 57,
+        "pointing": 38
+      },
+      "coverage": {
+        "covered": 57,
+        "pointing": 38
+      },
+      "adaptive": {
+        "covered": 58,
+        "pointing": 39
+      },
+      "adaptiveOnly": 1,
+      "coverageOnly": 0,
+      "centerMisses": 2,
+      "medianComputeMs": 7.09
+    },
+    "archive/fd-capture-2024-02-10": {
+      "n": 20,
+      "center": {
+        "covered": 19,
+        "pointing": 19
+      },
+      "coverage": {
+        "covered": 19,
+        "pointing": 19
+      },
+      "adaptive": {
+        "covered": 20,
+        "pointing": 20
+      },
+      "adaptiveOnly": 1,
+      "coverageOnly": 0,
+      "centerMisses": 1,
+      "medianComputeMs": 7.706
+    },
+    "archive/fd-capture-2023-11-19": {
+      "n": 8,
+      "center": {
+        "covered": 8,
+        "pointing": 4
+      },
+      "coverage": {
+        "covered": 8,
+        "pointing": 4
+      },
+      "adaptive": {
+        "covered": 8,
+        "pointing": 4
+      },
+      "adaptiveOnly": 0,
+      "coverageOnly": 0,
+      "centerMisses": 0,
+      "medianComputeMs": 4.537
+    },
+    "archive/fd-capture-2024-02-11": {
+      "n": 31,
+      "center": {
+        "covered": 30,
+        "pointing": 15
+      },
+      "coverage": {
+        "covered": 30,
+        "pointing": 15
+      },
+      "adaptive": {
+        "covered": 30,
+        "pointing": 15
+      },
+      "adaptiveOnly": 0,
+      "coverageOnly": 0,
+      "centerMisses": 1,
+      "medianComputeMs": 7.126
+    },
+    "fresh_material": {
+      "n": 16,
+      "center": {
+        "covered": 15,
+        "pointing": 8
+      },
+      "coverage": {
+        "covered": 15,
+        "pointing": 8
+      },
+      "adaptive": {
+        "covered": 15,
+        "pointing": 8
+      },
+      "adaptiveOnly": 0,
+      "coverageOnly": 0,
+      "centerMisses": 1,
+      "medianComputeMs": 4.894
+    },
+    "fresh_material/fd-capture-2024-02-11": {
+      "n": 8,
+      "center": {
+        "covered": 8,
+        "pointing": 4
+      },
+      "coverage": {
+        "covered": 8,
+        "pointing": 4
+      },
+      "adaptive": {
+        "covered": 8,
+        "pointing": 4
+      },
+      "adaptiveOnly": 0,
+      "coverageOnly": 0,
+      "centerMisses": 0,
+      "medianComputeMs": 7.655
+    },
+    "fresh_material/fd-capture-2023-11-19": {
+      "n": 8,
+      "center": {
+        "covered": 7,
+        "pointing": 4
+      },
+      "coverage": {
+        "covered": 7,
+        "pointing": 4
+      },
+      "adaptive": {
+        "covered": 7,
+        "pointing": 4
+      },
+      "adaptiveOnly": 0,
+      "coverageOnly": 0,
+      "centerMisses": 1,
+      "medianComputeMs": 4.42
+    }
+  },
+  "rows": [
+    {
+      "id": "fabric-021",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 20.989,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-022",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 8.12,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-023",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 5.223,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-024",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 7.961,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-025",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 4.787,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-026",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 7.875,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-027",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 4.785,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-028",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 8.411,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-029",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 7.537,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-030",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 8.823,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-031",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 4.85,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-032",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 9.481,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-033",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 8.379,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-034",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 9.547,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-035",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 4.602,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-036",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 7.261,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-037",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 4.642,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-038",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 4.498,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-039",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 7.09,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-040",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-10",
+      "ms": 7.994,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-041",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.364,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-042",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 5.634,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-043",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 5.864,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-044",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.627,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-045",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.807,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-046",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.491,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-047",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.275,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-048",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 4.647,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-049",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.59,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-050",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.679,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-051",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.094,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-052",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.604,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-053",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.301,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-054",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.545,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-055",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.714,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-056",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.197,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-057",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.53,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-058",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.436,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-059",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.408,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-060",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.51,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-061",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 5.537,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-062",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.002,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-063",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.499,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-064",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.855,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-065",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.219,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-066",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 9.738,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-067",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.397,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-068",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.021,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-069",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.925,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-070",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.326,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-071",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 5.989,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-072",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.961,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-073",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.44,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-074",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 5.105,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-075",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.557,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fabric-076",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 9.096,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-077",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.126,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-078",
+      "cohort": "archive",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.471,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fabric-080",
+      "cohort": "archive",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.943,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-976d3fb849a3",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.289,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-fa2bf18f8bea",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.272,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": false,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": false,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-1b211de83095",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 6.874,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-6571de7a6602",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.046,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-29ca88693cf1",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.252,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.5
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-7b38685e7fcf",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 4.427,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.3333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-2135a8a597e7",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.514,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-04b279988ecf",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 12.523,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-b8addd8892ad",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.083,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-b3f72b5dde83",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.8,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-9917fae59eb2",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.988,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.3333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-463b8a0a981c",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.435,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-edf94cb1d41f",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.406,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.8333333333333333
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "fd-2023-11-19-90a07d9c87d1",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2023-11-19",
+      "ms": 4.264,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-05eeb371fb64",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 7.29,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": false
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": false
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "fd-2024-02-11-2ad1a5ea8986",
+      "cohort": "fresh_material",
+      "group": "fd-capture-2024-02-11",
+      "ms": 8.019,
+      "selected": {
+        "center": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "coverage": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.6666666666666666,
+            0.8333333333333333
+          ]
+        ],
+        "adaptive": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.8333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      },
+      "metrics": {
+        "center": {
+          "covered": true,
+          "pointing": true
+        },
+        "coverage": {
+          "covered": true,
+          "pointing": true
+        },
+        "adaptive": {
+          "covered": true,
+          "pointing": true
+        }
+      }
+    }
+  ]
+}

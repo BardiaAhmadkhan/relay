@@ -1,0 +1,19 @@
+{
+  "model": "stock qwen3.5:4b",
+  "question": "broken",
+  "singleSerialWarmRunner": {
+    "whole": {
+      "observations": 128,
+      "medianWarmQuestionMs": 828.042549999991,
+      "p95WarmQuestionMs": 919.7765849999763,
+      "medianInputTokens": 1578.0
+    },
+    "region": {
+      "observations": 128,
+      "medianWarmQuestionMs": 240.04600000000937,
+      "p95WarmQuestionMs": 266.3557749999876,
+      "medianInputTokens": 434.0
+    }
+  },
+  "scope": "Local measured scorer time per question. Does not include phone transport, model startup, photo decoding or a complete assessment."
+}

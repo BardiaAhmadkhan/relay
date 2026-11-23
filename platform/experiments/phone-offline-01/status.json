@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-26T20:47:14.286Z",
+  "status": "paused-at-user-request",
+  "completed": "Downloaded encoder candidates; recorded local fixed-head probes; downloaded independent dataset and extracted it. No trained damage head, native integration or replacement APK.",
+  "activeAppChanged": false,
+  "reason": "User asked to leave phone work for now and focus on quality, then requested a larger labelled-image failure audit."
+}

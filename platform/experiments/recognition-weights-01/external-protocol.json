@@ -1,0 +1,37 @@
+{
+  "version": "recognition-03.external.v1",
+  "studyType": "external",
+  "date": "2026-11-18 America/Vancouver",
+  "principle": "Freeze the existing R2 semantic, unrelated-control and stock weights, prompts and magnitude. No weight/cutoff/lexicon changes from any external annotation or outcome. Only the two prespecified physical-observation questions are asked per image. Public images stay on this computer; original photography and names are not redistributed.",
+  "arms": {
+    "base": 1,
+    "semantic": 1.5,
+    "control": 1.5
+  },
+  "parameters": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "maxParameters": 4000000000,
+  "maxLearnedBytes": 3324162336,
+  "salt": "relay-external-circular-garment-01",
+  "wargon": {
+    "owner": "WargÃ¶n Innovation / CISUTAC",
+    "license": "CC BY 4.0",
+    "holesRev": "3b81cb807188690222ef2a6af9cbfd2271292a32",
+    "spotsRev": "3483dfb0336564b626e811437e802bf56a2dca68",
+    "sampling": "Validation members only. Group seed/hash-ordered image variants by original timestamp+item ID, exclude any ID shared by archives and the two IDs whose metadata was inspected (20260224_083835_396d6123, 20260216_134522_1e5653f3). Prioritize shared date strata then round-robin dates, at most 12 distinct items per annotated class. Choose a variant and largest nonempty publisher box deterministically, counting empty files and skips. Evaluate original whole frame and a square centered on that box, 3x longest side or 64 pixels minimum, clamped inside capture then rendered at 512 px. Never draw the label onto the pixels. Primary evaluates the annotated mark; same image may contain other damage outside it. Whole-frame set membership is not a no-hole label.",
+    "primary": "Paired comparison of p(breach)-p(continuous) ranking hole patches above spot patches, with discordant ordering, candidate-versus-sham delta and shared-date-only sensitivity. Evaluate same items in whole views separately. Declared/sampled mark regions are oracle locations, not automatic localization."
+  },
+  "rise": {
+    "record": "13788681",
+    "doi": "10.5281/zenodo.13788681",
+    "license": "CC BY 4.0",
+    "provider": "Farrukh Nauman, RISE / WargÃ¶n Innovation AB and Myrorna AB",
+    "sampling": "Use only test100 garments whose explicit Test number is recoverable; exclude IDs 80,92,94 examined for schema. Require two or more agreeing explicit hole assessments with distinct recorded assessor IDs or across the two institutions, no contrary explicit hole assessment. For the negative cohort require no holes and preferably a positive stain assessment. Cap 10 positive garments and the same number of negative garments, salt order. Select a record with front/back available. Keep both views together, pool max per-item margin, never call an unseen side negative. If the gold set supports very few cases, report the actual denominator, do not silently relax consensus."
+  },
+  "gates": "External observational test only. Report complete as well as missing items, sizes of visible marks, source/collection differences and garment item grouping. An aggregate improvement alone cannot authorize commercial or safety claims. Do not release the semantic weights if the matched control is equally good, deterioration occurs on an independent group, or evidence is insufficient.",
+  "questionBreach": "Consider the material itself on the main item. Can you see a physical opening, split edge, separated seam, or missing material exposing the layer underneath? Ordinary surface marks, pigment and intact weave do not constitute an opening.",
+  "questionContinuous": "At the most conspicuous mark on the material itself, can you actually see the surface continuing across it without a gap or exposed layer underneath? Answer yes only when continuity is visible. An obscured or unidentifiable mark is insufficient.",
+  "referenceDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a"
+}

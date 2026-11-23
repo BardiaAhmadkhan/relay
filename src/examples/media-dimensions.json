@@ -1,0 +1,122 @@
+{
+  "meridian-label": {
+    "box": [0.24879614767255218, 0.24879614767255218, 0.7608346709470305, 0.7415730337078652],
+    "crop": "meridian-label-crop",
+    "width": 623,
+    "height": 623
+  },
+  "meridian-shoulder": {
+    "box": [0.1492776886035313, 0.15890850722311398, 0.8314606741573034, 0.7415730337078652],
+    "crop": "meridian-shoulder-crop",
+    "width": 623,
+    "height": 623
+  },
+  "fieldway-label": {
+    "box": [0.31942215088282505, 0.31942215088282505, 0.7207062600321027, 0.7207062600321027],
+    "crop": "fieldway-label-crop",
+    "width": 623,
+    "height": 623
+  },
+  "selvedge-label": {
+    "box": [0.2985553772070626, 0.27929373996789725, 0.7110754414125201, 0.7014446227929374],
+    "crop": "selvedge-label-crop",
+    "width": 623,
+    "height": 623
+  },
+  "fieldway-back": {
+    "width": 623,
+    "height": 623
+  },
+  "fieldway-card": {
+    "width": 681,
+    "height": 358
+  },
+  "fieldway-inside": {
+    "width": 623,
+    "height": 623
+  },
+  "fieldway-label-crop": {
+    "width": 250,
+    "height": 250
+  },
+  "fieldway-seam": {
+    "width": 623,
+    "height": 623
+  },
+  "fieldway": {
+    "width": 508,
+    "height": 508
+  },
+  "meridian-back": {
+    "width": 623,
+    "height": 623
+  },
+  "meridian-card": {
+    "width": 681,
+    "height": 375
+  },
+  "meridian-inside": {
+    "width": 623,
+    "height": 623
+  },
+  "meridian-label-crop": {
+    "width": 319,
+    "height": 307
+  },
+  "meridian-shoulder-crop": {
+    "width": 425,
+    "height": 363
+  },
+  "meridian": {
+    "width": 508,
+    "height": 508
+  },
+  "monza-card": {
+    "width": 681,
+    "height": 394
+  },
+  "monza": {
+    "width": 508,
+    "height": 508
+  },
+  "selvedge-back": {
+    "width": 623,
+    "height": 623
+  },
+  "selvedge-card": {
+    "width": 681,
+    "height": 394
+  },
+  "selvedge-inside": {
+    "width": 623,
+    "height": 623
+  },
+  "selvedge-label-crop": {
+    "width": 257,
+    "height": 263
+  },
+  "selvedge-seam": {
+    "width": 623,
+    "height": 623
+  },
+  "selvedge": {
+    "width": 508,
+    "height": 508
+  },
+  "switchback-card": {
+    "width": 681,
+    "height": 375
+  },
+  "switchback": {
+    "width": 508,
+    "height": 508
+  },
+  "vector-card": {
+    "width": 681,
+    "height": 358
+  },
+  "vector": {
+    "width": 508,
+    "height": 508
+  }
+}

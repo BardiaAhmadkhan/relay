@@ -1,0 +1,79 @@
+import type { z } from 'zod';
+import type { PhotoInspectionSchema } from '../core/schema';
+
+export const EVIDENCE_CONTRACT_VERSION = 'evidence-claims-1';
+type Photo = z.infer<typeof PhotoInspectionSchema>;
+const defectWord =
+  /\b(?:damage|defects?|abrasion|tears?|torn|cuts?|holes?|scrapes?|scuff(?:s|ing|ed)?|fraying|frayed|exposed|broken|missing|severed)\b/i;
+const negativeWords = new Set(
+  'no without visible apparent obvious clear signs sign evidence of surface material structural damage defect defects abrasion abrasions tear tears cut cuts hole holes scrape scrapes scuff scuffs scuffing fraying exposed fiber fibers fibre fibres broken stitching stitches threads or and any on at in the a an panel panels seam seams area areas sleeve sleeves back chest forearm arm arms shoulder shoulders elbow elbows cuff cuffs hem collar fabric textile leather material materials lining garment item'.split(
+    ' ',
+  ),
+);
+
+/** Reject only a wholly negated defect statement in this limited grammar.
+ * This is a text-consistency check, not a classifier of the photograph.
+ * Mixed, unfamiliar, double-negative and qualified statements remain untouched.
+ */
+export function isWhollyNegativeEvidence(evidence: string): boolean {
+  const value = evidence.normalize('NFKC').trim();
+  if (
+    /[;!?]/.test(value) ||
+    /\b(?:but|however|except|although|though|yet|while|not|cannot|can't)\b/i.test(value)
+  )
+    return false;
+  const match = /^(.*?)\b(no|without)\s+(.+?)[.]?$/i.exec(value);
+  if (!match) return false;
+  const [, prefix = '', negative = '', remainder = ''] = match;
+  if (defectWord.test(prefix)) return false;
+  if (
+    negative.toLowerCase() !== 'without' &&
+    prefix.trim() &&
+    !/\b(?:shows?|has|have|displays?|is|are|with)\s*$/i.test(prefix)
+  )
+    return false;
+  if (!defectWord.test(remainder)) return false;
+  const words = (negative + ' ' + remainder)
+    .toLowerCase()
+    .split(/[\s,./-]+/)
+    .filter(Boolean);
+  return words.length > 0 && words.every((word) => negativeWords.has(word));
+}
+
+export function removeNegativeEvidence(photo: Photo): Photo {
+  const findings = photo.findings.filter((finding) => !isWhollyNegativeEvidence(finding.evidence));
+  if (findings.length === photo.findings.length) return photo;
+  return {
+    ...photo,
+    findings,
+    crashPattern: findings.length ? photo.crashPattern : 'not_observed',
+  };
+}
+
+// Cosmetic-only descriptions do not assert a structural defect.
+// Unknown marks and possible physical cues stay intact.
+const cosmetic =
+  /\b(?:stains?|stained|discolou?r(?:ation|ed)|faded|fading|creases?|creasing|wrinkl(?:es?|ing))\b/i;
+const physical =
+  /\b(?:damage\w*|defect\w*|fail\w*|fractur\w*|blister\w*|burn\w*|singe\w*|scorch\w*|brittle|warp\w*|pull\w*|stretch\w*|abrasion|abraded|scrap(?:e[ds]?|ing)|scratch(?:e[ds]|es|ing)?|scuff\w*|tear(?:s|ing)?|torn|rip(?:ped|s|ping)?|holes?|puncture\w*|perforat\w*|cuts?|split\w*|fray\w*|break\w*|broken|sever\w*|ruptur\w*|disrupt\w*|separat\w*|detach\w*|delaminat\w*|peel\w*|crack\w*|missing|loss|lost|expos\w*|underl\w*|backing|fib(?:er|re)\w*|threads?|stitch\w*|rough\w*|gap\w*|repair\w*|mend\w*|patch\w*|wear|worn|thin\w*|pucker\w*|matt\w*|deform\w*|dent\w*|fuzz\w*|raised|protrud\w*)\b/i;
+export function isOnlyCosmeticDescription(f: Photo['findings'][number]): boolean {
+  return (
+    f.kind === 'other' &&
+    cosmetic.test(f.evidence) &&
+    !physical.test(f.evidence) &&
+    !/\b(?:no|not|without|except|but|however|although|rather|instead|cannot)\b|[;!?]/i.test(
+      f.evidence,
+    )
+  );
+}
+export function normalizeEvidenceClaims(photo: Photo): Photo {
+  const current = removeNegativeEvidence(photo);
+  const findings = current.findings.filter((f) => !isOnlyCosmeticDescription(f));
+  return findings.length === current.findings.length
+    ? current
+    : {
+        ...current,
+        findings,
+        crashPattern: findings.length ? current.crashPattern : 'not_observed',
+      };
+}

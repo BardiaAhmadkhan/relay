@@ -1,0 +1,7 @@
+questions per photograph (model calls for the local scorer), 223 labelled photographs
+view / label           photographs   v2 service   v3 plan   saved
+detail / clean                 110         9.28      5.85    37.0%
+detail / damaged               113         9.53      5.05    47.0%
+front / clean                  110         9.28      7.85    15.5%
+front / damaged                113         9.53      6.99    26.6%
+label photographs: v2 asks 3 questions, the plan 2 (33.3% saved).

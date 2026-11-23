@@ -1,0 +1,20 @@
+{
+  "version": "0.13.0-rc.8",
+  "records": [
+    {
+      "file": "node_modules/llama.rn/android/src/main/java/com/rnllama/RNLlama.java",
+      "beforeSha256": "9c72aba4b21865f440751873f80eb621e38b38da0b12c0baebb5d4f4dd0444f7",
+      "sha256": "6955cf59e51ea8efad3bfddee794729bb4abcab9fb7d385ec9e5b29c5c89ee40"
+    },
+    {
+      "file": "node_modules/llama.rn/android/src/main/java/com/rnllama/RNLlama.java",
+      "beforeSha256": "6955cf59e51ea8efad3bfddee794729bb4abcab9fb7d385ec9e5b29c5c89ee40",
+      "sha256": "1b108eec4ed68fda88f7c8a6f54503fb9c563095718461049288ce9fcce43799"
+    },
+    {
+      "file": "node_modules/llama.rn/cpp/rn-llama.cpp",
+      "beforeSha256": "79870d5aa6b7654ddbff9cf8fc04f781ee016a7610020d789f35d6f27d7b8fef",
+      "sha256": "a2796d63026036608225e96bd80d892d504b67675959abdcdc442bf833fbbacb"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "viewport": {
+    "width": 320,
+    "height": 568
+  },
+  "fallback": {
+    "x": 24,
+    "y": 496,
+    "width": 272,
+    "height": 48
+  },
+  "animations": []
+}

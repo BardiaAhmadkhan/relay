@@ -1,0 +1,706 @@
+{
+  "conditionBandDiagnosticOnly": true,
+  "arms": {
+    "base": {
+      "naturalN": 33,
+      "posGroups": 5,
+      "negGroups": 18,
+      "naturalBands": {
+        "positive": {
+          "block": 11
+        },
+        "negative": {
+          "block": 5,
+          "clear": 16,
+          "review": 1
+        }
+      },
+      "macroAuc": 0.958333,
+      "imageAuc": 0.958678,
+      "withoutE14Groups": {
+        "n": 19,
+        "positive": 3,
+        "macroAuc": 0.944444,
+        "bands": {
+          "positive": {
+            "block": 3
+          },
+          "negative": {
+            "clear": 11,
+            "block": 4,
+            "review": 1
+          }
+        }
+      },
+      "needleBands": {
+        "positive": {
+          "block": 2,
+          "review": 4,
+          "clear": 2
+        },
+        "negative": {
+          "clear": 8
+        }
+      },
+      "fabricBands": {
+        "positive": {},
+        "negative": {}
+      },
+      "fabricAuc": null,
+      "categoryCorrect": 21,
+      "categoryN": 25,
+      "categoryRows": [
+        [
+          "ov-065",
+          true
+        ],
+        [
+          "ox-140",
+          true
+        ],
+        [
+          "cm-025",
+          true
+        ],
+        [
+          "ox-080",
+          true
+        ],
+        [
+          "cm-080",
+          true
+        ],
+        [
+          "cm-064",
+          true
+        ],
+        [
+          "ox-021",
+          true
+        ],
+        [
+          "ov-060",
+          true
+        ],
+        [
+          "cm-528",
+          true
+        ],
+        [
+          "cm-082",
+          true
+        ],
+        [
+          "cm-529",
+          true
+        ],
+        [
+          "cm-147",
+          false
+        ],
+        [
+          "cm-069",
+          true
+        ],
+        [
+          "cm-034",
+          true
+        ],
+        [
+          "ox-024",
+          true
+        ],
+        [
+          "ov-048",
+          true
+        ],
+        [
+          "cm-245",
+          true
+        ],
+        [
+          "cm-031",
+          false
+        ],
+        [
+          "ox-093",
+          false
+        ],
+        [
+          "cm-008",
+          false
+        ],
+        [
+          "ox-018",
+          true
+        ],
+        [
+          "ox-011",
+          true
+        ],
+        [
+          "ov-063",
+          true
+        ],
+        [
+          "cm-057",
+          true
+        ],
+        [
+          "ox-089",
+          true
+        ]
+      ],
+      "anyQuestionFailure": [],
+      "commonQuestionMedianMs": 477.59,
+      "postAudit": {
+        "n": 32,
+        "macroAuc": 0.97549,
+        "bands": {
+          "positive": {
+            "block": 12
+          },
+          "negative": {
+            "block": 3,
+            "clear": 16,
+            "review": 1
+          }
+        }
+      }
+    },
+    "boost": {
+      "naturalN": 33,
+      "posGroups": 5,
+      "negGroups": 18,
+      "naturalBands": {
+        "positive": {
+          "block": 11
+        },
+        "negative": {
+          "block": 5,
+          "clear": 14,
+          "review": 3
+        }
+      },
+      "macroAuc": 0.961111,
+      "imageAuc": 0.96281,
+      "withoutE14Groups": {
+        "n": 19,
+        "positive": 3,
+        "macroAuc": 0.944444,
+        "bands": {
+          "positive": {
+            "block": 3
+          },
+          "negative": {
+            "clear": 9,
+            "review": 3,
+            "block": 4
+          }
+        }
+      },
+      "needleBands": {
+        "positive": {
+          "block": 2,
+          "review": 4,
+          "clear": 2
+        },
+        "negative": {
+          "clear": 8
+        }
+      },
+      "fabricBands": {
+        "positive": {},
+        "negative": {}
+      },
+      "fabricAuc": null,
+      "categoryCorrect": 21,
+      "categoryN": 25,
+      "categoryRows": [
+        [
+          "ov-065",
+          true
+        ],
+        [
+          "ox-140",
+          true
+        ],
+        [
+          "cm-025",
+          true
+        ],
+        [
+          "ox-080",
+          true
+        ],
+        [
+          "cm-080",
+          true
+        ],
+        [
+          "cm-064",
+          true
+        ],
+        [
+          "ox-021",
+          true
+        ],
+        [
+          "ov-060",
+          true
+        ],
+        [
+          "cm-528",
+          true
+        ],
+        [
+          "cm-082",
+          true
+        ],
+        [
+          "cm-529",
+          true
+        ],
+        [
+          "cm-147",
+          false
+        ],
+        [
+          "cm-069",
+          true
+        ],
+        [
+          "cm-034",
+          true
+        ],
+        [
+          "ox-024",
+          true
+        ],
+        [
+          "ov-048",
+          true
+        ],
+        [
+          "cm-245",
+          true
+        ],
+        [
+          "cm-031",
+          false
+        ],
+        [
+          "ox-093",
+          false
+        ],
+        [
+          "cm-008",
+          false
+        ],
+        [
+          "ox-018",
+          true
+        ],
+        [
+          "ox-011",
+          true
+        ],
+        [
+          "ov-063",
+          true
+        ],
+        [
+          "cm-057",
+          true
+        ],
+        [
+          "ox-089",
+          true
+        ]
+      ],
+      "anyQuestionFailure": [],
+      "commonQuestionMedianMs": 485.42,
+      "postAudit": {
+        "n": 32,
+        "macroAuc": 0.970588,
+        "bands": {
+          "positive": {
+            "block": 12
+          },
+          "negative": {
+            "block": 3,
+            "clear": 14,
+            "review": 3
+          }
+        }
+      }
+    },
+    "attenuate": {
+      "naturalN": 33,
+      "posGroups": 5,
+      "negGroups": 18,
+      "naturalBands": {
+        "positive": {
+          "block": 11
+        },
+        "negative": {
+          "block": 5,
+          "clear": 15,
+          "review": 2
+        }
+      },
+      "macroAuc": 0.957407,
+      "imageAuc": 0.954545,
+      "withoutE14Groups": {
+        "n": 19,
+        "positive": 3,
+        "macroAuc": 0.944444,
+        "bands": {
+          "positive": {
+            "block": 3
+          },
+          "negative": {
+            "clear": 11,
+            "block": 4,
+            "review": 1
+          }
+        }
+      },
+      "needleBands": {
+        "positive": {
+          "block": 2,
+          "review": 4,
+          "clear": 2
+        },
+        "negative": {
+          "clear": 8
+        }
+      },
+      "fabricBands": {
+        "positive": {},
+        "negative": {}
+      },
+      "fabricAuc": null,
+      "categoryCorrect": 21,
+      "categoryN": 25,
+      "categoryRows": [
+        [
+          "ov-065",
+          true
+        ],
+        [
+          "ox-140",
+          true
+        ],
+        [
+          "cm-025",
+          true
+        ],
+        [
+          "ox-080",
+          true
+        ],
+        [
+          "cm-080",
+          true
+        ],
+        [
+          "cm-064",
+          true
+        ],
+        [
+          "ox-021",
+          true
+        ],
+        [
+          "ov-060",
+          true
+        ],
+        [
+          "cm-528",
+          true
+        ],
+        [
+          "cm-082",
+          true
+        ],
+        [
+          "cm-529",
+          true
+        ],
+        [
+          "cm-147",
+          false
+        ],
+        [
+          "cm-069",
+          true
+        ],
+        [
+          "cm-034",
+          true
+        ],
+        [
+          "ox-024",
+          true
+        ],
+        [
+          "ov-048",
+          true
+        ],
+        [
+          "cm-245",
+          true
+        ],
+        [
+          "cm-031",
+          false
+        ],
+        [
+          "ox-093",
+          false
+        ],
+        [
+          "cm-008",
+          false
+        ],
+        [
+          "ox-018",
+          true
+        ],
+        [
+          "ox-011",
+          true
+        ],
+        [
+          "ov-063",
+          true
+        ],
+        [
+          "cm-057",
+          true
+        ],
+        [
+          "ox-089",
+          true
+        ]
+      ],
+      "anyQuestionFailure": [],
+      "commonQuestionMedianMs": 479.28,
+      "postAudit": {
+        "n": 32,
+        "macroAuc": 0.97549,
+        "bands": {
+          "positive": {
+            "block": 12
+          },
+          "negative": {
+            "block": 3,
+            "clear": 15,
+            "review": 2
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "boost": {
+      "macroAucDelta": 0.002778,
+      "groupBootstrap95": [
+        0.0,
+        0.014706
+      ],
+      "bootstrapValid": 1498,
+      "naturalBandChanges": [
+        {
+          "id": "cm-080",
+          "cohort": "other_clean",
+          "from": "clear",
+          "to": "review",
+          "group": "cm-marcio-kamikaze"
+        },
+        {
+          "id": "cm-245",
+          "cohort": "other_clean",
+          "from": "clear",
+          "to": "review",
+          "group": "cm-willem-de-jongh"
+        }
+      ],
+      "needleBandChanges": [],
+      "newlyClearedPositives": [],
+      "newCleanBlocks": [],
+      "lostCorrectCategory": [],
+      "gainedCorrectCategory": []
+    },
+    "attenuate": {
+      "macroAucDelta": -0.000926,
+      "groupBootstrap95": [
+        -0.004902,
+        0.0
+      ],
+      "bootstrapValid": 1498,
+      "naturalBandChanges": [
+        {
+          "id": "ov-048",
+          "cohort": "other_clean",
+          "from": "clear",
+          "to": "review",
+          "group": "ov-paulgarland"
+        }
+      ],
+      "needleBandChanges": [],
+      "newlyClearedPositives": [],
+      "newCleanBlocks": [],
+      "lostCorrectCategory": [],
+      "gainedCorrectCategory": []
+    }
+  },
+  "sourceGroups": {
+    "cm-296": "cm-box-repsol",
+    "needle-4x4-fabric-066": "needle-fabric-066",
+    "cm-464": "cm-u-s-navy-photo-by-senior-chief-mass-comm",
+    "cm-021": "cm-piero-at-dutch-wikipedia",
+    "ov-065": "ov-kathygill",
+    "ox-140": "ov-mjulianamerican19752000",
+    "needle-4x4-clean-03": "needle-4x4-clean-03",
+    "needle-4x4-clean-17": "needle-4x4-clean-17",
+    "needle-4x4-fabric-063": "needle-fabric-063",
+    "cm-025": "cm-a7n8x",
+    "ox-080": "ov-andan",
+    "cm-080": "cm-marcio-kamikaze",
+    "cm-064": "cm-imageneshv",
+    "ov-014": "ov-ericlawrence",
+    "ox-021": "ov-vgroiwwo96",
+    "needle-4x4-fabric-050": "needle-fabric-050",
+    "ov-060": "ov-erichazann",
+    "needle-4x4-clean-16": "needle-4x4-clean-16",
+    "needle-4x4-fabric-077": "needle-fabric-077",
+    "needle-4x4-clean-08": "needle-4x4-clean-08",
+    "needle-4x4-fabric-069": "needle-fabric-069",
+    "cm-528": "cm-peprovira",
+    "needle-4x4-fabric-045": "needle-fabric-045",
+    "needle-4x4-fabric-067": "needle-fabric-067",
+    "needle-4x4-clean-05": "needle-4x4-clean-05",
+    "cm-082": "cm-vignesh3597",
+    "cm-529": "cm-peprovira",
+    "cm-147": "cm-piero-at-dutch-wikipedia",
+    "cm-069": "cm-peprovira",
+    "cm-034": "cm-hecltotrmel2020",
+    "needle-4x4-fabric-047": "needle-fabric-047",
+    "ox-024": "ov-vgroiwwo96",
+    "ov-048": "ov-paulgarland",
+    "cm-245": "cm-willem-de-jongh",
+    "cm-031": "cm-tomasdeharbe",
+    "ov-039": "ov-dougkline",
+    "cm-091": "cm-uqbar-is-back-on-flickr",
+    "needle-4x4-clean-06": "needle-4x4-clean-06",
+    "ox-093": "ov-engnrchik",
+    "cm-320": "cm-peprovira",
+    "ox-023": "ov-vgroiwwo96",
+    "cm-084": "cm-a7n8x",
+    "cm-008": "cm-thermos",
+    "ox-018": "ov-vgroiwwo96",
+    "needle-4x4-clean-18": "needle-4x4-clean-18",
+    "ov-003": "ov-ericlawrence",
+    "ov-052": "ov-badgergravling",
+    "ox-078": "ov-rocbolt",
+    "ov-043": "ov-antiquecycles",
+    "needle-4x4-clean-07": "needle-4x4-clean-07",
+    "ov-005": "ov-timfreund",
+    "ov-008": "ov-timfreund",
+    "ox-011": "ov-ericlawrence",
+    "ox-013": "ov-toastal",
+    "ov-007": "ov-timfreund",
+    "ov-063": "ov-geekybiker",
+    "ov-006": "ov-timfreund",
+    "cm-057": "cm-gunnery-sgt-bill-lisbon",
+    "ox-089": "ov-timfreund",
+    "ov-002": "ov-ericlawrence"
+  },
+  "stockVerifier": {
+    "bothOrdersAvailable": 39,
+    "matchingTopChoice": 24,
+    "eligibleRoadOnlyCases": [
+      "cm-528",
+      "ov-052"
+    ],
+    "proposedBlockToReview": []
+  },
+  "stockRepeats": [
+    {
+      "id": "ov-065",
+      "maxProbabilityDelta": 0.0
+    },
+    {
+      "id": "ox-140",
+      "maxProbabilityDelta": 0.0
+    },
+    {
+      "id": "cm-025",
+      "maxProbabilityDelta": 0.0
+    },
+    {
+      "id": "ox-080",
+      "maxProbabilityDelta": 0.0
+    },
+    {
+      "id": "cm-080",
+      "maxProbabilityDelta": 0.0
+    },
+    {
+      "id": "cm-064",
+      "maxProbabilityDelta": 0.0
+    }
+  ],
+  "historical4bOnSamePhotos": {
+    "n": 33,
+    "definition": "Recorded v3.1 age-matched roles, including its detail cascade; separate from controlled fixed-resolution A/B.",
+    "bands": {
+      "positive": {
+        "block": 10,
+        "review": 1
+      },
+      "negative": {
+        "review": 6,
+        "clear": 14,
+        "block": 2
+      }
+    }
+  },
+  "startAndStops": [
+    {
+      "event": "stop",
+      "at": "2026-11-19T03:31:43.014Z",
+      "health": {
+        "peakTemp": 52,
+        "peakVramMiB": 82,
+        "minFreeRamMiB": 7448,
+        "peakPowerW": 10.56,
+        "samples": 17
+      },
+      "failure": "Study tags/digests differ: []"
+    },
+    {
+      "event": "start",
+      "at": "2026-11-19T03:33:06.721Z",
+      "version": "0.40.16",
+      "specSha": "afd0660fc6ab0edb80c72e40ebfff63d6ae39905f86386ab62e93664a89518e9",
+      "blockSize": 15
+    },
+    {
+      "event": "stop",
+      "at": "2026-11-19T03:47:27.756Z",
+      "health": {
+        "peakTemp": 84,
+        "peakVramMiB": 3300,
+        "minFreeRamMiB": 6484,
+        "peakPowerW": 115.44,
+        "samples": 954
+      },
+      "failure": null
+    }
+  ],
+  "rawRowsIncludingAttempts": 186,
+  "retainedRows": 186
+}

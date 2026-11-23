@@ -1,0 +1,20 @@
+{
+  "startedAt": "2026-10-26T21:04:55.036Z",
+  "health": {
+    "status": "ok",
+    "schemaVersion": "1.0",
+    "policyVersion": "2026-10-26.2",
+    "provider": "local_vlm",
+    "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+    "externalProvider": false,
+    "processing": "ephemeral",
+    "coverage": "visual_observations",
+    "maxImages": 6
+  },
+  "datasetSha256": "e7bcabdc1e5dc57aebfb1e00ecfe4a8be181fea3e87bbcb2b4e535e038b7004e",
+  "runnerSha256": "427fb9096a5f5ff33b6d5c79738b52328eedd1882c7c4b55ccd89ae8a8579aa9",
+  "warmup": true,
+  "scope": "Unchanged HTTP preprocessing/model/policy. One source image per assessment, no labels/source titles passed to inference. All request attempts retained. Retry only the same image after a transport disconnect or busy response, respecting Retry-After, until a result or 75s deadline. Report first-request failures separately from eventual visual outputs. Never substitute retries for first-attempt reliability.",
+  "earlierDiagnostic": "cold-start-interruption.json",
+  "order": "Same deterministic hashed interleave as original attempted run"
+}

@@ -1,0 +1,56 @@
+{
+  "sourceSha256": "d02abb575e9d053257f6d9839ce9ad0bc8de5d18e69623411a5aa7730e6f1ea5",
+  "candidateSha256": "215c7f91bad5e0f52b26f1f814b12637a57ad5c6fbcf162bc36afb83a42782a9",
+  "bytes": 41455540,
+  "initializerElementsIncludingConstants": 20045479,
+  "otherTensorsVerified": 241,
+  "eligibleScalars": 771,
+  "valuesActuallyChanged": 771,
+  "edits": [
+    {
+      "tensor": "model.23.cv3.0.2.weight",
+      "row": 0,
+      "sourceRow": 1,
+      "fileOffset": 28184528,
+      "editedScalars": 256
+    },
+    {
+      "tensor": "model.23.cv3.0.2.bias",
+      "row": 0,
+      "sourceRow": 1,
+      "fileOffset": 28194799,
+      "editedScalars": 1
+    },
+    {
+      "tensor": "model.23.cv3.1.2.weight",
+      "row": 0,
+      "sourceRow": 1,
+      "fileOffset": 37278626,
+      "editedScalars": 256
+    },
+    {
+      "tensor": "model.23.cv3.1.2.bias",
+      "row": 0,
+      "sourceRow": 1,
+      "fileOffset": 37288897,
+      "editedScalars": 1
+    },
+    {
+      "tensor": "model.23.cv3.2.2.weight",
+      "row": 0,
+      "sourceRow": 1,
+      "fileOffset": 40176325,
+      "editedScalars": 256
+    },
+    {
+      "tensor": "model.23.cv3.2.2.bias",
+      "row": 0,
+      "sourceRow": 1,
+      "fileOffset": 40186596,
+      "editedScalars": 1
+    }
+  ],
+  "fileByteDifferences": 1504,
+  "licenseInMetadata": "AGPL-3.0 License (https://ultralytics.com/license)",
+  "modelDescription": "Ultralytics YOLO11m model trained on D:\\data-19-7\\F\\fabric-defect-detection\\data\\processed\\tiled1000\\data.yaml"
+}

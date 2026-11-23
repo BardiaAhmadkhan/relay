@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-26T21:23:44.151Z",
+  "reviewer": "Assistant reference/output correspondence review; not expert adjudication.",
+  "rows": [
+    {
+      "id": "commons-037",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one finding identifies the visible reference tear, opening, fraying or scraped surface."
+    },
+    {
+      "id": "commons-089",
+      "correspondence": "matched",
+      "locationError": true,
+      "unsupportedExtra": true,
+      "note": "The large knee rips are correctly described. A hemline is not established by the crop, and the added jacket-elbow abrasion claim is not clearly supported."
+    },
+    {
+      "id": "fabric-022",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one finding identifies the visible reference tear, opening, fraying or scraped surface."
+    },
+    {
+      "id": "fabric-036",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "Frayed and torn material is described, but the print junction is called a seam and raw textile fibers are called an inner lining. Structured kind is incorrect."
+    },
+    {
+      "id": "fabric-038",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one finding identifies the visible reference tear, opening, fraying or scraped surface."
+    },
+    {
+      "id": "fabric-040",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one finding identifies the visible reference tear, opening, fraying or scraped surface."
+    },
+    {
+      "id": "fabric-043",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one finding identifies the visible reference tear, opening, fraying or scraped surface."
+    },
+    {
+      "id": "fabric-067",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "The correct small region is noticed only as a dark spot; the disrupted weave/fraying is not identified."
+    },
+    {
+      "id": "leather-003",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one finding identifies the visible reference tear, opening, fraying or scraped surface."
+    }
+  ]
+}

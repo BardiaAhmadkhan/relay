@@ -1,0 +1,8 @@
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"inline","step":0,"question":"break","promptTokens":1210,"promptMs":585,"loadMs":11,"totalMs":713,"yes":1,"answer":"yes"}
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"inline","step":1,"question":"slide","promptTokens":1198,"promptMs":35,"loadMs":11,"totalMs":109,"yes":0.98808,"answer":"yes"}
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"inline","step":2,"question":"repair","promptTokens":1168,"promptMs":30,"loadMs":11,"totalMs":99,"yes":0,"answer":"no"}
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"inline","step":3,"question":"break","promptTokens":1210,"promptMs":38,"loadMs":13,"totalMs":109,"yes":1,"answer":"yes"}
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"image_turn","step":0,"question":"break","promptTokens":1226,"promptMs":46,"loadMs":12,"totalMs":193,"yes":1,"answer":"yes"}
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"image_turn","step":1,"question":"slide","promptTokens":1214,"promptMs":35,"loadMs":10,"totalMs":100,"yes":0.76131,"answer":"yes"}
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"image_turn","step":2,"question":"repair","promptTokens":1184,"promptMs":28,"loadMs":11,"totalMs":96,"yes":0,"answer":"no"}
+{"id":"commons-031","model":"qwen3-vl:4b-instruct","edge":1280,"width":960,"height":720,"layout":"image_turn","step":3,"question":"break","promptTokens":1226,"promptMs":38,"loadMs":12,"totalMs":105,"yes":1,"answer":"yes"}

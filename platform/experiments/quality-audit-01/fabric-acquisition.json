@@ -1,0 +1,2114 @@
+{
+  "at": "2026-10-26T20:50:07.355Z",
+  "selection": "20 single-class original photos per publisher class, sorted by a predeclared seeded hash. No inference consulted.",
+  "records": [
+    {
+      "id": "fabric-001",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-001.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-22-10.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.5046875,
+          0.41875,
+          0.30078125,
+          0.2609375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "870da51f0e5b7969732c4ac247509719030ed2e67db0e2b7f85055eaa2f28d0f",
+      "width": 1086,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-002",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-002.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-24-29.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.5046875,
+          0.6265625,
+          0.16328125,
+          0.12578125
+        ],
+        [
+          0,
+          0.3765625,
+          0.5859375,
+          0.040625,
+          0.0546875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "d4c37c85d018eda2753da68b57eb26a09f738ecffa4f2ccc680b45af12025923",
+      "width": 1089,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-003",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-003.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-22-30.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.4375,
+          0.4015625,
+          0.2890625,
+          0.2296875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "7d491290438b86e0e0450ae35c0e4a006020c01f9434800b6fa59ad57c181ce9",
+      "width": 1091,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-004",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-004.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-22-48.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.54453125,
+          0.3703125,
+          0.33359375,
+          0.2953125
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "bcc6c08fd0384cc9be3d079a0b24356349657e7ffa3a008f2ae482acad002819",
+      "width": 1105,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-005",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-005.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-22-29.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.484375,
+          0.5515625,
+          0.28515625,
+          0.2484375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "daff8d6aa71e54b49b5d48a7f7d96a3fe16977739fd936a75d332d9ed4bbefe4",
+      "width": 1177,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-006",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-006.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-23-09.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.39140625,
+          0.64375,
+          0.18125,
+          0.1421875
+        ],
+        [
+          0,
+          0.540625,
+          0.40859375,
+          0.2640625,
+          0.21875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "6320f369a096769a603880fd9aa6c14538d90fed02adbeaf52f9cf8274648189",
+      "width": 992,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-007",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-007.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-11-19.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.41484375,
+          0.51328125,
+          0.2453125,
+          0.36171875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "cfdb465fb6a9d08fa464e99243e21b118c0eb39871401b95e61831e4fef15d84",
+      "width": 1280,
+      "height": 960,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-008",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-008.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-23-30.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.5671875,
+          0.4265625,
+          0.29140625,
+          0.196875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "cf1f4b03f989f1e4aae2afa1a57ffa0dbb8fc96c7b9439a74bd489147a1821b3",
+      "width": 1212,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-009",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-009.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-24-24.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.53359375,
+          0.36796875,
+          0.125,
+          0.1109375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "0b438bd4594c45890bbed95dfcc9f85c41b7813dd6169d7ec0ac9c1d263637fb",
+      "width": 1280,
+      "height": 1081,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-010",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-010.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-24-07.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.48359375,
+          0.42421875,
+          0.28203125,
+          0.2609375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "728db184e7a4f55928e4b811aab6ccae32e1ba10a6b50cea3f7a6c47f23b0f9a",
+      "width": 1215,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-011",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-011.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-11-22.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.453125,
+          0.296875,
+          0.58671875,
+          0.35234375
+        ]
+      ],
+      "publisherSplit": "valid",
+      "sha256": "f26f26606fe68aae86816faf4793b7f6f0ca6fe6aac303a1d50ec6b88a8f732c",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-012",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-012.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-24-26.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.4765625,
+          0.4765625,
+          0.1109375,
+          0.09453125
+        ],
+        [
+          0,
+          0.5140625,
+          0.55859375,
+          0.04140625,
+          0.02578125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "d61b49556573f3915ff1640c94fdd0d5da4093b407be35bb6382373a37e747c9",
+      "width": 1280,
+      "height": 1254,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-013",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-013.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-22-02.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.5484375,
+          0.60390625,
+          0.3546875,
+          0.2296875
+        ]
+      ],
+      "publisherSplit": "valid",
+      "sha256": "81208fb2e72d692a6c33c23972dc6bc4cdf6658e036008de4bb6d3c521fc3955",
+      "width": 1086,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-014",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-014.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-23-32.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.53125,
+          0.5625,
+          0.49765625,
+          0.27734375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "5ed3aef8a0e6e1bf02c658e5e1fe758867f7dcbc7235f45c066696f15493fe61",
+      "width": 995,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-015",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-015.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-23-15.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.43046875,
+          0.43984375,
+          0.190625,
+          0.19765625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "d25b43d2a9b0ea723e06f3ff21c6f36d1a82c6f3dba876316db1d799987eab93",
+      "width": 1280,
+      "height": 1115,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-016",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-016.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-22-28.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.44296875,
+          0.5390625,
+          0.284375,
+          0.25390625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "b7f29304e9b01e7698f8128dec3eb021a5b1e264c9d89845b6ff6d9cd8359bab",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-017",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-017.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-24-31.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.54453125,
+          0.60859375,
+          0.33671875,
+          0.25703125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "e77322d3a84c7c023c4d433b3e7cf6703bcfdb6b2ac1f1205472a59ac8c8433e",
+      "width": 883,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-018",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-018.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-23-51.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.6125,
+          0.53125,
+          0.515625,
+          0.259375
+        ]
+      ],
+      "publisherSplit": "valid",
+      "sha256": "fe2a93c536b94e6f8357713fea472ad0ef3572f6cb8a3303acc02161d64c37c5",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-019",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-019.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-22-32.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.48046875,
+          0.540625,
+          0.26484375,
+          0.271875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "bcf01bef628b1def737a51e84ca6836a1e42657d91c55cb678149f441c03cf67",
+      "width": 1104,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-020",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-020.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-23-13.jpg",
+      "publisherClass": 0,
+      "publisherBoxes": [
+        [
+          0,
+          0.4359375,
+          0.1515625,
+          0.21640625,
+          0.1859375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "4c19b7bc88b5f06601198207ff20252b0116536a86e97fb38f8e767a7be61241",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-021",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-021.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-38-58.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.47578125,
+          0.4796875,
+          0.76875,
+          0.58046875
+        ]
+      ],
+      "publisherSplit": "valid",
+      "sha256": "4b948ad53febd3fd00ab622b848254c6c27d2eb1725f72c75b2a554de0755df4",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-022",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-022.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-37-09.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.47578125,
+          0.5,
+          0.3578125,
+          0.35390625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "5ed83d09ca37afd229b19a7e28f763ac01b32addd2bdfbd6671e628f1f4f4ad4",
+      "width": 1280,
+      "height": 1142,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-023",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-023.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-39-36.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.459375,
+          0.51640625,
+          0.715625,
+          0.5109375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "b36da0ca0efb9df9c34581bd6859a128a708bdaa3ccfa26a61b4002bff616476",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-024",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-024.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-38-35.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.3375,
+          0.60234375,
+          0.67421875,
+          0.78125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "8dab316a08fbf6b7046358b0d04233ccaded36a796261c81cec46de7a29b8435",
+      "width": 1280,
+      "height": 1121,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-025",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-025.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-39-30.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.41484375,
+          0.446875,
+          0.803125,
+          0.61640625
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "0ce4ed2f7a36f682ed07a47bdb0c7b9b00c2c7543c1198ab0fb5c62bf6658dce",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-026",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-026.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-37-00.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.525,
+          0.63671875,
+          0.44921875,
+          0.29921875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "8b51b9334e8ac64b6168f43e285a828af4897ddc7fc09b26a8320aaa0c160e06",
+      "width": 1098,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-027",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-027.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-39-27.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.44453125,
+          0.48515625,
+          0.8890625,
+          0.5921875
+        ]
+      ],
+      "publisherSplit": "valid",
+      "sha256": "2fbe9af4a7f6c8b5a910bd150b95aca92e254e14db9d6a8d46121b9c1aea1e61",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-028",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-028.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-38-26.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.5296875,
+          0.49921875,
+          0.25625,
+          0.31171875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "427ce968cd9f4be8fa7ba34c3568b29e0add97686e94195e8c06230d4bb4af39",
+      "width": 1278,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-029",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-029.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-36-50.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.51640625,
+          0.434375,
+          0.3984375,
+          0.30625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "f22d776200354f02066cd2f9eaedc4ce8b363c1676eb4e50b39ee7dac06ed9e9",
+      "width": 956,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-030",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-030.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-36-49.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.5625,
+          0.5546875,
+          0.35546875,
+          0.3171875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "2b00c430f2be954fb069cf8c5a54f9073cf912ec392a43c0868c4d0511b62ae9",
+      "width": 1111,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-031",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-031.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-39-17.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.5125,
+          0.60234375,
+          0.83203125,
+          0.6859375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "3c6698060a589692e5fd68a6da8e05213058cf2e2eacfeb7fe2ddf5827011bfa",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-032",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-032.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-37-27.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.5578125,
+          0.52265625,
+          0.45390625,
+          0.3890625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "cbdad5e32bc95eac37058a8ed8424c8941e76b12314a3d9a8fbecf63b105423c",
+      "width": 1143,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-033",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-033.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-36-30.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.5171875,
+          0.540625,
+          0.2109375,
+          0.27890625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "597cddb586048b1cb4b6cd4d2274a69f72ca1835d55e69fb9054d469a32fa2d3",
+      "width": 1111,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-034",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-034.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-38-17.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.465625,
+          0.73359375,
+          0.496875,
+          0.34296875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "a75930f850e2a7b753957a3704e5f1a0fa4e49dc36c6d6b8f8a2e78ee48f3ac7",
+      "width": 1221,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-035",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-035.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-39-22.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.534375,
+          0.621875,
+          0.925,
+          0.578125
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "c4a27bcc2a27d71fcb53dcf2d720e097ddb7cfadc752acce6792bff92a2da8c2",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-036",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-036.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-37-14.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.44296875,
+          0.403125,
+          0.6578125,
+          0.3390625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "9c592c13128c4c53e2f5846ce0eab072a2fa61f8282d6381d3907765604d7da0",
+      "width": 1136,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-037",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-037.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-39-32.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.42109375,
+          0.421875,
+          0.459375,
+          0.5875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "deb49e0e281477d4a60c23815c6dc5bc60a749cdc7a0d1edd2ffec558ff1339f",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-038",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-038.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-39-23.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.47890625,
+          0.453125,
+          0.85625,
+          0.69921875
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "6419955d834630c26318f9cf7e102a8271c846a8d1bf0660bd739de209da54dd",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-039",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-039.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-37-22.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.5703125,
+          0.65625,
+          0.4046875,
+          0.34453125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "96295a859961b3b407db30db56b1ebc5e0e1c8124e94520e7f27f8d5d690e2b7",
+      "width": 1150,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-040",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-040.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-10",
+      "originalFile": "photo_2024-02-10_13-37-44.jpg",
+      "publisherClass": 1,
+      "publisherBoxes": [
+        [
+          1,
+          0.49375,
+          0.49296875,
+          0.37734375,
+          0.38671875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "5e4cadd156538c760f038dbbed3d7a3ba8c9d27543ce3904177e8e264f844e62",
+      "width": 1280,
+      "height": 1122,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-041",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-041.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-13-55.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.5359375,
+          0.4203125,
+          0.14765625,
+          0.3265625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "65de8d3446b1e0e14d138831c95a16810d4cf78ea887ee1b62cc30c74bd8adf4",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-042",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-042.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-19-52.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.5109375,
+          0.5015625,
+          0.4765625,
+          0.82109375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "c2a1f4ef8711302cb61b450c140fabbf29d6ca8ac5f2442694bad883c99e79ea",
+      "width": 976,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-043",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-043.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-47-53.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.3796875,
+          0.66015625,
+          0.32890625,
+          0.13125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "396e41e4a4412f6436a6b50f81c049ac6fe0827e22c7b7ffd145226c73827b15",
+      "width": 1280,
+      "height": 916,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-044",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-044.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-19-42.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.440625,
+          0.4578125,
+          0.50625,
+          0.75546875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "b99fc3f0e88973c2bd9a2d989bf60d22606e0ea86107dcf7ab08cc6ba1aadfc8",
+      "width": 1280,
+      "height": 1208,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-045",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-045.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-20-13.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.56953125,
+          0.50078125,
+          0.28359375,
+          0.771875
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "d7e2f2e048a995bc5c9ec6bbf6afea4c19e525ac5b29ab01d4c1c6255f8d5019",
+      "width": 1062,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-046",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-046.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-14-21.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.4859375,
+          0.4234375,
+          0.10703125,
+          0.2046875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "6a66a53c09e3f4a9c88f34426fed9a0331a032c28e62dfc2e075c0b20852970b",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-047",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-047.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-20-14.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.4921875,
+          0.59765625,
+          0.62734375,
+          0.24609375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "76a1a9133718c90841716d3bbcf47c9813d7dc935e1672b06300444b2ed71e84",
+      "width": 1280,
+      "height": 974,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-048",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-048.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-45-08.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.4828125,
+          0.4078125,
+          0.45625,
+          0.22109375
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "2d634d4cfa6305f97e8df4754ba47a75dbc8ee5c7363a0705c815cc1813cccca",
+      "width": 1280,
+      "height": 896,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-049",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-049.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-19-58.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.39921875,
+          0.5140625,
+          0.084375,
+          0.9125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "5886159c8c3ccf01517308359c28a9c1e4f74549d55c56f384f8cc391ed3881c",
+      "width": 1221,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-050",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-050.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-48-14.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.6109375,
+          0.5140625,
+          0.434375,
+          0.6515625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "0bdb1bb35e18d250494484b27e0a2e0e4723d1db994c9b2ed38682bb67ac5048",
+      "width": 1220,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-051",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-051.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-48-34.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.5046875,
+          0.52109375,
+          0.40234375,
+          0.490625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "bf01626f72702d1ef7a8532baef78472fc72f786e035ca89c1916c123633d126",
+      "width": 1044,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-052",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-052.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-45-05.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.540625,
+          0.471875,
+          0.096875,
+          0.51640625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "38d6d846c71b1d0fc98fbed2111b1d51f4e70be6247f188913efed088e135fba",
+      "width": 1155,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-053",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-053.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-43-59.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.4453125,
+          0.45,
+          0.25390625,
+          0.29375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "d1e9a65a742adb45ccf20f632c96736d1756cc2df90c42cad89d2f9e021dd3f2",
+      "width": 1280,
+      "height": 1065,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-054",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-054.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-13-37.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.38828125,
+          0.44375,
+          0.41875,
+          0.35390625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "0a1942c06acdf41d747018035b14d5892026b54ffa5f0a5c065c5d9e1ece5fef",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-055",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-055.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-45-26.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.6,
+          0.365625,
+          0.14921875,
+          0.43671875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "372539c42f36c0a8015cff74544c989b31fd9215d0f473a6878d16dc12bf1647",
+      "width": 1280,
+      "height": 1164,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-056",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-056.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-18-48.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.5546875,
+          0.4421875,
+          0.23359375,
+          0.1734375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "237affa01ee43dba264d64730d64364e5fc040c567813c233c204102f354f089",
+      "width": 1241,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-057",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-057.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-12-18.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.45078125,
+          0.459375,
+          0.08984375,
+          0.46328125
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "f2fe394ff21a77cc2c81cc5039e808fde3867bf9e8ce25146c7ab14bb72ca71c",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-058",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-058.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-45-23.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.48046875,
+          0.42421875,
+          0.2578125,
+          0.446875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "5f642e14c2d5aa9af8682548904881c1a907e7ae5116ac59bfd370d8db3c269d",
+      "width": 1006,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-059",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-059.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-12-50.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.47578125,
+          0.4328125,
+          0.13125,
+          0.4875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "a973291f013c51e71337b238f9340dcefafb8c1fb880c17f8a76328a31cfe0c2",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-060",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-060.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-48-17.jpg",
+      "publisherClass": 2,
+      "publisherBoxes": [
+        [
+          2,
+          0.459375,
+          0.6203125,
+          0.62890625,
+          0.415625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "723d198fb6caa4f3593b91f0d5ab277abf6a91f716b1d873de713b370d8805c2",
+      "width": 1280,
+      "height": 1176,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-061",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-061.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-44-20.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.575,
+          0.56015625,
+          0.0671875,
+          0.07734375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "58031b2d5572e9a3fefafe378d68b5d81d6cabd2ef26871dc403f5f4abf7fe11",
+      "width": 1280,
+      "height": 908,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-062",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-062.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-19-24.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.4125,
+          0.5203125,
+          0.0765625,
+          0.065625
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "c54623aa33161eef7727ec68826d525ddc5bddb77259fc19095fa6df5ebaa812",
+      "width": 1092,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-063",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-063.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-43-38.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.5390625,
+          0.49453125,
+          0.10625,
+          0.128125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "3b4656287fb1525b95524fde612b95658270a294341cc808d3a61d7b33e96829",
+      "width": 1280,
+      "height": 1218,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-064",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-064.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-44-23.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.49921875,
+          0.6171875,
+          0.07578125,
+          0.078125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "27324379fbdb6a562e7880ff40da44351c97ea1b79c17d052193deb2e8192111",
+      "width": 1012,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-065",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-065.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-48-42.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.4859375,
+          0.4140625,
+          0.10078125,
+          0.09140625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "87aad09b0720e558811e7d5daf7658d09c4c6ea980d00d0e96245dd675ee3d0d",
+      "width": 1280,
+      "height": 1267,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-066",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-066.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-43-42.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.45,
+          0.50078125,
+          0.09609375,
+          0.1109375
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "93360cf5e71476f4c6cfedd12976ef7001227d02a2f6018209b046c00fef7b84",
+      "width": 1114,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-067",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-067.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-43-14.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.53125,
+          0.41875,
+          0.0875,
+          0.075
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "f9ad082a063854f8eba34ce01e212421f4ef79b3232443b5029c7ad4fa9df1fd",
+      "width": 1223,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-068",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-068.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-20-08.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.49609375,
+          0.50859375,
+          0.11796875,
+          0.11484375
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "c27199e748ef4ce02822cbca8ffd7f4c8d589ec9efe3a495b8108f7eeb205af0",
+      "width": 1280,
+      "height": 1203,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-069",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-069.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-43-08.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.5109375,
+          0.4484375,
+          0.08828125,
+          0.09453125
+        ]
+      ],
+      "publisherSplit": "test",
+      "sha256": "0818916f57794b98e9719f2874f333f2ad82ca8305e13ee773e4da737863cb36",
+      "width": 1245,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-070",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-070.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-43-31.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.409375,
+          0.44296875,
+          0.0640625,
+          0.065625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "e016b58551a30d4c18f1f2ea2fa598046c594c23d38f186fc77e90651ef02c95",
+      "width": 1280,
+      "height": 1023,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-071",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-071.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-15-28.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.40078125,
+          0.471875,
+          0.046875,
+          0.03828125
+        ]
+      ],
+      "publisherSplit": "valid",
+      "sha256": "d9ad09409a47fcbb81d695265181289cc3b970af2fc6e31957a2b50f6332b7bc",
+      "width": 827,
+      "height": 960,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-072",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-072.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-44-27.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.5828125,
+          0.4078125,
+          0.1,
+          0.096875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "31a1492d7ddc295af027b280f6b610162a85aa605f3ce5884ed33d859bd27dfa",
+      "width": 1236,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-073",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-073.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-44-22.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.3734375,
+          0.66796875,
+          0.05625,
+          0.08046875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "3e1443a6736698b99b99eb33bdb56c726381dc6db7a5a0a89abb117a87b0cfaa",
+      "width": 1280,
+      "height": 919,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-074",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-074.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-12-10.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.46015625,
+          0.565625,
+          0.09453125,
+          0.065625
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "1e21ea1b122e4f4c6bea4f4f3aa55f9856d6baf9d8516f81362d98591d36d4c8",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-075",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-075.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_15-19-26.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.496875,
+          0.5015625,
+          0.0734375,
+          0.0984375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "464e66fc88e31bb3f691d3eb215cc6372b4c0c7aa72a4d00759018f96ad8d767",
+      "width": 1280,
+      "height": 1121,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-076",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-076.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-48-00.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.55625,
+          0.51171875,
+          0.08203125,
+          0.15546875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "a2cdb4a48b8ed1415cad1fb00ddcc524e67a70f190309961d43c2dbe4dc04cac",
+      "width": 1135,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-077",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-077.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-43-34.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.5828125,
+          0.425,
+          0.0984375,
+          0.1171875
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "801bd7547594ad90bf27d591261a45328700126130c2515004a341e24af68398",
+      "width": 1280,
+      "height": 1078,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-078",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-078.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2024-02-11",
+      "originalFile": "photo_2024-02-11_14-44-32.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.5625,
+          0.39375,
+          0.08984375,
+          0.05078125
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "f219a3ef192da7e75a2b3a38bda92f90c733bf22621817e0d7fc11a0771f2c9c",
+      "width": 1072,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-079",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-079.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-14-56.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.3875,
+          0.434375,
+          0.03671875,
+          0.021875
+        ],
+        [
+          3,
+          0.87890625,
+          0.34765625,
+          0.04609375,
+          0.0234375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "4f5b11d5bc742c58197d72a81bc251dc861adb8dc4f486d939cdb26643b5b6a4",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    },
+    {
+      "id": "fabric-080",
+      "domain": "fabric_closeup",
+      "file": "datasets/quality-audit-01/images/fabric/fabric-080.jpg",
+      "source": "https://doi.org/10.6084/m9.figshare.25546465.v2",
+      "author": "Osamah N. Neamah",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "group": "fd-capture-2023-11-19",
+      "originalFile": "photo_2023-11-19_18-14-26.jpg",
+      "publisherClass": 3,
+      "publisherBoxes": [
+        [
+          3,
+          0.44296875,
+          0.44375,
+          0.109375,
+          0.0984375
+        ]
+      ],
+      "publisherSplit": "train",
+      "sha256": "c6b347360b8a33cd599a0557beae48d2f2a3c10b16b44897345afb9577a147a4",
+      "width": 960,
+      "height": 1280,
+      "transform": "Original publisher image bytes, no resampling or generated variants. Grouping by date is conservative; garment identity unavailable."
+    }
+  ]
+}

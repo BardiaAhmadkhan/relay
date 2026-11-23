@@ -1,0 +1,570 @@
+# Real-world gear photographs (Wikimedia Commons categories, harvested 2026-11-18): blind annotations.
+#
+# Made by the assistant BEFORE any model scored these photographs, from 300 px contact sheets
+# (datasets/realworld-v3/review/sheet-NN.jpg), then corrected at full size for every photograph marked
+# for checking and for duplicate pairs that disagreed. Not expert labels.
+# Where the Commons description establishes a history (cm-008: after a track crash; cm-057: after a
+# motorcycle accident), the label follows it, and the note says so.
+#
+# One line per photograph: id condition subject framing note
+#   condition  c clean (no damage seen), d damaged, a ambiguous, x excluded (not an intake photograph:
+#              historical prints, signs, portraits of named people, events, non-motorcycle items)
+#   subject    J jacket, T trousers, S one-piece suit, G gloves, B boots, H helmet, A armour or protector,
+#              V leather vest, O other, M several kinds
+#   framing    i one item alone (a pair counts as one), m several items laid out, w worn by a person,
+#              s scene (riders on motorcycles, crowds, shops), d close detail, l label;
+#              a trailing b means the photograph shows the back
+cm-001 x - - historical photograph
+cm-002 c S s
+cm-003 c S w
+cm-004 c J s
+cm-007 c J d Cordura tag close-up
+cm-008 d S d crashed race-suit shoulder slide panel: scraped, scorched (full size; Commons description: after a 150 km/h track crash; thumbnail label was a)
+cm-012 c S s
+cm-013 c M s store display
+cm-014 c M s store rack
+cm-016 c A w back support belt worn
+cm-021 c J s
+cm-022 c S s
+cm-023 c S s
+cm-024 c S s
+cm-025 c A i Revit back protector
+cm-026 c J s
+cm-027 c J s
+cm-028 x - - costume
+cm-029 c S s
+cm-030 c S s
+cm-031 c S d racing suit detail with a name
+cm-032 x - - workers with back belts
+cm-033 c A i armour jacket on a mannequin
+cm-034 c A i orange D3O protector
+cm-036 x - - D3O work glove, not motorcycle gear
+cm-037 x - - test machine
+cm-038 c G w pink racing gloves on hands resting on a tank (full size)
+cm-039 c M w person in leathers and helmet standing
+cm-040 c G w gloves on hands
+cm-041 c G i Dainese gloves
+cm-042 c G i Dainese gloves
+cm-044 c G i gloves in a case
+cm-046 c G m two pairs of gloves
+cm-047 c G i one pair of racing gloves on a wooden floor (full size)
+cm-048 c M s rider on a motorcycle
+cm-049 c M m jacket, helmet, gloves and boots laid out
+cm-050 c G i racing glove on a carpet, filling the frame (full size)
+cm-051 c G i IXS gloves
+cm-053 c G i gloves in a display
+cm-054 c G i gloves in a display
+cm-055 c G i used gauntlet gloves
+cm-056 c G i glove in a display
+cm-057 d G w glove with a hole torn through the palm heel (full size; Commons description: after a motorcycle accident; thumbnail label was c)
+cm-058 d G i gloves caked with debris, fingertips holed (full size; Commons description: old and worn)
+cm-059 a G i used fingerless gloves, possible worn-through holes (full size)
+cm-060 c M m helmet with a jacket
+cm-061 c M s race suit and helmet displayed with a motorcycle
+cm-063 c H i helmet on a motorcycle seat
+cm-064 c H i black helmet
+cm-066 c H i helmet held in hands
+cm-067 x - - collage of buckles
+cm-069 c H i display helmet
+cm-070 c H i signed helmet
+cm-072 c H m three helmets
+cm-073 c H i helmet on a table
+cm-075 c H s helmet store wall
+cm-077 c H s helmets on shelves
+cm-078 c H s helmets on shelves
+cm-079 x - - soldiers
+cm-080 c H i airbrushed helmet
+cm-081 x - - chart
+cm-082 c H i helmet hung on a mirror
+cm-083 x - - sign
+cm-084 c H l ECE approval label inside a helmet
+cm-085 x - - helmet locker
+cm-086 x - - helmet locker
+cm-087 x - - sign
+cm-088 c H i yellow flip-up helmet on a table
+cm-089 c H i same helmet, other angle
+cm-090 c O i helmet visor on its own
+cm-091 c H s people holding helmets, legs only
+cm-096 c M w man in hi-vis jacket and leather trousers on a stone seat
+cm-097 c A s rider in an armour jacket on a motorcycle in a parade
+cm-098 x - - historical photograph
+cm-099 c A w woman wearing an armour jacket
+cm-100 x - - historical photograph
+cm-101 c M s racers lined up
+cm-102 x - - historical photograph
+cm-103 x - - historical photograph
+cm-104 x - - historical photograph
+cm-105 c B i Alpinestars boots, studio
+cm-106 c M s police rider on a motorcycle
+cm-107 c B i racing boots on asphalt
+cm-108 c M s person in leathers walking past a shop
+cm-109 c M s sidecar racing
+cm-110 c M s sidecar racing
+cm-111 c M s sidecar racing
+cm-112 c M s sidecar racing
+cm-113 x - - old military sidecars
+cm-114 c M s two riders in leathers by a motorcycle
+cm-115 c M s racer cornering
+cm-117 c M s rider in leathers over a motorcycle
+cm-118 c M s racer cornering
+cm-119 c M s racer
+cm-120 c M s racer
+cm-121 c S w racer portrait in team leathers
+cm-122 c S w racer portrait in team leathers
+cm-124 c M s racer
+cm-125 c M s racer
+cm-126 c M s riders in a paddock
+cm-129 c M s rider on a touring motorcycle
+cm-130 c M s police rider
+cm-131 x - - historical poster
+cm-134 c M s rider on a vintage motorcycle
+cm-135 c M s racer
+cm-136 c S w racer seated in team leathers
+cm-137 x - - historical photograph
+cm-138 x - - historical photograph
+cm-139 x - - historical photograph
+cm-142 c M s rider on a sport motorcycle
+cm-144 c B w leather boots worn
+cm-145 c J d perforated leather shoulder close-up
+cm-146 c T w leather bib trousers worn
+cm-147 c J d leather jacket close-up, zip and snap
+cm-149 x - - deployed motorcycle airbag demonstration
+cm-150 c M s racer
+cm-151 c M s riders in a paddock
+cm-152 c M w person in motocross kit in a crowd
+cm-153 x - - historical photograph
+cm-154 x - - memorial crowd
+cm-155 c M s motocross rider in full kit posed on a dirt bike
+cm-156 x - - historical shop display
+cm-158 c M s rider on a velodrome
+cm-159 c M s rider on a velodrome
+cm-160 c M s rider on a velodrome
+cm-161 c M s two riders on a velodrome
+cm-162 c M s rider on a cruiser
+cm-163 c M s two riders on a cruiser
+cm-164 x - - historical photograph
+cm-165 x - - historical photograph
+cm-166 x - - historical photograph
+cm-167 x - - historical photograph
+cm-168 x - - historical photograph
+cm-169 x - - historical photograph
+cm-170 x - - historical photograph
+cm-171 c M s riders on a road, one with a sidecar
+cm-172 x - - historical photograph
+cm-173 x - - historical photograph
+cm-174 x - - historical photograph
+cm-176 c M s rider in leathers on a vintage motorcycle
+cm-178 c M w police officer in leathers standing by a motorcycle
+cm-179 x - - historical photograph
+cm-180 x - - historical photograph
+cm-181 x - - historical photograph
+cm-182 c M s rider in a street
+cm-183 c M s rider in a street
+cm-184 c M s rider in a street
+cm-186 c J d aged leather sleeve with a numbered badge, creased, intact (full size)
+cm-187 c M s racer on a road
+cm-188 x - - celebrity portrait, fashion studded jacket
+cm-189 x - - celebrity portrait, fashion studded jacket
+cm-191 x - - politician meeting veterans
+cm-193 c M s sidecar team in a paddock
+cm-194 c M s sidecar team
+cm-195 c M s rider in leathers on a sidecar racer
+cm-196 c M s rider in leathers on a sidecar racer
+cm-197 c M s rider in leathers on a sidecar racer
+cm-198 c M s two riders on a motorcycle
+cm-199 x - - celebrity portrait, fashion studded jacket
+cm-200 x - - premiere photograph
+cm-201 c J wb back of a leather jacket with a club patch, worn
+cm-202 c V wb back of a leather vest with a club patch, worn
+cm-203 x - - band photograph
+cm-205 c M m green jacket with luggage on a bed
+cm-207 c J i leather jacket laid flat on a floor
+cm-208 c M s sidecar racers
+cm-209 x - - fetish hood
+cm-210 c M s rider on a sport motorcycle, cut out on white
+cm-211 c M s racer
+cm-212 c V w two men in patched leather vests
+cm-213 x - - historical photograph
+cm-214 c V d leather vest with club patches, close
+cm-215 c V sb rider from behind in a vest, on a motorcycle
+cm-218 x - - historical photograph
+cm-219 c M s police rider
+cm-220 c M s racer on a vintage motorcycle
+cm-222 x - - historical photograph
+cm-223 x - - historical group photograph
+cm-224 x - - celebrity portrait
+cm-225 x - - celebrity portrait
+cm-227 c M s rider on a road
+cm-230 x - - singer on stage
+cm-232 c M s rider on a road
+cm-233 c M s rider on a sport motorcycle
+cm-234 x - - historical photograph
+cm-235 x - - museum figure
+cm-236 c M s police riders, close
+cm-238 c M s racer
+cm-239 x - - historical photograph
+cm-240 x - - historical photograph
+cm-241 x - - historical photograph
+cm-242 x - - historical photograph
+cm-243 c M s two riders in race leathers at an event
+cm-244 c M w person wearing a leather jacket and helmet indoors
+cm-245 c J i long leather coat on a mannequin
+cm-246 c J ib same coat, back
+cm-247 c M s rider and sidecar passenger
+cm-248 c M s racer
+cm-252 x - - singer on stage
+cm-253 x - - band photograph
+cm-254 x - - historical photograph
+cm-255 c V wb person from behind in a patched vest, holding a flag
+cm-257 c M s police rider
+cm-258 c M s police riders
+cm-260 c M s police rider at a parade
+cm-261 x - - historical photograph
+cm-263 c M s person in a red jacket by a motorcycle
+cm-264 c J i Repsol leather jacket hanging on a rack
+cm-265 x - - red-carpet portrait
+cm-266 x - - red-carpet portrait
+cm-267 x - - red-carpet portrait
+cm-268 x - - red-carpet portrait
+cm-269 x - - red-carpet portrait
+cm-270 x - - red-carpet portrait
+cm-271 x - - historical photograph
+cm-272 c M s police rider
+cm-273 c M s two riders
+cm-274 x - - street scene
+cm-276 x - - politician speaking
+cm-277 x - - politician speaking
+cm-278 x - - politician speaking
+cm-279 x - - film still collage
+cm-280 x - - studio portrait holding a jacket
+cm-281 c M s rider on a naked motorcycle
+cm-282 c M s woman in leathers on a motorcycle at night
+cm-283 c M s two riders on a sidecar
+cm-284 c M s man bent over a vintage racer
+cm-285 c V sb event scene, patched vest from behind
+cm-286 c M s rider, panning shot
+cm-287 c V wb two people from behind in patched vests
+cm-288 x - - historical photograph
+cm-289 c M s rider cornering
+cm-290 c M s rider cornering
+cm-292 x - - portrait
+cm-293 c M s sidecar racers
+cm-294 c M s sidecar racers
+cm-295 c S d signed race suit, close
+cm-296 c M s racer in leathers beside a race motorcycle, studio
+cm-297 c M s podium
+cm-298 c M s podium
+cm-299 c M s podium
+cm-300 c M s podium
+cm-301 c M s racer cornering
+cm-302 c M s racer
+cm-303 c M s racer, upper body on a motorcycle
+cm-304 c M s racer
+cm-305 c S s two racers in race suits with champagne
+cm-306 c M s racer
+cm-307 c M s racer
+cm-308 c M s wheelie
+cm-309 c S w racer standing with a helmet
+cm-310 c S w racer standing on a podium, full length
+cm-311 c M s podium
+cm-314 c M s burnout
+cm-316 c M s racer
+cm-317 c S w racer seated in team leathers
+cm-318 c M s racer in a pit lane
+cm-319 a S m two 1985 endurance race suits, scuffed hips and knees (full size)
+cm-320 a S i 1986 race-winning suit, knee pucks worn by racing (full size)
+cm-323 c M s racer
+cm-324 c M s racer
+cm-325 c M s sidecar
+cm-327 c M s sidecar
+cm-328 c M s racer in leathers bent over a motorcycle
+cm-329 c M s racer
+cm-330 c M s racer
+cm-333 c M s racer
+cm-337 c M s racer
+cm-338 c S w racer standing on a podium
+cm-339 c M s two racers
+cm-340 c M s podium
+cm-341 c M sb police rider from behind
+cm-342 c M s sidecar
+cm-343 c M s racer
+cm-344 c M s racer
+cm-345 c S m race suits hung in a row
+cm-346 c S d race suit knees, sliders intact (full size)
+cm-347 c S i race suit hung in a display
+cm-348 c S s rail of race suits
+cm-349 c S w racer portrait in race leathers
+cm-350 c M s racer
+cm-351 c M s racer
+cm-352 c S ib race suit hung on a wardrobe door, back (full size)
+cm-353 c S i same race suit, front (full size)
+cm-354 c S w racer portrait
+cm-356 c S w racer portrait in team leathers
+cm-357 c M s racer in the rain with crew
+cm-358 a S ib 1986 endurance race suit from behind, scuffed shins and knees (full size)
+cm-359 c M s racer
+cm-360 c M s racer
+cm-361 c M s racer
+cm-362 c S w racer on a podium with a trophy
+cm-363 c S w racer celebrating
+cm-364 c M s wheelie
+cm-365 c S w racer portrait
+cm-366 c M s rider posed by a motorcycle in a field
+cm-368 x - - team shirt, not riding gear
+cm-369 x - - team shirt, not riding gear
+cm-371 c M s racer
+cm-372 c M s racer
+cm-373 c M s racer
+cm-374 c M s podium
+cm-375 c M s racer
+cm-376 c M s racer
+cm-377 c M s racer
+cm-379 c M s police officers by motorcycles in a crowd
+cm-381 c M s racer
+cm-383 c M s racer
+cm-384 c M s racer
+cm-385 c M s police rider
+cm-386 c M s podium
+cm-387 c S w racer posing in full race leathers outdoors
+cm-388 c M s racer
+cm-389 c M s racer
+cm-391 c M s racer
+cm-392 c M s racer
+cm-395 c S w racer seated in race leathers
+cm-396 c M s racer
+cm-400 x - - bicycle with a contraption
+cm-401 x - - bicycle with a contraption
+cm-402 c M s rider on a velodrome
+cm-403 c M s riders on a velodrome
+cm-405 c M s sidecar team in a paddock
+cm-406 c M s racer
+cm-407 c M s sidecar racing
+cm-408 c M s sidecar racing
+cm-409 c M s sidecar racing
+cm-410 c M s sidecar racing
+cm-411 c M s sidecar racing
+cm-412 c M s racer
+cm-413 c V wb patched vest backs, close, in a crowd
+cm-414 c M s woman on a motorcycle at a parade
+cm-416 c V sb man in a vest from behind beside motorcycles
+cm-417 c V wb man in a patched vest walking away
+cm-418 c V d vest back with a patch, close
+cm-421 c V wb two men from behind in patched vests
+cm-422 x - - parade with flags
+cm-423 c J wb man from behind in a leather jacket with a patch
+cm-425 c V sb rider from behind on a motorcycle, patched vest
+cm-427 c V sb club members from behind
+cm-431 c V sb club members from behind in a crowd
+cm-433 c V sb rider from behind on a motorcycle, patched vest
+cm-434 c V sb two men walking away in patched vests
+cm-435 c V w man in a patched vest, arms crossed
+cm-438 c V wb patched vest back, close
+cm-440 c V wb man from behind in a patched vest
+cm-442 c V wb man from behind in a patched vest at a stall
+cm-443 x - - portrait
+cm-444 c V sb man from behind in a vest beside motorcycles
+cm-447 c V wb man from behind in a patched vest
+cm-449 c V wb man from behind in a vest, helmet on
+cm-450 c V sb people walking at an event in vests
+cm-451 c V wb patched vest back, closely framed
+cm-452 c V d vest with patches, close
+cm-458 c V s man on a motorcycle in a patched vest
+cm-462 c V wb man seated from behind in a patched vest
+cm-464 c V s man in a vest at a rally beside motorcycles
+cm-465 x - - promotional model at an event
+cm-467 c V wb man seated on grass from behind in a patched vest
+cm-468 c V wb man from behind in a patched vest
+cm-469 c V s man in a patched vest at an event
+cm-470 c G w pink racing gloves on hands resting on a tank
+cm-471 c M w person standing in full kit: jacket, trousers, helmet, gloves, boots
+cm-472 c G w gloved fists held to the camera
+cm-473 c G i white racing glove held in a hand
+cm-474 c G i red racing glove on white
+cm-476 c G i gloves in a storage case
+cm-478 c G m two pairs of racing gloves on a floor
+cm-479 c G m two pairs of racing gloves on a floor
+cm-480 c M s rider on a motorcycle
+cm-481 c M m leather jacket, helmet, gloves and boots laid out on a floor
+cm-482 c G i leather glove with knuckle armour on a carpet (check wear at full size)
+cm-483 c G i pair of winter gloves on green
+cm-485 c G i glove in a museum display
+cm-486 c G i glove in a museum display
+cm-487 c G i used gauntlet gloves on a table (check wear at full size)
+cm-488 c G i glove in a museum display
+cm-489 c G w gloved hand held to the camera (check wear at full size)
+cm-490 d G i gloves crusted with grit and abraded (check at full size)
+cm-491 c G i used fingerless gloves (check wear at full size)
+cm-492 x - - historical photograph
+cm-493 x - - historical photograph
+cm-494 x - - historical photograph
+cm-495 x - - historical photograph
+cm-498 x - - family photograph with a child
+cm-499 x - - museum display panel
+cm-500 c B i pair of racing boots on a floor
+cm-501 c B w boot on a footpeg
+cm-502 c M s rider on a vintage motorcycle
+cm-503 c S i race suit hung in a display with boots
+cm-504 x - - historical photograph
+cm-505 x - - historical photograph
+cm-506 x - - historical photograph
+cm-507 c B w racing boot on a footpeg, armour intact (full size)
+cm-508 c B d boot shin, close
+cm-509 c B d boot closure, close
+cm-510 c B w leather boots worn
+cm-511 c T w leather bib trousers worn
+cm-513 c B w police boot with a traffic paddle
+cm-514 c M s two officers in uniform and riding boots
+cm-515 c M s man seated by a motorcycle in a garden
+cm-517 x - - historical photograph
+cm-521 c B w tall leather boots worn, seated
+cm-525 c M m muddy motocross boots and a helmet, intact (full size)
+cm-526 c M m motocross kit on a mannequin in a display
+cm-527 c B i heavily used motocross boots in a display, scuffed, intact (full size)
+cm-528 c B i heavily used motocross boots in a display case, scuffed, intact (full size)
+cm-529 c B i heavily used motocross boots in a display case, scuffed, intact (full size)
+cm-530 c M m motocross kit on a mannequin in a display
+cm-531 c B w motocross boot on a footpeg
+cm-532 c B i motocross boots, studio
+cm-533 c B i boots, studio
+cm-534 c B i racing boots on asphalt
+cm-535 c B w boots under a desk, very dark
+cm-536 x - - car-racing shoes, not motorcycle gear
+#
+# Openverse damage search (discover-openverse.mjs --pages 2 with damage queries, 2026-11-18; fetched with
+# fetch-openverse.mjs --prefix ox into manifest-openverse.json). Same codes. Blind, before scoring; every
+# helmet and every photograph whose title described damage was checked at full size.
+ox-001 x - - car
+ox-002 x - - riders without gear
+ox-003 x - - historical photograph
+ox-004 c M s stunt rider wheelie at night
+ox-005 x - - historical photograph
+ox-006 x - - sepia group photograph
+ox-007 c M s police rider at a junction
+ox-008 c M s racer
+ox-009 x - - crash in progress
+ox-010 x - - sepia photograph
+ox-011 d H d helmet shell scraped through the paint, two gouges (full size; same crash series as ov-002, title: helmet scrape)
+ox-012 x - - plaque
+ox-013 a H i red helmet with paint chipped all over, hung on a shop wall (full size)
+ox-014 x - - museum figure
+ox-015 c H w person wearing a full-face helmet, visor down
+ox-016 c M w man in a leather jacket holding a helmet
+ox-017 c H i used open-face helmet, visor scratched, shell intact (full size)
+ox-018 c H i used open-face helmet, visor scratched (full size)
+ox-019 c H i used open-face helmet, dusty bubble visor (full size)
+ox-020 c H i used full-face helmet from above, visor scratched (full size)
+ox-021 c H i used open-face helmet, dusty, visor scratched (full size)
+ox-022 c H i used full-face helmet, light scuffs, visor scratched (full size)
+ox-023 a H i old full-face helmet, shell and visor heavily scratched (full size)
+ox-024 c H i used full-face helmet (full size)
+ox-025 a H i used full-face helmet on a rack, shell scratched and dusty (full size)
+ox-026 a H i 1970s open-face helmet, paint chipped all over, label peeling (full size)
+ox-027 c H i used full-face helmet, light scratches (full size)
+ox-028 a H i old full-face helmet, paint worn and chipped (full size)
+ox-029 c H s two people in helmets, one cleaning the other's visor
+ox-030 c M s racers
+ox-031 c S w racer celebrating in race leathers
+ox-032 c M s racer
+ox-033 c M s racer
+ox-034 c M s racer
+ox-035 c M s racer
+ox-036 c M s racer
+ox-037 x - - car
+ox-038 c M s rider standing over a motorcycle
+ox-039 c M s supermoto racer
+ox-040 c M s racer
+ox-041 x - - aircraft cabin
+ox-042 x - - edited artwork
+ox-043 c M sb rider from behind on a motorcycle
+ox-044 x - - postcard
+ox-045 x - - car
+ox-046 x - - cars
+ox-047 c M s two people in leathers walking
+ox-048 c M s racer
+ox-049 c M s racer
+ox-050 c M s racers
+ox-051 c M s racers
+ox-052 x - - fashion portrait
+ox-053 x - - food
+ox-054 c M s racer
+ox-055 x - - forest path
+ox-056 c M s motocross racers
+ox-057 x - - car
+ox-058 x - - crash scene at a track
+ox-059 x - - car
+ox-060 x - - collage
+ox-061 x - - person on a couch
+ox-062 c M s racer wheelie
+ox-063 c M s racer
+ox-064 c M s racer
+ox-065 x - - car
+ox-066 x - - cars
+ox-067 x - - cars
+ox-068 x - - car
+ox-069 x - - cars
+ox-070 x - - edited artwork
+ox-072 c M s racers
+ox-073 c S w man in a one-piece leather suit on a track
+ox-074 x - - collage
+ox-078 a S ib stunt performer's suit in a museum, grimy, possibly torn at the seat (full size)
+ox-079 c H i helmet hung on a motorcycle mirror
+ox-080 c G i pair of gauntlet gloves with metal scales
+ox-081 c G i same gloves, other angle
+ox-082 x - - historical photograph
+ox-083 c B m several pairs of boots along a wall
+ox-084 a B d boot toe slider scraped by use (full size)
+ox-085 x - - room
+ox-086 x - - artwork
+ox-087 x - - turtles
+ox-088 x - - snake
+ox-089 d B d riding shoe toe with abraded leather (full size; same crash series as ov-006, title: gear damage)
+ox-090 x - - artwork
+ox-091 c M s racer
+ox-093 d J d textile jacket, torn seam by the bottom snap (full size; title: torn seam)
+ox-094 c M w person wearing a textile jacket and helmet indoors
+ox-095 c M s rider on a dirt bike
+ox-097 c J d jacket with an embroidered patch, close
+ox-098 x - - lake
+ox-099 x - - bicycle
+ox-100 c M s man by a motorcycle holding a helmet
+ox-101 x - - parking lot
+ox-102 x - - parked motorcycles
+ox-103 c M s rider in a hi-vis vest on a motorcycle
+ox-104 x - - rally parking lot, gear not the subject
+ox-105 x - - rally parking lot, gear not the subject
+ox-106 x - - rally parking lot, gear not the subject
+ox-107 x - - rally parking lot, gear not the subject
+ox-108 c M s rider at a motorcycle
+ox-109 x - - motorcycle only
+ox-110 c M s rider on a motorcycle
+ox-111 x - - distant riders
+ox-112 c M sb rider from behind on a motorcycle
+ox-113 c M s riders by motorcycles
+ox-114 c M s riders on motorcycles
+ox-115 x - - rally scene, gear not the subject
+ox-116 x - - rally scene, gear not the subject
+ox-117 x - - motorcycle only
+ox-118 x - - rally parking lot, gear not the subject
+ox-119 c M s rider posed on a motorcycle
+ox-120 x - - motorcycle only
+ox-121 c M s rider on a motorcycle
+ox-122 x - - rally parking lot, gear not the subject
+ox-123 x - - people standing
+ox-124 x - - sculpture
+ox-125 x - - sign
+ox-126 x - - people working on a motorcycle
+ox-127 x - - rally scene, gear not the subject
+ox-128 x - - group photograph
+ox-129 c M s rider on a motorcycle
+ox-130 x - - motorcycle only
+ox-131 x - - medical image
+ox-132 x - - rally scene, gear not the subject
+ox-133 x - - rally scene, gear not the subject
+ox-134 x - - motorcycle only
+ox-135 x - - rally scene, gear not the subject
+ox-136 x - - rally scene, gear not the subject
+ox-137 c M s rider on a motorcycle
+ox-138 c M s rider on a motorcycle
+ox-139 x - - motorcycle only
+ox-140 c J i leather jacket on a mannequin, museum (fashion jacket)
+ox-141 x - - street market

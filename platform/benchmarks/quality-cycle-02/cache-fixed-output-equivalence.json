@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-26T23:47:55.243Z",
+  "cases": 194,
+  "identicalVisualOutputs": 194,
+  "completeRoutes": 194,
+  "liveInferenceCalls": 0,
+  "scope": "Final cache metadata propagation preserves all single-request visual outputs; two previously failing API tests now verify retry and completed-entry preservation."
+}

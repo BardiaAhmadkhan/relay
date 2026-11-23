@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-27T00:02:49.814Z",
+  "downloads": [
+    {
+      "path": ".tooling/llama-cpp-mobile/runtime.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cpu-x64.zip",
+      "size": 19537886,
+      "sha": "37b3efcf962847ca869745fd4ccf7f5e7e8dacfeff9fa3523b4ca8cdc66d632b"
+    },
+    {
+      "path": ".cache/mobile-vision/qwen-0.8b-q4.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/6ab461498e2023f6e3c1baea90a8f0fe38ab64d0/Qwen3.5-0.8B-Q4_K_M.gguf",
+      "size": 532517120,
+      "sha": "bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517"
+    },
+    {
+      "path": ".cache/mobile-vision/qwen-0.8b-mmproj-f16.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/6ab461498e2023f6e3c1baea90a8f0fe38ab64d0/mmproj-F16.gguf",
+      "size": 204987232,
+      "sha": "56e4c6cfe73b0c82e3e82bc518d7591997e61d81f723fc41a586f4fa69ea2453"
+    }
+  ]
+}

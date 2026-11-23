@@ -1,0 +1,22 @@
+import fs from 'node:fs';import net from 'node:net';import os from 'node:os';import path from 'node:path';
+import {spawn,execFileSync} from 'node:child_process';import {setTimeout as sleep} from 'node:timers/promises';import assert from 'node:assert/strict';
+import {GARMENT_QUESTIONS,renderOneWord,BATTERY_SYSTEM} from '../../packages/vision/v2/battery.ts';
+import {prepareImages} from '../../server/images.ts';
+const [store,out]=process.argv.slice(2);const model='relay-inspection:base',hash='0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a';
+const images=await Promise.all(['leather-jacket','gloves-palm'].map(async f=>Buffer.from((await prepareImages([{id:'x',view:'front',base64:fs.readFileSync('assets/fixtures/'+f+'.jpg').toString('base64')}],512)).images[0].jpeg).toString('base64')));
+const server=net.createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));const port=server.address().port;await new Promise(r=>server.close(r));const url='http://127.0.0.1:'+port;
+let child,stage='startup';const lines=[],records=[],ctl=new AbortController();
+function guard(){try{const run=a=>execFileSync('nvidia-smi',a,{encoding:'utf8',windowsHide:true,timeout:4000}).trim();const apps=run(['--query-compute-apps=pid,process_name','--format=csv,noheader']);if(/\\steamapps\\common\\|\\xboxgames\\|shipping\.exe|\\(?:Civilization[^\\]*|FortniteClient[^\\]*|cs2|dota2|GTA5|eldenring|overwatch|RocketLeague)\.exe/i.test(apps))throw Error('Game active');
+const [t,v,clock]=run(['--query-gpu=temperature.gpu,memory.used,clocks.current.sm','--format=csv,noheader,nounits']).split(',').map(Number);if(t>=85||v>7000||os.freemem()<2*1024**3||![t,v,clock].every(Number.isFinite))throw Error('Resource stop');return {t,v,clock};}catch(e){ctl.abort(e);child?.kill();throw e;}}
+guard();const timer=setInterval(()=>{try{guard();}catch{}},1500);
+try{child=spawn('ollama.exe',['serve'],{windowsHide:true,stdio:['ignore','pipe','pipe'],env:{...process.env,OLLAMA_HOST:'127.0.0.1:'+port,OLLAMA_MODELS:path.resolve(store),OLLAMA_NO_CLOUD:'1',OLLAMA_NUM_PARALLEL:'1',OLLAMA_MAX_LOADED_MODELS:'1',LLAMA_ARG_CACHE_RAM:'0',LLAMA_ARG_CTX_CHECKPOINTS:'8',LLAMA_ARG_CHECKPOINT_MIN_SPACING_NT:'64'}});
+const log=b=>{for(const l of b.toString().split(/\r?\n/))if(/checking checkpoint|restored context|forcing full|created context checkpoint|context checkpoints enabled/.test(l))lines.push({stage,line:l.trim().slice(0,420)});};child.stdout.on('data',log);child.stderr.on('data',log);
+let ok=false;for(let i=0;i<100;i++){ctl.signal.throwIfAborted();try{const r=await fetch(url+'/api/tags');if((await r.json()).models.some(m=>m.name===model&&m.digest===hash)){ok=true;break;}}catch{}await sleep(180);}assert(ok);
+const body=(i,key,render=false)=>({model,stream:false,think:false,logprobs:true,top_logprobs:20,_debug_render_only:render,keep_alive:'30m',messages:[{role:'system',content:BATTERY_SYSTEM},{role:'user',content:renderOneWord(GARMENT_QUESTIONS.find(q=>q.key===key)).text,images:[images[i]]}],options:{temperature:0,seed:42,num_ctx:8192,num_predict:2}});
+const post=async(body)=>{const r=await fetch(url+'/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.any([ctl.signal,AbortSignal.timeout(90000)])});assert(r.ok);return r.json();};
+const templates=[];for(const key of ['road_contact','broken']){stage='render-'+key;const data=await post(body(0,key,true));const debug=data._debug_info??data;const rendered=debug.rendered_template??debug.template??'';assert(rendered.length);const marker=rendered.search(/\[img[-:]\d+\]|<\|vision_start\|>|<__media__>|<\|image_pad\|>/);
+templates.push({key,markerIndex:marker,questionStart:rendered.indexOf(renderOneWord(GARMENT_QUESTIONS.find(q=>q.key===key)).text),rendered});}
+for(const [label,i,key] of [['first',0,'road_contact'],['same-image-same-question',0,'road_contact'],['same-image-changed-question',0,'broken'],['same-image-identical-again',0,'broken'],['changed-image-same-question',1,'broken'],['same-image-first-question',1,'road_contact']]){
+stage=label;const state=guard();const d=await post(body(i,key));records.push({label,i,key,promptTokens:d.prompt_eval_count??null,cachedTokens:d.prompt_eval_cached_count??null,promptMs:d.prompt_eval_duration/1e6,state});await sleep(80);}
+fs.writeFileSync(out,JSON.stringify({model,hash,templates,records,lines},null,2));console.log(JSON.stringify({templates:templates.map(({rendered,...x})=>x),records}));
+}finally{clearInterval(timer);child?.kill();}

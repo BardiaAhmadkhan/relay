@@ -1,0 +1,147 @@
+{
+  "result": {
+    "schemaVersion": "1.0",
+    "assessmentId": "8a7b516b-51a6-4f17-87c8-b84eb266cd8f",
+    "status": "complete",
+    "photos": [
+      {
+        "id": "04adfbd1-05c8-4a9e-acbe-9c74daa74a92",
+        "view": "front",
+        "sha256": "2324f8d5b1e2f5d61a6dfec2a2bef4da974c597bc213cda0dd5c2659b122921b",
+        "byteLength": 12576,
+        "quality": {
+          "width": 240,
+          "height": 320,
+          "brightness": 129.50500831886106,
+          "sharpness": 1333.824591625622,
+          "warnings": [
+            "low_resolution"
+          ]
+        }
+      }
+    ],
+    "observation": {
+      "schemaVersion": "1.0",
+      "category": "motorcycle_jacket",
+      "attributes": [
+        {
+          "field": "material",
+          "value": "leather",
+          "kind": "inference",
+          "imageIds": [
+            "04adfbd1-05c8-4a9e-acbe-9c74daa74a92"
+          ]
+        }
+      ],
+      "concerns": [
+        {
+          "kind": "abrasion",
+          "area": "protective",
+          "imageId": "04adfbd1-05c8-4a9e-acbe-9c74daa74a92"
+        },
+        {
+          "kind": "abrasion",
+          "area": "protective",
+          "imageId": "04adfbd1-05c8-4a9e-acbe-9c74daa74a92"
+        },
+        {
+          "kind": "abrasion",
+          "area": "unknown",
+          "imageId": "04adfbd1-05c8-4a9e-acbe-9c74daa74a92"
+        }
+      ],
+      "missingViews": [
+        "back",
+        "label"
+      ],
+      "multipleItems": false,
+      "inspection": {
+        "version": "photo-evidence-1",
+        "photos": [
+          {
+            "findings": [
+              {
+                "evidence": "White scuffed marks on the shoulder panel near the Alpinestars logo",
+                "zone": "shoulder",
+                "kind": "abrasion",
+                "clarity": "clear"
+              },
+              {
+                "evidence": "Faint white abrasion streaks along the upper arm seam area",
+                "zone": "upper_arm",
+                "kind": "abrasion",
+                "clarity": "possible"
+              },
+              {
+                "evidence": "White scuff marks on the cuff area near the bottom edge",
+                "zone": "cuff",
+                "kind": "abrasion",
+                "clarity": "clear"
+              }
+            ],
+            "crashPattern": "consistent_with_sliding",
+            "category": "motorcycle_jacket",
+            "material": "leather",
+            "imageId": "04adfbd1-05c8-4a9e-acbe-9c74daa74a92"
+          }
+        ]
+      },
+      "provider": "local_vlm",
+      "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+      "coverage": "visual_observations",
+      "durationMs": 4307.6728,
+      "usage": {
+        "inputTokens": 915,
+        "outputTokens": 300
+      }
+    },
+    "decision": {
+      "state": "human_inspection",
+      "policyVersion": "2026-10-26.2",
+      "title": "Crash-like damage detected",
+      "summary": "The visible wear is consistent with sliding or road contact. Keep this item out of offer consideration. The photographs do not establish its crash history.",
+      "reasons": [
+        {
+          "code": "concern_abrasion",
+          "text": "Shoulder: White scuffed marks on the shoulder panel near the Alpinestars logo"
+        },
+        {
+          "code": "concern_abrasion",
+          "text": "Upper sleeve: Faint white abrasion streaks along the upper arm seam area"
+        },
+        {
+          "code": "concern_abrasion",
+          "text": "Cuff: White scuff marks on the cuff area near the bottom edge"
+        }
+      ],
+      "nextAction": "Set this item aside for physical inspection. Adding a clean view or changing a history answer does not establish protective performance.",
+      "offerRecommended": false,
+      "protectivePerformanceCertified": false
+    },
+    "timing": {
+      "totalMs": 4321.6574000000255,
+      "preprocessingMs": 13.589800000016112,
+      "inferenceMs": 4307.6728,
+      "cached": false
+    }
+  },
+  "calls": [
+    {
+      "call": 7,
+      "at": "2026-10-26T19:33:00.590Z",
+      "stage": "extraction",
+      "elapsedMs": 3565.765400000004,
+      "promptTokens": 480,
+      "outputTokens": 262
+    },
+    {
+      "call": 8,
+      "at": "2026-10-26T19:33:01.330Z",
+      "stage": "verification",
+      "elapsedMs": 738.9452000000165,
+      "promptTokens": 435,
+      "outputTokens": 38
+    }
+  ],
+  "boundary": "Actual browser decode/JPEG preparation and API pipeline. A negative control may retain an existing primary-model concern; this check forbids an added recovery flag."
+}

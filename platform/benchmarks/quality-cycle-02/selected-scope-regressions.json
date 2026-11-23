@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-26T23:37:27.513Z",
+  "scope": "Latest eligibility and normalization replay over historical focus experiments. No new inference; 364 labelled rows, one without a visual output. All scored outputs are preserved; ambiguity changes are explicit.",
+  "summary": {
+    "audit": {
+      "cases": 193,
+      "positiveRegressions": 0,
+      "newNegativeAlerts": 0,
+      "keptRecoveries": [
+        "commons-087",
+        "commons-090",
+        "fabric-049"
+      ]
+    },
+    "hard": {
+      "cases": 106,
+      "positiveRegressions": 0,
+      "newNegativeAlerts": 0,
+      "keptRecoveries": []
+    },
+    "fresh": {
+      "cases": 59,
+      "positiveRegressions": 0,
+      "newNegativeAlerts": 0,
+      "keptRecoveries": []
+    },
+    "final": {
+      "cases": 5,
+      "positiveRegressions": 0,
+      "newNegativeAlerts": 0,
+      "keptRecoveries": []
+    }
+  },
+  "differences": [
+    {
+      "id": "commons-021",
+      "set": "audit",
+      "condition": "ambiguous",
+      "reason": "Narrower eligibility removes optional recovery"
+    }
+  ]
+}

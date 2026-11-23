@@ -1,0 +1,132 @@
+{
+  "result": {
+    "schemaVersion": "1.0",
+    "assessmentId": "6f1dedfb-3a6a-4256-9627-50544033a5e0",
+    "status": "complete",
+    "photos": [
+      {
+        "id": "5363a67b-449b-4a81-8e56-74ee1fb01a81",
+        "view": "front",
+        "sha256": "844d8c0c054b1fa5cc7f54a447969e544da7fb4b929a7a62761c78567cd6128e",
+        "byteLength": 21302,
+        "quality": {
+          "width": 241,
+          "height": 320,
+          "brightness": 73.73643533764545,
+          "sharpness": 1755.6619654514095,
+          "warnings": [
+            "low_resolution"
+          ]
+        }
+      }
+    ],
+    "observation": {
+      "schemaVersion": "1.0",
+      "category": "boots",
+      "attributes": [
+        {
+          "field": "material",
+          "value": "mixed",
+          "kind": "inference",
+          "imageIds": [
+            "5363a67b-449b-4a81-8e56-74ee1fb01a81"
+          ]
+        }
+      ],
+      "concerns": [
+        {
+          "kind": "abrasion",
+          "area": "unknown",
+          "imageId": "5363a67b-449b-4a81-8e56-74ee1fb01a81"
+        },
+        {
+          "kind": "other",
+          "area": "unknown",
+          "imageId": "5363a67b-449b-4a81-8e56-74ee1fb01a81"
+        }
+      ],
+      "missingViews": [
+        "back",
+        "label"
+      ],
+      "multipleItems": false,
+      "inspection": {
+        "version": "photo-evidence-1",
+        "photos": [
+          {
+            "findings": [
+              {
+                "evidence": "scraped and worn surface on the metallic knee protector insert",
+                "zone": "unknown",
+                "kind": "abrasion",
+                "clarity": "clear"
+              },
+              {
+                "evidence": "discoloration and wear marks on the leather surrounding the insert",
+                "zone": "unknown",
+                "kind": "other",
+                "clarity": "clear"
+              }
+            ],
+            "crashPattern": "consistent_with_sliding",
+            "category": "boots",
+            "material": "mixed",
+            "imageId": "5363a67b-449b-4a81-8e56-74ee1fb01a81"
+          }
+        ]
+      },
+      "provider": "local_vlm",
+      "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+      "coverage": "visual_observations",
+      "durationMs": 2796.1612000000023,
+      "usage": {
+        "inputTokens": 839,
+        "outputTokens": 182
+      }
+    },
+    "decision": {
+      "state": "human_inspection",
+      "policyVersion": "2026-10-26.2",
+      "title": "Crash-like damage detected",
+      "summary": "The visible wear is consistent with sliding or road contact. Keep this item out of offer consideration. The photographs do not establish its crash history.",
+      "reasons": [
+        {
+          "code": "concern_abrasion",
+          "text": "Visible area: scraped and worn surface on the metallic knee protector insert"
+        },
+        {
+          "code": "concern_other",
+          "text": "Visible area: discoloration and wear marks on the leather surrounding the insert"
+        }
+      ],
+      "nextAction": "Set this item aside for physical inspection. Adding a clean view or changing a history answer does not establish protective performance.",
+      "offerRecommended": false,
+      "protectivePerformanceCertified": false
+    },
+    "timing": {
+      "totalMs": 2813.974099999992,
+      "preprocessingMs": 17.4829000000027,
+      "inferenceMs": 2796.1612000000023,
+      "cached": false
+    }
+  },
+  "calls": [
+    {
+      "call": 9,
+      "at": "2026-10-26T19:33:04.030Z",
+      "stage": "extraction",
+      "elapsedMs": 2111.576399999991,
+      "promptTokens": 480,
+      "outputTokens": 147
+    },
+    {
+      "call": 10,
+      "at": "2026-10-26T19:33:04.713Z",
+      "stage": "verification",
+      "elapsedMs": 681.4906999999948,
+      "promptTokens": 359,
+      "outputTokens": 35
+    }
+  ],
+  "boundary": "Actual browser decode/JPEG preparation and API pipeline. A negative control may retain an existing primary-model concern; this check forbids an added recovery flag."
+}

@@ -1,0 +1,14 @@
+rule (soft when ...)                    sharp   blur1.5     blur3     blur6   dim0.55       q55   stops newly cleared s3 / s6
+lapVar <  50 and normalised < 15             0%        7%       74%       97%        1%        1%   8/9 / 40/40
+lapVar <  50 and normalised < 20             0%        8%       79%       99%        4%        2%   8/9 / 40/40
+lapVar <  50 and normalised < 30             0%        9%       87%       99%        6%        2%   8/9 / 40/40
+lapVar <  50 and normalised < 40             0%        9%       90%       99%        7%        2%   8/9 / 40/40
+lapVar <  75 and normalised < 15             1%       11%       74%       97%        1%        2%   8/9 / 40/40
+lapVar <  75 and normalised < 20             2%       18%       80%       99%        4%        3%   8/9 / 40/40
+lapVar <  75 and normalised < 30             2%       25%       87%       99%        6%        3%   8/9 / 40/40
+lapVar <  75 and normalised < 40             2%       27%       91%       99%        7%        3%   8/9 / 40/40
+lapVar < 100 and normalised < 15             1%       11%       74%       97%        1%        2%   8/9 / 40/40
+lapVar < 100 and normalised < 20             3%       20%       80%       99%        4%        4%   8/9 / 40/40
+lapVar < 100 and normalised < 30             4%       33%       87%       99%        6%        4%   8/9 / 40/40
+lapVar < 100 and normalised < 40             4%       38%       91%       99%        7%        4%   8/9 / 40/40
+lapVar < 50 alone                          0%       10%       95%      100%       12%        2%   9/9 / 40/40

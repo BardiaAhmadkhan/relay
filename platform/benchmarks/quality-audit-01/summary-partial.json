@@ -1,0 +1,762 @@
+{
+  "generatedAt": "2026-10-26T21:12:49.098Z",
+  "complete": false,
+  "scope": "Purposeful diagnostic set; labels are assistant visual annotations, not expert physical inspection. Binary detection evaluates presence of any returned finding, not correctness of all descriptions. Ambiguous/unassessable cases excluded from binary totals. All request-attempt failures retained separately.",
+  "overall": {
+    "images": 194,
+    "completed": 31,
+    "groups": 82,
+    "positives": 75,
+    "negatives": 85,
+    "ambiguous": 28,
+    "unassessable": 6,
+    "detected": 11,
+    "misses": 0,
+    "falseFlags": 6,
+    "correctNegatives": 9,
+    "processingErrors": 0,
+    "firstAttemptFailures": 19,
+    "recoveredAfterRetry": 19,
+    "wrongDefectKinds": 3,
+    "inventedGarmentAnatomy": 1,
+    "clearOnUnassessable": 0,
+    "p50EndToEndMs": 13505.342999999993,
+    "p95EndToEndMs": 24492.645699999994,
+    "p50InferenceMs": 13153.146799999988,
+    "p95InferenceMs": 22756.74469999998
+  },
+  "domains": {
+    "garments_and_gear": {
+      "images": 78,
+      "completed": 12,
+      "groups": 67,
+      "positives": 8,
+      "negatives": 52,
+      "ambiguous": 18,
+      "unassessable": 0,
+      "detected": 1,
+      "misses": 0,
+      "falseFlags": 2,
+      "correctNegatives": 6,
+      "processingErrors": 0,
+      "firstAttemptFailures": 5,
+      "recoveredAfterRetry": 5,
+      "wrongDefectKinds": 0,
+      "inventedGarmentAnatomy": 0,
+      "clearOnUnassessable": 0,
+      "p50EndToEndMs": 4860.742199999993,
+      "p95EndToEndMs": 21494.061799999996,
+      "p50InferenceMs": 4725.589100000041,
+      "p95InferenceMs": 21165.75140000001
+    },
+    "commons_material_closeup": {
+      "images": 3,
+      "completed": 0,
+      "groups": 2,
+      "positives": 1,
+      "negatives": 0,
+      "ambiguous": 2,
+      "unassessable": 0,
+      "detected": 0,
+      "misses": 0,
+      "falseFlags": 0,
+      "correctNegatives": 0,
+      "processingErrors": 0,
+      "firstAttemptFailures": 0,
+      "recoveredAfterRetry": 0,
+      "wrongDefectKinds": 0,
+      "inventedGarmentAnatomy": 0,
+      "clearOnUnassessable": 0,
+      "p50EndToEndMs": null,
+      "p95EndToEndMs": null,
+      "p50InferenceMs": null,
+      "p95InferenceMs": null
+    },
+    "unassessable_scene": {
+      "images": 6,
+      "completed": 0,
+      "groups": 5,
+      "positives": 0,
+      "negatives": 0,
+      "ambiguous": 0,
+      "unassessable": 6,
+      "detected": 0,
+      "misses": 0,
+      "falseFlags": 0,
+      "correctNegatives": 0,
+      "processingErrors": 0,
+      "firstAttemptFailures": 0,
+      "recoveredAfterRetry": 0,
+      "wrongDefectKinds": 0,
+      "inventedGarmentAnatomy": 0,
+      "clearOnUnassessable": 0,
+      "p50EndToEndMs": null,
+      "p95EndToEndMs": null,
+      "p50InferenceMs": null,
+      "p95InferenceMs": null
+    },
+    "hardware": {
+      "images": 7,
+      "completed": 2,
+      "groups": 4,
+      "positives": 0,
+      "negatives": 7,
+      "ambiguous": 0,
+      "unassessable": 0,
+      "detected": 0,
+      "misses": 0,
+      "falseFlags": 1,
+      "correctNegatives": 1,
+      "processingErrors": 0,
+      "firstAttemptFailures": 1,
+      "recoveredAfterRetry": 1,
+      "wrongDefectKinds": 0,
+      "inventedGarmentAnatomy": 0,
+      "clearOnUnassessable": 0,
+      "p50EndToEndMs": 4307.272200000007,
+      "p95EndToEndMs": 12225.378700000001,
+      "p50InferenceMs": 4161.961099999957,
+      "p95InferenceMs": 10022.442199999932
+    },
+    "fabric_closeup": {
+      "images": 80,
+      "completed": 14,
+      "groups": 3,
+      "positives": 59,
+      "negatives": 20,
+      "ambiguous": 1,
+      "unassessable": 0,
+      "detected": 9,
+      "misses": 0,
+      "falseFlags": 3,
+      "correctNegatives": 2,
+      "processingErrors": 0,
+      "firstAttemptFailures": 11,
+      "recoveredAfterRetry": 11,
+      "wrongDefectKinds": 2,
+      "inventedGarmentAnatomy": 0,
+      "clearOnUnassessable": 0,
+      "p50EndToEndMs": 14056.630900000047,
+      "p95EndToEndMs": 24492.645699999994,
+      "p50InferenceMs": 13739.201999999932,
+      "p95InferenceMs": 22756.74469999998
+    },
+    "leather_closeup": {
+      "images": 20,
+      "completed": 3,
+      "groups": 1,
+      "positives": 7,
+      "negatives": 6,
+      "ambiguous": 7,
+      "unassessable": 0,
+      "detected": 1,
+      "misses": 0,
+      "falseFlags": 0,
+      "correctNegatives": 0,
+      "processingErrors": 0,
+      "firstAttemptFailures": 2,
+      "recoveredAfterRetry": 2,
+      "wrongDefectKinds": 1,
+      "inventedGarmentAnatomy": 1,
+      "clearOnUnassessable": 0,
+      "p50EndToEndMs": 15852.177800000005,
+      "p95EndToEndMs": 36711.872200000005,
+      "p50InferenceMs": 15591.586700000102,
+      "p95InferenceMs": 35075.48349999997
+    }
+  },
+  "failures": [
+    {
+      "id": "commons-004",
+      "domain": "garments_and_gear",
+      "label": "no_visible_defect",
+      "outcome": "false_flag",
+      "reference": "Visible leather folds, panels, stitching, embroidery or graphics; no definite material break or ragged surface loss is apparent.",
+      "findings": [
+        {
+          "evidence": "Blue leather back panel shows extensive surface wrinkling and creasing consistent with wear.",
+          "zone": "back",
+          "kind": "other",
+          "clarity": "possible"
+        },
+        {
+          "evidence": "Black leather sleeves show minor surface scuffing along the outer edge near the shoulder seam.",
+          "zone": "shoulder",
+          "kind": "abrasion",
+          "clarity": "possible"
+        },
+        {
+          "evidence": "Blue back panel exhibits localized areas of lighter discoloration and slight surface roughness.",
+          "zone": "back",
+          "kind": "other",
+          "clarity": "possible"
+        }
+      ],
+      "firstAttemptFailed": true
+    },
+    {
+      "id": "commons-038",
+      "domain": "garments_and_gear",
+      "label": "no_visible_defect",
+      "outcome": "false_flag",
+      "reference": "Displayed riding suit and boots with regular printed panels and construction; no visible rupture.",
+      "findings": [
+        {
+          "evidence": "Scuffed and worn surface on the toe area of the left boot",
+          "zone": "unknown",
+          "kind": "abrasion",
+          "clarity": "clear"
+        },
+        {
+          "evidence": "Visible scuffing and wear on the side panel of the right boot",
+          "zone": "unknown",
+          "kind": "abrasion",
+          "clarity": "clear"
+        },
+        {
+          "evidence": "Minor surface wear consistent with use on the lower leg area of the trousers",
+          "zone": "unknown",
+          "kind": "other",
+          "clarity": "possible"
+        }
+      ],
+      "firstAttemptFailed": true
+    },
+    {
+      "id": "commons-099",
+      "domain": "hardware",
+      "label": "no_visible_defect",
+      "outcome": "false_flag",
+      "reference": "Metal zipper teeth separate normally below the slider and join above it. No missing teeth or broken slider is evident.",
+      "findings": [
+        {
+          "evidence": "Blue woven fabric with a zipper running vertically through the center",
+          "zone": "unknown",
+          "kind": "other",
+          "clarity": "possible"
+        }
+      ],
+      "firstAttemptFailed": true
+    },
+    {
+      "id": "fabric-001",
+      "domain": "fabric_closeup",
+      "label": "no_visible_defect",
+      "outcome": "false_flag",
+      "reference": "Oil-like discoloration or a printed motif is visible; no broken fibers, tear, hole, or interrupted seam is apparent. This is a physical-damage negative, not chemical-condition clearance.",
+      "findings": [
+        {
+          "evidence": "A circular, light-colored stain on the fabric surface.",
+          "zone": "unknown",
+          "kind": "other",
+          "clarity": "possible"
+        }
+      ],
+      "firstAttemptFailed": true
+    },
+    {
+      "id": "fabric-011",
+      "domain": "fabric_closeup",
+      "label": "no_visible_defect",
+      "outcome": "false_flag",
+      "reference": "Oil-like discoloration or a printed motif is visible; no broken fibers, tear, hole, or interrupted seam is apparent. This is a physical-damage negative, not chemical-condition clearance.",
+      "findings": [
+        {
+          "evidence": "dark circular stain on blue fabric",
+          "zone": "unknown",
+          "kind": "other",
+          "clarity": "possible"
+        }
+      ],
+      "firstAttemptFailed": true
+    },
+    {
+      "id": "fabric-018",
+      "domain": "fabric_closeup",
+      "label": "no_visible_defect",
+      "outcome": "false_flag",
+      "reference": "Oil-like discoloration or a printed motif is visible; no broken fibers, tear, hole, or interrupted seam is apparent. This is a physical-damage negative, not chemical-condition clearance.",
+      "findings": [
+        {
+          "evidence": "A brownish stain or discoloration is visible on the fabric near the green leaf graphic.",
+          "zone": "unknown",
+          "kind": "other",
+          "clarity": "clear"
+        }
+      ],
+      "firstAttemptFailed": true
+    }
+  ],
+  "operationalFailures": [
+    {
+      "id": "commons-004",
+      "domain": "garments_and_gear",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:10:56.683Z",
+          "ms": 10019.197900000028,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:11:08.917Z",
+          "ms": 1434.1322999999975,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "false_flag"
+    },
+    {
+      "id": "commons-038",
+      "domain": "garments_and_gear",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:11:47.725Z",
+          "ms": 10025.268299999996,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:11:59.955Z",
+          "ms": 2694.767300000007,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "false_flag"
+    },
+    {
+      "id": "commons-056",
+      "domain": "garments_and_gear",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:08:04.130Z",
+          "ms": 10040.546100000007,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:08:16.379Z",
+          "ms": 9244.7019,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "ambiguous_flagged"
+    },
+    {
+      "id": "commons-060",
+      "domain": "garments_and_gear",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:09:57.554Z",
+          "ms": 10008.37539999999,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:10:09.769Z",
+          "ms": 7544.880499999999,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "ambiguous_flagged"
+    },
+    {
+      "id": "commons-093",
+      "domain": "garments_and_gear",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:12:02.654Z",
+          "ms": 10006.13830000005,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:12:14.865Z",
+          "ms": 5055.912300000025,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "commons-099",
+      "domain": "hardware",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:11:15.124Z",
+          "ms": 10005.621900000027,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:11:27.336Z",
+          "ms": 13.556499999947846,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "false_flag"
+    },
+    {
+      "id": "fabric-001",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:12:19.928Z",
+          "ms": 10017.237800000003,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:12:32.153Z",
+          "ms": 1831.6221999999834,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "false_flag"
+    },
+    {
+      "id": "fabric-011",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:10:42.181Z",
+          "ms": 10017.705499999982,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:10:54.409Z",
+          "ms": 2267.365899999975,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "false_flag"
+    },
+    {
+      "id": "fabric-018",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:07:35.440Z",
+          "ms": 10009.056400000001,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:07:47.663Z",
+          "ms": 259.68760000000475,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "false_flag"
+    },
+    {
+      "id": "fabric-027",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:08:25.632Z",
+          "ms": 10018.27979999999,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:08:37.851Z",
+          "ms": 10050.418399999995,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:08:50.112Z",
+          "ms": 12.792600000015227,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "fabric-029",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:08:50.130Z",
+          "ms": 10009.131900000008,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:09:02.351Z",
+          "ms": 7317.131400000013,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "fabric-047",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:07:47.928Z",
+          "ms": 10012.761400000003,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:08:00.148Z",
+          "ms": 3970.530500000008,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "fabric-052",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:10:21.632Z",
+          "ms": 10017.962099999975,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:10:33.858Z",
+          "ms": 8315.544300000009,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "fabric-054",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:09:36.161Z",
+          "ms": 10018.8609,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:09:48.383Z",
+          "ms": 2461.7045999999973,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "fabric-057",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:12:33.995Z",
+          "ms": 10004.732399999979,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:12:46.213Z",
+          "ms": 635.392200000002,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "fabric-068",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:06:11.339Z",
+          "ms": 10012.6092,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:06:23.565Z",
+          "ms": 9000.213499999998,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "fabric-078",
+      "domain": "fabric_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:09:22.650Z",
+          "ms": 10017.931400000001,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:09:34.876Z",
+          "ms": 1280.0408999999927,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "leather-007",
+      "domain": "leather_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:11:31.864Z",
+          "ms": 10035.841299999971,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:11:44.109Z",
+          "ms": 3606.6565999999875,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "detected"
+    },
+    {
+      "id": "leather-008",
+      "domain": "leather_closeup",
+      "attempts": [
+        {
+          "attemptedAt": "2026-10-26T21:06:42.097Z",
+          "ms": 10025.240299999998,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:06:54.336Z",
+          "ms": 10021.225400000003,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:07:06.563Z",
+          "ms": 10020.122500000005,
+          "error": {
+            "code": "TypeError",
+            "message": "fetch failed",
+            "causeCode": "UND_ERR_SOCKET"
+          }
+        },
+        {
+          "attemptedAt": "2026-10-26T21:07:18.793Z",
+          "ms": 15.295100000003004,
+          "httpStatus": 200
+        }
+      ],
+      "eventualOutcome": "ambiguous_flagged"
+    }
+  ],
+  "metadataFindings": [
+    {
+      "id": "fabric-051",
+      "subject": "fabric_sample",
+      "inventedGarmentAnatomy": false,
+      "expectedKindMatched": false,
+      "findings": [
+        {
+          "evidence": "A thin, linear discoloration or scratch mark runs diagonally across the fabric.",
+          "zone": "unknown",
+          "kind": "other",
+          "clarity": "clear"
+        }
+      ]
+    },
+    {
+      "id": "fabric-052",
+      "subject": "fabric_sample",
+      "inventedGarmentAnatomy": false,
+      "expectedKindMatched": false,
+      "findings": [
+        {
+          "evidence": "A vertical seam runs down the center of the garment, with slight separation at the bottom.",
+          "zone": "unknown",
+          "kind": "seam",
+          "clarity": "clear"
+        }
+      ]
+    },
+    {
+      "id": "leather-007",
+      "subject": "leather_sample",
+      "inventedGarmentAnatomy": true,
+      "expectedKindMatched": false,
+      "findings": [
+        {
+          "evidence": "Frayed edge along the bottom hem with loose threads",
+          "zone": "hem",
+          "kind": "other",
+          "clarity": "clear"
+        }
+      ]
+    }
+  ]
+}

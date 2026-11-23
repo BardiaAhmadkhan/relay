@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-26T21:03:30.829Z",
+  "status": "interrupted-diagnostic-run",
+  "attempts": 44,
+  "counts": {
+    "TypeError": 7,
+    "busy": 36,
+    "correct_negative": 1
+  },
+  "reason": "First request connection closed around 10 seconds; the adapter kept its slot and later requests returned busy. This incomplete run measures operational/harness behavior, not full-set visual accuracy. Preserve it; repeat the frozen corpus after explicit warmup with bounded backoff, no prompt/model/source changes."
+}

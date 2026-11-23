@@ -1,0 +1,85 @@
+{
+  "runtimeStore": "isolated",
+  "baseManifest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+  "parameterCounts": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "totalParameters": 2213241664,
+  "learnedBytesPerArm": 2683385216,
+  "arms": {
+    "base": {
+      "model": "relay-inspection:base",
+      "manifestDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+      "projectorDigest": "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+      "projectorBytes": 671372768,
+      "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+      "audit": {}
+    },
+    "semantic": {
+      "model": "relay-inspection:semantic",
+      "manifestDigest": "e9010d9e4fb14fd2d6bb91986a9c8748c9b4dbac1abfd0ab604fc759daa8c8f0",
+      "projectorDigest": "9aa415f841355a2a56a983815e61204b388e1f98cea788b722922a6fd9686ec7",
+      "projectorBytes": 671372768,
+      "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+      "audit": {
+        "alpha": 0.5,
+        "preRoundRelativeFrobenius": 0.011033442134422113,
+        "preRoundFrobenius": 0.3154627274682578,
+        "postRoundFrobenius": 0.3179478513414299,
+        "postRoundDirectionEnergyFraction": 0.981430562363555,
+        "changedBf16Weights": 5759206,
+        "changedF32Biases": 2048,
+        "weightOffset": 638854624,
+        "biasOffset": 638846432
+      }
+    },
+    "control": {
+      "model": "relay-inspection:control",
+      "manifestDigest": "04c2b15ed6b82259d6b0ed1f6c698123390c978703b569bc713d7d4c9b882515",
+      "projectorDigest": "607e93302498928cd75261dcf8be0d2ba939336c4123cd30d5eb18bd149a5ac0",
+      "projectorBytes": 671372768,
+      "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+      "audit": {
+        "alpha": 0.4991831461317424,
+        "preRoundRelativeFrobenius": 0.011033442134422155,
+        "preRoundFrobenius": 0.315462727468259,
+        "postRoundFrobenius": 0.31798926829884927,
+        "postRoundDirectionEnergyFraction": 0.9812800931614107,
+        "changedBf16Weights": 5812903,
+        "changedF32Biases": 2048,
+        "weightOffset": 638854624,
+        "biasOffset": 638846432
+      }
+    }
+  },
+  "axisCosine": 0.041032136009418706,
+  "taskWordIds": {
+    "torn": 20496,
+    "ripped": 41572,
+    "shredded": 71600,
+    "broken": 10548,
+    "cracked": 41423,
+    "detached": 42465,
+    "intact": 33295,
+    "worn": 22962,
+    "dusty": 74245,
+    "stained": 58025,
+    "faded": 51544,
+    "polished": 41928
+  },
+  "controlWordIds": {
+    "loud": 16850,
+    "noisy": 47622,
+    "booming": 65408,
+    "ringing": 64779,
+    "musical": 17264,
+    "audible": 76592,
+    "silent": 20413,
+    "quiet": 11012,
+    "calm": 18717,
+    "muted": 57026,
+    "faint": 36334,
+    "peaceful": 24832
+  }
+}

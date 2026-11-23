@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-26T23:52:47.323Z",
+  "health": {
+    "status": "ok",
+    "schemaVersion": "1.0",
+    "policyVersion": "2026-10-26.2",
+    "provider": "local_vlm",
+    "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1+evidence-claims-4+review-index-1+focused-tear-context-3",
+    "externalProvider": false,
+    "processing": "ephemeral",
+    "coverage": "visual_observations",
+    "maxImages": 6
+  },
+  "testCacheCleared": {
+    "cleared": true,
+    "inFlight": 0
+  },
+  "sourceFiles": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--inspection.ts",
+      "sha256": "ecf14d202fdae0466040f2a1d7e8d7d357848aab3ab1fa4bdebfbaca112b3193"
+    },
+    {
+      "path": "packages/vision/focused-tear.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--focused-tear.ts",
+      "sha256": "b17b87124700ad7295e3ec79b361f4d521693f4456cb84f3c5f454f9fa00805e"
+    },
+    {
+      "path": "packages/vision/review-repair.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "packages/vision/cache-policy.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--cache-policy.ts",
+      "sha256": "93490c72093f14e19771be29961ebca321829d935e10dfc184384f0884b51f63"
+    },
+    {
+      "path": "server/app.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/server--app.ts",
+      "sha256": "80c55ff73b19b4cee0b1fe7765974816f61337945c45df9081f7cd5153e55c3d"
+    },
+    {
+      "path": "tests/api.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--api.test.ts",
+      "sha256": "97231503d6096129ed51441b29315d0ed4ccc9ed8633a75d39105df80697e9a3"
+    },
+    {
+      "path": "tests/inspection.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--inspection.test.ts",
+      "sha256": "6398ed3bd9f29eb0f3977fed8a8f379524862ee59aee15d940dc47a4da92ec44"
+    },
+    {
+      "path": "tests/focused-tear.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--focused-tear.test.ts",
+      "sha256": "7d7db77fcc5ac0856a32e461675d66f0efb6cf59e6b27dca4f3de9d2ff758646"
+    },
+    {
+      "path": "tests/review-repair.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--review-repair.test.ts",
+      "sha256": "92ba0eecad41e865af039965c550ae5103a64f29a834bd58590de66a49cdfac8"
+    },
+    {
+      "path": "tests/evidence-contract.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--evidence-contract.test.ts",
+      "sha256": "3b47d6d119171cf1d4f9eb9da7fad6d31554a0f5f2fec2664596958b65d1af97"
+    }
+  ],
+  "verification": "benchmarks/quality-cycle-02/final-verification.json"
+}

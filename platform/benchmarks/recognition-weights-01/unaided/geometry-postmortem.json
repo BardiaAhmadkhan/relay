@@ -1,0 +1,345 @@
+{
+  "analysisStatus": "Post hoc diagnosis only; no thresholds selected or deployed",
+  "oracleMedianArea": 0.01,
+  "proposedMedianArea": 0.5625,
+  "medianProposalCenterDistancePx": 366.3429171809321,
+  "inside128CenteredAtProposal": 1,
+  "rows": [
+    {
+      "item": "20260226_111728_8323cd31",
+      "mode": "proposed",
+      "frameFraction": 1.0,
+      "centerDistance": 16.925964706627507,
+      "inside128CenteredAtProposal": true
+    },
+    {
+      "item": "20260218_113253_ddcee7bd",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 371.10396454363047,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260225_121234_b9b9b0f7",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 1154.7041414389446,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_105737_ea73116f",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 220.25246868850053,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260219_082901_1fe16d20",
+      "mode": "proposed",
+      "frameFraction": 0.02674587673611111,
+      "centerDistance": 810.4276579683097,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260311_153020_6178e68f",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 809.9531497716398,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_155138_3b38e63b",
+      "mode": "oracle",
+      "frameFraction": 0.0656640625,
+      "centerDistance": 296.72085636429824,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_151036_d45f3222",
+      "mode": "proposed",
+      "frameFraction": 0.84697509765625,
+      "centerDistance": 222.06601111709335,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_131858_460f8164",
+      "mode": "proposed",
+      "frameFraction": 0.20959228515625,
+      "centerDistance": 322.14204031859146,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_134241_a184d209",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 361.58186981823366,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260318_123436_09810a01",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 470.6066073696799,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260218_113253_ddcee7bd",
+      "mode": "oracle",
+      "frameFraction": 0.0004938271604938272,
+      "centerDistance": 371.10396454363047,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260220_122128_46ec3467",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 1480.944038282676,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_155138_3b38e63b",
+      "mode": "proposed",
+      "frameFraction": 0.5166015625,
+      "centerDistance": 296.72085636429824,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_134241_a184d209",
+      "mode": "oracle",
+      "frameFraction": 0.0004938271604938272,
+      "centerDistance": 361.58186981823366,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260217_072806_d6088397",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 862.3626787060072,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260217_095044_c863235c",
+      "mode": "proposed",
+      "frameFraction": 1.0,
+      "centerDistance": 73.17671782233744,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260311_153020_6178e68f",
+      "mode": "oracle",
+      "frameFraction": 0.0046789400077160495,
+      "centerDistance": 809.9531497716398,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_102425_2388de32",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 247.6010289381892,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260220_141719_5126e4be",
+      "mode": "oracle",
+      "frameFraction": 0.31367778260030865,
+      "centerDistance": 391.1753403526354,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_151036_d45f3222",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 222.06601111709335,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_105737_ea73116f",
+      "mode": "proposed",
+      "frameFraction": 1.0,
+      "centerDistance": 220.25246868850053,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260219_110148_c50b0be2",
+      "mode": "proposed",
+      "frameFraction": 1.0,
+      "centerDistance": 115.04274001974221,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260226_144320_b5e77522",
+      "mode": "oracle",
+      "frameFraction": 0.021267361111111112,
+      "centerDistance": 869.2661416390266,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_131858_460f8164",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 322.14204031859146,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260225_121234_b9b9b0f7",
+      "mode": "oracle",
+      "frameFraction": 0.0004938271604938272,
+      "centerDistance": 1154.7041414389446,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260218_112127_bfba047d",
+      "mode": "oracle",
+      "frameFraction": 0.001650390625,
+      "centerDistance": 1110.17570575844,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_101432_0290383e",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 184.20979887074412,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260217_072806_d6088397",
+      "mode": "oracle",
+      "frameFraction": 0.002006293402777778,
+      "centerDistance": 862.3626787060072,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_113435_c72c4762",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 809.9180428637518,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_113435_c72c4762",
+      "mode": "oracle",
+      "frameFraction": 0.000625,
+      "centerDistance": 809.9180428637518,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260217_095044_c863235c",
+      "mode": "oracle",
+      "frameFraction": 0.01373291015625,
+      "centerDistance": 73.17671782233744,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260220_122128_46ec3467",
+      "mode": "oracle",
+      "frameFraction": 0.053155864197530864,
+      "centerDistance": 1480.944038282676,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_130038_b3752425",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 282.6022578338901,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_090036_96f482da",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 1010.0733837944647,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_090036_96f482da",
+      "mode": "oracle",
+      "frameFraction": 0.0037771267361111113,
+      "centerDistance": 1010.0733837944647,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260226_111728_8323cd31",
+      "mode": "oracle",
+      "frameFraction": 0.03693603515625,
+      "centerDistance": 16.925964706627507,
+      "inside128CenteredAtProposal": true
+    },
+    {
+      "item": "20260318_123436_09810a01",
+      "mode": "oracle",
+      "frameFraction": 0.020069444444444445,
+      "centerDistance": 470.6066073696799,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_130038_b3752425",
+      "mode": "proposed",
+      "frameFraction": 0.717197265625,
+      "centerDistance": 282.6022578338901,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260218_112127_bfba047d",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 1110.17570575844,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260226_144320_b5e77522",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 869.2661416390266,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260224_102425_2388de32",
+      "mode": "proposed",
+      "frameFraction": 0.50099853515625,
+      "centerDistance": 247.6010289381892,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260220_141719_5126e4be",
+      "mode": "proposed",
+      "frameFraction": 0.5625,
+      "centerDistance": 391.1753403526354,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260219_082901_1fe16d20",
+      "mode": "oracle",
+      "frameFraction": 0.013369140625,
+      "centerDistance": 810.4276579683097,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260220_150712_d403f7ad",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 260.388967328957,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260219_110148_c50b0be2",
+      "mode": "oracle",
+      "frameFraction": 0.01,
+      "centerDistance": 115.04274001974221,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260227_101432_0290383e",
+      "mode": "proposed",
+      "frameFraction": 0.57902587890625,
+      "centerDistance": 184.20979887074412,
+      "inside128CenteredAtProposal": false
+    },
+    {
+      "item": "20260220_150712_d403f7ad",
+      "mode": "proposed",
+      "frameFraction": 1.0,
+      "centerDistance": 260.388967328957,
+      "inside128CenteredAtProposal": false
+    }
+  ]
+}

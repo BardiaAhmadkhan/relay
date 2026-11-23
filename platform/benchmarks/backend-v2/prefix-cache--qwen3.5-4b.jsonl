@@ -1,0 +1,8 @@
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"inline","step":0,"question":"break","promptTokens":838,"promptMs":392,"loadMs":22,"totalMs":514,"yes":0.9536,"answer":"yes"}
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"inline","step":1,"question":"slide","promptTokens":827,"promptMs":385,"loadMs":19,"totalMs":460,"yes":0.86917,"answer":"yes"}
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"inline","step":2,"question":"repair","promptTokens":797,"promptMs":376,"loadMs":19,"totalMs":449,"yes":0.04342,"answer":"no"}
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"inline","step":3,"question":"break","promptTokens":838,"promptMs":381,"loadMs":14,"totalMs":448,"yes":0.9536,"answer":"yes"}
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"image_turn","step":0,"question":"break","promptTokens":854,"promptMs":383,"loadMs":19,"totalMs":494,"yes":0.95001,"answer":"yes"}
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"image_turn","step":1,"question":"slide","promptTokens":843,"promptMs":377,"loadMs":16,"totalMs":445,"yes":0.83704,"answer":"yes"}
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"image_turn","step":2,"question":"repair","promptTokens":813,"promptMs":377,"loadMs":17,"totalMs":449,"yes":0.07867,"answer":"no"}
+{"id":"commons-031","model":"qwen3.5:4b","edge":1280,"width":960,"height":720,"layout":"image_turn","step":3,"question":"break","promptTokens":854,"promptMs":406,"loadMs":13,"totalMs":479,"yes":0.95001,"answer":"yes"}

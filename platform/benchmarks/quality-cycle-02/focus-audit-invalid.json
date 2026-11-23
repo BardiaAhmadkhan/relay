@@ -1,0 +1,5 @@
+{
+  "at": "2026-10-26T22:19:16.045Z",
+  "excluded": "focus-audit.jsonl",
+  "reason": "Harness passed the response-only imageId into the strict per-photo model schema before candidate execution. Remove only that response field; retain the original strict schema. No accuracy results from this run."
+}

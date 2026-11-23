@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Relay · Gear Lab",
+    "slug": "relay-gear-lab",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "scheme": "relaygear",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ca.relaygearlab.experimental",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Photograph your gear to prepare a review record.",
+        "NSPhotoLibraryUsageDescription": "Choose gear photographs for your review record."
+      }
+    },
+    "android": {
+      "package": "ca.relaygearlab.experimental",
+      "permissions": ["CAMERA"],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE"
+      ],
+      "allowBackup": false,
+      "versionCode": 2
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Photograph your gear to prepare a review record.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Choose gear photographs for your review record.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-font",
+      "./plugins/with-offline-vision.cjs"
+    ],
+    "web": {
+      "name": "Relay · Engineering Preview",
+      "bundler": "metro"
+    },
+    "extra": {
+      "stage": "pre-event-experiment"
+    },
+    "icon": "../assets/brand/relay-icon.png"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "asOf": "2026-11-18 America/Vancouver",
+  "canonicalReport": "docs/24-recognition-review/README.md",
+  "code": "experiments/recognition-weights-01",
+  "historicalBaselineGitCommit": "e3a6f58 (working tree with additional November implementation; git commit alone is insufficient)",
+  "baselineFingerprintBeforePolicyChange": "a86007801c7e2188e278e1f32908fdf178df07f93a358bb590cf3c3635dec403",
+  "candidateCapParameters": 4000000000,
+  "totalQwenParameters": 2213241664,
+  "qwenLearnedBytes": 2683385216,
+  "qwenPlusDonorUpperElementCount": 2233287143,
+  "qwenPlusEntireDonorBytes": 2724840756,
+  "qwenProjectorSha256": "9aa415f841355a2a56a983815e61204b388e1f98cea788b722922a6fd9686ec7",
+  "portableDeltaSha256": "37aec47980c33ed40a09b5f20d34b3c49b5c9073dd83df726ca7938b4467c2e7",
+  "protocolSha256": {
+    "protocol.json": "afd0660fc6ab0edb80c72e40ebfff63d6ae39905f86386ab62e93664a89518e9",
+    "semantic-protocol.json": "c7efc89dd0cb337a957bfdf65e43cbc69ab079c2ca57f839e8a3e58b69aeb6de",
+    "external-protocol.json": "2af3cd1b17abe78ad3f44090cf402e08c90399c08088dfd15d3d69cd0095aa98",
+    "external-control.json": "64b6f72e6e29b063def551a5aa276476b9d9e0816284644a779dd9bc156de9ec",
+    "location-protocol.json": "faa7cdc0c2ebb7f4503ce491c46086b5ca7920bee6e98d43b65b013f05fa4d82",
+    "trained-head-protocol.json": "0427a157b81a592f1fe44a3e920662816575d35304c4652656a1e700c6c9ec9a",
+    "unguided-protocol.json": "5d231775935d454d37dc5c727d6c804c95a972cc7419c50982f75a02a19c14be"
+  },
+  "studyResults": {
+    "texture": [
+      "results.json",
+      "location-results.json"
+    ],
+    "semantic": [
+      "semantic-results.json"
+    ],
+    "external": [
+      "semantic-results.json",
+      "location-results.json"
+    ],
+    "trained-head": [
+      "head-manifest.json",
+      "head-results.json"
+    ],
+    "unaided": [
+      "unguided-results.json",
+      "geometry-postmortem.json"
+    ]
+  },
+  "policy": "policy/checks.json",
+  "activation": "Only the positive-decision completeness change was applied to application code. No experimental weights were activated or deployed.",
+  "textureCollectionRunnerSha256": "6d4322487b2a9235592c325d6c1bee1dc0d95eddc2361065b799c44c00bb2b92"
+}

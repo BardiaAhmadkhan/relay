@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-27T01:31:12.740Z",
+  "results": [
+    {
+      "lock": "experiments/baselines.lock.json",
+      "files": 17,
+      "pass": true
+    },
+    {
+      "lock": "experiments/round-05/evidence.lock.json",
+      "files": 34,
+      "pass": true
+    },
+    {
+      "lock": "experiments/round-05/activation.lock.json",
+      "files": 3,
+      "pass": true
+    },
+    {
+      "lock": "experiments/quality-audit-01/labels.lock.json",
+      "files": 10,
+      "pass": true
+    },
+    {
+      "lock": "experiments/quality-audit-01/evidence.lock.json",
+      "files": 31,
+      "pass": true
+    },
+    {
+      "lock": "experiments/quality-cycle-02/evidence.lock.json",
+      "files": 376,
+      "pass": true
+    }
+  ]
+}

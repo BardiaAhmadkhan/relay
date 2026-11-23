@@ -1,0 +1,116 @@
+{
+  "ca-leather": {
+    "source": {
+      "url": "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/html/02/ch42-eng.html",
+      "publisher": "Canada Border Services Agency",
+      "jurisdiction": "CA",
+      "weight": "customs tariff",
+      "anchor": "Tariff item 4203.10.00 including MFN and preferential-treatment columns",
+      "fact": "leather-apparel-duty",
+      "freshDays": 30,
+      "cadence": "weekly and on new tariff editions"
+    },
+    "checked": "2026-11-21T21:12:41.336109+00:00",
+    "activeRulesChanged": false,
+    "status": "unchanged",
+    "wholeDocumentSha": "b3d196391a765db9d562de91b8445188964c1bb3b333a1ec3fa6b8b99cc02090",
+    "anchorSha": "8f2d2eb59b5e3e16e76a68d9f159031510d5fa7786fa05bf8dd8a2a4b62a8c87",
+    "values": {
+      "tariffItem": "4203.10.00",
+      "mfn": "13%",
+      "statisticalSubrows": 6
+    }
+  },
+  "knox-purchase": {
+    "source": {
+      "url": "https://www.planet-knox.com/maintain-motorcycle-body-armour-upgrades/",
+      "publisher": "Knox",
+      "jurisdiction": "maker-specific",
+      "weight": "manufacturer statement",
+      "anchor": "Purchase-clock sentence in the impact-protector user instructions",
+      "fact": "knox-purchase",
+      "freshDays": 90,
+      "cadence": "monthly"
+    },
+    "checked": "2026-11-21T21:12:41.336109+00:00",
+    "activeRulesChanged": false,
+    "status": "unchanged",
+    "wholeDocumentSha": "df265e28f51061a2364bb122a42dc5d79bb1572853ec52734688e4ad09928815",
+    "anchorSha": "590975419f5cdd26b734dc648ddffb5eaba4da19225674b71e66428a80197ae2",
+    "values": {
+      "interval": 5,
+      "unit": "years",
+      "from": "date of purchase"
+    }
+  },
+  "usps-ca": {
+    "source": {
+      "url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+      "publisher": "US Postal Service",
+      "jurisdiction": "US",
+      "weight": "published retail rate",
+      "anchor": "Priority Mail International retail parcels, Canada price group 1, first twelve weight bands",
+      "fact": "US-to-CA-retail-postage",
+      "freshDays": 30,
+      "cadence": "weekly and announced price changes"
+    },
+    "checked": "2026-11-21T21:12:41.336109+00:00",
+    "activeRulesChanged": false,
+    "status": "unchanged",
+    "wholeDocumentSha": "d3806a4fb328e2eda6de72da8f93ea037924cdf8a45e39c24c69ac3895cb0a5c",
+    "anchorSha": "c0c39ebcbaf94796adc2976ce066a013d34da7b254f31a5b16ba43e1c99102d0",
+    "values": {
+      "currency": "USD",
+      "canadaRetailCentsByPound": [
+        [
+          1,
+          4355
+        ],
+        [
+          2,
+          4705
+        ],
+        [
+          3,
+          5045
+        ],
+        [
+          4,
+          5385
+        ],
+        [
+          5,
+          5905
+        ],
+        [
+          6,
+          6435
+        ],
+        [
+          7,
+          6970
+        ],
+        [
+          8,
+          7530
+        ],
+        [
+          9,
+          8060
+        ],
+        [
+          10,
+          8625
+        ],
+        [
+          11,
+          9160
+        ],
+        [
+          12,
+          9710
+        ]
+      ]
+    }
+  }
+}

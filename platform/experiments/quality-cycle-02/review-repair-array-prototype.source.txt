@@ -1,0 +1,49 @@
+import { z } from 'zod';
+export const REVIEW_INDEX_VERSION = 'review-index-1';
+/** One corrective review after an invalid reference, with no remapping of model output.
+ * The ordinary request is unchanged. Empty verdicts remain valid; no finding is forced.
+ */
+export async function repairReviewIndices(options: {
+  count: number;
+  initialBody: string;
+  endpoint: string;
+  fetcher: typeof fetch;
+  signal?: AbortSignal;
+  budgetMs?: number;
+}) {
+  if (!Number.isInteger(options.count) || options.count < 1 || options.count > 6)
+    throw new Error('local_verification_invalid_index');
+  options.signal?.throwIfAborted();
+  const index = z
+    .number()
+    .int()
+    .min(0)
+    .max(options.count - 1);
+  const schema = z.strictObject({
+    supported: z.array(index).max(options.count),
+    uncertain: z.array(index).max(options.count),
+    crashPattern: z.enum(['consistent_with_sliding', 'not_observed', 'unclear']),
+  });
+  const body = JSON.parse(options.initialBody);
+  body.format = z.toJSONSchema(schema);
+  body.messages[1].content =
+    'The previous review contained an unavailable or repeated candidate reference. ' +
+    'The only valid zero-based indices are 0 through ' +
+    (options.count - 1) +
+    '. ' +
+    'Each candidate may appear at most once across both arrays. Empty arrays are valid. ' +
+    'Judge the photograph again; do not add unsupported findings. ' +
+    body.messages[1].content;
+  const deadline = AbortSignal.timeout(options.budgetMs ?? 2500);
+  const signal = options.signal ? AbortSignal.any([options.signal, deadline]) : deadline;
+  const response = await options.fetcher(options.endpoint, {
+    method: 'POST',
+    signal,
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) throw new Error('local_verification_invalid_index');
+  const raw: unknown = await response.json();
+  signal.throwIfAborted();
+  return raw;
+}

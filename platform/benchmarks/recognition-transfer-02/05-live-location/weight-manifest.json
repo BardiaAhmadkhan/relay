@@ -1,0 +1,13 @@
+{
+  "arms": {
+    "base": {
+      "model": "relay-inspection:base",
+      "manifestDigest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "projectorDigest": "e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60",
+      "projectorBytes": 675569120
+    }
+  },
+  "protocolSha256": "15510f7d35ffe105832e49e7dcdbc05e0c64a9fcf52528e10cb5d4e5e24eebe1",
+  "learnedBytesPerArm": 3324162336,
+  "totalParameters": 4539265536
+}

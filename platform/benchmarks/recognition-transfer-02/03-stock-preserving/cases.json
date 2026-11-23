@@ -1,0 +1,3654 @@
+{
+  "protocolSha256": "84b51e15784c4654b7ba42c9d2cc97f1e67b882195813361b134465cba68c6b5",
+  "sourcesSha256": "c3681e44c1253c5f183d733f60116345eb4f4cd236d83ae441d0bda5f2754d52",
+  "cases": [
+    {
+      "id": "w-holes-20260227_090209_89e7c6e1-shift",
+      "item": "20260227_090209_89e7c6e1",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 463,
+        "top": 1120,
+        "side": 554
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "bbee38d464e63b2d1e674e4e7dd4e61e18ff8efedfb304faa07a919c4633c8d7"
+    },
+    {
+      "id": "w-holes-20260227_083406_15f6b369-centre",
+      "item": "20260227_083406_15f6b369",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 318,
+        "top": 263,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "7c9e9b61998768cc5639e7c50e04613da7355acca53b36023443c801561cfd17"
+    },
+    {
+      "id": "w-spots-20260217_082430_64d12924-centre",
+      "item": "20260217_082430_64d12924",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 544,
+        "top": 1120,
+        "side": 173
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "13dcabc7aafa91b2069d58eeb266dee4cde30478410d1d19d1c30f2d7115f6fa"
+    },
+    {
+      "id": "w-spots-20260520_100110_ec0951b9-shift",
+      "item": "20260520_100110_ec0951b9",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 525,
+        "top": 1343,
+        "side": 123
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "39012ce355a64ad986d3a5c6ff1b94c42f01b7b66b3bdf3e633e0022c6a618b1"
+    },
+    {
+      "id": "w-spots-20260304_114007_4637988b-centre",
+      "item": "20260304_114007_4637988b",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 587,
+        "top": 589,
+        "side": 1043
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "8bb46d63a54ecf8cbac71fbff2980916a15f400519d68a0c718e60b558c244fd"
+    },
+    {
+      "id": "w-spots-20260226_130308_f91a6624-shift",
+      "item": "20260226_130308_f91a6624",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 211,
+        "top": 260,
+        "side": 77
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "a5e500ed8fbb7b03cf8d66752c3180487aca7aa3ba78d556a080c3b5ef257504"
+    },
+    {
+      "id": "w-holes-20260224_142450_9a4df40c-shift",
+      "item": "20260224_142450_9a4df40c",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 669,
+        "top": 2261,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3131b39a8df28f035b94dbcb791cc5dcc57c555cde13ad0ac9c68feb3c488162"
+    },
+    {
+      "id": "w-holes-20260227_105421_5295e0da-centre",
+      "item": "20260227_105421_5295e0da",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1077,
+        "top": 946,
+        "side": 81
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "a875a596935e04076ec88595791131d643e6ee6d62ba4613df6545e076d45f98"
+    },
+    {
+      "id": "w-spots-20260217_073036_776fdabc-shift",
+      "item": "20260217_073036_776fdabc",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 298,
+        "top": 238,
+        "side": 125
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "de54548fa108e576984af9d2b1c853bb52316c0ac5e81998afdc2673e2c7f4e7"
+    },
+    {
+      "id": "w-spots-20260302_155611_35fbcce6-shift",
+      "item": "20260302_155611_35fbcce6",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 130,
+        "top": 248,
+        "side": 321
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "e1fde5fb5689cc4410eb8a69b4b69a8defb158e34663c78e22a5d19b6efce925"
+    },
+    {
+      "id": "w-holes-20260224_150042_8d597bc2-shift",
+      "item": "20260224_150042_8d597bc2",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 194,
+        "top": 321,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "5db3fe9ef0210d82c4f9113e2b6bc1dfaf481991715fda038ce3c5c749b6c644"
+    },
+    {
+      "id": "w-holes-20260227_090209_89e7c6e1-centre",
+      "item": "20260227_090209_89e7c6e1",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 601,
+        "top": 1120,
+        "side": 554
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "d0bb709127fa2b201b2428c3abf9302ca1a4ebf330fe26b28dd8f3997a28a8e5"
+    },
+    {
+      "id": "w-holes-20260302_111713_45274bd9-centre",
+      "item": "20260302_111713_45274bd9",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 329,
+        "top": 2747,
+        "side": 154
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3578d40a31487a68e8b4b51156832875b4d40245ab70033ce1aebbf4c7ea89ba"
+    },
+    {
+      "id": "w-spots-20260304_105731_93bbd4ec-centre",
+      "item": "20260304_105731_93bbd4ec",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 295,
+        "top": 364,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "7d08e137ed74c3067e3463a8653e7502f1744bf02b2669cd15cd001c90da7d41"
+    },
+    {
+      "id": "w-holes-20260519_103112_04639dcd-centre",
+      "item": "20260519_103112_04639dcd",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 535,
+        "top": 2392,
+        "side": 438
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "578c29bdcfdda1fb147a120aed7c582952e2da7922b08a4d86dd2718759afe0c"
+    },
+    {
+      "id": "w-spots-20260226_122913_0416127d-centre",
+      "item": "20260226_122913_0416127d",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 306,
+        "top": 912,
+        "side": 924
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "344ddf2347bf0aad17a29e04c0607738b9e185fcb96eb33c2b002eba01511c23"
+    },
+    {
+      "id": "w-spots-20260218_112226_3c5452e4-shift",
+      "item": "20260218_112226_3c5452e4",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 194,
+        "top": 317,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "d3062845c3a945a6011b11c9910d3b7fa8c36730adefbe61d636008efa5f490a"
+    },
+    {
+      "id": "w-spots-20260520_092257_9f9c4103-centre",
+      "item": "20260520_092257_9f9c4103",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 866,
+        "top": 1714,
+        "side": 197
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "21160411192c6bf73b7ba4bb7154dd9e10b90ebddf18ae98d39daf53de844540"
+    },
+    {
+      "id": "w-holes-20260302_110231_284f64f0-shift",
+      "item": "20260302_110231_284f64f0",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 635,
+        "top": 2442,
+        "side": 96
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "6cd86f0ee5b42695d643be6327711aa2b01bfe04857ed47bbfc308056af7e3ca"
+    },
+    {
+      "id": "w-holes-20260519_150754_9ab836be-centre",
+      "item": "20260519_150754_9ab836be",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 267,
+        "top": 1892,
+        "side": 769
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "b19429d2d141b1b2bf4ffeceb8f67bf1757596dc0909030a477691f8422e45e5"
+    },
+    {
+      "id": "w-holes-20260318_124149_38e8b776-shift",
+      "item": "20260318_124149_38e8b776",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 592,
+        "top": 2425,
+        "side": 245
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "480aa0acb1b9e1468972f6044dd81c4176f4ab178e1251de8b360d836640ad1a"
+    },
+    {
+      "id": "w-holes-20260317_154823_0e9647b4-shift",
+      "item": "20260317_154823_0e9647b4",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 868,
+        "top": 2227,
+        "side": 332
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "24469eac639936fb5c16d8cd26ac1aa57afd50984eea2634a81907d8b7960d49"
+    },
+    {
+      "id": "w-spots-20260219_074959_73b64cec-shift",
+      "item": "20260219_074959_73b64cec",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 382,
+        "top": 253,
+        "side": 114
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "7a86b703b37ee27abc9be19bdcd94ab5306e7ebeba639511ef339be70771df98"
+    },
+    {
+      "id": "w-spots-20260226_111046_305b29ff-shift",
+      "item": "20260226_111046_305b29ff",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 136,
+        "top": 297,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "9c2ce4cf969bd5e3cf422499db77763e5f44e59c88a7de0413efe2b4d518b0fd"
+    },
+    {
+      "id": "w-holes-20260330_084532_3c275970-centre",
+      "item": "20260330_084532_3c275970",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 39,
+        "top": 219,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "854ce6ad233d8caab91f005ca5cb7c8a5a2f2e0bd6a432205300d76517e05a57"
+    },
+    {
+      "id": "w-holes-20260224_133241_d3a4e3fd-shift",
+      "item": "20260224_133241_d3a4e3fd",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 186,
+        "top": 271,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "32242f220123ee3b397bcc1949fde629c721674b5b60f90ce7ceb0b9ead56a75"
+    },
+    {
+      "id": "w-spots-20260226_111430_b09be570-centre",
+      "item": "20260226_111430_b09be570",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 242,
+        "top": 162,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "9aef127249e0aea7133fada407c3c572d41663e0dfce310e2b4579c59a44cd1a"
+    },
+    {
+      "id": "w-holes-20260302_111713_45274bd9-shift",
+      "item": "20260302_111713_45274bd9",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 367,
+        "top": 2747,
+        "side": 154
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "cbb5277fce61ba6bba581f27c6066ecccfadd06f367cc763e51fd117c1705f77"
+    },
+    {
+      "id": "w-spots-20260220_133253_29fdddd8-centre",
+      "item": "20260220_133253_29fdddd8",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 663,
+        "top": 2479,
+        "side": 192
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3877e41c314195efc9edc28eeb3c1853255dfaa6f9841494411e9b5635f9c6be"
+    },
+    {
+      "id": "w-spots-20260218_112828_95dcc980-centre",
+      "item": "20260218_112828_95dcc980",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 138,
+        "top": 289,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "b23e996830efdd3ce989379aad1eb5f79eb2c9ad66a92774b124f7e2f8537420"
+    },
+    {
+      "id": "w-holes-20260316_142217_f9ebe657-centre",
+      "item": "20260316_142217_f9ebe657",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 205,
+        "top": 342,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "328b092de7eee44c8ecabc673b9c4fcaa27a43a2777304e0c0823d766098fe07"
+    },
+    {
+      "id": "w-holes-20260302_104144_f53e370c-centre",
+      "item": "20260302_104144_f53e370c",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1031,
+        "top": 1644,
+        "side": 154
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "96cd38bafa6c591cc23bec7d6ebeb27d37f906ff39d65fed861cb64b5f13b99f"
+    },
+    {
+      "id": "w-spots-20260304_114714_8039d1de-shift",
+      "item": "20260304_114714_8039d1de",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 49,
+        "top": 437,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "8256c49496f7a48f86780afddbd0ec2a56b354ce75be5f2bc6d741319035fde9"
+    },
+    {
+      "id": "w-spots-20260217_130520_ffd94258-centre",
+      "item": "20260217_130520_ffd94258",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 875,
+        "top": 2013,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "c381da2f85432dbc6cac592daa4ad38e231c201cbdcdabbf9fb6810339e4bbe9"
+    },
+    {
+      "id": "w-holes-20260317_140349_e76fd72b-shift",
+      "item": "20260317_140349_e76fd72b",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 177,
+        "top": 346,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "3a3dec7a0503a7efb75c433a3e31a092bebe6e5e9ebb40335bb652e1d7744083"
+    },
+    {
+      "id": "w-holes-20260519_152005_a70cfbf8-centre",
+      "item": "20260519_152005_a70cfbf8",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 251,
+        "top": 1570,
+        "side": 334
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "fa87798c6eed65ae48b7c28b116f606a086f1f3ccaf323b96fff7aacec43d7bb"
+    },
+    {
+      "id": "w-spots-20260219_074851_e9cee9a0-centre",
+      "item": "20260219_074851_e9cee9a0",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1096,
+        "top": 1676,
+        "side": 376
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "94ea9c26a7bf7db8bf16f03f7adbd001bd47761ccc3d4891a1de833be1596d6b"
+    },
+    {
+      "id": "w-spots-20260218_113143_40bbd8c3-centre",
+      "item": "20260218_113143_40bbd8c3",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 984,
+        "top": 1647,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "eb558afd174c47d9502524da2f9b147b35a71b36eda63bc9ab9a0f5800ef5d6c"
+    },
+    {
+      "id": "w-holes-20260302_104144_f53e370c-shift",
+      "item": "20260302_104144_f53e370c",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 992,
+        "top": 1644,
+        "side": 154
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "2fa9e656a9c65ef7e53c1a1d3af13d97853deae20b257e09b1349b857a9c184e"
+    },
+    {
+      "id": "w-spots-20260218_102423_0dbca48c-shift",
+      "item": "20260218_102423_0dbca48c",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 234,
+        "top": 332,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "cdd4a2efb1d86daa72253e86a3f8152b1993ab3accc8283d5b6bb170446ef1db"
+    },
+    {
+      "id": "w-holes-20260224_150042_8d597bc2-centre",
+      "item": "20260224_150042_8d597bc2",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 210,
+        "top": 321,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "04fb106544f6300c801b9a5d58a52fe2f690b098cdfacce944b428839440e431"
+    },
+    {
+      "id": "w-spots-20260304_110413_50b39340-centre",
+      "item": "20260304_110413_50b39340",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 205,
+        "top": 314,
+        "side": 1489
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "9feb286df165f9ceee171d5f204941718526b9230c5280c984fdd9f059158c64"
+    },
+    {
+      "id": "w-holes-20260519_102955_f45d8d98-shift",
+      "item": "20260519_102955_f45d8d98",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 610,
+        "top": 1567,
+        "side": 127
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "347938456e481bf4db7aeff192abdab8d7f7d7f6d47acb31e5efdadc405c01a1"
+    },
+    {
+      "id": "w-spots-20260217_125511_24f868d3-shift",
+      "item": "20260217_125511_24f868d3",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 217,
+        "top": 282,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "3529a1de86d5239ed87b6bd32c694e002f71ec9f13789bf21318dd4f4f0591db"
+    },
+    {
+      "id": "w-spots-20260223_130328_94c32531-shift",
+      "item": "20260223_130328_94c32531",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 289,
+        "top": 322,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "6be2ae5ac15da65a840c92a044b8d81c17722c9634e2a3e402e8e718b1238134"
+    },
+    {
+      "id": "w-holes-20260317_140349_e76fd72b-centre",
+      "item": "20260317_140349_e76fd72b",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 193,
+        "top": 346,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "8149b29be1cd7958403f1e4f1663b75d97c71028a93d7f3c02321beb49cf4a59"
+    },
+    {
+      "id": "w-holes-20260318_124149_38e8b776-centre",
+      "item": "20260318_124149_38e8b776",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 654,
+        "top": 2425,
+        "side": 245
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "8c5044b19436a9a622ef3ee4732c3d474fd873264a2845cc278801718398cff3"
+    },
+    {
+      "id": "w-holes-20260316_140218_b21e0c35-shift",
+      "item": "20260316_140218_b21e0c35",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 880,
+        "top": 1653,
+        "side": 108
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "c270177ffc45e7597028c5665a54a4feb911871455cb7b5db837f634cc4fb48b"
+    },
+    {
+      "id": "w-spots-20260216_150633_e731211c-centre",
+      "item": "20260216_150633_e731211c",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1146,
+        "top": 1509,
+        "side": 234
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "6b6c8b2aa46c7275f165eb6d01da07157b7ca293cf557fef64da98441a4d9149"
+    },
+    {
+      "id": "w-spots-20260223_125031_5fdf423e-centre",
+      "item": "20260223_125031_5fdf423e",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 13,
+        "top": 1467,
+        "side": 513
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "d962be08cb5107b17db418036d6e600fa8d3bc004bbcbdeffccdb0fe2c21d5f9"
+    },
+    {
+      "id": "w-holes-20260316_142217_f9ebe657-shift",
+      "item": "20260316_142217_f9ebe657",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 189,
+        "top": 342,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "35864ea41d2046d14fd6d683d2eebcd8cd59a6bf42865b7df4e2bd346f71660a"
+    },
+    {
+      "id": "w-holes-20260519_103112_04639dcd-shift",
+      "item": "20260519_103112_04639dcd",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 426,
+        "top": 2392,
+        "side": 438
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "2fc7af6e1492d80dd8601fd3bc769e6bf00bda6ea31c3dcd7d98106eba98ca40"
+    },
+    {
+      "id": "w-spots-20260219_110247_5ecdaced-shift",
+      "item": "20260219_110247_5ecdaced",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 205,
+        "top": 234,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "de12ddea49c0d1f06a2dfcf6d5076c994287167d2a5907b67bf612abecdbd46f"
+    },
+    {
+      "id": "w-holes-20260227_154009_6472b64b-shift",
+      "item": "20260227_154009_6472b64b",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 427,
+        "top": 1921,
+        "side": 125
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "e72ceee97be6101e221e738bf5234665049b55ec17dc1f035fa8b1530923c1b2"
+    },
+    {
+      "id": "w-spots-20260223_125420_cc1d2c2b-shift",
+      "item": "20260223_125420_cc1d2c2b",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 136,
+        "top": 0,
+        "side": 447
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "599c8005580627fd4155fba07a7ea5a6e5d592eaa279951765b0ebf67b19d820"
+    },
+    {
+      "id": "w-holes-20260224_141334_abd46654-centre",
+      "item": "20260224_141334_abd46654",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 869,
+        "top": 1148,
+        "side": 148
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "6dff81f2c4c5d5595b8ca5bfd984c7272fc9e473e047e8480402556038095355"
+    },
+    {
+      "id": "w-holes-20260317_154823_0e9647b4-centre",
+      "item": "20260317_154823_0e9647b4",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 951,
+        "top": 2227,
+        "side": 332
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "b9e33b2f2dc82b32b08212cd9ce20db6234c834a4cb4223f936fb70c6cfae28e"
+    },
+    {
+      "id": "w-holes-20260224_103059_cb25bcb8-centre",
+      "item": "20260224_103059_cb25bcb8",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 909,
+        "top": 1604,
+        "side": 108
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "a9f3fd80675ea8104895a443f9a6238caf3fa98c5bb230ca99b1ad6a3e877628"
+    },
+    {
+      "id": "w-spots-20260226_130110_dc69ec8d-centre",
+      "item": "20260226_130110_dc69ec8d",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 311,
+        "top": 2716,
+        "side": 423
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "bfbc83af620730faa49a72b37608fa1313c267294867ef8651248fdd07aaaa99"
+    },
+    {
+      "id": "w-spots-20260220_124949_1e1806fd-centre",
+      "item": "20260220_124949_1e1806fd",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1070,
+        "top": 1347,
+        "side": 513
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "34a9e2e7eb16ed882eb8ca1a58828605373d4c3f1c0bb8c6a1f4ecbcc88f93b8"
+    },
+    {
+      "id": "w-holes-20260304_132854_22076d59-shift",
+      "item": "20260304_132854_22076d59",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1107,
+        "top": 2126,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "38746335798b724bbf941db4e937668cac7e696c87807b8cb435a69fe81cf216"
+    },
+    {
+      "id": "w-spots-20260219_100830_17bf8011-shift",
+      "item": "20260219_100830_17bf8011",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 0,
+        "top": 1135,
+        "side": 997
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "c548f45a0998b6e22c70388a6f179b3d8651f301b159144c58d1ad2d3608d5ce"
+    },
+    {
+      "id": "w-spots-20260218_112828_95dcc980-shift",
+      "item": "20260218_112828_95dcc980",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 154,
+        "top": 289,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "1cce5f842c8ed62cf15208fb2818945aa807fea159f14fad962fda0ea25760fe"
+    },
+    {
+      "id": "w-holes-20260318_114109_b374dbec-shift",
+      "item": "20260318_114109_b374dbec",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 223,
+        "top": 361,
+        "side": 71
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "ee907d804a7e19cb84bfe031cc162ee5af1b6ae82ed92739bf9bea002fa20f2a"
+    },
+    {
+      "id": "w-spots-20260226_113616_acc7ce6f-centre",
+      "item": "20260226_113616_acc7ce6f",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 209,
+        "top": 262,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "08a887c59b56ce3ab0f60fe9f943d43b38dfec0c098f9280d9a85b2d7d13e172"
+    },
+    {
+      "id": "w-holes-20260317_122201_7cb4599b-shift",
+      "item": "20260317_122201_7cb4599b",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 175,
+        "top": 353,
+        "side": 122
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "5ddef15bdba838bca6d6977dedbf5c447378caf40ec55fe551c41d79d4371657"
+    },
+    {
+      "id": "w-spots-20260223_142755_a5f0a1c3-centre",
+      "item": "20260223_142755_a5f0a1c3",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 0,
+        "top": 1140,
+        "side": 2160
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "9006888b23ff1bada14dc7c59487f62fff12d476b24c7f1e470783bde6101b0a"
+    },
+    {
+      "id": "w-holes-20260224_112514_62149695-shift",
+      "item": "20260224_112514_62149695",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 118,
+        "top": 426,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "28df204aac3e75b1913ee07a5e9fe437f5249ce387d0033b61ae08f8cfdafc98"
+    },
+    {
+      "id": "w-spots-20260219_152730_4f92170b-centre",
+      "item": "20260219_152730_4f92170b",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 94,
+        "top": 242,
+        "side": 78
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "58d2338c87c7d59f743a551e5591c5a6609a942d943cd4620a91796e5aa403c1"
+    },
+    {
+      "id": "w-spots-20260304_110413_50b39340-shift",
+      "item": "20260304_110413_50b39340",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 0,
+        "top": 314,
+        "side": 1489
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "5e18c8a927359f42545df939db324c6238a32e40c2c72975deabd8713e3e9fd7"
+    },
+    {
+      "id": "w-spots-20260226_111430_b09be570-shift",
+      "item": "20260226_111430_b09be570",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 226,
+        "top": 162,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "c550614a575f061e6ec24eabf82f134fb5a26fdce1709c7a3fdcc64ebf48b14a"
+    },
+    {
+      "id": "w-spots-20260304_114714_8039d1de-centre",
+      "item": "20260304_114714_8039d1de",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 65,
+        "top": 437,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "1305a2d935c0deb2742ab09fd2c45df6a9579149c94925aed56b92a81b273abc"
+    },
+    {
+      "id": "w-spots-20260226_143100_7d393b19-shift",
+      "item": "20260226_143100_7d393b19",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 265,
+        "top": 326,
+        "side": 73
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "27024c73560f0ef3270c10a296a5760b94969cff7afc3a77a26ece03a7ace6a8"
+    },
+    {
+      "id": "w-spots-20260219_142101_bd5171f1-shift",
+      "item": "20260219_142101_bd5171f1",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 159,
+        "top": 405,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "e17d990d0c3cca092e620305d933b397c20b1012f97e1bfde02b988406b9d4a1"
+    },
+    {
+      "id": "w-holes-20260519_145229_f3734ff9-shift",
+      "item": "20260519_145229_f3734ff9",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 282,
+        "top": 1439,
+        "side": 197
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "d85ba554b09f8ce625480b2850014e3ef8a2f4e0e06811cd719f4ae47d6391fd"
+    },
+    {
+      "id": "w-spots-20260226_143100_7d393b19-centre",
+      "item": "20260226_143100_7d393b19",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 247,
+        "top": 326,
+        "side": 73
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "bbfefc45642393eecdcee520df9745d75b0f32aafbba443fe4d342565d4accce"
+    },
+    {
+      "id": "w-holes-20260227_134804_e2852fc2-centre",
+      "item": "20260227_134804_e2852fc2",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 225,
+        "top": 163,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "2da951c4d0c199d36e249d917259658227f747f9a3411296fdb4b3ec0d5d49f0"
+    },
+    {
+      "id": "w-spots-20260220_133253_29fdddd8-shift",
+      "item": "20260220_133253_29fdddd8",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 711,
+        "top": 2479,
+        "side": 192
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "658d920916e6e8b494cd5bba1ee6f687ceebdf9d7077576d7669722e45336b2b"
+    },
+    {
+      "id": "w-spots-20260219_105642_7a526bf9-centre",
+      "item": "20260219_105642_7a526bf9",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1032,
+        "top": 2593,
+        "side": 81
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "eed140b3c40357e9dbe4d0c6e282a0ff6b3f8fa303e8f99903deb8dcc273d15b"
+    },
+    {
+      "id": "w-spots-20260223_125420_cc1d2c2b-centre",
+      "item": "20260223_125420_cc1d2c2b",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 25,
+        "top": 0,
+        "side": 447
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "44aa65be94033be63708687e7c08b1b76eb8283caf386dabe93423318bf84d5d"
+    },
+    {
+      "id": "w-holes-20260224_112514_62149695-centre",
+      "item": "20260224_112514_62149695",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 134,
+        "top": 426,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "709446f4a5ee21d1c5fcaae521845a3953d9dc1283cb642255002c5674a1856b"
+    },
+    {
+      "id": "w-spots-20260217_082430_64d12924-shift",
+      "item": "20260217_082430_64d12924",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 588,
+        "top": 1120,
+        "side": 173
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "ba8473b7ef017d7974c09b725fc3c66dc0e92c9f8a0e1edd4d521209425a5915"
+    },
+    {
+      "id": "w-holes-20260519_151217_3f1f2ff1-shift",
+      "item": "20260519_151217_3f1f2ff1",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 194,
+        "top": 1536,
+        "side": 713
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "da7e3d80cbf843cf8efda6f7c5ff014533138936d795d31286dfdc0ed0d95a98"
+    },
+    {
+      "id": "w-holes-20260330_080838_1ccb302b-shift",
+      "item": "20260330_080838_1ccb302b",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 933,
+        "top": 988,
+        "side": 397
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "fc58c0ac6984901aa177ad5d2aeb18a092b89666887fa0c264e3b2b3d3ab3c4e"
+    },
+    {
+      "id": "w-holes-20260224_133241_d3a4e3fd-centre",
+      "item": "20260224_133241_d3a4e3fd",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 170,
+        "top": 271,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "52bda82e7f57ae24492a0c03aab50b2efbfd7d8cd5ff487b02b5a83be13d93c5"
+    },
+    {
+      "id": "w-spots-20260223_143309_78865461-shift",
+      "item": "20260223_143309_78865461",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 437,
+        "top": 992,
+        "side": 161
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "655ed1e09feab18db9b1d3bede2be429410040d5642118194c0afe9fa2734fa7"
+    },
+    {
+      "id": "w-spots-20260219_074959_73b64cec-centre",
+      "item": "20260219_074959_73b64cec",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 354,
+        "top": 253,
+        "side": 114
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "6e15f92f186a36727ca41934e2b2dcc68287f7245bad5f87dd809deba4b5671d"
+    },
+    {
+      "id": "w-holes-20260519_145229_f3734ff9-centre",
+      "item": "20260519_145229_f3734ff9",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 331,
+        "top": 1439,
+        "side": 197
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "2140001b21cd946a6dd192a21ce0e7e160e3cbeddcee1cff14a0e957d9bb2dcd"
+    },
+    {
+      "id": "w-spots-20260217_081258_6b26e9aa-shift",
+      "item": "20260217_081258_6b26e9aa",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 487,
+        "top": 1929,
+        "side": 318
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "72ad8677bc26bd9f67ceec34c87bf957eefc91b1d519bbadf9944a145daab3da"
+    },
+    {
+      "id": "w-holes-20260224_093326_5d9ca242-centre",
+      "item": "20260224_093326_5d9ca242",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 234,
+        "top": 274,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "7dce82c4ff0f04de85f47f0b71bcaabfda6cd9ce3eaa89d9d7255c7730ec4d06"
+    },
+    {
+      "id": "w-spots-20260226_121141_686ee72d-centre",
+      "item": "20260226_121141_686ee72d",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 257,
+        "top": 138,
+        "side": 183
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "e7e0e11eafb3676ce6a5994fb32ae1ff6a4a6a9ee596e16fb638854e744160ce"
+    },
+    {
+      "id": "w-holes-20260519_103645_bdb7feb5-centre",
+      "item": "20260519_103645_bdb7feb5",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 681,
+        "top": 1532,
+        "side": 177
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "6dba6ec534f6b0d2e52834a091616f75b2348606c5dc119aad5f43d96a08cc82"
+    },
+    {
+      "id": "w-spots-20260226_130110_dc69ec8d-shift",
+      "item": "20260226_130110_dc69ec8d",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 205,
+        "top": 2716,
+        "side": 423
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "49a1e91b5d26001eed1cd34876f64d6ab84a642feeb1ab338ea9657a09ae907f"
+    },
+    {
+      "id": "w-holes-20260224_105125_1a436e06-shift",
+      "item": "20260224_105125_1a436e06",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1039,
+        "top": 1469,
+        "side": 103
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "efaa1c761d4e90e421a92590adecc1b20328b5d057e3e4543ca265aac04e6191"
+    },
+    {
+      "id": "w-holes-20260224_103059_cb25bcb8-shift",
+      "item": "20260224_103059_cb25bcb8",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 882,
+        "top": 1604,
+        "side": 108
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "027e49a809ccd68683f7832453534da273922b0914050cb2b0860b261c894efd"
+    },
+    {
+      "id": "w-spots-20260223_142309_55bbdecf-shift",
+      "item": "20260223_142309_55bbdecf",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 43,
+        "top": 234,
+        "side": 324
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "a9aa2a2b688a2c2ae42d78f68a168aa2151a5912021402033bb88200efb8ea29"
+    },
+    {
+      "id": "w-holes-20260519_145447_e06af1c6-shift",
+      "item": "20260519_145447_e06af1c6",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 994,
+        "top": 1360,
+        "side": 323
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "093769ec79302f7fd1b2c0be33f9513952dffeacf99839cc97d4da73f92b8466"
+    },
+    {
+      "id": "w-holes-20260227_154226_1d634f3f-shift",
+      "item": "20260227_154226_1d634f3f",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 297,
+        "top": 1757,
+        "side": 153
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "2c2d1ebf4a286e86d9f8581a97570df4f62098a618744971ce701b8ea3cb66d6"
+    },
+    {
+      "id": "w-holes-20260330_073439_798c413a-centre",
+      "item": "20260330_073439_798c413a",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 183,
+        "top": 294,
+        "side": 123
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "5d1cd5a7ec3975799dcfe4db9371629370d15283955d7ba9ca20085375033fbb"
+    },
+    {
+      "id": "w-holes-20260224_114445_a2cf07af-centre",
+      "item": "20260224_114445_a2cf07af",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 760,
+        "top": 1821,
+        "side": 93
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3c99b88a1003b6d6e0ab28dd977b577a733bcd264dcbac7717c11128a348f14d"
+    },
+    {
+      "id": "w-holes-20260317_122201_7cb4599b-centre",
+      "item": "20260317_122201_7cb4599b",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 144,
+        "top": 353,
+        "side": 122
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "2e490ce89b07d72cce74dfb10df972cf5254004e2c0cc19537c861388bc67960"
+    },
+    {
+      "id": "w-spots-20260512_114454_89cb2800-shift",
+      "item": "20260512_114454_89cb2800",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 431,
+        "top": 1576,
+        "side": 334
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "0a47a5c9d46447c0f0182717c1b566794c29ad0280cdd50bf519fb953d95c425"
+    },
+    {
+      "id": "w-holes-20260330_081408_a1a18948-centre",
+      "item": "20260330_081408_a1a18948",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 648,
+        "top": 2831,
+        "side": 1009
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "748a19250e37a3fd630acb2b48d5fe730a2e45ce54c030f6e091305d36a820dc"
+    },
+    {
+      "id": "w-holes-20260310_132353_3d16bc13-centre",
+      "item": "20260310_132353_3d16bc13",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 960,
+        "top": 3331,
+        "side": 73
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "0026e818885ef0d9403ec2e68d6d791359543a497ca8ed1cb7ffc32871397683"
+    },
+    {
+      "id": "w-spots-20260219_074539_625a8495-centre",
+      "item": "20260219_074539_625a8495",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 170,
+        "top": 257,
+        "side": 69
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "11d73a8ddafe5058acd04b41cb67c458371c73f2dfdcd8cb041aec508c1ad096"
+    },
+    {
+      "id": "w-holes-20260227_110938_82e9223a-centre",
+      "item": "20260227_110938_82e9223a",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 222,
+        "top": 395,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "adb5b81f65a0a832f54f1d2ef19a8c763218ffdfbb0f8642f2a384429113bf68"
+    },
+    {
+      "id": "w-holes-20260224_142450_9a4df40c-centre",
+      "item": "20260224_142450_9a4df40c",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 653,
+        "top": 2261,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "5f08de68b1c6d9e0b2a50a648ce5bc8c2a423d176038ca3f44b7e0e7f93a191c"
+    },
+    {
+      "id": "w-spots-20260219_105642_7a526bf9-shift",
+      "item": "20260219_105642_7a526bf9",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1011,
+        "top": 2593,
+        "side": 81
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "5bf6306e6afe27ccb44faad959c0771944bc8eadae8eeb5800d0669ac54f8f43"
+    },
+    {
+      "id": "w-spots-20260512_113922_181f33f1-shift",
+      "item": "20260512_113922_181f33f1",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 0,
+        "top": 1310,
+        "side": 2037
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "c04581843a4ddc78559193a0291f89d972102c5fa084b30708c1d1bae72135d3"
+    },
+    {
+      "id": "w-holes-20260519_151011_8e6184fd-centre",
+      "item": "20260519_151011_8e6184fd",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 415,
+        "top": 1904,
+        "side": 604
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3e4d3fa3f8580bfa16a1b8d3592dffc45ab0dbe81651820ad08ef7fbd7a74276"
+    },
+    {
+      "id": "w-spots-20260220_124949_1e1806fd-shift",
+      "item": "20260220_124949_1e1806fd",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 942,
+        "top": 1347,
+        "side": 513
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "03d45f72a2c5ed2ac52125063ac2c190d823f99449b74cdd6e46c74080a1ab9e"
+    },
+    {
+      "id": "w-holes-20260224_141334_abd46654-shift",
+      "item": "20260224_141334_abd46654",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 832,
+        "top": 1148,
+        "side": 148
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "a8a61da088b424b02077b0c5c5ac3116d5d87ef8bb3df6e4b8eec5e29ee8437f"
+    },
+    {
+      "id": "w-holes-20260227_105421_5295e0da-shift",
+      "item": "20260227_105421_5295e0da",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1057,
+        "top": 946,
+        "side": 81
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3136d4cf1a2ac5d7de6a91df949972755c64e975552d1e91b7c789aa843d12c6"
+    },
+    {
+      "id": "w-spots-20260304_105731_93bbd4ec-shift",
+      "item": "20260304_105731_93bbd4ec",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 311,
+        "top": 364,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "96a98ba8e0d861d156692f7856dad29e252ef86238de7bcda894de495a2b876f"
+    },
+    {
+      "id": "w-spots-20260226_130308_f91a6624-centre",
+      "item": "20260226_130308_f91a6624",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 230,
+        "top": 260,
+        "side": 77
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "183d5ef3398cef883d4f4abfeec9486a1a9f94afcc8f56664b0a49b20a1b6266"
+    },
+    {
+      "id": "w-holes-20260519_103645_bdb7feb5-shift",
+      "item": "20260519_103645_bdb7feb5",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 637,
+        "top": 1532,
+        "side": 177
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "cb548127c10d41e4a654074ff4e8d1884cb9248a77fa9a91909542f8bf3d50ef"
+    },
+    {
+      "id": "w-holes-20260330_080838_1ccb302b-centre",
+      "item": "20260330_080838_1ccb302b",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1032,
+        "top": 988,
+        "side": 397
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "5bc2d31c27010c2e684356b5df30b9ed7c662df8e09c3a3c929cda0ee2f7c8c4"
+    },
+    {
+      "id": "w-holes-20260317_141113_ed47a96e-centre",
+      "item": "20260317_141113_ed47a96e",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 634,
+        "top": 2258,
+        "side": 345
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "0e8ab5ef30b0d0e80c85732ff4dcaae5a47b89bd27444edd4dedd145ee798e18"
+    },
+    {
+      "id": "w-holes-20260316_140218_b21e0c35-centre",
+      "item": "20260316_140218_b21e0c35",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 907,
+        "top": 1653,
+        "side": 108
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "d2450f1ab2fb520e4c897f8ab30893671d7b5a9531d44cb1354ce6e66edcdbef"
+    },
+    {
+      "id": "w-holes-20260519_102955_f45d8d98-centre",
+      "item": "20260519_102955_f45d8d98",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 642,
+        "top": 1567,
+        "side": 127
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "ee75d2436d349c827132380db425df6d6234ba171118256873b4c2586447022c"
+    },
+    {
+      "id": "w-spots-20260520_092257_9f9c4103-shift",
+      "item": "20260520_092257_9f9c4103",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 915,
+        "top": 1714,
+        "side": 197
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "9ce8cc836b384c15c38457886781cfcb7ffe01dbb0c0debf6ca321c1b9565c30"
+    },
+    {
+      "id": "w-holes-20260310_132353_3d16bc13-shift",
+      "item": "20260310_132353_3d16bc13",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 978,
+        "top": 3331,
+        "side": 73
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "1b4813274dbb92bb8c7592928c7df2a2354f5e403fdbfbd4af2c223ed2b02a1e"
+    },
+    {
+      "id": "w-spots-20260219_124341_6ff0f107-centre",
+      "item": "20260219_124341_6ff0f107",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 896,
+        "top": 2345,
+        "side": 385
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "0c9eb272603996dda64ea93f767332136b418f26472eb64202af2f3cedc637e0"
+    },
+    {
+      "id": "w-spots-20260304_114007_4637988b-shift",
+      "item": "20260304_114007_4637988b",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 326,
+        "top": 589,
+        "side": 1043
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "bab75329ccac128e83a93634f98f72282742f1e2c35988334521ceb7cf8fc550"
+    },
+    {
+      "id": "w-spots-20260217_131718_e6060f75-centre",
+      "item": "20260217_131718_e6060f75",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 865,
+        "top": 2392,
+        "side": 227
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "f4db47e1d1cf132335f4b0c25264ad5a952e5aee79c94888648911dddbdd83dd"
+    },
+    {
+      "id": "w-spots-20260219_124341_6ff0f107-shift",
+      "item": "20260219_124341_6ff0f107",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 993,
+        "top": 2345,
+        "side": 385
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "54f757f270af65bbc8d0390f8f92eecf38a9953fb8de9046e86b85b83116a8b1"
+    },
+    {
+      "id": "w-holes-20260519_145447_e06af1c6-centre",
+      "item": "20260519_145447_e06af1c6",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1075,
+        "top": 1360,
+        "side": 323
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "c6fe2c2d5ba0dceed944190990956143688a867e75bc5775d93dad3e2c37f621"
+    },
+    {
+      "id": "w-holes-20260224_091310_6cd93465-shift",
+      "item": "20260224_091310_6cd93465",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 366,
+        "top": 400,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "d4d8180fd4c5d2d29a2fb774ab2537bc44e55192cbb4e71e4715c651034c88fa"
+    },
+    {
+      "id": "w-spots-20260225_140051_f7cbf65e-shift",
+      "item": "20260225_140051_f7cbf65e",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 244,
+        "top": 2010,
+        "side": 293
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "130fd8cb5d34ddc5c41b927e0c55d7f7ac70d8a38673837bb35a84b61b47d5bb"
+    },
+    {
+      "id": "w-spots-20260218_113143_40bbd8c3-shift",
+      "item": "20260218_113143_40bbd8c3",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1000,
+        "top": 1647,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "0d70aa05d1de6488e5e717b754cd504add842054824920af2c6dfd557dc675b5"
+    },
+    {
+      "id": "w-spots-20260520_100110_ec0951b9-centre",
+      "item": "20260520_100110_ec0951b9",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 494,
+        "top": 1343,
+        "side": 123
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "482641ecd29c28624be0509714de2b7d260030d0bb5b08cd19d34e13e2585e79"
+    },
+    {
+      "id": "w-holes-20260330_084532_3c275970-shift",
+      "item": "20260330_084532_3c275970",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 23,
+        "top": 219,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "9f449b1c13e01ca34f2de0de762cb84fa5020404ddddb3b3ffc20241a5071b44"
+    },
+    {
+      "id": "w-holes-20260227_104837_525f1751-shift",
+      "item": "20260227_104837_525f1751",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 272,
+        "top": 426,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "83d4eb7879cb34c0eb36d84fde6e5f1a7999cb362980a88d74f7cec53f1ec193"
+    },
+    {
+      "id": "w-spots-20260218_102423_0dbca48c-centre",
+      "item": "20260218_102423_0dbca48c",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 218,
+        "top": 332,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "22fb22af74ee9c6adc79fe875d1702f8b94e99e9990c83874cc20c1dfd829011"
+    },
+    {
+      "id": "w-spots-20260226_113616_acc7ce6f-shift",
+      "item": "20260226_113616_acc7ce6f",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 225,
+        "top": 262,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "0c8b2ac97dd69cc27d229d13c31be6adfbfba68981b86b95e357e364e54b3f57"
+    },
+    {
+      "id": "w-holes-20260224_091310_6cd93465-centre",
+      "item": "20260224_091310_6cd93465",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 350,
+        "top": 400,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "e0a9e333f0806164e55cf9b21fcd9eff774765009e3f2ce9419ff34987ca5b13"
+    },
+    {
+      "id": "w-holes-20260519_152005_a70cfbf8-shift",
+      "item": "20260519_152005_a70cfbf8",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 167,
+        "top": 1570,
+        "side": 334
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "66fa580e77216de5e1899f7a6d6f5f3e70830172d0485b1d681ea439d14fb716"
+    },
+    {
+      "id": "w-holes-20260227_083406_15f6b369-shift",
+      "item": "20260227_083406_15f6b369",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 334,
+        "top": 263,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "5ec2bf3119e9f10a4e1f840251dd17fb45b274b3a7c479fa74ec03802b2397dc"
+    },
+    {
+      "id": "w-spots-20260225_140051_f7cbf65e-centre",
+      "item": "20260225_140051_f7cbf65e",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 317,
+        "top": 2010,
+        "side": 293
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "f6e1dc4d3246bb5c9081f4e94401f1cc4067c9be7719510f7d08c68a6e886f62"
+    },
+    {
+      "id": "w-spots-20260304_113506_36b69f0d-shift",
+      "item": "20260304_113506_36b69f0d",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 586,
+        "top": 2147,
+        "side": 134
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "30e3cbc64f99e21099d8077acc3fae51dded48cccd2b4d1473a313c0726ddd9c"
+    },
+    {
+      "id": "w-holes-20260330_073439_798c413a-shift",
+      "item": "20260330_073439_798c413a",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 152,
+        "top": 294,
+        "side": 123
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "fdcb89886eb0dd2127328c1b5d7044f37f18dc74313404fdc1a990aeb08a1d13"
+    },
+    {
+      "id": "w-spots-20260219_100631_440f75ff-shift",
+      "item": "20260219_100631_440f75ff",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 231,
+        "top": 352,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "0edc0021d6c9024176dcd52b68b47c4a684cb4937c8dfdb895ff79203f7f9c54"
+    },
+    {
+      "id": "w-spots-20260218_112226_3c5452e4-centre",
+      "item": "20260218_112226_3c5452e4",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 210,
+        "top": 317,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "5e57ba1b2300351ca53ad0e4bd0fd9af5a6043df331f396ff66809ea96ca8862"
+    },
+    {
+      "id": "w-spots-20260226_122913_0416127d-shift",
+      "item": "20260226_122913_0416127d",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 75,
+        "top": 912,
+        "side": 924
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "f560f9e3fa28487f898e40947e042d5d284ce13934f070215ab4a9122b020b6d"
+    },
+    {
+      "id": "w-spots-20260512_114454_89cb2800-centre",
+      "item": "20260512_114454_89cb2800",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 347,
+        "top": 1576,
+        "side": 334
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "7b697ee1bd37c451ef135948bd8dda1ae37ac7f17fd946733297bbf3b841b979"
+    },
+    {
+      "id": "w-holes-20260317_150911_de75a2f9-centre",
+      "item": "20260317_150911_de75a2f9",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 822,
+        "top": 2395,
+        "side": 245
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "d6d64a6efd85c821e977c1dc8dd5dab64b306ebab8f89e414106443357dbed02"
+    },
+    {
+      "id": "w-holes-20260302_110231_284f64f0-centre",
+      "item": "20260302_110231_284f64f0",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 611,
+        "top": 2442,
+        "side": 96
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "dbf226484088aa044559e91d5db785429c86fce0158b9a1361f258cc8a3c9b7d"
+    },
+    {
+      "id": "w-holes-20260318_114109_b374dbec-centre",
+      "item": "20260318_114109_b374dbec",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 205,
+        "top": 361,
+        "side": 71
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "9802227eeeaeeba940dc05e690b73edf80ed254c2d5b33bc0c0cadaf48db4d65"
+    },
+    {
+      "id": "w-holes-20260224_114445_a2cf07af-shift",
+      "item": "20260224_114445_a2cf07af",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 783,
+        "top": 1821,
+        "side": 93
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "4e523b2e94e47b49c7c72684e293279609e5bf2b13809d21b5ef06952122ad39"
+    },
+    {
+      "id": "w-spots-20260223_125031_5fdf423e-shift",
+      "item": "20260223_125031_5fdf423e",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 141,
+        "top": 1467,
+        "side": 513
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "4309a97f8cb1ee59ac1c05973595198c9cb7ca9a1d5c90f7a4555c99403f5617"
+    },
+    {
+      "id": "w-spots-20260304_113506_36b69f0d-centre",
+      "item": "20260304_113506_36b69f0d",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 553,
+        "top": 2147,
+        "side": 134
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "59440b816399d8c80cd6fbf2523cc38076512126fc3c1f78f5160740bbf6d966"
+    },
+    {
+      "id": "w-holes-20260224_110758_a9347e4a-centre",
+      "item": "20260224_110758_a9347e4a",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 698,
+        "top": 1332,
+        "side": 96
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "4c4b3d9d2a1c08311ff2f81e19aadb7bd02945530b671e4b54be80ec516fbea0"
+    },
+    {
+      "id": "w-holes-20260224_105125_1a436e06-centre",
+      "item": "20260224_105125_1a436e06",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1013,
+        "top": 1469,
+        "side": 103
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "febbc9a627a38557bf448beeff4092689d8aea8610944f5f7331485e6f51f4a8"
+    },
+    {
+      "id": "w-spots-20260217_130520_ffd94258-shift",
+      "item": "20260217_130520_ffd94258",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 859,
+        "top": 2013,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "dd07aa08e3ca16a557cbca0d51216349825d6136751664a98fc2383def80ee1b"
+    },
+    {
+      "id": "w-holes-20260227_154226_1d634f3f-centre",
+      "item": "20260227_154226_1d634f3f",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 259,
+        "top": 1757,
+        "side": 153
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "e074be9238a8bccb31ebd27b7f8c279737701591158bd8795bacfec689c2be7b"
+    },
+    {
+      "id": "w-holes-20260330_081408_a1a18948-shift",
+      "item": "20260330_081408_a1a18948",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 900,
+        "top": 2831,
+        "side": 1009
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "5e53e221224894d504551c3743d145e70e46e5c9fa99d122d05ec2f2e2f81ba7"
+    },
+    {
+      "id": "w-holes-20260304_132854_22076d59-centre",
+      "item": "20260304_132854_22076d59",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1091,
+        "top": 2126,
+        "side": 64
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3b5d7b1babf954fb163254dbc2e46619b5dfebef9bfa76ba31e0ab0972d090af"
+    },
+    {
+      "id": "w-spots-20260217_081258_6b26e9aa-centre",
+      "item": "20260217_081258_6b26e9aa",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 567,
+        "top": 1929,
+        "side": 318
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "4fc39055b9f320eee28c4ec2ab1fd86c440109abde9d25d9640bf6587adc9d12"
+    },
+    {
+      "id": "w-holes-20260519_151011_8e6184fd-shift",
+      "item": "20260519_151011_8e6184fd",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 264,
+        "top": 1904,
+        "side": 604
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "a8c88b1a27d60dc24796e54e2c1365b667e6bcaabaa6e8ab920988dd8305edcd"
+    },
+    {
+      "id": "w-spots-20260226_121141_686ee72d-shift",
+      "item": "20260226_121141_686ee72d",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 303,
+        "top": 138,
+        "side": 183
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "fbc036326641583a1138e17bb44d168141ae67613eacb69b97ded88812b74bd3"
+    },
+    {
+      "id": "w-holes-20260224_103404_bc52bb30-centre",
+      "item": "20260224_103404_bc52bb30",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 960,
+        "top": 2313,
+        "side": 142
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "28af3c3932cd0986bb5e080ed2c3372e5c7bc496fb277201dfa5b3aca5104fb5"
+    },
+    {
+      "id": "w-spots-20260219_100631_440f75ff-centre",
+      "item": "20260219_100631_440f75ff",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 247,
+        "top": 352,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "3afa9180df7d4265d7c3d8e62e1b1293ce1c7f85ff572f836940ab720a44943d"
+    },
+    {
+      "id": "w-spots-20260223_130328_94c32531-centre",
+      "item": "20260223_130328_94c32531",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 305,
+        "top": 322,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "8e1fb53d19d677cccc342668d4d30d3b19ceec8afee7fa3ffd893ec9f5306ce8"
+    },
+    {
+      "id": "w-spots-20260217_125511_24f868d3-centre",
+      "item": "20260217_125511_24f868d3",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 233,
+        "top": 282,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "b99717332dfcbd96440e0cbd6c4977d77853f0313dc5f4271d6d928244b84891"
+    },
+    {
+      "id": "w-spots-20260216_150633_e731211c-shift",
+      "item": "20260216_150633_e731211c",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1204,
+        "top": 1509,
+        "side": 234
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "8d334c39c618f338dbddd7c1b83d598e7657a9327e70933badaca5d4552d2bf0"
+    },
+    {
+      "id": "w-spots-20260302_155611_35fbcce6-centre",
+      "item": "20260302_155611_35fbcce6",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 210,
+        "top": 248,
+        "side": 321
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "6fe4fff106aa4ae3bce4adb47689f1c54fba0acd00dc2b4f5fbfdf305453ea82"
+    },
+    {
+      "id": "w-spots-20260219_100830_17bf8011-centre",
+      "item": "20260219_100830_17bf8011",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 0,
+        "top": 1135,
+        "side": 997
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "c548f45a0998b6e22c70388a6f179b3d8651f301b159144c58d1ad2d3608d5ce"
+    },
+    {
+      "id": "w-holes-20260227_134804_e2852fc2-shift",
+      "item": "20260227_134804_e2852fc2",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 209,
+        "top": 163,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "636a63a60754312616aca57fec2f1454242a08b51c37e41b6ad674fc339ff1ad"
+    },
+    {
+      "id": "w-holes-20260224_132043_3d758078-shift",
+      "item": "20260224_132043_3d758078",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1080,
+        "top": 1786,
+        "side": 129
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "763bbc3675b2d218409092d26a3447a198482ca04a16e1bc7b19d3727be12b3f"
+    },
+    {
+      "id": "w-holes-20260224_132043_3d758078-centre",
+      "item": "20260224_132043_3d758078",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1048,
+        "top": 1786,
+        "side": 129
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "a283f30119d49f5c0d649dd29fd66ca603bf5767fa72e242a948ba563748ba00"
+    },
+    {
+      "id": "w-holes-20260227_154009_6472b64b-centre",
+      "item": "20260227_154009_6472b64b",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 396,
+        "top": 1921,
+        "side": 125
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "3a535a80610e0d3a761e12d8bc07091630265b925cc8104b3e3c406578953bd4"
+    },
+    {
+      "id": "w-spots-20260219_110247_5ecdaced-centre",
+      "item": "20260219_110247_5ecdaced",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 221,
+        "top": 234,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "a9fd3cb194fc562ae222e038e9968652f7d05b3fa2e1c85f7bf26d519f0aab7d"
+    },
+    {
+      "id": "w-holes-20260227_104837_525f1751-centre",
+      "item": "20260227_104837_525f1751",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 288,
+        "top": 426,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "bec5823ce9bfb635a9eaf6256afa7f691d3ee9ac36c1cc60bb28d0ba32572176"
+    },
+    {
+      "id": "w-spots-20260223_143309_78865461-centre",
+      "item": "20260223_143309_78865461",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 477,
+        "top": 992,
+        "side": 161
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "848589943e5f0f4025167983790a13146db2472145b0fd68d717183d09056e11"
+    },
+    {
+      "id": "w-spots-20260226_111046_305b29ff-centre",
+      "item": "20260226_111046_305b29ff",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 120,
+        "top": 297,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "25e462ef7b085c97de75d9e021ee60c6b3726db27259672a989035e7d4c90edc"
+    },
+    {
+      "id": "w-spots-20260223_142755_a5f0a1c3-shift",
+      "item": "20260223_142755_a5f0a1c3",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 0,
+        "top": 1140,
+        "side": 2160
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "9006888b23ff1bada14dc7c59487f62fff12d476b24c7f1e470783bde6101b0a"
+    },
+    {
+      "id": "w-holes-20260224_093326_5d9ca242-shift",
+      "item": "20260224_093326_5d9ca242",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 250,
+        "top": 274,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "ac755c90429785563c56fc5769170713aa0c6f0cd07622de41584f129edaedc6"
+    },
+    {
+      "id": "w-spots-20260219_074539_625a8495-shift",
+      "item": "20260219_074539_625a8495",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 152,
+        "top": 257,
+        "side": 69
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "9108410733e25c8887860c39a27f0ecfc8314795f13a76c94dc42bcd080bb57d"
+    },
+    {
+      "id": "w-holes-20260519_150754_9ab836be-shift",
+      "item": "20260519_150754_9ab836be",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 459,
+        "top": 1892,
+        "side": 769
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "0b1b031a050c0f7d23d811ddd8212590b6fa3fd6e16e6ff73803fbdcaa6ce396"
+    },
+    {
+      "id": "w-spots-20260219_142101_bd5171f1-centre",
+      "item": "20260219_142101_bd5171f1",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 143,
+        "top": 405,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "823a2849ea2f0af61ec00c8f6135e87df43790529dd3cb97027425cac2bb41e1"
+    },
+    {
+      "id": "w-spots-20260217_073036_776fdabc-centre",
+      "item": "20260217_073036_776fdabc",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 330,
+        "top": 238,
+        "side": 125
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "4e1bd2af7a24470abe727969972abafee6cb264896451443169f63118baa9546"
+    },
+    {
+      "id": "w-holes-20260224_110758_a9347e4a-shift",
+      "item": "20260224_110758_a9347e4a",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 722,
+        "top": 1332,
+        "side": 96
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "4f84b9bf8edd76c9bb68076354fb18dcf36b263ce7766eccb8f5cbccbdd206b1"
+    },
+    {
+      "id": "w-holes-20260224_103404_bc52bb30-shift",
+      "item": "20260224_103404_bc52bb30",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 924,
+        "top": 2313,
+        "side": 142
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "34b1a37fbe4bb2533a63a0aa600a32a84d5ca4e10f57f0f5ae22f803f5a4286d"
+    },
+    {
+      "id": "w-holes-20260317_150911_de75a2f9-shift",
+      "item": "20260317_150911_de75a2f9",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 761,
+        "top": 2395,
+        "side": 245
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "690ca387eb4b188937fa360232eaf4341c8f671c430810e1297c97a6fb4f2f4f"
+    },
+    {
+      "id": "w-spots-20260219_074851_e9cee9a0-shift",
+      "item": "20260219_074851_e9cee9a0",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 1002,
+        "top": 1676,
+        "side": 376
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "a6d5a10f033976da0e369ffc06293f736ac1864d3afa619a5c297b7fe839f7f5"
+    },
+    {
+      "id": "w-spots-20260512_113922_181f33f1-centre",
+      "item": "20260512_113922_181f33f1",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 123,
+        "top": 1310,
+        "side": 2037
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "0f53e914cbfdeeb1d65d351862edee4791b604ccf9f22adad21cfb4da97eac9d"
+    },
+    {
+      "id": "w-holes-20260227_110938_82e9223a-shift",
+      "item": "20260227_110938_82e9223a",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 238,
+        "top": 395,
+        "side": 64
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "1ecdd30af1b4436101de228aa13483a8ab0c75a0a94cb10ba23c193eb5757888"
+    },
+    {
+      "id": "w-spots-20260217_131718_e6060f75-shift",
+      "item": "20260217_131718_e6060f75",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 922,
+        "top": 2392,
+        "side": 227
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "b12ee6d1abc72784d49b123778891ab82720b1fe9f2c61b694cca19c666a1579"
+    },
+    {
+      "id": "w-spots-20260219_152730_4f92170b-shift",
+      "item": "20260219_152730_4f92170b",
+      "class": "spots",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 113,
+        "top": 242,
+        "side": 78
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "5864dd4ae2dbb5ee611f48196233838ec387a1603513a27da6af6bb88d83c553"
+    },
+    {
+      "id": "w-holes-20260317_141113_ed47a96e-shift",
+      "item": "20260317_141113_ed47a96e",
+      "class": "holes",
+      "partition": "B",
+      "cohort": "wargon_region",
+      "mode": "shift",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 720,
+        "top": 2258,
+        "side": 345
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "18fb8627fca65f66bce472c151a32e68108105d8a9e2c7bdf65f4a8ab7d0fd9c"
+    },
+    {
+      "id": "w-spots-20260223_142309_55bbdecf-centre",
+      "item": "20260223_142309_55bbdecf",
+      "class": "spots",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 124,
+        "top": 234,
+        "side": 324
+      },
+      "parentDimensions": [
+        640,
+        640
+      ],
+      "normalizedSha256": "5f2eec2708b09d9314ce5d5325aab7a354b71f1c4dfa7b93f3a8d0360dd5648b"
+    },
+    {
+      "id": "w-holes-20260519_151217_3f1f2ff1-centre",
+      "item": "20260519_151217_3f1f2ff1",
+      "class": "holes",
+      "partition": "A",
+      "cohort": "wargon_region",
+      "mode": "centre",
+      "view": "detail",
+      "nativeCrop": {
+        "left": 372,
+        "top": 1536,
+        "side": 713
+      },
+      "parentDimensions": [
+        2160,
+        3840
+      ],
+      "normalizedSha256": "01b44082978b84a33f4b2dec2108b9414101bd7c21ed701e81862f8537c7582b"
+    }
+  ]
+}

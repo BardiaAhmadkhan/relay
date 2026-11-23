@@ -1,0 +1,92 @@
+{
+  "executedAt": "2026-10-26T18:19:38.051Z",
+  "adapterSha256": "593c2e20d08ba73c6b741c0eb3dcf790aa361eb9aecb1eaae5f266a1af78ea13",
+  "checks": [
+    {
+      "kind": "local_clip",
+      "name": "uniform-frame-abstains",
+      "passed": true,
+      "durationMs": 8.75929999999994
+    },
+    {
+      "kind": "local_clip",
+      "name": "corrupt-image-rejects",
+      "passed": true,
+      "durationMs": 3.449100000000044
+    },
+    {
+      "kind": "local_clip",
+      "name": "more-than-six-images-rejects",
+      "passed": true,
+      "durationMs": 0.06829999999990832
+    },
+    {
+      "kind": "local_clip",
+      "name": "detail-only-abstains",
+      "passed": true,
+      "durationMs": 97.03289999999993
+    },
+    {
+      "kind": "local_clip",
+      "name": "all-nonlabel-views-processed",
+      "passed": true,
+      "durationMs": 192.22980000000007
+    },
+    {
+      "kind": "local_clip",
+      "name": "invalid-second-view-is-not-ignored",
+      "passed": true,
+      "durationMs": 117.66459999999984
+    },
+    {
+      "kind": "local_clip",
+      "name": "cancellation-during-work-never-success",
+      "passed": true,
+      "durationMs": 22.213700000000017
+    },
+    {
+      "kind": "local_siglip",
+      "name": "uniform-frame-abstains",
+      "passed": true,
+      "durationMs": 12.520899999999983
+    },
+    {
+      "kind": "local_siglip",
+      "name": "corrupt-image-rejects",
+      "passed": true,
+      "durationMs": 0.29759999999987485
+    },
+    {
+      "kind": "local_siglip",
+      "name": "more-than-six-images-rejects",
+      "passed": true,
+      "durationMs": 0.0498000000002321
+    },
+    {
+      "kind": "local_siglip",
+      "name": "detail-only-abstains",
+      "passed": true,
+      "durationMs": 459.0911000000001
+    },
+    {
+      "kind": "local_siglip",
+      "name": "all-nonlabel-views-processed",
+      "passed": true,
+      "durationMs": 888.0092
+    },
+    {
+      "kind": "local_siglip",
+      "name": "invalid-second-view-is-not-ignored",
+      "passed": true,
+      "durationMs": 433.79760000000033
+    },
+    {
+      "kind": "local_siglip",
+      "name": "cancellation-during-work-never-success",
+      "passed": true,
+      "durationMs": 26.259299999999712
+    }
+  ],
+  "passed": 14,
+  "total": 14
+}

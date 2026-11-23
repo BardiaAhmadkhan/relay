@@ -1,0 +1,40 @@
+{
+  "recordedAt": "2026-10-26T19:51:38.140Z",
+  "status": "enabled locally; no publication",
+  "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+  "policyVersion": "2026-10-26.2",
+  "runtime": {
+    "version": "0.40.4"
+  },
+  "sources": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "sha256": "596dcc860d3a76afa2f61c872f0033a8625a79f49fdeac60262ab4e992653b25"
+    },
+    {
+      "path": "packages/vision/abrasion-cue.ts",
+      "sha256": "dead47a82cddd316efc43155c77645fb7138406a13a77687d0c90c4ea52c212e"
+    }
+  ],
+  "checks": {
+    "unit": 392,
+    "unitFailures": 0,
+    "originalPhotoBrowserCases": 3,
+    "harderUploadBrowserCases": 4,
+    "realInferenceRestoredDraftCases": 1,
+    "hardVariants": 106,
+    "sourceImages": 18,
+    "sourceGroups": 15,
+    "freshRepeatCases": 36,
+    "newLabelledNegativeFlags": 0,
+    "preservedOriginalNonemptyFindings": 65
+  },
+  "normalEndpoint": {
+    "url": "http://127.0.0.1:8787",
+    "recovered": 1,
+    "cachedReuseMs": 20.411199999999553,
+    "cachedOutputTokens": 0
+  },
+  "scope": "Only inspection adapter plus one new optional cue module. UI, policy, model weights and ordinary successful path unchanged.",
+  "limits": "Finite exposed development set; correlated variants; one ambiguous wear view gained an unverified cue. Very small/dark misses and primary-model false concerns remain."
+}

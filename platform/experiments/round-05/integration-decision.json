@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-26T19:27:24.262Z",
+  "selected": "low-detail-cue-1",
+  "basis": "106 paired hard cases plus 36 fresh repeated full-pipeline cases. The repeated runs recovered both first-user small320 and source-crash small320 in each of three runs, satisfying the two-distinct-variant requirement. No existing finding lost or new visually negative control flagged.",
+  "productionChanges": [
+    "Only pinned qwen3.5:4b activates this path. Other model profiles retain their previous behavior.",
+    "Recovered location is forced to unknown because precise anatomical localization is not validated at this resolution. Input/task prompt/model remain identical to the tested cue candidate.",
+    "Recovered observations remain possible; no sliding/crash claim. Category/material preserved.",
+    "One optional call with 2500ms transport budget. Empty result, malformed response or failure retains baseline.",
+    "Cache identity includes low-detail-cue-1; usage includes every successful optional call, even null results.",
+    "Recovered location forced to unknown; explicit labels excluded; cache separates label/garment roles."
+  ],
+  "unchanged": [
+    "UI",
+    "core decision policy",
+    "source photo bytes and hashes",
+    "model weights",
+    "ordinary successful inspection path"
+  ],
+  "status": "enabled-on-local-8787-after-canary",
+  "enabledAt": "2026-10-26T19:48:38.181Z",
+  "checks": {
+    "unit": 392,
+    "browser": 8,
+    "frozenHardVariants": 106,
+    "freshRepeatRuns": 36
+  }
+}

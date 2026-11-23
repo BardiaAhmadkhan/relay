@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-26T23:32:07.712Z",
+  "scope": "Latest program executed through real Fastify routes with exact recorded model responses from the current HTTP audit. Only corrective fixed-slot reviews may use new live inference. This is NOT another 194-image live inference or HTTP timing measurement.",
+  "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1+evidence-claims-4+review-index-1+focused-tear-context-2",
+  "sources": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "sha256": "4b3f380437d0fded9969d4bc216e1574ae4799d4026e615d88ccc8535efa12ca"
+    },
+    {
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "ce473aae69e67f06c58865de8299b5ccb004a9d7c086089727024f19f8c32b12"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "packages/vision/review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "7a007f38e4e1cea86e422b0385a138e267003f8ad5832067f2bc9b2fb5034ff5"
+    },
+    {
+      "path": "scripts/quality-cycle-02-selected-replay.ts",
+      "sha256": "b642e6c74224e075a8b160903f8abeb1e6c7a84cc049c661b5de3124f3a73320"
+    }
+  ]
+}

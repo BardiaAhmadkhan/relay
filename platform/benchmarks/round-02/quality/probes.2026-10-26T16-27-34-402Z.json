@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "1.0",
+  "createdAt": "2026-10-26T16:27:34.402Z",
+  "nativeExecution": false,
+  "networkCalls": 0,
+  "orientation": [
+    {
+      "orientation": 1,
+      "inputTag": 1,
+      "expectedWidth": 600,
+      "expectedHeight": 480,
+      "actualWidth": 600,
+      "actualHeight": 480,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    },
+    {
+      "orientation": 2,
+      "inputTag": 2,
+      "expectedWidth": 600,
+      "expectedHeight": 480,
+      "actualWidth": 600,
+      "actualHeight": 480,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    },
+    {
+      "orientation": 3,
+      "inputTag": 3,
+      "expectedWidth": 600,
+      "expectedHeight": 480,
+      "actualWidth": 600,
+      "actualHeight": 480,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    },
+    {
+      "orientation": 4,
+      "inputTag": 4,
+      "expectedWidth": 600,
+      "expectedHeight": 480,
+      "actualWidth": 600,
+      "actualHeight": 480,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    },
+    {
+      "orientation": 5,
+      "inputTag": 5,
+      "expectedWidth": 480,
+      "expectedHeight": 600,
+      "actualWidth": 480,
+      "actualHeight": 600,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    },
+    {
+      "orientation": 6,
+      "inputTag": 6,
+      "expectedWidth": 480,
+      "expectedHeight": 600,
+      "actualWidth": 480,
+      "actualHeight": 600,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    },
+    {
+      "orientation": 7,
+      "inputTag": 7,
+      "expectedWidth": 480,
+      "expectedHeight": 600,
+      "actualWidth": 480,
+      "actualHeight": 600,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    },
+    {
+      "orientation": 8,
+      "inputTag": 8,
+      "expectedWidth": 480,
+      "expectedHeight": 600,
+      "actualWidth": 480,
+      "actualHeight": 600,
+      "equivalentNormalizedHash": true,
+      "duplicateResult": "duplicate_photo",
+      "exifRemoved": true
+    }
+  ],
+  "duplicate": {
+    "exactCopy": "duplicate_photo",
+    "sameSceneLossyRecompression": "accepted",
+    "scope": "Exact normalized hashing is not perceptual duplicate detection."
+  },
+  "corruptInputs": [
+    {
+      "index": 0,
+      "bytes": 12,
+      "result": "invalid_image"
+    },
+    {
+      "index": 1,
+      "bytes": 28397,
+      "result": "invalid_image"
+    }
+  ],
+  "resolutionBoundaries": [
+    {
+      "width": 239,
+      "height": 480,
+      "warnings": [
+        "low_resolution"
+      ]
+    },
+    {
+      "width": 240,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "width": 240,
+      "height": 479,
+      "warnings": [
+        "low_resolution"
+      ]
+    },
+    {
+      "width": 480,
+      "height": 240,
+      "warnings": []
+    }
+  ],
+  "alpha": {
+    "rawBlackBaseline": {
+      "width": 480,
+      "height": 480,
+      "brightness": 0,
+      "sharpness": 0,
+      "warnings": [
+        "dark",
+        "soft"
+      ]
+    },
+    "rawHiddenBaseline": {
+      "width": 480,
+      "height": 480,
+      "brightness": 129.75446953125083,
+      "sharpness": 4242.023510539749,
+      "warnings": []
+    },
+    "rawBlackCurrent": {
+      "width": 480,
+      "height": 480,
+      "brightness": 254.99999999999997,
+      "sharpness": 0,
+      "warnings": [
+        "bright",
+        "soft"
+      ]
+    },
+    "serverWhiteComposite": {
+      "width": 480,
+      "height": 480,
+      "brightness": 254.99999999999994,
+      "sharpness": 0,
+      "warnings": [
+        "bright",
+        "soft"
+      ]
+    },
+    "serverHiddenRgbInvariant": true,
+    "candidateRequiresOpaque": true
+  },
+  "browserCanvasAlpha": {
+    "implementation": "Canvas drawImage followed by toBlob(image/jpeg,0.82), matching inspected Expo web save/load primitives; not an actual Expo native runtime.",
+    "browserVersion": "155.0.8059.40",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "mimeType": "image/jpeg",
+    "outputSha256": "4d40fbdf4ba827bd68e0a1e10fc9efc2bd8840fc6883589e65efe671528356db",
+    "serverAfterBrowser": {
+      "width": 480,
+      "height": 480,
+      "brightness": 0,
+      "sharpness": 0,
+      "warnings": [
+        "dark",
+        "soft"
+      ]
+    },
+    "directPngWarnings": [
+      "bright",
+      "soft"
+    ],
+    "warningAgreement": false,
+    "installedSources": [
+      {
+        "file": "node_modules/expo-image-manipulator/src/web/utils.web.ts",
+        "sha256": "1b818d3c8c64f4036456a4ab02b6df6cd19226c0f73b6761cad1ba30bf5a896d"
+      },
+      {
+        "file": "node_modules/expo-image-manipulator/src/web/ImageManipulatorImageRef.web.ts",
+        "sha256": "af2249a040490ea4892f3cc0f606766743d37affb93604aa196a329a585b18b5"
+      }
+    ]
+  },
+  "rawGeometry": [
+    {
+      "case": "fractional-preview-width",
+      "result": {
+        "rejected": "Invalid pixel buffer"
+      }
+    },
+    {
+      "case": "nan-original-width",
+      "result": {
+        "rejected": "Invalid pixel buffer"
+      }
+    },
+    {
+      "case": "zero-original-width",
+      "result": {
+        "rejected": "Invalid pixel buffer"
+      }
+    }
+  ],
+  "productionFiles": {
+    "server/images.ts": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79",
+    "packages/core/quality.ts": "07954f410f78ea88d7846a0d54542addbcefc230275ca44d7f7261c943263446",
+    "app/src/session.ts": "e5adf5fb13111f42c2e8d7d92ddeef5555491c316719f178a8e9947def700f6c"
+  }
+}

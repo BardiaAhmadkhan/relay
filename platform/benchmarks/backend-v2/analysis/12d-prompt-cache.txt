@@ -1,0 +1,14 @@
+Probe, prompt cache on (default): 40 photographs
+  free RAM 12220 -> 6835 MiB (trend -137 MiB per photograph)
+  llama-server private 6524 -> 12044 MiB (trend +139 MiB per photograph)
+  time per question: median 444 ms
+Probe, prompt cache off (LLAMA_ARG_CACHE_RAM=0): 40 photographs
+  free RAM 12261 -> 12190 MiB (trend -2 MiB per photograph)
+  llama-server private 6508 -> 6584 MiB (trend +2 MiB per photograph)
+  time per question: median 438 ms
+probe answers on the same photographs: 40, identical 40, largest difference 0.00000
+
+v3.1 engine, same 39 photographs, cache on (E19) against off:
+  identical answers 13/39, largest answer difference 0.0447
+  same band 38/39, same outcome 38/39
+  median ms per photograph: on 3887, off 3641 (ratio 0.96)

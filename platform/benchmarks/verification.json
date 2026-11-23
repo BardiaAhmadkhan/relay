@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0",
+  "recordedAt": "2026-10-26T15:50:57.514Z",
+  "environment": {
+    "node": "v24.12.0",
+    "platform": "win32",
+    "architecture": "x64",
+    "cpu": "Intel(R) Core(TM) Ultra 9 275HX"
+  },
+  "sourceTreeSha256": "b265e7c2308cdc6d3ba7e21bd63c20996de7251f114e760575495329bdbfc08b",
+  "sources": [
+    {
+      "path": "app/App.tsx",
+      "sha256": "b052ec9d6c24a63c7c05f38684e67612ac2a532e08d0e124379dd3e9ba39cbf3"
+    },
+    {
+      "path": "app/app.json",
+      "sha256": "f629583ea91c7732c5b0b953d632152a027e616acf216c4d79d7424dbd397cf6"
+    },
+    {
+      "path": "app/index.ts",
+      "sha256": "af10e01cf5fa6d399a83829926cc80d935c1dca8fb01313ab7cb54aab84c028b"
+    },
+    {
+      "path": "app/metro.config.js",
+      "sha256": "ccc3aa9320119e1defa4b24cbba78e4d27be0dffe07fdd1f5217b4cf82bcf3c2"
+    },
+    {
+      "path": "app/package.json",
+      "sha256": "88ee10c9a1a936261bf3edb07430d207185b38a4ffc1f525e82199301394e4c5"
+    },
+    {
+      "path": "app/src/api.ts",
+      "sha256": "9b1c69cfab297a83ada52312a80ed42c6612c7441483b16bbcbc73f86fd8ee6f"
+    },
+    {
+      "path": "app/src/design.tsx",
+      "sha256": "7a4168a0eda8923203798d82ec7b9a9b5c1218d78b76e7c27df0871c71b1a15f"
+    },
+    {
+      "path": "app/src/screens-intake.tsx",
+      "sha256": "4b4c1d44a8b4beab1c05225da64097da956f1a6b50e1963caeb545b0d8ee80ba"
+    },
+    {
+      "path": "app/src/screens-review.tsx",
+      "sha256": "982896710874adf0c9ce94522fcd3dd34e95d33873ebdacff5721a1e009a35c5"
+    },
+    {
+      "path": "app/src/session.ts",
+      "sha256": "e5adf5fb13111f42c2e8d7d92ddeef5555491c316719f178a8e9947def700f6c"
+    },
+    {
+      "path": "app/src/styles.ts",
+      "sha256": "f958c1f73267032e84eede3db7732b37b1703d54db2e8e7c4f1116afed8f8f2a"
+    },
+    {
+      "path": "app/src/useRelay.ts",
+      "sha256": "1ca37cc67801d0aa095ebeec68d17e8bbf430240df6bb807c5d5acb0081c54ec"
+    },
+    {
+      "path": "app/tsconfig.json",
+      "sha256": "fc7a389f639160299133cfa665021c1218fc5af4dfbff247ba43859a09a103a7"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "59332cf6bd3cbfca5e2262007142df9732611cb0e971f86525eb69859ef0ddc7"
+    },
+    {
+      "path": "package.json",
+      "sha256": "77bcf4346b623e24c8821822d32fe4a75be21a315a56e0f188fd3e6fec7e693d"
+    },
+    {
+      "path": "packages/core/policy.ts",
+      "sha256": "ce93b1c1a2f3a2376755503863fcb5141d5dbbc539cb84e18efaac6b4648c01e"
+    },
+    {
+      "path": "packages/core/quality.ts",
+      "sha256": "2afa0db8c33aafe51c21afb97104049507057b7e67fbe2f05c3c5ca95071219f"
+    },
+    {
+      "path": "packages/core/recovery.ts",
+      "sha256": "3a46dae0a95cf0428092012aaa0860cac8c1a4997065e4855032339d64134c7d"
+    },
+    {
+      "path": "packages/core/schema.ts",
+      "sha256": "4f2649245ca59c58ca279e67c651b1b5d0b5f57b25780a9e4aeb81758a1fde82"
+    },
+    {
+      "path": "packages/vision/local.ts",
+      "sha256": "593c2e20d08ba73c6b741c0eb3dcf790aa361eb9aecb1eaae5f266a1af78ea13"
+    },
+    {
+      "path": "packages/vision/openai.ts",
+      "sha256": "b2851d5bdb75bb84e0dffc29e3485ae2eb10f1e4c63544a4bfd44e681b551473"
+    },
+    {
+      "path": "packages/vision/prompt.ts",
+      "sha256": "f714869a3ed8f7c89d37d7d49f95e9b7b02336b90b68950f1552c21c590d90f6"
+    },
+    {
+      "path": "packages/vision/validation.ts",
+      "sha256": "2ffc034bd6703b4c85262f5d5830b8efd5a1ddbaf8f6e49a9d2c7073e5afefd3"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "3851a18f73baa7d59a4b104518ccf097f0308ac79c3871ba1385f7e756180e73"
+    },
+    {
+      "path": "scripts/benchmark-quality.ts",
+      "sha256": "0ad0f29281180497c2437c1e5ddb184e1e90bedb316b513acd212c17f565e1a6"
+    },
+    {
+      "path": "scripts/benchmark-vision.ts",
+      "sha256": "5f106663eed5064daf1e90b974ae12e280d0df7e8287ca3017c395d570acac4d"
+    },
+    {
+      "path": "scripts/capture-verification.mjs",
+      "sha256": "6f0ab21c19e137901aad59d96dfab840b29406cae0fe257362b2c4b817977cc9"
+    },
+    {
+      "path": "scripts/check-docs.mjs",
+      "sha256": "a242594af12defdd053a5297d5f23f8a21fb0165dba419ca4bebd63bfbf0593c"
+    },
+    {
+      "path": "scripts/fetch-fixtures.ts",
+      "sha256": "cc239bec3e3ee2973ea2c780d0d78e91559ae16d51bda8bc26b2c31d256aafac"
+    },
+    {
+      "path": "scripts/preview.mjs",
+      "sha256": "9f2be25aaf1887a57c6f4a41e1dfd00a230378bbfc95e3ef3ee8a871f4fcffd5"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "4a0eb2b3d1dd37cecb96f2dfb52e3f4feecc9c5b0e0729b15b1990f804c45ed8"
+    },
+    {
+      "path": "server/images.ts",
+      "sha256": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79"
+    },
+    {
+      "path": "server/index.ts",
+      "sha256": "f4ae29d8db7f8b242896dbd52313f82bfc6b4c3fbb7bf17c9dd42b609c31129f"
+    },
+    {
+      "path": "tests/api.test.ts",
+      "sha256": "06e8e0f5cf1f5ed89b7afcbd29554ae0e6c55f102753fe95bd21204867db915e"
+    },
+    {
+      "path": "tests/images.test.ts",
+      "sha256": "05ad768ce02a10ebdf5b75fde6c9c66d23bb826649fecca290a5aeee53e665df"
+    },
+    {
+      "path": "tests/mobile.spec.ts",
+      "sha256": "684afa60da407fd317299f20bff903206c65106b03e12087611efbda9860426f"
+    },
+    {
+      "path": "tests/policy.test.ts",
+      "sha256": "9ccf52c4e78e6df22dc7c24317e18fe0f8ec300cd15447d0f76a94bcf5333b84"
+    },
+    {
+      "path": "tests/provider.test.ts",
+      "sha256": "4c0c4c6b26aa5bad847913665cabfa76b7ffa0f33473d56df48b6c678f8e91dd"
+    },
+    {
+      "path": "tests/recovery.test.ts",
+      "sha256": "d7634e3b14a4243380e3efb3c1625e83e47d24f95deba27a1d2cab93993d4d26"
+    },
+    {
+      "path": "tests/schema.test.ts",
+      "sha256": "0b4cb54f25876a3c8174aef1f97bc00d7448dea326b5f036a68d4881e2d67b8a"
+    },
+    {
+      "path": "tests/session.test.ts",
+      "sha256": "c204b25ecf30720394809ea8802fd0b5082e3dcddfd8701b967fd09f7e25a38f"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "3fe3279c9ed15d58e1914606bc071bd47b8ec8fb964011815ffdac2d4d06bd9e"
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "415ff43adb200aede16d9ec76ccc9a88c1aefeb969389317603e5897a6637048"
+    }
+  ],
+  "commands": [
+    {
+      "id": "typecheck",
+      "exitCode": 0,
+      "log": "benchmarks/commands/typecheck.txt"
+    },
+    {
+      "id": "format",
+      "exitCode": 0,
+      "log": "benchmarks/commands/format.txt"
+    },
+    {
+      "id": "expo-doctor",
+      "exitCode": 0,
+      "log": "benchmarks/commands/expo-doctor.txt"
+    },
+    {
+      "id": "documentation",
+      "exitCode": 0,
+      "log": "benchmarks/commands/documentation.txt"
+    }
+  ],
+  "unitTests": {
+    "passed": 295,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 5,
+    "failed": 0,
+    "flaky": 0,
+    "baseURL": "See Playwright configuration/report",
+    "recordedStart": "2026-10-26T07:19:36.122Z"
+  },
+  "localAdapterChecks": {
+    "passed": 14,
+    "total": 14
+  },
+  "accessibility": [
+    {
+      "screen": "home",
+      "violations": 0
+    },
+    {
+      "screen": "result",
+      "violations": 0
+    }
+  ],
+  "bundles": [
+    {
+      "platform": "android",
+      "path": "app/dist/_expo/static/js/android/index-c723fc0a7287532e57ec93e317b4ca5e.hbc",
+      "bytes": 2566045,
+      "sha256": "f68763f38c84f74e8ee45b265daf3c635ef85fdb78954f051ea8cb1b543e296b"
+    },
+    {
+      "platform": "ios",
+      "path": "app/dist/_expo/static/js/ios/index-0e748ea419e69b1ce8f0887271e374af.hbc",
+      "bytes": 2559841,
+      "sha256": "bb0e0303f6152cb46c67f498f47c8db4aa3015576b1eba3be8de114542b8e911"
+    }
+  ],
+  "dependencyAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 5,
+    "critical": 0,
+    "total": 5
+  },
+  "limits": {
+    "physicalIosExecuted": false,
+    "physicalAndroidExecuted": false,
+    "livePaidVisionExecuted": false,
+    "conditionAccuracyEstablished": false,
+    "competitionReusePermission": false,
+    "published": false
+  },
+  "notes": [
+    "Native bundle export is not native device execution.",
+    "Browser local inference uses synthetic non-gear fixtures; cloud routes are explicitly mocked in consent tests.",
+    "Two upstream Expo-tooling advisories remain; see dependency review."
+  ]
+}

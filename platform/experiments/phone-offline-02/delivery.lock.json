@@ -1,0 +1,402 @@
+{
+  "at": "2026-10-27T04:17:08.902117+00:00",
+  "scope": "Standalone Android 0.2 delivery evidence and selected-source snapshots. Recognition scope is four canaries; physical S26 Ultra not tested.",
+  "files": [
+    {
+      "path": "experiments/phone-offline-02/final-source/app--App.tsx",
+      "sha256": "224e83a395d1cca2a30431e9a1f1600488688a942cdf52bec563a740f717d780"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--app.json",
+      "sha256": "ef6c60fc8a6cf037f2d64722267f6a9f44684b4967d99414fc65dc0e7acd3fbe"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--package.json",
+      "sha256": "463bde90a6441595950b79a70f8589df8b6841eded05c9181c47110b6cf9ed7e"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--src--api.android.ts",
+      "sha256": "a6ae6f33701013ab2ef31af815bd1be968bfacd2b22983efcfbcd32768acea83"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--src--device-engine.android.ts",
+      "sha256": "5c04ab49d0e9d644848d35495a6a306732913169335288d8e97fd16baf686eb5"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--src--useRelay.ts",
+      "sha256": "784e042f2d364344ce0a879d87955f18646e595065f2f60935c8513d66837ec2"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--src--screens-review.tsx",
+      "sha256": "9ef1a10cd3d6bb97c6fc9c6bd15d2337011d773c8e55a841bcf90105b6197f87"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--src--screens-intake.tsx",
+      "sha256": "a21c1bbf5287a60aa3a24a7f76d230e44982a3c8f68537492c692b0ae1129c8e"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--src--capture-footer.tsx",
+      "sha256": "6708ace5f14ca9086b8d2bae12099d44a6efe620310849eaa643a4127537af59"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--assets--offline--manifest.json",
+      "sha256": "3092c46a66c598cee28174bea055ccf0f16c25137628a68ccbc4ccc3d51a0bf0"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--native--offline--RelayOfflineAssets.kt",
+      "sha256": "28ec0923e2b0cf43b0bb45eebbb86e296d436867fc54346f08c3910548be8248"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/app--plugins--with-offline-vision.cjs",
+      "sha256": "48d75c9c2ca2e3d80c1aced02af3a03ead3dc857f836357058f418938ae6bb0c"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/scripts--phone-offline-02-build.mjs",
+      "sha256": "09f7d0043164f15266c68f33103516b94eac69bf9423ffb0bbcb2101607bf1e8"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/scripts--phone-offline-02-prepare-runtime.mjs",
+      "sha256": "9cad671cd35c438bf24618a561e8eb6da160d0d7aa179261032e063231289802"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/scripts--phone-offline-02-inspect-apk.py",
+      "sha256": "17de585e2ee0b77e1ed9a33f6b3ca58ff4520317e8d1b669f913d03a5bc1a559"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/scripts--phone-offline-02-sync-assets.mjs",
+      "sha256": "f053c54e02b9fd551b1056fc2325cda163b20a65fce29571894d99091d03a296"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/scripts--install-android.ps1",
+      "sha256": "9fffabcbcf2f9f5d274c6a887a74b940d1bf09377942b8c0e5ffd8a45a446da9"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/tests--device-engine.test.ts",
+      "sha256": "b0659d475d75b202c8d6f654f5523e55d5cbd94dc0f8d35cb9cc46284c3a397e"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/tests--device-inspection.test.ts",
+      "sha256": "b1b183bb09ebfa2cb7954e1e67964b5e61ba2ca2625f0f24a0c70a16a8510fbc"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/tests--device-api.test.ts",
+      "sha256": "31ad61046fb05a91c078a7aa413cee616102325069ad612cd4c86e68e211b079"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/tests--device-recovery.test.ts",
+      "sha256": "f79de888edb25d317c0ba7996f3367f6ccf6f3e8f661de55b9cfbf8a1f15a80d"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/packages--mobile--abortable-result.ts",
+      "sha256": "517dce5dc72d474ca767caa8d009849ec118d9fb99902cbbb5fc919cb53e9aec"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/packages--mobile--abrasion-cue.ts",
+      "sha256": "6be6de70b0d2e258440929a1abdfd380a96e4c7dd64cb0e666a5f3228e8e8fe0"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/packages--mobile--focused-tear.ts",
+      "sha256": "b2698ec569691e4527b436a812de1d5297fffee7581b9367de4fd02e8d4aad8a"
+    },
+    {
+      "path": "experiments/phone-offline-02/final-source/packages--mobile--inspection.ts",
+      "sha256": "afd87904c81fa35eacb5c01e66970666f59b21028e2608471ca4d418df9ec8e7"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/apk-inspection.json",
+      "sha256": "be490d20ac73dc8c0828abfe7ead221b2397dae7a9295a7d07afb848bdcfed3f"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/full-package-code-parity.json",
+      "sha256": "d4c66fb682360d18a2cf5568dc1a39b5eb91fd340c5072943e0efa6cc9edb258"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/unit-suite-verification-assembly.json",
+      "sha256": "aa6a52e067c72fea2e4fbd4c01e0b338e6905f01e8e893bf7d80c48ec603011f"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/verification-final.json",
+      "sha256": "3f2950b118dd4afe5b576dc7be8425fa27c08c86b31559d42045b89404958319"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/prior-evidence-integrity-delivery.json",
+      "sha256": "781ae90ad9a3a1da49c926348a58621e146a3f9d308e3e805c1555cbd4b0124c"
+    },
+    {
+      "path": "artifacts/Relay-0.2-offline-android.json",
+      "sha256": "b3f79241c13cc4eb5924f32d438c51fc8f73fcc30251f4cbe3e24cbdf980690a"
+    },
+    {
+      "path": "docs/15-testing-and-qa/phone-offline-02.md",
+      "sha256": "85fd103ea795a3808f26eefc401abfa830aaf4997963f36ddd580fd7cfb47bea"
+    },
+    {
+      "path": "docs/10-implementation/android-install.md",
+      "sha256": "c1ff2246616ad7f0bd852fdd89a353b1993d0122995d14a2927aecde9c970b3c"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-control-outcome.json",
+      "sha256": "53d67d5a2b9ba1cbd7ed19c2fc99fea1dec5bd20a21a542ae81c35b20b2388b9"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-reviewed-cases.json",
+      "sha256": "de08a21b1bdf15790ff3880b3b025cf94f1c17561d1a2450809a25b8c324ddd7"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-outcome.json",
+      "sha256": "5cb3b18c30d071a89e3e4471aa232f8fbf9879cb6cf2ea3fffb822a055c8bbde"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-outcome.json",
+      "sha256": "b8e8dc6c32317e11c5202915da86a794a32b2546ed3cfe702bf8e9f2437b3495"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-outcome.json",
+      "sha256": "c9cd2f0a4462bedb4440d3b42950dd9d9c764777b9b11762bc47bb9718f71765"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-control-timeline.jsonl",
+      "sha256": "62f7f77f4612ed7d3eaa4c7559789306a003cea3cd55dc8f3925d5bff9795627"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-timeline.jsonl",
+      "sha256": "3131122dfafd80fad00f8c7e808e73c598123f70efc3a9b525370525378e906b"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-timeline.jsonl",
+      "sha256": "b0a36042e56935fb1a5eb78ad94000f7c3a21e6154e1294c19a88bf7e6aee0ea"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-timeline.jsonl",
+      "sha256": "46859c2858f2aa9099e18cb56e7e32cc7f6352334b55ba4d25654ca410315752"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-all-saved.xml",
+      "sha256": "7b1170c6f249cbd296de7cd95f40212a0fa76c06ad39b8bc8251fe4c99e0dffd"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-control-evidence-scroll0.xml",
+      "sha256": "0fa436091f758d7c188ebc16fefa898909e33a4ad3f64af98b4a199151856f95"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-control-findings.xml",
+      "sha256": "b6f7aed2c27ba43b149280d15db44b63a2d590a4b16bf00a1f4722e067268dbe"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-control-input.xml",
+      "sha256": "11371f93fe38c453522fd69895d43d3b568d66daf1462bc66ca52ad084e1fc81"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-control-outcome.xml",
+      "sha256": "b6f7aed2c27ba43b149280d15db44b63a2d590a4b16bf00a1f4722e067268dbe"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-home.xml",
+      "sha256": "035a107ab76f1e81c289abbed7e83be005e4182027af84dc54c25737f66029ce"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-settings.xml",
+      "sha256": "684b8c30fe2438de32a7af8cc11f42a4981d0f519eb4b60e701e462846e23908"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-brief-scroll0.xml",
+      "sha256": "5a24a902d245fa17d1a6fc34f0663454ff00b83f6c1424a638df07fb51e7ad21"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-evidence-scroll0.xml",
+      "sha256": "6901c301b94a9001fb23ff5b9c056b86817a84318a370d96b5b785994327a907"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-evidence-scroll1.xml",
+      "sha256": "32a55ca85c8f0f24754f41a156502d1bec1582d049836c85de25a16bd031693a"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-findings.xml",
+      "sha256": "3b95cec04a393b4e0a179d0ace3b70030c6179c6f1e5957b19021d6e696e1aa7"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-input.xml",
+      "sha256": "11371f93fe38c453522fd69895d43d3b568d66daf1462bc66ca52ad084e1fc81"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user01-outcome.xml",
+      "sha256": "3b95cec04a393b4e0a179d0ace3b70030c6179c6f1e5957b19021d6e696e1aa7"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-brief-scroll0.xml",
+      "sha256": "03858af5d2bd6551576175f3e1e43c6964a5e1fa195baae964026a473b1cbcfb"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-evidence-scroll0.xml",
+      "sha256": "a72ba205894a88fcc0531361b965737e22f1d5db4a1049c7c1c3a7f2e540da23"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-evidence-scroll1.xml",
+      "sha256": "c97202862fda2c1f07a9ce82ff9da21216e4bc5b5c1b80eaa6049fb9c7f72d8a"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-findings.xml",
+      "sha256": "e06e7352738b42be0fcc6de253fa64c7a6703773d95a57b3bbed6148827f0282"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-input.xml",
+      "sha256": "11371f93fe38c453522fd69895d43d3b568d66daf1462bc66ca52ad084e1fc81"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user02-outcome.xml",
+      "sha256": "e06e7352738b42be0fcc6de253fa64c7a6703773d95a57b3bbed6148827f0282"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-brief-scroll0.xml",
+      "sha256": "0b99f6c37858e130d3ad9e588d39cab4362a6e9e6dfb9e07f10e57a823cecc15"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-evidence-scroll0.xml",
+      "sha256": "a908ff25001a7cfface50981febead93ab25c60f47d246bf130f0b09769d6698"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-evidence-scroll1.xml",
+      "sha256": "292c76643f0814956c558f5dfc4e4325d8ccc9046482e474226df2ebfc10af93"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-findings.xml",
+      "sha256": "9b113aa4fb2d8a1ea756332ad4b6156dc3b1bf2c3d70693a6bd64744df0852ff"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-input.xml",
+      "sha256": "9be2078082ce21d852b70793016764de4afd7e07cb51bc578efa11b1fc8ba932"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/context-v3-user03-outcome.xml",
+      "sha256": "9b113aa4fb2d8a1ea756332ad4b6156dc3b1bf2c3d70693a6bd64744df0852ff"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-cache-repeat-outcome.json",
+      "sha256": "ce3339a64a2fc3a9d0a9d1d072cc6fe0b52af1927f1b4ae43a5dac1cdb94f2a3"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-isolation.json",
+      "sha256": "0f979b2990e040cf5136847e06e9b65326be4bcb7d940c9d7193558e4d48ba7f"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-photo02-retry-outcome.json",
+      "sha256": "c4f2aa1804be9c64861af5d7cc4ab8d9055852366e71c4fca28c31e83ed419b2"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-cache-repeat-timeline.jsonl",
+      "sha256": "7faa10d6cf91b146b02ac7f4dc55335d563502dbfa62504f9a3558649feff5e9"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-first-setup-timeline.jsonl",
+      "sha256": "1b90ad2e880d364406fd79923b65fb469e073ffbbf0230e65c671d770c14b855"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-photo02-retry-timeline.jsonl",
+      "sha256": "d110b369010f63bf43cc21af53cf5ca79c08dd9a7b718ea42ec691f9373a903f"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-after-cancel.xml",
+      "sha256": "83fa0f21a7d10cbb18a55292ae5925b8595ddecf418fc6fab358870100ce31c8"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-before-cancel.xml",
+      "sha256": "4848b1edeeb8f07eb8f3f1f1873f69402d27c674388be286c8e50e3e5be59f1d"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-cache-repeat-outcome.xml",
+      "sha256": "c967194e84b706358b6cf720491e1906f4d8b50c192d6fdbbf8e05b11f2ec596"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-cached-result.xml",
+      "sha256": "c967194e84b706358b6cf720491e1906f4d8b50c192d6fdbbf8e05b11f2ec596"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-camera-captured.xml",
+      "sha256": "79a117de92d6342297ea0a796ca73b974786df3cec85c5090de7c43ebbe81c5a"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-camera-permission.xml",
+      "sha256": "78fa446516ccb3a9f92c0d9e54b11fe8ee7e075502b909bcf92cdb18e18f8d37"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-camera-photo-confirmed.xml",
+      "sha256": "9be2078082ce21d852b70793016764de4afd7e07cb51bc578efa11b1fc8ba932"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-camera-ready-after-permission.xml",
+      "sha256": "79a117de92d6342297ea0a796ca73b974786df3cec85c5090de7c43ebbe81c5a"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-camera-ready.xml",
+      "sha256": "e11c836b1bcad0a36f5289ef53e2e5545026d9f8de97bbac60213a9813dc61e3"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-clean-notebook-confirmed.xml",
+      "sha256": "1aee75444aa1c1985d66859dc6e4fea366c13d1af5289c0ab38fa3bc8a489a30"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-clean-notebook.xml",
+      "sha256": "4b1cf25b9e3c3fba7376a7b562ab6fb811019965c8ae3d1a03fa58c165f26f22"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-complete.xml",
+      "sha256": "a6e5801f0326781cf3b3f33cd58878f68517509deb40f6004f5e909996cd0e6d"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-history-before-upgrade.xml",
+      "sha256": "2d9f5dbb9915724a57debe7d284d127138396447ee9d77b7e81aa75a3cf0bf68"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-history-exclusion.xml",
+      "sha256": "f0475e44885f8ebb9ba55d4295fe26f6d84656309c13bb95040ed82149d7383a"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-photo-input.xml",
+      "sha256": "11371f93fe38c453522fd69895d43d3b568d66daf1462bc66ca52ad084e1fc81"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-photo02-retry-outcome.xml",
+      "sha256": "a6e5801f0326781cf3b3f33cd58878f68517509deb40f6004f5e909996cd0e6d"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-previous-version.xml",
+      "sha256": "43cc833fff4b9878e3ead86f4875515ac715f595a417aab4a5a3ba317e1cfe0a"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-reopened.xml",
+      "sha256": "f4cb5b332677cb46a1211bc8e68786a12871ce6b3b57b3b81828d6633c1e71c5"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-retained-brief.xml",
+      "sha256": "f7071d4ce2e7506a8090d1049ff64a0bd564fb9f6a78f457dab318320a4e0d28"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-retry-start.xml",
+      "sha256": "4848b1edeeb8f07eb8f3f1f1873f69402d27c674388be286c8e50e3e5be59f1d"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-saved-result.xml",
+      "sha256": "027c65190881acab87a8bb420f72e19c88c02e72b12586b2c964a754da7017d9"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/delivery-upgraded.xml",
+      "sha256": "84e368ce9acd64e645dd73f9f3ea25303591d5a41ede8c58e902ad62301d3d4b"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/installed-apk-integrity.json",
+      "sha256": "6164e8ce4db30979c5c71785cb664a4d594ba44798bcb7f6b9364ee652b024e0"
+    },
+    {
+      "path": "benchmarks/phone-offline-02/native/native-verifier-matrix.jsonl",
+      "sha256": "a746eaf84ddc65c05c097d8b076b003d8c1564c53ee03407375ab57af5fb1785"
+    }
+  ],
+  "largeArtifacts": [
+    {
+      "path": "artifacts/Relay-0.2-offline-android.apk",
+      "bytes": 3316903550,
+      "sha256": "ba762cc7928bf31d600dfcfcdce0dff7d194f0d3405526e651276cdac02a6a0a",
+      "verification": "Installed and copied hashes already independently recorded; use streaming hashing for this file."
+    }
+  ]
+}

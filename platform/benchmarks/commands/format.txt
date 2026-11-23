@@ -1,0 +1,6 @@
+
+> gear-recognition-lab@0.1.0 format:check
+> prettier --check app packages server scripts tests *.ts *.json
+
+Checking formatting...
+All matched files use Prettier code style!

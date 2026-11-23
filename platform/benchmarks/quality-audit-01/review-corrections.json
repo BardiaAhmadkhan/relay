@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-26T21:18:52.563Z",
+  "scope": "Secondary output adjudication only. Original image labels and raw model results remain unchanged.",
+  "corrections": [
+    {
+      "id": "fabric-049",
+      "previous": "missed",
+      "correspondence": "partial",
+      "note": "The central slit location is noticed but called a normal seam. Treat as partial for consistency with the fixed secondary rubric for correct-region/wrong-mechanism descriptions."
+    }
+  ]
+}

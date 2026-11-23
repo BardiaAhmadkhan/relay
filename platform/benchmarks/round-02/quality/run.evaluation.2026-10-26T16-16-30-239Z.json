@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.0",
+  "protocolId": "relay-quality-round-02-v1",
+  "protocolSha256": "7d0d03b8ebb895a1af1b69394f5161422c31aa9ac6f37a5e5e3f1817f0172347",
+  "phase": "evaluation",
+  "startedAt": "2026-10-26T16:16:30.240Z",
+  "finishedAt": "2026-10-26T16:16:44.614Z",
+  "rawFile": "benchmarks/round-02/quality/measurements.evaluation.2026-10-26T16-16-30-239Z.jsonl",
+  "rawSha256": "a19f2be1365640f927b2c9d2e7617d527b1f43a269d574dcd0eb8ef71ca4f8e3",
+  "rows": 120,
+  "expectedRows": 120,
+  "imageCount": 5,
+  "itemGroupCount": 4,
+  "productionParity": [
+    {
+      "fixtureId": "gloves-back",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 640,
+        "brightness": 132.05239758301096,
+        "sharpness": 1525.1922698509954,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 640,
+        "brightness": 132.05239758301096,
+        "sharpness": 1525.1922698509954,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "gloves-palm",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 640,
+        "brightness": 165.77956846516912,
+        "sharpness": 1759.737429246647,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 640,
+        "brightness": 165.77956846516912,
+        "sharpness": 1759.737429246647,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "racing-boot",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 720,
+        "brightness": 65.817140357349,
+        "sharpness": 1462.2881352138222,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 720,
+        "brightness": 65.817140357349,
+        "sharpness": 1462.2881352138222,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "crashed-shoulder",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 725,
+        "height": 960,
+        "brightness": 73.6984775933912,
+        "sharpness": 1286.9453490397343,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 725,
+        "height": 960,
+        "brightness": 73.6984775933912,
+        "sharpness": 1286.9453490397343,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "backpack-label",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 720,
+        "brightness": 87.37966955295076,
+        "sharpness": 1391.0874603140946,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 720,
+        "brightness": 87.37966955295076,
+        "sharpness": 1391.0874603140946,
+        "warnings": []
+      }
+    }
+  ],
+  "node": "v24.12.0",
+  "sharpVersions": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "timingCaveat": "Single serial quality run on a shared host. Other project experiments may execute concurrently; values do not estimate native phone latency.",
+  "actualProductionFiles": {
+    "server/images.ts": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79",
+    "packages/core/quality.ts": "2afa0db8c33aafe51c21afb97104049507057b7e67fbe2f05c3c5ca95071219f"
+  }
+}

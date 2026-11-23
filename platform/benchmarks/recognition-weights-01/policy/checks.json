@@ -1,0 +1,41 @@
+{
+  "preChangeSha256": {
+    "packages/core/v2/policy.ts": "4079048fbd1977d7a2dfc77c70762a261698c2bfc31b9526700c0986c9f7fcac",
+    "packages/core/v2/policy.config.json": "c0550a57520e006659e57687a0b9f684f15c2ebbfd971f2b8eef0343f9e6449a",
+    "tests/v2-policy.test.ts": "75fd615ab68c8c5941f39ee6e239ecb72c01334d6e90a106492f9d1718834f94",
+    "tests/v2-api.test.ts": "dc960ba003c84abe3a24ae129ee976fd3cfe2e85b35d465aa9f9b97d423f65e4"
+  },
+  "postChangeSha256": {
+    "packages/core/v2/policy.ts": "a97fb6872959d45745f6104453d24cc614a63d5c26cc53a3cca5c437754fd845",
+    "packages/core/v2/policy.config.json": "1bdef2e93fd9f246aa5df39efa71bcd04d019c8a70f477447c41328360ba1c74",
+    "tests/v2-policy.test.ts": "9ce1dd84e0038e01f3bcaa1a036a095546866e8ef81d4baded0110e0772ed5d7",
+    "tests/v2-api.test.ts": "2ae05a86b470b0796f28eb069379537f84fc8f1b8c9c0f0d48ba43cb9f4efb3c"
+  },
+  "eligibleControl": {
+    "outcome": "offer",
+    "grade": "B",
+    "category": "jacket",
+    "reasons": [
+      "history_clear",
+      "photos_clear",
+      "grade"
+    ],
+    "request": null
+  },
+  "missingOrWrongTypeCases": 44,
+  "originalOffers": 44,
+  "newReviews": 44,
+  "sameReplayFields": 385,
+  "reconstructedHistoricalMatchesIncludingCategory": 384,
+  "onlyHistoricalCategoryDifference": "cm-236: archived helmet:0.600 but original resolved category unknown. The stored probability was rounded. Both policy versions reconstruct helmet and still request a retake.",
+  "vitest": {
+    "files": 32,
+    "tests": 609,
+    "passed": 609,
+    "command": "node node_modules/vitest/vitest.mjs run --reporter=dot --no-cache --configLoader runner"
+  },
+  "typecheck": {
+    "command": "npm.cmd run typecheck",
+    "exitCode": 0
+  }
+}

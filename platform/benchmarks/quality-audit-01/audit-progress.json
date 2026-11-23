@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-26T21:04:55.595Z",
+  "completed": 194,
+  "total": 194,
+  "last": "fabric-036",
+  "firstAttemptFailures": 194,
+  "counts": {
+    "processing_error": 194
+  }
+}

@@ -1,0 +1,1327 @@
+{
+  "summary": {
+    "region": {
+      "stock": 0.506944,
+      "edited": 0.555556,
+      "noEditLogitControl": 0.555556,
+      "noEditProbabilityControl": 0.548611
+    },
+    "whole": {
+      "stock": 0.472222,
+      "edited": 0.465278,
+      "noEditLogitControl": 0.465278,
+      "noEditProbabilityControl": 0.465278
+    },
+    "holesLocation": {
+      "stock": 7,
+      "edited": 7
+    },
+    "spotsLocation": {
+      "stock": 8,
+      "edited": 8
+    },
+    "sameBoxMaxAbsoluteDeltaPixels": 0,
+    "untouchedClassMaxAbsDelta": 0,
+    "physicalVsNoEditMaxAbsScore": 0.0001363750737003594,
+    "physicalVsPublicProbabilitiesMaxAbsScore": 0.00014532158574256937,
+    "physicalItemCount": 24
+  },
+  "rows": [
+    {
+      "id": "w-spots-20260226_144320_b5e77522-whole",
+      "item": "20260226_144320_b5e77522",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 2.2172927856445312e-05,
+      "edited": 1.1668517679945487e-05,
+      "noEditLogitControl": 1.1628710237803646e-05,
+      "noEditProbabilityControl": 1.1631352405101144e-05,
+      "stockMs": 882.515,
+      "editedMs": 1050.381,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260218_112127_bfba047d-whole",
+      "item": "20260218_112127_bfba047d",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 0.00040435791015625,
+      "edited": 0.0004014173395502858,
+      "noEditLogitControl": 0.00040299360904070376,
+      "noEditProbabilityControl": 0.0004028738610851283,
+      "stockMs": 1114.953,
+      "editedMs": 1150.933,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.5
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.5
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260318_123436_09810a01-whole",
+      "item": "20260318_123436_09810a01",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 3.075599670410156e-05,
+      "edited": 1.3906241366305584e-05,
+      "noEditLogitControl": 1.3785720478264044e-05,
+      "noEditProbabilityControl": 1.3727765401802779e-05,
+      "stockMs": 1061.684,
+      "editedMs": 969.28,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260219_082901_1fe16d20-whole",
+      "item": "20260219_082901_1fe16d20",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 0.075439453125,
+      "edited": 0.07544635636812838,
+      "noEditLogitControl": 0.07530998129442802,
+      "noEditProbabilityControl": 0.07530103478238581,
+      "stockMs": 1046.614,
+      "editedMs": 1022.738,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260224_131858_460f8164-region",
+      "item": "20260224_131858_460f8164",
+      "class": "holes",
+      "mode": "region",
+      "stock": 3.731250762939453e-05,
+      "edited": 2.15094645773005e-05,
+      "noEditLogitControl": 2.1494510669993544e-05,
+      "noEditProbabilityControl": 2.1488249496495253e-05,
+      "stockMs": 1142.323,
+      "editedMs": 1139.983
+    },
+    {
+      "id": "w-holes-20260227_101432_0290383e-region",
+      "item": "20260227_101432_0290383e",
+      "class": "holes",
+      "mode": "region",
+      "stock": 1.1920928955078125e-05,
+      "edited": 1.1117115317599174e-05,
+      "noEditLogitControl": 1.1186571256407496e-05,
+      "noEditProbabilityControl": 1.0998332067160882e-05,
+      "stockMs": 1109.317,
+      "editedMs": 1026.305
+    },
+    {
+      "id": "w-spots-20260219_110148_c50b0be2-region",
+      "item": "20260219_110148_c50b0be2",
+      "class": "spots",
+      "mode": "region",
+      "stock": 0.00015234947204589844,
+      "edited": 0.00014889316595133656,
+      "noEditLogitControl": 0.00014889316595133656,
+      "noEditProbabilityControl": 0.00014891264174988055,
+      "stockMs": 1149.856,
+      "editedMs": 1102.33
+    },
+    {
+      "id": "w-spots-20260218_113253_ddcee7bd-region",
+      "item": "20260218_113253_ddcee7bd",
+      "class": "spots",
+      "mode": "region",
+      "stock": 1.5497207641601562e-06,
+      "edited": 8.588960170481836e-07,
+      "noEditLogitControl": 8.59048197299815e-07,
+      "noEditProbabilityControl": 8.572924517771287e-07,
+      "stockMs": 1095.298,
+      "editedMs": 1043.34
+    },
+    {
+      "id": "w-holes-20260227_155138_3b38e63b-whole",
+      "item": "20260227_155138_3b38e63b",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 2.1457672119140625e-06,
+      "edited": 1.954072394096186e-06,
+      "noEditLogitControl": 1.9527068318136076e-06,
+      "noEditProbabilityControl": 1.463655221307288e-06,
+      "stockMs": 1076.627,
+      "editedMs": 1077.368,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260217_095044_c863235c-whole",
+      "item": "20260217_095044_c863235c",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 0.0002551078796386719,
+      "edited": 0.00018131869890754496,
+      "noEditLogitControl": 0.00018154295883302017,
+      "noEditProbabilityControl": 0.00018152120348477195,
+      "stockMs": 1058.9,
+      "editedMs": 1084.092,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.3333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.3333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260227_090036_96f482da-region",
+      "item": "20260227_090036_96f482da",
+      "class": "holes",
+      "mode": "region",
+      "stock": 9.238719940185547e-05,
+      "edited": 8.60442062435889e-05,
+      "noEditLogitControl": 8.622371222369935e-05,
+      "noEditProbabilityControl": 8.616184488870353e-05,
+      "stockMs": 1174.733,
+      "editedMs": 1075.898
+    },
+    {
+      "id": "w-spots-20260220_150712_d403f7ad-region",
+      "item": "20260220_150712_d403f7ad",
+      "class": "spots",
+      "mode": "region",
+      "stock": 0.002349853515625,
+      "edited": 0.0022650271463549396,
+      "noEditLogitControl": 0.0022650271463549396,
+      "noEditProbabilityControl": 0.002264352918560251,
+      "stockMs": 1034.973,
+      "editedMs": 1116.414
+    },
+    {
+      "id": "w-spots-20260226_111728_8323cd31-region",
+      "item": "20260226_111728_8323cd31",
+      "class": "spots",
+      "mode": "region",
+      "stock": 4.649162292480469e-06,
+      "edited": 4.64666694269056e-06,
+      "noEditLogitControl": 4.64666694269056e-06,
+      "noEditProbabilityControl": 3.826182160311975e-06,
+      "stockMs": 1064.382,
+      "editedMs": 1007.661
+    },
+    {
+      "id": "w-holes-20260224_130038_b3752425-region",
+      "item": "20260224_130038_b3752425",
+      "class": "holes",
+      "mode": "region",
+      "stock": 0.0006985664367675781,
+      "edited": 0.0006741548535580536,
+      "noEditLogitControl": 0.000672791711224405,
+      "noEditProbabilityControl": 0.0006726975946556948,
+      "stockMs": 1113.049,
+      "editedMs": 1030.418
+    },
+    {
+      "id": "w-spots-20260220_150712_d403f7ad-whole",
+      "item": "20260220_150712_d403f7ad",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 1.0609626770019531e-05,
+      "edited": 1.0426994674616434e-05,
+      "noEditLogitControl": 1.0364643630120307e-05,
+      "noEditProbabilityControl": 9.695770208791288e-06,
+      "stockMs": 1088.548,
+      "editedMs": 1154.577,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260219_082901_1fe16d20-region",
+      "item": "20260219_082901_1fe16d20",
+      "class": "spots",
+      "mode": "region",
+      "stock": 2.0503997802734375e-05,
+      "edited": 1.0559290143918189e-05,
+      "noEditLogitControl": 1.0600999156537218e-05,
+      "noEditProbabilityControl": 9.814104152228986e-06,
+      "stockMs": 1051.563,
+      "editedMs": 1035.832
+    },
+    {
+      "id": "w-holes-20260227_151036_d45f3222-region",
+      "item": "20260227_151036_d45f3222",
+      "class": "holes",
+      "mode": "region",
+      "stock": 0.0005254745483398438,
+      "edited": 0.0002466633033070411,
+      "noEditLogitControl": 0.00024682457165065453,
+      "noEditProbabilityControl": 0.0002468252980649731,
+      "stockMs": 1144.271,
+      "editedMs": 1200.662
+    },
+    {
+      "id": "w-holes-20260224_131858_460f8164-whole",
+      "item": "20260224_131858_460f8164",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 3.248453140258789e-05,
+      "edited": 3.167032911588634e-05,
+      "noEditLogitControl": 3.167032911588634e-05,
+      "noEditProbabilityControl": 3.1514425570909333e-05,
+      "stockMs": 1107.38,
+      "editedMs": 1072.403,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260224_134241_a184d209-region",
+      "item": "20260224_134241_a184d209",
+      "class": "holes",
+      "mode": "region",
+      "stock": 3.6954879760742188e-06,
+      "edited": 8.997697195884705e-07,
+      "noEditLogitControl": 8.959379842900081e-07,
+      "noEditProbabilityControl": 5.099811202232783e-07,
+      "stockMs": 1078.214,
+      "editedMs": 1100.405
+    },
+    {
+      "id": "w-holes-20260227_155138_3b38e63b-region",
+      "item": "20260227_155138_3b38e63b",
+      "class": "holes",
+      "mode": "region",
+      "stock": 2.2649765014648438e-06,
+      "edited": 2.0719012099089685e-06,
+      "noEditLogitControl": 2.0762531094295173e-06,
+      "noEditProbabilityControl": 1.571258028194918e-06,
+      "stockMs": 1074.382,
+      "editedMs": 964.346
+    },
+    {
+      "id": "w-holes-20260311_153020_6178e68f-region",
+      "item": "20260311_153020_6178e68f",
+      "class": "holes",
+      "mode": "region",
+      "stock": 0.0001366138458251953,
+      "edited": 0.00013612947977457375,
+      "noEditLogitControl": 0.00013612947977457375,
+      "noEditProbabilityControl": 0.00013562124618619138,
+      "stockMs": 1113.269,
+      "editedMs": 1066.999
+    },
+    {
+      "id": "w-holes-20260311_153020_6178e68f-whole",
+      "item": "20260311_153020_6178e68f",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 0.0006046295166015625,
+      "edited": 0.00054878085109848,
+      "noEditLogitControl": 0.0005464372818542968,
+      "noEditProbabilityControl": 0.0005463817172702144,
+      "stockMs": 1060.92,
+      "editedMs": 1059.417,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.6666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.6666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260217_072806_d6088397-region",
+      "item": "20260217_072806_d6088397",
+      "class": "spots",
+      "mode": "region",
+      "stock": 0.00034332275390625,
+      "edited": 8.10518440164069e-05,
+      "noEditLogitControl": 8.12158277576783e-05,
+      "noEditProbabilityControl": 8.117264006579582e-05,
+      "stockMs": 1072.777,
+      "editedMs": 1083.129
+    },
+    {
+      "id": "w-spots-20260226_144320_b5e77522-region",
+      "item": "20260226_144320_b5e77522",
+      "class": "spots",
+      "mode": "region",
+      "stock": 3.910064697265625e-05,
+      "edited": 1.8933426536643248e-05,
+      "noEditLogitControl": 1.8933426536643248e-05,
+      "noEditProbabilityControl": 1.8242234911225244e-05,
+      "stockMs": 1084.623,
+      "editedMs": 1149.447
+    },
+    {
+      "id": "w-holes-20260318_123436_09810a01-region",
+      "item": "20260318_123436_09810a01",
+      "class": "holes",
+      "mode": "region",
+      "stock": 2.9146671295166016e-05,
+      "edited": 2.6986169920047747e-05,
+      "noEditLogitControl": 2.6986169920047747e-05,
+      "noEditProbabilityControl": 2.7045066205034045e-05,
+      "stockMs": 1244.324,
+      "editedMs": 1114.402
+    },
+    {
+      "id": "w-spots-20260220_141719_5126e4be-whole",
+      "item": "20260220_141719_5126e4be",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 7.843971252441406e-05,
+      "edited": 6.403650226325179e-05,
+      "noEditLogitControl": 6.366615544927819e-05,
+      "noEditProbabilityControl": 6.372088282039791e-05,
+      "stockMs": 1067.821,
+      "editedMs": 1128.342,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": true
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": true
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260226_111728_8323cd31-whole",
+      "item": "20260226_111728_8323cd31",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 1.2159347534179688e-05,
+      "edited": 1.1466633379596375e-05,
+      "noEditLogitControl": 1.1513779605392012e-05,
+      "noEditProbabilityControl": 1.1235348671522415e-05,
+      "stockMs": 1096.716,
+      "editedMs": 1095.792,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260217_072806_d6088397-whole",
+      "item": "20260217_072806_d6088397",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 0.0008625984191894531,
+      "edited": 0.0008654928537574932,
+      "noEditLogitControl": 0.0008621196255618989,
+      "noEditProbabilityControl": 0.0008616004367409886,
+      "stockMs": 1083.649,
+      "editedMs": 1123.055,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.5
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.5
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260219_110148_c50b0be2-whole",
+      "item": "20260219_110148_c50b0be2",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 2.7418136596679688e-06,
+      "edited": 1.7468100031994764e-06,
+      "noEditLogitControl": 1.7505726823432834e-06,
+      "noEditProbabilityControl": 1.2513050211468627e-06,
+      "stockMs": 992.782,
+      "editedMs": 1188.02,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.3333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260225_121234_b9b9b0f7-region",
+      "item": "20260225_121234_b9b9b0f7",
+      "class": "spots",
+      "mode": "region",
+      "stock": 4.5418739318847656e-05,
+      "edited": 4.1103151031676494e-05,
+      "noEditLogitControl": 4.127867094790908e-05,
+      "noEditProbabilityControl": 4.134911152926937e-05,
+      "stockMs": 1260.807,
+      "editedMs": 1042.388
+    },
+    {
+      "id": "w-holes-20260224_134241_a184d209-whole",
+      "item": "20260224_134241_a184d209",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 0.00013768672943115234,
+      "edited": 0.00010497025101544592,
+      "noEditLogitControl": 0.00010509707779956604,
+      "noEditProbabilityControl": 0.0001051102100546723,
+      "stockMs": 1018.405,
+      "editedMs": 1031.197,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.8333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.8333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260220_122128_46ec3467-whole",
+      "item": "20260220_122128_46ec3467",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 1.4662742614746094e-05,
+      "edited": 1.3712737214422838e-05,
+      "noEditLogitControl": 1.3712737214422838e-05,
+      "noEditProbabilityControl": 1.3726600367363038e-05,
+      "stockMs": 1124.926,
+      "editedMs": 1053.697,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.5
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.5
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260225_121234_b9b9b0f7-whole",
+      "item": "20260225_121234_b9b9b0f7",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 3.218650817871094e-05,
+      "edited": 1.366756643287065e-05,
+      "noEditLogitControl": 1.3722769923959604e-05,
+      "noEditProbabilityControl": 1.3251767498130824e-05,
+      "stockMs": 1151.604,
+      "editedMs": 1120.783,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.6666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.6666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260224_113435_c72c4762-whole",
+      "item": "20260224_113435_c72c4762",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 6.604194641113281e-05,
+      "edited": 6.120600062623231e-05,
+      "noEditLogitControl": 6.107760548802232e-05,
+      "noEditProbabilityControl": 6.108080983827717e-05,
+      "stockMs": 1001.777,
+      "editedMs": 1163.695,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260227_090036_96f482da-whole",
+      "item": "20260227_090036_96f482da",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 0.0008358955383300781,
+      "edited": 0.0008223589397960028,
+      "noEditLogitControl": 0.0008190906135988261,
+      "noEditProbabilityControl": 0.0008188596493353537,
+      "stockMs": 1078.696,
+      "editedMs": 1043.168,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.3333333333333333
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.3333333333333333
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260218_112127_bfba047d-region",
+      "item": "20260218_112127_bfba047d",
+      "class": "spots",
+      "mode": "region",
+      "stock": 0.0001080632209777832,
+      "edited": 1.8876163633829807e-05,
+      "noEditLogitControl": 1.8771849975414956e-05,
+      "noEditProbabilityControl": 1.873453796021445e-05,
+      "stockMs": 1173.645,
+      "editedMs": 1152.936
+    },
+    {
+      "id": "w-holes-20260224_102425_2388de32-whole",
+      "item": "20260224_102425_2388de32",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 8.821487426757812e-05,
+      "edited": 8.533136023251707e-05,
+      "noEditLogitControl": 8.515916518788753e-05,
+      "noEditProbabilityControl": 8.522088192233769e-05,
+      "stockMs": 1093.039,
+      "editedMs": 1011.305,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.3333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.3333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260227_101432_0290383e-whole",
+      "item": "20260227_101432_0290383e",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 3.0040740966796875e-05,
+      "edited": 2.996496464407927e-05,
+      "noEditLogitControl": 2.984752885850358e-05,
+      "noEditProbabilityControl": 2.907298389240581e-05,
+      "stockMs": 1187.056,
+      "editedMs": 1123.217,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.3333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260218_113253_ddcee7bd-whole",
+      "item": "20260218_113253_ddcee7bd",
+      "class": "spots",
+      "mode": "whole",
+      "stock": 7.659196853637695e-05,
+      "edited": 7.5253430127917e-05,
+      "noEditLogitControl": 7.5253430127917e-05,
+      "noEditProbabilityControl": 7.524526739303332e-05,
+      "stockMs": 1117.721,
+      "editedMs": 1165.364,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.6666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.6666666666666666
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-spots-20260220_141719_5126e4be-region",
+      "item": "20260220_141719_5126e4be",
+      "class": "spots",
+      "mode": "region",
+      "stock": 0.00043392181396484375,
+      "edited": 0.000427362331643114,
+      "noEditLogitControl": 0.00042905313648290667,
+      "noEditProbabilityControl": 0.0004290324706499177,
+      "stockMs": 1098.255,
+      "editedMs": 1009.599
+    },
+    {
+      "id": "w-spots-20260217_095044_c863235c-region",
+      "item": "20260217_095044_c863235c",
+      "class": "spots",
+      "mode": "region",
+      "stock": 0.0001252889633178711,
+      "edited": 0.00012364142838144337,
+      "noEditLogitControl": 0.00012364142838144337,
+      "noEditProbabilityControl": 0.0001236421731760878,
+      "stockMs": 1205.641,
+      "editedMs": 1112.542
+    },
+    {
+      "id": "w-holes-20260227_151036_d45f3222-whole",
+      "item": "20260227_151036_d45f3222",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 1.3113021850585938e-05,
+      "edited": 1.189641934585655e-05,
+      "noEditLogitControl": 1.1946790527957086e-05,
+      "noEditProbabilityControl": 1.2020281970795293e-05,
+      "stockMs": 1144.399,
+      "editedMs": 1097.822,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.8333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.8333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260227_105737_ea73116f-region",
+      "item": "20260227_105737_ea73116f",
+      "class": "holes",
+      "mode": "region",
+      "stock": 0.0005726814270019531,
+      "edited": 0.0005211471932841859,
+      "noEditLogitControl": 0.0005211471932841859,
+      "noEditProbabilityControl": 0.0005212749377748991,
+      "stockMs": 1182.217,
+      "editedMs": 1162.25
+    },
+    {
+      "id": "w-spots-20260220_122128_46ec3467-region",
+      "item": "20260220_122128_46ec3467",
+      "class": "spots",
+      "mode": "region",
+      "stock": 4.1961669921875e-05,
+      "edited": 4.2038400268063384e-05,
+      "noEditLogitControl": 4.1874078581623555e-05,
+      "noEditProbabilityControl": 4.098498556153591e-05,
+      "stockMs": 1070.772,
+      "editedMs": 1092.718
+    },
+    {
+      "id": "w-holes-20260224_113435_c72c4762-region",
+      "item": "20260224_113435_c72c4762",
+      "class": "holes",
+      "mode": "region",
+      "stock": 0.0022525787353515625,
+      "edited": 0.0017945542304784743,
+      "noEditLogitControl": 0.0017945542304784743,
+      "noEditProbabilityControl": 0.0017950785201246602,
+      "stockMs": 1012.196,
+      "editedMs": 1142.381
+    },
+    {
+      "id": "w-holes-20260224_102425_2388de32-region",
+      "item": "20260224_102425_2388de32",
+      "class": "holes",
+      "mode": "region",
+      "stock": 4.392862319946289e-05,
+      "edited": 2.4143280899145096e-05,
+      "noEditLogitControl": 2.403660652685255e-05,
+      "noEditProbabilityControl": 2.4058637399473455e-05,
+      "stockMs": 1128.345,
+      "editedMs": 1176.417
+    },
+    {
+      "id": "w-holes-20260224_130038_b3752425-whole",
+      "item": "20260224_130038_b3752425",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 5.829334259033203e-05,
+      "edited": 9.390419994266699e-06,
+      "noEditLogitControl": 9.390419994266699e-06,
+      "noEditProbabilityControl": 8.631656143408547e-06,
+      "stockMs": 1144.661,
+      "editedMs": 1182.988,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.16666666666666666
+            ]
+          ],
+          "covered": false,
+          "pointing": false
+        }
+      }
+    },
+    {
+      "id": "w-holes-20260227_105737_ea73116f-whole",
+      "item": "20260227_105737_ea73116f",
+      "class": "holes",
+      "mode": "whole",
+      "stock": 8.821487426757812e-06,
+      "edited": 5.278944410429467e-06,
+      "noEditLogitControl": 5.2988044789613895e-06,
+      "noEditProbabilityControl": 5.307242639094069e-06,
+      "stockMs": 1109.893,
+      "editedMs": 1068.126,
+      "location": {
+        "stock": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.8333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        },
+        "edited": {
+          "centers": [
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.8333333333333333,
+              0.8333333333333333
+            ]
+          ],
+          "covered": true,
+          "pointing": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "local_logprob": {
+    "model": ["qwen3.5:4b"],
+    "damage": {
+      "auc": 0.9795,
+      "clear": 0.139,
+      "block": 0.552,
+      "damaged": 113,
+      "clean": 110,
+      "damagedCleared": 2,
+      "damagedBlocked": 98,
+      "cleanCleared": 91,
+      "cleanBlocked": 1,
+      "damagedClearedInterval": [0.004867129823876968, 0.06224595318765318],
+      "cleanBlockedInterval": [0.0016065339495988408, 0.049706869937908016],
+      "clearedDamagedIds": ["fresh-fabric-033", "fabric-067"],
+      "collapsed": false,
+      "lowEvidence": false
+    },
+    "repair": {
+      "fitted": false,
+      "labelledRepairs": 0,
+      "note": "default band; not validated"
+    }
+  }
+}

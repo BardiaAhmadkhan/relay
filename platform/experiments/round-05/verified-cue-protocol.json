@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-26T19:13:28.141Z",
+  "candidate": "cue256-verified1024-1",
+  "target": "Only missed visible abrasion in low-resolution input.",
+  "factor": "Add the unchanged high-resolution physical-damage verifier only to positive outputs of the low-cost 256-token abrasion cue. The cue and verifier are existing measured components; no prompt or weight changes.",
+  "inputs": {
+    "cueResults": "benchmarks/round-05/cue-256-results.json",
+    "cueSha256": "b44f1a39f50cce987a8ecb6b2db23c54b361c67ed55508cb1fb61b679a679796",
+    "verifierSha256": "45441cb9ecd9b5ef39ba6b59c0c86c025b07f57e3c799df66a8baa01947f3e52"
+  },
+  "budget": "2500ms combined optional work per photo, 2600ms observed allowance including scheduler noise. Original findings and metadata remain unchanged. At most two extra calls; second only after a positive cue.",
+  "gates": {
+    "requiredRepairs": "First-user small320 miss plus at least one other previously missed damaged variant; subsequent independent-repeat check must retain the repair.",
+    "preservePositive": "Every baseline nonempty finding list, clarity, category, material and mechanism must remain unchanged.",
+    "falseAlarm": "No new finding on a visually negative control, including fresh-source controls.",
+    "authority": "No rescued finding becomes clear or claims a sliding mechanism; no category/material/identity change.",
+    "latency": "At most one extra request per eligible photo; p95 additional runtime <=2500ms on this host; 4s timeout preserves baseline on failure."
+  },
+  "limits": "Measured cue results from the preceding run are reused; measured new verification time is added. A fresh end-to-end repeat is mandatory before activation. Correlated development variants, not general accuracy."
+}

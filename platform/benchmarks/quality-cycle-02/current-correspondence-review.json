@@ -1,0 +1,691 @@
+{
+  "at": "2026-10-26T23:41:12.377Z",
+  "reviewer": "Assistant visual review of every current positive source photograph against the returned description; not an independent specialist",
+  "rule": "Matched means at least one actual physical defect or frayed/broken-material cue is described at the reference feature. A generic alert, wrong unrelated feature, or damage enum without corresponding evidence is insufficient. Wrong kinds, anatomy and extra claims are tracked separately; this is not all-claims accuracy.",
+  "evidence": [
+    "datasets/quality-cycle-02/review/current-positive-01.jpg",
+    "datasets/quality-cycle-02/review/current-positive-02.jpg",
+    "datasets/quality-cycle-02/review/current-positive-03.jpg",
+    "datasets/quality-cycle-02/review/current-positive-04.jpg",
+    "datasets/quality-cycle-02/review/current-positive-05.jpg",
+    "datasets/quality-cycle-02/review/current-positive-06.jpg",
+    "datasets/quality-cycle-02/review/current-positive-07.jpg"
+  ],
+  "cases": [
+    {
+      "id": "fabric-068",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-047",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-027",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-029",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-078",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-054",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": true,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-051",
+      "before": "partial",
+      "after": "partial",
+      "note": "A cut is described only as a dark linear mark. The alert does not identify the material break.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-052",
+      "before": "partial",
+      "after": "partial",
+      "note": "A cut is misidentified as a garment seam; the additional no-tears statement contradicts the photo.",
+      "wrongKind": false,
+      "unsupportedAnatomy": true,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "leather-007",
+      "before": "missed",
+      "after": "missed",
+      "note": "The scratches exposing brown material are missed. The returned edge-fraying observation is on a different feature and does not count as detecting the reference defect.",
+      "wrongKind": false,
+      "unsupportedAnatomy": true,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-093",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-057",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-050",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-060",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-065",
+      "before": "partial",
+      "after": "partial",
+      "note": "A puncture is described as surface-coating loss, not a material opening.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-049",
+      "before": "partial",
+      "after": "matched",
+      "note": "A real cut was called a seam. Full-context enlargement describes frayed edges and exposed fibers at the cut; revised kind tear, possible.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-039",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-025",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-062",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-092",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-075",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "leather-002",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": true,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-091",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-069",
+      "before": "processing_failure",
+      "after": "partial",
+      "note": "The original verifier names a nonexistent candidate index, causing a processing failure. One fixed-slot corrective review completes, but still endorses a white-patch description of the puncture. Reliability repaired; visual description remains partial.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-031",
+      "before": "matched",
+      "after": "matched",
+      "note": "The damaged fingertips are described. The wrist-separation claim is less certain and is not needed for the match.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-030",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-071",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-042",
+      "before": "partial",
+      "after": "partial",
+      "note": "A large open cut is reduced to a linear mark. The crop describes peeled material but does not satisfy the deliberately narrow tear-language acceptance gate; remains unresolved.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-031",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-073",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-066",
+      "before": "matched",
+      "after": "matched",
+      "note": "Unlike the historical caption, this run identifies frayed edges at the real puncture. This counts as a physical-evidence match, while the kind other and spot wording remain imprecise.",
+      "wrongKind": true,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "leather-005",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-059",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-076",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-044",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-053",
+      "before": "partial",
+      "after": "partial",
+      "note": "An open cut is called a possible stain or abrasion; the defect type and material break are missed.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-055",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-034",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-090",
+      "before": "missed",
+      "after": "matched",
+      "note": "Full-context enlargement recovers the actual openings and frayed edges. Recovered evidence is capped at possible and does not establish crash history.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-080",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-045",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-041",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": true,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-048",
+      "before": "matched",
+      "after": "matched",
+      "note": "The description of an open split corresponds to the real cut, but the structured kind seam is wrong.",
+      "wrongKind": true,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-021",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-063",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-035",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-051",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-023",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-072",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "leather-001",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": true
+    },
+    {
+      "id": "fabric-077",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": true,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "leather-016",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": true
+    },
+    {
+      "id": "commons-087",
+      "before": "missed",
+      "after": "missed",
+      "note": "The whole-image pass misses the distant ripped jeans. The crop found the rips, but the 6.5-second optional budget expired during full-context verification. Recorded fallback is retained as a miss, not silently replaced with an earlier successful trial.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-061",
+      "before": "partial",
+      "after": "partial",
+      "note": "The caption describes missing printed surface and a lighter underlayer, without recognizing the visible puncture through the weave. A tear enum alone is not sufficient for a full match.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-058",
+      "before": "partial",
+      "after": "partial",
+      "note": "A cut is reduced to a dark line and assigned the kind seam.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-028",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-032",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-074",
+      "before": "partial",
+      "after": "partial",
+      "note": "The puncture is described only as a protruding thread loop and labelled seam. It does not identify the opening.",
+      "wrongKind": true,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-037",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-056",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-033",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-024",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "leather-004",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": true
+    },
+    {
+      "id": "fabric-046",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-070",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-026",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-064",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "leather-003",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": true
+    },
+    {
+      "id": "fabric-067",
+      "before": "partial",
+      "after": "partial",
+      "note": "The puncture is reduced to a dark spot without recognizing broken or missing material.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-043",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-038",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-040",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": true,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-037",
+      "before": "matched",
+      "after": "matched",
+      "note": "The worn toe slider near the screw is described. The additional wear around the red mechanism is less conclusive.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "fabric-022",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    },
+    {
+      "id": "commons-089",
+      "before": "matched",
+      "after": "matched",
+      "note": "The torn denim is correctly described. The additional claim of a torn right sleeve is unsupported.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": true
+    },
+    {
+      "id": "fabric-036",
+      "before": "matched",
+      "after": "matched",
+      "note": "At least one returned description corresponds to the visibly broken, frayed or missing reference material. This does not certify every additional claim, exact damage type, severity, or cause.",
+      "wrongKind": false,
+      "unsupportedAnatomy": false,
+      "unsupportedExtra": false
+    }
+  ]
+}

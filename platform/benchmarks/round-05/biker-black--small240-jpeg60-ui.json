@@ -1,0 +1,132 @@
+{
+  "result": {
+    "schemaVersion": "1.0",
+    "assessmentId": "f8040078-b5df-4f1e-aa85-35a46444bd66",
+    "status": "complete",
+    "photos": [
+      {
+        "id": "34ed0f28-28c2-4ee7-8444-4aa1e56fc76f",
+        "view": "front",
+        "sha256": "02ee9f0dbacee1bef9b5e867c1b3b7a12757ddbc7df6b4c1ae0f4f2eaf69db31",
+        "byteLength": 8976,
+        "quality": {
+          "width": 180,
+          "height": 240,
+          "brightness": 123.64037152052464,
+          "sharpness": 2645.723507736553,
+          "warnings": [
+            "low_resolution"
+          ]
+        }
+      }
+    ],
+    "observation": {
+      "schemaVersion": "1.0",
+      "category": "motorcycle_jacket",
+      "attributes": [
+        {
+          "field": "material",
+          "value": "leather",
+          "kind": "inference",
+          "imageIds": [
+            "34ed0f28-28c2-4ee7-8444-4aa1e56fc76f"
+          ]
+        }
+      ],
+      "concerns": [
+        {
+          "kind": "abrasion",
+          "area": "protective",
+          "imageId": "34ed0f28-28c2-4ee7-8444-4aa1e56fc76f"
+        },
+        {
+          "kind": "abrasion",
+          "area": "protective",
+          "imageId": "34ed0f28-28c2-4ee7-8444-4aa1e56fc76f"
+        }
+      ],
+      "missingViews": [
+        "back",
+        "label"
+      ],
+      "multipleItems": false,
+      "inspection": {
+        "version": "photo-evidence-1",
+        "photos": [
+          {
+            "findings": [
+              {
+                "evidence": "scraped and worn surface on the left upper arm area",
+                "zone": "upper_arm",
+                "kind": "abrasion",
+                "clarity": "possible"
+              },
+              {
+                "evidence": "scraped and worn surface on the right upper arm area",
+                "zone": "upper_arm",
+                "kind": "abrasion",
+                "clarity": "possible"
+              }
+            ],
+            "crashPattern": "unclear",
+            "category": "motorcycle_jacket",
+            "material": "leather",
+            "imageId": "34ed0f28-28c2-4ee7-8444-4aa1e56fc76f"
+          }
+        ]
+      },
+      "provider": "local_vlm",
+      "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+      "coverage": "visual_observations",
+      "durationMs": 3935.6425000000163,
+      "usage": {
+        "inputTokens": 846,
+        "outputTokens": 282
+      }
+    },
+    "decision": {
+      "state": "human_inspection",
+      "policyVersion": "2026-10-26.2",
+      "title": "A detail needs a closer look",
+      "summary": "A possible defect needs checking. The item stays on hold for specialist inspection.",
+      "reasons": [
+        {
+          "code": "concern_abrasion",
+          "text": "Upper sleeve: scraped and worn surface on the left upper arm area"
+        },
+        {
+          "code": "concern_abrasion",
+          "text": "Upper sleeve: scraped and worn surface on the right upper arm area"
+        }
+      ],
+      "nextAction": "Set this item aside for physical inspection. Adding a clean view or changing a history answer does not establish protective performance.",
+      "offerRecommended": false,
+      "protectivePerformanceCertified": false
+    },
+    "timing": {
+      "totalMs": 3949.2921000000206,
+      "preprocessingMs": 13.330099999991944,
+      "inferenceMs": 3935.6425000000163,
+      "cached": false
+    }
+  },
+  "calls": [
+    {
+      "call": 13,
+      "at": "2026-10-26T19:33:11.219Z",
+      "stage": "extraction",
+      "elapsedMs": 3340.9800000000105,
+      "promptTokens": 448,
+      "outputTokens": 257
+    },
+    {
+      "call": 14,
+      "at": "2026-10-26T19:33:11.812Z",
+      "stage": "verification",
+      "elapsedMs": 591.7442999999912,
+      "promptTokens": 398,
+      "outputTokens": 25
+    }
+  ],
+  "boundary": "Actual browser decode/JPEG preparation and API pipeline. A negative control may retain an existing primary-model concern; this check forbids an added recovery flag."
+}

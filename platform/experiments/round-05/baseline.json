@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-26T18:43:01.810Z",
+  "target": "Missed visible abrasion in low-resolution input. Only input representation/fallback may change; no UI, policy, model weights or training work in this round.",
+  "files": [
+    {
+      "file": "packages/vision/inspection.ts",
+      "snapshot": "experiments/round-05/baseline/packages--vision--inspection.ts",
+      "sha256": "c2a8af7b15c9479a2314f1014d08ab63ca72369254586643f55a5578621821a2"
+    },
+    {
+      "file": "packages/vision/inspection-prompt.ts",
+      "snapshot": "experiments/round-05/baseline/packages--vision--inspection-prompt.ts",
+      "sha256": "f1f1acf1171a484ebf40556fefc61c55a44304bf72096a8eaa543472b1a1b5d4"
+    },
+    {
+      "file": "packages/vision/verification-prompt.ts",
+      "snapshot": "experiments/round-05/baseline/packages--vision--verification-prompt.ts",
+      "sha256": "89524bb5b87e0b82ab404c5cf77c7905b89a28ea2f95e1e2e655b64dc4f74320"
+    },
+    {
+      "file": "packages/core/policy.ts",
+      "snapshot": "experiments/round-05/baseline/packages--core--policy.ts",
+      "sha256": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1"
+    },
+    {
+      "file": "packages/core/schema.ts",
+      "snapshot": "experiments/round-05/baseline/packages--core--schema.ts",
+      "sha256": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0"
+    },
+    {
+      "file": "server/images.ts",
+      "snapshot": "experiments/round-05/baseline/server--images.ts",
+      "sha256": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79"
+    }
+  ]
+}

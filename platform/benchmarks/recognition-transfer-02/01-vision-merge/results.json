@@ -1,0 +1,542 @@
+{
+  "items": 64,
+  "mainRows": 384,
+  "repeatCount": 6,
+  "repeatMaxDifference": 0.0,
+  "hardware": {
+    "peakTemp": 81,
+    "peakVramMiB": 3224,
+    "minFreeRamMiB": 7675,
+    "peakPowerW": 105.93,
+    "samples": 329
+  },
+  "metrics": {
+    "region": {
+      "A": {
+        "base": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.87109375,
+          "winsWithHalfTies": 223.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 13,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.859375,
+          "winsWithHalfTies": 220.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": -0.01171875,
+          "ci95": [
+            -0.0546875,
+            0.0234375
+          ],
+          "missedHolesAtHalf": 10,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 3,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.82421875,
+          "winsWithHalfTies": 211.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": -0.046875,
+          "ci95": [
+            -0.15234375,
+            0.0234375
+          ],
+          "missedHolesAtHalf": 10,
+          "falseAlarmsAtHalf": 1,
+          "introducedHoleMisses": 1,
+          "introducedSpotAlarms": 1,
+          "recoveredMisses": 4,
+          "removedAlarms": 0
+        }
+      },
+      "B": {
+        "base": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.828125,
+          "winsWithHalfTies": 212.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 13,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.8359375,
+          "winsWithHalfTies": 214.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": 0.0078125,
+          "ci95": [
+            -0.08203125,
+            0.08984375
+          ],
+          "missedHolesAtHalf": 12,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 1,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 2,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.80859375,
+          "winsWithHalfTies": 207.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": -0.01953125,
+          "ci95": [
+            -0.1328125,
+            0.09765625
+          ],
+          "missedHolesAtHalf": 11,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 1,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 3,
+          "removedAlarms": 0
+        }
+      },
+      "pooled": {
+        "base": {
+          "holes": 32,
+          "spots": 32,
+          "missing": 0,
+          "auc": 0.8505859375,
+          "winsWithHalfTies": 871.0,
+          "pairs": 1024,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 26,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 32,
+          "spots": 32,
+          "missing": 0,
+          "auc": 0.8515625,
+          "winsWithHalfTies": 872.0,
+          "pairs": 1024,
+          "ties": 0,
+          "aucChange": 0.0009765625,
+          "ci95": [
+            -0.037109375,
+            0.0439453125
+          ],
+          "missedHolesAtHalf": 22,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 1,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 5,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 32,
+          "spots": 32,
+          "missing": 0,
+          "auc": 0.8173828125,
+          "winsWithHalfTies": 837.0,
+          "pairs": 1024,
+          "ties": 0,
+          "aucChange": -0.033203125,
+          "ci95": [
+            -0.1083984375,
+            0.0380859375
+          ],
+          "missedHolesAtHalf": 21,
+          "falseAlarmsAtHalf": 1,
+          "introducedHoleMisses": 2,
+          "introducedSpotAlarms": 1,
+          "recoveredMisses": 7,
+          "removedAlarms": 0
+        }
+      },
+      "sharedDates": {
+        "base": {
+          "holes": 11,
+          "spots": 3,
+          "missing": 0,
+          "auc": 0.9393939393939394,
+          "winsWithHalfTies": 31.0,
+          "pairs": 33,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 9,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 11,
+          "spots": 3,
+          "missing": 0,
+          "auc": 0.9393939393939394,
+          "winsWithHalfTies": 31.0,
+          "pairs": 33,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 7,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 1,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 3,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 11,
+          "spots": 3,
+          "missing": 0,
+          "auc": 0.9393939393939394,
+          "winsWithHalfTies": 31.0,
+          "pairs": 33,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 7,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 2,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 4,
+          "removedAlarms": 0
+        }
+      }
+    },
+    "whole": {
+      "A": {
+        "base": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.7265625,
+          "winsWithHalfTies": 186.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 15,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.67578125,
+          "winsWithHalfTies": 173.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": -0.05078125,
+          "ci95": [
+            -0.171875,
+            0.05859375
+          ],
+          "missedHolesAtHalf": 15,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.734375,
+          "winsWithHalfTies": 188.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": 0.0078125,
+          "ci95": [
+            -0.109375,
+            0.1328125
+          ],
+          "missedHolesAtHalf": 15,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        }
+      },
+      "B": {
+        "base": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.6796875,
+          "winsWithHalfTies": 174.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 16,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.69921875,
+          "winsWithHalfTies": 179.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": 0.01953125,
+          "ci95": [
+            -0.046875,
+            0.09765625
+          ],
+          "missedHolesAtHalf": 15,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 1,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 16,
+          "spots": 16,
+          "missing": 0,
+          "auc": 0.6328125,
+          "winsWithHalfTies": 162.0,
+          "pairs": 256,
+          "ties": 0,
+          "aucChange": -0.046875,
+          "ci95": [
+            -0.1796875,
+            0.08984375
+          ],
+          "missedHolesAtHalf": 16,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        }
+      },
+      "pooled": {
+        "base": {
+          "holes": 32,
+          "spots": 32,
+          "missing": 0,
+          "auc": 0.703125,
+          "winsWithHalfTies": 720.0,
+          "pairs": 1024,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 31,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 32,
+          "spots": 32,
+          "missing": 0,
+          "auc": 0.6708984375,
+          "winsWithHalfTies": 687.0,
+          "pairs": 1024,
+          "ties": 0,
+          "aucChange": -0.0322265625,
+          "ci95": [
+            -0.091796875,
+            0.0234375
+          ],
+          "missedHolesAtHalf": 30,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 1,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 32,
+          "spots": 32,
+          "missing": 0,
+          "auc": 0.6865234375,
+          "winsWithHalfTies": 703.0,
+          "pairs": 1024,
+          "ties": 0,
+          "aucChange": -0.0166015625,
+          "ci95": [
+            -0.099609375,
+            0.0693359375
+          ],
+          "missedHolesAtHalf": 31,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        }
+      },
+      "sharedDates": {
+        "base": {
+          "holes": 11,
+          "spots": 3,
+          "missing": 0,
+          "auc": 0.7575757575757576,
+          "winsWithHalfTies": 25.0,
+          "pairs": 33,
+          "ties": 0,
+          "aucChange": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "missedHolesAtHalf": 11,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-half": {
+          "holes": 11,
+          "spots": 3,
+          "missing": 0,
+          "auc": 0.696969696969697,
+          "winsWithHalfTies": 23.0,
+          "pairs": 33,
+          "ties": 0,
+          "aucChange": -0.06060606060606055,
+          "ci95": [
+            -0.18181818181818182,
+            0.0
+          ],
+          "missedHolesAtHalf": 11,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        },
+        "vision-full": {
+          "holes": 11,
+          "spots": 3,
+          "missing": 0,
+          "auc": 0.8484848484848485,
+          "winsWithHalfTies": 28.0,
+          "pairs": 33,
+          "ties": 0,
+          "aucChange": 0.09090909090909094,
+          "ci95": [
+            0.0,
+            0.2727272727272727
+          ],
+          "missedHolesAtHalf": 11,
+          "falseAlarmsAtHalf": 0,
+          "introducedHoleMisses": 0,
+          "introducedSpotAlarms": 0,
+          "recoveredMisses": 0,
+          "removedAlarms": 0
+        }
+      }
+    }
+  },
+  "withinAcquisitionDate": {
+    "20260302": {
+      "n": [
+        5,
+        2
+      ],
+      "auc": {
+        "base": 0.9,
+        "vision-half": 0.9,
+        "vision-full": 0.9
+      }
+    }
+  },
+  "regionMinusWhole": {
+    "base": 0.1474609375,
+    "vision-half": 0.1806640625,
+    "vision-full": 0.130859375
+  },
+  "gates": {
+    "positiveBothHalves": false,
+    "positiveLowerCI": false,
+    "noNewMisses": false,
+    "noNewAlarms": true,
+    "wholeNotWorse": false,
+    "complete": true
+  },
+  "passesPreliminaryGates": false
+}

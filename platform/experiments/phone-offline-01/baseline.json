@@ -1,0 +1,54 @@
+{
+  "createdAt": "2026-10-26T20:36:04.610Z",
+  "target": "End-to-end inspection on Android without a computer or network. Original service remains a frozen reference.",
+  "files": [
+    {
+      "path": "app/App.tsx",
+      "sha256": "2dc71b6f537e7c3a37136cd36944bc3241edf03db4937f96a6afb6cbfc995e9c"
+    },
+    {
+      "path": "app/app.json",
+      "sha256": "1032e47faf0d5b7e7fb6a357c87bff05ac5c7194a89c38041a38b84810eebacf"
+    },
+    {
+      "path": "app/src/api.ts",
+      "sha256": "2524736fb4aafb755127256551cf76f70d03234a1523a80042c67a2861875533"
+    },
+    {
+      "path": "app/src/useRelay.ts",
+      "sha256": "da967685289089d97563da0a1d47bd11b95d8cd41df5c252d12434dac2179ee4"
+    },
+    {
+      "path": "app/src/screens-review.tsx",
+      "sha256": "0a5de09758d0c1614a69a852926e1cfc8835b859d7cef4654301a43138761203"
+    },
+    {
+      "path": "app/src/screens-intake.tsx",
+      "sha256": "b64f9a6590cd2fc97972a122f1af8ef7f5dfda8cb5dcba33841db52d5278cefc"
+    },
+    {
+      "path": "app/src/session.ts",
+      "sha256": "7c574e530abc2115e6bdd7dbdc4e87a79ac18b0d0270c9c9085eedb0f4733f4b"
+    },
+    {
+      "path": "app/src/inspection-evidence.tsx",
+      "sha256": "2e2ebd30f0de184dbc115bfea35a077a7ef6806dddf82fc3a1206b37234c04a8"
+    },
+    {
+      "path": "packages/core/schema.ts",
+      "sha256": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0"
+    },
+    {
+      "path": "packages/core/policy.ts",
+      "sha256": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1"
+    },
+    {
+      "path": "packages/vision/inspection.ts",
+      "sha256": "596dcc860d3a76afa2f61c872f0033a8625a79f49fdeac60262ab4e992653b25"
+    },
+    {
+      "path": "packages/vision/abrasion-cue.ts",
+      "sha256": "dead47a82cddd316efc43155c77645fb7138406a13a77687d0c90c4ea52c212e"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "apkSHA256": "80df6756fd6ed60ac164468f4e5dc308723970e9cc703e314c405dab3e3e11d0",
+  "directTapBounds": [
+    70,
+    400,
+    650,
+    790
+  ],
+  "success": true,
+  "sourcePixels": 324,
+  "fixtureWidth": 3200
+}

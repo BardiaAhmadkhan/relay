@@ -1,0 +1,105 @@
+{
+  "runtimeStore": "isolated",
+  "baseManifest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+  "learnedBytesPerArm": 2683385216,
+  "parameterCounts": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "totalParameters": 2213241664,
+  "arms": {
+    "base": {
+      "model": "relay-inspection:base",
+      "manifestDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+      "projectorDigest": "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+      "projectorBytes": 671372768,
+      "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+      "gain": 1,
+      "audit": []
+    },
+    "boost": {
+      "model": "relay-inspection:boost",
+      "manifestDigest": "20dc396714c31fa174f2f38657d84a043aebf9a9f6eb443cb81ea43d04d8bec7",
+      "projectorDigest": "076c4180a39e631ea8cd1ad0a6c1f32a25f1cfbd9cc63fd0d34b130faf1acd21",
+      "projectorBytes": 671372768,
+      "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+      "gain": 1.125,
+      "audit": [
+        {
+          "tensor": "v.patch_embd.weight",
+          "ggufDimensions": [
+            16,
+            16,
+            3,
+            1024
+          ],
+          "storage": "F32",
+          "offset": 655644128,
+          "bytes": 3145728,
+          "valuesChanged": 786432,
+          "maxPerFilterDcSumDelta": 9.220093488693237e-08,
+          "sourceSha": "45383e9aed6ffb7313cdbdaaf4b3909812e8d0824a39877a6c8df33503163d53",
+          "editedSha": "6d288ad738084a75feda17a173e0d8fa5f1442a9bd7cdf6bf554acbf7a66572f"
+        },
+        {
+          "tensor": "v.patch_embd.weight.1",
+          "ggufDimensions": [
+            16,
+            16,
+            3,
+            1024
+          ],
+          "storage": "F32",
+          "offset": 658789856,
+          "bytes": 3145728,
+          "valuesChanged": 786432,
+          "maxPerFilterDcSumDelta": 8.941424312070012e-08,
+          "sourceSha": "55ca050e98fb68a8371bf7d6f54ddc0f16f5f828ffd6758e49ac766a776b5492",
+          "editedSha": "8c67a60d5832c7bbcec843c50f2d77f04868e6ad2005d7ca4e60854b9e0e42f0"
+        }
+      ]
+    },
+    "attenuate": {
+      "model": "relay-inspection:attenuate",
+      "manifestDigest": "5ee4ac549b6db1550fa8e4c849ec45dd15aec0779a84e6bdf6b00af976ec740e",
+      "projectorDigest": "6784370e95678f83568e2e6755d4c5b706b199b26ac0ec51dde67dbda7895c10",
+      "projectorBytes": 671372768,
+      "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+      "gain": 0.8888888888888888,
+      "audit": [
+        {
+          "tensor": "v.patch_embd.weight",
+          "ggufDimensions": [
+            16,
+            16,
+            3,
+            1024
+          ],
+          "storage": "F32",
+          "offset": 655644128,
+          "bytes": 3145728,
+          "valuesChanged": 786432,
+          "maxPerFilterDcSumDelta": 2.0161678548902273e-08,
+          "sourceSha": "45383e9aed6ffb7313cdbdaaf4b3909812e8d0824a39877a6c8df33503163d53",
+          "editedSha": "abcfdcdb938c55e8335dc702af83b83232e1d06d5cfd46b6d6da3b648ca7cef8"
+        },
+        {
+          "tensor": "v.patch_embd.weight.1",
+          "ggufDimensions": [
+            16,
+            16,
+            3,
+            1024
+          ],
+          "storage": "F32",
+          "offset": 658789856,
+          "bytes": 3145728,
+          "valuesChanged": 786432,
+          "maxPerFilterDcSumDelta": 1.6252670320682228e-08,
+          "sourceSha": "55ca050e98fb68a8371bf7d6f54ddc0f16f5f828ffd6758e49ac766a776b5492",
+          "editedSha": "67cde1512b2e77c1d527e6fe2bbff70f4ad5dd34dea5e356ccd0114b64a8412d"
+        }
+      ]
+    }
+  }
+}

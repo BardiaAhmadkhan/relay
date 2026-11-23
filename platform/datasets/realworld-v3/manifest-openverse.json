@@ -1,0 +1,2477 @@
+{
+ "retrieved": "2026-11-18T20:18:35.046Z",
+ "fetched": "2026-11-18T20:19:27.988Z",
+ "images": [
+  {
+   "id": "ox-001",
+   "file": "datasets/realworld-v3/images/ox-001.jpg",
+   "sha256": "f7f3c0502163975e9071a73127961d5433c30db809928f1034c6f9a44b3cee5e",
+   "width": 1024,
+   "height": 784,
+   "openverseId": "bf0a8ff1-773f-4034-b745-15af0401760b",
+   "title": "Arcimoto SRK",
+   "creator": "jurvetson",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/44124348109@N01/5863849694",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-002",
+   "file": "datasets/realworld-v3/images/ox-002.jpg",
+   "sha256": "905bc3aa5e88f75a4dc2bb3604a94c1a8550a89e6b33d284ee5db55979de0f1d",
+   "width": 333,
+   "height": 500,
+   "openverseId": "836e4362-985e-463f-a9d9-d6b16f5f3b04",
+   "title": "Racing without helmets",
+   "creator": "Anindo Ghosh",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/70876789@N00/2312286776",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-003",
+   "file": "datasets/realworld-v3/images/ox-003.jpg",
+   "sha256": "34fa61cad03b46ffbe47d31b6fa8818455a2f5c34e263c969180e7f432d842ac",
+   "width": 1024,
+   "height": 717,
+   "openverseId": "7ed023cb-8456-4f79-9ec1-65afb754093a",
+   "title": "THE SINISTER SIDE, Part 3 - on the Eastern side of Garden Island, police attend a long-forgotten tragedy, ca. 1945 - RAN Archives.",
+   "creator": "Kookaburra2011",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41311545@N05/5498028521",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-004",
+   "file": "datasets/realworld-v3/images/ox-004.jpg",
+   "sha256": "067abf94dded09d022a4da94e33b6b76a2bf2f7d71f418595f0345dc722f76a3",
+   "width": 1024,
+   "height": 784,
+   "openverseId": "fd432c38-e785-44ff-8b10-5b03ca92de91",
+   "title": "Stunts",
+   "creator": "jasonr611",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/27815129@N06/2864147097",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-005",
+   "file": "datasets/realworld-v3/images/ox-005.jpg",
+   "sha256": "2457c254b0b1d02bfc7c5c5af401505ac2cdb51db4f081fabc66c1fcf306f845",
+   "width": 1024,
+   "height": 693,
+   "openverseId": "cd0afcf6-a318-4691-83c0-5b66dbf332c7",
+   "title": "Taking the less-travelled road, 1930's",
+   "creator": "M McBey",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/158652122@N02/51367794393",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-006",
+   "file": "datasets/realworld-v3/images/ox-006.jpg",
+   "sha256": "b0db729da12788e8a5167435673e6fa99e2ff9d362a89e4652b281360b37e6e1",
+   "width": 1024,
+   "height": 689,
+   "openverseId": "b3c2028d-44c3-432f-9186-da8ed0f07f1b",
+   "title": "Rallye_Des_Pyrenees_1981",
+   "creator": "meriden.triumph",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/29549002@N07/8051350425",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-007",
+   "file": "datasets/realworld-v3/images/ox-007.jpg",
+   "sha256": "64dadd4aafda6ed1954ba5aaa8f78799d319d803525070e075ea112c6f37ec3e",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "2c9b7127-f3c3-4e16-a5a2-b8dc5b92b0c4",
+   "title": "Sussex Police BMW S1000RR",
+   "creator": "LiteMeterPix",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/16188658@N08/8855628291",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-008",
+   "file": "datasets/realworld-v3/images/ox-008.jpg",
+   "sha256": "77a51d79fef964a1ac6673310b09fe4b1d26dfbbe967ee6f9b3ae7e5a5c3590f",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "5fd88c9a-b032-4769-9b08-f0d3ba059851",
+   "title": "Cette Bol d'Or est performante, grâce à DDMoto et à son pilote, toujours aussi rapide !",
+   "creator": "Cédric JANODET",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/35083786@N04/15040935535",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-009",
+   "file": "datasets/realworld-v3/images/ox-009.jpg",
+   "sha256": "94bd4f3c0b079126997c4e216f51e26e5d81e08c117e64d2d466c45f9668ff68",
+   "width": 956,
+   "height": 630,
+   "openverseId": "003ebee6-4499-43c4-8e24-18f248e0f782",
+   "title": "too much slide",
+   "creator": "BotheredByBees",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/87273935@N00/1849920478",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-010",
+   "file": "datasets/realworld-v3/images/ox-010.jpg",
+   "sha256": "d5530098de6d50093c4145aa911db153a20dac5d3063ef59cb55b4bf71518139",
+   "width": 1024,
+   "height": 690,
+   "openverseId": "7ac26c1e-e609-4bc2-be10-a4a960be36d5",
+   "title": "Rallye_Des_Pyrenees_1981",
+   "creator": "meriden.triumph",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/29549002@N07/8051355206",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-011",
+   "file": "datasets/realworld-v3/images/ox-011.jpg",
+   "sha256": "3c07705ab43a4e4a0b52dce6554d55cad9bd06b80d011f15f143fd983c9f6d8c",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "d769c50c-90a8-49df-a81e-e591c969e86a",
+   "title": "helmet scrape closeup",
+   "creator": "ericlawrence",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/66286151@N00/2844822452",
+   "queries": [
+    "crashed motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-012",
+   "file": "datasets/realworld-v3/images/ox-012.jpg",
+   "sha256": "2f4b21280386cfb5dbf02ec7c3e1f30fa71f385163d377237bb9fab7b03f116e",
+   "width": 1024,
+   "height": 762,
+   "openverseId": "4d75aa3b-da32-40fe-9db0-9633525c4ee0",
+   "title": "W.W.II Armed Forces Memorial Panel",
+   "creator": "Discover Waikumete Cemetery",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/144851895@N03/53814593848",
+   "queries": [
+    "motorcycle helmet crash damage"
+   ]
+  },
+  {
+   "id": "ox-013",
+   "file": "datasets/realworld-v3/images/ox-013.jpg",
+   "sha256": "5911798ca3c9cba2bb2fd45cee1395d89c021c88783e1604249be018645dc777",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "0fa6f95d-9251-49c7-8fd3-da3adb2084ca",
+   "title": "96",
+   "creator": "toastal",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/151156599@N04/48176246321",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-014",
+   "file": "datasets/realworld-v3/images/ox-014.jpg",
+   "sha256": "8760c788362bd148883376f6186b11eb8ed4f84fa55c24d91f7a632e814f28c3",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "b03d6caa-684c-446e-bfaa-fe3fc0d46eff",
+   "title": "Motorcycle helmet and goggles",
+   "creator": "kerryj.com",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41664681@N00/3181663184",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-015",
+   "file": "datasets/realworld-v3/images/ox-015.jpg",
+   "sha256": "837ab15d0a7e9a009f592e79edf7ff376a49caac6c4799783b60ef6b95c8f89f",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "9d23092f-8a4e-42cc-a704-7bc05c0362d9",
+   "title": "Day 275",
+   "creator": "Andrew Scott",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/63095697@N00/2922767375",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-016",
+   "file": "datasets/realworld-v3/images/ox-016.jpg",
+   "sha256": "24dab3d3a52ac07d5d0e2afc2c174a2c39ae85883d1818d7ba2835fe752015cb",
+   "width": 1024,
+   "height": 765,
+   "openverseId": "ba991a2a-a2b9-423e-8a86-60e3b3a82a6e",
+   "title": "2006-10-15 TN Motorcycle Ride 43",
+   "creator": "QuiteLucid",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/32109272@N00/274655688",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-017",
+   "file": "datasets/realworld-v3/images/ox-017.jpg",
+   "sha256": "552bb63e9fe2f3d7cbf88cdf881d9ae37be432a70e22090f49695627c99d10dd",
+   "width": 500,
+   "height": 476,
+   "openverseId": "79c09a1f-fe65-4605-94f4-8ccaa4e83390",
+   "title": "vega black white open face motorcycle helmet scratched",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528639564",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-018",
+   "file": "datasets/realworld-v3/images/ox-018.jpg",
+   "sha256": "b8a88130117dfad1fb123a9f8cc3f3e36f1450518864ff3d07f1b6b76cf74a1b",
+   "width": 367,
+   "height": 500,
+   "openverseId": "d42b7fc1-11ae-4a81-ba1f-4de8103e8110",
+   "title": "steelbird black open face motorcycle helmet scratched dirty visor",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52527890927",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-019",
+   "file": "datasets/realworld-v3/images/ox-019.jpg",
+   "sha256": "e05df4344bc8fde729870503755ffa10050eb4d61ee7e654f2440ec46b447cbc",
+   "width": 500,
+   "height": 446,
+   "openverseId": "b6f531e6-0702-41d2-9984-21d53b0046b3",
+   "title": "royal enfield black open face motorcycle helmet with bubble visor scratched worn old",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528639499",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-020",
+   "file": "datasets/realworld-v3/images/ox-020.jpg",
+   "sha256": "7967857d5f3d85a53deb720e6b5ad6bf91da3e583cb4b083c13f949d3337d4ff",
+   "width": 330,
+   "height": 500,
+   "openverseId": "88af2983-8843-4358-a1c1-d909bf13701e",
+   "title": "black full face motorcycle helmet scratched dirty visor",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528355621",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-021",
+   "file": "datasets/realworld-v3/images/ox-021.jpg",
+   "sha256": "218a6510b75edefcca41890169681ddfe317bb83f286b7506cd65ab8856b731a",
+   "width": 500,
+   "height": 452,
+   "openverseId": "312e027c-630a-4dc7-82dc-c2fb5edd438a",
+   "title": "studds open face motorcycle helmet old dirty scratched on floor",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528901173",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-022",
+   "file": "datasets/realworld-v3/images/ox-022.jpg",
+   "sha256": "ad73e52555ea249abeaef0241c522a74a6af8b9dc65f362a5d41eb68971717cc",
+   "width": 500,
+   "height": 478,
+   "openverseId": "13fad060-5570-4f51-b105-fa8f7e238064",
+   "title": "old black full face motorcycle helmet with scratched dirty visor on floor",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528833390",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-023",
+   "file": "datasets/realworld-v3/images/ox-023.jpg",
+   "sha256": "31b15d27e2fabc2349764dea5d2119cbe53006b58c3ba8e57ee3465dd3aa733b",
+   "width": 400,
+   "height": 500,
+   "openverseId": "944915aa-124b-4310-bc35-c58de8f7743f",
+   "title": "aerostar old black motorcycle helmet scratched dirty scrapes",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528833305",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-024",
+   "file": "datasets/realworld-v3/images/ox-024.jpg",
+   "sha256": "d778cb1cbc2d43c505c2c4c7a1b8f5f40245acb3c3801d5d9381738226d8b24c",
+   "width": 500,
+   "height": 473,
+   "openverseId": "82c22b6c-83ae-45df-b9f6-015397b96eb2",
+   "title": "old black motorcycle helmet full face scratched visor",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528901128",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-025",
+   "file": "datasets/realworld-v3/images/ox-025.jpg",
+   "sha256": "24f6cc002df5fa90f1d5c81bf6e7292894b3f304b770d50ac12c227bd91e4b90",
+   "width": 435,
+   "height": 500,
+   "openverseId": "3446432d-3793-4f16-8ab8-a939b2bae5bd",
+   "title": "mt old black full face motorcycle helmet scratched scraped sitting on seat",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528901143",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-026",
+   "file": "datasets/realworld-v3/images/ox-026.jpg",
+   "sha256": "52d69f9577c95830e558ab01a9fa7c2b3234b4927335f1db152652d4b730b9e5",
+   "width": 429,
+   "height": 500,
+   "openverseId": "692fe514-abf0-4b9c-b432-8989c941d175",
+   "title": "old 1970s red motorcycle helmet bubble visor open face scratched dinged damaged",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528901178",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-027",
+   "file": "datasets/realworld-v3/images/ox-027.jpg",
+   "sha256": "205885931cd04e734ea2b120ccfb6d983f6cbd6cbdb6782fd9bd771a4a4f3c54",
+   "width": 449,
+   "height": 500,
+   "openverseId": "24abc305-ec9b-4d13-9202-af0771891546",
+   "title": "black full face motorcycle helmet with visor down and scratches",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52527890852",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-028",
+   "file": "datasets/realworld-v3/images/ox-028.jpg",
+   "sha256": "832e09303454fba53c4e4ebaf67b5b246a1480c824167f5cae04b845b8a00e24",
+   "width": 500,
+   "height": 423,
+   "openverseId": "6faa4702-99d1-4175-8c0c-99c18bda5edd",
+   "title": "black mild seven full face motorcycle helmet worn old aged scratched",
+   "creator": "vgroiwwo96",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/196975524@N05/52528355211",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-029",
+   "file": "datasets/realworld-v3/images/ox-029.jpg",
+   "sha256": "e91227435007b347ce01f919b8c993df2d80392e7a3af83a488d9752089db97f",
+   "width": 640,
+   "height": 427,
+   "openverseId": "26d77b2b-f997-4fae-ba69-351d62f81e37",
+   "title": "...and I'll scratch your's",
+   "creator": "Des Colhoun",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "geographorguk",
+   "landingUrl": "http://www.geograph.ie/photo/5395402",
+   "queries": [
+    "scratched motorcycle helmet"
+   ]
+  },
+  {
+   "id": "ox-030",
+   "file": "datasets/realworld-v3/images/ox-030.jpg",
+   "sha256": "bc2858a6d10ffd88da53ac7f886cd4353cbbd5a367c26fbbeeacaaa42c47c5f6",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "41e60a6b-ce60-431a-a1bd-5dedd6bd8bd9",
+   "title": "Triumph",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52582999309",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-031",
+   "file": "datasets/realworld-v3/images/ox-031.jpg",
+   "sha256": "0fc66cb8d032e146fad004b87f388fe47b81011dd5d84438dedde28db8a895c2",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "0edc9753-674b-4452-971c-6620a7b4cd22",
+   "title": "MotoGP racer",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52569139501",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-032",
+   "file": "datasets/realworld-v3/images/ox-032.jpg",
+   "sha256": "e5055fd318b0bd0541c4d3968663f94aba7dc61d60a5e914cc42857182f2b6f9",
+   "width": 1001,
+   "height": 1024,
+   "openverseId": "f81ae4a2-44e4-495c-a974-0e0bbfe9249d",
+   "title": "MotoGP racer",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52581350941",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-033",
+   "file": "datasets/realworld-v3/images/ox-033.jpg",
+   "sha256": "b7ba1de8796553ce94585f4f7c56ec70ebd1868b2812fc249b15d1fcca0dad2d",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "00ddc0b1-153a-44a7-a005-f225a19117a3",
+   "title": "Rider guy",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52587188749",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-034",
+   "file": "datasets/realworld-v3/images/ox-034.jpg",
+   "sha256": "ff650e8215086b62dd96f5bf4eff51fdfdfad9775ffa51f00456543eac854237",
+   "width": 1024,
+   "height": 830,
+   "openverseId": "d0aacaa9-b2df-498f-8ca9-95c909036a03",
+   "title": "Nights racer",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52575112837",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-035",
+   "file": "datasets/realworld-v3/images/ox-035.jpg",
+   "sha256": "1dd33b9abb76c738c914dc9b357e2a2d5e1bab02b74f49ad4805ae0bbde4e92e",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "f73b08ad-8ace-4dbf-8c52-ae732b728036",
+   "title": "MotoGP Espargaro",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52600018261",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-036",
+   "file": "datasets/realworld-v3/images/ox-036.jpg",
+   "sha256": "8a8161d4678b4ff6d84f50aaeede8cdc18ac1dc019182bdca0624ab499754f7f",
+   "width": 1023,
+   "height": 576,
+   "openverseId": "3c00d5f7-8b14-469e-bcaf-97644869fb0a",
+   "title": "Racer guy",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52582997989",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-037",
+   "file": "datasets/realworld-v3/images/ox-037.jpg",
+   "sha256": "3468e1266c90bdb1399b85a40d4803abb2c5c62eca4969b4175ac5cc83a44b0f",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "706a5541-9bc9-4f53-931b-062d8fa7193b",
+   "title": "Porsche 911 GT3 RS",
+   "creator": "photosteve101",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/42931449@N07/6280074152",
+   "queries": [
+    "crashed leathers",
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-038",
+   "file": "datasets/realworld-v3/images/ox-038.jpg",
+   "sha256": "9a54ac9f2ed8e80a61f3dc84e490297230482d6c25dfe0e40808e6e17939ee43",
+   "width": 758,
+   "height": 1024,
+   "openverseId": "4f2d5546-32e4-43ad-9ed3-d05849bef1d8",
+   "title": "Rider guy",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52610503765",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-039",
+   "file": "datasets/realworld-v3/images/ox-039.jpg",
+   "sha256": "97805a7b06bbe42ad5ffa3181744a43da33469bbbe90de726058fef7bbc987bb",
+   "width": 1023,
+   "height": 687,
+   "openverseId": "c6cf8c36-3549-40c3-9c77-d87c8a5cdc82",
+   "title": "Cross rider",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52610978989",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-040",
+   "file": "datasets/realworld-v3/images/ox-040.jpg",
+   "sha256": "102702d4733b9c1dd99d35a16bc813b8d56b9bf48b8293b973c4de6f34dbac83",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "0f85bef1-b016-4e71-8fc7-c0b7aba1e1be",
+   "title": "Racer",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52613458333",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-041",
+   "file": "datasets/realworld-v3/images/ox-041.jpg",
+   "sha256": "5ebbd77d2b1b1f8c6df7a16048bdaa7820c7045722bbd6406eb03a1303c5f5ac",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "c413b68f-1c7d-40f3-86fd-f9bdb9410c6d",
+   "title": "Empty seats on a plane",
+   "creator": "Soon.",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/16189905@N00/246401905",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-042",
+   "file": "datasets/realworld-v3/images/ox-042.jpg",
+   "sha256": "24ad41787bf7b1d5169700c5b1e0079684bcafc6ec83a608c84733ff5df9844b",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "71488dd7-3b28-4ff8-9e2c-a6e59951418f",
+   "title": "Hickman",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52402407685",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-043",
+   "file": "datasets/realworld-v3/images/ox-043.jpg",
+   "sha256": "ac0eb099ef0bf28568c326d89c342670b1193656c608d198f1351ce7fa751d7b",
+   "width": 524,
+   "height": 1024,
+   "openverseId": "735ed653-ef04-4319-8851-5ab2bf96169d",
+   "title": "KTM guy",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52593664117",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-044",
+   "file": "datasets/realworld-v3/images/ox-044.jpg",
+   "sha256": "22f40d6e9ba157ad156ff1f8d734fc435444851b19caa3b03e172256d1fba969",
+   "width": 1024,
+   "height": 655,
+   "openverseId": "8f3ad50c-3b6f-4e1e-bfaa-088f59d0c12c",
+   "title": "Postcard to Stockwell, SW9 from Zlin 1935",
+   "creator": "sludgegulper",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/28179929@N08/4254093991",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-045",
+   "file": "datasets/realworld-v3/images/ox-045.jpg",
+   "sha256": "fda298f890e3307e228c912c0634654996794d96a7e7de5755894d7627db325e",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "b8e14c91-3b01-44db-9532-e0d867d3d4c4",
+   "title": "Lamborghini LP700-4 Aventador",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/5658317141",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-046",
+   "file": "datasets/realworld-v3/images/ox-046.jpg",
+   "sha256": "c19a5eb316f7ff61d387b23f9f179d4c356f8c712de700e7deac7ab2cfe963ad",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "fdf2fd11-6211-4376-8c33-bb56d5c0f659",
+   "title": "LP700-4 Aventador and Miura",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/5670493176",
+   "queries": [
+    "crashed leathers",
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-047",
+   "file": "datasets/realworld-v3/images/ox-047.jpg",
+   "sha256": "1315f0bf19dee6710178a1e6396347c1885472aa7658a5db1c8f6fcdc0571903",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "3d57eb04-7291-4618-9f68-920d83dea63f",
+   "title": "Heroes #43",
+   "creator": "Seif Alaya",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/131784471@N07/18015000142",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-048",
+   "file": "datasets/realworld-v3/images/ox-048.jpg",
+   "sha256": "53fdef84ebd957218e63047cd2609be30e1db56b2afac4c7970cc88b45021eaf",
+   "width": 1024,
+   "height": 642,
+   "openverseId": "344d5600-085d-44ec-bcec-716a698f58d3",
+   "title": "Yamaha racer",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52621000549",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-049",
+   "file": "datasets/realworld-v3/images/ox-049.jpg",
+   "sha256": "d585a517a5e5963f3d191bc7110c89a98b70a8bd5ea4db5e63d54e739e5d679f",
+   "width": 1023,
+   "height": 589,
+   "openverseId": "14b7d736-ce23-411e-a69c-440e14ea6d9c",
+   "title": "Rider guy",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52623398365",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-050",
+   "file": "datasets/realworld-v3/images/ox-050.jpg",
+   "sha256": "7739d56ff48dbadfb61ab1c60c901ea837d81e87ae558023645e8e5d5f5b48a9",
+   "width": 1024,
+   "height": 576,
+   "openverseId": "765ed9ee-0b55-4c22-a845-91fa659d80c8",
+   "title": "SBK Ducati racer",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52608563365",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-051",
+   "file": "datasets/realworld-v3/images/ox-051.jpg",
+   "sha256": "20869ad04ceb14836297bb047860300a1b303e65908150d2727bd9ac8d144153",
+   "width": 1024,
+   "height": 576,
+   "openverseId": "fd8f4427-d4fb-439a-9a6b-2fba215b3ee4",
+   "title": "Honda SBK",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52619608813",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-052",
+   "file": "datasets/realworld-v3/images/ox-052.jpg",
+   "sha256": "ca1062540635889d26eae0b8e849a095b52631399e4fe51f0d2dcc903c615f50",
+   "width": 732,
+   "height": 1024,
+   "openverseId": "e65f4de6-df1a-407f-85e9-2e2d633154b9",
+   "title": "Hell Bent For Leather",
+   "creator": "Antiporda Productions LV, LLC",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/9153440@N06/4246105749",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-053",
+   "file": "datasets/realworld-v3/images/ox-053.jpg",
+   "sha256": "b4636da9c38750298acbfe26277c0a622bfe09c43a0d9fad94787829d7d498a3",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "cb399fb8-7153-4b2e-88c1-8a55d2eaf274",
+   "title": "365-154, Breakfast",
+   "creator": "pecooper98362",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/29261037@N02/7322209760",
+   "queries": [
+    "crashed leathers",
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-054",
+   "file": "datasets/realworld-v3/images/ox-054.jpg",
+   "sha256": "29609d3101e13f2191893346ad92df6dd7ad4b0bdfc5eb5b55fddbc2394dae73",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "1a38cf34-1741-4f99-813c-128eb4444884",
+   "title": "Triumph",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52216293109",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-055",
+   "file": "datasets/realworld-v3/images/ox-055.jpg",
+   "sha256": "94ecbf00c34e6fb441ee2aea765393675dbc44bf63b3002c2f88774d7aa2e9e5",
+   "width": 682,
+   "height": 1024,
+   "openverseId": "66a52e3b-f987-4cf2-8c7f-9150d87c56bd",
+   "title": "HardyC's Halloween Adventure",
+   "creator": "mendhak",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/69135870@N00/8130968451",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-056",
+   "file": "datasets/realworld-v3/images/ox-056.jpg",
+   "sha256": "94bc3ac6e88c7b755a1f68e9819a1a5f2e2ec6a1a8a0ca5ccb1f0b031dfc3617",
+   "width": 1024,
+   "height": 634,
+   "openverseId": "668aaa33-b37e-4464-8c84-49dc4abc43e9",
+   "title": "Kicking up some dust.",
+   "creator": "Bernard Spragg",
+   "license": "cc0",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/88123769@N02/12022640996",
+   "queries": [
+    "crashed leathers",
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-057",
+   "file": "datasets/realworld-v3/images/ox-057.jpg",
+   "sha256": "4d36ad72e15f7c2ecc94f9b9c4a482cf1e4eb4e7ac2abc307462d47a90ba49bc",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "ac2dada1-5683-4e6b-9509-f90314c8fddd",
+   "title": "458 Italia panning on track!",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/5898312270",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-058",
+   "file": "datasets/realworld-v3/images/ox-058.jpg",
+   "sha256": "737c534a564e2752bfd795beee13010fe9878b303f9712e2278902e1f2b50da4",
+   "width": 1024,
+   "height": 725,
+   "openverseId": "2302f641-2a99-45a0-8002-ab64b865384e",
+   "title": "Crash",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/28315141419",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-059",
+   "file": "datasets/realworld-v3/images/ox-059.jpg",
+   "sha256": "3f0bcf6c2b2558e52d14ad7a5c18b54a80b955429d3ebaf466cf104cc72ef452",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "d571fa56-536c-493d-94ce-1e7e57cc9da5",
+   "title": "White/Red Ferrari 430 Scuderia",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/5905952558",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-060",
+   "file": "datasets/realworld-v3/images/ox-060.jpg",
+   "sha256": "38b5e1413132f67f207dcdee67f1325ff26096b5612ec3a7c9ae4801d4e6067f",
+   "width": 1023,
+   "height": 521,
+   "openverseId": "21a09043-dfa8-4a6a-948a-1ac47184271b",
+   "title": "BMW M 1000 RR",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52089045373",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-061",
+   "file": "datasets/realworld-v3/images/ox-061.jpg",
+   "sha256": "7289a64f38e0ba3856a1aa8214bd903a4c958756e40d1afbb7a76ccf52be97d0",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "a86daf2f-26c9-4fc6-8506-89ce5e2e62fd",
+   "title": "Sleeping Man, Day 100 of 365",
+   "creator": "DieselDemon",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/28096801@N05/3941510338",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-062",
+   "file": "datasets/realworld-v3/images/ox-062.jpg",
+   "sha256": "6b8402f9e41f63e267706514a903a409e1f2c9197d5f1f11d1ec0952e178df5b",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "3b967a0c-8657-477d-b631-d2c8bb9f3ff6",
+   "title": "MotoGP racer",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52627605397",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-063",
+   "file": "datasets/realworld-v3/images/ox-063.jpg",
+   "sha256": "8d93e4af7bc17d6d4b5f419cd2e8823929e0e8f5e6e04e95570d1d2c60c5e0cd",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "d8cf299a-68e4-43cc-bf79-dc6aa6c9b094",
+   "title": "MotoGP Vietti",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52626419485",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-064",
+   "file": "datasets/realworld-v3/images/ox-064.jpg",
+   "sha256": "8f94c1e025431827dd863e61347b02f792ef76dfef9abf45cb12ae93624e0a87",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "7bce015a-9422-46c8-9830-9268ae47cad3",
+   "title": "YAMAHA",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/51889766557",
+   "queries": [
+    "crashed leathers"
+   ]
+  },
+  {
+   "id": "ox-065",
+   "file": "datasets/realworld-v3/images/ox-065.jpg",
+   "sha256": "5360d9799b1bad75836f4112de1f30756a62be3694291c0dc1820422e76049e1",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "58753932-d546-47cb-8b18-cb58531f6198",
+   "title": "WI UFO",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/7226060548",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-066",
+   "file": "datasets/realworld-v3/images/ox-066.jpg",
+   "sha256": "a1eedb0c452d563ef5cc06570870f71695f1a718acd6dfb55af4fd1139445fe3",
+   "width": 1023,
+   "height": 527,
+   "openverseId": "3d70ed66-50a6-4125-a4d4-782565e562d6",
+   "title": "Hublot Ferrari Enzo - 2012 Ferrari Tribute to MilleMiglia",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/8710271181",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-067",
+   "file": "datasets/realworld-v3/images/ox-067.jpg",
+   "sha256": "c61a409a4edb0919a8b61fc5bf3ac38e161d766b293c11b0b8aacc3a60ee5798",
+   "width": 683,
+   "height": 1024,
+   "openverseId": "f5b7e1c6-9604-4d43-ae9c-2566603433f0",
+   "title": "One two three..",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/6227372543",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-068",
+   "file": "datasets/realworld-v3/images/ox-068.jpg",
+   "sha256": "e05108e89ff4a986d9491d6a191d5799c6b41507070ee64233393bd74ba0ecbc",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "521942fb-90c8-4ea9-9bf9-d8d00aad85c5",
+   "title": "Ferrari 360 Challenge Stradale",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/5898270540",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-069",
+   "file": "datasets/realworld-v3/images/ox-069.jpg",
+   "sha256": "baa6a98dfffe115020fd91e2dd6959c18ab2aacd74b3b82c22752631e2329de5",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "f89629f3-d2a7-427e-88ef-af5091b27906",
+   "title": "Combo",
+   "creator": "Blosterblu - YT",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46112301@N04/4238481918",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-070",
+   "file": "datasets/realworld-v3/images/ox-070.jpg",
+   "sha256": "c9323258e98049173c1ebdfc0c7a90b6d5cc64128380c33d98910daa8d010e33",
+   "width": 1024,
+   "height": 760,
+   "openverseId": "4bd79c87-77eb-487a-a88b-77678928b429",
+   "title": "Race Crash",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/52308778578",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-071",
+   "openverseId": "a046647c-71ba-41ff-9672-01caf4063e29",
+   "title": "CrashedMotorcyclingRacingShoulderPanel",
+   "error": "http 429"
+  },
+  {
+   "id": "ox-072",
+   "file": "datasets/realworld-v3/images/ox-072.jpg",
+   "sha256": "267198313eaff1e6b84118fbb369d9122e559552933cc8230e4dbcd35ae4e903",
+   "width": 1024,
+   "height": 758,
+   "openverseId": "d0772d1b-8d24-427e-b9d5-dfa5eca9d121",
+   "title": "Race",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/54227527906",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-073",
+   "file": "datasets/realworld-v3/images/ox-073.jpg",
+   "sha256": "028f8f6d592a0c229a0e38d829873376e3439cd66bd48c1efb9c77f4685b005f",
+   "width": 1024,
+   "height": 576,
+   "openverseId": "9389700f-0918-41c8-878f-7edda4d8bb1b",
+   "title": "Visit to the race track",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/53568456672",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-074",
+   "file": "datasets/realworld-v3/images/ox-074.jpg",
+   "sha256": "515ab7af42f6e246350c6792569e0cd9dc14a38e9b6e3bca04cc8802eec4fd71",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "4adc6a6e-4e84-4de2-bfdd-09270f602352",
+   "title": "Racing helpers",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/54194230064",
+   "queries": [
+    "race leathers crash"
+   ]
+  },
+  {
+   "id": "ox-075",
+   "openverseId": "38a83f56-b249-432f-97aa-461428871077",
+   "title": "Porsche 911 GT3 RS (6280074152)",
+   "error": "http 429"
+  },
+  {
+   "id": "ox-076",
+   "openverseId": "c8e9a2ec-7f04-4ef2-ab3b-35465472c584",
+   "title": "Kicking up some dust. (12022640996)",
+   "error": "http 429"
+  },
+  {
+   "id": "ox-077",
+   "openverseId": "7ab2e602-87f3-4723-aafa-0f01279aba4d",
+   "title": "File:Organisationsbuc00nati 0 orig 0604 ORGANISATIONSBUCH DER NSDAP 1943 Tafel 42 Nationalsozialistisches Kraftfahrkorps NSKK Uniform Overscharführer im Fahranzug Scharführer im Schulanzug Public domain Cropped Brighter.jpg",
+   "error": "http 429"
+  },
+  {
+   "id": "ox-078",
+   "file": "datasets/realworld-v3/images/ox-078.jpg",
+   "sha256": "021424a12bd906289d510589c7dd6b613a880415b1769bb1a9f2e0d99a6d371c",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "359c0a9b-cd9e-4f09-b693-6e4273f4a180",
+   "title": "Robbie Knievel Suit",
+   "creator": "rocbolt",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/28685581@N06/52413951197",
+   "queries": [
+    "crashed motorcycle suit"
+   ]
+  },
+  {
+   "id": "ox-079",
+   "file": "datasets/realworld-v3/images/ox-079.jpg",
+   "sha256": "c703bce9b7089ecfc0f165562a588fb44449de2653b9ccbbaab4a9a69d13631d",
+   "width": 678,
+   "height": 1024,
+   "openverseId": "02999fb8-8e43-4a3a-baba-6165a8915483",
+   "title": "true love",
+   "creator": "Kalense Kid",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/19232773@N00/130946762",
+   "queries": [
+    "torn motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ox-080",
+   "file": "datasets/realworld-v3/images/ox-080.jpg",
+   "sha256": "9a22d83ac860a2fe6f228c9aa71f79a15d5b8bc2d2933a407b4b3d523f54395c",
+   "width": 405,
+   "height": 480,
+   "openverseId": "6b0a4ff9-8c67-4765-8f34-fc5eac962a7e",
+   "title": "Helimot gloves",
+   "creator": "Andan",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/30372070@N00/4277775188",
+   "queries": [
+    "worn motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ox-081",
+   "file": "datasets/realworld-v3/images/ox-081.jpg",
+   "sha256": "12408c94299c18d89a6b386d678c1f2c033f738d520153f9092ef9ae80a5db72",
+   "width": 360,
+   "height": 480,
+   "openverseId": "72dc1ffb-ee02-4fdc-95d9-57da270bf799",
+   "title": "Helimot gloves",
+   "creator": "Andan",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/30372070@N00/4277775162",
+   "queries": [
+    "worn motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ox-082",
+   "file": "datasets/realworld-v3/images/ox-082.jpg",
+   "sha256": "737b16b45e67e2a23536a828e618b740d5a64f80f3f9f64d525b4825cb059d65",
+   "width": 447,
+   "height": 500,
+   "openverseId": "d4f67c81-3f17-4b52-93e6-2b04a1a50a68",
+   "title": "Pvt James F Hammons, a Military Policeman from the 29th MP Platoon, 29th Infantry Division, is about to ride off on his WLA in November 1944 at Dutch-German border region. Even at this late stage of the war he wears the regular wool trousers and a Winter",
+   "creator": "WWII in View",
+   "license": "pdm",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/191031534@N08/55179395774",
+   "queries": [
+    "worn motorcycle gloves",
+    "worn motorcycle boots"
+   ]
+  },
+  {
+   "id": "ox-083",
+   "file": "datasets/realworld-v3/images/ox-083.jpg",
+   "sha256": "0c634e54fd036c96a06131df34c1c425a47aec94b727347b9f9785bc1e8b04b3",
+   "width": 1024,
+   "height": 684,
+   "openverseId": "bff2e7f1-4af0-45f8-b340-4b7fc8f01ee0",
+   "title": "10 years of SIDI",
+   "creator": "sonofabike",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/52261767@N00/7735439960",
+   "queries": [
+    "worn motorcycle boots"
+   ]
+  },
+  {
+   "id": "ox-084",
+   "file": "datasets/realworld-v3/images/ox-084.jpg",
+   "sha256": "1b50ca53d241233d64407a2c1faf0e44362f70cc82c18988a3d4e93463a6065a",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "c48bfe03-265c-44bd-9b0d-711377ee8e52",
+   "title": "Alpinestars Supertech V2 Vented Boots toe slider",
+   "creator": "kemeko1971",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/8868801@N03/52261642712",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-085",
+   "file": "datasets/realworld-v3/images/ox-085.jpg",
+   "sha256": "eef9cacf7735ddc045e6131cb6e58aa648489856e39a4166dea6db2da8eda316",
+   "width": 500,
+   "height": 375,
+   "openverseId": "7d266a24-6b68-4919-836e-641aa8d18c72",
+   "title": "Loom to fix and commence to using...",
+   "creator": "RuTemple",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/25328365@N00/73339721",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-086",
+   "file": "datasets/realworld-v3/images/ox-086.jpg",
+   "sha256": "55be83cccafaba95b844ea7c8062772e8bb72f53dbe847f9574ec013c781ef2e",
+   "width": 767,
+   "height": 1024,
+   "openverseId": "996d5cc1-5f15-4cc8-991c-78c716407468",
+   "title": "Dem Bones",
+   "creator": "Me in ME",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/12357841@N02/51597382828",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-087",
+   "file": "datasets/realworld-v3/images/ox-087.jpg",
+   "sha256": "44c32d7662b80a5177b68cc519519ad1cc896728185a7a9786cc5551bc4ebfdd",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "9357a6be-aa71-4c76-828f-3dcc4b6ee5d3",
+   "title": "Turtle toes",
+   "creator": "k4dordy",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/8593364@N06/3323988789",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-088",
+   "file": "datasets/realworld-v3/images/ox-088.jpg",
+   "sha256": "a29a63548b2e8388b735418835d2897bad9279f7ffccb644ecdf9506b81c2fe4",
+   "width": 1024,
+   "height": 517,
+   "openverseId": "6af16a3a-d35d-4019-bf1e-cbf2b5a4d17a",
+   "title": "Skink,Hemiergis initialis sp initialis.",
+   "creator": "ron_n_beths pics",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46188549@N05/9607213166",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-089",
+   "file": "datasets/realworld-v3/images/ox-089.jpg",
+   "sha256": "8848db3cdfcccacbdf3e53c4b9a7a97c41bf0640955060b2e17d0b86673e553a",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "528a2200-714d-4e1f-99fe-aae24bc3a8a2",
+   "title": "Gear Damage from 2011/06/21",
+   "creator": "timfreund",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46409030@N00/5860353987",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-090",
+   "file": "datasets/realworld-v3/images/ox-090.jpg",
+   "sha256": "687e539a4e8e3752907b87625c9cd54deab0462d476efef9738f7725ba3ba093",
+   "width": 1024,
+   "height": 866,
+   "openverseId": "aa0c2144-5ce7-4b4c-a9bd-f9e7f2f90b18",
+   "title": "Macbeth Updated",
+   "creator": "arbyreed",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/19779889@N00/54096496767",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-091",
+   "file": "datasets/realworld-v3/images/ox-091.jpg",
+   "sha256": "70d8d9aa87a94cb4bc1326c3a9267492560a2ae4158b6e25e2fb4ae54c528dce",
+   "width": 1000,
+   "height": 665,
+   "openverseId": "a2162099-58ed-49fa-a9d5-883631e74720",
+   "title": "Tuck your feet in Farrow.",
+   "creator": "diy_deviant",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/25492648@N00/3651087203",
+   "queries": [
+    "toe slider"
+   ]
+  },
+  {
+   "id": "ox-092",
+   "openverseId": "64b80fcf-4946-4fa1-b827-3762d6f4eda7",
+   "title": "MotorcycleRacingBootToeslider",
+   "error": "http 429"
+  },
+  {
+   "id": "ox-093",
+   "file": "datasets/realworld-v3/images/ox-093.jpg",
+   "sha256": "307110a0763bf4ffadef108576e6d0ae056cd94a2fdc6b1a0b371fc8b64bc891",
+   "width": 1000,
+   "height": 667,
+   "openverseId": "8e9bac7f-d064-44ec-9ed8-fdfb4daadfa0",
+   "title": "jacket bottom snap inside right & torn seam",
+   "creator": "engnr_chik",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/28150275@N08/4696414959",
+   "queries": [
+    "motorcycle jacket torn"
+   ]
+  },
+  {
+   "id": "ox-094",
+   "file": "datasets/realworld-v3/images/ox-094.jpg",
+   "sha256": "8dc9fb3571d6c3079ba51bfe5334b986de2a2f4753902bc0cc4ff579d9ec2549",
+   "width": 882,
+   "height": 1024,
+   "openverseId": "d7d5136e-8fe5-4bd4-9080-b2999d45c045",
+   "title": "motorcycle gear xmas",
+   "creator": "bdu",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/54581307@N00/324458502",
+   "queries": [
+    "textile motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ox-095",
+   "file": "datasets/realworld-v3/images/ox-095.jpg",
+   "sha256": "c3b831cef1949f6b157bb74c9492304596d4c01853412b1c436eda0a0c4e8c54",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "fd47243c-eade-42e2-a1d3-3e8db4cd7eef",
+   "title": "4SR motocross Motohouse",
+   "creator": "4SR - For Street Racing",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/110958329@N03/24187847453",
+   "queries": [
+    "textile motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ox-096",
+   "openverseId": "63f42338-b45d-41f8-acf2-e4cfffdcbbd5",
+   "title": "NSDAP Amtsleiter uniform NSKK Stürzhelm motorcycle helmet Hitlerjugend Schirmmütze cap Münchner Stadtmuseum germany 2014 Nazi brownshirt uniform 2 cropped",
+   "error": "http 429"
+  },
+  {
+   "id": "ox-097",
+   "file": "datasets/realworld-v3/images/ox-097.jpg",
+   "sha256": "81ba0278a8ffe1042b6f2566252ba418ede046147e59b5537446b75b57e1b940",
+   "width": 1024,
+   "height": 681,
+   "openverseId": "763c9366-796a-4ff2-94db-25cf417a4295",
+   "title": "easy rider show columbus, ohio 2-9-14",
+   "creator": "Paula R. Lively",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/29621494@N02/12425449033",
+   "queries": [
+    "textile motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ox-098",
+   "file": "datasets/realworld-v3/images/ox-098.jpg",
+   "sha256": "f05e615107163c8d8bf679a0a33cc4c9fa716e4a0a7c5be7ebb3cc3cc9daafcb",
+   "width": 500,
+   "height": 375,
+   "openverseId": "7992426a-5bed-4ee8-ab44-f9006cd3b136",
+   "title": "Chain chain chain",
+   "creator": "GlennFleishman",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/69628725@N00/1393035326",
+   "queries": [
+    "riding gear after crash"
+   ]
+  },
+  {
+   "id": "ox-099",
+   "file": "datasets/realworld-v3/images/ox-099.jpg",
+   "sha256": "1f678f4144234181b36e60307b046b88c9b967ee9837ec53f108134896e7a59b",
+   "width": 1024,
+   "height": 765,
+   "openverseId": "984aeca4-8828-450c-b85a-4e5232140244",
+   "title": "Crunch",
+   "creator": "lihourj",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/16985148@N00/14209546256",
+   "queries": [
+    "riding gear after crash"
+   ]
+  },
+  {
+   "id": "ox-100",
+   "file": "datasets/realworld-v3/images/ox-100.jpg",
+   "sha256": "eec5e27ce7afc2ee57e4149d10809de642bf3528b3498d4982f497475133a58f",
+   "width": 1024,
+   "height": 963,
+   "openverseId": "760e457e-a08c-4759-93f9-b644db3ea88b",
+   "title": "Carl Batts from the G6 program management branch poses with his cherry-red Yamaha Raider",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730131272",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-101",
+   "file": "datasets/realworld-v3/images/ox-101.jpg",
+   "sha256": "3c24cdaeba92b0226f3ae3de79a9969c24ddf29090f16ee0cfff04a57cd25139",
+   "width": 1024,
+   "height": 576,
+   "openverseId": "c3fdd098-32e1-4170-89fe-081b0306dc3c",
+   "title": "IMCOM motorcycle enthusiasts take off for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730147576",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-102",
+   "file": "datasets/realworld-v3/images/ox-102.jpg",
+   "sha256": "4f70139f4e8eb261249e4ffc27ba65ba5b1357c297a378f9cb50c9a872915ee9",
+   "width": 680,
+   "height": 1024,
+   "openverseId": "9ea71dbc-24c3-4fd8-891e-c29b1fee693a",
+   "title": "Motorcycles parked at the Shadetree Saloon and Grill",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729610201",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-103",
+   "file": "datasets/realworld-v3/images/ox-103.jpg",
+   "sha256": "15be0f1a41164bf0d6f6a71c245365872a357d6ad43a94a4de8206a467451f57",
+   "width": 1024,
+   "height": 883,
+   "openverseId": "e2664e2d-6576-4513-a6c6-0b292eb323b1",
+   "title": "CSM Ciotola, wearing an orange safety vest, helmet, over-the-ankle boots and full-fingered gloves, is ready to ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730146848",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-104",
+   "file": "datasets/realworld-v3/images/ox-104.jpg",
+   "sha256": "dff250e307da889e0c45f4a9fc7c195b9eb09042ffad73a9a988cc343f41d663",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "4ff034f1-6fc5-45d6-9232-605c76a16ed4",
+   "title": "IMCOM employees admire bikes parked in the IMCOM HQ parking lot",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730135676",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-105",
+   "file": "datasets/realworld-v3/images/ox-105.jpg",
+   "sha256": "a9863e0659697c6ce92c1bdb8b869f490191c274f5387fc3e7297fa445e0e581",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "e411c731-6a2a-4fe4-8f8a-660a0135a3d7",
+   "title": "IMCOM employees admire bikes parked in the IMCOM HQ parking lot",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729582569",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-106",
+   "file": "datasets/realworld-v3/images/ox-106.jpg",
+   "sha256": "be6f43cb6d5df7ccfb0370f2512b690e521d36fdfbebe3396e87e5125673ce4e",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "f0258e7a-363f-4d26-a5a5-473cf5c82f86",
+   "title": "IMCOM motorcycle enthusiasts gear up for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730141624",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-107",
+   "file": "datasets/realworld-v3/images/ox-107.jpg",
+   "sha256": "b9478f37074b83454765cd6c64ca044d5fad7d7e15802ff26d6c744c9072ebb8",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "d94288d8-6d9a-4124-998b-3ce647321867",
+   "title": "IMCOM motorcycle enthusiasts gear up for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729590099",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-108",
+   "file": "datasets/realworld-v3/images/ox-108.jpg",
+   "sha256": "0c6eb4c918c8362101d41080ec0c797edc32d6404b45bb5475ccae66c7195e27",
+   "width": 1024,
+   "height": 898,
+   "openverseId": "3980eba2-e435-419a-98da-fd23cb4f4d71",
+   "title": "IMCOM motorcycle enthusiasts gear up for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729590539",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-109",
+   "file": "datasets/realworld-v3/images/ox-109.jpg",
+   "sha256": "5508aae9c1227cd6cefe9c8e9dfab6bd5e34fb8974bdee0cd10bc6446f0f7909",
+   "width": 680,
+   "height": 1024,
+   "openverseId": "511a3214-335a-48aa-971e-eefb939d464e",
+   "title": "Motorcycles parked at the Shadetree Saloon and Grill",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729610639",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-110",
+   "file": "datasets/realworld-v3/images/ox-110.jpg",
+   "sha256": "223dd68eb41c11eb82f1b74dddaf113215432522cf481ab5c76031d552236791",
+   "width": 1024,
+   "height": 770,
+   "openverseId": "d75deffc-61ce-4908-9e88-b13209c12ed7",
+   "title": "CSM Ciotola, wearing an orange safety vest, helmet, over-the-ankle boots and full-fingered gloves, is ready to ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730146374",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-111",
+   "file": "datasets/realworld-v3/images/ox-111.jpg",
+   "sha256": "c462b6c32c014e8c3a35b9f0dcd9c7e8e9ce36e4d340f860c96d0556af70adc6",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "e71738f0-0a65-4b68-8728-60f6be5e87ea",
+   "title": "IMCOM riders roll in to the Shadetree after riding 100 miles through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729599889",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-112",
+   "file": "datasets/realworld-v3/images/ox-112.jpg",
+   "sha256": "6d8ff818fbb497e3b84b83489249d4bbd910cfb6ecaf5f255d69592786f18482",
+   "width": 749,
+   "height": 1024,
+   "openverseId": "1eef9b62-6417-4683-bd0e-4894c449f139",
+   "title": "IMCOM motorcycle enthusiasts take off for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729594699",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-113",
+   "file": "datasets/realworld-v3/images/ox-113.jpg",
+   "sha256": "2298490e6011c46e5329b834d66e79cafcd77c0f941a1dd8fe354fefc24c0ea4",
+   "width": 1024,
+   "height": 1006,
+   "openverseId": "2c290b89-2800-4f0d-8516-4dcec4c4df2e",
+   "title": "IMCOM employees relax in the shade after the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730153936",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-114",
+   "file": "datasets/realworld-v3/images/ox-114.jpg",
+   "sha256": "0eda1edc78c003f0e532b6082dd7f2d59654061e29c548e25940ed6e02d115bf",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "2729e7d2-2916-446b-91f7-72a72da86790",
+   "title": "IMCOM motorcycle enthusiasts take off for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729592681",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-115",
+   "file": "datasets/realworld-v3/images/ox-115.jpg",
+   "sha256": "17bc28e9cb761a72a571c2183b35308cfe43a19017eb004f8f0be3888cf4b407",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "468cb14f-6efd-45b8-b046-1edaf768b56c",
+   "title": "IMCOM employees relax in the shade after the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730157494",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-116",
+   "file": "datasets/realworld-v3/images/ox-116.jpg",
+   "sha256": "46450cba6118b6abd9ba2fea6910a30e3c1c3027c82441d9a7fbf173041159c6",
+   "width": 680,
+   "height": 1024,
+   "openverseId": "8aa31b7f-8de6-4783-8de0-77b2e32b2237",
+   "title": "IMCOM employees relax in the shade after the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730157062",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-117",
+   "file": "datasets/realworld-v3/images/ox-117.jpg",
+   "sha256": "b9227e435d4e90346464497f66b50e2415edff4233490a3b8687eabb594106c0",
+   "width": 1024,
+   "height": 872,
+   "openverseId": "e983631c-b655-470b-909e-ed90da727ad0",
+   "title": "A Harley Davidson motorcycle sits parked in front of the IMCOM HQ leased space as the American flag flies on the flagpost",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730130206",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-118",
+   "file": "datasets/realworld-v3/images/ox-118.jpg",
+   "sha256": "1b44502c5aa2bb0acd89bb302bab48f11fe3f018f4ca5746494abf89a774e8ba",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "c0183904-c37d-46ab-94e2-ce388f707d3a",
+   "title": "IMCOM employees admire bikes parked in the IMCOM HQ parking lot",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729585279",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-119",
+   "file": "datasets/realworld-v3/images/ox-119.jpg",
+   "sha256": "6ef5f68d7ead1db5d18bc7d9b19da3c25b00b8d068c0f665899a3e74cf6661ef",
+   "width": 748,
+   "height": 1024,
+   "openverseId": "808de8ac-c06e-43d2-acb1-fbddcf1b6942",
+   "title": "IMCOM motorcycle enthusiasts take off for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729592147",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-120",
+   "file": "datasets/realworld-v3/images/ox-120.jpg",
+   "sha256": "f99d4bb0e3f4f2fc32b895ac0cb36c0ffc34c8dc6056456d026431f903d7c630",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "a4e1242a-0b3b-43c5-bb74-0e5048b17587",
+   "title": "A Harley Davidson motorcycle sits parked in front of the IMCOM HQ leased space as the American flag flies on the flagpost",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730129682",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-121",
+   "file": "datasets/realworld-v3/images/ox-121.jpg",
+   "sha256": "1fd51f5a2a57aceb617741c62d1a5805ae0227aa2d68610094af9b81d6a084b3",
+   "width": 1023,
+   "height": 807,
+   "openverseId": "bfa3de94-0c14-4165-b6ba-2792ff82c260",
+   "title": "IMCOM motorcycle enthusiasts take off for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729593857",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-122",
+   "file": "datasets/realworld-v3/images/ox-122.jpg",
+   "sha256": "8e02877447b751c144a00d251da7002cf76e287fd506e7a64fc9ab4ae4a95bbd",
+   "width": 1024,
+   "height": 455,
+   "openverseId": "ba646712-03ba-4702-b895-f5b1d4528284",
+   "title": "IMCOM motorcycle enthusiasts listen to a safety brief from CSM Ciotola and Budget Analyst T.J. Love",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729588325",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-123",
+   "file": "datasets/realworld-v3/images/ox-123.jpg",
+   "sha256": "8e7e0fc93653c3bb1d114c7d7d49d90c4cf31c73b18d9e03622e52c722a6cee9",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "47a43379-9e8a-4d3d-b78e-506bb01af2b4",
+   "title": "IMCOM motorcycle enthusiasts listen to a safety brief from CSM Ciotola and Budget Analyst T.J. Love",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729586135",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-124",
+   "file": "datasets/realworld-v3/images/ox-124.jpg",
+   "sha256": "b13be3a343ed69caec5de0807d6e454ab922bd333be2538af2c4e06f1e9bfab0",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "090cc311-8a53-4409-9594-82edbe773c74",
+   "title": "Vintage bikes welcome motorcycle enthusiasts to the Shadetree Saloon and Grill",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729608739",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-125",
+   "file": "datasets/realworld-v3/images/ox-125.jpg",
+   "sha256": "d9a758833d1181f5933a08a6d1df4296cf3cafaa4c157e532ed339206348fb96",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "1a4eac9a-5797-4946-8fc9-6ef494f1978f",
+   "title": "Vintage bikes welcome motorcycle enthusiasts to the Shadetree Saloon and Grill",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729609157",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-126",
+   "file": "datasets/realworld-v3/images/ox-126.jpg",
+   "sha256": "6d28485fc352652d7b60308bb3d1d473302ae46022191da8030743a80a47b08f",
+   "width": 1024,
+   "height": 945,
+   "openverseId": "f54d1f00-3338-4fc9-be8f-ea2c2c3c13d8",
+   "title": "IMCOM employees admire bikes parked in the IMCOM HQ parking lot",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730132658",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-127",
+   "file": "datasets/realworld-v3/images/ox-127.jpg",
+   "sha256": "dfb0a7a6ffc8a04d22d6c25a08f9586ba1a7a94ee52e6cad3da9113db6697684",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "0e6eb2f6-db9b-4db7-a5b7-88a0d98fe1c5",
+   "title": "IMCOM employees admire bikes parked in the IMCOM HQ parking lot",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730136502",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-128",
+   "file": "datasets/realworld-v3/images/ox-128.jpg",
+   "sha256": "64b1fa2386ac3d5d4e354be3e6a6e1b6401cf13e32c385cd982bb37ece46944e",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "091e7017-01a7-458c-b71c-548a508bb2e7",
+   "title": "IMCOM motorcycle enthusiasts pose for a picture before hitting the open road",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730140244",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-129",
+   "file": "datasets/realworld-v3/images/ox-129.jpg",
+   "sha256": "5b639fc0e5e4fd0854892efc66ab071b4d7d2248cd6252be10a3a7dbf7ff79b6",
+   "width": 1024,
+   "height": 708,
+   "openverseId": "f3c97886-440a-491f-b827-bd42346f5d76",
+   "title": "IMCOM riders roll in to the Shadetree after riding 100 miles through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730149362",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-130",
+   "file": "datasets/realworld-v3/images/ox-130.jpg",
+   "sha256": "fa594ac9ecdf78a6c7ad677a89f5d6621a8e84332506c9c6c4ae28819cbd6f74",
+   "width": 680,
+   "height": 1024,
+   "openverseId": "2f4004e5-b5ff-4501-9a6e-7a8ba46db0c4",
+   "title": "IMCOM employees relax in the shade after the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729606311",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-131",
+   "file": "datasets/realworld-v3/images/ox-131.jpg",
+   "sha256": "f4b48952ef93ead6b0054134751ededc296a28922aa05cfc41b9c0629fa9ab6c",
+   "width": 500,
+   "height": 500,
+   "openverseId": "dd559627-0bf3-4e59-b2d3-208be0a30757",
+   "title": "Pain",
+   "creator": "Vindihåret",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/33819990@N04/4199340337",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-132",
+   "file": "datasets/realworld-v3/images/ox-132.jpg",
+   "sha256": "92b1819189df78cfdd1672f689599ed6bc3ff681ca9f20aca239f6cd0e90df97",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "e908979d-e695-4137-bdb5-a5cf4050d185",
+   "title": "IMCOM employees relax in the shade after the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729601531",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-133",
+   "file": "datasets/realworld-v3/images/ox-133.jpg",
+   "sha256": "f3a99e76c75d17bc9b1648dd270b394669641d990c73ba1b3bf1af053682872e",
+   "width": 1024,
+   "height": 722,
+   "openverseId": "3377b161-720e-4280-aeb9-caa458b68319",
+   "title": "IMCOM employees relax in the shade after the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729604283",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-134",
+   "file": "datasets/realworld-v3/images/ox-134.jpg",
+   "sha256": "8a1969d14b35da5de85c157ed3ad89c88a2c15232c28ab32156043c2ec4b4e38",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "792a4719-d780-4472-9881-72be58b2d985",
+   "title": "IMCOM employees relax in the shade after the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729605787",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-135",
+   "file": "datasets/realworld-v3/images/ox-135.jpg",
+   "sha256": "02d217a55879737cbc90af13801923a843fee9377ff65c3a1dd1cd7ce9035bdd",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "f950bf21-e106-4954-85f0-85a77dc8a890",
+   "title": "CSM Ciotola chats with employees before getting ready for the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729583239",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-136",
+   "file": "datasets/realworld-v3/images/ox-136.jpg",
+   "sha256": "bc609ea77888383f0ceba4e72ad93a7d13e23d7e4c55815d47b4b76b61a45cbd",
+   "width": 1024,
+   "height": 680,
+   "openverseId": "38fe1054-6d6d-45ac-bf2d-de8f0ed5e5c7",
+   "title": "CSM Ciotola chats with employees before getting ready for the ride",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730133718",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-137",
+   "file": "datasets/realworld-v3/images/ox-137.jpg",
+   "sha256": "a091a1402c74c42059ef5303582d5ffa216bf8995f9c6c7916f2873f71aa94d1",
+   "width": 1023,
+   "height": 687,
+   "openverseId": "bca2696a-2c23-4397-8fed-6bdb8530ae93",
+   "title": "IMCOM motorcycle enthusiasts take off for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729593035",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-138",
+   "file": "datasets/realworld-v3/images/ox-138.jpg",
+   "sha256": "47ac5519af25b198ad872bda5a7be3fa5b7cd5ebeea419d4b516f1ae2f7fbcdf",
+   "width": 1024,
+   "height": 946,
+   "openverseId": "56c7ebaa-a921-440c-9b59-4c9e09ad2003",
+   "title": "IMCOM motorcycle enthusiasts take off for a 100-mile scenic ride through the Texas Hill Country",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5729593493",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-139",
+   "file": "datasets/realworld-v3/images/ox-139.jpg",
+   "sha256": "f72da31762be9fe0afce2ed37e85810c4a7d5a54c48217b9daa303cc7be0a5de",
+   "width": 680,
+   "height": 1024,
+   "openverseId": "929c62d2-0e99-4810-bd48-ac15e4e5d048",
+   "title": "Motorcycles parked at the Shadetree Saloon and Grill",
+   "creator": "U.S. Army IMCOM",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/41474848@N06/5730161196",
+   "queries": [
+    "motorcycle gear after accident"
+   ]
+  },
+  {
+   "id": "ox-140",
+   "file": "datasets/realworld-v3/images/ox-140.jpg",
+   "sha256": "d06af9c5011873e4a245b3fdd4f19185d7f2e18792d1087a9354808abecb6313",
+   "width": 4000,
+   "height": 3453,
+   "openverseId": "f1e2974b-c558-45f2-83cb-fceaf564ee02",
+   "title": "Black and red leather jacket worn by Kurtis Blow",
+   "creator": "M. Julian, American, 1975 - 2000",
+   "license": "cc0",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "smithsonian_african_american_history_museum",
+   "landingUrl": "https://nmaahc.si.edu/object/nmaahc_2015.185",
+   "queries": [
+    "motorcycle jacket on hanger"
+   ]
+  },
+  {
+   "id": "ox-141",
+   "file": "datasets/realworld-v3/images/ox-141.jpg",
+   "sha256": "711796dfe7698687487ab017f3a639f3cc6a8d84273328a3c3094be78cee2e27",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "944e168e-1d2c-4d64-86d8-561ea2945d52",
+   "title": "DSC_9743: a man standing next to a table with food on it",
+   "creator": "PattayaPatrol",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/194424926@N05/54364904730",
+   "queries": [
+    "motorcycle gloves on table"
+   ]
+  }
+ ]
+}

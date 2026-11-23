@@ -1,0 +1,134 @@
+[
+  {
+    "name": "lib/arm64-v8a/libappmodules.so",
+    "sha256": "dd4f98af6ccf672443cc3a154983c97c6bb3d25be19c5c56d3fd9a7042b55e8f"
+  },
+  {
+    "name": "lib/arm64-v8a/libbarhopper_v3.so",
+    "sha256": "ec09597e9eb3aee0eb55ae3366da0d4ba416f5aa35a1af0b3811f50ff46743a1"
+  },
+  {
+    "name": "lib/arm64-v8a/libc++_shared.so",
+    "sha256": "3e852764502d06e0cf1080d532ae7c608b7649d946a3a9d7e84e3d4b7d683214"
+  },
+  {
+    "name": "lib/arm64-v8a/libexpo-modules-core.so",
+    "sha256": "dc87f801b21c8f843464f84bc42e1d6c16c1dfc3de5b5a4470d57aa18b187fc7"
+  },
+  {
+    "name": "lib/arm64-v8a/libfbjni.so",
+    "sha256": "a9e35ba55d3f956920281f519385f8a72475ee24819799cb08375fdd4cce2b22"
+  },
+  {
+    "name": "lib/arm64-v8a/libgifimage.so",
+    "sha256": "9f605249728da7091569772a38a4dde298ed48e1e73fed3da0e4b662ef38715c"
+  },
+  {
+    "name": "lib/arm64-v8a/libhermestooling.so",
+    "sha256": "1db061bbbb050105fee9b208b861adc0cc02cc359551be6ba9562798a81f6cca"
+  },
+  {
+    "name": "lib/arm64-v8a/libhermesvm.so",
+    "sha256": "bf38be45bf5d6ad8ba961eaf9deda5fa7e032f3ff7d3929ba2a624567093bffa"
+  },
+  {
+    "name": "lib/arm64-v8a/libimage_processing_util_jni.so",
+    "sha256": "0292b063fafccf734472cbb59588e756c2dbca907c72021ba6fbf126385508a2"
+  },
+  {
+    "name": "lib/arm64-v8a/libimagepipeline.so",
+    "sha256": "1b377992e4256fa9398ec057722f84a359c7d588e570c8a41f51d930c19ece7d"
+  },
+  {
+    "name": "lib/arm64-v8a/libjsi.so",
+    "sha256": "5acb80d7eb93b2114a419c9e42b44476969299e806ad7eafe1b293e221b9a682"
+  },
+  {
+    "name": "lib/arm64-v8a/libnative-filters.so",
+    "sha256": "4294b57460e70a6351ce7ae2733a79c088c907dfa54673a657227ec5bb669594"
+  },
+  {
+    "name": "lib/arm64-v8a/libnative-imagetranscoder.so",
+    "sha256": "2aed28298a25afd52ac670cf9682398c6c7ba42a57195c01efd565e7ddfe17ca"
+  },
+  {
+    "name": "lib/arm64-v8a/libreact_codegen_rnsvg.so",
+    "sha256": "2faae4cb4ad3ad4dcb28ea8438323b24a44bf1873a782b6368b79dda3188db66"
+  },
+  {
+    "name": "lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+    "sha256": "0b79e0f7cba896d18aa8bcad88f9ff100d8778d0aa8311702d26b8a7e31cbe2d"
+  },
+  {
+    "name": "lib/arm64-v8a/libreactnative.so",
+    "sha256": "14bb860cebebb0e29eb2c96a52d70da9b73e60253916694af955f6e3ef1e6b64"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama.so",
+    "sha256": "938380cdc4c466235dcfde3490ceeee695a655f20af67f749fe056b95fda83db"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_jni.so",
+    "sha256": "c81e26ba6bc9a9c7dcb0a2da6ec5959b589b8e18a92f36a0921b284c534d9cec"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_jni_v8.so",
+    "sha256": "61eba0c761a257e1177b08991835361e443ec6eb22f2c2dfc6eef99ec676936b"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_jni_v8_2.so",
+    "sha256": "773feba95aa8a94612125d0147c6bc488cf67026fc444cab7c2f16890340d718"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod.so",
+    "sha256": "8268245c19ec9935d7e8ad412809a406e3830f966caa6fc1d068af99da097b23"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod_i8mm.so",
+    "sha256": "639eadd33556e50cab07b5e9c7434c37a48c9c3915d99f179f04dbe3ed2b3c61"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod_i8mm_hexagon_opencl.so",
+    "sha256": "3b2c8e4be454c94e859fd7efb77cbf928f84cdb4cf067536dd66121eb101f187"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_jni_v8_2_i8mm.so",
+    "sha256": "77437b52ca2a7b5356c940cb0e929c6ea4d5816265028e5feb48f161052df328"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_v8.so",
+    "sha256": "a4dbd302c67e906b45e7b1e5ceee7f59cf50a8700a9b72ce14191af6615a94a3"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_v8_2.so",
+    "sha256": "3420e18d27f28b51035d24e8db148ce6516b50ee0e278877cc07009dc61f2b0c"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_v8_2_dotprod.so",
+    "sha256": "bec50758ada7ef39b3f860a7e8e53c4d1e0b99ddfe205f4700acbb840c4f6cc2"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_v8_2_dotprod_i8mm.so",
+    "sha256": "5bc782d78c764277525c09a21aa95e2963059befaee30451349a03de0e159cc1"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_v8_2_dotprod_i8mm_hexagon_opencl.so",
+    "sha256": "71c04553ae83e7b9fbf326dacf850470bb5d167fbf203c673e7fe4ceb4372d75"
+  },
+  {
+    "name": "lib/arm64-v8a/librnllama_v8_2_i8mm.so",
+    "sha256": "bde674c0eaf0b3d0531a3bd6a6f41a4259309f213f75370d96da3b0049bfac4a"
+  },
+  {
+    "name": "lib/arm64-v8a/libstatic-webp.so",
+    "sha256": "f3e5f9ab4f93f2a0a057285a2de9c93ba0ab59c76c22874d0356493ce283c4c7"
+  },
+  {
+    "name": "lib/arm64-v8a/libsurface_util_jni.so",
+    "sha256": "a5c9d1928ea92ec7a94dff8cf666e7739cd734198b9f0ae1d4e28ea3c86516ba"
+  },
+  {
+    "name": "lib/arm64-v8a/libzstd-kmp.so",
+    "sha256": "10ec47f13bee884450b0911066019ba7aa6b4164a4c1f8c33c9d30dd3fd8868a"
+  }
+]

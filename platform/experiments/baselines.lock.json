@@ -1,0 +1,74 @@
+{
+  "createdAt": "2026-10-26T18:17:30.611Z",
+  "purpose": "Immutable experimental evidence. New runs get new paths; never tune away failures.",
+  "files": [
+    {
+      "path": "experiments/round-03/condition-protocol.json",
+      "sha256": "37b4e94b90a1076e55cadae37d5989ab63f2f3726bbfa0d55a5e8202d56c86ca"
+    },
+    {
+      "path": "benchmarks/round-03/condition-first-run.json",
+      "sha256": "330a5c51c0d4a48000fdf525698728f54afa0297c40808e837c48f38bb2a1d46"
+    },
+    {
+      "path": "benchmarks/round-03/condition-qwen35-9b.json",
+      "sha256": "87c335725344fd9fb9f6a06af520d7a6b1e0a6a37ac0213d46fb21acc959f625"
+    },
+    {
+      "path": "benchmarks/round-03/condition-gemma4-e2b.json",
+      "sha256": "680d96f19f2f06d6c98ccce7fbcbd9b18e9263e31c44ca8e92e886e01b5a3e6e"
+    },
+    {
+      "path": "benchmarks/round-03/condition-verified-qwen35-4b.json",
+      "sha256": "e4b4504417389b49bebb99a2009a4a87b206a4b1efd520828c26561c485f7270"
+    },
+    {
+      "path": "benchmarks/round-04/quality-protocol.json",
+      "sha256": "2e7a97c662d2f9c0996ae80be4f9c6dc5bc3dc92014d23a9a9422f94de023702"
+    },
+    {
+      "path": "benchmarks/round-04/quality-results.json",
+      "sha256": "02ff74c4f8da0111c308a3e77e3a0a8d191377cbba1c2f2707d4e7c060a8c25d"
+    },
+    {
+      "path": "benchmarks/round-04/morphology-protocol.json",
+      "sha256": "aab914965116743d8e648a5475760aee3d2abcc751cd2b998928059d90cbe17c"
+    },
+    {
+      "path": "benchmarks/round-04/morphology-results.json",
+      "sha256": "9eedb099bafa276240fabfb7b2198be9a203012988f29d6a798e4386547740f4"
+    },
+    {
+      "path": "experiments/mobile-specialists/routing-training-protocol.json",
+      "sha256": "16d187a945aa7d422dbea271f28b4058e75a37ba7630b75c0f25ee4caa165bc7"
+    },
+    {
+      "path": "experiments/mobile-specialists/routing-training-report.json",
+      "sha256": "d6ddc9a036f3463833cf08e7aeb58aa83eb0da87a05ca386df6e494865f6f033"
+    },
+    {
+      "path": "experiments/mobile-specialists/cycle-02/protocol.json",
+      "sha256": "f5cb2eebfc95a7d1bb425c23c8d528bdb5a99273031caaefc66c2293f2127d4f"
+    },
+    {
+      "path": "experiments/mobile-specialists/cycle-02/report.json",
+      "sha256": "7d509f3340650357d0092371171e7e534fd007d2e2957a5a2e575464a3ad2763"
+    },
+    {
+      "path": "experiments/mobile-specialists/cycle-03/protocol.json",
+      "sha256": "e3d6291d751803c17f464c4f3404b594c29f248ff4a34aad4c369a24ec52292d"
+    },
+    {
+      "path": "experiments/mobile-specialists/cycle-03/report.json",
+      "sha256": "ee46b2157e177ab69e13bc3881d693132b4257060694ae443877d02eacf3c948"
+    },
+    {
+      "path": "experiments/mobile-specialists/cycle-04b/protocol.json",
+      "sha256": "a8fc2b859a7100efb728453386cbadbc0b6ce68f54227bccd77d68a0051bae4b"
+    },
+    {
+      "path": "experiments/mobile-specialists/cycle-04b/report.json",
+      "sha256": "f3b65bd7b7363b5a7d1b5f6a60c3b521df67d24fda8e65ab2e346910b3a0d895"
+    }
+  ]
+}

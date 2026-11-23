@@ -1,0 +1,1761 @@
+{
+  "schemaVersion": "1.1",
+  "sources": [
+    {
+      "id": "TECH-001",
+      "title": "Transformers.js",
+      "url": "https://github.com/huggingface/transformers.js",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Hugging Face",
+      "author": "Transformers.js maintainers",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Node and browser inference APIs for pretrained ONNX models; repository declares Apache-2.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Documentation and repository support do not establish motorcycle-task accuracy; actual installed version and model tests are recorded separately."
+      ],
+      "howUsed": [
+        "Supports selecting a JavaScript runtime without Python."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md",
+        "docs/07-computer-vision-research/model-provenance.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-002",
+      "title": "Node tutorial",
+      "url": "https://huggingface.co/docs/transformers.js/tutorials/node",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Hugging Face",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Transformers.js supports server-side inference in Node and standard JavaScript module systems."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher tutorial",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "The fetched main documentation linked a 3.8.1 stable tutorial while the installed package is 4.3.1; installed API compatibility was verified separately."
+      ],
+      "howUsed": [
+        "Supports the local Node inference-service architecture."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-003",
+      "title": "CLIP model card",
+      "url": "https://huggingface.co/openai/clip-vit-base-patch32",
+      "retrievedOn": "2026-10-26",
+      "publisher": "OpenAI model account on Hugging Face",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "CLIP is a pretrained image-text model usable for zero-shot image classification; its card cautions that deployment requires context-specific study."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher model card",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "The Hugging Face card adapts the original model card; it is not an independent gear evaluation or evidence of condition/safety accuracy."
+      ],
+      "howUsed": [
+        "Defines the category-only baseline and its deployment limits."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-004",
+      "title": "CLIP conversion",
+      "url": "https://huggingface.co/Xenova/clip-vit-base-patch32",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Xenova model repository on Hugging Face",
+      "author": "Xenova",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Provides ONNX conversion files for CLIP and a Transformers.js zero-shot classification example."
+      ],
+      "evidenceStrength": {
+        "classification": "Model-converter repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Conversion metadata did not expose a standalone licence field; upstream MIT provenance does not independently clear redistribution of converted weights."
+      ],
+      "howUsed": [
+        "Identifies the downloadable no-key CLIP baseline."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-005",
+      "title": "SigLIP conversion",
+      "url": "https://huggingface.co/onnx-community/siglip-base-patch16-224-ONNX",
+      "retrievedOn": "2026-10-26",
+      "publisher": "ONNX Community on Hugging Face",
+      "author": "onnx-community",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Provides a SigLIP base ONNX conversion and declares Apache-2.0; its model card describes zero-shot classification use."
+      ],
+      "evidenceStrength": {
+        "classification": "Model-converter repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "The conversion lacks tokenizer files; successful integration required the pinned original Google tokenizer. Publisher descriptions are not our measured quality results."
+      ],
+      "howUsed": [
+        "Identifies a second pretrained category baseline."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md",
+        "docs/07-computer-vision-research/model-provenance.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-006",
+      "title": "OpenAI Luna",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "retrievedOn": "2026-10-26",
+      "publisher": "OpenAI",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Retrieved GPT-6 Luna documentation lists image input, structured outputs, and standard short-context rates of USD 0.10/M input and 0.50/M output tokens."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher model specification",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Account access, future availability, gear-task quality and actual billed image tokens were not verified through API calls."
+      ],
+      "howUsed": [
+        "Defines an optional hosted extraction candidate and cost-rate scenario."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md",
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-007",
+      "title": "Gemini model",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": "2026-10-22",
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "Fetched model page footer states last updated 2026-10-22 UTC; model latest-update month is separately listed as July 2026.",
+      "relevantClaims": [
+        "Gemini 3.5 Flash-Lite is listed as a stable multimodal model with image input and structured output support."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher model specification",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Capabilities are vendor documentation, not independently measured gear performance; the documented model-update month differs from the page revision date."
+      ],
+      "howUsed": [
+        "Defines a hosted multimodal alternative."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-008",
+      "title": "Claude vision",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/vision",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Anthropic",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Claude accepts images; image limits and token costs depend on the selected model and image handling."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher API documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No Claude inference, gear benchmark or account access was exercised."
+      ],
+      "howUsed": [
+        "Supports the Claude comparison and the decision to measure actual image usage before estimating bills."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md",
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-009",
+      "title": "ML Kit OCR",
+      "url": "https://developers.google.com/ml-kit/vision/text-recognition/v2",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "ML Kit Text Recognition v2 extracts text structure and geometry across supported scripts."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher SDK documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No ML Kit bridge or phone OCR test was implemented; text extraction does not establish certification authenticity."
+      ],
+      "howUsed": [
+        "Supports a future native label-OCR adapter."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-010",
+      "title": "ML Kit labels",
+      "url": "https://developers.google.com/ml-kit/vision/image-labeling",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "ML Kit base image labeling covers more than 400 broad entities and can use separately supplied custom models."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher SDK documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "A broad label set is not a protective-condition model; training custom models is outside this challenge."
+      ],
+      "howUsed": [
+        "Distinguishes generic on-device labels from gear-specific observations."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-011",
+      "title": "Apple OCR",
+      "url": "https://developer.apple.com/documentation/vision/recognizing-text-in-images",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Apple",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Indexed Apple documentation describes on-device Vision text recognition and fast/accurate paths."
+      ],
+      "evidenceStrength": {
+        "classification": "Indexed publisher documentation with incomplete live retrieval",
+        "assessment": "Limited primary evidence: indexed official text only; live content retrieval incomplete."
+      },
+      "limitations": [
+        "Live page required JavaScript and its Markdown retrieval failed; only indexed first-party content was available. Native SDK details and behavior remain untested."
+      ],
+      "howUsed": [
+        "Supports Apple Vision as an iOS OCR candidate."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md",
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Indexed first-party content read; live page required JavaScript and Markdown fetch failed",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-012",
+      "title": "Tesseract.js",
+      "url": "https://github.com/naptha/tesseract.js",
+      "retrievedOn": "2026-10-26",
+      "publisher": "naptha/tesseract.js project",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Tesseract.js provides OCR in Node and browsers; repository declares Apache-2.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No Tesseract gear-label evaluation was performed; language-data licences and real sewn-label readability require separate checks."
+      ],
+      "howUsed": [
+        "Identifies a future no-key OCR comparator."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-013",
+      "title": "Grounding DINO",
+      "url": "https://github.com/IDEA-Research/GroundingDINO",
+      "retrievedOn": "2026-10-26",
+      "publisher": "IDEA-Research",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Grounding DINO supports open-set object detection; repository declares Apache-2.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Research-author repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Published research capability does not prove value on this corpus; exact checkpoints/conversions need their own licence and runtime validation."
+      ],
+      "howUsed": [
+        "Evaluates object localization as a deferred option for crowded photos."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-014",
+      "title": "SAM 2",
+      "url": "https://github.com/facebookresearch/sam2",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Meta FAIR / facebookresearch",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "SAM 2 provides image/video segmentation checkpoints; repository includes Apache-2.0 and BSD-3-Clause components."
+      ],
+      "evidenceStrength": {
+        "classification": "Research-author repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Segmentation masks do not establish gear category or damage; repository benchmark FPS is not local or phone performance."
+      ],
+      "howUsed": [
+        "Evaluates background/garment masking as a deferred option."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-015",
+      "title": "CLIP licence",
+      "url": "https://github.com/openai/CLIP/blob/main/LICENSE",
+      "retrievedOn": "2026-10-26",
+      "publisher": "OpenAI",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "The original CLIP repository publishes an MIT licence."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher licence text",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "This source does not independently establish the licence of every third-party conversion or confer rights in depicted brands."
+      ],
+      "howUsed": [
+        "Records upstream licence provenance."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md",
+        "docs/07-computer-vision-research/model-provenance.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-016",
+      "title": "YOLO licence",
+      "url": "https://github.com/ultralytics/ultralytics/blob/main/LICENSE",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Ultralytics",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "The inspected Ultralytics repository licence is AGPL-3.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher licence text",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Exact deployment, checkpoint and commercial-licence obligations were not independently cleared; this model path was not selected."
+      ],
+      "howUsed": [
+        "Prevents treating this YOLO distribution as a silent permissive substitute."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-017",
+      "title": "ML Kit terms",
+      "url": "https://developers.google.com/ml-kit/terms",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": "2025-05-14",
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "Fetched ML Kit Terms & Privacy page explicitly states Last modified: May 14, 2025.",
+      "relevantClaims": [
+        "ML Kit processes input data and outputs on-device while permitting update and performance/utilization metric traffic."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher terms and privacy documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "On-device image processing does not mean no network traffic; no app-specific SDK configuration was validated."
+      ],
+      "howUsed": [
+        "Defines the privacy boundary for a future native OCR adapter."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-018",
+      "title": "OpenAI data controls",
+      "url": "https://developers.openai.com/api/docs/guides/your-data",
+      "retrievedOn": "2026-10-26",
+      "publisher": "OpenAI",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "API training defaults, abuse-monitoring retention, Responses application state and image-related exceptions are distinct controls."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher data-control documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Account-specific agreements and controls were not verified; terms can change and exceptions apply."
+      ],
+      "howUsed": [
+        "Supports store:false guidance and avoids equating it with guaranteed zero retention."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-019",
+      "title": "Terms",
+      "url": "https://ai.google.dev/gemini-api/terms",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": "2026-03-23",
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "Fetched terms explicitly state Effective March 23, 2026. Publication and revision dates were not separately established.",
+      "relevantClaims": [
+        "Gemini paid and unpaid services have different data-use conditions and usage restrictions."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher service terms",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Published terms are not confirmation of this account configuration or a legal-compliance determination."
+      ],
+      "howUsed": [
+        "Supports selecting an explicitly configured paid route before transmitting private user photographs."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-020",
+      "title": "abuse monitoring",
+      "url": "https://ai.google.dev/gemini-api/docs/usage-policies",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Retrieved Gemini API abuse-monitoring documentation specifies a 55-day retention period for submitted prompt/context/output data."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher abuse-monitoring policy",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "This is the published general policy; account-specific enterprise arrangements and future policy changes require verification."
+      ],
+      "howUsed": [
+        "Records the provider-retention risk in the architecture comparison."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-021",
+      "title": "ZDR",
+      "url": "https://ai.google.dev/gemini-api/docs/zdr",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Gemini retention depends on feature choices; the document directs guaranteed zero-retention/enterprise requirements to the stated enterprise route."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher data-retention documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No enterprise agreement, data-region selection or zero-retention configuration was verified."
+      ],
+      "howUsed": [
+        "Avoids promising zero retention from a generic Gemini Developer API request."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-022",
+      "title": "Commercial retention",
+      "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Anthropic",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": "2026-07-01",
+      "assetRevisionDate": null,
+      "dateEvidence": "Fetched article displays July 1, 2026; whether this denotes publication or revision was not identified.",
+      "relevantClaims": [
+        "Standard API inputs/outputs are normally deleted within 30 days, subject to service, agreement, policy-enforcement and legal exceptions."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher commercial privacy policy",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "The policy is not an account-specific retention guarantee; its displayed article date does not identify whether it is first publication or revision."
+      ],
+      "howUsed": [
+        "Records the commercial API retention baseline."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-023",
+      "title": "API controls",
+      "url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Anthropic",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Zero-retention eligibility depends on model and feature; structured-schema caching is distinct from message-content handling."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher API data-control documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No eligible agreement or workspace setting was verified; partner-operated platforms can have different processors and rules."
+      ],
+      "howUsed": [
+        "Constrains privacy claims for optional Claude adapters."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-024",
+      "title": "OpenAI structured outputs",
+      "url": "https://developers.openai.com/api/docs/guides/structured-outputs",
+      "retrievedOn": "2026-10-26",
+      "publisher": "OpenAI",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Responses structured output uses a JSON Schema format with strict-mode controls; refusals and incomplete output require handling."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher API documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Schema compliance is not factual correctness or protective-condition evidence; supported schema subsets and API behavior can change."
+      ],
+      "howUsed": [
+        "Maps the optional OpenAI adapter to a validated observation contract."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-025",
+      "title": "Gemini structured output",
+      "url": "https://ai.google.dev/gemini-api/docs/structured-output",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Retrieved Gemini Interactions examples use response_format with text/application-json/schema fields and support a JSON Schema subset."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher API documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No Gemini request was executed; SDK/API version compatibility and semantic validation remain implementation requirements."
+      ],
+      "howUsed": [
+        "Documents the current structured-output route and avoids mixing older generateContent field names into it."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-026",
+      "title": "Claude structured outputs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Anthropic",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Claude Messages structured outputs use output_config.format with JSON Schema; documented supported models include Haiku 5.5."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher API documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No Claude adapter or paid request was tested; constrained JSON still needs semantic checks and failure handling."
+      ],
+      "howUsed": [
+        "Documents an optional Claude output-schema mechanism."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-027",
+      "title": "Customised Lewis Leathers Rockers.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Customised_Lewis_Leathers_Rockers.JPG",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons",
+      "author": "Timken Bearing",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Describes a customised Lewis Leathers motorcycle jacket and offers CC BY-SA 3.0 reuse."
+      ],
+      "evidenceStrength": {
+        "classification": "Uploader asset description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "Uploader metadata is not condition ground truth; the displayed 1899 creation date is not reliable publication evidence."
+      ],
+      "howUsed": [
+        "Supplies a licensed jacket-category smoke fixture.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "1156439380"
+    },
+    {
+      "id": "TECH-028",
+      "title": "Herobiker motocross jacket DSCF2203.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Herobiker_motocross_jacket_DSCF2203.jpg",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons / Science History Institute",
+      "author": "Mary Mark Ockerbloom; attribution to Science History Institute",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": "2017-05-06",
+      "dateEvidence": "Fetched Commons file history identifies the current image upload on 6 May 2017. This is an asset revision date, not a verified page publication date.",
+      "relevantClaims": [
+        "Describes a Herobiker motocross armour jacket on a mannequin; specifies attribution to Science History Institute and CC BY-SA 3.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Asset-provider description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "Its broad jacket label needs organizer/expert taxonomy confirmation; no protective performance or condition is established."
+      ],
+      "howUsed": [
+        "Supplies a contrasting garment/background fixture.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "1120047126"
+    },
+    {
+      "id": "TECH-029",
+      "title": "Dainese racing gloves.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dainese_racing_gloves.jpg",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons",
+      "author": "lmnop88a (EXIF attribution D Lee)",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": "2010-07-04",
+      "dateEvidence": "Fetched Commons history identifies the current glove image upload on 4 July 2010.",
+      "relevantClaims": [
+        "Describes Dainese racing gloves and offers CC BY 2.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Uploader asset description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "Same glove pair as TECH-030; cannot count the views as independent items, and condition is unknown."
+      ],
+      "howUsed": [
+        "Supplies the glove-back category fixture and attribution.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "1117821605"
+    },
+    {
+      "id": "TECH-030",
+      "title": "Dainese racing glove palms.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dainese_racing_glove_palms.jpg",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons",
+      "author": "lmnop88a (EXIF attribution D Lee)",
+      "publicationDate": null,
+      "revisionDate": "2025-11-18",
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": "2010-07-04",
+      "dateEvidence": "Fetched file history lists current image upload on 4 July 2010; page footer states last edited 18 November 2025.",
+      "relevantClaims": [
+        "Describes the palms of Dainese racing gloves and offers CC BY 2.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Uploader asset description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "No independent item or condition label; source licensing does not imply endorsement or authenticity verification."
+      ],
+      "howUsed": [
+        "Supplies an alternate glove view grouped with TECH-029.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "1117821622"
+    },
+    {
+      "id": "TECH-031",
+      "title": "Motorcycle racing boot.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:Motorcycle_racing_boot.jpeg",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons",
+      "author": "Caederus",
+      "publicationDate": null,
+      "revisionDate": "2026-10-11",
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": "2009-04-25",
+      "dateEvidence": "Fetched file history lists current image upload on 25 April 2009; page footer states last edited 11 October 2026.",
+      "relevantClaims": [
+        "Describes a motorcycle racing boot; CC BY-SA 3.0 is one selectable licence."
+      ],
+      "evidenceStrength": {
+        "classification": "Uploader asset description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "Description is a category reference only, not an inspection or protective rating."
+      ],
+      "howUsed": [
+        "Supplies a licensed boot-category fixture.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "1285880535"
+    },
+    {
+      "id": "TECH-032",
+      "title": "MotoEqipments HelmetBootsJacketAndGloves.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:MotoEqipments_HelmetBootsJacketAndGloves.jpg",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons",
+      "author": "????",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": "2020-10-02",
+      "dateEvidence": "Fetched file history lists current image upload at 19:32 on 2 October 2020; capture-description date differs and is not treated as publication.",
+      "relevantClaims": [
+        "Source photograph contains helmet, boots, jacket and gloves and is offered under CC BY-SA 4.0."
+      ],
+      "evidenceStrength": {
+        "classification": "Uploader asset description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "One curated scene is not representative multi-object validation; condition and provenance of the depicted gear remain unknown."
+      ],
+      "howUsed": [
+        "Supplies the multiple-item scene and abstention challenge.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "857465574"
+    },
+    {
+      "id": "TECH-033",
+      "title": "CrashedMotorcyclingRacingShoulderPanel.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CrashedMotorcyclingRacingShoulderPanel.jpg",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons",
+      "author": "Thermos",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": "2007-12-23",
+      "dateEvidence": "Fetched Commons history identifies the current image upload on 23 December 2007.",
+      "relevantClaims": [
+        "Uploader caption reports racing-leather shoulder damage after a track crash; CC BY-SA 4.0 is selectable."
+      ],
+      "evidenceStrength": {
+        "classification": "Uploader asset description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "Crash history is an uploader assertion, not independently verified physical evidence or a model-detected fact; it cannot label general damage-detection accuracy."
+      ],
+      "howUsed": [
+        "Supplies the partial-view stress image and separately attributed crash-history scenario.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "1189122668"
+    },
+    {
+      "id": "TECH-034",
+      "title": "Cordura - Ticket.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Cordura_-_Ticket.JPG",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Wikimedia Commons",
+      "author": "MAx 92; contrast edit by A7N8X",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": "2013-08-21",
+      "dateEvidence": "Fetched Commons history identifies the current contrast-edited image upload on 21 August 2013, following the earlier 2011 version.",
+      "relevantClaims": [
+        "Describes a backpack Cordura material label and permits CC BY 3.0 reuse."
+      ],
+      "evidenceStrength": {
+        "classification": "Uploader asset description and licence record",
+        "assessment": "Primary evidence for the supplied asset description and stated reuse licence; weak category/history labels, not expert condition verification."
+      },
+      "limitations": [
+        "Not garment certification. The uploader original was rate-limited; the manifest identifies the downloaded Commons thumbnail and does not claim original-file verification."
+      ],
+      "howUsed": [
+        "Supplies a label/OCR and negative-domain control.",
+        "Source file revision, licence evidence, transformations and image hashes are retained in assets/fixtures/manifest.json."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/options-and-evaluation.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository",
+      "sourceRevisionIdentifier": "1166669033"
+    },
+    {
+      "id": "TECH-035",
+      "title": "Expo creation guidance",
+      "url": "https://docs.expo.dev/get-started/create-a-project/",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Expo",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "During the retrieved SDK 58 transition, the setup page recommends SDK 57 for physical-device Expo Go."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher setup documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Transition guidance is time-sensitive and does not prove device compatibility or native execution in this environment."
+      ],
+      "howUsed": [
+        "Supports the initial SDK 57 preparation pin."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-036",
+      "title": "SDK compatibility",
+      "url": "https://docs.expo.dev/versions/latest/",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Expo",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "The retrieved version table pairs SDK 57 with React Native 0.86 and React 19.2.3, and SDK 58 with React Native 0.88."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher compatibility reference",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Major/minor compatibility is not proof of correct installed patch versions; lockfile resolution and actual builds are separate evidence."
+      ],
+      "howUsed": [
+        "Supports maintaining one compatible mobile dependency set."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-037",
+      "title": "SDK 57 camera",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/camera/",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Expo",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "SDK 57 camera documentation lists Android/iOS capture support, Expo Go inclusion and recommended package ~57.0.6."
+      ],
+      "evidenceStrength": {
+        "classification": "Versioned publisher SDK documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Documentation does not establish physical-device permission handling, focus behavior or capture quality."
+      ],
+      "howUsed": [
+        "Supports the camera package and capture/lifecycle plan."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-038",
+      "title": "React Native accessibility",
+      "url": "https://reactnative.dev/docs/accessibility",
+      "retrievedOn": "2026-10-26",
+      "publisher": "React Native project / Meta",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "React Native exposes Android/iOS accessibility properties and notes platform differences."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher accessibility documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "API availability does not establish accessibility conformance or actual assistive-technology behavior."
+      ],
+      "howUsed": [
+        "Supports accessible controls and separate VoiceOver/TalkBack verification."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-039",
+      "title": "Expo development builds",
+      "url": "https://docs.expo.dev/develop/development-builds/introduction/",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Expo",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Development builds support native libraries beyond Expo Go; build options include local tooling and hosted EAS."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher development-build documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No account, signing setup, build credit or installed native build was established by this source."
+      ],
+      "howUsed": [
+        "Defines the extension path for future native OCR."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-040",
+      "title": "Flutter platforms",
+      "url": "https://docs.flutter.dev/reference/supported-platforms",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Flutter / Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Retrieved Flutter 3.47 platform documentation lists supported Android and iOS deployment combinations."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher platform-support documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Supported platforms do not prove this computer has the required SDKs or that a Flutter app was built/tested."
+      ],
+      "howUsed": [
+        "Establishes Flutter as a viable cross-platform alternative."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-041",
+      "title": "Flutter camera",
+      "url": "https://pub.dev/packages/camera",
+      "retrievedOn": "2026-10-26",
+      "publisher": "flutter.dev publisher on pub.dev",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Camera package 0.12.1 supports preview, capture and image streams; application lifecycle and permission errors require handling."
+      ],
+      "evidenceStrength": {
+        "classification": "First-party package documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No Flutter camera implementation was tested. Relative publication-age text was not converted into an invented exact date."
+      ],
+      "howUsed": [
+        "Supports the Flutter comparison and its capture-engineering burden."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-042",
+      "title": "Flutter platform channels",
+      "url": "https://docs.flutter.dev/platform-integration/platform-channels",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Flutter / Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Flutter platform channels and Pigeon connect Dart with platform-specific code such as Kotlin and Swift."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher platform-integration documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Integration availability does not quantify effort, latency or maintenance cost for this project."
+      ],
+      "howUsed": [
+        "Supports the alternative native-CV integration architecture."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-043",
+      "title": "Android CameraX",
+      "url": "https://developer.android.com/media/camera/camerax",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google Android Developers",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "CameraX offers Android camera APIs with compatibility extending to Android API 21."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher platform documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "The API-level capability is not this app minimum SDK or proof of device-specific behavior."
+      ],
+      "howUsed": [
+        "Supports the direct Kotlin/native camera alternative."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-044",
+      "title": "EAS Build",
+      "url": "https://docs.expo.dev/build/introduction/",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Expo",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "EAS Build produces iOS/Android application binaries through hosted build infrastructure."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher hosted-build documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Account permissions, costs, signing credentials and successful installed builds were not verified by reading the page."
+      ],
+      "howUsed": [
+        "Documents a potential build route from Windows."
+      ],
+      "usedIn": [
+        "docs/08-architecture/mobile-stack-decision.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-045",
+      "title": "OpenAI pricing",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrievedOn": "2026-10-26",
+      "publisher": "OpenAI",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Retrieved standard token rates include GPT-6 Luna at USD 0.10/0.50 and GPT-6.1 Sol at USD 2/10 per million input/output tokens in the documented short-context tier."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher price list",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Rates are time-sensitive; no bill, actual image usage, account eligibility or task-quality advantage was measured."
+      ],
+      "howUsed": [
+        "Supplies explicit rate inputs to estimated cost scenarios."
+      ],
+      "usedIn": [
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-046",
+      "title": "Claude Haiku overview",
+      "url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Anthropic",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Retrieved Haiku 5.5 rates are USD 0.10/M input and 0.50/M output up to 100K prompt tokens; the page also lists Sonnet 5.5 at USD 2/10."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher model specification and pricing",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Long-context, reasoning and caching conditions differ; no account or real gear usage was tested."
+      ],
+      "howUsed": [
+        "Supplies model IDs and normalized cost-rate alternatives."
+      ],
+      "usedIn": [
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-047",
+      "title": "Gemini pricing",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Retrieved Gemini 3.1 Flash-Lite rates are USD 0.25/1.50 and 3.5 Flash-Lite USD 0.30/2.50 per million input/output tokens for the documented standard tiers."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher price list",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Equal token-budget scenarios do not mean the same images tokenize equally; rates and available models can change."
+      ],
+      "howUsed": [
+        "Supplies comparative rate scenarios and the paid/free data-use distinction."
+      ],
+      "usedIn": [
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-048",
+      "title": "OpenAI image-cost calculator",
+      "url": "https://developers.openai.com/api/docs/guides/image-cost-calculator",
+      "retrievedOn": "2026-10-26",
+      "publisher": "OpenAI",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Image cost depends on model, dimensions and detail; the calculator excludes other prompt tokens, output and some pricing adjustments."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher cost-estimation tool documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Calculator output is an estimate, not billed usage or complete assessment cost."
+      ],
+      "howUsed": [
+        "Prevents fixed per-photo token assumptions and qualifies cost estimates."
+      ],
+      "usedIn": [
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-049",
+      "title": "Gemini image inputs",
+      "url": "https://ai.google.dev/gemini-api/docs/image-understanding",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Gemini accepts image inputs through documented inline, URL and file-based mechanisms."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher image-input documentation",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "No request was made; capability documentation does not establish gear-task accuracy or retention of every feature."
+      ],
+      "howUsed": [
+        "Supports photo-transfer architecture and explains why actual image usage must be measured."
+      ],
+      "usedIn": [
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-050",
+      "title": "CLIP ONNX files",
+      "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/tree/main/onnx",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Xenova model repository on Hugging Face",
+      "author": "Xenova",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "The fetched listing includes a roughly 154 MB combined quantized CLIP graph and separate quantized text/vision graphs."
+      ],
+      "evidenceStrength": {
+        "classification": "Model-converter file listing",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Displayed sizes are approximate and main is mutable; they are not runtime RAM measurements. Actual pinned-file hashes and sizes are in the benchmark."
+      ],
+      "howUsed": [
+        "Estimates initial download/storage scale and avoids downloading the whole repository."
+      ],
+      "usedIn": [
+        "docs/13-performance-and-cost/cost-model-research.md"
+      ],
+      "retrievalStatus": "Source page opened and relevant content read",
+      "sourceType": "primary documentation or first-party repository"
+    },
+    {
+      "id": "TECH-051",
+      "title": "CLIP conversion",
+      "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/tree/d15189d7028b43f1d3e65039190477f6af591c2a",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Xenova model repository on Hugging Face",
+      "author": "Xenova",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Revision d15189d7028b43f1d3e65039190477f6af591c2a identifies the CLIP files used in actual local execution."
+      ],
+      "evidenceStrength": {
+        "classification": "Pinned model-converter artifact repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "A commit and file hashes establish identity, not accuracy or independent licence clearance for the conversion."
+      ],
+      "howUsed": [
+        "Pins the model/tokenizer/processor provenance."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/model-provenance.md"
+      ],
+      "retrievalStatus": "Model repository/API metadata and pinned files verified during actual local execution",
+      "sourceType": "model publisher repository",
+      "sourceRevisionIdentifier": "d15189d7028b43f1d3e65039190477f6af591c2a"
+    },
+    {
+      "id": "TECH-052",
+      "title": "SigLIP conversion",
+      "url": "https://huggingface.co/onnx-community/siglip-base-patch16-224-ONNX/tree/9f0328bdd0eb4f62d0f6c10625f43d882b32102b",
+      "retrievedOn": "2026-10-26",
+      "publisher": "ONNX Community on Hugging Face",
+      "author": "onnx-community",
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Revision 9f0328bdd0eb4f62d0f6c10625f43d882b32102b identifies the SigLIP ONNX graph/config used locally."
+      ],
+      "evidenceStrength": {
+        "classification": "Pinned model-converter artifact repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Conversion identity and successful loading do not establish condition recognition or broad quality superiority."
+      ],
+      "howUsed": [
+        "Pins the second model and records its missing-tokenizer integration requirement."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/model-provenance.md"
+      ],
+      "retrievalStatus": "Model repository/API metadata and pinned files verified during actual local execution",
+      "sourceType": "model publisher repository",
+      "sourceRevisionIdentifier": "9f0328bdd0eb4f62d0f6c10625f43d882b32102b"
+    },
+    {
+      "id": "TECH-053",
+      "title": "SigLIP tokenizer",
+      "url": "https://huggingface.co/google/siglip-base-patch16-224/tree/7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google model account on Hugging Face",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "Revision 7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed provides the original SigLIP tokenizer used with the ONNX conversion."
+      ],
+      "evidenceStrength": {
+        "classification": "Pinned publisher model/tokenizer repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Tokenizer provenance does not establish numerical parity with every alternative conversion; no model training was performed."
+      ],
+      "howUsed": [
+        "Reproduces the explicit tokenizer dependency needed by the local adapter."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/model-provenance.md"
+      ],
+      "retrievalStatus": "Model repository/API metadata and pinned files verified during actual local execution",
+      "sourceType": "model publisher repository",
+      "sourceRevisionIdentifier": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed"
+    },
+    {
+      "id": "TECH-054",
+      "title": "Google SigLIP",
+      "url": "https://huggingface.co/google/siglip-base-patch16-224",
+      "retrievedOn": "2026-10-26",
+      "publisher": "Google model account on Hugging Face",
+      "author": null,
+      "publicationDate": null,
+      "revisionDate": null,
+      "effectiveDate": null,
+      "displayedDate": null,
+      "assetRevisionDate": null,
+      "dateEvidence": "No exact publication or revision date was established from the previously retrieved source; retrieval date is recorded separately.",
+      "relevantClaims": [
+        "The original SigLIP base model metadata identifies Apache-2.0 and zero-shot image-text use."
+      ],
+      "evidenceStrength": {
+        "classification": "Publisher model repository",
+        "assessment": "Primary evidence for the publisher-authored capability, API, price, licence or artifact identity stated here; not independent task-performance validation."
+      },
+      "limitations": [
+        "Publisher/model-card claims are not independent performance evidence on this gear corpus."
+      ],
+      "howUsed": [
+        "Records upstream model/tokenizer licence provenance."
+      ],
+      "usedIn": [
+        "docs/07-computer-vision-research/model-provenance.md"
+      ],
+      "retrievalStatus": "Model repository/API metadata and pinned files verified during actual local execution",
+      "sourceType": "model publisher repository"
+    }
+  ],
+  "researchDate": "2026-10-26",
+  "note": "Sources support documented capabilities, prices, licences and constraints. Recommendations and weighted scores are explicitly engineering judgments. No hosted inference measurements.",
+  "metadataCompletionNote": "Enriched from previously fetched research and existing local records on 2026-10-26; no expanded research. Null dates mean unknown. Effective, displayed article and asset-revision dates are kept distinct from publication/page-revision dates."
+}

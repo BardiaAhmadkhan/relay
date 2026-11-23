@@ -1,0 +1,3 @@
+plugins { id 'com.android.application' }
+android { namespace 'ca.relay.encoderbench'; compileSdk 36; defaultConfig { applicationId 'ca.relay.encoderbench'; minSdk 24; targetSdk 36; versionCode 1; versionName '1'; ndk { abiFilters 'x86_64', 'arm64-v8a' } } }
+dependencies { implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.23.2' }

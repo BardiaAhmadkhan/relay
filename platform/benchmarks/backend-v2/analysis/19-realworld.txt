@@ -1,0 +1,220 @@
+E19 real-world test: v3.1 engine (qwen3.5:4b, plan, cascade on close-ups, 1600 px working size)
+labels: datasets/realworld-v3/labels.json
+records: benchmarks/backend-v2/realworld--v3.jsonl
+cases 385, scored 385, service errors 0, not yet scored 0
+held out 363 (Counter({'commons': 273, 'openverse': 90})), seen in calibration 22
+
+Key numbers, blind labels (held out)
+------------------------------------
+damaged photographs: block 10/11 (91%), review 1/11 (9%), cleared 0/11 (0%)
+clean item   : damage clear 36/52 (69%), review 13/52 (25%), block 3/52 (6%)
+clean detail : damage clear 9/11 (82%), review 2/11 (18%), block 0/11 (0%)
+scenes: retake 211/213 (99%), review 1/213 (0%), no offer 1/213 (0%), offer 0/213 (0%)
+worn: retake 51/56 (91%), review 2/56 (4%), offer 2/56 (4%), no_offer 1/56 (2%)
+offers: 18; on a photograph not labelled clean, or of a scene or several items: none
+
+Key numbers after the full-size audit (2 labels changed, audit.txt)
+-------------------------------------------------------------------
+damaged photographs: block 11/12 (92%), review 1/12 (8%), cleared 0/12 (0%)
+clean item   : damage clear 36/50 (72%), review 12/50 (24%), block 2/50 (4%)
+clean detail : damage clear 9/11 (82%), review 2/11 (18%), block 0/11 (0%)
+scenes: retake 211/213 (99%), review 1/213 (0%), no offer 1/213 (0%), offer 0/213 (0%)
+worn: retake 51/56 (91%), review 2/56 (4%), offer 2/56 (4%), no_offer 1/56 (2%)
+offers: 18; on a photograph not labelled clean, or of a scene or several items: none
+
+Time and input tokens per photograph (held out)
+-----------------------------------------------
+view        n  median ms   p90 ms  median tokens  median questions
+front     312       3904     5800           6105                 8
+back       34       4108     6388           6649                 8
+detail     16       1630     2780           2012                 8
+label       1       1662     1662           2583                 2
+all held out: median 3896 ms, total 1434 s for 363 photographs
+
+Damage band against the label (held out; labels excluded)
+---------------------------------------------------------
+framing        condition     n         clear       review        block
+item           clean        52   36/52 (69%)  13/52 (25%)    3/52 (6%)
+item           damaged       6      0/6 (0%)     0/6 (0%)   6/6 (100%)
+item           ambiguous    10    1/10 (10%)   6/10 (60%)   3/10 (30%)
+several_items  clean         8     3/8 (38%)    4/8 (50%)    1/8 (12%)
+several_items  ambiguous     1      0/1 (0%)   1/1 (100%)     0/1 (0%)
+worn           clean        55   48/55 (87%)   7/55 (13%)    0/55 (0%)
+worn           damaged       1      0/1 (0%)     0/1 (0%)   1/1 (100%)
+scene          clean       213  180/213 (85%) 32/213 (15%)   1/213 (0%)
+detail         clean        11    9/11 (82%)   2/11 (18%)    0/11 (0%)
+detail         damaged       4      0/4 (0%)    1/4 (25%)    3/4 (75%)
+detail         ambiguous     1      0/1 (0%)   1/1 (100%)     0/1 (0%)
+
+One-photograph outcome with a clean reported history (held out)
+---------------------------------------------------------------
+framing        condition     n  outcomes (reason codes)
+item           clean        52  retake 20, review 18, offer 11, no_offer 3   [category_review_only 14, history_clear 11, multiple_items 10, possible_road_contact 5, possible_broken 3, not_recognised_as_gear 3]
+item           damaged       6  no_offer 6   [visible_road_contact 5, visible_broken_protective_area 1]
+item           ambiguous    10  retake 6, no_offer 3, review 1   [multiple_items 3, visible_road_contact 2, possible_broken 1, possible_road_contact 1, category_review_only 1, visible_broken_protective_area 1]
+several_items  clean         8  retake 7, no_offer 1   [multiple_items 7, visible_road_contact 1]
+several_items  ambiguous     1  retake 1   [multiple_items 1]
+worn           clean        55  retake 51, review 2, offer 2   [multiple_items 46, photo_unusable 3, possible_broken 2, history_clear 2, not_recognised_as_gear 1, category_review_only 1]
+worn           damaged       1  no_offer 1   [visible_road_contact 1]
+scene          clean       213  retake 211, review 1, no_offer 1   [multiple_items 205, photo_unusable 6, category_review_only 1, visible_broken_protective_area 1]
+detail         clean        11  review 5, offer 5, retake 1   [history_clear 5, category_unclear 2, possible_broken 2, category_review_only 1, photo_unusable 1]
+detail         damaged       4  no_offer 3, review 1   [visible_broken_protective_area 2, visible_road_contact 1, possible_road_contact 1]
+detail         ambiguous     1  review 1   [possible_broken 1]
+label          clean         1  review 1   [category_unclear 1]
+
+Category answer against the labelled subject (held out; item, worn and detail framings)
+---------------------------------------------------------------------------------------
+armour      5/5 (100%)   armour 5
+boots      17/18 (94%)   boots 17, trousers 1
+gloves      9/9 (100%)   gloves 9
+helmet    26/26 (100%)   helmet 26
+jacket     12/13 (92%)   jacket 12, other 1
+suit       23/28 (82%)   suit 23, jacket 3, none 1, armour 1
+trousers      0/1 (0%)   suit 1
+overall 92/100 (92%)
+
+Gates on front and back photographs (held out): share below 0.5
+---------------------------------------------------------------
+framing           n     gear < 0.5  single_item < 0.5
+item             68      4/59 (7%)        13/59 (22%)
+several_items     9       0/8 (0%)         8/8 (100%)
+worn             56    14/55 (25%)        49/55 (89%)
+scene           213   64/213 (30%)     212/213 (100%)
+by subject, item framing only:
+  armour    n=  3 gear<0.5 0/3 (0%)
+  boots     n= 11 gear<0.5 1/9 (11%)
+  garment   n= 12 gear<0.5 0/7 (0%)
+  gloves    n=  6 gear<0.5 0/6 (0%)
+  helmet    n= 24 gear<0.5 1/24 (4%)
+  jacket    n=  5 gear<0.5 2/5 (40%)
+  other     n=  1 gear<0.5 0/1 (0%)
+  suit      n=  6 gear<0.5 0/4 (0%)
+
+The "one item" gate: share of front and back photographs that pass (single_item >= t), held out
+-----------------------------------------------------------------------------------------------
+The shipped threshold, 0.5, was never fitted (a placeholder in scripts/v2-calibrate.ts). A photograph
+of one item on its own should pass; scenes and several items should not; worn is off-instruction.
+    t             item    several_items             worn            scene
+ 0.20      55/59 (93%)        1/8 (12%)      24/55 (44%)    110/213 (52%)
+ 0.25      55/59 (93%)        1/8 (12%)      19/55 (35%)     93/213 (44%)
+ 0.30      53/59 (90%)        1/8 (12%)      13/55 (24%)     75/213 (35%)
+ 0.35      52/59 (88%)         0/8 (0%)      13/55 (24%)     41/213 (19%)
+ 0.40      50/59 (85%)         0/8 (0%)      10/55 (18%)      12/213 (6%)
+ 0.45      48/59 (81%)         0/8 (0%)       7/55 (13%)       3/213 (1%)
+ 0.50      46/59 (78%)         0/8 (0%)       6/55 (11%)       1/213 (0%)
+ 0.55      38/59 (64%)         0/8 (0%)        5/55 (9%)       1/213 (0%)
+AUC, one item against scenes and several items: 0.933 (59 against 221)
+
+Retake hints (feedback codes) by framing (held out)
+---------------------------------------------------
+item           n= 68 no hint  49/68 (72%)  several_items 13, not_gear 4, out_of_focus 2, too_small 1
+several_items  n=  9 no hint    1/9 (11%)  several_items 8
+worn           n= 56 no hint   6/56 (11%)  several_items 49, not_gear 14, too_small 2, unclear 1
+scene          n=213 no hint   1/213 (0%)  several_items 212, not_gear 64, unclear 6
+detail         n= 16 no hint  15/16 (94%)  unclear 1
+label          n=  1 no hint   1/1 (100%)  
+
+Label photographs
+-----------------
+cm-084 label_legible 0.5922691263638217 outcome review ['category_unclear'] []
+
+Control: photographs seen in calibration (damage band)
+------------------------------------------------------
+framing        condition     n         clear       review        block
+item           clean        13    7/13 (54%)   5/13 (38%)    1/13 (8%)
+item           damaged       1      0/1 (0%)     0/1 (0%)   1/1 (100%)
+item           ambiguous     1      0/1 (0%)     0/1 (0%)   1/1 (100%)
+several_items  clean         2    2/2 (100%)     0/2 (0%)     0/2 (0%)
+worn           clean         2      0/2 (0%)   2/2 (100%)     0/2 (0%)
+scene          clean         1    1/1 (100%)     0/1 (0%)     0/1 (0%)
+detail         clean         2     1/2 (50%)    1/2 (50%)     0/2 (0%)
+
+Control: photographs seen in calibration (outcome)
+--------------------------------------------------
+framing        condition     n  outcomes (reason codes)
+item           clean        13  retake 7, offer 5, no_offer 1   [history_clear 5, multiple_items 4, possible_road_contact 3, visible_road_contact 1]
+item           damaged       1  no_offer 1   [visible_road_contact 1]
+item           ambiguous     1  no_offer 1   [visible_broken_protective_area 1]
+several_items  clean         2  offer 1, retake 1   [history_clear 1, multiple_items 1]
+worn           clean         2  retake 2   [multiple_items 1, possible_broken 1]
+scene          clean         1  retake 1   [multiple_items 1]
+detail         clean         2  review 2   [category_unclear 1, possible_broken 1]
+
+To audit at full size (held out)
+--------------------------------
+cm-003   clean     suit     worn          front  band review road 0.1576 broken 0.0963 repair 0.0286 -> retake ['multiple_items'] | clean but damage review | 
+cm-007   clean     jacket   detail        detail band clear  road 0.0209 broken 0.0468 repair 0.0397 -> review ['category_unclear'] | category other for jacket | Cordura tag close-up
+cm-008   damaged   suit     detail        detail band block  road 0.7102 broken None repair None -> no_offer ['visible_road_contact'] | category None for suit | crashed race-suit shoulder slide panel: scraped, scorched (f
+cm-024   clean     suit     scene         front  band review road 0.1638 broken 0.0392 repair 0.0242 -> retake ['multiple_items'] | clean but damage review | 
+cm-029   clean     suit     scene         front  band review road 0.1619 broken 0.0579 repair 0.0298 -> retake ['multiple_items'] | clean but damage review | 
+cm-034   clean     armour   item          front  band clear  road 0.0524 broken 0.0597 repair 0.0138 -> retake ['multiple_items'] | single item called several | orange D3O protector
+cm-038   clean     gloves   worn          front  band review road 0.4366 broken 0.1802 repair 0.1041 -> retake ['possible_broken', 'possible_road_contact'] | clean but damage review | pink racing gloves on hands resting on a tank (full size)
+cm-060   clean     several  several_items front  band review road 0.3539 broken 0.1977 repair 0.081 -> retake ['multiple_items'] | clean but damage review | helmet with a jacket
+cm-063   clean     helmet   item          front  band review road 0.0596 broken 0.1949 repair 0.0892 -> retake ['multiple_items'] | clean but damage review; single item called several | helmet on a motorcycle seat
+cm-064   clean     helmet   item          front  band review road 0.394 broken 0.0711 repair 0.0473 -> retake ['possible_road_contact'] | clean but damage review | black helmet
+cm-069   clean     helmet   item          front  band block  road 0.5989 broken 0.8864 repair 0.8302 -> no_offer ['visible_broken_protective_area'] | clean but damage block | display helmet
+cm-077   clean     helmet   scene         front  band review road 0.2416 broken 0.3481 repair 0.4742 -> retake ['multiple_items'] | clean but damage review | helmets on shelves
+cm-090   clean     other    item          front  band review road 0.0963 broken 0.4741 repair 0.1112 -> retake ['possible_broken'] | clean but damage review | helmet visor on its own
+cm-091   clean     helmet   scene         front  band block  road 0.0181 broken 0.6608 repair 0.0394 -> no_offer ['visible_broken_protective_area'] | clean but damage block | people holding helmets, legs only
+cm-134   clean     several  scene         front  band review road 0.296 broken 0.158 repair 0.0624 -> retake ['multiple_items'] | clean but damage review | rider on a vintage motorcycle
+cm-160   clean     several  scene         front  band review road 0.2104 broken 0.2009 repair 0.2162 -> retake ['multiple_items'] | clean but damage review | rider on a velodrome
+cm-186   clean     jacket   detail        detail band review road 0.4883 broken 0.3632 repair 0.2828 -> review ['possible_broken', 'possible_road_contact'] | clean but damage review | aged leather sleeve with a numbered badge, creased, intact (
+cm-205   clean     several  several_items front  band review road 0.1485 broken 0.1854 repair 0.0902 -> retake ['multiple_items'] | clean but damage review | green jacket with luggage on a bed
+cm-238   clean     several  scene         front  band review road 0.2929 broken 0.0875 repair 0.0446 -> retake ['multiple_items'] | clean but damage review | racer
+cm-248   clean     several  scene         front  band review road 0.1644 broken 0.1062 repair 0.1154 -> retake ['multiple_items'] | clean but damage review | racer
+cm-255   clean     vest     worn          back   band review road 0.08 broken 0.2345 repair 0.1032 -> retake ['multiple_items'] | clean but damage review | person from behind in a patched vest, holding a flag
+cm-264   clean     jacket   item          front  band review road 0.1242 broken 0.1652 repair 0.0664 -> retake ['possible_broken'] | clean but damage review | Repsol leather jacket hanging on a rack
+cm-294   clean     several  scene         front  band review road 0.1559 broken 0.0405 repair 0.0313 -> retake ['multiple_items'] | clean but damage review | sidecar racers
+cm-300   clean     several  scene         front  band review road 0.3074 broken 0.1608 repair 0.0329 -> retake ['multiple_items'] | clean but damage review | podium
+cm-301   clean     several  scene         front  band review road 0.2151 broken 0.0312 repair 0.021 -> retake ['multiple_items'] | clean but damage review | racer cornering
+cm-303   clean     several  scene         front  band review road 0.4619 broken 0.3283 repair 0.1431 -> retake ['multiple_items'] | clean but damage review | racer, upper body on a motorcycle
+cm-307   clean     several  scene         front  band review road 0.1784 broken 0.0282 repair 0.0283 -> retake ['multiple_items'] | clean but damage review | racer
+cm-314   clean     several  scene         front  band review road 0.2258 broken 0.072 repair 0.01 -> retake ['multiple_items'] | clean but damage review | burnout
+cm-325   clean     several  scene         front  band review road 0.3632 broken 0.1629 repair 0.0207 -> retake ['multiple_items'] | clean but damage review | sidecar
+cm-328   clean     several  scene         front  band review road 0.1658 broken 0.143 repair 0.0805 -> retake ['multiple_items'] | clean but damage review | racer in leathers bent over a motorcycle
+cm-329   clean     several  scene         front  band review road 0.4793 broken 0.4151 repair 0.5677 -> retake ['multiple_items'] | clean but damage review | racer
+cm-333   clean     several  scene         front  band review road 0.4337 broken 0.0343 repair 0.0471 -> retake ['multiple_items'] | clean but damage review | racer
+cm-346   clean     suit     detail        detail band clear  road 0.0801 broken 0.1262 repair 0.0625 -> review ['category_review_only'] | category armour for suit | race suit knees, sliders intact (full size)
+cm-371   clean     several  scene         front  band review road 0.3973 broken 0.1443 repair 0.0573 -> retake ['multiple_items'] | clean but damage review | racer
+cm-372   clean     several  scene         front  band review road 0.2338 broken 0.1001 repair 0.0451 -> retake ['multiple_items'] | clean but damage review | racer
+cm-373   clean     several  scene         front  band review road 0.2496 broken 0.0355 repair 0.0201 -> retake ['multiple_items'] | clean but damage review | racer
+cm-392   clean     several  scene         front  band review road 0.3162 broken 0.0455 repair 0.0496 -> retake ['multiple_items'] | clean but damage review | racer
+cm-407   clean     several  scene         front  band review road 0.2453 broken 0.0698 repair 0.022 -> retake ['multiple_items'] | clean but damage review | sidecar racing
+cm-408   clean     several  scene         front  band review road 0.326 broken 0.1119 repair 0.0194 -> retake ['multiple_items'] | clean but damage review | sidecar racing
+cm-452   clean     vest     detail        detail band review road 0.2406 broken 0.6253 repair 0.2518 -> review ['possible_broken', 'possible_road_contact'] | clean but damage review | vest with patches, close
+cm-501   clean     boots    worn          front  band review road 0.2667 broken 0.0878 repair 0.04 -> retake ['multiple_items'] | clean but damage review | boot on a footpeg
+cm-521   clean     boots    worn          front  band review road 0.1587 broken 0.0612 repair 0.0607 -> retake ['photo_unusable'] | clean but damage review | tall leather boots worn, seated
+cm-525   clean     several  several_items front  band block  road 0.6604 broken None repair None -> no_offer ['visible_road_contact'] | clean but damage block | muddy motocross boots and a helmet, intact (full size)
+cm-527   clean     boots    item          front  band block  road 0.7329 broken None repair None -> no_offer ['visible_road_contact'] | clean but damage block | heavily used motocross boots in a display, scuffed, intact (
+cm-528   clean     boots    item          front  band review road 0.6056 broken 0.0519 repair 0.0588 -> retake ['possible_road_contact'] | clean but damage review | heavily used motocross boots in a display case, scuffed, int
+cm-529   clean     boots    item          front  band block  road 0.7299 broken None repair None -> no_offer ['visible_road_contact'] | clean but damage block | heavily used motocross boots in a display case, scuffed, int
+cm-530   clean     several  several_items front  band review road 0.251 broken 0.1741 repair 0.0544 -> retake ['multiple_items'] | clean but damage review | motocross kit on a mannequin in a display
+cm-531   clean     boots    worn          front  band review road 0.5331 broken 0.1799 repair 0.0727 -> retake ['possible_broken', 'possible_road_contact'] | clean but damage review | motocross boot on a footpeg
+ox-004   clean     several  scene         front  band review road 0.2474 broken 0.1143 repair 0.0726 -> retake ['multiple_items'] | clean but damage review | stunt rider wheelie at night
+ox-008   clean     several  scene         front  band review road 0.3462 broken 0.0998 repair 0.0317 -> retake ['multiple_items'] | clean but damage review | racer
+ox-013   ambiguous helmet   item          front  band review road 0.3487 broken 0.441 repair 0.3055 -> retake ['multiple_items'] | single item called several | red helmet with paint chipped all over, hung on a shop wall 
+ox-016   clean     several  worn          front  band review road 0.1667 broken 0.1538 repair 0.0955 -> retake ['multiple_items'] | clean but damage review | man in a leather jacket holding a helmet
+ox-017   clean     helmet   item          front  band review road 0.1525 broken 0.1282 repair 0.0883 -> retake ['possible_road_contact'] | clean but damage review | used open-face helmet, visor scratched, shell intact (full s
+ox-021   clean     helmet   item          front  band review road 0.3756 broken 0.1082 repair 0.1413 -> retake ['possible_road_contact'] | clean but damage review | used open-face helmet, dusty, visor scratched (full size)
+ox-027   clean     helmet   item          front  band review road 0.4486 broken 0.2367 repair 0.4578 -> retake ['photo_out_of_focus'] | clean but damage review | used full-face helmet, light scratches (full size)
+ox-036   clean     several  scene         front  band review road 0.214 broken 0.0252 repair 0.0336 -> retake ['multiple_items'] | clean but damage review | racer
+ox-043   clean     several  scene         back   band review road 0.155 broken 0.0334 repair 0.0268 -> retake ['multiple_items'] | clean but damage review | rider from behind on a motorcycle
+ox-047   clean     several  scene         front  band review road 0.1817 broken 0.0468 repair 0.0334 -> retake ['multiple_items'] | clean but damage review | two people in leathers walking
+ox-051   clean     several  scene         front  band review road 0.3089 broken 0.022 repair 0.0194 -> retake ['multiple_items'] | clean but damage review | racers
+ox-072   clean     several  scene         front  band review road 0.3616 broken 0.0386 repair 0.0321 -> retake ['multiple_items'] | clean but damage review | racers
+ox-079   clean     helmet   item          front  band clear  road 0.0419 broken 0.0659 repair 0.0125 -> retake ['multiple_items'] | single item called several | helmet hung on a motorcycle mirror
+ox-083   clean     boots    several_items front  band review road 0.3713 broken 0.0657 repair 0.02 -> retake ['multiple_items'] | clean but damage review | several pairs of boots along a wall
+ox-095   clean     several  scene         front  band review road 0.3365 broken 0.074 repair 0.0594 -> retake ['multiple_items'] | clean but damage review | rider on a dirt bike
+ox-100   clean     several  scene         front  band review road 0.0558 broken 0.1582 repair 0.0403 -> retake ['multiple_items'] | clean but damage review | man by a motorcycle holding a helmet
+ov-005   ambiguous boots    item          front  band review road 0.1782 broken 0.0524 repair 0.0411 -> retake ['multiple_items'] | single item called several | Boots from the same crash series; only possible toe-slider s
+ov-052   ambiguous gloves   item          front  band review road 0.285 broken 0.1098 repair 0.0765 -> retake ['multiple_items'] | single item called several | Heavily worn gloves; fingertip leather may be abraded throug
+ov-039   clean     garment  item          front  band clear  road 0.0356 broken 0.088 repair 0.0421 -> retake ['multiple_items'] | single item called several | Leather jacket with printed graphics on a mannequin; intact.
+ov-043   clean     garment  item          front  band clear  road 0.0488 broken 0.0543 repair 0.036 -> retake ['multiple_items'] | single item called several | Hand-painted leather jacket on a chair; graphics, intact.
+ov-048   clean     gloves   item          front  band review road 0.3325 broken 0.3 repair 0.2279 -> retake ['possible_broken', 'possible_road_contact'] | clean but damage review | Leather glove close-up; the finger blade is a visor wiper by
+ov-051   clean     gloves   item          front  band review road 0.1932 broken 0.0553 repair 0.0516 -> retake ['multiple_items'] | clean but damage review; single item called several | Two pairs of motorcycle gloves on a table; intact.
+ov-061   clean     boots    item          front  band clear  road 0.0413 broken 0.0321 repair 0.0425 -> retake ['multiple_items'] | single item called several | New black buckled motorcycle boots in a box; intact.
+ov-063   clean     boots    item          front  band review road 0.511 broken 0.1118 repair 0.1449 -> retake ['multiple_items'] | clean but damage review; single item called several | Used touring boots, scuffed and creased; intact.
+ov-065   clean     boots    item          front  band review road 0.3458 broken 0.5003 repair 0.1613 -> retake ['multiple_items'] | clean but damage review; single item called several | Used motorcycle boots with snow on a rug; intact.
+ov-066   clean     boots    item          front  band clear  road 0.1239 broken 0.0226 repair 0.0227 -> retake ['multiple_items'] | single item called several | Tall patrol boots, polished; intact.
+ov-068   clean     boots    item          front  band review road 0.3724 broken 0.0485 repair 0.0802 -> retake ['possible_road_contact'] | clean but damage review | Close-up of a patrol boot; intact.
+75 photographs flagged

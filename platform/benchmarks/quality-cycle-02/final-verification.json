@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-26T23:51:31.604Z",
+  "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1+evidence-claims-4+review-index-1+focused-tear-context-3",
+  "normalApi": "http://127.0.0.1:8787",
+  "liveRequests": 17,
+  "liveContractsPassed": 17,
+  "noOfferOrCertification": true,
+  "medianMs": 4157.581100000003,
+  "maxMs": 10534.979699999996,
+  "unitTests": 480,
+  "unitPassed": 480,
+  "scope": "Final normal API real inference, one first attempt per contract. Contract alerts for known visual failures are not counted as accuracy successes. Final 194-case recorded-response replay separately preserves visual outputs.",
+  "sourceSnapshot": "experiments/quality-cycle-02/selected-final",
+  "visualFailuresRemain": {
+    "audit": 53,
+    "validation": 16
+  }
+}

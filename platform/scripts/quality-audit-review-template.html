@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Relay inspection quality audit</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%23212822%22/%3E%3C/svg%3E"
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #212822;
+        --muted: #59655c;
+        --paper: #f5f3ed;
+        --line: #d6d9cf;
+        --bad: #9e382c;
+        --good: #326449;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font:
+          15px/1.5 system-ui,
+          -apple-system,
+          sans-serif;
+      }
+      main {
+        max-width: 1400px;
+        margin: auto;
+        padding: 40px 28px;
+      }
+      a {
+        color: inherit;
+        text-underline-offset: 3px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 24px;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 28px;
+      }
+      .brand {
+        letter-spacing: -0.04em;
+        font-size: 24px;
+        font-weight: 750;
+      }
+      h1 {
+        font-size: clamp(28px, 4vw, 46px);
+        line-height: 1.1;
+        letter-spacing: -0.045em;
+        margin: 18px 0 16px;
+      }
+      h2 {
+        font-size: 24px;
+        letter-spacing: -0.03em;
+      }
+      p {
+        margin: 8px 0;
+      }
+      .intro {
+        max-width: 780px;
+        color: var(--muted);
+      }
+      .links {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        font-size: 13px;
+        margin-top: 18px;
+      }
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-bottom: 1px solid var(--line);
+        margin: 8px 0 28px;
+      }
+      .stat {
+        padding: 22px 18px 22px 0;
+      }
+      .stat strong {
+        display: block;
+        font-size: 34px;
+        letter-spacing: -0.04em;
+      }
+      .stat span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .table-wrap {
+        overflow: auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 12px 14px 12px 0;
+        border-bottom: 1px solid var(--line);
+        white-space: nowrap;
+      }
+      th {
+        font-weight: 650;
+      }
+      small,
+      .muted {
+        color: var(--muted);
+      }
+      .filters {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 14px;
+        margin: 26px 0 12px;
+      }
+      label {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        font-size: 12px;
+        font-weight: 650;
+      }
+      input,
+      select,
+      button {
+        font: inherit;
+        border: 1px solid var(--line);
+        border-radius: 9px;
+        background: #fff;
+        padding: 11px 12px;
+        color: var(--ink);
+      }
+      button {
+        cursor: pointer;
+        font-weight: 600;
+      }
+      button:hover {
+        border-color: var(--ink);
+      }
+      button:disabled {
+        opacity: 0.45;
+        cursor: default;
+      }
+      :focus-visible {
+        outline: 3px solid #8b9b55;
+        outline-offset: 3px;
+      }
+      .list-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        margin: 20px 0;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .image-button {
+        border: 0;
+        border-radius: 0;
+        display: block;
+        width: 100%;
+        padding: 0;
+        background: #ebece6;
+      }
+      .card img {
+        display: block;
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+      }
+      .body {
+        padding: 18px;
+      }
+      .id {
+        font-size: 12px;
+        font-weight: 750;
+        letter-spacing: 0.02em;
+      }
+      .status {
+        display: inline-block;
+        padding: 3px 8px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: 700;
+        background: #edf0e8;
+        margin-left: 8px;
+      }
+      .bad {
+        color: var(--bad);
+        background: #faeee9;
+      }
+      .good {
+        color: var(--good);
+        background: #edf4ec;
+      }
+      .finding {
+        font-size: 13px;
+        color: #465047;
+        margin-top: 12px;
+        min-height: 40px;
+      }
+      .reference {
+        font-size: 13px;
+        margin: 10px 0;
+      }
+      .credit {
+        font-size: 11px;
+        color: var(--muted);
+        margin-top: 14px;
+        overflow-wrap: anywhere;
+      }
+      .pager {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .empty {
+        padding: 48px;
+        text-align: center;
+        border: 1px dashed var(--line);
+        grid-column: 1/-1;
+      }
+      dialog {
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        max-width: 1100px;
+        width: 95vw;
+        max-height: 92vh;
+        padding: 0;
+        background: var(--paper);
+        color: var(--ink);
+      }
+      dialog::backdrop {
+        background: #18201bd0;
+      }
+      .dialog-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 22px;
+        border-bottom: 1px solid var(--line);
+      }
+      .detail {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        gap: 24px;
+        padding: 22px;
+      }
+      .detail img {
+        width: 100%;
+        height: auto;
+        max-height: 72vh;
+        object-fit: contain;
+        background: #e9ebe4;
+      }
+      .detail h3 {
+        margin: 20px 0 6px;
+        font-size: 16px;
+      }
+      .detail ul {
+        padding-left: 18px;
+      }
+      .detail p,
+      .detail li {
+        font-size: 14px;
+      }
+      .footer {
+        margin: 34px 0;
+        font-size: 12px;
+        color: var(--muted);
+      }
+      @media (max-width: 950px) {
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 620px) {
+        main {
+          padding: 24px 16px;
+        }
+        header {
+          display: block;
+        }
+        .stats {
+          grid-template-columns: 1fr 1fr;
+          column-gap: 18px;
+        }
+        .stat {
+          padding: 16px 0;
+        }
+        .filters {
+          grid-template-columns: 1fr;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .detail {
+          grid-template-columns: 1fr;
+        }
+        .detail img {
+          max-height: 45vh;
+        }
+        .list-line {
+          align-items: start;
+          flex-direction: column;
+        }
+        .card img {
+          height: 290px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <div class="brand">relay / quality audit</div>
+          <h1>Review the inspection results.</h1>
+          <p class="intro">
+            Reference labels were recorded before inference. The model, prompts and policy stayed
+            fixed. Related views are grouped; raw material close-ups are a separate stress test.
+          </p>
+          <div class="links">
+            <a href="labels.csv" download>Reference labels CSV</a
+            ><a href="results.csv" download>Results CSV</a><a href="README.md">Dataset notes</a
+            ><a href="attribution.json">Image attribution</a>
+          </div>
+        </div>
+      </header>
+      <div id="stats" class="stats"></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Image group</th>
+              <th>Images</th>
+              <th>Any alert / positive</th>
+              <th>No alert</th>
+              <th>Flags / negative</th>
+              <th>First-request failures</th>
+              <th>Unscored labels</th>
+            </tr>
+          </thead>
+          <tbody id="domains"></tbody>
+        </table>
+      </div>
+      <p class="muted" style="font-size: 12px; margin-top: 12px">
+        Detection means a finding was returned; it does not establish that every description or
+        location is correct. Ambiguous and unassessable reference labels are excluded from binary
+        totals. Labels are assistant visual annotations, not expert physical inspection.
+      </p>
+      <div class="filters">
+        <label
+          >Find a case<input
+            id="search"
+            type="search"
+            placeholder="Image ID, reference detail or model finding" /></label
+        ><label
+          >Result<select id="outcome">
+            <option value="all">All results</option>
+            <option value="failures">Misses and false alarms</option>
+            <option value="miss">Missed defect</option>
+            <option value="false_flag">False alarm</option>
+            <option value="detected">Defect flagged</option>
+            <option value="correct_negative">No false alarm</option>
+            <option value="transport">First-request failure</option>
+            <option value="processing_error">No completed result</option>
+            <option value="correspondence">Missed or misdescribed defect</option>
+            <option value="anatomy">Invented garment location</option>
+            <option value="disputed">Disputed reference label</option>
+            <option value="ambiguous">Ambiguous / unassessable</option>
+            <option value="pending">Pending</option>
+          </select></label
+        ><label
+          >Image group<select id="domain">
+            <option value="all">All image groups</option>
+          </select></label
+        >
+      </div>
+      <div class="list-line">
+        <span id="count" class="muted"></span>
+        <div class="pager">
+          <button id="prev">Previous</button><span id="page" aria-live="polite"></span
+          ><button id="next">Next</button>
+        </div>
+      </div>
+      <div id="grid" class="grid"></div>
+      <div class="footer" id="footer"></div>
+    </main>
+    <dialog id="dialog">
+      <div class="dialog-head">
+        <strong id="detail-title"></strong
+        ><button id="close" aria-label="Close image detail">Close</button>
+      </div>
+      <div id="detail" class="detail"></div>
+    </dialog>
+    <script>
+      const DATA=/*DATA*/;
+      const names={garments_and_gear:'Garments and gear',commons_material_closeup:'Other material close-ups',unassessable_scene:'Scenes and thermal images',hardware:'Zippers and hardware',fabric_closeup:'Fabric close-ups',leather_closeup:'Raw leather close-ups'};
+      const labels={visible_defect:'Visible structural defect',no_visible_defect:'No visible structural defect',ambiguous:'Ambiguous reference',unassessable:'Not visually assessable'};
+      const outcomes={miss:'Missed defect',false_flag:'False alarm',detected:'Defect flagged',correct_negative:'No false alarm',ambiguous_flagged:'Ambiguous / flagged',ambiguous_unflagged:'Ambiguous / unflagged',unassessable_flagged:'Unassessable / flagged',unassessable_unflagged:'Unassessable / unflagged',processing_error:'No completed result',pending:'Pending'};
+      const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};const findings=c=>c.result?.result?.observation?.inspection?.photos.flatMap(p=>p.findings)||[];const state=c=>c.result?.error?'processing_error':c.result?.outcome||'pending';const seconds=n=>n==null?'—':(n/1000).toFixed(1)+'s';let page=0;const pageSize=24;
+      const overall=DATA.summary.overall;for(const[number,label]of[[overall.completed+' / '+overall.images,DATA.summary.complete?'Images evaluated':'Images evaluated · in progress'],[(overall.correspondenceMissed||0)+(overall.correspondencePartial||0),'Missed or misdescribed defects (reviewed)'],[overall.falseFlags,'False alarms on negative labels'],[overall.firstAttemptFailures,'Images with a first-request failure']]){const box=el('div',undefined,'stat');box.append(el('strong',number),el('span',label));document.querySelector('#stats').append(box);}
+      for(const [domain,m]of Object.entries(DATA.summary.domains)){const tr=el('tr');for(const v of [names[domain]||domain,m.images,m.positives?m.detected+' / '+m.positives:'—',m.misses,m.negatives?m.falseFlags+' / '+m.negatives:'—',m.firstAttemptFailures,m.ambiguous+m.unassessable])tr.append(el('td',v));document.querySelector('#domains').append(tr);const option=el('option',names[domain]||domain);option.value=domain;document.querySelector('#domain').append(option);}
+      document.querySelector('#footer').textContent='Recorded groups: '+overall.groups+'. Total latency, including recorded retries: median '+seconds(overall.p50EndToEndMs)+', p95 '+seconds(overall.p95EndToEndMs)+'. Model-only latency: median '+seconds(overall.p50InferenceMs)+', p95 '+seconds(overall.p95InferenceMs)+'. Generated '+DATA.summary.generatedAt+'. Correspondence reviewed for '+overall.reviewedPositives+' / '+overall.positives+' positive labels: '+overall.correspondenceMatched+' matched, '+overall.correspondencePartial+' partial, '+overall.correspondenceMissed+' missed. Three negative reference labels are disputed on secondary full-image review; original scores remain intact. Crash history is unknown for every image.';
+      function credit(c){const p=el('p',undefined,'credit');const a=el('a','Source');a.href=c.source;a.target='_blank';a.rel='noopener';p.append(a,document.createTextNode(' · '+c.author+' · '+c.license));return p;}
+      function filter(){const query=document.querySelector('#search').value.toLowerCase(),outcome=document.querySelector('#outcome').value,domain=document.querySelector('#domain').value;return DATA.rows.filter(c=>{const s=state(c);if(domain!=='all'&&domain!==c.domain)return false;if(outcome==='failures'&&!['miss','false_flag'].includes(s)&&!['partial','missed'].includes(c.review?.correspondence))return false;else if(outcome==='correspondence'&&!['partial','missed'].includes(c.review?.correspondence))return false;else if(outcome==='disputed'&&!c.referenceDispute)return false;else if(outcome==='transport'&&!c.result?.firstAttemptFailed)return false;else if(outcome==='anatomy'&&!c.result?.inventedGarmentAnatomy)return false;else if(outcome==='ambiguous'&&!['ambiguous','unassessable'].includes(c.condition))return false;else if(!['all','failures','transport','anatomy','ambiguous','correspondence','disputed'].includes(outcome)&&s!==outcome)return false;return !query||[c.id,c.visualBasis,c.title||'',...findings(c).map(f=>f.evidence)].join(' ').toLowerCase().includes(query);});}
+      function render(){const selected=filter(),pages=Math.max(1,Math.ceil(selected.length/pageSize));page=Math.max(0,Math.min(page,pages-1));document.querySelector('#count').textContent=selected.length+' matching images';document.querySelector('#page').textContent=(page+1)+' / '+pages;document.querySelector('#prev').disabled=page===0;document.querySelector('#next').disabled=page>=pages-1;const grid=document.querySelector('#grid');grid.replaceChildren();if(!selected.length)grid.append(el('div','No matching images.','empty'));for(const c of selected.slice(page*pageSize,(page+1)*pageSize)){const card=el('article',undefined,'card'),button=el('button',undefined,'image-button'),img=el('img');img.src=c.image;img.alt=c.id+' source photograph';img.loading='lazy';button.setAttribute('aria-label','Open '+c.id);button.append(img);button.onclick=()=>detail(c);const body=el('div',undefined,'body'),heading=el('div');heading.append(el('span',c.id,'id'),el('span',outcomes[state(c)],'status '+(['miss','false_flag','processing_error'].includes(state(c))?'bad':['detected','correct_negative'].includes(state(c))?'good':'')));body.append(heading,el('p','Reference: '+labels[c.condition],'reference'));const f=findings(c);body.append(el('p',f.length?f.map(x=>x.kind+': '+x.evidence).join(' · '):c.result?.error?'No completed assessment.':c.result?'No finding returned.':'Waiting for evaluation.','finding'));body.append(el('small',(c.result?seconds(c.result.elapsedMs)+' · ':'')+(c.result?.firstAttemptFailed?'First request failed; '+c.result.attempts.length+' attempts':names[c.domain])));if(c.review&&c.review.correspondence!=='matched')body.append(el('p','Reference defect: '+c.review.correspondence+' ? '+c.review.note,'reference bad'));if(c.referenceDispute)body.append(el('p','Reference label disputed on full-image review. Primary score retained.','credit'));body.append(credit(c));card.append(button,body);grid.append(card);}}
+      function detail(c){const box=document.querySelector('#detail');box.replaceChildren();document.querySelector('#detail-title').textContent=c.id+' · '+outcomes[state(c)];const img=el('img');img.src=c.image;img.alt=c.id+' full source photograph';box.append(img);const text=el('div');text.append(el('h3','Reference label'),el('p',labels[c.condition]),el('p',c.visualBasis));text.append(el('p','Related-source group: '+c.group,'muted'));if(c.referenceDispute)text.append(el('h3','Reference-label caveat'),el('p',c.referenceDispute.reason));text.append(el('h3','System findings'));const f=findings(c);if(!f.length)text.append(el('p',c.result?.error?JSON.stringify(c.result.error):'No finding returned.'));else{const ul=el('ul');for(const x of f)ul.append(el('li',x.kind+' / '+x.zone+' / '+x.clarity+' — '+x.evidence));text.append(ul);}if(c.review)text.append(el('h3','Finding correspondence'),el('p',c.review.correspondence.toUpperCase()+' ? '+c.review.note));if(c.result?.result){text.append(el('p','Category: '+(c.result.result.observation?.category||'not assessed')),el('p','Decision: '+c.result.result.decision.title));}if(c.result){text.append(el('h3','Request behavior'),el('p','Elapsed '+seconds(c.result.elapsedMs)+'; '+c.result.attempts.length+' attempt(s).'));for(const a of c.result.attempts)text.append(el('p',seconds(a.ms)+' · '+(a.error?(a.error.causeCode||a.error.code):'HTTP '+a.httpStatus),'muted'));}text.append(credit(c));box.append(text);document.querySelector('#dialog').showModal();}
+      document.querySelector('#close').onclick=()=>document.querySelector('#dialog').close();for(const id of ['search','outcome','domain'])document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',()=>{page=0;render();});document.querySelector('#prev').onclick=()=>{page--;render();};document.querySelector('#next').onclick=()=>{page++;render();};render();
+    </script>
+  </body>
+</html>

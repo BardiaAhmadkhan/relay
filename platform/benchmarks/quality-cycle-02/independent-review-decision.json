@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-26T22:08:51.880Z",
+  "noReasoning": "Rejected: false flags and incoherent kind labels on 22 existing cases.",
+  "withReasoning": "Rejected early: 1 truncated result in first 5 cases; 35.6s on that case and roughly 10-13s on completed cases.",
+  "completedReasoning": 5,
+  "productionChanged": false
+}

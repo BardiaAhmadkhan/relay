@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-26T22:08:51.878Z",
+  "status": "rejected-early",
+  "completed": 46,
+  "planned": 197,
+  "reason": "Correspondence regression despite a nonempty alert: commons-037 scraped toe slider was replaced by paint/sticker/repair descriptions. Inspected original photo against frozen reference. Any-flag count would have hidden this regression.",
+  "case": "commons-037",
+  "productionPromptChanged": false
+}

@@ -1,0 +1,188 @@
+{
+  "at": "2026-10-26T21:22:14.411Z",
+  "reviewer": "Assistant reference/output correspondence review; not expert adjudication.",
+  "rows": [
+    {
+      "id": "commons-051",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "commons-087",
+      "correspondence": "missed",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "No finding returned for the visible openings in the distant white jeans. This is a difficult scale/context case, with no crash-history inference."
+    },
+    {
+      "id": "fabric-021",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-023",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-024",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-026",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "Fraying and small openings are identified. Calling the exposed yarns an inner lining adds an unsupported garment-layer interpretation."
+    },
+    {
+      "id": "fabric-028",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-032",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-033",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-035",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-037",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-041",
+      "correspondence": "matched",
+      "locationError": true,
+      "unsupportedExtra": false,
+      "note": "The cut is identified, but a raw textile sample is described as a garment hem."
+    },
+    {
+      "id": "fabric-046",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-048",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "Description identifies the visible linear crack/break. The structured kind is incorrectly seam; type mismatch is counted separately."
+    },
+    {
+      "id": "fabric-056",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-058",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "The location is noticed as a thin dark mark, but the visible slit/material break is not recognized."
+    },
+    {
+      "id": "fabric-061",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-063",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-064",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-070",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-072",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-074",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one description corresponds to the visible reference puncture, tear, fraying or coating loss."
+    },
+    {
+      "id": "fabric-077",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "The hole is identified. The cream/blue printed color boundary is incorrectly called a seam between panels."
+    },
+    {
+      "id": "leather-001",
+      "correspondence": "matched",
+      "locationError": true,
+      "unsupportedExtra": false,
+      "note": "Actual openings are identified, but their zones are invented as chest areas on a raw leather piece."
+    },
+    {
+      "id": "leather-004",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "Internal holes are identified; the raw cut perimeter is additionally called tearing, outside the frozen defect definition."
+    },
+    {
+      "id": "leather-016",
+      "correspondence": "matched",
+      "locationError": true,
+      "unsupportedExtra": true,
+      "note": "Real openings are identified, but chest/shoulder zones are invented and the raw cut boundary is also flagged."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "at": "2026-10-26T22:00:59.519Z",
+  "cases": 339,
+  "unchanged": 334,
+  "skipped": 1,
+  "changed": [
+    {
+      "set": "audit194",
+      "id": "commons-069",
+      "label": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "A small frayed edge is visible on the right side of the garment, near the pink fringe and silver beads.",
+            "zone": "cuff",
+            "kind": "seam",
+            "clarity": "clear"
+          },
+          {
+            "evidence": "The black fur-like material shows no signs of abrasion, tears, or exposed fibers.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "multiple",
+        "material": "mixed",
+        "imageId": "photo"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A small frayed edge is visible on the right side of the garment, near the pink fringe and silver beads.",
+            "zone": "cuff",
+            "kind": "seam",
+            "clarity": "clear"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "multiple",
+        "material": "mixed",
+        "imageId": "photo"
+      }
+    },
+    {
+      "set": "audit194",
+      "id": "commons-035",
+      "label": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "Black gloves inside a case show no visible surface damage, abrasion, or fraying.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "gloves",
+        "material": "textile",
+        "imageId": "photo"
+      },
+      "after": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "gloves",
+        "material": "textile",
+        "imageId": "photo"
+      }
+    },
+    {
+      "set": "audit194",
+      "id": "commons-065",
+      "label": "no_visible_defect",
+      "before": {
+        "findings": [
+          {
+            "evidence": "No visible abrasion, tear, fraying, or exposed fibers on any panel or seam",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "motorcycle_jacket",
+        "material": "textile",
+        "imageId": "photo"
+      },
+      "after": {
+        "findings": [],
+        "crashPattern": "not_observed",
+        "category": "motorcycle_jacket",
+        "material": "textile",
+        "imageId": "photo"
+      }
+    },
+    {
+      "set": "round05-106",
+      "id": "label--dim70",
+      "label": false,
+      "before": {
+        "findings": [
+          {
+            "evidence": "A yellow and black 'CORDURA only by DuPont' label is sewn into the seam.",
+            "zone": "unknown",
+            "kind": "insert",
+            "clarity": "possible"
+          },
+          {
+            "evidence": "The fabric shows normal folds and texture consistent with Cordura material, with no visible tears or abrasions.",
+            "zone": "unknown",
+            "kind": "other",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "multiple",
+        "material": "mixed",
+        "imageId": "photo"
+      },
+      "after": {
+        "findings": [
+          {
+            "evidence": "A yellow and black 'CORDURA only by DuPont' label is sewn into the seam.",
+            "zone": "unknown",
+            "kind": "insert",
+            "clarity": "possible"
+          }
+        ],
+        "crashPattern": "unclear",
+        "category": "multiple",
+        "material": "mixed",
+        "imageId": "photo"
+      }
+    }
+  ],
+  "totalMs": 2.038199999999989,
+  "scope": "Deterministic replay of frozen real model outputs, not a fresh end-to-end inference accuracy test."
+}

@@ -1,0 +1,19 @@
+{
+  "runtime": "1.23.2",
+  "hardware": "sdk_gphone64_x86_64",
+  "abi": "x86_64",
+  "sdk": 36,
+  "networkPermission": false,
+  "modelBytes": 3716903,
+  "loadMs": 628.1273,
+  "runs": 30,
+  "warmups": 3,
+  "p50Ms": 2.196,
+  "p95Ms": 10.221,
+  "minMs": 1.3653,
+  "maxMs": 12.9557,
+  "nativeHeapBytes": 40810752,
+  "boundary": "Android emulator CPU measurement. Preprocessing excluded. Feature extractor only, not a trained damage specialist or physical-phone benchmark.",
+  "maxAbsoluteDifference": 0,
+  "meanAbsoluteDifference": 0
+}

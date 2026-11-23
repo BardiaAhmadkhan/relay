@@ -1,0 +1,45 @@
+{
+  "protocolId": "relay-quality-round-02-v1",
+  "protocolSha256": "7d0d03b8ebb895a1af1b69394f5161422c31aa9ac6f37a5e5e3f1817f0172347",
+  "frozenAt": "2026-10-26T16:16:22.883Z",
+  "rule": "For each metric, 0.5 times the minimum server-direct identity score among development images. Existing soft threshold 20 is also reported unchanged. No evaluation image participates.",
+  "developmentRawFile": "benchmarks/round-02/quality/measurements.development.2026-10-26T16-16-15-579Z.jsonl",
+  "developmentRawSha256": "b1566c8cfbcc2c5ad5dcbb18e938418bfc453a92545cc709cf8e41929598266d",
+  "developmentFixtureIds": [
+    "leather-jacket",
+    "armour-jacket",
+    "mixed-gear"
+  ],
+  "thresholds": {
+    "laplacian192": 491.5327252043763,
+    "normalizedLaplacian192": 0.09744632316315577,
+    "tenengrad192": 127.0945820681119,
+    "normalizedTenengrad192": 0.027007322328701212,
+    "multiscaleNormalizedTenengrad": 0.036463167610420774
+  },
+  "identityScores": {
+    "leather-jacket": {
+      "laplacian192": 1532.019611059935,
+      "normalizedLaplacian192": 0.3134467938998093,
+      "tenengrad192": 398.6058071904362,
+      "normalizedTenengrad192": 0.08155359852557388,
+      "multiscaleNormalizedTenengrad": 0.10906568729632107
+    },
+    "armour-jacket": {
+      "laplacian192": 983.0654504087526,
+      "normalizedLaplacian192": 0.19489264632631154,
+      "tenengrad192": 272.4573347415688,
+      "normalizedTenengrad192": 0.054014644657402425,
+      "multiscaleNormalizedTenengrad": 0.07292633522084155
+    },
+    "mixed-gear": {
+      "laplacian192": 1354.429812663514,
+      "normalizedLaplacian192": 0.583674989805276,
+      "tenengrad192": 254.1891641362238,
+      "normalizedTenengrad192": 0.10953971656461214,
+      "multiscaleNormalizedTenengrad": 0.12765742900443547
+    }
+  },
+  "legacySoftThreshold": 20,
+  "interpretation": "Exploratory controlled-transformation thresholds only; not operational bad-photo cutoffs."
+}

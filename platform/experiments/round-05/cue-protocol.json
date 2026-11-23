@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-26T19:07:23.513Z",
+  "target": "Only missed visible abrasion in low-resolution input.",
+  "candidate": "low-detail-cue-1",
+  "change": "One optional abrasion-only call on enlarged input after an empty low-resolution baseline. Existing findings, category/material/identity remain untouched. Recovered clue is possible, mechanism unclear. No model weights or live app changes.",
+  "baselineSha256": "7ecf97a7e6d63c873050f7e573846851b3e70f6794e58ac8e241a8556dfb2d78",
+  "candidateSha256": "3f41fd502afcc77b1b11a5901c4b473c2d3c365f4444233fd5ecf4963f6d35a7",
+  "gate": {
+    "requiredRepairs": "First-user small320 miss plus at least one other previously missed damaged variant; subsequent independent-repeat check must retain the repair.",
+    "preservePositive": "Every baseline nonempty finding list, clarity, category, material and mechanism must remain unchanged.",
+    "falseAlarm": "No new finding on a visually negative control, including fresh-source controls.",
+    "authority": "No rescued finding becomes clear or claims a sliding mechanism; no category/material/identity change.",
+    "latency": "One extra request maximum per empty low-resolution photo. 2500ms transport deadline, baseline preserved on error. Observed p95 overhead <=2600ms including rendering."
+  },
+  "boundary": "Original primary/verifier observations are the preserved actual run. Only the optional new call is executed in this run. Compare semantics on the same baseline; latency is original stage time plus measured addedMs. Still an exposed development set, not general accuracy."
+}

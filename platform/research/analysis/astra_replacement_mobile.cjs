@@ -1,0 +1,2 @@
+const path=require('node:path');
+module.exports={testDir:__dirname,testMatch:'astra_replacement_mobile.spec.ts',workers:1,timeout:60000,reporter:'line',outputDir:path.join(process.env.RELAY_WITNESS_OUT,'browser-output'),use:{baseURL:'http://localhost:4173',browserName:'chromium',channel:'chrome',viewport:{width:390,height:844},reducedMotion:'reduce'}};

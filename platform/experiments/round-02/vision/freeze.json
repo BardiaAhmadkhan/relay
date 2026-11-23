@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0",
+  "frozenAt": "2026-10-26T16:26:17.553Z",
+  "baselineCommit": "e3a6f5876d1c6c7341d4fae7d460ca632af8923c",
+  "protocolSha256": "e048477a891877f3871aef9639aade1fc3aca5b217743161274cc9e7ff1be6d5",
+  "bindings": [
+    {
+      "file": "experiments/round-02/vision/protocol.md",
+      "sha256": "e048477a891877f3871aef9639aade1fc3aca5b217743161274cc9e7ff1be6d5"
+    },
+    {
+      "file": "experiments/round-02/vision/corpus.json",
+      "sha256": "c74664b20f338a12f1c477f65924012179e2b4b630f2d7af5887f6a78bfc4497"
+    },
+    {
+      "file": "experiments/round-02/vision/cases.json",
+      "sha256": "8a0edd9f0579ff4e06bfd8adaa2f543ff65e4503ac114b3647aab420b8857a50"
+    },
+    {
+      "file": "experiments/round-02/vision/schedule.json",
+      "sha256": "ba5822999f3273788dabba35af541556dbaacdf335f683e3b9960752d875c683"
+    },
+    {
+      "file": "experiments/round-02/vision/baseline-adapter.ts",
+      "sha256": "6532a81f21edcce1b35efc1c75c7c225e554721ec2d1980dbf9332c809df7212"
+    },
+    {
+      "file": "experiments/round-02/vision/baseline-schema.ts",
+      "sha256": "4f2649245ca59c58ca279e67c651b1b5d0b5f57b25780a9e4aeb81758a1fde82"
+    },
+    {
+      "file": "scripts/round-02/vision-run.mjs",
+      "sha256": "729379858666bb517f01a389f1e2a9e806b6b0db71e1f2cc7ba2014dc80ee8dd"
+    },
+    {
+      "file": "scripts/round-02/vision-analyze.mjs",
+      "sha256": "88f973a49099b386c4f7c322c883bf83dfe8e2e7414ee832929592905b0ee2a6"
+    },
+    {
+      "file": "scripts/round-02/vision-prepare.mjs",
+      "sha256": "4696ab5fafedfe4da80d9f27cb0e63347acc882ab93f336aed1ec11901fb90f2"
+    },
+    {
+      "file": "assets/fixtures/manifest.json",
+      "sha256": "9e8cd77f07e21766146bb54ddccf20d82758ada443709902920f4e9924983866"
+    },
+    {
+      "file": "assets/fixtures/round-02/acquisition.json",
+      "sha256": "6dd2067ac48176b218ffffb9edd49418d8d967e1e31a6771a1a15f5408862629"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "59332cf6bd3cbfca5e2262007142df9732611cb0e971f86525eb69859ef0ddc7"
+    }
+  ],
+  "models": {
+    "local_clip": {
+      "model": "Xenova/clip-vit-base-patch32",
+      "revision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+      "tokenizer": "Xenova/clip-vit-base-patch32",
+      "tokenizerRevision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+      "scoreSemantics": "candidate-relative softmax; uncalibrated"
+    },
+    "local_siglip": {
+      "model": "onnx-community/siglip-base-patch16-224-ONNX",
+      "revision": "9f0328bdd0eb4f62d0f6c10625f43d882b32102b",
+      "tokenizer": "google/siglip-base-patch16-224",
+      "tokenizerRevision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+      "scoreSemantics": "independent sigmoid; uncalibrated"
+    }
+  },
+  "labels": [
+    {
+      "label": "a motorcycle riding jacket",
+      "category": "motorcycle_jacket"
+    },
+    {
+      "label": "motorcycle riding trousers",
+      "category": "trousers"
+    },
+    {
+      "label": "motorcycle riding gloves",
+      "category": "gloves"
+    },
+    {
+      "label": "motorcycle riding boots",
+      "category": "boots"
+    },
+    {
+      "label": "a motorcycle helmet",
+      "category": "helmet"
+    },
+    {
+      "label": "ordinary clothing not designed for motorcycle riding",
+      "category": "other"
+    },
+    {
+      "label": "multiple different pieces of motorcycle gear",
+      "category": "multiple"
+    },
+    {
+      "label": "an unrelated object or an empty scene",
+      "category": "other"
+    }
+  ],
+  "templates": [
+    "A photo of {}.",
+    "This image shows {}."
+  ],
+  "precision": "q8",
+  "device": "cpu",
+  "intraOpNumThreads": 2,
+  "interOpNumThreads": 1,
+  "warmup": "One excluded historical glove request per model after initialization; no new evaluation image used for warmup.",
+  "orderSeed": 2026102602,
+  "caseCount": 184,
+  "trialCount": 1104,
+  "probePlan": "Multiview candidate outputs derived from frozen repeat-zero per-view results; no extra inference or independent accuracy samples. Two actual label-as-front probes per model test misassignment.",
+  "sourceCodeRelocation": "Baseline adapter and schema loaded from immutable git commit; only schema relative import and cache-root relative path changed. Original source retained.",
+  "originalAdapterSha256": "593c2e20d08ba73c6b741c0eb3dcf790aa361eb9aecb1eaae5f266a1af78ea13",
+  "noInferenceBeforeFreeze": true,
+  "analysisSeed": 2026102699,
+  "bootstrapReplicates": 3000
+}

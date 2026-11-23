@@ -1,0 +1,18 @@
+{
+  "kind": "different-assessment",
+  "acceptedResult": false,
+  "expectedPhotos": [
+    {
+      "id": "14fc13c3-bb90-48c8-bfb0-f49e29c45034",
+      "view": "front"
+    },
+    {
+      "id": "7e4f3722-8026-4bb7-94e4-c2fea07874b0",
+      "view": "back"
+    },
+    {
+      "id": "7753b2af-d1b2-40a0-8297-16fdbd64a432",
+      "view": "label"
+    }
+  ]
+}

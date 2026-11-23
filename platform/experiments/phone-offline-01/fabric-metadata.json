@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "id": 45460297,
+      "name": "FD_Dataset.7z",
+      "size": 191072607,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/45460297",
+      "supplied_md5": "63f4896f9f1fe045e60c4a3e9243b6d8",
+      "computed_md5": "63f4896f9f1fe045e60c4a3e9243b6d8",
+      "mimetype": "application/x-7z-compressed"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 18310924,
+      "full_name": "Osamah N. Neamah",
+      "first_name": "Osamah",
+      "last_name": "N. Neamah",
+      "is_active": true,
+      "url_name": "Osamah_N_Neamah",
+      "orcid_id": "0009-0008-6299-7789"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/FD_Dataset_7z/25546465",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">The dataset comprises 720 images each depicting four distinct defect types in colored fabrics: Oil, Hole, Cutting, and Crack, totaling approximately 180 images per type. This dataset holds significant academic value, particularly within the realm of Computer Vision, serving as a crucial resource for developing image processing algorithms and deep learning models for tasks such as classification, object detection, or segmentation. Its application stands to significantly enhance advancements in textile engineering and manufacturing processes.</p><p dir=\"ltr\"><br>The FD_Dataset comprises two distinct files:</p><p dir=\"ltr\"><br></p><p><br></p><ul><li>FD, which encompasses comprehensive datasets alongside Label.mat facilitated through MATLAB for any object detection model.</li><li>YOLO, housing datasets for training, validation, and testing specifically tailored for YOLO object detection models.</li></ul><p><br></p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 2,
+  "status": "public",
+  "size": 191072607,
+  "created_date": "2024-08-22T11:10:11Z",
+  "modified_date": "2025-01-01T00:10:11Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "Publishing Time",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Computer Vision communities",
+    "object detection methods",
+    "segmentation label",
+    "fabric defect detect"
+  ],
+  "keywords": [
+    "Computer Vision communities",
+    "object detection methods",
+    "segmentation label",
+    "fabric defect detect"
+  ],
+  "categories": [
+    {
+      "id": 26686,
+      "title": "Textile technology",
+      "parent_id": 26647,
+      "path": "/26212/26647/26686",
+      "source_id": "401413",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 26248,
+      "title": "Automotive engineering materials",
+      "parent_id": 26242,
+      "path": "/26212/26242/26248",
+      "source_id": "400202",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "N. Neamah, Osamah (2024). Fabric Defects Object Detection Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.25546465.v2",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "Publishing Time",
+  "embargo_options": [],
+  "id": 25546465,
+  "title": "Fabric Defects Object Detection Dataset",
+  "doi": "10.6084/m9.figshare.25546465.v2",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/25546465",
+  "published_date": "2024-08-22T11:10:11Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/25546465",
+  "url_public_api": "https://api.figshare.com/v2/articles/25546465",
+  "url_private_html": "https://figshare.com/account/articles/25546465",
+  "url_public_html": "https://figshare.com/articles/dataset/FD_Dataset_7z/25546465",
+  "timeline": {
+    "posted": "2024-08-22T11:10:11",
+    "firstOnline": "2024-04-04"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

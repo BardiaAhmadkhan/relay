@@ -1,0 +1,53 @@
+title = "Relay secret detection"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Local AsyncStorage collection name for saved briefs"
+condition = "AND"
+regexTarget = "secret"
+paths = [
+  '''^platform/app/src/briefs\.ts$''',
+  '''^platform/experiments/phone\-offline\-02/baseline/app\-\-src\-\-briefs\.ts$''',
+]
+regexes = [
+  '''^relay\.briefs\.v1$''',
+]
+
+[[rules.allowlists]]
+description = "Recorded SHA-256 checksums of source files"
+condition = "AND"
+regexTarget = "secret"
+paths = [
+  '''^platform/benchmarks/recognition\-weights\-01/policy/checks\.json$''',
+  '''^platform/docs/23\-backend\-design\-2026\-11\-18/measurements\.json$''',
+]
+regexes = [
+  '''^0d56af7e62cb5e39f67931b7b393522731c38031ceb3be25b8989f2cfabc82f0$''',
+  '''^2ae05a86b470b0796f28eb069379537f84fc8f1b8c9c0f0d48ba43cb9f4efb3c$''',
+  '''^561286f12ba850a23d67b34be9ab2d8377503f310aeb5059d4440d2a4c0e73a9$''',
+  '''^a6ae6f33701013ab2ef31af815bd1be968bfacd2b22983efcfbcd32768acea83$''',
+  '''^dc960ba003c84abe3a24ae129ee976fd3cfe2e85b35d465aa9f9b97d423f65e4$''',
+]
+
+[[rules.allowlists]]
+description = "Public tokenizer Git revisions"
+condition = "AND"
+regexTarget = "secret"
+paths = [
+  '''^platform/benchmarks/vision\-2026\-10\-26T06\-37\-23\-456Z\.json$''',
+  '''^platform/benchmarks/vision\-latest\.json$''',
+  '''^platform/experiments/backend\-v2/run\-embed\.mjs$''',
+  '''^platform/experiments/round\-02/vision/baseline\-adapter\.ts$''',
+  '''^platform/experiments/round\-02/vision/baseline\-source\.ts\.txt$''',
+  '''^platform/experiments/round\-02/vision/freeze\.json$''',
+  '''^platform/packages/vision/local\.ts$''',
+]
+regexes = [
+  '''^7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed$''',
+  '''^d15189d7028b43f1d3e65039190477f6af591c2a$''',
+]

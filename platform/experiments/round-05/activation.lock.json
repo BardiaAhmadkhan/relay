@@ -1,0 +1,17 @@
+{
+  "recordedAt": "2026-10-26T19:51:38.143Z",
+  "files": [
+    {
+      "path": "benchmarks/round-05/normal-endpoint.json",
+      "sha256": "033458eeb217b8798e99a085d665e91653edea3c469d832780d03890d727f8aa"
+    },
+    {
+      "path": "benchmarks/round-05/verification.json",
+      "sha256": "d76226d2a300fbed6cb697d58086b2186eb7150c806f87a5a815c055afb7e172"
+    },
+    {
+      "path": "experiments/round-05/integration-decision.json",
+      "sha256": "f7fab1061567f914db71f7c142189d4e27ba0ead068dee382b31abb68e6828f7"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "before": [
+    {
+      "id": "46e2cb6c-9305-458e-a259-8f4a63815f6f",
+      "view": "front"
+    },
+    {
+      "id": "2375ebc9-7feb-45f2-9d01-562bbec2c3ab",
+      "view": "back"
+    },
+    {
+      "id": "9032b40d-c770-43b1-88de-7091691ee4b2",
+      "view": "label"
+    }
+  ],
+  "after": [
+    {
+      "id": "2375ebc9-7feb-45f2-9d01-562bbec2c3ab",
+      "view": "back"
+    },
+    {
+      "id": "9032b40d-c770-43b1-88de-7091691ee4b2",
+      "view": "label"
+    },
+    {
+      "id": "4073f3f6-5752-4828-92b0-3f3ab079c02f",
+      "view": "front"
+    },
+    {
+      "id": "0f21e420-17a4-4a2a-8684-3f704127640e",
+      "view": "detail"
+    }
+  ],
+  "resultInvalidated": true
+}

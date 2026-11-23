@@ -1,0 +1,79 @@
+{
+  "mainRows": 448,
+  "items": 224,
+  "repeatCount": 6,
+  "repeatMaxDifference": 0.0,
+  "samples": {
+    "third": {
+      "holes": 48,
+      "spots": 48,
+      "aucs": [
+        0.7925347222222222,
+        0.7821180555555556
+      ],
+      "gain": -0.010416666666666666,
+      "ci95": [
+        -0.05166015624999999,
+        0.028645833333333332
+      ],
+      "stockHoles": 2,
+      "editHoles": 3,
+      "stockSpots": 0,
+      "editSpots": 0,
+      "newHoleMisses": 0,
+      "addedAlarms": 0
+    },
+    "fourth": {
+      "holes": 64,
+      "spots": 64,
+      "aucs": [
+        0.734375,
+        0.72607421875
+      ],
+      "gain": -0.00830078125,
+      "ci95": [
+        -0.0419921875,
+        0.02685546875
+      ],
+      "stockHoles": 5,
+      "editHoles": 5,
+      "stockSpots": 0,
+      "editSpots": 0,
+      "newHoleMisses": 0,
+      "addedAlarms": 0
+    },
+    "pooled": {
+      "holes": 112,
+      "spots": 112,
+      "aucs": [
+        0.7578922193877551,
+        0.7502391581632653
+      ],
+      "gain": -0.007653061224489796,
+      "ci95": [
+        -0.033322704081632654,
+        0.017139668367346938
+      ],
+      "stockHoles": 7,
+      "editHoles": 8,
+      "stockSpots": 0,
+      "editSpots": 0,
+      "newHoleMisses": 0,
+      "addedAlarms": 0
+    }
+  },
+  "gates": {
+    "bothPositive": false,
+    "positiveLowerBound": false,
+    "noMisses": true,
+    "noNewAlarms": true
+  },
+  "passesProxyGate": false,
+  "hardware": {
+    "peakTemp": 81,
+    "peakVramMiB": 3224,
+    "minFreeRamMiB": 5706,
+    "peakPowerW": 113.05,
+    "samples": 528
+  }
+}

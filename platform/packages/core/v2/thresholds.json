@@ -1,0 +1,24 @@
+{
+  "version": "gear-2-qwen35-4b-e1600-keep98",
+  "batteryVersion": "gear-2",
+  "source": "calib--gear-2--qwen3.5-4b--e1600.scores.jsonl + calib--gear-2--qwen3.5-4b--e1600.labels.json; keep 0.98, wrongBlock 0.01",
+  "lowEvidence": false,
+  "perScorer": {
+    "local_logprob": {
+      "damage": {
+        "clear": 0.145,
+        "block": 0.646
+      },
+      "repair": {
+        "clear": 0.3,
+        "block": 0.85
+      }
+    }
+  },
+  "usableMin": 0.5,
+  "gearMin": 0.5,
+  "singleItemMin": 0.5,
+  "categoryMin": 0.6,
+  "zoneMin": 0.5,
+  "labelLegibleMin": 0.5
+}

@@ -1,0 +1,37 @@
+223 photographs; damaged photographs blur moved into the clear band: blur3 9, blur6 40
+measure      threshold     sharp  blur1.5    blur3    blur6  dim0.55      q55   stops s3  stops s6
+lapVar         50.5621        1%      10%      96%     100%      13%       2%    9/9     40/40   (= 0.5th pct of sharp)
+lapVar         56.9440        1%      14%      96%     100%      17%       2%    9/9     40/40   (= 1th pct of sharp)
+lapVar         73.9689        2%      31%      98%     100%      28%       3%    9/9     40/40   (= 2th pct of sharp)
+lapVar         88.3953        3%      41%      99%     100%      34%       4%    9/9     40/40   (= 3th pct of sharp)
+lapVar        139.6749        5%      67%     100%     100%      57%       7%    9/9     40/40   (= 5th pct of sharp)
+normMean       13.4099        1%       9%      73%      97%       1%       1%    8/9     40/40   (= 0.5th pct of sharp)
+normMean       15.3913        1%      12%      76%      98%       2%       2%    8/9     40/40   (= 1th pct of sharp)
+normMean       19.1297        2%      18%      78%      98%       3%       4%    8/9     40/40   (= 2th pct of sharp)
+normMean       21.4396        3%      22%      81%      99%       4%       4%    8/9     40/40   (= 3th pct of sharp)
+normMean       31.6709        5%      41%      87%      99%       6%       6%    8/9     40/40   (= 5th pct of sharp)
+normVar         0.0167        1%      18%      87%     100%       0%       1%    9/9     40/40   (= 0.5th pct of sharp)
+normVar         0.0187        1%      21%      89%     100%       1%       2%    9/9     40/40   (= 1th pct of sharp)
+normVar         0.0207        2%      23%      89%     100%       2%       4%    9/9     40/40   (= 2th pct of sharp)
+normVar         0.0214        3%      24%      91%     100%       2%       4%    9/9     40/40   (= 3th pct of sharp)
+normVar         0.0262        5%      29%      92%     100%       4%       6%    9/9     40/40   (= 5th pct of sharp)
+scaleRatio      0.3541        1%      60%     100%      94%       0%       2%    9/9     35/40   (= 0.5th pct of sharp)
+scaleRatio      0.3706        1%      64%     100%      95%       1%       2%    9/9     36/40   (= 1th pct of sharp)
+scaleRatio      0.4374        2%      72%     100%      96%       3%       7%    9/9     36/40   (= 2th pct of sharp)
+scaleRatio      0.4580        3%      75%     100%      97%       4%       9%    9/9     37/40   (= 3th pct of sharp)
+scaleRatio      0.4841        5%      79%     100%      98%       7%      10%    9/9     38/40   (= 5th pct of sharp)
+
+separation (AUC, higher = the measure tells the two apart)
+  lapVar      sharp vs blur3 0.998   dim vs blur3 0.968   q55 vs blur3 0.995   sharp vs blur1.5 0.917
+  normMean    sharp vs blur3 0.978   dim vs blur3 0.972   q55 vs blur3 0.973   sharp vs blur1.5 0.821
+  normVar     sharp vs blur3 0.988   dim vs blur3 0.989   q55 vs blur3 0.986   sharp vs blur1.5 0.836
+  scaleRatio  sharp vs blur3 1.000   dim vs blur3 1.000   q55 vs blur3 1.000   sharp vs blur1.5 0.956
+normVar thr    sharp  blur1.5    blur3    blur6  dim0.55      q55  stops s3 s6  | sharp flagged ids
+     0.008        0       17      127      209        0        0   4/9 38/40 | []
+     0.010        0       22      155      214        0        0   6/9 39/40 | []
+     0.012        0       30      175      217        0        0   6/9 39/40 | []
+     0.014        0       38      185      220        0        0   9/9 39/40 | []
+     0.015        0       39      192      221        0        2   9/9 39/40 | []
+     0.016        0       39      193      222        0        2   9/9 40/40 | []
+     0.018        2       45      198      222        2        4   9/9 40/40 | ['leather-005', 'leather-020']
+     0.020        4       49      198      222        3        8   9/9 40/40 | ['leather-004', 'leather-005', 'leather-007', 'leather-020']

@@ -1,0 +1,142 @@
+.viewer {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: #111a14;
+  color: #f0f3e8;
+}
+.viewer::backdrop {
+  background: #101813;
+}
+.viewer-stage,
+.viewer-pixels,
+.viewer-pixels img {
+  position: absolute;
+}
+.viewer-stage {
+  inset: 0;
+  overflow: hidden;
+  touch-action: none;
+  cursor: zoom-in;
+  user-select: none;
+}
+.viewer-stage.magnified {
+  cursor: grab;
+}
+.viewer-stage.magnified:active {
+  cursor: grabbing;
+}
+.viewer-pixels {
+  pointer-events: none;
+}
+.viewer-pixels img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.source-box {
+  position: absolute;
+  box-shadow:
+    0 0 0 2px #dfeea5,
+    0 0 0 4px #263123;
+  border-radius: 1px;
+}
+.viewer-head,
+.viewer-foot {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px max(18px, env(safe-area-inset-left));
+  background: #142019e8;
+}
+.viewer-head {
+  top: 0;
+}
+.viewer-head > span,
+.viewer-actions,
+.viewer button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.viewer-head > span {
+  font-size: 14px;
+  font-weight: 550;
+}
+.viewer button {
+  background: #2e4033;
+  border: 1px solid #4c5c4d;
+  color: #f2f6e7;
+  border-radius: 6px;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 8px 11px;
+  justify-content: center;
+  font-size: 13px;
+}
+.viewer button:hover {
+  background: #486048;
+}
+.viewer-foot {
+  bottom: 0;
+  padding-bottom: max(14px, env(safe-area-inset-bottom));
+}
+.viewer-foot h2 {
+  font-size: 26px;
+  line-height: 1.1;
+}
+.viewer-foot p {
+  font-size: 13px;
+  max-width: 70ch;
+  color: #dce6d6;
+  margin: 3px 0;
+}
+.viewer-foot small {
+  font: 11px var(--mono);
+  color: #c0cbbc;
+}
+.viewer-message {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+.viewer-actions {
+  flex: none;
+}
+@media (max-width: 620px) {
+  .viewer-head {
+    padding-top: max(8px, env(safe-area-inset-top));
+  }
+  .viewer-foot {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .viewer-actions {
+    justify-content: center;
+  }
+  .viewer-foot h2 {
+    font-size: 22px;
+  }
+  .viewer-foot p {
+    font-size: 12px;
+  }
+  .viewer-foot small {
+    font-size: 10px;
+  }
+}

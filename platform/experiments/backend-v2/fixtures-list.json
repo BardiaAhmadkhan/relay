@@ -1,0 +1,146 @@
+[
+ {
+  "photoId": "source-crash",
+  "file": "assets/fixtures/crashed-shoulder.jpg",
+  "view": "front",
+  "expectedDamage": true
+ },
+ {
+  "photoId": "mesh-armour",
+  "file": "assets/fixtures/armour-jacket.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "decorated-leather",
+  "file": "assets/fixtures/leather-jacket.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "denim",
+  "file": "assets/fixtures/round-02/jean-jacket.jpg",
+  "view": "front",
+  "expectedDamage": false
+ },
+ {
+  "photoId": "worn-leather",
+  "file": "assets/fixtures/round-02/worn-jacket.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "worn-detail",
+  "file": "assets/fixtures/round-02/worn-jacket-detail.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "gloves",
+  "file": "assets/fixtures/round-02/hyod-a.jpg",
+  "view": "front",
+  "expectedDamage": false
+ },
+ {
+  "photoId": "helmet",
+  "file": "assets/fixtures/round-02/helmet-fullface.jpg",
+  "view": "front",
+  "expectedDamage": false
+ },
+ {
+  "photoId": "label",
+  "file": "assets/fixtures/backpack-label.jpg",
+  "view": "label",
+  "expectedDamage": false
+ },
+ {
+  "photoId": "illustrated-jacket",
+  "file": "app/assets/editorial-jacket.png",
+  "view": "front",
+  "expectedDamage": false
+ },
+ {
+  "photoId": "worn-detail-2",
+  "file": "assets/fixtures/round-05/worn-detail-2.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "worn-detail-3",
+  "file": "assets/fixtures/round-05/worn-detail-3.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "lewis-vintage",
+  "file": "assets/fixtures/round-05/lewis-vintage.jpg",
+  "view": "front",
+  "expectedDamage": false
+ },
+ {
+  "photoId": "biker-black",
+  "file": "assets/fixtures/round-05/biker-black.jpg",
+  "view": "front",
+  "expectedDamage": false
+ },
+ {
+  "photoId": "schott-613",
+  "file": "assets/fixtures/round-05/schott-613.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "helmet-label",
+  "file": "assets/fixtures/round-02/helmet-label.jpg",
+  "view": "label",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "boots-alpinestars",
+  "file": "assets/fixtures/round-02/boots-alpinestars.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "boots-axo",
+  "file": "assets/fixtures/round-02/boots-axo.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "helmet-black",
+  "file": "assets/fixtures/round-02/helmet-black.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "heated-trousers",
+  "file": "assets/fixtures/round-02/heated-trousers.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "salopette",
+  "file": "assets/fixtures/round-02/salopette.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "gloves-palm",
+  "file": "assets/fixtures/gloves-palm.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "racing-boot",
+  "file": "assets/fixtures/racing-boot.jpg",
+  "view": "front",
+  "expectedDamage": null
+ },
+ {
+  "photoId": "mixed-gear",
+  "file": "assets/fixtures/mixed-gear.jpg",
+  "view": "front",
+  "expectedDamage": null
+ }
+]

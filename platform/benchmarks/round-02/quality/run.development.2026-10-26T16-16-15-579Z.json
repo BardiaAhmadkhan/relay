@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "protocolId": "relay-quality-round-02-v1",
+  "protocolSha256": "7d0d03b8ebb895a1af1b69394f5161422c31aa9ac6f37a5e5e3f1817f0172347",
+  "phase": "development",
+  "startedAt": "2026-10-26T16:16:15.580Z",
+  "finishedAt": "2026-10-26T16:16:22.881Z",
+  "rawFile": "benchmarks/round-02/quality/measurements.development.2026-10-26T16-16-15-579Z.jsonl",
+  "rawSha256": "b1566c8cfbcc2c5ad5dcbb18e938418bfc453a92545cc709cf8e41929598266d",
+  "rows": 72,
+  "expectedRows": 72,
+  "imageCount": 3,
+  "itemGroupCount": 3,
+  "productionParity": [
+    {
+      "fixtureId": "leather-jacket",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 774,
+        "height": 960,
+        "brightness": 108.60371471185132,
+        "sharpness": 1532.019611059935,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 774,
+        "height": 960,
+        "brightness": 108.60371471185132,
+        "sharpness": 1532.019611059935,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "armour-jacket",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 559,
+        "height": 960,
+        "brightness": 99.1293345533113,
+        "sharpness": 983.0654504087526,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 559,
+        "height": 960,
+        "brightness": 99.1293345533113,
+        "sharpness": 983.0654504087526,
+        "warnings": []
+      }
+    },
+    {
+      "fixtureId": "mixed-gear",
+      "sameEncodedJpeg": true,
+      "sameQuality": true,
+      "actual": {
+        "width": 960,
+        "height": 640,
+        "brightness": 89.0945981608067,
+        "sharpness": 1354.429812663514,
+        "warnings": []
+      },
+      "frozen": {
+        "width": 960,
+        "height": 640,
+        "brightness": 89.0945981608067,
+        "sharpness": 1354.429812663514,
+        "warnings": []
+      }
+    }
+  ],
+  "node": "v24.12.0",
+  "sharpVersions": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "timingCaveat": "Single serial quality run on a shared host. Other project experiments may execute concurrently; values do not estimate native phone latency.",
+  "actualProductionFiles": {
+    "server/images.ts": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79",
+    "packages/core/quality.ts": "2afa0db8c33aafe51c21afb97104049507057b7e67fbe2f05c3c5ca95071219f"
+  }
+}

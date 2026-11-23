@@ -1,0 +1,712 @@
+{
+  "protocolSha256": "a95083e48032181c30f694d5039c5f0ac43883936fdb0303754f1e5df1be42e7",
+  "donor": "Intel/qwen3.5-2b-vlm-weld-explainability-lora",
+  "donorSha256": "6182bd27804d452ab51af088591ffa61f168c4dd97b1853944bb1ef2be2e222f",
+  "upstreamBase": "unsloth/Qwen3.5-2B",
+  "upstreamBaseRevision": "fffbc0d8711cf87df6d1f97938c5e50ef94aadc7",
+  "coordinateChecks": 8,
+  "parameterCounts": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "totalParameters": 2213241664,
+  "learnedBytesPerArm": 2683385216,
+  "arms": {
+    "base": {
+      "model": "relay-inspection:base",
+      "manifestDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+      "projectorDigest": "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+      "projectorBytes": 671372768
+    },
+    "attention": {
+      "model": "relay-inspection:attention",
+      "manifestDigest": "292ead93beb8b3c22f1f8e719c0758342504b656fd7027c0463355a683038746",
+      "projectorDigest": "dd8a15768e5fe948d4cb2960812f5bbf03bbaa4e2da53fc04068561cb1b209b2",
+      "projectorBytes": 671372768
+    },
+    "mlp": {
+      "model": "relay-inspection:mlp",
+      "manifestDigest": "0b0b56082b33c8481cd4ce1445f16693d0b1e59ba18ee682a230bd3bc0c3a665",
+      "projectorDigest": "40d6fe7b1946b52ae30f469eb9cee1b53085f3cc13bd5d0102595f0d695bdd88",
+      "projectorBytes": 671372768
+    }
+  },
+  "tensors": {
+    "attention": [
+      {
+        "tensor": "v.blk.0.attn_out.weight",
+        "offset": 21984,
+        "bytes": 2097152,
+        "changedValues": 672852,
+        "deltaFrobenius": 0.11538836359977722
+      },
+      {
+        "tensor": "v.blk.0.attn_qkv.weight",
+        "offset": 2131424,
+        "bytes": 6291456,
+        "changedValues": 1830210,
+        "deltaFrobenius": 0.19071589410305023
+      },
+      {
+        "tensor": "v.blk.1.attn_out.weight",
+        "offset": 25241056,
+        "bytes": 2097152,
+        "changedValues": 675888,
+        "deltaFrobenius": 0.14535976946353912
+      },
+      {
+        "tensor": "v.blk.1.attn_qkv.weight",
+        "offset": 27350496,
+        "bytes": 6291456,
+        "changedValues": 1681475,
+        "deltaFrobenius": 0.2420189082622528
+      },
+      {
+        "tensor": "v.blk.10.attn_out.weight",
+        "offset": 50460128,
+        "bytes": 2097152,
+        "changedValues": 668259,
+        "deltaFrobenius": 0.12645165622234344
+      },
+      {
+        "tensor": "v.blk.10.attn_qkv.weight",
+        "offset": 52569568,
+        "bytes": 6291456,
+        "changedValues": 1780847,
+        "deltaFrobenius": 0.2022763043642044
+      },
+      {
+        "tensor": "v.blk.11.attn_out.weight",
+        "offset": 75679200,
+        "bytes": 2097152,
+        "changedValues": 657020,
+        "deltaFrobenius": 0.11941325664520264
+      },
+      {
+        "tensor": "v.blk.11.attn_qkv.weight",
+        "offset": 77788640,
+        "bytes": 6291456,
+        "changedValues": 1735800,
+        "deltaFrobenius": 0.18917381763458252
+      },
+      {
+        "tensor": "v.blk.12.attn_out.weight",
+        "offset": 100898272,
+        "bytes": 2097152,
+        "changedValues": 667978,
+        "deltaFrobenius": 0.12009499967098236
+      },
+      {
+        "tensor": "v.blk.12.attn_qkv.weight",
+        "offset": 103007712,
+        "bytes": 6291456,
+        "changedValues": 1778366,
+        "deltaFrobenius": 0.19818243384361267
+      },
+      {
+        "tensor": "v.blk.13.attn_out.weight",
+        "offset": 126117344,
+        "bytes": 2097152,
+        "changedValues": 672687,
+        "deltaFrobenius": 0.12914150953292847
+      },
+      {
+        "tensor": "v.blk.13.attn_qkv.weight",
+        "offset": 128226784,
+        "bytes": 6291456,
+        "changedValues": 1823786,
+        "deltaFrobenius": 0.2051633894443512
+      },
+      {
+        "tensor": "v.blk.14.attn_out.weight",
+        "offset": 151336416,
+        "bytes": 2097152,
+        "changedValues": 679417,
+        "deltaFrobenius": 0.1267603039741516
+      },
+      {
+        "tensor": "v.blk.14.attn_qkv.weight",
+        "offset": 153445856,
+        "bytes": 6291456,
+        "changedValues": 1840136,
+        "deltaFrobenius": 0.21517178416252136
+      },
+      {
+        "tensor": "v.blk.15.attn_out.weight",
+        "offset": 176555488,
+        "bytes": 2097152,
+        "changedValues": 661003,
+        "deltaFrobenius": 0.13241024315357208
+      },
+      {
+        "tensor": "v.blk.15.attn_qkv.weight",
+        "offset": 178664928,
+        "bytes": 6291456,
+        "changedValues": 1796556,
+        "deltaFrobenius": 0.20325644314289093
+      },
+      {
+        "tensor": "v.blk.16.attn_out.weight",
+        "offset": 201774560,
+        "bytes": 2097152,
+        "changedValues": 668833,
+        "deltaFrobenius": 0.13750024139881134
+      },
+      {
+        "tensor": "v.blk.16.attn_qkv.weight",
+        "offset": 203884000,
+        "bytes": 6291456,
+        "changedValues": 1855885,
+        "deltaFrobenius": 0.21064665913581848
+      },
+      {
+        "tensor": "v.blk.17.attn_out.weight",
+        "offset": 226993632,
+        "bytes": 2097152,
+        "changedValues": 643458,
+        "deltaFrobenius": 0.13635225594043732
+      },
+      {
+        "tensor": "v.blk.17.attn_qkv.weight",
+        "offset": 229103072,
+        "bytes": 6291456,
+        "changedValues": 1869936,
+        "deltaFrobenius": 0.21434897184371948
+      },
+      {
+        "tensor": "v.blk.18.attn_out.weight",
+        "offset": 252212704,
+        "bytes": 2097152,
+        "changedValues": 661160,
+        "deltaFrobenius": 0.13109901547431946
+      },
+      {
+        "tensor": "v.blk.18.attn_qkv.weight",
+        "offset": 254322144,
+        "bytes": 6291456,
+        "changedValues": 1912499,
+        "deltaFrobenius": 0.22324778139591217
+      },
+      {
+        "tensor": "v.blk.19.attn_out.weight",
+        "offset": 277431776,
+        "bytes": 2097152,
+        "changedValues": 648659,
+        "deltaFrobenius": 0.12624655663967133
+      },
+      {
+        "tensor": "v.blk.19.attn_qkv.weight",
+        "offset": 279541216,
+        "bytes": 6291456,
+        "changedValues": 1869278,
+        "deltaFrobenius": 0.21413667500019073
+      },
+      {
+        "tensor": "v.blk.2.attn_out.weight",
+        "offset": 302650848,
+        "bytes": 2097152,
+        "changedValues": 639167,
+        "deltaFrobenius": 0.12253330647945404
+      },
+      {
+        "tensor": "v.blk.2.attn_qkv.weight",
+        "offset": 304760288,
+        "bytes": 6291456,
+        "changedValues": 1569656,
+        "deltaFrobenius": 0.2009461373090744
+      },
+      {
+        "tensor": "v.blk.20.attn_out.weight",
+        "offset": 327869920,
+        "bytes": 2097152,
+        "changedValues": 655444,
+        "deltaFrobenius": 0.13411161303520203
+      },
+      {
+        "tensor": "v.blk.20.attn_qkv.weight",
+        "offset": 329979360,
+        "bytes": 6291456,
+        "changedValues": 1889607,
+        "deltaFrobenius": 0.2149030715227127
+      },
+      {
+        "tensor": "v.blk.21.attn_out.weight",
+        "offset": 353088992,
+        "bytes": 2097152,
+        "changedValues": 667031,
+        "deltaFrobenius": 0.15491348505020142
+      },
+      {
+        "tensor": "v.blk.21.attn_qkv.weight",
+        "offset": 355198432,
+        "bytes": 6291456,
+        "changedValues": 1887503,
+        "deltaFrobenius": 0.21605834364891052
+      },
+      {
+        "tensor": "v.blk.22.attn_out.weight",
+        "offset": 378308064,
+        "bytes": 2097152,
+        "changedValues": 684038,
+        "deltaFrobenius": 0.17084552347660065
+      },
+      {
+        "tensor": "v.blk.22.attn_qkv.weight",
+        "offset": 380417504,
+        "bytes": 6291456,
+        "changedValues": 2010414,
+        "deltaFrobenius": 0.2547144293785095
+      },
+      {
+        "tensor": "v.blk.23.attn_out.weight",
+        "offset": 403527136,
+        "bytes": 2097152,
+        "changedValues": 695078,
+        "deltaFrobenius": 0.20693717896938324
+      },
+      {
+        "tensor": "v.blk.23.attn_qkv.weight",
+        "offset": 405636576,
+        "bytes": 6291456,
+        "changedValues": 2030013,
+        "deltaFrobenius": 0.2842709720134735
+      },
+      {
+        "tensor": "v.blk.3.attn_out.weight",
+        "offset": 428746208,
+        "bytes": 2097152,
+        "changedValues": 667314,
+        "deltaFrobenius": 0.1478751003742218
+      },
+      {
+        "tensor": "v.blk.3.attn_qkv.weight",
+        "offset": 430855648,
+        "bytes": 6291456,
+        "changedValues": 1767111,
+        "deltaFrobenius": 0.26649340987205505
+      },
+      {
+        "tensor": "v.blk.4.attn_out.weight",
+        "offset": 453965280,
+        "bytes": 2097152,
+        "changedValues": 615585,
+        "deltaFrobenius": 0.11707516759634018
+      },
+      {
+        "tensor": "v.blk.4.attn_qkv.weight",
+        "offset": 456074720,
+        "bytes": 6291456,
+        "changedValues": 1586282,
+        "deltaFrobenius": 0.19920407235622406
+      },
+      {
+        "tensor": "v.blk.5.attn_out.weight",
+        "offset": 479184352,
+        "bytes": 2097152,
+        "changedValues": 617573,
+        "deltaFrobenius": 0.12157868593931198
+      },
+      {
+        "tensor": "v.blk.5.attn_qkv.weight",
+        "offset": 481293792,
+        "bytes": 6291456,
+        "changedValues": 1632145,
+        "deltaFrobenius": 0.1863880306482315
+      },
+      {
+        "tensor": "v.blk.6.attn_out.weight",
+        "offset": 504403424,
+        "bytes": 2097152,
+        "changedValues": 633282,
+        "deltaFrobenius": 0.11516983062028885
+      },
+      {
+        "tensor": "v.blk.6.attn_qkv.weight",
+        "offset": 506512864,
+        "bytes": 6291456,
+        "changedValues": 1762007,
+        "deltaFrobenius": 0.21088674664497375
+      },
+      {
+        "tensor": "v.blk.7.attn_out.weight",
+        "offset": 529622496,
+        "bytes": 2097152,
+        "changedValues": 634075,
+        "deltaFrobenius": 0.12458085268735886
+      },
+      {
+        "tensor": "v.blk.7.attn_qkv.weight",
+        "offset": 531731936,
+        "bytes": 6291456,
+        "changedValues": 1750053,
+        "deltaFrobenius": 0.20805573463439941
+      },
+      {
+        "tensor": "v.blk.8.attn_out.weight",
+        "offset": 554841568,
+        "bytes": 2097152,
+        "changedValues": 652923,
+        "deltaFrobenius": 0.12927556037902832
+      },
+      {
+        "tensor": "v.blk.8.attn_qkv.weight",
+        "offset": 556951008,
+        "bytes": 6291456,
+        "changedValues": 1771989,
+        "deltaFrobenius": 0.2097937911748886
+      },
+      {
+        "tensor": "v.blk.9.attn_out.weight",
+        "offset": 580060640,
+        "bytes": 2097152,
+        "changedValues": 661917,
+        "deltaFrobenius": 0.1230258047580719
+      },
+      {
+        "tensor": "v.blk.9.attn_qkv.weight",
+        "offset": 582170080,
+        "bytes": 6291456,
+        "changedValues": 1798942,
+        "deltaFrobenius": 0.21834762394428253
+      }
+    ],
+    "mlp": [
+      {
+        "tensor": "v.blk.0.ffn_up.weight",
+        "offset": 8439264,
+        "bytes": 8388608,
+        "changedValues": 2537526,
+        "deltaFrobenius": 0.21863923966884613
+      },
+      {
+        "tensor": "v.blk.0.ffn_down.weight",
+        "offset": 16831968,
+        "bytes": 8388608,
+        "changedValues": 2035759,
+        "deltaFrobenius": 0.2005039006471634
+      },
+      {
+        "tensor": "v.blk.1.ffn_up.weight",
+        "offset": 33658336,
+        "bytes": 8388608,
+        "changedValues": 2254267,
+        "deltaFrobenius": 0.20204098522663116
+      },
+      {
+        "tensor": "v.blk.1.ffn_down.weight",
+        "offset": 42051040,
+        "bytes": 8388608,
+        "changedValues": 1850527,
+        "deltaFrobenius": 0.14517396688461304
+      },
+      {
+        "tensor": "v.blk.10.ffn_up.weight",
+        "offset": 58877408,
+        "bytes": 8388608,
+        "changedValues": 2373793,
+        "deltaFrobenius": 0.2298850119113922
+      },
+      {
+        "tensor": "v.blk.10.ffn_down.weight",
+        "offset": 67270112,
+        "bytes": 8388608,
+        "changedValues": 2105650,
+        "deltaFrobenius": 0.17319270968437195
+      },
+      {
+        "tensor": "v.blk.11.ffn_up.weight",
+        "offset": 84096480,
+        "bytes": 8388608,
+        "changedValues": 2377956,
+        "deltaFrobenius": 0.22268351912498474
+      },
+      {
+        "tensor": "v.blk.11.ffn_down.weight",
+        "offset": 92489184,
+        "bytes": 8388608,
+        "changedValues": 1727369,
+        "deltaFrobenius": 0.1264430284500122
+      },
+      {
+        "tensor": "v.blk.12.ffn_up.weight",
+        "offset": 109315552,
+        "bytes": 8388608,
+        "changedValues": 2427288,
+        "deltaFrobenius": 0.22397461533546448
+      },
+      {
+        "tensor": "v.blk.12.ffn_down.weight",
+        "offset": 117708256,
+        "bytes": 8388608,
+        "changedValues": 1770127,
+        "deltaFrobenius": 0.14506472647190094
+      },
+      {
+        "tensor": "v.blk.13.ffn_up.weight",
+        "offset": 134534624,
+        "bytes": 8388608,
+        "changedValues": 2500907,
+        "deltaFrobenius": 0.24092282354831696
+      },
+      {
+        "tensor": "v.blk.13.ffn_down.weight",
+        "offset": 142927328,
+        "bytes": 8388608,
+        "changedValues": 1933381,
+        "deltaFrobenius": 0.16470015048980713
+      },
+      {
+        "tensor": "v.blk.14.ffn_up.weight",
+        "offset": 159753696,
+        "bytes": 8388608,
+        "changedValues": 2678148,
+        "deltaFrobenius": 0.27492454648017883
+      },
+      {
+        "tensor": "v.blk.14.ffn_down.weight",
+        "offset": 168146400,
+        "bytes": 8388608,
+        "changedValues": 1766429,
+        "deltaFrobenius": 0.12158408761024475
+      },
+      {
+        "tensor": "v.blk.15.ffn_up.weight",
+        "offset": 184972768,
+        "bytes": 8388608,
+        "changedValues": 2664770,
+        "deltaFrobenius": 0.28891822695732117
+      },
+      {
+        "tensor": "v.blk.15.ffn_down.weight",
+        "offset": 193365472,
+        "bytes": 8388608,
+        "changedValues": 1796169,
+        "deltaFrobenius": 0.12233809381723404
+      },
+      {
+        "tensor": "v.blk.16.ffn_up.weight",
+        "offset": 210191840,
+        "bytes": 8388608,
+        "changedValues": 2603458,
+        "deltaFrobenius": 0.24433255195617676
+      },
+      {
+        "tensor": "v.blk.16.ffn_down.weight",
+        "offset": 218584544,
+        "bytes": 8388608,
+        "changedValues": 1763523,
+        "deltaFrobenius": 0.11999128758907318
+      },
+      {
+        "tensor": "v.blk.17.ffn_up.weight",
+        "offset": 235410912,
+        "bytes": 8388608,
+        "changedValues": 2659342,
+        "deltaFrobenius": 0.2868707776069641
+      },
+      {
+        "tensor": "v.blk.17.ffn_down.weight",
+        "offset": 243803616,
+        "bytes": 8388608,
+        "changedValues": 1719587,
+        "deltaFrobenius": 0.1162065640091896
+      },
+      {
+        "tensor": "v.blk.18.ffn_up.weight",
+        "offset": 260629984,
+        "bytes": 8388608,
+        "changedValues": 2560037,
+        "deltaFrobenius": 0.2722771465778351
+      },
+      {
+        "tensor": "v.blk.18.ffn_down.weight",
+        "offset": 269022688,
+        "bytes": 8388608,
+        "changedValues": 1696817,
+        "deltaFrobenius": 0.12098444998264313
+      },
+      {
+        "tensor": "v.blk.19.ffn_up.weight",
+        "offset": 285849056,
+        "bytes": 8388608,
+        "changedValues": 2563754,
+        "deltaFrobenius": 0.24650883674621582
+      },
+      {
+        "tensor": "v.blk.19.ffn_down.weight",
+        "offset": 294241760,
+        "bytes": 8388608,
+        "changedValues": 1703545,
+        "deltaFrobenius": 0.1271337866783142
+      },
+      {
+        "tensor": "v.blk.2.ffn_up.weight",
+        "offset": 311068128,
+        "bytes": 8388608,
+        "changedValues": 2501938,
+        "deltaFrobenius": 0.22468706965446472
+      },
+      {
+        "tensor": "v.blk.2.ffn_down.weight",
+        "offset": 319460832,
+        "bytes": 8388608,
+        "changedValues": 2338880,
+        "deltaFrobenius": 0.18058887124061584
+      },
+      {
+        "tensor": "v.blk.20.ffn_up.weight",
+        "offset": 336287200,
+        "bytes": 8388608,
+        "changedValues": 2548820,
+        "deltaFrobenius": 0.25928422808647156
+      },
+      {
+        "tensor": "v.blk.20.ffn_down.weight",
+        "offset": 344679904,
+        "bytes": 8388608,
+        "changedValues": 1662506,
+        "deltaFrobenius": 0.12108061462640762
+      },
+      {
+        "tensor": "v.blk.21.ffn_up.weight",
+        "offset": 361506272,
+        "bytes": 8388608,
+        "changedValues": 2526789,
+        "deltaFrobenius": 0.2437410056591034
+      },
+      {
+        "tensor": "v.blk.21.ffn_down.weight",
+        "offset": 369898976,
+        "bytes": 8388608,
+        "changedValues": 1808065,
+        "deltaFrobenius": 0.16098248958587646
+      },
+      {
+        "tensor": "v.blk.22.ffn_up.weight",
+        "offset": 386725344,
+        "bytes": 8388608,
+        "changedValues": 2624305,
+        "deltaFrobenius": 0.28148379921913147
+      },
+      {
+        "tensor": "v.blk.22.ffn_down.weight",
+        "offset": 395118048,
+        "bytes": 8388608,
+        "changedValues": 2011017,
+        "deltaFrobenius": 0.1882031410932541
+      },
+      {
+        "tensor": "v.blk.23.ffn_up.weight",
+        "offset": 411944416,
+        "bytes": 8388608,
+        "changedValues": 3063014,
+        "deltaFrobenius": 0.5061752796173096
+      },
+      {
+        "tensor": "v.blk.23.ffn_down.weight",
+        "offset": 420337120,
+        "bytes": 8388608,
+        "changedValues": 2187798,
+        "deltaFrobenius": 0.24743449687957764
+      },
+      {
+        "tensor": "v.blk.3.ffn_up.weight",
+        "offset": 437163488,
+        "bytes": 8388608,
+        "changedValues": 2376931,
+        "deltaFrobenius": 0.21984420716762543
+      },
+      {
+        "tensor": "v.blk.3.ffn_down.weight",
+        "offset": 445556192,
+        "bytes": 8388608,
+        "changedValues": 1944932,
+        "deltaFrobenius": 0.13930104672908783
+      },
+      {
+        "tensor": "v.blk.4.ffn_up.weight",
+        "offset": 462382560,
+        "bytes": 8388608,
+        "changedValues": 2307665,
+        "deltaFrobenius": 0.21742919087409973
+      },
+      {
+        "tensor": "v.blk.4.ffn_down.weight",
+        "offset": 470775264,
+        "bytes": 8388608,
+        "changedValues": 1737872,
+        "deltaFrobenius": 0.12300024181604385
+      },
+      {
+        "tensor": "v.blk.5.ffn_up.weight",
+        "offset": 487601632,
+        "bytes": 8388608,
+        "changedValues": 2335956,
+        "deltaFrobenius": 0.22225548326969147
+      },
+      {
+        "tensor": "v.blk.5.ffn_down.weight",
+        "offset": 495994336,
+        "bytes": 8388608,
+        "changedValues": 1787231,
+        "deltaFrobenius": 0.13004522025585175
+      },
+      {
+        "tensor": "v.blk.6.ffn_up.weight",
+        "offset": 512820704,
+        "bytes": 8388608,
+        "changedValues": 2261239,
+        "deltaFrobenius": 0.21458092331886292
+      },
+      {
+        "tensor": "v.blk.6.ffn_down.weight",
+        "offset": 521213408,
+        "bytes": 8388608,
+        "changedValues": 1659838,
+        "deltaFrobenius": 0.12123069912195206
+      },
+      {
+        "tensor": "v.blk.7.ffn_up.weight",
+        "offset": 538039776,
+        "bytes": 8388608,
+        "changedValues": 2318642,
+        "deltaFrobenius": 0.2285820096731186
+      },
+      {
+        "tensor": "v.blk.7.ffn_down.weight",
+        "offset": 546432480,
+        "bytes": 8388608,
+        "changedValues": 1752070,
+        "deltaFrobenius": 0.14067654311656952
+      },
+      {
+        "tensor": "v.blk.8.ffn_up.weight",
+        "offset": 563258848,
+        "bytes": 8388608,
+        "changedValues": 2376317,
+        "deltaFrobenius": 0.23429471254348755
+      },
+      {
+        "tensor": "v.blk.8.ffn_down.weight",
+        "offset": 571651552,
+        "bytes": 8388608,
+        "changedValues": 1866685,
+        "deltaFrobenius": 0.15245197713375092
+      },
+      {
+        "tensor": "v.blk.9.ffn_up.weight",
+        "offset": 588477920,
+        "bytes": 8388608,
+        "changedValues": 2413687,
+        "deltaFrobenius": 0.23981067538261414
+      },
+      {
+        "tensor": "v.blk.9.ffn_down.weight",
+        "offset": 596870624,
+        "bytes": 8388608,
+        "changedValues": 1938324,
+        "deltaFrobenius": 0.15225426852703094
+      }
+    ]
+  }
+}

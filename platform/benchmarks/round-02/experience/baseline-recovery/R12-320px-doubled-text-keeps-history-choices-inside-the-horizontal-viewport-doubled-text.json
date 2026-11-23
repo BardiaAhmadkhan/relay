@@ -1,0 +1,70 @@
+{
+  "simulation": "Browser-only text-size and line-height doubling; not native Dynamic Type",
+  "textNodes": 25,
+  "viewport": 320,
+  "metrics": [
+    {
+      "name": "Has it been worn in a crash? No",
+      "left": 58,
+      "right": 132,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Has it been worn in a crash? Yes",
+      "left": 140,
+      "right": 214,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Has it been worn in a crash? Not sure",
+      "left": 222,
+      "right": 296,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Any damage in a protective area? No",
+      "left": 58,
+      "right": 132,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Any damage in a protective area? Yes",
+      "left": 140,
+      "right": 214,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Any damage in a protective area? Not sure",
+      "left": 222,
+      "right": 296,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Any repairs in a protective area? No",
+      "left": 58,
+      "right": 132,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Any repairs in a protective area? Yes",
+      "left": 140,
+      "right": 214,
+      "width": 74,
+      "height": 96
+    },
+    {
+      "name": "Any repairs in a protective area? Not sure",
+      "left": 222,
+      "right": 296,
+      "width": 74,
+      "height": 96
+    }
+  ]
+}

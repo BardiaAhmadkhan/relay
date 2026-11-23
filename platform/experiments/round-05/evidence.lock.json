@@ -1,0 +1,142 @@
+{
+  "at": "2026-10-26T19:45:30.740Z",
+  "purpose": "Freeze round05 selection, failures, original snapshots and measured evidence. Never replace them with a later run.",
+  "files": [
+    {
+      "path": "experiments/round-05/baseline.json",
+      "sha256": "9d293c45654546721282931a6661cc8bf75b9067741c62b452d01a326b6f813f"
+    },
+    {
+      "path": "experiments/round-05/baseline/packages--vision--inspection.ts",
+      "sha256": "c2a8af7b15c9479a2314f1014d08ab63ca72369254586643f55a5578621821a2"
+    },
+    {
+      "path": "experiments/round-05/baseline/packages--vision--inspection-prompt.ts",
+      "sha256": "f1f1acf1171a484ebf40556fefc61c55a44304bf72096a8eaa543472b1a1b5d4"
+    },
+    {
+      "path": "experiments/round-05/baseline/packages--vision--verification-prompt.ts",
+      "sha256": "89524bb5b87e0b82ab404c5cf77c7905b89a28ea2f95e1e2e655b64dc4f74320"
+    },
+    {
+      "path": "experiments/round-05/baseline/packages--core--policy.ts",
+      "sha256": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1"
+    },
+    {
+      "path": "experiments/round-05/baseline/packages--core--schema.ts",
+      "sha256": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0"
+    },
+    {
+      "path": "experiments/round-05/baseline/server--images.ts",
+      "sha256": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79"
+    },
+    {
+      "path": "experiments/round-05/selected/inspection.ts",
+      "sha256": "596dcc860d3a76afa2f61c872f0033a8625a79f49fdeac60262ab4e992653b25"
+    },
+    {
+      "path": "experiments/round-05/selected/abrasion-cue.ts",
+      "sha256": "dead47a82cddd316efc43155c77645fb7138406a13a77687d0c90c4ea52c212e"
+    },
+    {
+      "path": "experiments/round-05/hard-case-protocol.json",
+      "sha256": "2c72c23c7fa6474e83f99fee403856029380eb9c99dd6c8d75935b10fffd80a4"
+    },
+    {
+      "path": "experiments/round-05/probe-protocol.json",
+      "sha256": "ba9f218bc2eda465f9d8c90229a3443045686ba50be5d6b4bf6ca9f6e8d24f7a"
+    },
+    {
+      "path": "experiments/round-05/cue-protocol.json",
+      "sha256": "d61340a039f4a83620761eb95abbfc3cb9f2aa97d0e894a13d716ec1a07f0669"
+    },
+    {
+      "path": "experiments/round-05/cue-256-protocol.json",
+      "sha256": "ce6ee80e675153e56228a16f46a2f139846ee8532ee31ab4291502646163cdcf"
+    },
+    {
+      "path": "experiments/round-05/cue-light-protocol.json",
+      "sha256": "ccf733d3e3719c1c4cee6df96c68b2858947f640aa4b6be0b18a12f927d95e5a"
+    },
+    {
+      "path": "experiments/round-05/verified-cue-protocol.json",
+      "sha256": "661d82b3e9a93f2533e0cb0858537ed90551be7055e4ca9f20732072e40f0d4d"
+    },
+    {
+      "path": "experiments/round-05/verified-cue-protocol-note.json",
+      "sha256": "e8c340d0dcbb31155672bfe16c7346024c53f9fdefdbb810af61bb529f367fa2"
+    },
+    {
+      "path": "experiments/round-05/repeat-protocol.json",
+      "sha256": "55c02c180f082611896d785a4ba4c1108088a3feba499e342cb5f78f308c1406"
+    },
+    {
+      "path": "experiments/round-05/abrasion-rescue.ts",
+      "sha256": "45441cb9ecd9b5ef39ba6b59c0c86c025b07f57e3c799df66a8baa01947f3e52"
+    },
+    {
+      "path": "experiments/round-05/abrasion-cue.ts",
+      "sha256": "3f41fd502afcc77b1b11a5901c4b473c2d3c365f4444233fd5ecf4963f6d35a7"
+    },
+    {
+      "path": "experiments/round-05/abrasion-cue-256.ts",
+      "sha256": "51fa47026b5960d0f7e65f7920fb0605f47267196b4a92d45749fff84758bd6c"
+    },
+    {
+      "path": "experiments/round-05/abrasion-cue-light.ts",
+      "sha256": "8c7e326de721dc4ab4617d211196bdd7f6b80a105b584a2a30c625f839ce9f6a"
+    },
+    {
+      "path": "benchmarks/round-05/probe-results.json",
+      "sha256": "098bc9920dee1f111c5ad3a53fa8b5ac9f47d35edb9d8f1280e540f20d8df3d3"
+    },
+    {
+      "path": "benchmarks/round-05/hard-case-results.json",
+      "sha256": "7ecf97a7e6d63c873050f7e573846851b3e70f6794e58ac8e241a8556dfb2d78"
+    },
+    {
+      "path": "benchmarks/round-05/cue-results.json",
+      "sha256": "f1262c26964474b3f5ff43261161822439739da7ec003af00dab26ba5495e457"
+    },
+    {
+      "path": "benchmarks/round-05/cue-256-results.json",
+      "sha256": "b44f1a39f50cce987a8ecb6b2db23c54b361c67ed55508cb1fb61b679a679796"
+    },
+    {
+      "path": "benchmarks/round-05/verified-cue-results.json",
+      "sha256": "ddae1a15c2ec555d51b334501804da94e092019034ba0f9f674c7767736f95ab"
+    },
+    {
+      "path": "benchmarks/round-05/cue-light-results.json",
+      "sha256": "232822de5ab266530c5c9432a470108b8f1921689e299aa9675dfa3ef9fb024f"
+    },
+    {
+      "path": "benchmarks/round-05/repeat-results.json",
+      "sha256": "d6ce1b8c07f74355b5548c21fa5c35595a253748c8cf045fbe3343d7ac67c1e4"
+    },
+    {
+      "path": "benchmarks/round-05/summary.json",
+      "sha256": "55611d3c19b2944bfb5ac1194298d4bfcfaf21a4ae232118ad02ccc9e817bf74"
+    },
+    {
+      "path": "benchmarks/round-05/unit-cache-scoped.json",
+      "sha256": "d49e15ccc35e31d772008dc362487b2a0d9c3c0401396380f8bfa37b65bc5f39"
+    },
+    {
+      "path": "benchmarks/round-05/restored-cue-ui.json",
+      "sha256": "2ee3d6465e27541d7df0afd1cdb174301f349cc191005ac379e213e1033a660c"
+    },
+    {
+      "path": "benchmarks/round-05/cache-scope-live.json",
+      "sha256": "dd87e64efcb073460a44e7502bec194f3e1fbb50c6c2aa7210d9f6d4bcda0c0c"
+    },
+    {
+      "path": "assets/fixtures/round-05/acquisition.json",
+      "sha256": "bf2032155ba2f5f1debe5e0ddbb67ba52de491f2620350238663c8f56ef98ea3"
+    },
+    {
+      "path": "assets/fixtures/round-05/acquisition-public-domain.json",
+      "sha256": "430fcb0c91cd6908c25d25f9cbfdcef0e3317623aa0f6c347075b5be9fbb6655"
+    }
+  ]
+}

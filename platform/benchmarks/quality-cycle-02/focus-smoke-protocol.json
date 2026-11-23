@@ -1,0 +1,23 @@
+{
+  "startedAt": "2026-10-26T22:19:16.468Z",
+  "set": "audit",
+  "cases": 2,
+  "mode": "Frozen actual baseline outputs plus live candidate recovery",
+  "model": "qwen3.5:4b",
+  "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "sourceHashes": [
+    {
+      "path": "experiments/quality-cycle-02/focused-tear.ts",
+      "sha256": "1272512fc1eb95af9be9b02d9bda60f5dd0d2674b227aeb68c8129708e3d1c30"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "d0e4acf9c6cc45b8a53b4ff915d5b3dc8e3daf6262678eee5042b915b3ef1f19"
+    },
+    {
+      "path": "scripts/quality-cycle-02-focus-evaluate-v2.ts",
+      "sha256": "705abf6eab89e1b5aa43026228b641479f44e37563d17f2f7ad29400cea578d9"
+    }
+  ],
+  "gate": "No recovery on any visually negative image; no lost or altered previously matched positive evidence; every new recovery inspected for correspondence. Ambiguous images separate. Operational fallback preserves baseline. Fresh labels frozen before this run."
+}

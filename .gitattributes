@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.webp binary
+*.woff2 binary
+# Preserve upstream license notices verbatim.
+notices/*-OFL.txt -whitespace
+*.png binary
+*.jpg binary
+*.jpeg binary

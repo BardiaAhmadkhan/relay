@@ -1,0 +1,16 @@
+{
+  "name": "relay-backend-runtime",
+  "version": "3.5.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.12.x"
+  },
+  "dependencies": {
+    "@fastify/cors": "11.3.1",
+    "fastify": "5.12.7",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "zod": "4.6.7"
+  }
+}

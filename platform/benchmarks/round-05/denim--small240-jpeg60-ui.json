@@ -1,0 +1,105 @@
+{
+  "result": {
+    "schemaVersion": "1.0",
+    "assessmentId": "2546bb4a-6c39-4a9f-8b4c-3da2765d7025",
+    "status": "complete",
+    "photos": [
+      {
+        "id": "470f7a5f-565e-4c52-948f-ff9380df452a",
+        "view": "front",
+        "sha256": "0cd2d3fee40e5622f6995504e834ef99b5e2d3cffd8e8c5e9b570c6f4ea51106",
+        "byteLength": 10524,
+        "quality": {
+          "width": 240,
+          "height": 214,
+          "brightness": 125.3295117020035,
+          "sharpness": 1461.3252006399798,
+          "warnings": [
+            "low_resolution"
+          ]
+        }
+      }
+    ],
+    "observation": {
+      "schemaVersion": "1.0",
+      "category": "motorcycle_jacket",
+      "attributes": [
+        {
+          "field": "material",
+          "value": "denim",
+          "kind": "inference",
+          "imageIds": [
+            "470f7a5f-565e-4c52-948f-ff9380df452a"
+          ]
+        }
+      ],
+      "concerns": [],
+      "missingViews": [
+        "back",
+        "label"
+      ],
+      "multipleItems": false,
+      "inspection": {
+        "version": "photo-evidence-1",
+        "photos": [
+          {
+            "findings": [],
+            "crashPattern": "not_observed",
+            "category": "motorcycle_jacket",
+            "material": "denim",
+            "imageId": "470f7a5f-565e-4c52-948f-ff9380df452a"
+          }
+        ]
+      },
+      "provider": "local_vlm",
+      "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+      "coverage": "visual_observations",
+      "durationMs": 2011.0685999999987,
+      "usage": {
+        "inputTokens": 1713,
+        "outputTokens": 50
+      }
+    },
+    "decision": {
+      "state": "more_information",
+      "policyVersion": "2026-10-26.2",
+      "title": "A clearer photo is needed",
+      "summary": "The available detail is too limited to rely on an empty finding. Add a sharper, closer photograph in even light.",
+      "reasons": [
+        {
+          "code": "quality_470f7a5f-565e-4c52-948f-ff9380df452a",
+          "text": "Retake the front photograph with more detail."
+        }
+      ],
+      "nextAction": "Retake the affected view. The existing history and other photographs stay in the record.",
+      "offerRecommended": false,
+      "protectivePerformanceCertified": false
+    },
+    "timing": {
+      "totalMs": 2031.578199999989,
+      "preprocessingMs": 20.251599999988684,
+      "inferenceMs": 2011.0685999999987,
+      "cached": false
+    }
+  },
+  "calls": [
+    {
+      "call": 11,
+      "at": "2026-10-26T19:33:06.143Z",
+      "stage": "extraction",
+      "elapsedMs": 853.7929000000004,
+      "promptTokens": 456,
+      "outputTokens": 43
+    },
+    {
+      "call": 12,
+      "at": "2026-10-26T19:33:07.299Z",
+      "stage": "low-detail-cue",
+      "elapsedMs": 1125.8937999999907,
+      "promptTokens": 1257,
+      "outputTokens": 7,
+      "returnedCue": false
+    }
+  ],
+  "boundary": "Actual browser decode/JPEG preparation and API pipeline. A negative control may retain an existing primary-model concern; this check forbids an added recovery flag."
+}

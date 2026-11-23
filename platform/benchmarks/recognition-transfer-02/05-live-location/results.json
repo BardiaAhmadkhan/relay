@@ -1,0 +1,134 @@
+{
+  "items": 128,
+  "mainRows": 256,
+  "repeatCount": 6,
+  "repeatMaxDifference": 0.0,
+  "results": {
+    "stock4B": {
+      "first": {
+        "holes": 32,
+        "spots": 32,
+        "pairCount": 1024,
+        "wholePairs": 679.0,
+        "regionPairs": 931.0,
+        "wholeAUC": 0.6630859375,
+        "regionAUC": 0.9091796875,
+        "gain": 0.24609375,
+        "gainCI95": [
+          0.1376953125,
+          0.36721191406249964
+        ],
+        "diagnosticWholeHoleFlags": 4,
+        "diagnosticRegionHoleFlags": 19,
+        "diagnosticWholeSpotFlags": 0,
+        "diagnosticRegionSpotFlags": 0
+      },
+      "second": {
+        "holes": 32,
+        "spots": 32,
+        "pairCount": 1024,
+        "wholePairs": 767.0,
+        "regionPairs": 896.0,
+        "wholeAUC": 0.7490234375,
+        "regionAUC": 0.875,
+        "gain": 0.1259765625,
+        "gainCI95": [
+          0.0029052734375000083,
+          0.25588378906249964
+        ],
+        "diagnosticWholeHoleFlags": 5,
+        "diagnosticRegionHoleFlags": 22,
+        "diagnosticWholeSpotFlags": 0,
+        "diagnosticRegionSpotFlags": 5
+      },
+      "pooled": {
+        "holes": 64,
+        "spots": 64,
+        "pairCount": 4096,
+        "wholePairs": 2896.0,
+        "regionPairs": 3658.0,
+        "wholeAUC": 0.70703125,
+        "regionAUC": 0.89306640625,
+        "gain": 0.18603515625,
+        "gainCI95": [
+          0.108636474609375,
+          0.2678283691406249
+        ],
+        "diagnosticWholeHoleFlags": 9,
+        "diagnosticRegionHoleFlags": 41,
+        "diagnosticWholeSpotFlags": 0,
+        "diagnosticRegionSpotFlags": 5
+      }
+    },
+    "stock2B": {
+      "first": {
+        "holes": 32,
+        "spots": 32,
+        "pairCount": 1024,
+        "wholePairs": 720.0,
+        "regionPairs": 871.0,
+        "wholeAUC": 0.703125,
+        "regionAUC": 0.8505859375,
+        "gain": 0.1474609375,
+        "gainCI95": [
+          0.02734375,
+          0.2763671875
+        ],
+        "diagnosticWholeHoleFlags": 1,
+        "diagnosticRegionHoleFlags": 6,
+        "diagnosticWholeSpotFlags": 0,
+        "diagnosticRegionSpotFlags": 0
+      },
+      "second": {
+        "holes": 32,
+        "spots": 32,
+        "pairCount": 1024,
+        "wholePairs": 747.0,
+        "regionPairs": 900.0,
+        "wholeAUC": 0.7294921875,
+        "regionAUC": 0.87890625,
+        "gain": 0.1494140625,
+        "gainCI95": [
+          0.013671875,
+          0.2939453125
+        ],
+        "diagnosticWholeHoleFlags": 3,
+        "diagnosticRegionHoleFlags": 7,
+        "diagnosticWholeSpotFlags": 0,
+        "diagnosticRegionSpotFlags": 0
+      },
+      "pooled": {
+        "holes": 64,
+        "spots": 64,
+        "pairCount": 4096,
+        "wholePairs": 2932.0,
+        "regionPairs": 3525.0,
+        "wholeAUC": 0.7158203125,
+        "regionAUC": 0.860595703125,
+        "gain": 0.144775390625,
+        "gainCI95": [
+          0.058343505859375006,
+          0.23414306640624982
+        ],
+        "diagnosticWholeHoleFlags": 4,
+        "diagnosticRegionHoleFlags": 13,
+        "diagnosticWholeSpotFlags": 0,
+        "diagnosticRegionSpotFlags": 0
+      }
+    }
+  },
+  "gates": {
+    "positiveInBoth": true,
+    "positivePooledLowerBound": true,
+    "complete": true,
+    "identicalRepeats": true
+  },
+  "passesLocationGate": true,
+  "hardware": {
+    "peakTemp": 84,
+    "peakVramMiB": 4076,
+    "minFreeRamMiB": 4071,
+    "peakPowerW": 112.27,
+    "samples": 353
+  }
+}

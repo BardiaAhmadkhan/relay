@@ -1,0 +1,90 @@
+{
+  "createdAt": "2026-10-26T21:47:29.861Z",
+  "scope": "Root-cause repairs after quality-audit-01. Sequential changes, local inference only. No phone integration or benchmark label changes.",
+  "baseline": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "sha256": "596dcc860d3a76afa2f61c872f0033a8625a79f49fdeac60262ab4e992653b25",
+      "snapshot": "experiments/quality-cycle-02/baseline/packages--vision--inspection.ts"
+    },
+    {
+      "path": "packages/vision/inspection-prompt.ts",
+      "sha256": "f1f1acf1171a484ebf40556fefc61c55a44304bf72096a8eaa543472b1a1b5d4",
+      "snapshot": "experiments/quality-cycle-02/baseline/packages--vision--inspection-prompt.ts"
+    },
+    {
+      "path": "packages/vision/verification-prompt.ts",
+      "sha256": "89524bb5b87e0b82ab404c5cf77c7905b89a28ea2f95e1e2e655b64dc4f74320",
+      "snapshot": "experiments/quality-cycle-02/baseline/packages--vision--verification-prompt.ts"
+    },
+    {
+      "path": "packages/vision/abrasion-cue.ts",
+      "sha256": "dead47a82cddd316efc43155c77645fb7138406a13a77687d0c90c4ea52c212e",
+      "snapshot": "experiments/quality-cycle-02/baseline/packages--vision--abrasion-cue.ts"
+    },
+    {
+      "path": "packages/core/policy.ts",
+      "sha256": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1",
+      "snapshot": "experiments/quality-cycle-02/baseline/packages--core--policy.ts"
+    },
+    {
+      "path": "packages/core/schema.ts",
+      "sha256": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0",
+      "snapshot": "experiments/quality-cycle-02/baseline/packages--core--schema.ts"
+    },
+    {
+      "path": "server/images.ts",
+      "sha256": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79",
+      "snapshot": "experiments/quality-cycle-02/baseline/server--images.ts"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "59d851df41297873634cfa93146d937588a1460b575f42d70668d40c4da21a7f",
+      "snapshot": "experiments/quality-cycle-02/baseline/server--app.ts"
+    },
+    {
+      "path": "packages/vision/validation.ts",
+      "snapshot": "experiments/quality-cycle-02/baseline/packages--vision--validation.ts",
+      "sha256": "4f0f38584b09368709d8de27c34a0b1f5e1905cb6f0492b8f42e15c543801074"
+    },
+    {
+      "path": "tests/api.test.ts",
+      "snapshot": "experiments/quality-cycle-02/baseline/tests--api.test.ts",
+      "sha256": "9d073399d12d6099e72dbd622f27ba6469680d89b82308f8a6d508aee5b32331"
+    },
+    {
+      "path": "tests/inspection.test.ts",
+      "snapshot": "experiments/quality-cycle-02/baseline/tests--inspection.test.ts",
+      "sha256": "12a313a39c3eb572d4db160dd4c786dc51e45170299ff1e565c108b1df5673f3"
+    }
+  ],
+  "stages": [
+    {
+      "id": "transport",
+      "target": "Active inference loses idle HTTP connection after 10 seconds",
+      "gate": "A real HTTP request completing after 10 seconds succeeds on its first attempt; actual processing deadline still aborts and returns a bounded error; deduplication, busy slot, privacy and cache invariants preserved."
+    },
+    {
+      "id": "physical-evidence-review",
+      "target": "Verifier admits ordinary features and cannot correct unsupported defect descriptions",
+      "gate": "Reduce false alerts while retaining every previously matched positive and original/round-05 damage detections; inspect correspondence, not just any flag. Reject candidates with newly missed real defects. Fresh cases labelled before candidate inference; no labels or filenames supplied to model."
+    },
+    {
+      "id": "coverage-and-type",
+      "target": "Small-region misses, wrong kind and invented garment anatomy",
+      "gate": "Treat as subsequent separate experiments. No unsupported recovery or invented anatomy. Full regression after selected change."
+    }
+  ],
+  "baselineAudit": "benchmarks/quality-audit-01/evaluation-full.json",
+  "labels": "datasets/quality-audit-01/labels.json",
+  "limits": [
+    "Audit labels are assistant visual annotations, not specialist physical inspection or crash-history truth.",
+    "The 194 audited photos are now development/regression data, not an untouched test set.",
+    "No claim of phone performance or general production accuracy."
+  ],
+  "sources": [
+    "https://fastify.dev/docs/latest/Reference/Server/#connectiontimeout",
+    "https://fastify.dev/docs/latest/Reference/Server/#requesttimeout",
+    "https://nodejs.org/api/http.html#responsesettimeoutmsecs-callback"
+  ]
+}

@@ -1,0 +1,8 @@
+Relay offline vision
+Qwen3.5-4B, Qwen Team. Apache License 2.0.
+The exact model and projector are the existing pinned local reference weights.
+Ollama manifest: d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04
+Model SHA-256: a9d0a3e1d8c91732a3812becd31f8d4a8ff57414903f226306069f0437e2ac50
+Projector SHA-256: e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60
+Runtime: llama.rn (MIT), llama.cpp (MIT).
+Research build; no certification of protective equipment.

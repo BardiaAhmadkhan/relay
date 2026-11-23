@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-26T21:14:23.149Z",
+  "purpose": "Secondary review of whether a returned finding actually identifies the reference defect, rather than merely producing any alert. Adds no source labels, input changes, prompt changes or tuning.",
+  "timing": "Defined after 39 initial corpus results, when several nominally detected cases described normal seams or raw cut boundaries instead of the reference tear/abrasion. This is explicitly secondary post-output adjudication, not a preregistered blinded primary metric.",
+  "cases": "All 75 reference-positive images, including those with no findings. Review against the unchanged image and frozen label, not against filenames.",
+  "categories": {
+    "matched": "At least one finding describes the visible reference break, fraying or coating loss; classify wrong type or invented anatomy separately.",
+    "partial": "The suspicious region is noticed but described ambiguously or as a different material mechanism; requires correction.",
+    "missed": "No returned finding identifies the visible reference defect, even if another normal feature triggers an alert.",
+    "unscorable": "No completed model output or insufficient basis for a reliable correspondence decision."
+  },
+  "reviewer": "Assistant visual review; not independent expert adjudication.",
+  "reporting": "Keep primary any-flag detection, type agreement and this correspondence review separate. Do not add overlapping failures into one total."
+}

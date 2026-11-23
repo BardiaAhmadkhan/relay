@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';import path from 'node:path';
+export default defineConfig({testDir:path.resolve('tests'),testMatch:'round-05-live.spec.ts',workers:1,timeout:60000,reporter:[['list'],['json',{outputFile:path.resolve('benchmarks/round-05/live-ui.json')}]],use:{baseURL:'http://localhost:4173',browserName:'chromium',channel:'chrome',viewport:{width:390,height:844},reducedMotion:'reduce',actionTimeout:15000,trace:'retain-on-failure'},outputDir:path.resolve('output/playwright/round-05/traces')});

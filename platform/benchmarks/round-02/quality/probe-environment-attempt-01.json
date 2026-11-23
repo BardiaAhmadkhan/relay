@@ -1,0 +1,1 @@
+﻿{"recordedAt":"2026-10-26","command":"node --import tsx scripts/round-02/quality-probes.ts","outcome":"environment_failure_before_browser_probe","error":"Playwright bundled chromium_headless_shell-1248 was unavailable","recovery":"Use already-installed Chrome channel; no installation or package change","earlierMeasurementFilesChanged":false}

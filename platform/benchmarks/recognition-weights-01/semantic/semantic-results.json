@@ -1,0 +1,345 @@
+{
+  "primaryMeanWithinSessionAuc": {
+    "base": 0.976562,
+    "semantic": 0.976562,
+    "control": 0.984375
+  },
+  "sameCohortOriginalBrokenQuestionMeanAuc": {
+    "base": 0.976562,
+    "semantic": 0.976562,
+    "control": 0.960938
+  },
+  "transferBandChanges": {
+    "semantic": [],
+    "control": [
+      {
+        "id": "fresh-commons-016",
+        "cohort": "transfer_damaged",
+        "from": "review",
+        "to": "clear"
+      }
+    ]
+  },
+  "groups": {
+    "fabric": {
+      "base": {
+        "margin": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.976562,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.984375,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.980469,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.976562,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.988281,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.984375,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.984375,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.988281,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 32,
+          "positive": 16,
+          "auc": 0.96875,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        -0.023438,
+        0.023438
+      ]
+    },
+    "fabric/fd-capture-2023-11-19": {
+      "base": {
+        "margin": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 16,
+          "positive": 8,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        0.0,
+        0.0
+      ]
+    },
+    "fabric/fd-capture-2024-02-11": {
+      "base": {
+        "margin": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.953125,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.953125,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.953125,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.953125,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.96875,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.953125,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.96875,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.96875,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 16,
+          "positive": 8,
+          "auc": 0.921875,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        -0.078125,
+        0.0625
+      ]
+    },
+    "transfer": {
+      "base": {
+        "margin": {
+          "n": 26,
+          "positive": 10,
+          "auc": 0.94375,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 26,
+          "positive": 10,
+          "auc": 0.93125,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 26,
+          "positive": 10,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 26,
+          "positive": 10,
+          "auc": 0.95,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 26,
+          "positive": 10,
+          "auc": 0.94375,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 26,
+          "positive": 10,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 26,
+          "positive": 10,
+          "auc": 0.93125,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 26,
+          "positive": 10,
+          "auc": 0.925,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 26,
+          "positive": 10,
+          "auc": 0.99375,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        0.0,
+        0.0375
+      ]
+    }
+  },
+  "failureCount": {
+    "base": 0,
+    "semantic": 0,
+    "control": 0
+  },
+  "rawAndMatchedRows": [
+    183,
+    183
+  ],
+  "operationalEvents": [
+    {
+      "event": "start",
+      "at": "2026-11-19T03:53:16.938Z",
+      "version": "0.40.16",
+      "specSha": "c7efc89dd0cb337a957bfdf65e43cbc69ab079c2ca57f839e8a3e58b69aeb6de",
+      "blockSize": 15
+    },
+    {
+      "event": "stop",
+      "at": "2026-11-19T04:03:35.821Z",
+      "health": {
+        "peakTemp": 80,
+        "peakVramMiB": 3228,
+        "minFreeRamMiB": 7845,
+        "peakPowerW": 93.32,
+        "samples": 687
+      },
+      "failure": null
+    }
+  ],
+  "repeatMaxDelta": [
+    {
+      "id": "fresh-commons-011",
+      "delta": 0.0
+    },
+    {
+      "id": "commons-001",
+      "delta": 0.0
+    },
+    {
+      "id": "fd-2024-02-11-976d3fb849a3",
+      "delta": 0.0
+    },
+    {
+      "id": "fresh-commons-016",
+      "delta": 0.0
+    },
+    {
+      "id": "commons-008",
+      "delta": 0.0
+    },
+    {
+      "id": "commons-002",
+      "delta": 0.0
+    }
+  ]
+}

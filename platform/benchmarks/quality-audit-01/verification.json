@@ -1,0 +1,54 @@
+{
+  "recordedAt": "2026-10-26T21:37:25.445Z",
+  "status": "complete diagnostic audit; no product change",
+  "images": 194,
+  "labelsFrozenBeforeInference": true,
+  "labelsSha256": "e7bcabdc1e5dc57aebfb1e00ecfe4a8be181fea3e87bbcb2b4e535e038b7004e",
+  "baselineSourceHashesMatched": 8,
+  "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+  "all194ResponseIdsAndSchemaChecked": true,
+  "all194ImageHashesChecked": true,
+  "all194DecisionSafetyInvariantsChecked": true,
+  "sourceImageExactDuplicates": 0,
+  "correspondenceReviewedPositiveCases": 75,
+  "referenceLabelDisputes": 3,
+  "originalJacketRegressionsPassed": 3,
+  "originalJacketRegressionsTotal": 3,
+  "typecheckPassed": true,
+  "formatCheckPassed": true,
+  "documentationLinkCheckPassed": true,
+  "originalFrozenArtifactsPreserved": 54,
+  "referenceLabelArtifactsPreserved": 10,
+  "browserReview": {
+    "failureFilter": true,
+    "correspondenceFilterCount": 12,
+    "disputedFilterCount": 3,
+    "detailDialog": true,
+    "narrowViewport": 390,
+    "narrowDocumentWidth": 390,
+    "initialPageLoadedImages": 24,
+    "brokenInitialPageImages": 0,
+    "screenshots": [
+      "output/playwright/quality-audit-01/complete-overview.png",
+      "output/playwright/quality-audit-01/mobile-review-final.png",
+      "output/playwright/quality-audit-01/failure-detail.png"
+    ]
+  },
+  "package": {
+    "at": "2026-10-26T21:37:25.365907+00:00",
+    "file": "artifacts/relay-quality-audit-01.zip",
+    "bytes": 39662792,
+    "sha256": "b9dbde1a4a0c8cc14e5eb0652d8128de4988fe4f292186e62c5565a7ac6b34f6",
+    "entries": 228,
+    "sourceImages": 194,
+    "zipReadbackImageHashesMatched": 194,
+    "originalUserPhotographsIncluded": false
+  },
+  "limits": [
+    "Purposeful source collection, not business prevalence; raw material cases reported separately.",
+    "Assistant visual labels and secondary correspondence review, not independent expert adjudication.",
+    "Three frozen negative labels disputed; original scores and sensitivity results both retained.",
+    "Initial socket failures required harness retries; app behavior unchanged.",
+    "Host timing varied during the run; not a controlled phone-performance measurement."
+  ]
+}

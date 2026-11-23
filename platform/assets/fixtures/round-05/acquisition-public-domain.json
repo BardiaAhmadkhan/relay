@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-26T18:48:09.971Z",
+  "acquired": [
+    {
+      "id": "biker-black",
+      "title": "Black leather biker jacket.jpg",
+      "author": "Jtdirl",
+      "group": "new-biker-black",
+      "revision": 825175635,
+      "file": "assets/fixtures/round-05/biker-black.jpg",
+      "license": "Public domain - released by author",
+      "licenceBasis": "The primary file page explicitly records release by author for any purpose. Independently read before acquiring; initial strict CC-only acquisition excluded these.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_leather_biker_jacket.jpg",
+      "pageRevision": 825175635,
+      "retrievedAt": "2026-10-26T18:48:08.337Z",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Black_leather_biker_jacket.jpg",
+      "downloadSha256": "adddf8db94b89c4e59d8ae92b0e043c0f2a4b78336e7d7a9f8fec07a5d130d8f",
+      "sha256": "7c140fddc46e7266db7f37f3d654c47d129d2a43f483f3a9033d39f429b4772a",
+      "transformation": "Rotate, resize <=960px, JPEG88, strip metadata."
+    },
+    {
+      "id": "schott-613",
+      "title": "70s Schott 613.jpg",
+      "author": "Zeus Cervas / Crippe",
+      "group": "new-schott-613",
+      "revision": 950021757,
+      "file": "assets/fixtures/round-05/schott-613.jpg",
+      "license": "Public domain - released by author",
+      "licenceBasis": "The primary file page explicitly records release by author for any purpose. Independently read before acquiring; initial strict CC-only acquisition excluded these.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:70s_Schott_613.jpg",
+      "pageRevision": 950021757,
+      "retrievedAt": "2026-10-26T18:48:09.971Z",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/70s_Schott_613.jpg",
+      "downloadSha256": "03c764bbcc6d9f652580848d8be4cf84fed52b7c8f9f0dd76986c2c71f97261d",
+      "sha256": "013e508c0bae02503cc8fb545002f661d423c807662f3b13dbc2ad9aa2d84371",
+      "transformation": "Rotate, resize <=960px, JPEG88, strip metadata."
+    }
+  ]
+}

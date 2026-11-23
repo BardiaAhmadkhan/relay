@@ -1,0 +1,4 @@
+{
+  "requests": 2,
+  "mode": "Routed synthetic observations only; no external call or real condition evaluation."
+}

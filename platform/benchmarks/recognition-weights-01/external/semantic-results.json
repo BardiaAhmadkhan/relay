@@ -1,0 +1,359 @@
+{
+  "riseItemLevel": {
+    "base": {
+      "n": 2,
+      "positive": 1,
+      "auc": 1.0,
+      "stockBrokenAuc": 0.0,
+      "missing": []
+    },
+    "semantic": {
+      "n": 2,
+      "positive": 1,
+      "auc": 1.0,
+      "stockBrokenAuc": 0.0,
+      "missing": []
+    },
+    "control": {
+      "n": 2,
+      "positive": 1,
+      "auc": 1.0,
+      "stockBrokenAuc": 0.0,
+      "missing": []
+    }
+  },
+  "nativeBoxPixels": {
+    "holes": [
+      3.5,
+      20.5,
+      172.0
+    ],
+    "spots": [
+      11.0,
+      40.58,
+      635.38
+    ]
+  },
+  "groups": {
+    "wargon/whole": {
+      "base": {
+        "margin": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.6875,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.736111,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.743056,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.6875,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.736111,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.763889,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.673611,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.722222,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.722222,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        -0.041667,
+        0.041667
+      ]
+    },
+    "wargon/sharedDates/whole": {
+      "base": {
+        "margin": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.733333,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.933333,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.733333,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.933333,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.733333,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        -0.27,
+        0.0
+      ]
+    },
+    "wargon/region": {
+      "base": {
+        "margin": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.895833,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.826389,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.916667,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.902778,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.840278,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.930556,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.902778,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.833333,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 24,
+          "positive": 12,
+          "auc": 0.944444,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        0.0,
+        0.041667
+      ]
+    },
+    "wargon/sharedDates/region": {
+      "base": {
+        "margin": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.8,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "semantic": {
+        "margin": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.8,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "control": {
+        "margin": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        },
+        "breachOnly": {
+          "n": 8,
+          "positive": 3,
+          "auc": 0.8,
+          "missing": []
+        },
+        "stockBrokenQuestion": {
+          "n": 8,
+          "positive": 3,
+          "auc": 1.0,
+          "missing": []
+        }
+      },
+      "conditionalBootstrapDelta95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "failureCount": {
+    "base": 0,
+    "semantic": 0,
+    "control": 0
+  },
+  "rawAndMatchedRows": [
+    162,
+    162
+  ],
+  "operationalEvents": [
+    {
+      "event": "start",
+      "at": "2026-11-19T04:58:32.940Z",
+      "version": "0.40.16",
+      "specSha": "2af3cd1b17abe78ad3f44090cf402e08c90399c08088dfd15d3d69cd0095aa98",
+      "blockSize": 15
+    },
+    {
+      "event": "stop",
+      "at": "2026-11-19T05:02:24.502Z",
+      "health": {
+        "peakTemp": 77,
+        "peakVramMiB": 3224,
+        "minFreeRamMiB": 7613,
+        "peakPowerW": 94.49,
+        "samples": 260
+      },
+      "failure": null
+    }
+  ],
+  "repeatMaxDelta": [
+    {
+      "id": "w-spots-20260219_082320_9647339a-whole",
+      "delta": 0.0
+    },
+    {
+      "id": "w-holes-20260304_132531_b2b5ea30-region",
+      "delta": 0.0
+    },
+    {
+      "id": "w-holes-20260330_084035_d4c00d5b-region",
+      "delta": 0.0
+    },
+    {
+      "id": "w-holes-20260311_151435_b0802668-region",
+      "delta": 0.0
+    },
+    {
+      "id": "w-spots-20260302_124043_e2857f8f-region",
+      "delta": 0.0
+    },
+    {
+      "id": "w-holes-20260304_132531_b2b5ea30-whole",
+      "delta": 0.0
+    }
+  ]
+}

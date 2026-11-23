@@ -1,0 +1,70 @@
+{
+  "health": {
+    "status": "ok",
+    "schemaVersion": "2.0",
+    "batteryVersion": "gear-2",
+    "policyVersion": "2026-11-18.1",
+    "thresholdsVersion": "gear-2-qwen35-4b-e1600-keep98",
+    "calibratedScorers": [
+      "local_logprob"
+    ],
+    "scorers": [
+      {
+        "id": "local_logprob",
+        "model": "qwen3.5:4b@d8b0f5e9760c cascade"
+      }
+    ],
+    "externalProcessing": false,
+    "markedDetails": true,
+    "scoreContext": "2522c8bc60ef14526a3d91fd50994ce5",
+    "processing": "stateless"
+  },
+  "source": "w-holes-20260224_094740_df427313",
+  "totalParameters": 4539265536,
+  "learnedBytes": 3324162336,
+  "overviewScorer": {
+    "id": "local_logprob",
+    "model": "qwen3.5:4b@d8b0f5e9760c cascade"
+  },
+  "overviewQuestions": [
+    "road_contact",
+    "broken",
+    "repair",
+    "usable",
+    "gear",
+    "single_item",
+    "category",
+    "wear"
+  ],
+  "markedScorer": {
+    "id": "local_logprob",
+    "model": "qwen3.5:4b@d8b0f5e9760c"
+  },
+  "markQuestions": [
+    "broken"
+  ],
+  "normalizedSha256": "b7b32228f3a73335250b7a7e593627d6f00747506e853d1fc10a8ea414a78aa2",
+  "p": 0.48447051148012865,
+  "studyP": 0.48447051148012865,
+  "sourceRegion": {
+    "parentId": "smoke-front",
+    "parentView": "front",
+    "source": "capture",
+    "sourceWidth": 2160,
+    "sourceHeight": 3840,
+    "left": 1464,
+    "top": 1348,
+    "side": 71
+  },
+  "parentHashMatches": true,
+  "wrongSignatureStatus": 422,
+  "outcomes": [
+    "retake",
+    "no_offer"
+  ],
+  "hardware": {
+    "peakTemp": 80,
+    "peakMiB": 4076,
+    "minFreeMiB": 8395
+  }
+}

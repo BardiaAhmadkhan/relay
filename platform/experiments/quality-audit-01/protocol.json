@@ -1,0 +1,72 @@
+{
+  "frozenAt": "2026-10-26T20:47:14.276Z",
+  "request": "Download a large image set, label and organize it before running the unchanged system, report failures.",
+  "targetSourceImages": 200,
+  "collectionPlan": {
+    "garmentsAndGear": "Aim for 100 licensed garment/gear images, prefer item-only photographs and defect/hard-negative views; retain selection exclusions.",
+    "fabricCloseups": "80 original distinct photographs stratified by publisher class, separate out-of-domain morphology stress section.",
+    "leatherCloseups": "20 distinct raw leather photos, label only visible condition, separate stress section."
+  },
+  "labelRules": {
+    "condition": [
+      "visible_defect",
+      "no_visible_defect",
+      "ambiguous",
+      "unassessable"
+    ],
+    "defectKinds": [
+      "abrasion",
+      "tear",
+      "seam",
+      "repair",
+      "closure",
+      "other"
+    ],
+    "history": "Unknown for every photograph; do not label crash involvement from appearance.",
+    "source": "Label from direct visual review and publisher annotation where present. Not expert physical inspection.",
+    "leakage": "No candidate training, threshold tuning, or app/model changes during this audit. Freeze labels before any system run. Keep old examples in a separate regression set.",
+    "groups": "Group related garment views and capture sessions; do not count quality variants as independent images."
+  },
+  "metrics": [
+    "Missed defects among visually labelled positive photos",
+    "False flags among visually labelled negative photos",
+    "Wrong defect type and invented anatomy on inspected failures",
+    "Ambiguous/unassessable cases separately",
+    "Malformed results, runtime errors and timeouts",
+    "Latency p50 and p95"
+  ],
+  "baseline": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "sha256": "596dcc860d3a76afa2f61c872f0033a8625a79f49fdeac60262ab4e992653b25"
+    },
+    {
+      "path": "packages/vision/inspection-prompt.ts",
+      "sha256": "f1f1acf1171a484ebf40556fefc61c55a44304bf72096a8eaa543472b1a1b5d4"
+    },
+    {
+      "path": "packages/vision/verification-prompt.ts",
+      "sha256": "89524bb5b87e0b82ab404c5cf77c7905b89a28ea2f95e1e2e655b64dc4f74320"
+    },
+    {
+      "path": "packages/vision/abrasion-cue.ts",
+      "sha256": "dead47a82cddd316efc43155c77645fb7138406a13a77687d0c90c4ea52c212e"
+    },
+    {
+      "path": "packages/core/policy.ts",
+      "sha256": "a26d977e62c3f0a824a8149b0370d4a5cbacc25bd4b20e2ddd6cc7ba253d53f1"
+    },
+    {
+      "path": "packages/core/schema.ts",
+      "sha256": "8a07e2f232e04066ff7b4c3cd2a7e37a938f0bb155aab76c0f8a0a33968f72e0"
+    },
+    {
+      "path": "server/images.ts",
+      "sha256": "6f2e58fa32b90bd70889c88dadd59c75baccac78072eea9a1fefcd11a5015b79"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "59d851df41297873634cfa93146d937588a1460b575f42d70668d40c4da21a7f"
+    }
+  ]
+}

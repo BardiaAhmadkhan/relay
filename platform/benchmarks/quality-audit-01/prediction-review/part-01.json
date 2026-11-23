@@ -1,0 +1,174 @@
+{
+  "at": "2026-10-26T21:15:48.553Z",
+  "reviewer": "Assistant direct comparison of frozen reference images/labels and returned findings; not expert adjudication.",
+  "rows": [
+    {
+      "id": "commons-031",
+      "correspondence": "matched",
+      "locationError": true,
+      "unsupportedExtra": false,
+      "note": "Glove tearing/fraying is identified, but finger damage is assigned to the cuff zone."
+    },
+    {
+      "id": "commons-091",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "Several real denim rips are described. The additional black-trouser fraying claim is not apparent in the source image."
+    },
+    {
+      "id": "commons-092",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "commons-093",
+      "correspondence": "matched",
+      "locationError": true,
+      "unsupportedExtra": true,
+      "note": "Index fingertip opening is correctly identified, but labelled as cuff; gathered cuff stitching is additionally called abrasion without a definite defect."
+    },
+    {
+      "id": "fabric-025",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-027",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-029",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-039",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-047",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-049",
+      "correspondence": "missed",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "A real slit is only described as a normal vertical seam line. No finding identifies the material break."
+    },
+    {
+      "id": "fabric-050",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-051",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "The diagonal defect location is noticed, but described as discoloration or a scratch rather than the visible cut."
+    },
+    {
+      "id": "fabric-052",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "Separation is noticed, but the cut is falsely described as a seam."
+    },
+    {
+      "id": "fabric-054",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-057",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-060",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-062",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-065",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "The small damaged location is noticed; a puncture is called coating abrasion with an unsupported possible metallic underlayer."
+    },
+    {
+      "id": "fabric-068",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-069",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "The correct small location is flagged as a puckered spot, without identifying the puncture or broken weave."
+    },
+    {
+      "id": "fabric-075",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-078",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "leather-002",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "The internal opening is identified. A raw manufacturing cut boundary is additionally described as tearing."
+    },
+    {
+      "id": "leather-007",
+      "correspondence": "missed",
+      "locationError": true,
+      "unsupportedExtra": true,
+      "note": "The scraped lines exposing a brown layer are missed. The only finding describes the raw lower cut edge as a frayed garment hem."
+    }
+  ]
+}

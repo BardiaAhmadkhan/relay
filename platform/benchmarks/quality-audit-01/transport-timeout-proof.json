@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-26T21:06:55.261Z",
+  "kind": "Controlled real-HTTP transport diagnostic with a disclosed 12s test adapter; not an image-model accuracy result.",
+  "client": {
+    "error": "TypeError",
+    "causeCode": "UND_ERR_SOCKET",
+    "causeMessage": "other side closed",
+    "elapsedMs": 10046.129
+  },
+  "adapterCompleted": true,
+  "adapterElapsedMs": 12008.4838,
+  "sourceConnectionTimeoutMs": 10000,
+  "systemSourceUnchanged": true
+}

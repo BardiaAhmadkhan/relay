@@ -1,0 +1,126 @@
+{
+  "result": {
+    "schemaVersion": "1.0",
+    "assessmentId": "round05-restored",
+    "status": "complete",
+    "photos": [
+      {
+        "id": "restored-front",
+        "view": "front",
+        "sha256": "14178a2fd1b8b5125df96b80440e2155e242b995120ebd95a603ef07a735eb1e",
+        "byteLength": 10242,
+        "quality": {
+          "width": 240,
+          "height": 320,
+          "brightness": 129.5262663411402,
+          "sharpness": 1249.133919539324,
+          "warnings": [
+            "low_resolution"
+          ]
+        }
+      }
+    ],
+    "observation": {
+      "schemaVersion": "1.0",
+      "category": "motorcycle_jacket",
+      "attributes": [
+        {
+          "field": "material",
+          "value": "leather",
+          "kind": "inference",
+          "imageIds": [
+            "restored-front"
+          ]
+        }
+      ],
+      "concerns": [
+        {
+          "kind": "abrasion",
+          "area": "unknown",
+          "imageId": "restored-front"
+        }
+      ],
+      "missingViews": [
+        "back",
+        "label"
+      ],
+      "multipleItems": false,
+      "inspection": {
+        "version": "photo-evidence-1",
+        "photos": [
+          {
+            "findings": [
+              {
+                "evidence": "irregular loss of surface coating",
+                "zone": "unknown",
+                "kind": "abrasion",
+                "clarity": "possible"
+              }
+            ],
+            "crashPattern": "unclear",
+            "category": "motorcycle_jacket",
+            "material": "leather",
+            "imageId": "restored-front"
+          }
+        ]
+      },
+      "provider": "local_vlm",
+      "model": "qwen3.5:4b@d8b0f5e9760c/photo-evidence-2+low-detail-cue-1",
+      "coverage": "visual_observations",
+      "durationMs": 5117.242,
+      "usage": {
+        "inputTokens": 2135,
+        "outputTokens": 311
+      }
+    },
+    "decision": {
+      "state": "human_inspection",
+      "policyVersion": "2026-10-26.2",
+      "title": "A detail needs a closer look",
+      "summary": "A possible defect needs checking. The item stays on hold for specialist inspection.",
+      "reasons": [
+        {
+          "code": "concern_abrasion",
+          "text": "Visible area: irregular loss of surface coating"
+        }
+      ],
+      "nextAction": "Set this item aside for physical inspection. Adding a clean view or changing a history answer does not establish protective performance.",
+      "offerRecommended": false,
+      "protectivePerformanceCertified": false
+    },
+    "timing": {
+      "totalMs": 5141.464600000001,
+      "preprocessingMs": 20.959100000000035,
+      "inferenceMs": 5117.242,
+      "cached": false
+    }
+  },
+  "calls": [
+    {
+      "call": 1,
+      "at": "2026-10-26T19:37:02.075Z",
+      "stage": "extraction",
+      "elapsedMs": 3519.2690000000002,
+      "promptTokens": 480,
+      "outputTokens": 244
+    },
+    {
+      "call": 2,
+      "at": "2026-10-26T19:37:02.706Z",
+      "stage": "verification",
+      "elapsedMs": 625.3378000000012,
+      "promptTokens": 416,
+      "outputTokens": 29
+    },
+    {
+      "call": 3,
+      "at": "2026-10-26T19:37:03.670Z",
+      "stage": "low-detail-cue",
+      "elapsedMs": 939.3612999999968,
+      "promptTokens": 1239,
+      "outputTokens": 38,
+      "returnedCue": true
+    }
+  ],
+  "boundary": "The draft is a disclosed local-storage fixture; actual image bytes, actual local inference and unmodified UI. This tests persisted-photo processing without a second browser re-encode."
+}

@@ -1,0 +1,65 @@
+{
+  "version": "recognition-02.r1",
+  "studyType": "semantic",
+  "date": "2026-11-18 America/Vancouver",
+  "motivation": "Round 1 texture boost recovered zero additional visible positives or false blocks, added two clean reviews and produced +0.002778 group-weighted AUROC. The five-choice verifier agreed under answer reversal 24/39 and changed zero decisions. Prioritize physically meaningful substrate separation versus continuous marking. No gradient, examples, fitting, merges from unspecified donors, random weights, model growth, cloud or training.",
+  "referenceDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+  "languageBlob": "e8bf47d40c5ba68baf8f3e503ee36710da6e8641cb0a670a508cff5b3f0cfbf7",
+  "originalProjector": "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+  "maxParameters": 4000000000,
+  "maxLearnedBytes": 3324162336,
+  "parameters": {
+    "text": 1881825088,
+    "vision": 331416576
+  },
+  "arms": {
+    "base": 1,
+    "semantic": 1.5,
+    "control": 1.5
+  },
+  "taskLexicon": {
+    "plus": [
+      "torn",
+      "ripped",
+      "shredded",
+      "broken",
+      "cracked",
+      "detached"
+    ],
+    "minus": [
+      "intact",
+      "worn",
+      "dusty",
+      "stained",
+      "faded",
+      "polished"
+    ]
+  },
+  "controlLexicon": {
+    "plus": [
+      "loud",
+      "noisy",
+      "booming",
+      "ringing",
+      "musical",
+      "audible"
+    ],
+    "minus": [
+      "silent",
+      "quiet",
+      "calm",
+      "muted",
+      "faint",
+      "peaceful"
+    ]
+  },
+  "operator": "Use exact single leading-space vocabulary entries. L2-normalize each pretrained text embedding, compute the difference of class centroids and normalize this difference to u. For the final visual merger y = W x + b, amplify just the component parallel to u by 50%, P = I + 0.5*u*u^T. Fold into existing BF16 mm.2.weight and F32 mm.2.bias. Other parameters untouched. Match unrelated semantic control change Frobenius norm pre-rounding on the combined affine matrix. Abort if either edit exceeds 3% relative Frobenius size or any nonfinite values. Logical direction is bidirectional: amplify evidence on both sides, no constant bias toward a class.",
+  "salt": "relay-recognition-02-reserve-r1",
+  "fabricSelection": "Previously unselected originals from the locally licensed FD_Dataset, YOLO test/valid only; exclude both earlier audit manifests by original filename. For each of 2023-11-19 and 2024-02-11 choose 8 class 0 (surface-mark class), 4 class 2 and 4 class 3 (material-disruption classes) by salted SHA256(original filename), no replacement. Raw unannotated JPEGs; no coordinates at inference. Both classes present within each session. Inspect contact sheet prior to scoring. The two sessions differ from two independent physical gear cohorts. Feb11 shares a capture session with first study’s constructed mosaics.",
+  "transferSelection": "Old labeled real-world garment collections (quality audit 01 and cycle 02), all visible-defect cases and <=16 visible-clean cases, sorted using salt; exclude any round-1 photographer normalized across corpora, source page, file SHA or E19 seenInCalibration alias. One negative per author. Separate tear-labeled transfer cases from abrasion-only where actual breach is unknown. These old garments were part of historical threshold calibration; fresh to the edit comparison only. Never claim they are a sealed motorcycle gear field set.",
+  "questionBreach": "Consider the material itself on the main item. Can you see a physical opening, split edge, separated seam, or missing material exposing the layer underneath? Ordinary surface marks, pigment and intact weave do not constitute an opening.",
+  "questionContinuous": "At the most conspicuous mark on the material itself, can you actually see the surface continuing across it without a gap or exposed layer underneath? Answer yes only when continuity is visible. An obscured or unidentifiable mark is insufficient.",
+  "metrics": "Primary: mean of within-session AUROC for the fixed score p(breach)-p(continuous) on 32 unused publisher-class fabric photos. Additional contrast: unchanged question p(broken) alone on those same inputs. Transfer: same dual-question margin AUC for natural tear-labeled versus clean garments, missing classes reported. Compare the same prompts on unedited, task edit, and equally strong content-unrelated control. A score is diagnostic, never a safety clearance. Also retain original per-arm max(broken,road_contact) vs frozen 2B thresholds (0.078/0.255), repair score shifts, category and errors. Publish raw rows and paired case changes. Check A/A six repeat inputs after a reset.",
+  "promotion": "Prescreen requires semantic to beat both stock and unrelated control on primary within-session macro AUC by >=0.02, no new damaged clear or new clean block on the transfer subset, no missing primary calls, and transfer discrimination not lower than stock. Also require directional agreement across both fabric sessions. Even passing does not release field automation. Do not change magnitude or vocabulary in response to this evaluation.",
+  "resources": "Same isolated serial 2B worker. Cool and abort guards identical to stage 1. Do not serve unqualified variants to riders."
+}

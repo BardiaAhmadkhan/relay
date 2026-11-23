@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-26T23:16:30.234Z",
+  "case": "fabric-069",
+  "scope": "Original adapter replay of exactly recorded model responses; no inference performed.",
+  "result": {
+    "error": "local_verification_invalid_index"
+  },
+  "calls": [
+    {
+      "at": "2026-10-26T23:13:32.070Z",
+      "requestHash": "2af009378242e5805d5f99a585b4db5f59c131c47062a0f93678204b8a2feb58",
+      "stage": "inspection",
+      "images": 1,
+      "status": 200,
+      "durationMs": 2505.8547000000253,
+      "raw": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-26T23:13:32.0688211Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"findings\": [\n    {\n      \"evidence\": \"small white patch on fabric surface\",\n      \"zone\": \"unknown\",\n      \"kind\": \"other\",\n      \"clarity\": \"clear\"\n    }\n  ],\n  \"crashPattern\": \"not_observed\",\n  \"category\": \"other\",\n  \"material\": \"textile\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2501503900,
+        "load_duration": 38927200,
+        "prompt_eval_count": 1960,
+        "prompt_eval_cached_count": 66,
+        "prompt_eval_duration": 1097451000,
+        "eval_count": 88,
+        "eval_duration": 1122260000
+      }
+    },
+    {
+      "at": "2026-10-26T23:13:33.865Z",
+      "requestHash": "bd2e41502c42a132a1ae4d8c561bea24523b7548d956ae8cddaaa3d06f419ce6",
+      "stage": "verification",
+      "images": 1,
+      "status": 200,
+      "durationMs": 1791.9919000000227,
+      "raw": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-26T23:13:33.8634043Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"supported\": [1],\n  \"uncertain\": [],\n  \"crashPattern\": \"not_observed\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1787720900,
+        "load_duration": 23362800,
+        "prompt_eval_count": 1799,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 1144545000,
+        "eval_count": 31,
+        "eval_duration": 446944000
+      }
+    }
+  ]
+}

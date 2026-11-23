@@ -1,0 +1,378 @@
+{
+  "at": "2026-10-26T23:49:44.071Z",
+  "verifiedReferences": 37,
+  "unresolvedReferences": 1,
+  "verified": [
+    {
+      "protocol": "experiments/quality-cycle-02/final-holdout-protocol.json",
+      "path": "datasets/quality-cycle-02/final-holdout-labels.json",
+      "sha256": "d1d022ffb51695ee1df9ec0d46eb089c288d9bd638f7accdfb39194a111250d9",
+      "matchingSources": [
+        "datasets/quality-cycle-02/final-holdout-labels.json"
+      ]
+    },
+    {
+      "protocol": "experiments/quality-cycle-02/final-holdout-protocol.json",
+      "path": "experiments/quality-cycle-02/final-five-selection.json",
+      "sha256": "a392a6a6431c8599f6e82752717a1b5a6e461e00a33d4d48e64c4db56215527f",
+      "matchingSources": [
+        "experiments/quality-cycle-02/final-five-selection.json"
+      ]
+    },
+    {
+      "protocol": "experiments/quality-cycle-02/final-holdout-protocol.json",
+      "path": "experiments/quality-cycle-02/final-five-acquisition.json",
+      "sha256": "168f2716a227a8865c06402113ed6b8b4fd4e03ab198005033d5d29e55cbc61f",
+      "matchingSources": [
+        "experiments/quality-cycle-02/final-five-acquisition.json"
+      ]
+    },
+    {
+      "protocol": "experiments/quality-cycle-02/final-holdout-protocol.json",
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463",
+      "matchingSources": [
+        "packages/vision/evidence-contract.ts"
+      ]
+    },
+    {
+      "protocol": "experiments/quality-cycle-02/final-holdout-protocol.json",
+      "path": "experiments/quality-cycle-02/focused-tear-context.ts",
+      "sha256": "09a23b38fab19c1746fa72dc4bd363719d5b95b0261dfc88e956e101199a7baa",
+      "matchingSources": [
+        "experiments/quality-cycle-02/focused-tear-context.ts"
+      ]
+    },
+    {
+      "protocol": "experiments/quality-cycle-02/final-holdout-protocol.json",
+      "path": "experiments/quality-cycle-02/focused-context-inspection.ts",
+      "sha256": "a6b770b9550ca5c0a632eb344906cbbb0c5a7f4a35a118bc4e4405a64f51e3c5",
+      "matchingSources": [
+        "experiments/quality-cycle-02/focused-context-inspection.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "path": "packages/vision/inspection.ts",
+      "sha256": "ecf14d202fdae0466040f2a1d7e8d7d357848aab3ab1fa4bdebfbaca112b3193",
+      "matchingSources": [
+        "packages/vision/inspection.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "b17b87124700ad7295e3ec79b361f4d521693f4456cb84f3c5f454f9fa00805e",
+      "matchingSources": [
+        "packages/vision/focused-tear.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463",
+      "matchingSources": [
+        "packages/vision/evidence-contract.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "path": "packages/vision/review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455",
+      "matchingSources": [
+        "packages/vision/review-repair.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "path": "packages/vision/cache-policy.ts",
+      "sha256": "93490c72093f14e19771be29961ebca321829d935e10dfc184384f0884b51f63",
+      "matchingSources": [
+        "packages/vision/cache-policy.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "path": "server/app.ts",
+      "sha256": "80c55ff73b19b4cee0b1fe7765974816f61337945c45df9081f7cd5153e55c3d",
+      "matchingSources": [
+        "server/app.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/cache-fixed-program-replay-protocol.json",
+      "path": "scripts/quality-cycle-02-cache-fixed-replay.ts",
+      "sha256": "e83b89018dfd750388a775e528287eb1e70df28539cfd107cdad0762425b4d37",
+      "matchingSources": [
+        "scripts/quality-cycle-02-cache-fixed-replay.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-audit-protocol.json",
+      "path": "packages/vision/inspection.ts",
+      "sha256": "b65b90b6296551ffc6ee000ff4018cead689ee4db47e9be69cd3471ea75d77ae",
+      "matchingSources": [
+        "experiments/quality-cycle-02/inspection-before-review-repair.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-audit-protocol.json",
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "99932fef8b89650c34f01b3dea58a0bd8ad0c28b7106a15b958a01ca49b4d769",
+      "matchingSources": [
+        "experiments/quality-cycle-02/focused-tear-before-scope.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-audit-protocol.json",
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463",
+      "matchingSources": [
+        "packages/vision/evidence-contract.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-audit-protocol.json",
+      "path": "server/app.ts",
+      "sha256": "7a007f38e4e1cea86e422b0385a138e267003f8ad5832067f2bc9b2fb5034ff5",
+      "matchingSources": [
+        "experiments/quality-cycle-02/app.before-http-cache-repair.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-audit-protocol.json",
+      "path": "datasets/quality-audit-01/labels.json",
+      "sha256": "e7bcabdc1e5dc57aebfb1e00ecfe4a8be181fea3e87bbcb2b4e535e038b7004e",
+      "matchingSources": [
+        "datasets/quality-audit-01/labels.json"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-audit-protocol.json",
+      "path": "scripts/quality-cycle-02-http-audit.ts",
+      "sha256": "a42d187d92dc967c5dead9b53143c326c40aefab6e4b3ee4795529436dc2b2b1",
+      "matchingSources": [
+        "scripts/quality-cycle-02-http-audit.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-smoke-protocol.json",
+      "path": "packages/vision/inspection.ts",
+      "sha256": "b65b90b6296551ffc6ee000ff4018cead689ee4db47e9be69cd3471ea75d77ae",
+      "matchingSources": [
+        "experiments/quality-cycle-02/inspection-before-review-repair.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-smoke-protocol.json",
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "99932fef8b89650c34f01b3dea58a0bd8ad0c28b7106a15b958a01ca49b4d769",
+      "matchingSources": [
+        "experiments/quality-cycle-02/focused-tear-before-scope.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-smoke-protocol.json",
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463",
+      "matchingSources": [
+        "packages/vision/evidence-contract.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-smoke-protocol.json",
+      "path": "server/app.ts",
+      "sha256": "7a007f38e4e1cea86e422b0385a138e267003f8ad5832067f2bc9b2fb5034ff5",
+      "matchingSources": [
+        "experiments/quality-cycle-02/app.before-http-cache-repair.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-smoke-protocol.json",
+      "path": "datasets/quality-audit-01/labels.json",
+      "sha256": "e7bcabdc1e5dc57aebfb1e00ecfe4a8be181fea3e87bbcb2b4e535e038b7004e",
+      "matchingSources": [
+        "datasets/quality-audit-01/labels.json"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/current-http-smoke-protocol.json",
+      "path": "scripts/quality-cycle-02-http-audit.ts",
+      "sha256": "2346b5a0d02e40f992ab8cbb66dc2564834ecaea2eccfd053f2d9045adba0de3",
+      "matchingSources": [
+        "experiments/quality-cycle-02/executed-scripts/quality-cycle-02-http-audit-smoke.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "b17b87124700ad7295e3ec79b361f4d521693f4456cb84f3c5f454f9fa00805e",
+      "matchingSources": [
+        "packages/vision/focused-tear.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463",
+      "matchingSources": [
+        "packages/vision/evidence-contract.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "path": "packages/vision/review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455",
+      "matchingSources": [
+        "packages/vision/review-repair.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "path": "packages/vision/cache-policy.ts",
+      "sha256": "93490c72093f14e19771be29961ebca321829d935e10dfc184384f0884b51f63",
+      "matchingSources": [
+        "packages/vision/cache-policy.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "path": "server/app.ts",
+      "sha256": "80c55ff73b19b4cee0b1fe7765974816f61337945c45df9081f7cd5153e55c3d",
+      "matchingSources": [
+        "server/app.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "path": "scripts/quality-cycle-02-final-replay.ts",
+      "sha256": "61dcb9118d18c8a4caee81da6042b4d761243e3eb3a936b6baaaceb0d6e6b13c",
+      "matchingSources": [
+        "scripts/quality-cycle-02-final-replay.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/selected-program-replay-protocol.json",
+      "path": "packages/vision/inspection.ts",
+      "sha256": "4b3f380437d0fded9969d4bc216e1574ae4799d4026e615d88ccc8535efa12ca",
+      "matchingSources": [
+        "experiments/quality-cycle-02/inspection.ts.before-failed-focus-cache.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/selected-program-replay-protocol.json",
+      "path": "packages/vision/focused-tear.ts",
+      "sha256": "ce473aae69e67f06c58865de8299b5ccb004a9d7c086089727024f19f8c32b12",
+      "matchingSources": [
+        "experiments/quality-cycle-02/focused-tear.ts.before-failed-focus-cache.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/selected-program-replay-protocol.json",
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463",
+      "matchingSources": [
+        "packages/vision/evidence-contract.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/selected-program-replay-protocol.json",
+      "path": "packages/vision/review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455",
+      "matchingSources": [
+        "packages/vision/review-repair.ts"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/selected-program-replay-protocol.json",
+      "path": "server/app.ts",
+      "sha256": "7a007f38e4e1cea86e422b0385a138e267003f8ad5832067f2bc9b2fb5034ff5",
+      "matchingSources": [
+        "experiments/quality-cycle-02/app.before-http-cache-repair.source.txt"
+      ]
+    },
+    {
+      "protocol": "benchmarks/quality-cycle-02/selected-program-replay-protocol.json",
+      "path": "scripts/quality-cycle-02-selected-replay.ts",
+      "sha256": "b642e6c74224e075a8b160903f8abeb1e6c7a84cc049c661b5de3124f3a73320",
+      "matchingSources": [
+        "scripts/quality-cycle-02-selected-replay.ts"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "protocol": "benchmarks/quality-cycle-02/final-program-replay-protocol.json",
+      "path": "packages/vision/inspection.ts",
+      "sha256": "e84a4de7138f643c1365e0fe882b0d5ec4da9990a004a4b7541e0b85a878c8ab",
+      "matchingSources": []
+    }
+  ],
+  "baselineSnapshotsVerified": 11,
+  "unchangedBaselineSources": [
+    "packages/vision/inspection-prompt.ts",
+    "packages/vision/verification-prompt.ts",
+    "packages/vision/abrasion-cue.ts",
+    "packages/core/policy.ts",
+    "packages/core/schema.ts",
+    "server/images.ts",
+    "packages/vision/validation.ts"
+  ],
+  "selected": [
+    {
+      "path": "packages/vision/inspection.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--inspection.ts",
+      "sha256": "ecf14d202fdae0466040f2a1d7e8d7d357848aab3ab1fa4bdebfbaca112b3193"
+    },
+    {
+      "path": "packages/vision/focused-tear.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--focused-tear.ts",
+      "sha256": "b17b87124700ad7295e3ec79b361f4d521693f4456cb84f3c5f454f9fa00805e"
+    },
+    {
+      "path": "packages/vision/review-repair.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--review-repair.ts",
+      "sha256": "57f544a66551d8a82619aa09418fc64c1b93859d1018925d73f4cd87bd9d0455"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "packages/vision/cache-policy.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/packages--vision--cache-policy.ts",
+      "sha256": "93490c72093f14e19771be29961ebca321829d935e10dfc184384f0884b51f63"
+    },
+    {
+      "path": "server/app.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/server--app.ts",
+      "sha256": "80c55ff73b19b4cee0b1fe7765974816f61337945c45df9081f7cd5153e55c3d"
+    },
+    {
+      "path": "tests/api.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--api.test.ts",
+      "sha256": "97231503d6096129ed51441b29315d0ed4ccc9ed8633a75d39105df80697e9a3"
+    },
+    {
+      "path": "tests/inspection.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--inspection.test.ts",
+      "sha256": "6398ed3bd9f29eb0f3977fed8a8f379524862ee59aee15d940dc47a4da92ec44"
+    },
+    {
+      "path": "tests/focused-tear.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--focused-tear.test.ts",
+      "sha256": "7d7db77fcc5ac0856a32e461675d66f0efb6cf59e6b27dca4f3de9d2ff758646"
+    },
+    {
+      "path": "tests/review-repair.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--review-repair.test.ts",
+      "sha256": "92ba0eecad41e865af039965c550ae5103a64f29a834bd58590de66a49cdfac8"
+    },
+    {
+      "path": "tests/evidence-contract.test.ts",
+      "snapshot": "experiments/quality-cycle-02/selected-final/tests--evidence-contract.test.ts",
+      "sha256": "3b47d6d119171cf1d4f9eb9da7fad6d31554a0f5f2fec2664596958b65d1af97"
+    }
+  ]
+}

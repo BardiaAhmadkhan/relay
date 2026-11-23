@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-26T23:46:20.989Z",
+  "cases": 194,
+  "identicalVisualOutputs": 194,
+  "completeRoutes": 194,
+  "liveInferenceCalls": 0,
+  "scope": "Final two-cache retry fix and profile context-3 preserve all single-request visual outputs; separate failing-then-passing API tests prove retry and eviction behavior."
+}

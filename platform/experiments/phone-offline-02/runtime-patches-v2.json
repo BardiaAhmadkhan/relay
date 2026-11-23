@@ -1,0 +1,35 @@
+{
+  "version": "0.13.0-rc.8",
+  "records": [
+    {
+      "file": "node_modules/llama.rn/android/src/main/java/com/rnllama/RNLlama.java",
+      "alreadyApplied": true,
+      "sha256": "1b108eec4ed68fda88f7c8a6f54503fb9c563095718461049288ce9fcce43799"
+    },
+    {
+      "file": "node_modules/llama.rn/android/src/main/java/com/rnllama/RNLlama.java",
+      "alreadyApplied": true,
+      "sha256": "1b108eec4ed68fda88f7c8a6f54503fb9c563095718461049288ce9fcce43799"
+    },
+    {
+      "file": "node_modules/llama.rn/cpp/rn-llama.cpp",
+      "alreadyApplied": true,
+      "sha256": "a2796d63026036608225e96bd80d892d504b67675959abdcdc442bf833fbbacb"
+    },
+    {
+      "file": "node_modules/llama.rn/android/src/main/java/com/rnllama/RNLlama.java",
+      "beforeSha256": "1b108eec4ed68fda88f7c8a6f54503fb9c563095718461049288ce9fcce43799",
+      "sha256": "5081512d383ea22cca80b63fa79f643ec563d595d2fc68e9313ec04f1e8bbb18"
+    },
+    {
+      "file": "node_modules/llama.rn/android/src/main/CMakeLists.txt",
+      "beforeSha256": "130696a69c382ccf95d19e2e248854b8a0ec16e780a32229d84066d41e6144f9",
+      "sha256": "c5efcdf27014a108e48f0382023ea193112bd0a72e51abb6795e919fd723c581"
+    },
+    {
+      "file": "node_modules/llama.rn/android/src/main/rnllama/CMakeLists.txt",
+      "beforeSha256": "c09065baa64a1e731f9aa352ec147bab99e6fee48061082e790d44e4c2882c20",
+      "sha256": "ff49f56a214260670bda3e12891ea9f1f0425226a25c4e29361f6b90fd299c9d"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "base": "unsloth/Qwen3.5-2B",
+  "revision": "fffbc0d8711cf87df6d1f97938c5e50ef94aadc7",
+  "anchors": {
+    "visual.blocks.0.attn.qkv.weight": {
+      "shape": [
+        3072,
+        1024
+      ],
+      "byteOffset": 34854,
+      "bytes": "12bcb3bcc23cba3b56bbb43c38bc4c3c363b00bc103ce4bbd43c083da4bc293c193cbdbc50bbf4bc1dbcbfbb67bca83c8f3c0fbc5b3c8a3b903cd03c633ba2bc",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    },
+    "visual.blocks.0.attn.proj.weight": {
+      "shape": [
+        1024,
+        1024
+      ],
+      "byteOffset": 34854,
+      "bytes": "543b0f39dbbad7ba833cf63bf33a653a42bb17bc263cc2bb4abcaf3b00bc0ebc4d39123b23bc2fba2f3b4d3c26bc543cf23b853bf5bb063a4339a23a393ce4ba",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    },
+    "visual.blocks.0.mlp.linear_fc1.weight": {
+      "shape": [
+        4096,
+        1024
+      ],
+      "byteOffset": 34854,
+      "bytes": "e3bcb1bbea3b903b3abbbb3bcd3b523c933ba7bc163b363ca1bc483ac2ba1abb143c673ba8bcc6bbf039e1ba80bb10bbae3aedb8063dbeb88a3b263abcbb073b",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    },
+    "visual.blocks.0.mlp.linear_fc2.weight": {
+      "shape": [
+        1024,
+        4096
+      ],
+      "byteOffset": 139302,
+      "bytes": "d6bca8bb72ba13b9b83cab3b9abb32bbde3bd53b72bbc43bb6bb96bcd2bcf43c1abbacbcc93b8dbbd13cf2bba1bca93b2d3da9bc91bbabbc5abb023a55bc543c",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    },
+    "visual.blocks.23.attn.qkv.weight": {
+      "shape": [
+        3072,
+        1024
+      ],
+      "byteOffset": 34854,
+      "bytes": "56bc573c8a3bf23b66bc8c3c213c523ad2bbe1bb0a3cb43b093b0fbb85bc90bcd23884ba2ebbc0382a3c06bc08bc58bb8b3c653a853cf6b9133c1c3d28bca43c",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    },
+    "visual.blocks.23.attn.proj.weight": {
+      "shape": [
+        1024,
+        1024
+      ],
+      "byteOffset": 34854,
+      "bytes": "78bb133c4c3c14bb793c8fbc98bcee3bd93b7f3c2cbcd63b0e3c783cbcbb493be2bb6bb9883ce1bc16bb333bf4bbb0bc293d263c99bbecba173cbfbb05bb58bc",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    },
+    "visual.blocks.23.mlp.linear_fc1.weight": {
+      "shape": [
+        4096,
+        1024
+      ],
+      "byteOffset": 34854,
+      "bytes": "163c5a3a91bbe3bb1e3c4cba2ebbe0bca0bc55bcf539503ccd3b823bef3bf53b02bc6dba52bb173c2f3cc6bbad3b4c3c7bbc0ebc1dbca03cbb3a62bbf83b76bb",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    },
+    "visual.blocks.23.mlp.linear_fc2.weight": {
+      "shape": [
+        1024,
+        4096
+      ],
+      "byteOffset": 139302,
+      "bytes": "26bc9bbba43c0dbd2abb023c81bc703b333cab3baa3be03b723cffbb8cbc1c3b883aae3ac7bb55bc543ca43b55bc5abb863c7cba293b26bcbe3b28bcb0bc443c",
+      "shard": "model.safetensors-00001-of-00001.safetensors"
+    }
+  }
+}

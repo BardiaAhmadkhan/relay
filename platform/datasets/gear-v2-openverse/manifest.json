@@ -1,0 +1,1323 @@
+{
+ "retrieved": "2026-11-17T17:51:02.862Z",
+ "fetched": "2026-11-17T17:53:04.258Z",
+ "images": [
+  {
+   "id": "ov-001",
+   "file": "datasets/gear-v2-openverse/images/ov-001.jpg",
+   "sha256": "4dcb10888cf6966881af9154390550b080b50eb38c1358175b52a5fca892900a",
+   "width": 1024,
+   "height": 686,
+   "openverseId": "67525abe-a9de-4c8f-a9c9-83778f144f57",
+   "title": "Dainese riding jacket",
+   "creator": "karmadude",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/43337914@N00/456951654",
+   "queries": [
+    "crashed motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-002",
+   "file": "datasets/gear-v2-openverse/images/ov-002.jpg",
+   "sha256": "8cf984cb941068a1b9c7961492b51eedf5aea46c335a8eb0cc4454c380bc9fae",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "dd67635e-090e-4242-9aac-516d5fbd2a72",
+   "title": "right shoulder",
+   "creator": "ericlawrence",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/66286151@N00/2844823098",
+   "queries": [
+    "crashed motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-003",
+   "file": "datasets/gear-v2-openverse/images/ov-003.jpg",
+   "sha256": "404dc87a1f0a3f97ad47277f1863e0b48b5ecb2ef56c345c6e4e71492af0f4e1",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "73404e77-a472-4fe6-b531-66dd5dd6aed8",
+   "title": "left elbow",
+   "creator": "ericlawrence",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/66286151@N00/2844824638",
+   "queries": [
+    "crashed motorcycle jacket",
+    "road rash jacket"
+   ]
+  },
+  {
+   "id": "ov-004",
+   "file": "datasets/gear-v2-openverse/images/ov-004.jpg",
+   "sha256": "ff0c8b3ecc93caed309e034b6aaeaddb0a95c0f9ded214a2c24a903bd3dd6085",
+   "width": 500,
+   "height": 375,
+   "openverseId": "a9ec29e5-61a9-4314-9a76-8675d5447132",
+   "title": "deer + motorcycle = BAD",
+   "creator": "imnewtryme",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/60327433@N00/123858583",
+   "queries": [
+    "motorcycle jacket crash damage",
+    "road rash jacket",
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-005",
+   "file": "datasets/gear-v2-openverse/images/ov-005.jpg",
+   "sha256": "ddd97dd853cb619549885e40ab70494d7ef7de4515baf7e8f746095ec5c1aae7",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "a47c7242-c447-48cd-808c-d9cb2ef88c4b",
+   "title": "Gear Damage from 2011/06/21",
+   "creator": "timfreund",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46409030@N00/5860904592",
+   "queries": [
+    "motorcycle crash gear"
+   ]
+  },
+  {
+   "id": "ov-006",
+   "file": "datasets/gear-v2-openverse/images/ov-006.jpg",
+   "sha256": "b09e5b244f00f82b41bb1b9b863bd34537575928a99ed92768429f888dad4052",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "a675a28a-1835-4bf8-beda-fb0b8db21c24",
+   "title": "Gear Damage from 2011/06/21",
+   "creator": "timfreund",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46409030@N00/5860332683",
+   "queries": [
+    "motorcycle crash gear"
+   ]
+  },
+  {
+   "id": "ov-007",
+   "file": "datasets/gear-v2-openverse/images/ov-007.jpg",
+   "sha256": "ae4fd1da0cb1fa47c0e5aca1f85362445e71cf292702caba88af3f92f4092627",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "909d6347-ab32-48bf-9ed6-0335635a2364",
+   "title": "Gear Damage from 2011/06/21",
+   "creator": "timfreund",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46409030@N00/5860879122",
+   "queries": [
+    "motorcycle crash gear"
+   ]
+  },
+  {
+   "id": "ov-008",
+   "file": "datasets/gear-v2-openverse/images/ov-008.jpg",
+   "sha256": "a2539b088de53c806a16c4cfee60436930a6ce9285c6d79d5db99cc0643b4df6",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "64dd93b2-6def-4c0d-a7dc-f80373b4113c",
+   "title": "Gear Damage from 2011/06/21",
+   "creator": "timfreund",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46409030@N00/5860870968",
+   "queries": [
+    "motorcycle crash gear"
+   ]
+  },
+  {
+   "id": "ov-009",
+   "file": "datasets/gear-v2-openverse/images/ov-009.jpg",
+   "sha256": "078563f20105bc27efa6ee3919e1cab89a6d6405c596a6ef19d2f00db118984d",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "c155fa3a-dd52-4a74-80e0-c4c90f37c106",
+   "title": "Gear Damage from 2011/06/21",
+   "creator": "timfreund",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/46409030@N00/5860346767",
+   "queries": [
+    "motorcycle crash gear"
+   ]
+  },
+  {
+   "id": "ov-010",
+   "file": "datasets/gear-v2-openverse/images/ov-010.jpg",
+   "sha256": "47fd1b3037a4ca7eeec4cade4b0e84d9a7e2cb6158035ada813c6ffe83da3019",
+   "width": 1024,
+   "height": 299,
+   "openverseId": "b636f1fe-fe1b-4361-b64b-d8b249a3a939",
+   "title": "Rash of the Limantour Spit Road",
+   "creator": "Jackson West",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/63412341@N00/6567731959",
+   "queries": [
+    "road rash jacket"
+   ]
+  },
+  {
+   "id": "ov-011",
+   "file": "datasets/gear-v2-openverse/images/ov-011.jpg",
+   "sha256": "872b00e969a6fbd60be7f950a32d1ab6b824c14b40ef1d9179a466840b805cbc",
+   "width": 1024,
+   "height": 785,
+   "openverseId": "842f440a-b29c-4f29-b342-e880787e708a",
+   "title": "Road Rash",
+   "creator": "mhaithaca",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/79715083@N00/182777919",
+   "queries": [
+    "road rash jacket"
+   ]
+  },
+  {
+   "id": "ov-012",
+   "file": "datasets/gear-v2-openverse/images/ov-012.jpg",
+   "sha256": "e897db0f36cd87c83af1c5a226243a13366e8609a6239e0de809e0a975b2c5cc",
+   "width": 500,
+   "height": 375,
+   "openverseId": "76b2877e-6a82-484b-a40d-a488569d9823",
+   "title": "Apr 27: Road Rash",
+   "creator": "Scooter Simpson",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/89817315@N00/3479557679",
+   "queries": [
+    "road rash jacket"
+   ]
+  },
+  {
+   "id": "ov-013",
+   "file": "datasets/gear-v2-openverse/images/ov-013.jpg",
+   "sha256": "0d03f9d9f9a04e1192b72ba3ac47d8c412fa3b1d06581e82786e7f653478d383",
+   "width": 1024,
+   "height": 819,
+   "openverseId": "cb7fbc57-4e60-4df2-b04d-06e6771a2029",
+   "title": "0611091952c",
+   "creator": "magikmann",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/84772361@N00/3633357512",
+   "queries": [
+    "road rash jacket"
+   ]
+  },
+  {
+   "id": "ov-014",
+   "file": "datasets/gear-v2-openverse/images/ov-014.jpg",
+   "sha256": "d7855a69b4bef398055ea0a98269f8ab5e9ad8300c50cc490eadd35c5c4bd8fa",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "c82826fb-5b54-4fea-9232-918889749ff3",
+   "title": "shredded rain jacket",
+   "creator": "ericlawrence",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/66286151@N00/2843991071",
+   "queries": [
+    "shredded motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-015",
+   "openverseId": "4f6690f8-bbe4-4356-a99f-2c42e7950f0a",
+   "title": "File:Organisationsbuc00nati 0 orig 0604 ORGANISATIONSBUCH DER NSDAP 1943 Tafel 42 Nationalsozialistisches Kraftfahrkorps NSKK Uniform Overscharführer im Fahranzug Scharführer im Schulanzug Public domain Cropped.jpg",
+   "error": "http 429"
+  },
+  {
+   "id": "ov-016",
+   "file": "datasets/gear-v2-openverse/images/ov-016.jpg",
+   "sha256": "73f2a9b5a287f3297c380f0fbff13b006e130975ea77086e4b0a1051310eb729",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "1ab55765-c20a-4dc5-b5f6-2cbeb3b8a2e0",
+   "title": "Rider boots",
+   "creator": "driver Photographer",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/72334647@N03/54547561240",
+   "queries": [
+    "motorcycle boots crash"
+   ]
+  },
+  {
+   "id": "ov-017",
+   "file": "datasets/gear-v2-openverse/images/ov-017.jpg",
+   "sha256": "c74b22a3c433245845c181a9f45878a6a10317fc9bf9693a9d830b2648e26f55",
+   "width": 1024,
+   "height": 634,
+   "openverseId": "c95eae40-9e83-4006-a4e4-9b5ee8c2846c",
+   "title": "Safety motocross has evolved years",
+   "creator": null,
+   "license": "cc0",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "rawpixel",
+   "landingUrl": "https://www.rawpixel.com/image/4026305/photo-image-person-building",
+   "queries": [
+    "motorcycle boots crash"
+   ]
+  },
+  {
+   "id": "ov-018",
+   "openverseId": "4898cd13-a541-4d2c-88e0-dfb048535b4e",
+   "title": "Hitlerjugend 7. Reichstreffen der Motor-HJ (Motorized Hitler Youth) auf der Motorsportschule des NSKK in Bad Gandersheim Oktober 1940. Danninger, Ondreas, Mervar. Narodowe Archiwum Cyfrowe 3 2 0 - 13342a 184326 No known copyright",
+   "error": "http 429"
+  },
+  {
+   "id": "ov-019",
+   "file": "datasets/gear-v2-openverse/images/ov-019.jpg",
+   "sha256": "c31d0122540f38af1b7a98434ea57407c5a73d395ee67f3871bd4afd7a4d813a",
+   "width": 1024,
+   "height": 730,
+   "openverseId": "44daff2a-52be-4b6d-ae42-e437a5bf4ab4",
+   "title": "Freedom on BROADWAY",
+   "creator": "Alyssa L. Miller",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/34701044@N06/3254884242",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-020",
+   "file": "datasets/gear-v2-openverse/images/ov-020.jpg",
+   "sha256": "0bcad9fdf0546aaf6ce11ef14de4555bafdd168e9ae178b70abef3875a4638a9",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "f67587df-ded4-4bfb-a349-3141e117474b",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269793240",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-021",
+   "file": "datasets/gear-v2-openverse/images/ov-021.jpg",
+   "sha256": "1cfa9e680637912f8b09ea1fa1884dfb97e8c085069d3966e1abf7fc0c508b8a",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "a16b1169-be83-435b-99fd-3fe8dd7a63b7",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269792870",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-022",
+   "file": "datasets/gear-v2-openverse/images/ov-022.jpg",
+   "sha256": "3b966f211374d687355a2d5cc59c66c191b40703c69536b209b3cace97cdd3b6",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "82b1c49f-ceff-4949-8493-d266c484af83",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33524332081",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-023",
+   "file": "datasets/gear-v2-openverse/images/ov-023.jpg",
+   "sha256": "56fd54acfcb56d211ab9825b7160ccc8cc94f518494894975665195d907f3856",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "fa6c90b8-f59c-4571-8b38-36ee488c2aae",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269796140",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-024",
+   "file": "datasets/gear-v2-openverse/images/ov-024.jpg",
+   "sha256": "e422be8ffbd5d92b92bf30b023146d00964eab0113066b0ea8c67aacb08b7bc0",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "704d04da-0d4a-4438-97ee-1015add4e1ed",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269794860",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-025",
+   "file": "datasets/gear-v2-openverse/images/ov-025.jpg",
+   "sha256": "af522fa44400ad5631f952030417d91708eba11192b913607f5c586419e280ef",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "074d8f1d-d908-40c3-95fc-520922b67dd2",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269792360",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-026",
+   "file": "datasets/gear-v2-openverse/images/ov-026.jpg",
+   "sha256": "47e9af2d342f6b72dc4f8ac8c26315a95a411baceaea3de7807e9a3a1115bb78",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "f608b4fe-5a64-46d6-973f-51411e19ae94",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269790940",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-027",
+   "file": "datasets/gear-v2-openverse/images/ov-027.jpg",
+   "sha256": "5fe621200ac7e4323c337514107585adac29028b9766a580e39fd5d31151d354",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "a34bdb8a-eb88-4d36-b913-6bb483bd582e",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269792040",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-028",
+   "file": "datasets/gear-v2-openverse/images/ov-028.jpg",
+   "sha256": "7afe05e59b4b4f38b5e61cbe78b99218fc6c54a9d1773ecfcaf55613688fd4d2",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "cfa7f861-71b6-4d9e-ba72-9f8e280ccb06",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269796510",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-029",
+   "file": "datasets/gear-v2-openverse/images/ov-029.jpg",
+   "sha256": "7f8cb28c0550f7d04d9640c168a8cc6eabf7d6b19ea9175fc80f83db641ba7ad",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "f835a441-886e-4072-9717-f81fdc7a0d1d",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269791710",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-030",
+   "file": "datasets/gear-v2-openverse/images/ov-030.jpg",
+   "sha256": "13cdfeb117abad6e400fb6c283a452295d94c4f7d9b9ad6b2b2f2a4e61329519",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "23ea7dff-7ccf-4608-b9ff-bd779b9efa3e",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269795860",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-031",
+   "file": "datasets/gear-v2-openverse/images/ov-031.jpg",
+   "sha256": "b2826baa84248e71006d181149fc116710b4c273bd89b6284fbcc967cbc90cdc",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "aa4832ed-6b06-4469-8d6b-d80d6553bd5f",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269791130",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-032",
+   "file": "datasets/gear-v2-openverse/images/ov-032.jpg",
+   "sha256": "a30126bf7b708f16f62712a2ed7973a0c3ad1d2d1a693a58d8a28ea6a223758b",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "8ee38101-2bba-42ff-9612-c3819b113ea1",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269794260",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-033",
+   "file": "datasets/gear-v2-openverse/images/ov-033.jpg",
+   "sha256": "b2aa183992f35123830da03482c55a418dee2c0a0511492342453926be62a18c",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "330a8b4e-43a2-429e-bb55-1936999fb379",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269795570",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-034",
+   "file": "datasets/gear-v2-openverse/images/ov-034.jpg",
+   "sha256": "cbebd79593b6bb47254bb248f6fc790ff951c1c418d8e8edcee7138356864a6f",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "c0a4834a-c86b-4871-8e44-f33eca6fbef3",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33524331381",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-035",
+   "file": "datasets/gear-v2-openverse/images/ov-035.jpg",
+   "sha256": "44645ec17f4ee30bac37bf9b7c283ebb16cbce373294406728aa6d3819750a98",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "87591769-778c-4a3a-b8e2-94d73dd67abb",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269793830",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-036",
+   "file": "datasets/gear-v2-openverse/images/ov-036.jpg",
+   "sha256": "3832d323914bece619ded1769a9c542ab4d399a98ece7f8294ee21f34bbceee5",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "78bcb4e0-3238-4a97-a9a1-656c96a6ce8c",
+   "title": "Jeep and Motorcycle Collision",
+   "creator": "Gamma Man",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51625243@N06/33269793480",
+   "queries": [
+    "motorcycle accident jacket"
+   ]
+  },
+  {
+   "id": "ov-037",
+   "file": "datasets/gear-v2-openverse/images/ov-037.jpg",
+   "sha256": "5d540aeae7f671bded9149bc1fef5d8992ff574ba0909b894d8aa078057bd2d7",
+   "width": 290,
+   "height": 500,
+   "openverseId": "7ede54ad-d8e1-4680-9626-6716836c5e50",
+   "title": "My motorcycle jacket and gloves",
+   "creator": "ste3ve",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/51035626656@N01/4598099",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-038",
+   "file": "datasets/gear-v2-openverse/images/ov-038.jpg",
+   "sha256": "fd707b5af951513ce61997d63c10d80622a06e572419387cef213a56e9ddcb88",
+   "width": 1024,
+   "height": 1024,
+   "openverseId": "ddaf32b5-4990-44eb-9400-43d59273e0ac",
+   "title": "4SR motorcycle jacket Cool",
+   "creator": "4SR - For Street Racing",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/110958329@N03/16076825200",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-039",
+   "file": "datasets/gear-v2-openverse/images/ov-039.jpg",
+   "sha256": "88bfc9b8adc958a5aa535245ed06d58820615fd45e16ba69af48f2743aece15a",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "9b9d81fa-b5b6-4daf-969c-fd744439d699",
+   "title": "San Diego Comic-Con 2011 - Darth Maul leather motorcycle jacket",
+   "creator": "Doug Kline",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/26728047@N05/5991541549",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-040",
+   "file": "datasets/gear-v2-openverse/images/ov-040.jpg",
+   "sha256": "0cca1455fcc342c0ae86196881c65c836dd8a92df92eef67396ede7507145ab8",
+   "width": 500,
+   "height": 500,
+   "openverseId": "63eb8799-ac0e-4716-ac0b-2b3e4658fa63",
+   "title": "Modeling my Dad's 1956 Langlitz Leathers motorcycle jacket... Now mine!",
+   "creator": "killerfemme",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/26108128@N00/9060349588",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-041",
+   "file": "datasets/gear-v2-openverse/images/ov-041.jpg",
+   "sha256": "1e68eb5403a3cafde3ca3c8b456d4c2a6e61c8fd51725c72ec3857b0e6171ada",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "1c18f118-8e71-45dd-b2e4-4e019ecf453e",
+   "title": "schott easy rider striped motorcycle jacket at trash and vaudeville",
+   "creator": "zombieite",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/78593866@N00/5341029502",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-042",
+   "file": "datasets/gear-v2-openverse/images/ov-042.jpg",
+   "sha256": "b57f703470c6ed00817670b197b757e0ba734d8fe108db79c699ecaff694ea40",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "233dd78d-91c4-46dd-963d-c22c94d60c5d",
+   "title": "Heated Motorcycle Jacket Branding",
+   "creator": "texas_mustang",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/47523448@N00/2183108878",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-043",
+   "file": "datasets/gear-v2-openverse/images/ov-043.jpg",
+   "sha256": "5dbe55a2ff459e2f4ce851d821c3dd90b41cc55de490c3b0b568796735ee2d36",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "503940bc-e151-423a-8f30-e9f9cf64e398",
+   "title": "hand painted leather MOTORCYCLE JACKET",
+   "creator": "antique cycles",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/59902605@N07/32292893436",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-044",
+   "file": "datasets/gear-v2-openverse/images/ov-044.jpg",
+   "sha256": "0ef9e91e802df893eea3b57bdc1e970fa6688b9322a90ba1f975641aa220dcd8",
+   "width": 375,
+   "height": 500,
+   "openverseId": "a1d21279-d580-4e22-adfd-ab6105d122a2",
+   "title": "Hey, that motorcycle jacket I ordered when I was eight finally showed up!",
+   "creator": "jyllish",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/8868887@N03/4715140981",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-045",
+   "file": "datasets/gear-v2-openverse/images/ov-045.jpg",
+   "sha256": "0369a8f86deaa864a2f8199c5d1a5b75f7624ecfe9962862b118fb4fbb51389d",
+   "width": 683,
+   "height": 1024,
+   "openverseId": "3470dd77-ad5e-4e20-b8d5-a9710c19ec63",
+   "title": "new motorcycle jacket",
+   "creator": "ʎɔ.",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/47448640@N00/3995438381",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-046",
+   "file": "datasets/gear-v2-openverse/images/ov-046.jpg",
+   "sha256": "f41619c2d6229206695926d29de7ec739777e33b4e7d095f2f4a928a2438ef23",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "2b63f32b-137f-4f26-9131-631ee6a86c69",
+   "title": "Pink motorcycle jacket",
+   "creator": "proteinbiochemist",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/78244633@N00/5024722590",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-047",
+   "file": "datasets/gear-v2-openverse/images/ov-047.jpg",
+   "sha256": "fb51379a4c3ecd7d6e02dfbd92326f33ff2f10f3a8c9afc409d8fe12b08ed5d3",
+   "width": 1024,
+   "height": 933,
+   "openverseId": "fe34f256-2aa8-4e2b-a210-69f2f27baa97",
+   "title": "motorcycle jacket with penguin fleece back",
+   "creator": "whyswomen",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/81618207@N00/4670897500",
+   "queries": [
+    "motorcycle jacket"
+   ]
+  },
+  {
+   "id": "ov-048",
+   "file": "datasets/gear-v2-openverse/images/ov-048.jpg",
+   "sha256": "8308c841b86ac135195a8a95cd29a2e7f8096795f3da91188aa994ee5e06a5be",
+   "width": 1024,
+   "height": 650,
+   "openverseId": "fa4ff88a-21d5-4ac2-a403-c5d33ab34324",
+   "title": "Motorcycle Glove Windshield Wiper",
+   "creator": "Paul Garland",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/55922094@N00/5229068883",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-049",
+   "file": "datasets/gear-v2-openverse/images/ov-049.jpg",
+   "sha256": "9668ef0f13c1cb8d03aa1d010162b377e2a899cef72e4edc8beb1c8382684159",
+   "width": 500,
+   "height": 236,
+   "openverseId": "67049e4e-0945-4bf1-9b0a-d33224d8a4c7",
+   "title": "Best Motorcycle Gloves",
+   "creator": "samuelemunemu321",
+   "license": "pdm",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/144303299@N04/51911205469",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-050",
+   "file": "datasets/gear-v2-openverse/images/ov-050.jpg",
+   "sha256": "d600312f232dc5232e769a3205dc46093927ce7c36b2a37be5913758d1dc0adb",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "a18ac279-5e97-412c-85fc-7fe497bdc37a",
+   "title": "Metal Motorcycle Gloves",
+   "creator": "włodi",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/19716902@N00/3220534953",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-051",
+   "file": "datasets/gear-v2-openverse/images/ov-051.jpg",
+   "sha256": "012f15c1004158dc337347d2e4ed02199cfd4f5fce4443ada7465a2890d21726",
+   "width": 1024,
+   "height": 576,
+   "openverseId": "243a3df4-8333-4fb0-a90d-163789a93b10",
+   "title": "Motorcycle gloves",
+   "creator": "Bekathwia",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/23243094@N00/27450717760",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-052",
+   "file": "datasets/gear-v2-openverse/images/ov-052.jpg",
+   "sha256": "4b69e91475a92cc3e229d892ef776dc6b6bfb71d4cda9dc8a63c8300a77271d5",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "83c4aeb7-653e-460e-9edd-a9a6720f9581",
+   "title": "Alpinestars Motorcycle Gloves",
+   "creator": "BadgerGravling",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/64782870@N00/9654521725",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-053",
+   "file": "datasets/gear-v2-openverse/images/ov-053.jpg",
+   "sha256": "5dfb4912662d03387b01e4b07c6a0dce8caf0e87499bb5cb30380fc6e65cb8a7",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "aff232b9-79df-4c21-b541-1da10c25d158",
+   "title": "Motorcycle gloves",
+   "creator": "jessicadally",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/27972146@N04/6408457411",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-054",
+   "file": "datasets/gear-v2-openverse/images/ov-054.jpg",
+   "sha256": "29c99b576e6a2d4f842c5d91f635d127e0d2f94e66e8b89d1053923126c26a17",
+   "width": 500,
+   "height": 500,
+   "openverseId": "536d7984-bd37-4adc-8a7a-dea6af47b8f0",
+   "title": "Who I should have worn motorcycle gloves last weekend...",
+   "creator": "fifikins",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/25925793@N00/8316527414",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-055",
+   "file": "datasets/gear-v2-openverse/images/ov-055.jpg",
+   "sha256": "3616640a300b6c779eb5213011948e4c537e6d65b0ce0f1d8a0812bdd4793476",
+   "width": 236,
+   "height": 485,
+   "openverseId": "3a43c323-930e-4470-a71a-8a7b731b743c",
+   "title": "Motorcycle Gloves -",
+   "creator": "BikerKarl2018",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/92781008@N03/30505729832",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-056",
+   "openverseId": "6c8b70ce-08d8-48f8-89a1-0401d6fa40ff",
+   "title": "Metal Motorcycle Gloves",
+   "error": "http 429"
+  },
+  {
+   "id": "ov-057",
+   "file": "datasets/gear-v2-openverse/images/ov-057.jpg",
+   "sha256": "d1797798bf6dc272b992b15eb32de8cd50536afeb0812469e53097266eddb16e",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "4aba780b-4dc3-4f1a-9644-841d32b2f977",
+   "title": "Motorcycling",
+   "creator": "NDDOT Photos",
+   "license": "pdm",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/64355152@N07/14884276796",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-058",
+   "file": "datasets/gear-v2-openverse/images/ov-058.jpg",
+   "sha256": "beb001aa1704adc15216e1a5b3630efb11c71235d75fb56ebb36fa9d819a5699",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "15cfd9f0-1229-4441-abd7-d615d5d1c201",
+   "title": "Motorcycling",
+   "creator": "NDDOT Photos",
+   "license": "pdm",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/64355152@N07/14708327341",
+   "queries": [
+    "motorcycle gloves"
+   ]
+  },
+  {
+   "id": "ov-059",
+   "file": "datasets/gear-v2-openverse/images/ov-059.jpg",
+   "sha256": "71efe97c9d4435bbc388e69e86b457cb7c22a18588347936b84e9d796c6306f4",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "307f9302-e140-4442-8dd9-632347b15052",
+   "title": "Leather Motorcycle Boots & Kilt",
+   "creator": "Earthworm",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/20734950@N00/2655735893",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-060",
+   "file": "datasets/gear-v2-openverse/images/ov-060.jpg",
+   "sha256": "26a06d24682964f7112048ad6075f5166047e4af9a011da67149a978f28b8569",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "d2384296-d735-4e73-8654-224f8d03f2f3",
+   "title": "Pink Fluevog Bond Girl Motorcycle Boots",
+   "creator": "erichazann",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/26176540@N00/3276718883",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-061",
+   "file": "datasets/gear-v2-openverse/images/ov-061.jpg",
+   "sha256": "8d2f973bb65f0df4c4f4157a40d588cc51f3a100e5231877ee1abbab3f05e579",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "657fde4a-8939-4047-976a-22397d7bc57d",
+   "title": "Fluevog Maxi Bond Girl Motorcycle Boots",
+   "creator": "erichazann",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/26176540@N00/3277540458",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-062",
+   "file": "datasets/gear-v2-openverse/images/ov-062.jpg",
+   "sha256": "05c07c0df113d35ef841fdfe0ecad0316052e78493e82f80d8841b4baafd4487",
+   "width": 1024,
+   "height": 768,
+   "openverseId": "fd7b61c3-7c2d-4d73-92e0-b2f11588edef",
+   "title": "Motorcycle Boot & Xootr",
+   "creator": "Earthworm",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/20734950@N00/3646659505",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-063",
+   "file": "datasets/gear-v2-openverse/images/ov-063.jpg",
+   "sha256": "547c12d3803345219ef5140f42d878d5bc7739b34eb5b01fe886db72c0047798",
+   "width": 343,
+   "height": 500,
+   "openverseId": "26810db1-22d3-4031-a1d1-23bc7d246b73",
+   "title": "Motorcycle boots",
+   "creator": "Geekybiker",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/78479478@N00/2382396420",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-064",
+   "file": "datasets/gear-v2-openverse/images/ov-064.jpg",
+   "sha256": "a273762fbb30d101a19da019f1cb9bdc28efdbaa5228f5664df73cdb2ed96d70",
+   "width": 768,
+   "height": 1024,
+   "openverseId": "43d4089c-49d1-4412-a0e9-db68d4226b22",
+   "title": "Outfit With Motorcycle Boots",
+   "creator": "Earthworm",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/20734950@N00/48177324716",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-065",
+   "file": "datasets/gear-v2-openverse/images/ov-065.jpg",
+   "sha256": "4769e1f42a0817d5d6caf462e2110287e1fa1f122c126f98c4b28daa241f295e",
+   "width": 765,
+   "height": 1024,
+   "openverseId": "b2e18263-32ec-4c84-a87f-1bdaeda9302c",
+   "title": "2012: Motorcycle boots as snow boots",
+   "creator": "Kathy E. Gill",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/18305316@N00/6728072981",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-066",
+   "file": "datasets/gear-v2-openverse/images/ov-066.jpg",
+   "sha256": "751a6df887c9cd5357a7bead10e8567993e1e095dee46b544f7b4dd2bac31f01",
+   "width": 718,
+   "height": 1023,
+   "openverseId": "5124b678-5fc3-4b72-ae48-27c7c6cebfc9",
+   "title": "Dehner Motor Patrol Boots",
+   "creator": "deejayqueue",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/31136597@N00/5434203513",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-067",
+   "file": "datasets/gear-v2-openverse/images/ov-067.jpg",
+   "sha256": "5feb10d541162c6748634f3e2986cce2fb7ed31596248b3899222b693f1db676",
+   "width": 1024,
+   "height": 683,
+   "openverseId": "b98c6236-eeeb-45fb-81a7-93e3d40b3bca",
+   "title": "Motorcycling",
+   "creator": "NDDOT Photos",
+   "license": "pdm",
+   "licenseVersion": "1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/64355152@N07/14688503106",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-068",
+   "file": "datasets/gear-v2-openverse/images/ov-068.jpg",
+   "sha256": "7fc972caf82e3673aeee1e324610bdf06ceade344e068486a8b2d8f910d91185",
+   "width": 680,
+   "height": 1024,
+   "openverseId": "ce755846-e25e-4ca5-8cb8-949c51453a13",
+   "title": "Dehner Motor Patrol Boots",
+   "creator": "deejayqueue",
+   "license": "by-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/31136597@N00/5434203099",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-069",
+   "file": "datasets/gear-v2-openverse/images/ov-069.jpg",
+   "sha256": "482f21f5ffe51d0b3134f050a9badf8df3c842b5d3905efaf8b8b8be56778807",
+   "width": 684,
+   "height": 1024,
+   "openverseId": "fb725084-274e-44c1-83a6-d64e2ed7d325",
+   "title": "Who's Afraid of the Big Bad Wolf Redux",
+   "creator": "edwicks_toybox",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/101832432@N04/36639475443",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-070",
+   "file": "datasets/gear-v2-openverse/images/ov-070.jpg",
+   "sha256": "0d3b2a1ad07bbb7b58f60135c716cad917f66661d27e85e3f77b31cc4816c517",
+   "width": 684,
+   "height": 1024,
+   "openverseId": "8c8c7870-4bfb-463b-8b2f-f65d19b0fe71",
+   "title": "Who's Afraid of the Big Bad Wolf Redux",
+   "creator": "edwicks_toybox",
+   "license": "by-nc",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/101832432@N04/37053462400",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-071",
+   "file": "datasets/gear-v2-openverse/images/ov-071.jpg",
+   "sha256": "c88c4d9bc3d501ed597f1b99bd94c801e13f81e031a7041fb85566cc46e8bb14",
+   "width": 759,
+   "height": 1024,
+   "openverseId": "2374b25d-afc3-482f-8f4a-625b7f24305e",
+   "title": "22 Spanking for the IAM",
+   "creator": "ozzzie",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/85167141@N00/288349093",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-072",
+   "file": "datasets/gear-v2-openverse/images/ov-072.jpg",
+   "sha256": "ebfa2c3259034a321fe5c17dd3fd8a66e4de2f13a808130f75a45129a0e000b4",
+   "width": 1000,
+   "height": 667,
+   "openverseId": "f7b60049-4bc2-4417-abcf-8e834147d22d",
+   "title": "",
+   "creator": "Joe St.Pierre",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/39626816@N02/15785813401",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-073",
+   "file": "datasets/gear-v2-openverse/images/ov-073.jpg",
+   "sha256": "03209de0d9e19e236f284cf082211ac720ec639ef56815c98e5facf101411338",
+   "width": 743,
+   "height": 1023,
+   "openverseId": "f70bdaec-0296-4ebd-8913-40f9857ccc91",
+   "title": "Servicing the community",
+   "creator": "Tymtoi",
+   "license": "by-nc-sa",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/55178708@N08/7697068170",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-074",
+   "file": "datasets/gear-v2-openverse/images/ov-074.jpg",
+   "sha256": "7584df7e960660e0ee4cee2f05b9585cfaa41047fa784d6ddce5ca9d21838f39",
+   "width": 392,
+   "height": 1023,
+   "openverseId": "3f31f8b5-2ff8-4278-909c-e95e9d7d2533",
+   "title": "Leatherchrissy",
+   "creator": "Miss Leatherchrissy",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/62077007@N02/5716361658",
+   "queries": [
+    "motorcycle boots"
+   ]
+  },
+  {
+   "id": "ov-075",
+   "file": "datasets/gear-v2-openverse/images/ov-075.jpg",
+   "sha256": "e24ca15d9a5c43a55913872d899e529f8dba6de5b34a0f95b4c348f91e398b20",
+   "width": 931,
+   "height": 1023,
+   "openverseId": "0a9060b0-a6b0-45d2-bcdc-0b5c0ead6f6f",
+   "title": "Leatherchrissy",
+   "creator": "Miss Leatherchrissy",
+   "license": "by",
+   "licenseVersion": "2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "flickr",
+   "landingUrl": "https://www.flickr.com/photos/62077007@N02/5715797417",
+   "queries": [
+    "motorcycle boots"
+   ]
+  }
+ ]
+}

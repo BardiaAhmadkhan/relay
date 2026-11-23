@@ -1,0 +1,118 @@
+{
+  "at": "2026-10-26T21:18:52.562Z",
+  "reviewer": "Assistant reference/output correspondence review; not expert adjudication.",
+  "rows": [
+    {
+      "id": "commons-090",
+      "correspondence": "missed",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "No finding returned despite several clear slits and frayed openings in the denim shorts. Full 960px source image rechecked."
+    },
+    {
+      "id": "fabric-030",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-031",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-034",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-042",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-044",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": true,
+      "note": "The tear and frayed edge are identified, but the description invents separate white and underlying blue fabric layers; this is a printed textile."
+    },
+    {
+      "id": "fabric-045",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-053",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "The defect location is flagged as a dark stain or minor abrasion; the visible split through the printed fabric is not identified."
+    },
+    {
+      "id": "fabric-055",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-059",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-066",
+      "correspondence": "partial",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "The puncture is reduced to a dark spot without recognizing missing or broken material."
+    },
+    {
+      "id": "fabric-071",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-073",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-076",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "fabric-080",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    },
+    {
+      "id": "leather-005",
+      "correspondence": "matched",
+      "locationError": false,
+      "unsupportedExtra": false,
+      "note": "At least one returned description corresponds to the visibly broken or frayed material in the frozen reference."
+    }
+  ]
+}

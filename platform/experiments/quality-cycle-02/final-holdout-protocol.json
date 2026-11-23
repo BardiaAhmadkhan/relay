@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-26T22:52:36.747Z",
+  "sources": [
+    {
+      "path": "datasets/quality-cycle-02/final-holdout-labels.json",
+      "sha256": "d1d022ffb51695ee1df9ec0d46eb089c288d9bd638f7accdfb39194a111250d9"
+    },
+    {
+      "path": "experiments/quality-cycle-02/final-five-selection.json",
+      "sha256": "a392a6a6431c8599f6e82752717a1b5a6e461e00a33d4d48e64c4db56215527f"
+    },
+    {
+      "path": "experiments/quality-cycle-02/final-five-acquisition.json",
+      "sha256": "168f2716a227a8865c06402113ed6b8b4fd4e03ab198005033d5d29e55cbc61f"
+    },
+    {
+      "path": "packages/vision/evidence-contract.ts",
+      "sha256": "b950b0fc01d12dbb8ba9b42bef4b5da90be3b4c77ed5cc1c2362b9316bd78463"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-tear-context.ts",
+      "sha256": "09a23b38fab19c1746fa72dc4bd363719d5b95b0261dfc88e956e101199a7baa"
+    },
+    {
+      "path": "experiments/quality-cycle-02/focused-context-inspection.ts",
+      "sha256": "a6b770b9550ca5c0a632eb344906cbbb0c5a7f4a35a118bc4e4405a64f51e3c5"
+    }
+  ],
+  "gate": "No deleted positive evidence, no new false tear recovery. Record all failures and abstentions. Do not tune the algorithm on these five images."
+}

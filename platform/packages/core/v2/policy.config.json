@@ -1,0 +1,40 @@
+{
+  "version": "2026-11-18.1",
+  "supportedCategories": ["jacket", "trousers", "suit", "gloves", "boots"],
+  "reviewOnlyCategories": ["helmet", "armour"],
+  "requiredViews": ["front", "back", "label"],
+  "maxCloseUpRequests": 1,
+  "gradeFromWear": [
+    [0.5, "A"],
+    [1.5, "B"],
+    [2.5, "C"],
+    [9, "D"]
+  ],
+  "offerGrades": ["A", "B", "C"],
+  "protectiveZones": {
+    "jacket": {
+      "shoulder": "shoulder",
+      "elbow": "elbow or forearm",
+      "back": "back panel",
+      "chest": "chest"
+    },
+    "trousers": { "knee": "knee or shin", "hip": "hip", "seat": "seat" },
+    "suit": {
+      "shoulder": "shoulder",
+      "elbow": "elbow or forearm",
+      "back": "back panel",
+      "chest": "chest",
+      "knee": "knee or shin",
+      "hip": "hip",
+      "seat": "seat"
+    },
+    "gloves": { "palm": "palm", "knuckle": "knuckles or back of the hand", "finger": "fingers" },
+    "boots": {
+      "toe": "toe",
+      "ankle": "ankle",
+      "heel": "heel",
+      "shin": "shin plate",
+      "sole": "sole"
+    }
+  }
+}

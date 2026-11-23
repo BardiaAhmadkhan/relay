@@ -1,0 +1,321 @@
+{
+  "diagnosticOnly": false,
+  "apk": "C:\\gear-recognition-lab\\app\\android\\app\\build\\outputs\\apk\\release\\app-release.apk",
+  "bytes": 3316903018,
+  "sha256": "12cc3e4d6c43181f85ef60058c905b57c010eae8acc84633e7be3bc2ad725082",
+  "models": [
+    {
+      "name": "vision.gguf",
+      "bytes": 2648593216,
+      "sha256": "a9d0a3e1d8c91732a3812becd31f8d4a8ff57414903f226306069f0437e2ac50",
+      "compressedBytes": 2600702279
+    },
+    {
+      "name": "projector.gguf",
+      "bytes": 675569120,
+      "sha256": "e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60",
+      "compressedBytes": 531940736
+    }
+  ],
+  "nativeLibraries": [
+    {
+      "name": "lib/arm64-v8a/libappmodules.so",
+      "minLoadAlignment": 16384,
+      "sha256": "dd4f98af6ccf672443cc3a154983c97c6bb3d25be19c5c56d3fd9a7042b55e8f"
+    },
+    {
+      "name": "lib/arm64-v8a/libbarhopper_v3.so",
+      "minLoadAlignment": 16384,
+      "sha256": "ec09597e9eb3aee0eb55ae3366da0d4ba416f5aa35a1af0b3811f50ff46743a1"
+    },
+    {
+      "name": "lib/arm64-v8a/libc++_shared.so",
+      "minLoadAlignment": 16384,
+      "sha256": "3e852764502d06e0cf1080d532ae7c608b7649d946a3a9d7e84e3d4b7d683214"
+    },
+    {
+      "name": "lib/arm64-v8a/libexpo-modules-core.so",
+      "minLoadAlignment": 16384,
+      "sha256": "dc87f801b21c8f843464f84bc42e1d6c16c1dfc3de5b5a4470d57aa18b187fc7"
+    },
+    {
+      "name": "lib/arm64-v8a/libfbjni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "a9e35ba55d3f956920281f519385f8a72475ee24819799cb08375fdd4cce2b22"
+    },
+    {
+      "name": "lib/arm64-v8a/libgifimage.so",
+      "minLoadAlignment": 16384,
+      "sha256": "9f605249728da7091569772a38a4dde298ed48e1e73fed3da0e4b662ef38715c"
+    },
+    {
+      "name": "lib/arm64-v8a/libhermestooling.so",
+      "minLoadAlignment": 16384,
+      "sha256": "1db061bbbb050105fee9b208b861adc0cc02cc359551be6ba9562798a81f6cca"
+    },
+    {
+      "name": "lib/arm64-v8a/libhermesvm.so",
+      "minLoadAlignment": 16384,
+      "sha256": "bf38be45bf5d6ad8ba961eaf9deda5fa7e032f3ff7d3929ba2a624567093bffa"
+    },
+    {
+      "name": "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "0292b063fafccf734472cbb59588e756c2dbca907c72021ba6fbf126385508a2"
+    },
+    {
+      "name": "lib/arm64-v8a/libimagepipeline.so",
+      "minLoadAlignment": 16384,
+      "sha256": "1b377992e4256fa9398ec057722f84a359c7d588e570c8a41f51d930c19ece7d"
+    },
+    {
+      "name": "lib/arm64-v8a/libjsi.so",
+      "minLoadAlignment": 16384,
+      "sha256": "5acb80d7eb93b2114a419c9e42b44476969299e806ad7eafe1b293e221b9a682"
+    },
+    {
+      "name": "lib/arm64-v8a/libnative-filters.so",
+      "minLoadAlignment": 16384,
+      "sha256": "4294b57460e70a6351ce7ae2733a79c088c907dfa54673a657227ec5bb669594"
+    },
+    {
+      "name": "lib/arm64-v8a/libnative-imagetranscoder.so",
+      "minLoadAlignment": 16384,
+      "sha256": "2aed28298a25afd52ac670cf9682398c6c7ba42a57195c01efd565e7ddfe17ca"
+    },
+    {
+      "name": "lib/arm64-v8a/libreact_codegen_rnsvg.so",
+      "minLoadAlignment": 16384,
+      "sha256": "2faae4cb4ad3ad4dcb28ea8438323b24a44bf1873a782b6368b79dda3188db66"
+    },
+    {
+      "name": "lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "minLoadAlignment": 16384,
+      "sha256": "0b79e0f7cba896d18aa8bcad88f9ff100d8778d0aa8311702d26b8a7e31cbe2d"
+    },
+    {
+      "name": "lib/arm64-v8a/libreactnative.so",
+      "minLoadAlignment": 16384,
+      "sha256": "14bb860cebebb0e29eb2c96a52d70da9b73e60253916694af955f6e3ef1e6b64"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama.so",
+      "minLoadAlignment": 16384,
+      "sha256": "938380cdc4c466235dcfde3490ceeee695a655f20af67f749fe056b95fda83db"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "c81e26ba6bc9a9c7dcb0a2da6ec5959b589b8e18a92f36a0921b284c534d9cec"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8.so",
+      "minLoadAlignment": 16384,
+      "sha256": "61eba0c761a257e1177b08991835361e443ec6eb22f2c2dfc6eef99ec676936b"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2.so",
+      "minLoadAlignment": 16384,
+      "sha256": "773feba95aa8a94612125d0147c6bc488cf67026fc444cab7c2f16890340d718"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod.so",
+      "minLoadAlignment": 16384,
+      "sha256": "8268245c19ec9935d7e8ad412809a406e3830f966caa6fc1d068af99da097b23"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod_i8mm.so",
+      "minLoadAlignment": 16384,
+      "sha256": "639eadd33556e50cab07b5e9c7434c37a48c9c3915d99f179f04dbe3ed2b3c61"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_dotprod_i8mm_hexagon_opencl.so",
+      "minLoadAlignment": 16384,
+      "sha256": "3b2c8e4be454c94e859fd7efb77cbf928f84cdb4cf067536dd66121eb101f187"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_jni_v8_2_i8mm.so",
+      "minLoadAlignment": 16384,
+      "sha256": "77437b52ca2a7b5356c940cb0e929c6ea4d5816265028e5feb48f161052df328"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8.so",
+      "minLoadAlignment": 16384,
+      "sha256": "a4dbd302c67e906b45e7b1e5ceee7f59cf50a8700a9b72ce14191af6615a94a3"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2.so",
+      "minLoadAlignment": 16384,
+      "sha256": "3420e18d27f28b51035d24e8db148ce6516b50ee0e278877cc07009dc61f2b0c"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_dotprod.so",
+      "minLoadAlignment": 16384,
+      "sha256": "bec50758ada7ef39b3f860a7e8e53c4d1e0b99ddfe205f4700acbb840c4f6cc2"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_dotprod_i8mm.so",
+      "minLoadAlignment": 16384,
+      "sha256": "5bc782d78c764277525c09a21aa95e2963059befaee30451349a03de0e159cc1"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_dotprod_i8mm_hexagon_opencl.so",
+      "minLoadAlignment": 16384,
+      "sha256": "71c04553ae83e7b9fbf326dacf850470bb5d167fbf203c673e7fe4ceb4372d75"
+    },
+    {
+      "name": "lib/arm64-v8a/librnllama_v8_2_i8mm.so",
+      "minLoadAlignment": 16384,
+      "sha256": "bde674c0eaf0b3d0531a3bd6a6f41a4259309f213f75370d96da3b0049bfac4a"
+    },
+    {
+      "name": "lib/arm64-v8a/libstatic-webp.so",
+      "minLoadAlignment": 16384,
+      "sha256": "f3e5f9ab4f93f2a0a057285a2de9c93ba0ab59c76c22874d0356493ce283c4c7"
+    },
+    {
+      "name": "lib/arm64-v8a/libsurface_util_jni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "a5c9d1928ea92ec7a94dff8cf666e7739cd734198b9f0ae1d4e28ea3c86516ba"
+    },
+    {
+      "name": "lib/arm64-v8a/libzstd-kmp.so",
+      "minLoadAlignment": 16384,
+      "sha256": "10ec47f13bee884450b0911066019ba7aa6b4164a4c1f8c33c9d30dd3fd8868a"
+    },
+    {
+      "name": "lib/x86_64/libappmodules.so",
+      "minLoadAlignment": 16384,
+      "sha256": "f033e9187c1f70bd89fae8c2bbcff48e0aa0290270ebd866de3341b0d2ceb5f2"
+    },
+    {
+      "name": "lib/x86_64/libbarhopper_v3.so",
+      "minLoadAlignment": 16384,
+      "sha256": "6c5deea87d962af008fd48c3229db13ab68eef2e9feeccb2df5b33a920c0579a"
+    },
+    {
+      "name": "lib/x86_64/libc++_shared.so",
+      "minLoadAlignment": 16384,
+      "sha256": "0a2c7afa35b183fdd5a3cb20e2080ad54cbea06c2a4f0bc8f122cb7d1e9e0b9f"
+    },
+    {
+      "name": "lib/x86_64/libexpo-modules-core.so",
+      "minLoadAlignment": 16384,
+      "sha256": "4ad65181819eee7aa5ffbc027d72fe2b2cdf9519a40012857fbd0cb5604ce7ab"
+    },
+    {
+      "name": "lib/x86_64/libfbjni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "a51410366a0394e05bc04052cfb237c70dcf7d4d53a56e1d00a041436cb0b653"
+    },
+    {
+      "name": "lib/x86_64/libgifimage.so",
+      "minLoadAlignment": 16384,
+      "sha256": "20768d822119deee9beeccfd4340987976381587b519b630f5393fee4d731c1f"
+    },
+    {
+      "name": "lib/x86_64/libhermestooling.so",
+      "minLoadAlignment": 16384,
+      "sha256": "6a8ef7ef7bb5bd277a915fc0070fa1285c6969da2d7faf4fbff86ab6468c8458"
+    },
+    {
+      "name": "lib/x86_64/libhermesvm.so",
+      "minLoadAlignment": 16384,
+      "sha256": "3c5f7f3740b6511b55f3f8ba43c24eb1b38ab2fb9dc1ca5618287c3ca6221e13"
+    },
+    {
+      "name": "lib/x86_64/libimage_processing_util_jni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "112703727717651e69e91f3ea2c3c2311737ee5809a909c9d342a811b6c7c069"
+    },
+    {
+      "name": "lib/x86_64/libimagepipeline.so",
+      "minLoadAlignment": 16384,
+      "sha256": "2e596f4955f65abaa93c891b49eb58b5416581806a04bde0097cc369ae4dbfb3"
+    },
+    {
+      "name": "lib/x86_64/libjsi.so",
+      "minLoadAlignment": 16384,
+      "sha256": "f3927514e215b9fe14bc6d5a1937c62b20ed55057ede7205fac198ec763d4349"
+    },
+    {
+      "name": "lib/x86_64/libnative-filters.so",
+      "minLoadAlignment": 16384,
+      "sha256": "1a5270f007dd4b2f0fc52ceac82e05143648ba9be59c2213a21cf61c84f1f5e5"
+    },
+    {
+      "name": "lib/x86_64/libnative-imagetranscoder.so",
+      "minLoadAlignment": 16384,
+      "sha256": "f6b92ad7f1c30973f40704c46987504757c3d079c7f4ace6efc8b318dd9c22f3"
+    },
+    {
+      "name": "lib/x86_64/libreact_codegen_rnsvg.so",
+      "minLoadAlignment": 16384,
+      "sha256": "d4c10ca7648d74953c81a4d98e8f718224195ba76158f198144c2278f4412c8e"
+    },
+    {
+      "name": "lib/x86_64/libreact_codegen_safeareacontext.so",
+      "minLoadAlignment": 16384,
+      "sha256": "8645b77e5a5527aa7a40ec7a2689fa1c734db7aeb47dda312de08884b86d6970"
+    },
+    {
+      "name": "lib/x86_64/libreactnative.so",
+      "minLoadAlignment": 16384,
+      "sha256": "f80d63ba3df4cd85764c330c6af56ca5995fdaacbdcff107657b8c63918f1d8b"
+    },
+    {
+      "name": "lib/x86_64/librnllama.so",
+      "minLoadAlignment": 16384,
+      "sha256": "338f37f3f29dbd6085465ef2492bd3643020fa97cbeb60c629f646c448c3869a"
+    },
+    {
+      "name": "lib/x86_64/librnllama_jni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "2edb0ba1708626eff2f7dfd3fb542e5cbf27a26be20cba44474fe88d73fbf6d8"
+    },
+    {
+      "name": "lib/x86_64/librnllama_jni_x86_64.so",
+      "minLoadAlignment": 16384,
+      "sha256": "213a045483d27e6a6b60a85edabb0dd4ecf98cd576836c7f9aa7e504b3436f23"
+    },
+    {
+      "name": "lib/x86_64/librnllama_x86_64.so",
+      "minLoadAlignment": 16384,
+      "sha256": "7cae6fe4efd06c42287dd505815d26339fb5f0b5859b8d3c2383684e652b44a8"
+    },
+    {
+      "name": "lib/x86_64/libstatic-webp.so",
+      "minLoadAlignment": 16384,
+      "sha256": "e7884cd18761b5ee54de98b9a3f4b9e4b0dea364c186e24ff9b740b29742562b"
+    },
+    {
+      "name": "lib/x86_64/libsurface_util_jni.so",
+      "minLoadAlignment": 16384,
+      "sha256": "e5311942b4fce0f7f2505d41150cf9921e558a6368929cb73127450f74dd4fe4"
+    },
+    {
+      "name": "lib/x86_64/libzstd-kmp.so",
+      "minLoadAlignment": 16384,
+      "sha256": "fefcbdcd59580a3043c62380a83d92f13c031c278481e22591a2c75112296e28"
+    }
+  ],
+  "mergedManifestHasInternetPermission": false,
+  "badging": [
+    "package: name='ca.relaygearlab.experimental' versionCode='2' versionName='0.2.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+    "sdkVersion:'24'",
+    "targetSdkVersion:'36'",
+    "native-code: 'arm64-v8a' 'x86_64'"
+  ],
+  "permissions": [
+    "package: ca.relaygearlab.experimental",
+    "uses-permission: name='android.permission.CAMERA'",
+    "uses-permission: name='android.permission.READ_EXTERNAL_STORAGE' maxSdkVersion='32'",
+    "uses-permission: name='android.permission.VIBRATE'",
+    "uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE' maxSdkVersion='32'",
+    "permission: ca.relaygearlab.experimental.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "uses-permission: name='ca.relaygearlab.experimental.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+  ],
+  "signer": "Signer #1 certificate SHA-256 digest: fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+  "sameSignerAsPreviousApk": true,
+  "zipAlignment16KiB": true
+}

@@ -1,0 +1,698 @@
+{
+  "projectorSha256": [
+    "5ddf560e34046fd958b2576324f2a9b57d70f297afe6526958d60a23f3bfc20b",
+    "e56a899b1540860385465756dd308c84417410b94dbc1c380adffd20a921ca60"
+  ],
+  "tensors": [
+    {
+      "tensor": "v.blk.0.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9977364009541287,
+      "relativeDistance": 0.06725385773087385
+    },
+    {
+      "tensor": "v.blk.0.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9944251231140773,
+      "relativeDistance": 0.10558295276555899
+    },
+    {
+      "tensor": "v.blk.0.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9977609578828147,
+      "relativeDistance": 0.06691184884704174
+    },
+    {
+      "tensor": "v.blk.0.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9970917400829111,
+      "relativeDistance": 0.07626699958815969
+    },
+    {
+      "tensor": "v.blk.1.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9970667447785594,
+      "relativeDistance": 0.0765470431999893
+    },
+    {
+      "tensor": "v.blk.1.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9949425025648048,
+      "relativeDistance": 0.10058213115646686
+    },
+    {
+      "tensor": "v.blk.1.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9961186033065274,
+      "relativeDistance": 0.08810094036623042
+    },
+    {
+      "tensor": "v.blk.1.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9958217708627393,
+      "relativeDistance": 0.09141457009687534
+    },
+    {
+      "tensor": "v.blk.2.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9956447916384839,
+      "relativeDistance": 0.09327775097717216
+    },
+    {
+      "tensor": "v.blk.2.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9933768807735287,
+      "relativeDistance": 0.11513113023178886
+    },
+    {
+      "tensor": "v.blk.2.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9938996712892646,
+      "relativeDistance": 0.11046257348237834
+    },
+    {
+      "tensor": "v.blk.2.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9941246185220505,
+      "relativeDistance": 0.10840891007696415
+    },
+    {
+      "tensor": "v.blk.3.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9929080645706079,
+      "relativeDistance": 0.11907580402806989
+    },
+    {
+      "tensor": "v.blk.3.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9913720079896279,
+      "relativeDistance": 0.13140364622497525
+    },
+    {
+      "tensor": "v.blk.3.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9916606755559975,
+      "relativeDistance": 0.1291425183337568
+    },
+    {
+      "tensor": "v.blk.3.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.994057368802762,
+      "relativeDistance": 0.1090146124817115
+    },
+    {
+      "tensor": "v.blk.4.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9920169740984324,
+      "relativeDistance": 0.1263380413589912
+    },
+    {
+      "tensor": "v.blk.4.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9906686144496463,
+      "relativeDistance": 0.13663112490365667
+    },
+    {
+      "tensor": "v.blk.4.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9891269769799805,
+      "relativeDistance": 0.1474766203299233
+    },
+    {
+      "tensor": "v.blk.4.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9927326452754338,
+      "relativeDistance": 0.12052871675635812
+    },
+    {
+      "tensor": "v.blk.5.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9891061642524909,
+      "relativeDistance": 0.1475434376006572
+    },
+    {
+      "tensor": "v.blk.5.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9890487706723138,
+      "relativeDistance": 0.1480224009690489
+    },
+    {
+      "tensor": "v.blk.5.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9864723408958119,
+      "relativeDistance": 0.16452658292722158
+    },
+    {
+      "tensor": "v.blk.5.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9907415779834546,
+      "relativeDistance": 0.13606282738687261
+    },
+    {
+      "tensor": "v.blk.6.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9854488393206489,
+      "relativeDistance": 0.1705143890629366
+    },
+    {
+      "tensor": "v.blk.6.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9872102462863868,
+      "relativeDistance": 0.1600287830614628
+    },
+    {
+      "tensor": "v.blk.6.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9838303884469753,
+      "relativeDistance": 0.1799115336698009
+    },
+    {
+      "tensor": "v.blk.6.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9883758780056289,
+      "relativeDistance": 0.15248270069823497
+    },
+    {
+      "tensor": "v.blk.7.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9815237653217759,
+      "relativeDistance": 0.1920906937122579
+    },
+    {
+      "tensor": "v.blk.7.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9864453172130829,
+      "relativeDistance": 0.16468132958848072
+    },
+    {
+      "tensor": "v.blk.7.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.981551138391003,
+      "relativeDistance": 0.19223297043512835
+    },
+    {
+      "tensor": "v.blk.7.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9847574044105089,
+      "relativeDistance": 0.17465191148368864
+    },
+    {
+      "tensor": "v.blk.8.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9795611110180948,
+      "relativeDistance": 0.20211838551111902
+    },
+    {
+      "tensor": "v.blk.8.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9838664031232415,
+      "relativeDistance": 0.17984587625576712
+    },
+    {
+      "tensor": "v.blk.8.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9797291827296999,
+      "relativeDistance": 0.20157518801467608
+    },
+    {
+      "tensor": "v.blk.8.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9815807864804965,
+      "relativeDistance": 0.1921504115959621
+    },
+    {
+      "tensor": "v.blk.9.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9761544060343275,
+      "relativeDistance": 0.21829840517509433
+    },
+    {
+      "tensor": "v.blk.9.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9824943823419137,
+      "relativeDistance": 0.1876124264866002
+    },
+    {
+      "tensor": "v.blk.9.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9758954105137929,
+      "relativeDistance": 0.21993690619987588
+    },
+    {
+      "tensor": "v.blk.9.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9768853398235584,
+      "relativeDistance": 0.21541452866463318
+    },
+    {
+      "tensor": "v.blk.10.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9720948381513025,
+      "relativeDistance": 0.23597700445097694
+    },
+    {
+      "tensor": "v.blk.10.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9796132644701926,
+      "relativeDistance": 0.20268372512847382
+    },
+    {
+      "tensor": "v.blk.10.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9729262227377097,
+      "relativeDistance": 0.23312983022614903
+    },
+    {
+      "tensor": "v.blk.10.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.974312436445651,
+      "relativeDistance": 0.22726667423127556
+    },
+    {
+      "tensor": "v.blk.11.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9666102227691462,
+      "relativeDistance": 0.25809485619594713
+    },
+    {
+      "tensor": "v.blk.11.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9754944645103626,
+      "relativeDistance": 0.22268676376090976
+    },
+    {
+      "tensor": "v.blk.11.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9678350997554692,
+      "relativeDistance": 0.25395884943399905
+    },
+    {
+      "tensor": "v.blk.11.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.973832797870217,
+      "relativeDistance": 0.22909602604469734
+    },
+    {
+      "tensor": "v.blk.12.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.961908269839202,
+      "relativeDistance": 0.27512509898112386
+    },
+    {
+      "tensor": "v.blk.12.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9716422695729252,
+      "relativeDistance": 0.24016471369472853
+    },
+    {
+      "tensor": "v.blk.12.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9567910560810291,
+      "relativeDistance": 0.29514531573098607
+    },
+    {
+      "tensor": "v.blk.12.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9656322967647899,
+      "relativeDistance": 0.2625418414637413
+    },
+    {
+      "tensor": "v.blk.13.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9534776587035614,
+      "relativeDistance": 0.30460875597419595
+    },
+    {
+      "tensor": "v.blk.13.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9662975162580353,
+      "relativeDistance": 0.2630695295536286
+    },
+    {
+      "tensor": "v.blk.13.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9450006364110114,
+      "relativeDistance": 0.33361445844244597
+    },
+    {
+      "tensor": "v.blk.13.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9488850980767144,
+      "relativeDistance": 0.3215540118552749
+    },
+    {
+      "tensor": "v.blk.14.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.9345800745935826,
+      "relativeDistance": 0.3604992149284267
+    },
+    {
+      "tensor": "v.blk.14.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9478995733234916,
+      "relativeDistance": 0.3269271977865824
+    },
+    {
+      "tensor": "v.blk.14.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9194258373226694,
+      "relativeDistance": 0.405415024443005
+    },
+    {
+      "tensor": "v.blk.14.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.890394455181739,
+      "relativeDistance": 0.4706639879679667
+    },
+    {
+      "tensor": "v.blk.15.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.914796245851242,
+      "relativeDistance": 0.41063007691824394
+    },
+    {
+      "tensor": "v.blk.15.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9315307772637699,
+      "relativeDistance": 0.37294638422537224
+    },
+    {
+      "tensor": "v.blk.15.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.9123061171307847,
+      "relativeDistance": 0.41980661208941955
+    },
+    {
+      "tensor": "v.blk.15.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.8684102619658447,
+      "relativeDistance": 0.5171729518322701
+    },
+    {
+      "tensor": "v.blk.16.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.8935110137524174,
+      "relativeDistance": 0.45782061426340154
+    },
+    {
+      "tensor": "v.blk.16.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.9108220392244925,
+      "relativeDistance": 0.4237196604518133
+    },
+    {
+      "tensor": "v.blk.16.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.8892623296827281,
+      "relativeDistance": 0.47051817330918905
+    },
+    {
+      "tensor": "v.blk.16.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.8336884416112726,
+      "relativeDistance": 0.5806030052617555
+    },
+    {
+      "tensor": "v.blk.17.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.86287871220328,
+      "relativeDistance": 0.5175789757232228
+    },
+    {
+      "tensor": "v.blk.17.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.8923737431912169,
+      "relativeDistance": 0.46305342927375276
+    },
+    {
+      "tensor": "v.blk.17.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.8737879929174119,
+      "relativeDistance": 0.501499472355681
+    },
+    {
+      "tensor": "v.blk.17.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.7996182483404657,
+      "relativeDistance": 0.6374869703144483
+    },
+    {
+      "tensor": "v.blk.18.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.8370173822993083,
+      "relativeDistance": 0.5622613640577212
+    },
+    {
+      "tensor": "v.blk.18.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.8593005602698756,
+      "relativeDistance": 0.5273738977908804
+    },
+    {
+      "tensor": "v.blk.18.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.8589461920105579,
+      "relativeDistance": 0.5280306677897308
+    },
+    {
+      "tensor": "v.blk.18.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.762315215124418,
+      "relativeDistance": 0.6965983622050106
+    },
+    {
+      "tensor": "v.blk.19.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.7821260129668054,
+      "relativeDistance": 0.6476209414984524
+    },
+    {
+      "tensor": "v.blk.19.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.8149120321385608,
+      "relativeDistance": 0.5989282257031607
+    },
+    {
+      "tensor": "v.blk.19.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.8300992609879505,
+      "relativeDistance": 0.5803625293484956
+    },
+    {
+      "tensor": "v.blk.19.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.7227721918934928,
+      "relativeDistance": 0.7597229470121953
+    },
+    {
+      "tensor": "v.blk.20.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.758261064479171,
+      "relativeDistance": 0.6802266559684678
+    },
+    {
+      "tensor": "v.blk.20.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.785808089608922,
+      "relativeDistance": 0.6389994391587193
+    },
+    {
+      "tensor": "v.blk.20.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.7879805274490268,
+      "relativeDistance": 0.6475898009526215
+    },
+    {
+      "tensor": "v.blk.20.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.6691042428488304,
+      "relativeDistance": 0.8348905280145191
+    },
+    {
+      "tensor": "v.blk.21.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.7315697577771566,
+      "relativeDistance": 0.7158853110334861
+    },
+    {
+      "tensor": "v.blk.21.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.7622558132733088,
+      "relativeDistance": 0.6715988281287251
+    },
+    {
+      "tensor": "v.blk.21.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.7350588957810853,
+      "relativeDistance": 0.7194867175608556
+    },
+    {
+      "tensor": "v.blk.21.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.6042520780922649,
+      "relativeDistance": 0.900571367293599
+    },
+    {
+      "tensor": "v.blk.22.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.6977033355749915,
+      "relativeDistance": 0.7563166308946258
+    },
+    {
+      "tensor": "v.blk.22.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.7612546391995032,
+      "relativeDistance": 0.6726530628493075
+    },
+    {
+      "tensor": "v.blk.22.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.6851788556322653,
+      "relativeDistance": 0.7807995995716953
+    },
+    {
+      "tensor": "v.blk.22.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.5419087743562935,
+      "relativeDistance": 0.9582698147836944
+    },
+    {
+      "tensor": "v.blk.23.attn_qkv.weight",
+      "parameters": 3145728,
+      "exactBytes": false,
+      "cosine": 0.6848841458112663,
+      "relativeDistance": 0.7753967965266603
+    },
+    {
+      "tensor": "v.blk.23.attn_out.weight",
+      "parameters": 1048576,
+      "exactBytes": false,
+      "cosine": 0.7531209112383946,
+      "relativeDistance": 0.6868952823047325
+    },
+    {
+      "tensor": "v.blk.23.ffn_up.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.6032040613375328,
+      "relativeDistance": 0.8712202976767589
+    },
+    {
+      "tensor": "v.blk.23.ffn_down.weight",
+      "parameters": 4194304,
+      "exactBytes": false,
+      "cosine": 0.5121143644514763,
+      "relativeDistance": 0.9831740382021514
+    }
+  ],
+  "identical": 0,
+  "count": 96,
+  "medianCosine": 0.9672226612623077,
+  "rangeCosine": [
+    0.5121143644514763,
+    0.9977609578828147
+  ],
+  "mergerDimensions": [
+    [
+      4096,
+      2048
+    ],
+    [
+      4096,
+      2560
+    ]
+  ],
+  "interpretation": "A shared layout does not identify an equivalent function; this audit does not authorize a 4B weight change."
+}
