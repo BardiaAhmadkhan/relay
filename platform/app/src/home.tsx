@@ -23,7 +23,7 @@ export function Home({ m }: { m: RelayModel }) {
           <Icon name="scan" size={22} color="#D7DBCD" />
         </View>
         <View style={h.heroBottom}>
-          <Text style={h.heroCaption}>Look beyond the surface.</Text>
+          <Text style={h.heroCaption}>Front view of a riding jacket</Text>
           <Text style={h.artLabel}>Illustrative image</Text>
         </View>
       </View>
@@ -69,7 +69,7 @@ export function Home({ m }: { m: RelayModel }) {
       <View style={h.boundary}>
         <Icon name="shield" size={18} color={C.muted} />
         <Text style={[s.small, { flex: 1 }]}>
-          An informed first look. Protective performance still needs a specialist’s inspection.
+          A photo can show visible wear. It cannot certify how a garment will protect you.
         </Text>
       </View>
     </Fade>

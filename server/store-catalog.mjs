@@ -20,18 +20,25 @@ function cleanOrigin(value) {
 function taxonomy(title, type, tags) {
   const primary = title.toLowerCase(),
     fields = (type + ' ' + tags.join(' ')).toLowerCase();
+  // Classify the item being sold. A jacket supplied with a liner is still a jacket.
+  const mainItem = primary.split(/\s+(?:with|including|includes|featuring|for)\s+|\s+w\/\s*/)[0];
   if (
-    /rain (?:jacket|pants)|rain suit|overpants|overtrousers|liner|base layer|overboots/i.test(
-      primary + ' ' + type,
+    /\b(?:rain (?:jacket|pants?|suit)|overpants|overtrousers|liners?|base layers?|overboots)\b/i.test(
+      mainItem + ' ' + type,
     )
   )
     return 'outerwear';
-  if (/\b(gloves?|protectors?|helmets?|vests?|boots?|suits?)\b/.test(primary))
-    return categoryKey(primary);
-  if (/\b(pants|jeans|trousers|denim jean)\b/.test(primary)) return 'pants';
-  if (/jacket|overshirt|hoodie/.test(primary)) return 'jacket';
+  if (
+    /\bprotectors?\b/.test(mainItem) ||
+    (/\b(?:armour|armor|protectors?)\b/i.test(type) &&
+      !/\b(?:jackets?|pants?|trousers?|suits?)\b/i.test(type))
+  )
+    return 'armour';
+  if (/\b(gloves?|helmets?|vests?|boots?|suits?)\b/.test(mainItem)) return categoryKey(mainItem);
+  if (/\b(pants?|jeans?|trousers?)\b/.test(mainItem)) return 'pants';
+  if (/jacket|overshirt|hoodie/.test(mainItem)) return 'jacket';
   if (/jacket|overshirt/.test(fields)) return 'jacket';
-  if (/pants|jeans|trousers/.test(fields)) return 'pants';
+  if (/\b(?:pants?|jeans?|trousers?)\b/.test(fields)) return 'pants';
   const kind = categoryKey(type);
   return ['gloves', 'armour', 'helmet', 'boots', 'vest', 'suit'].includes(kind) ? kind : 'other';
 }

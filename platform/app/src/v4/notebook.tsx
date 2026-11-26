@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import Svg, { Circle, Path } from 'react-native-svg';
 import { C, F, Icon, RelayMark } from '../design';
-import { photoUrl, type Brief } from './api';
+import { inspectionLabel, photoUrl, type Brief } from './api';
 import { performanceDisclosure } from '../../../packages/core/v4/disclosure';
 const states = {
   keep: { name: 'Eligible', fg: '#28543d', bg: '#dcebdd' },
@@ -287,7 +287,7 @@ export function Notebook({
                 {x.rehearsal && <Text style={s.rehearsal}>Rehearsal</Text>}
               </View>
               <Text style={s.id} numberOfLines={1}>
-                {x.id.startsWith('RL') ? x.id : 'Rider intake'}
+                {inspectionLabel(x.id)}
               </Text>
             </View>
           </Pressable>

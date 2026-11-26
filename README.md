@@ -19,7 +19,9 @@ Open the URL printed by Vite. The example workspace includes six fictional garme
 
 ## Rider and workshop workflows
 
-A rider chooses the garment type and answers one history question. Optional size, cut and riding preferences guide replacement suggestions. The camera or upload path collects the front, back, attached label and open inside. A fifth close-up is optional. Drafts survive refresh. The browser strips image metadata before submitting a photo or its label crop.
+A rider chooses the garment type and answers one history question. Optional size, cut and riding preferences guide replacement suggestions. The camera or upload path collects the front, back, attached label and open inside. Both paths end with a review of the four required views. Riders can retake one or add an optional close-up. Browser drafts survive refresh. The browser strips image metadata before submitting a photo or its label crop.
+
+The field guide illustrates both jackets and trousers. When a rider opens a private inspection directly, the browser restores its receipt and loads that garment. A temporarily unavailable inspection does not hide other accessible records.
 
 The result explains the decision, the supporting evidence, what is still uncertain and the next useful action. Riders can open the original photograph from the explanation. A trade-in inspection cannot certify protective performance.
 
@@ -44,6 +46,8 @@ Shop pricing uses available Canadian-dollar variants and merchant-supplied rates
 | `server/`                                         | Production web host, workshop and rider gateways, catalog and credit services.           |
 | `public/`, `notices/`                             | Distributable artwork, fonts, source information and third-party license notices.        |
 | `scripts/`, `tests/`                              | Catalog refresh, release checks and automated tests.                                     |
+
+Eligible estimates may display dated inventory while the shop refreshes its complete catalog in the background. Issuing or spending counter credit requires current inventory. A failed wallet refresh keeps the previously shown receipt and marks its balance unconfirmed.
 
 ## Build and verify
 

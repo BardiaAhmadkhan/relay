@@ -196,7 +196,7 @@ export const recordHref = (id: string, tab: Tab = 'overview') =>
   '#/items/' + encodeURIComponent(id) + (tab === 'overview' ? '' : '/' + tab);
 export const recordCode = (id: string) =>
   id.startsWith('capture-')
-    ? 'Rider intake'
+    ? 'Intake · ' + id.slice(8).toUpperCase()
     : id.startsWith('LOCAL-')
       ? 'Local · ' + id.slice(6, 14)
       : id;

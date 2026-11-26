@@ -176,6 +176,7 @@ export function Intake({ mode, onFinish }: { mode: Mode; onFinish: () => void })
       });
       if (live.current) {
         setSlot(requiredViews.find((k) => !shots[k]) ?? 'detail');
+        setOptionalOpen(false);
         setStatus(labels[slot] + ' saved.');
       }
       return true;
@@ -354,8 +355,10 @@ export function Intake({ mode, onFinish }: { mode: Mode; onFinish: () => void })
         </h1>
         <p>
           {mode === 'examples'
-            ? 'This intake is saved on this device in the example workspace.'
-            : 'Create a record in your connected workshop.'}
+            ? 'Example intake · Saved on this device.'
+            : mode === 'rider'
+              ? 'Your photos and inspection are private to your rider desk and the shop.'
+              : 'Create a record in your connected workshop.'}
         </p>
       </header>
       {yes ? (
@@ -400,7 +403,7 @@ export function Intake({ mode, onFinish }: { mode: Mode; onFinish: () => void })
               ))}
             </div>
             <div className="slot-list">
-              {intakeViews.map((k, i) => (
+              {requiredViews.map((k, i) => (
                 <button
                   key={k}
                   className={'slot ' + (k === slot ? 'current' : '')}
@@ -408,7 +411,7 @@ export function Intake({ mode, onFinish }: { mode: Mode; onFinish: () => void })
                   title={(d.shots[k] ? 'Retake ' : 'Show ') + labels[k]}
                   disabled={busy}
                   onClick={() => {
-                    setOptionalOpen(k === 'detail');
+                    setOptionalOpen(false);
                     setSlot(k);
                     setIssue('');
                   }}
@@ -418,13 +421,7 @@ export function Intake({ mode, onFinish }: { mode: Mode; onFinish: () => void })
                   </span>
                   <span>
                     <strong>{labels[k]}</strong>
-                    <small>
-                      {d.shots[k]
-                        ? 'Photo saved · Retake'
-                        : k === 'detail'
-                          ? 'Optional'
-                          : 'Required view'}
-                    </small>
+                    <small>{d.shots[k] ? 'Photo saved · Retake' : 'Required view'}</small>
                   </span>
                   {d.shots[k] ? (
                     <img src={d.shots[k]!.uri} alt="" />
@@ -434,6 +431,22 @@ export function Intake({ mode, onFinish }: { mode: Mode; onFinish: () => void })
                 </button>
               ))}
             </div>
+            {(count < 4 || d.shots.detail || optionalOpen) && (
+              <button
+                type="button"
+                className="detail-slot"
+                disabled={busy}
+                aria-current={slot === 'detail' && optionalOpen ? 'step' : undefined}
+                onClick={() => {
+                  setSlot('detail');
+                  setOptionalOpen(true);
+                  setIssue('');
+                }}
+              >
+                <Icon name={d.shots.detail ? 'check' : 'plus'} size={15} />
+                {d.shots.detail ? 'Review close-up' : 'Optional close-up'}
+              </button>
+            )}
             <button
               className="text-button history-edit"
               disabled={busy}
@@ -443,14 +456,34 @@ export function Intake({ mode, onFinish }: { mode: Mode; onFinish: () => void })
             </button>
           </aside>
           <div className="capture-main">
-            {d.method === 'camera' && slot === 'detail' && count === 4 && !optionalOpen ? (
+            {slot === 'detail' && count === 4 && !optionalOpen ? (
               <section className="shot-complete">
-                <Icon name="check" />
                 <h2>Four views captured</h2>
-                <p>You can send the photos now or add a close-up of wear or damage.</p>
-                <button className="button soft" onClick={() => setOptionalOpen(true)}>
-                  Add a close-up
+                <p>Your required photos are ready. Select a view to check or replace it.</p>
+                <div className="capture-proof">
+                  {requiredViews.map((k) => (
+                    <button
+                      key={k}
+                      disabled={busy}
+                      onClick={() => {
+                        setSlot(k);
+                        setIssue('');
+                      }}
+                    >
+                      <img src={d.shots[k]!.uri} alt="" />
+                      <span>{labels[k]}</span>
+                    </button>
+                  ))}
+                </div>
+                <button
+                  className="text-button"
+                  disabled={busy}
+                  onClick={() => setOptionalOpen(true)}
+                >
+                  <Icon name={d.shots.detail ? 'image' : 'plus'} size={15} />
+                  {d.shots.detail ? 'Review optional close-up' : 'Add a close-up'}
                 </button>
+                {issue && <Alert>{issue}</Alert>}
               </section>
             ) : d.method === 'camera' ? (
               <>

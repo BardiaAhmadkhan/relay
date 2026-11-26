@@ -217,6 +217,7 @@ export function createApp(options: ServerOptions) {
     const computation = (async () => {
       const preprocessingStart = performance.now();
       const prepared = await prepareImages(input.images);
+      controller.signal.throwIfAborted();
       const preprocessingMs = performance.now() - preprocessingStart;
       const preflight = decide({ disclosures: input.disclosures, photos: prepared.photos });
       // Observe usable photos immediately. Missing history/views cannot hide visible damage.

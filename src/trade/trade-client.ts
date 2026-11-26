@@ -108,10 +108,15 @@ let catalogRequest: Promise<Catalog & { fresh: boolean }> | null = null,
 export function currentCatalog() {
   if (!catalogRequest || Date.now() > expires) {
     expires = Date.now() + 300000;
-    catalogRequest = tradeAPI<Catalog & { fresh: boolean }>('catalog').catch((e) => {
-      catalogRequest = null;
-      throw e;
-    });
+    catalogRequest = tradeAPI<Catalog & { fresh: boolean }>('catalog')
+      .then((result) => {
+        if (!result.fresh) expires = 0;
+        return result;
+      })
+      .catch((e) => {
+        catalogRequest = null;
+        throw e;
+      });
   }
   return catalogRequest;
 }
@@ -209,7 +214,7 @@ export async function rememberOwnWallet(mode: Mode, id: string) {
   if (
     mode === 'examples' ||
     (await read<RiderTicket>(ticketKey(mode, id)))?.claim ||
-    (await read<string>('voucher:' + id))
+    ((await read<string>('voucher:' + mode + ':' + id)) ?? (await read<string>('voucher:' + id)))
   )
     await rememberWallet(mode, id);
 }

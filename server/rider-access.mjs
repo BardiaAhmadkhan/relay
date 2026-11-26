@@ -88,6 +88,19 @@ export function riderGateway(env, upstream, trade, json, sameOrigin, fetcher = f
       res.setHeader('Cross-Origin-Resource-Policy', 'same-origin');
       if (route === 'access' && method === 'POST') {
         const b = await bodyJSON(req);
+        if (Array.isArray(b.tickets)) {
+          if (b.tickets.length > 24) throw problem(400, 'Restore up to 24 receipts at a time.');
+          const granted = new Set();
+          for (const t of b.tickets) {
+            if (typeof t?.id === 'string' && idPattern.test(t.id) && trade().owns(t.id, t.claim))
+              granted.add(t.id);
+          }
+          if (granted.size) {
+            const session = desk(req, res, true);
+            for (const id of granted) session.items.add(id);
+          }
+          return json(res, 200, { granted: [...granted] });
+        }
         if (!idPattern.test(b.id ?? '') || !trade().owns(b.id, b.claim))
           throw problem(403, 'This device does not hold the receipt for that inspection.');
         desk(req, res, true).items.add(b.id);
@@ -121,12 +134,14 @@ export function riderGateway(env, upstream, trade, json, sameOrigin, fetcher = f
         return json(res, 200, await trade().handle(a, { ...b, scenario: 'actual' }));
       }
       if (route === 'notebook' && method === 'GET') {
+        const ids = [...(desk(req, res)?.items ?? [])];
         const items = [];
-        for (const id of desk(req, res)?.items ?? []) {
+        let unavailable = 0;
+        async function brief(id) {
           const d = await getItem(id);
-          if (!d) continue;
+          if (!d) return null;
           const front = d.images.find((i) => i.role === 'outer_front') ?? d.images[0];
-          items.push({
+          return {
             id,
             category: d.category,
             names: d.identity?.unresolved ? [] : d.names,
@@ -135,9 +150,18 @@ export function riderGateway(env, upstream, trade, json, sameOrigin, fetcher = f
             action: d.result.action,
             count: d.sourceCount,
             thumb: front?.hash ?? null,
-          });
+          };
         }
-        return json(res, 200, { items });
+        for (let i = 0; i < ids.length; i += 4) {
+          const group = await Promise.allSettled(ids.slice(i, i + 4).map(brief));
+          for (const result of group) {
+            if (result.status === 'rejected') unavailable++;
+            else if (result.value) items.push(result.value);
+          }
+        }
+        if (unavailable && !items.length)
+          throw problem(503, 'Your inspections are temporarily unavailable. Try again.');
+        return json(res, 200, { items, unavailable });
       }
       const m = /^v4\/(items|intakes)\/([\w-]{1,100})(?:\/(.*))?$/.exec(route);
       if (!m || !desk(req, res)?.items.has(m[2]))

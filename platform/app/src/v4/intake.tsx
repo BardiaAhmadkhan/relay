@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {
   ActivityIndicator,
+  BackHandler,
+  Modal,
   Image,
   Pressable,
   ScrollView,
@@ -137,6 +139,8 @@ export function NativeIntake({
   const [err, setErr] = React.useState(''),
     [status, setStatus] = React.useState(''),
     [id, setId] = React.useState('');
+  const [confirmLeave, setConfirmLeave] = React.useState(false),
+    [detailOpen, setDetailOpen] = React.useState(false);
   const lock = React.useRef(false),
     active = React.useRef(true),
     uploaded = React.useRef(new Set<IntakeView>());
@@ -184,6 +188,18 @@ export function NativeIntake({
   const completed = requiredViews.filter((k) => !!shots[k]).length,
     ready = history === 'yes' || completed === requiredViews.length,
     busy = phase !== 'ready';
+  const requestClose = React.useCallback(() => {
+    if (busy) return;
+    if (history || Object.keys(shots).length) setConfirmLeave(true);
+    else close();
+  }, [busy, close, history, shots]);
+  React.useEffect(() => {
+    const subscription = BackHandler.addEventListener('hardwareBackPress', () => {
+      requestClose();
+      return true;
+    });
+    return () => subscription.remove();
+  }, [requestClose]);
   const choose = async (camera: boolean) => {
     if (lock.current || busy) return;
     lock.current = true;
@@ -217,7 +233,8 @@ export function NativeIntake({
       }
       const missing = requiredViews.find((k) => !next[k]);
       setStep(missing ?? 'detail');
-      setStatus(viewInstructions[step].short + ' saved');
+      setDetailOpen(false);
+      setStatus(viewInstructions[step].short + ' added to this intake.');
     } catch (e) {
       if (active.current)
         setErr(e instanceof Error ? e.message : 'That photograph could not be opened.');
@@ -291,13 +308,13 @@ export function NativeIntake({
             accessibilityLabel="All items"
             disabled={busy}
             style={({ pressed }) => [s.navButton, pressed && s.pressed]}
-            onPress={close}
+            onPress={requestClose}
           >
             <Icon name="close" size={19} />
           </Pressable>
         </View>
         <Text style={s.kicker}>Garment intake</Text>
-        <Text style={s.title}>
+        <Text accessibilityRole="header" style={s.title}>
           {history && history !== 'yes' ? 'Photograph the garment' : 'Inspect a garment'}
         </Text>
         {!history || history === 'yes' ? (
@@ -344,13 +361,15 @@ export function NativeIntake({
           <>
             <View style={s.progress}>
               <Text style={s.progressLabel}>
-                {completed === 4
-                  ? '4 of 4 views ready'
-                  : 'View ' +
-                    (requiredViews.indexOf(step as (typeof requiredViews)[number]) + 1 || 4) +
-                    ' of 4'}
+                {step === 'detail' && detailOpen
+                  ? 'Optional close-up'
+                  : completed === 4
+                    ? '4 of 4 views ready'
+                    : 'View ' +
+                      (requiredViews.indexOf(step as (typeof requiredViews)[number]) + 1 || 4) +
+                      ' of 4'}
               </Text>
-              <Text style={s.muted}>{completed} saved</Text>
+              <Text style={s.muted}>{completed} added</Text>
             </View>
             <View style={s.segments}>
               {requiredViews.map((k) => (
@@ -360,47 +379,65 @@ export function NativeIntake({
                 />
               ))}
             </View>
-            <View style={s.card}>
-              <Text style={s.kicker}>
-                {step === 'detail' ? 'Optional close-up' : viewInstructions[step].short}
-              </Text>
-              <Text style={s.subhead}>{viewInstructions[step].title}</Text>
-              <Text style={s.body}>{viewInstructions[step].instruction}</Text>
-              {shots[step] ? (
-                <Image
-                  source={{ uri: shots[step]!.uri }}
-                  style={s.stage}
-                  resizeMode="contain"
-                  accessibilityLabel={viewInstructions[step].short + ' captured'}
+            {completed === requiredViews.length && step === 'detail' && !detailOpen ? (
+              <View style={s.card}>
+                <Text accessibilityRole="header" style={s.subhead}>
+                  Four views captured
+                </Text>
+                <Text style={s.body}>
+                  Select a photo below to check it, or open the inspection when you’re ready.
+                </Text>
+                <Button
+                  kind="quiet"
+                  label={shots.detail ? 'Review optional close-up' : 'Add a close-up'}
+                  icon="image"
+                  disabled={busy}
+                  onPress={() => setDetailOpen(true)}
                 />
-              ) : (
-                <Frame view={step} />
-              )}
-              <Button
-                label={
-                  shots[step]
-                    ? 'Retake this photo'
-                    : step === 'detail'
-                      ? 'Photograph a detail'
-                      : 'Take a photo'
-                }
-                icon="camera"
-                disabled={busy}
-                onPress={() => void choose(true)}
-              />
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel="Choose an existing photo"
-                disabled={busy}
-                style={({ pressed }) => [s.library, pressed && s.pressed]}
-                onPress={() => void choose(false)}
-              >
-                <Icon name="image" size={17} color={C.forest} />
-                <Text style={s.link}>Choose from photos</Text>
-              </Pressable>
-            </View>
+              </View>
+            ) : (
+              <View style={s.card}>
+                <Text style={s.kicker}>
+                  {step === 'detail' ? 'Optional close-up' : viewInstructions[step].short}
+                </Text>
+                <Text style={s.subhead}>{viewInstructions[step].title}</Text>
+                <Text style={s.body}>{viewInstructions[step].instruction}</Text>
+                {shots[step] ? (
+                  <Image
+                    source={{ uri: shots[step]!.uri }}
+                    style={s.stage}
+                    resizeMode="contain"
+                    accessibilityLabel={viewInstructions[step].short + ' captured'}
+                  />
+                ) : (
+                  <Frame view={step} />
+                )}
+                <Button
+                  label={
+                    shots[step]
+                      ? 'Retake this photo'
+                      : step === 'detail'
+                        ? 'Photograph a detail'
+                        : 'Take a photo'
+                  }
+                  icon="camera"
+                  disabled={busy}
+                  onPress={() => void choose(true)}
+                />
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel="Choose an existing photo"
+                  disabled={busy}
+                  style={({ pressed }) => [s.library, pressed && s.pressed]}
+                  onPress={() => void choose(false)}
+                >
+                  <Icon name="image" size={17} color={C.forest} />
+                  <Text style={s.link}>Choose from photos</Text>
+                </Pressable>
+              </View>
+            )}
             <View style={s.thumbs}>
-              {intakeViews.map((k) => (
+              {requiredViews.map((k) => (
                 <Pressable
                   key={k}
                   disabled={busy}
@@ -410,6 +447,7 @@ export function NativeIntake({
                   style={({ pressed }) => [s.slot, pressed && s.pressed]}
                   onPress={() => {
                     setStep(k);
+                    setDetailOpen(false);
                     setErr('');
                   }}
                 >
@@ -417,13 +455,26 @@ export function NativeIntake({
                     {shots[k] ? (
                       <Image source={{ uri: shots[k]!.uri }} style={s.miniImg} />
                     ) : (
-                      <Icon name={k === 'detail' ? 'plus' : 'image'} size={17} color={C.muted} />
+                      <Icon name="image" size={17} color={C.muted} />
                     )}
                   </View>
                   <Text style={s.slotText}>{viewInstructions[k].short}</Text>
                 </Pressable>
               ))}
             </View>
+            {completed < requiredViews.length && (
+              <Button
+                kind="quiet"
+                label={shots.detail ? 'Review optional close-up' : 'Optional close-up'}
+                icon="image"
+                disabled={busy}
+                onPress={() => {
+                  setStep('detail');
+                  setDetailOpen(true);
+                  setErr('');
+                }}
+              />
+            )}
             {!id && (
               <Pressable
                 disabled={busy}
@@ -463,10 +514,39 @@ export function NativeIntake({
         )}
         {busy && <ActivityIndicator color={C.forest} />}
       </ScrollView>
+      <Modal
+        visible={confirmLeave}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setConfirmLeave(false)}
+      >
+        <View style={s.scrim}>
+          <View style={[s.card, s.leaveCard]} accessibilityViewIsModal>
+            <Text accessibilityRole="header" style={s.subhead}>
+              Leave this intake?
+            </Text>
+            <Text style={s.body}>
+              Leaving clears the answers and photos on this screen. Keep working to finish this
+              inspection.
+            </Text>
+            <Button label="Keep working" onPress={() => setConfirmLeave(false)} />
+            <Button
+              kind="quiet"
+              label="Leave intake"
+              onPress={() => {
+                setConfirmLeave(false);
+                close();
+              }}
+            />
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
 const s = StyleSheet.create({
+  scrim: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: '#17221bc2' },
+  leaveCard: { alignSelf: 'center', maxWidth: 420, width: '100%' },
   page: { flex: 1, backgroundColor: C.paper },
   content: {
     width: '100%',

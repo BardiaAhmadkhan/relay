@@ -38,7 +38,7 @@ export async function config(): Promise<Config> {
   try {
     const res = await fetch(
       new URL(import.meta.env.BASE_URL + 'workspace.json', document.baseURI),
-      { cache: 'no-store' },
+      { cache: 'no-store', signal: AbortSignal.timeout(10000) },
     );
     if (res.ok && res.headers.get('Content-Type')?.includes('application/json'))
       return await res.json();
@@ -126,10 +126,23 @@ export function makeCard(b: Brief): Card {
   };
 }
 export async function liveCards(signal?: AbortSignal) {
-  const r: { items: Brief[] } = personalChannel()
+  const r: { items: Brief[]; unavailable?: number; deviceUnavailable?: boolean } = personalChannel()
     ? await personalBriefs(signal)
     : await api<{ items: Brief[] }>('/items?presentation=1', undefined, undefined, signal);
-  return r.items.map(makeCard);
+  const n = r.unavailable ?? 0;
+  const warning = [
+    r.deviceUnavailable
+      ? 'Device storage is unavailable. Showing inspections from this session.'
+      : '',
+    n === 1
+      ? 'One saved inspection could not be opened.'
+      : n > 1
+        ? n + ' saved inspections could not be opened.'
+        : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+  return { cards: r.items.map(makeCard), warning };
 }
 type LiveValue = DeskRecord['value'] & {
   history?: { crash: string; damage: string; repair: string; combined?: string | null };
@@ -288,7 +301,9 @@ export async function liveRecord(
   return {
     card: {
       ...card,
-      name: sameScenario ? card.name : scenarioName,
+      name: sameScenario && card.name !== 'Garment inspection' ? card.name : scenarioName,
+      category: d.category,
+      details: card.details || kindName(d.category),
       outcome: action(d.result.action, d.result.title),
       decisionTitle: d.result.title,
       photos: d.sourceCount,

@@ -3,6 +3,7 @@ import { markIncompleteObservation } from '../packages/vision/cache-policy';
 import { afterEach, beforeAll, describe, expect, it, vi } from 'vitest';
 import sharp from 'sharp';
 import { createApp } from '../server/app';
+import * as imagePreparation from '../server/images';
 import {
   AnalysisResponseSchema,
   Questions,
@@ -749,6 +750,7 @@ describe('real HTTP inference deadline', () => {
   }, 20_000);
 
   it('returns the bounded 503 over HTTP and aborts inference instead of disconnecting', async () => {
+    const entered = deferred<void>();
     const provider = adapter();
     let aborted = false;
     provider.analyze.mockImplementationOnce(async (_images, signal) => {
@@ -757,24 +759,71 @@ describe('real HTTP inference deadline', () => {
           'abort',
           () => {
             aborted = true;
-            reject(new Error('aborted'));
+            reject(signal!.reason);
           },
           { once: true },
         );
+        entered.resolve();
       });
       return observation();
     });
-    const app = start({ adapter: provider, timeoutMs: 200 });
+    const deadline = 200;
+    const app = start({ adapter: provider, timeoutMs: deadline });
     const address = await app.listen({ host: '127.0.0.1', port: 0 });
-    const response = await fetch(address + '/assess', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(request()),
-      signal: AbortSignal.timeout(3_000),
-    });
-    expect(response.status).toBe(503);
-    expect((await response.json()).error.code).toBe('analysis_unavailable');
-    expect(aborted).toBe(true);
+    vi.useFakeTimers({ toFake: ['setTimeout', 'clearTimeout'] });
+    try {
+      const pending = fetch(address + '/assess', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(request()),
+        signal: AbortSignal.timeout(8_000),
+      });
+      await Promise.race([
+        entered.promise,
+        pending.then(() => {
+          throw Error('The adapter never started.');
+        }),
+      ]);
+      await vi.advanceTimersByTimeAsync(deadline);
+      const response = await pending;
+      expect(response.status).toBe(503);
+      expect((await response.json()).error.code).toBe('analysis_unavailable');
+      expect(aborted).toBe(true);
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
+  it('does not start a model after an HTTP deadline expires during photo preparation', async () => {
+    const entered = deferred<void>();
+    const resume = deferred<void>();
+    const provider = adapter();
+    const original = imagePreparation.prepareImages;
+    const preparation = vi
+      .spyOn(imagePreparation, 'prepareImages')
+      .mockImplementationOnce(async (images) => {
+        const prepared = await original(images);
+        entered.resolve();
+        await resume.promise;
+        return prepared;
+      });
+    const app = start({ adapter: provider, timeoutMs: 200 });
+    vi.useFakeTimers({ toFake: ['setTimeout', 'clearTimeout'] });
+    try {
+      const pending = app
+        .inject({ method: 'POST', url: '/assess', payload: request() })
+        .then((r) => r);
+      await entered.promise;
+      await vi.advanceTimersByTimeAsync(200);
+      expect((await pending).statusCode).toBe(503);
+      resume.resolve();
+      await nextTurn();
+      expect(provider.analyze).not.toHaveBeenCalled();
+    } finally {
+      resume.resolve();
+      preparation.mockRestore();
+      vi.useRealTimers();
+    }
   });
 });
 

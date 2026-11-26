@@ -313,8 +313,17 @@ export function TradePanel({
               : q.illustrated
                 ? ' · Illustrative prices'
                 : ''}
-            {!q.fresh ? ' · Refresh required for issuance' : ''}
+            {!q.fresh ? ' · Prices need a fresh check before handover' : ''}
           </small>
+          {!q.fresh && mode !== 'examples' && (
+            <button
+              className="under-button"
+              disabled={refreshing}
+              onClick={() => setTick((t) => t + 1)}
+            >
+              {refreshing ? 'Checking prices…' : 'Check current prices'}
+            </button>
+          )}
         </section>
       </div>
       <details className="trade-reason">

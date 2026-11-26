@@ -207,6 +207,7 @@ export async function desk<T>(url: string, body?: unknown, staff?: string): Prom
     clearTimeout(timer);
   }
 }
+export const inspectionLabel = (id: string) => id.startsWith('capture-') ? 'Intake · ' + id.slice(8).toUpperCase() : id;
 export const words = (s: string) => s.replace(/_/g, ' ');
 export const money = (n: number | null | undefined, c: string) =>
   n == null

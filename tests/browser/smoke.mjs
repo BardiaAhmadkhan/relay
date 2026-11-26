@@ -33,6 +33,14 @@ await withPreview(async (base) => {
             errors.push('Unexpected external request to ' + u.origin);
         });
         const open = (fragment) => page.goto(base + '/?workspace=examples#/' + fragment);
+        await open('guide');
+        await button(page, 'Trousers').click();
+        assert.equal(await button(page, 'Trousers').getAttribute('aria-pressed'), 'true');
+        assert.ok(
+          (
+            await page.locator('.guide-grid img').evaluateAll((imgs) => imgs.map((img) => img.src))
+          ).every((src) => src.includes('selvedge')),
+        );
         await open('trade');
         await page.getByRole('link', { name: 'Start a trade-in', exact: true }).click();
         await button(page, 'Riding jacket').click();
@@ -57,11 +65,18 @@ await withPreview(async (base) => {
           await page.getByTitle('Retake ' + label, { exact: true }).waitFor();
           if (label === 'Back') await page.reload();
         }
+        await page.getByRole('heading', { name: 'Four views captured' }).waitFor();
+        assert.equal(await page.locator('.capture-proof img').count(), 4);
+        assert.equal(await page.locator('.slot-list button').count(), 4);
+        await button(page, 'Add a close-up').click();
+        await page.getByText('Optional close-up', { exact: true }).last().waitFor();
         await button(page, 'Open inspection').click();
         await page.locator('.reason-sheet').waitFor();
         assert.match(await page.locator('.record-meta').innerText(), /4 source photos/);
         await open('items/RW-001/overview');
-        await button(page, 'See the photo behind this decision').click();
+        await page
+          .getByRole('button', { name: /See the photo behind this decision.*Shoulder seam/i })
+          .click();
         await page.getByRole('dialog').getByRole('heading', { name: 'Shoulder seam' }).waitFor();
         await button(page, 'Close photo').click();
         await open('items/RW-003/result');
@@ -75,8 +90,9 @@ await withPreview(async (base) => {
         await page.locator('.voucher-code').waitFor();
         const code = await page.locator('.voucher-code').innerText();
         await open('wallet');
+        await page.locator('.wallet-page .voucher-code').waitFor();
         await page.reload();
-        await page.locator('.voucher-code').waitFor();
+        await page.locator('.wallet-page .voucher-code').waitFor();
         assert.equal(await page.locator('.voucher-code').innerText(), code);
         assert.ok(
           await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),

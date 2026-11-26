@@ -19,6 +19,7 @@ import { Button, C, F, Icon, RelayMark } from '../design';
 import {
   desk,
   photoUrl,
+  inspectionLabel,
   words,
   money,
   type Brief,
@@ -443,7 +444,7 @@ function FieldDeskContent({ back }: { back?: () => void }) {
           <>
             <View style={css.pad}>
               <Text style={css.eyebrow}>
-                {d.id.startsWith('RL') ? d.id : 'Rider intake'} ·{' '}
+                {inspectionLabel(d.id)} ·{' '}
                 {d.category === 'pants'
                   ? 'Trousers'
                   : d.category === 'unknown'

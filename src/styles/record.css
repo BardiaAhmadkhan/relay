@@ -138,7 +138,7 @@
   justify-content: space-between;
   gap: 12px;
 }
-.source-caption h3,
+.source-caption h2,
 .feature-stat {
   font-size: 26px;
   line-height: 1.15;

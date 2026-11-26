@@ -8,6 +8,7 @@ import { tradeLedger } from '../server/trade-ledger.mjs';
 test('two riders have independent case notebooks, photo permissions and shop-counter boundaries', async () => {
   const db = tradeLedger(':memory:'),
     ids = [],
+    unavailable = new Set(),
     upstream = new URL('https://service.example');
   const fetcher = async (url) => {
     const p = url.pathname;
@@ -18,6 +19,7 @@ test('two riders have independent case notebooks, photo permissions and shop-cou
     }
     if (p.endsWith('/health')) return Response.json({ demo: false });
     const id = p.split('/')[3];
+    if (unavailable.has(id)) return new Response('', { status: 503 });
     if (!ids.includes(id)) return new Response('', { status: 404 });
     if (p.includes('/photo/'))
       return new Response(new Uint8Array([1, 2, 3]), { headers: { 'content-type': 'image/jpeg' } });
@@ -90,6 +92,39 @@ test('two riders have independent case notebooks, photo permissions and shop-cou
     assert.equal((await req('trade/issue', { id: a }, ca)).status, 404);
     assert.equal((await req('trade/offer', { id: a, scenario: 'crash' }, ca)).status, 403);
     assert.equal((await req('access', { id: a, claim: 'b'.repeat(48) })).status, 403);
+    const batched = await req('access', {
+      tickets: [
+        { id: a, claim: 'a'.repeat(48) },
+        { id: b, claim: 'c'.repeat(48) },
+        { id: a, claim: 'a'.repeat(48) },
+      ],
+    });
+    assert.deepEqual(await batched.json(), { granted: [a] });
+    const freshSession = batched.headers.get('set-cookie').split(';')[0];
+    assert.equal((await req('v4/items/' + b, null, freshSession)).status, 403);
+    const invalid = await req('access', { tickets: [{ id: a, claim: '0'.repeat(48) }] });
+    assert.deepEqual(await invalid.json(), { granted: [] });
+    assert.equal(invalid.headers.get('set-cookie'), null);
+    assert.equal(
+      (await req('access', { tickets: Array(25).fill({ id: a, claim: 'a'.repeat(48) }) })).status,
+      400,
+    );
+    const combined = await req(
+      'access',
+      { tickets: [{ id: b, claim: 'b'.repeat(48) }] },
+      freshSession,
+    );
+    assert.equal(combined.headers.get('set-cookie'), null);
+    unavailable.add(b);
+    const partial = await (await req('notebook', null, freshSession)).json();
+    assert.deepEqual(
+      partial.items.map((i) => i.id),
+      [a],
+    );
+    assert.equal(partial.unavailable, 1);
+    unavailable.add(a);
+    assert.equal((await req('notebook', null, freshSession)).status, 503);
+    unavailable.clear();
     const restored = await req('access', { id: a, claim: 'a'.repeat(48) });
     assert.equal(restored.status, 200);
     assert.equal(

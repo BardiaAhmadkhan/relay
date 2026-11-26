@@ -114,7 +114,7 @@ function RelayApp() {
             </View>
           ) : null}
           {m.screen === 'home' ? (
-            <><Home m={m} /><View style={{marginTop:16}}><Button label="Open V4 field desk" kind="secondary" icon="file" onPress={()=>setFieldDesk(true)} /></View></>
+            <><Home m={m} /><View style={{marginTop:16}}><Button label="Open workshop notebook" kind="secondary" icon="file" onPress={()=>setFieldDesk(true)} /></View></>
           ) : m.screen === 'history' ? (
             <History m={m} />
           ) : m.screen === 'capture' ? (

@@ -31,27 +31,31 @@ export default function App() {
   const route = useRoute(),
     routeParts = route.split('?')[0].split('/').filter(Boolean),
     page = routeParts[0] ?? 'trade';
-  const needsCards = ['items', 'notebook', 'queue'].includes(page);
   const [settings, setSettings] = useState<Config | null>(null),
     [mode, setMode] = useState<Mode>(
       initialMode() ??
         (preference('workspace', 'examples') === 'workshop' ? 'workshop' : 'examples'),
     );
+  const needsCards =
+    page === 'notebook' || page === 'queue' || (page === 'items' && mode === 'workshop');
+  const activePage = page === 'intake' ? 'trade' : page === 'items' ? 'notebook' : page;
   const pages = allPages
     .filter((p) => mode !== 'rider' || p.id !== 'queue')
     .map((p) => (mode === 'rider' && p.id === 'notebook' ? { ...p, label: 'My inspections' } : p));
   const [cards, setCards] = useState<Card[]>([]),
     [busy, setBusy] = useState(true),
     [error, setError] = useState(''),
+    [notebookWarning, setNotebookWarning] = useState(''),
     [epoch, setEpoch] = useState(0),
     [draft, setDraft] = useState(false);
   const [picker, setPicker] = useState(false),
-    [nav, setNav] = useState(false),
     [pass, setPass] = useState(''),
     [authError, setAuthError] = useState(''),
     [signing, setSigning] = useState(false);
   const [staff, setStaff] = useState({ token: '', name: '' });
-  const pop = useRef<HTMLDivElement>(null),
+  const workspaceButton = useRef<HTMLButtonElement>(null),
+    previousPage = useRef(page),
+    pop = useRef<HTMLDivElement>(null),
     loadedMode = useRef<Mode | null>(null);
   const refresh = useCallback(() => setEpoch((i) => i + 1), []);
   useEffect(() => {
@@ -85,6 +89,7 @@ export default function App() {
     const controller = new AbortController();
     setBusy(true);
     setError('');
+    setNotebookWarning('');
     if (loadedMode.current !== mode || (mode === 'workshop' && settings.locked)) {
       setCards([]);
       loadedMode.current = mode;
@@ -97,9 +102,16 @@ export default function App() {
       setBusy(false);
       return;
     }
-    void (mode === 'examples' ? sampleCards() : liveCards(controller.signal))
+    void (
+      mode === 'examples'
+        ? sampleCards().then((cards) => ({ cards, warning: '' }))
+        : liveCards(controller.signal)
+    )
       .then((v) => {
-        if (!controller.signal.aborted) setCards(v);
+        if (!controller.signal.aborted) {
+          setCards(v.cards);
+          setNotebookWarning(v.warning);
+        }
       })
       .catch((e) => {
         if (!controller.signal.aborted) setError(e.message || 'The notebook could not be opened.');
@@ -121,8 +133,10 @@ export default function App() {
     };
   }, [mode, page, epoch]);
   useEffect(() => {
-    setNav(false);
     setPicker(false);
+    if (previousPage.current !== page)
+      document.getElementById('main-content')?.focus({ preventScroll: true });
+    previousPage.current = page;
     window.scrollTo({ top: 0, behavior: 'instant' });
     const label =
       page === 'items'
@@ -141,17 +155,16 @@ export default function App() {
     document.title = label + ' · Relay';
   }, [page, routeParts[1], mode]);
   useEffect(() => {
-    if (!picker && !nav) return;
+    if (!picker) return;
     const outside = (e: PointerEvent) => {
       if (!pop.current?.contains(e.target as Node)) {
         setPicker(false);
-        setNav(false);
       }
     };
     const esc = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         setPicker(false);
-        setNav(false);
+        workspaceButton.current?.focus();
       }
     };
     document.addEventListener('pointerdown', outside);
@@ -160,8 +173,9 @@ export default function App() {
       document.removeEventListener('pointerdown', outside);
       document.removeEventListener('keydown', esc);
     };
-  }, [picker, nav]);
+  }, [picker]);
   function choose(m: Mode) {
+    workspaceButton.current?.focus();
     if (m !== mode) setStaff({ token: '', name: '' });
     setMode(m);
     setPreference('workspace', m);
@@ -171,12 +185,11 @@ export default function App() {
     history.replaceState(null, '', u);
     window.dispatchEvent(new HashChangeEvent('hashchange'));
     setPicker(false);
-    setNav(false);
     setAuthError('');
   }
   function workspaceMenu() {
     return (
-      <div className="workspace-menu">
+      <div className="workspace-menu" id="workspace-options">
         <div className="menu-title">Choose workspace</div>
         {(
           (settings?.riderAccess
@@ -244,16 +257,13 @@ export default function App() {
       (mode === 'rider' && !settings.riderAccess));
   return (
     <>
-      <a
+      <button
+        type="button"
         className="skip"
-        href="#main-content"
-        onClick={(e) => {
-          e.preventDefault();
-          document.getElementById('main-content')?.focus();
-        }}
+        onClick={() => document.getElementById('main-content')?.focus()}
       >
         Skip to content
-      </a>
+      </button>
       <header className="site-head">
         <div className="mast">
           <a className="home-link" href="#/trade" aria-label="Relay home">
@@ -264,11 +274,9 @@ export default function App() {
             {pages.map((p) => (
               <a
                 key={p.id}
-                className={
-                  p.id === page || (p.id === 'notebook' && page === 'items') ? 'active' : ''
-                }
+                className={p.id === activePage ? 'active' : ''}
                 href={'#/' + p.id}
-                aria-current={p.id === page ? 'page' : undefined}
+                aria-current={p.id === activePage ? 'page' : undefined}
               >
                 {p.label}
               </a>
@@ -277,6 +285,8 @@ export default function App() {
           <div className="mast-end" ref={pop}>
             <button
               className="workspace-trigger"
+              ref={workspaceButton}
+              aria-controls={picker ? 'workspace-options' : undefined}
               aria-expanded={picker}
               aria-label={
                 (mode === 'examples'
@@ -287,7 +297,6 @@ export default function App() {
               }
               onClick={() => {
                 setPicker(!picker);
-                setNav(false);
               }}
             >
               <span className={'workspace-dot ' + mode} />
@@ -300,39 +309,38 @@ export default function App() {
               </span>
               <Icon name="down" size={14} />
             </button>
-            <button
-              className="menu-trigger icon-button"
-              onClick={() => {
-                setNav(!nav);
-                setPicker(false);
-              }}
-              aria-label="Navigation menu"
-              aria-expanded={nav}
-            >
-              <Icon name={nav ? 'close' : 'menu'} />
-            </button>
             {picker && workspaceMenu()}
-            {nav && (
-              <nav className="mobile-nav" aria-label="Mobile navigation">
-                {pages.map((p) => (
-                  <a key={p.id} href={'#/' + p.id} onClick={() => setNav(false)}>
-                    <Icon name={p.icon} />
-                    {p.label}
-                  </a>
-                ))}
-                <a href="#/intake" onClick={() => setNav(false)}>
-                  <Icon name="plus" />
-                  New inspection
-                </a>
-              </nav>
-            )}
           </div>
         </div>
+        <nav className="pocket-nav" aria-label="Main navigation">
+          {pages.map((p) => (
+            <a
+              key={p.id}
+              href={'#/' + p.id}
+              aria-current={p.id === activePage ? 'page' : undefined}
+            >
+              <Icon name={p.icon} size={16} />
+              <span>
+                {p.id === 'wallet'
+                  ? 'Credit'
+                  : p.id === 'queue'
+                    ? 'Review'
+                    : p.id === 'guide'
+                      ? 'Guide'
+                      : mode === 'rider' && p.id === 'notebook'
+                        ? 'Inspections'
+                        : p.label}
+              </span>
+            </a>
+          ))}
+        </nav>
       </header>
       <main className="shell" id="main-content" tabIndex={-1}>
         <Suspense fallback={<Loading label="Opening your page" />}>
           {page === 'guide' ? (
             <Guide />
+          ) : !settings && (mode !== 'examples' || !initialMode()) ? (
+            <Loading label="Opening your workspace" />
           ) : unavailable ? (
             <div className="utility-page">
               <Empty
@@ -390,7 +398,7 @@ export default function App() {
           ) : page === 'trade' ? (
             <TradeHome mode={mode} draft={draft} retailer={settings?.retailer} />
           ) : page === 'wallet' ? (
-            <CreditWallet mode={mode} />
+            <CreditWallet key={mode} mode={mode} />
           ) : page === 'intake' ? (
             <Intake key={mode} mode={mode} onFinish={refresh} />
           ) : page === 'items' ? (
@@ -416,6 +424,7 @@ export default function App() {
               retry={refresh}
               queue={page === 'queue' && mode !== 'rider'}
               hasDraft={draft}
+              warning={notebookWarning}
             />
           ) : (
             <div className="utility-page">

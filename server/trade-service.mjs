@@ -27,7 +27,10 @@ export function catalogCache(env, db, scraper = scrapeCatalog) {
   const store = env.RELAY_STORE_URL || '';
   let updating,
     lastFailure = 0;
-  const freshness = (c) => !!c && Date.now() - Date.parse(c.updated) < 6 * 3600000;
+  function age(snapshot) {
+    const elapsed = Date.now() - Date.parse(snapshot?.updated);
+    return Number.isFinite(elapsed) && elapsed >= 0 ? elapsed : Infinity;
+  }
   async function refresh() {
     if (!store) throw problem(503, 'The shop has not connected its catalog.');
     if (!updating)
@@ -49,20 +52,26 @@ export function catalogCache(env, db, scraper = scrapeCatalog) {
   return {
     store,
     refresh,
-    async read() {
+    async read({ requireFresh = false } = {}) {
       let c = db.snapshot(store);
-      if (!freshness(c)) {
-        if (!lastFailure || Date.now() - lastFailure >= 300000) {
-          try {
-            c = await refresh();
-          } catch {
-            /* Keep the previous complete scan. */
-          }
+      if (age(c) < 6 * 3600000) return { catalog: c, fresh: true };
+      if (!lastFailure || Date.now() - lastFailure >= 300000) {
+        const refreshJob = refresh();
+        // A recent complete inventory can render a dated estimate immediately.
+        // Staff handovers and debits wait for current inventory and check freshness.
+        if (!requireFresh && age(c) <= 30 * day) {
+          void refreshJob.catch(() => {});
+          return { catalog: c, fresh: false };
         }
-        if (!c || Date.now() - Date.parse(c.updated) > 30 * day)
-          throw problem(503, 'The shop catalog is unavailable. Please try again later.');
+        try {
+          c = await refreshJob;
+        } catch {
+          /* report availability below */
+        }
       }
-      return { catalog: c, fresh: freshness(c) };
+      if (age(c) > 30 * day)
+        throw problem(503, 'The shop catalog is unavailable. Please try again later.');
+      return { catalog: c, fresh: age(c) < 6 * 3600000 };
     },
   };
 }
@@ -135,7 +144,7 @@ export function tradeService(
       throw problem(400, 'This history is available only in rehearsal.');
     return { demo: !!health.demo, scope: space + '|' + (health.demo ? 'practice' : 'live') };
   }
-  async function quote(id, s, prefs) {
+  async function quote(id, s, prefs, requireFresh = false) {
     const ctx = await context(id, s),
       suffix = '?scenario=' + encodeURIComponent(s);
     const raw = await api('/items/' + id + suffix),
@@ -152,7 +161,7 @@ export function tradeService(
       };
     const [shop, source] = await Promise.all([
       api('/shop/' + id + suffix + '&market=CA'),
-      cache.read().catch(() => null),
+      cache.read({ requireFresh }).catch(() => null),
     ]);
     if (!shop.eligible || shop.inspection !== raw.sha256)
       throw problem(409, 'The inspection changed. Reopen this trade to see the current decision.');
@@ -299,7 +308,7 @@ export function tradeService(
         if (b.received !== true) throw problem(422, 'Confirm the garment has been handed over.');
         let c = db.credit(ctx.scope, id);
         if (!c) {
-          const q = await quote(id, s, {});
+          const q = await quote(id, s, {}, true);
           if (!q.offer.credit || !q.fresh || q.receipt !== b.receipt || q.quote !== b.quote)
             throw problem(
               409,
@@ -357,7 +366,7 @@ export function tradeService(
           const result = db.redeem(ctx.scope, id, order, b.variant, b.amount, actor.name);
           return { ...result, wallet: await wallet(c), practice: ctx.demo };
         }
-        const { catalog, fresh } = await cache.read();
+        const { catalog, fresh } = await cache.read({ requireFresh: true });
         const v = catalog.products.flatMap((p) => p.variants).find((v) => v.id === b.variant);
         if (
           !fresh ||

@@ -30,6 +30,7 @@ export function Notebook({
   retry,
   queue = false,
   hasDraft = false,
+  warning = '',
 }: {
   items: Card[];
   mode: Mode;
@@ -38,6 +39,7 @@ export function Notebook({
   retry: () => void;
   queue?: boolean;
   hasDraft?: boolean;
+  warning?: string;
 }) {
   const raw = window.location.hash.split('?')[1] ?? '',
     params = new URLSearchParams(raw);
@@ -212,6 +214,14 @@ export function Notebook({
             </select>
           </label>
         </div>
+        {warning && (
+          <Alert>
+            {warning}{' '}
+            <button className="text-button" onClick={retry}>
+              Try again
+            </button>
+          </Alert>
+        )}
         {error ? (
           <Alert>
             {error}{' '}

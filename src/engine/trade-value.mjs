@@ -20,19 +20,29 @@ const median = (values) => {
   return a.length % 2 ? a[m] : Math.round((a[m - 1] + a[m]) / 2);
 };
 export function garmentSize(s) {
-  return fold(s)
+  const raw = String(s ?? '')
+    .normalize('NFKC')
+    .trim()
+    .toUpperCase();
+  // Parse the two dimensions before folding punctuation. A slash or multiplication sign
+  // is meaningful in a trouser size; a range such as "32–34" is a different claim.
+  const pair =
+    /^(?:W(?:AIST)?\s*)?(\d{2,3})\s*W?\s*(?:[X×/]\s*(?:L(?:ENGTH)?\s*)?|L(?:ENGTH)?\s*|\s+(?=\d{2,3}\s*L$))(\d{2,3})\s*L?$/.exec(
+      raw,
+    );
+  if (pair) return pair[1] + '/' + pair[2];
+  const region = /^(EU|UK|US)\s*(\d{1,3}(?:\.5)?)$/.exec(raw);
+  if (region) return region[1] + ' ' + region[2];
+  return fold(raw)
     .toUpperCase()
     .replace(/\b2XL\b/g, 'XXL')
     .replace(/\b3XL\b/g, 'XXXL')
-    .replace(/^(?:W|WAIST)\s*(\d+)/, '$1')
-    .replace(/\s*(?:X|L|LENGTH)\s*(\d+)$/, '/$1')
-    .replace(/\b(\d+)W\s+(\d+)L\b/, '$1/$2')
-    .replace(/^\s+|\s+$/g, '');
+    .replace(/^(?:W(?:AIST)?\s*(\d+)|(\d+)W)$/, (_, first, last) => first || last);
 }
 function sizeMatches(v, requested) {
   const target = garmentSize(requested),
     key = garmentSize(v.size),
-    leg = garmentSize(v.length);
+    leg = garmentSize(v.length).replace(/^(?:L(?:ENGTH)?|INSEAM)\s*(\d+)$/, '$1');
   return (
     !!key &&
     (key === target ||
@@ -42,7 +52,7 @@ function sizeMatches(v, requested) {
 }
 export function categoryKey(s) {
   const v = fold(s);
-  if (/\b(pants|trousers|jeans)\b/.test(v)) return 'pants';
+  if (/\b(pants?|trousers?|jeans?)\b/.test(v)) return 'pants';
   if (/jacket|overshirt/.test(v)) return 'jacket';
   if (/gloves?/.test(v)) return 'gloves';
   if (/boots?/.test(v)) return 'boots';

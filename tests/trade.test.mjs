@@ -114,6 +114,52 @@ test('published title corrects inconsistent store types and rainwear is separate
   assert.equal(normalizeProduct({ ...src, title: 'Rain pants' }, url, 'CAD').category, 'outerwear');
   assert.throws(() => normalizeProduct({ ...src, variants: [{ price: '12.99' }] }, url, 'CAD'));
 });
+test('size punctuation preserves waist, inseam and regional sizing across catalog matches', () => {
+  const pants = product(9, 34000, {
+    category: 'pants',
+    variants: [
+      { id: 'short', available: true, price: 34000, size: 'W32', length: 'L30' },
+      { id: 'long', available: true, price: 34000, size: 'W32', length: 'L34' },
+    ],
+  });
+  for (const size of ['W32 / L34', '32/34', '32 × 34', '32x34', '32W 34L']) {
+    assert.equal(garmentSize(size), '32/34');
+    const result = tradeOffer(
+      { ...profile, category: 'pants' },
+      { ...catalog, products: [pants] },
+      rates,
+      { size },
+    );
+    assert.deepEqual(
+      result.recommendations.map((r) => r.variant),
+      ['long'],
+    );
+  }
+  assert.notEqual(garmentSize('32–34'), garmentSize('32/34'));
+  assert.equal(garmentSize('EU48'), garmentSize('EU 48'));
+  assert.notEqual(garmentSize('EU48'), garmentSize('US48'));
+});
+test('a garment bundled with a liner is distinct from a standalone accessory', () => {
+  const url = new URL('https://gear.example/products/gear');
+  for (const [title, type, expected] of [
+    ['Touring Pant', 'Motorcycle Pant', 'pants'],
+    ['Riding Jean', '', 'pants'],
+    ['Overboots for riding pants', 'Rain protection', 'outerwear'],
+    ['Winter Gloves for riding jackets', 'Gloves', 'gloves'],
+    ['Road Jacket with removable liner', 'Motorcycle Jacket', 'jacket'],
+    ['Riding Pant including knee protectors', 'Trousers', 'pants'],
+    ['Removable liner for riding jacket', 'Liner', 'outerwear'],
+    ['Knee protectors for riding pants', 'Protection', 'armour'],
+  ]) {
+    const p = {
+      title,
+      type,
+      handle: 'gear',
+      variants: [{ id: 1, title: 'M', price: 10000, available: true }],
+    };
+    assert.equal(normalizeProduct(p, url, 'CAD').category, expected, title);
+  }
+});
 test('sitemap import selects the requested market, retains sizes and sold-out variants, and fails closed on blocked product paths', async () => {
   let blocked = false;
   const calls = [];
@@ -173,6 +219,53 @@ test('a failed catalog refresh preserves last known inventory and reports stalen
     assert.equal(s.catalog.products.length, 3);
   } finally {
     db.close();
+  }
+});
+test('dated estimates return before the shared catalog refresh while settlement waits for current prices', async () => {
+  const db = tradeLedger(':memory:'),
+    store = 'https://gear.example';
+  let finish,
+    calls = 0;
+  const previous = { ...catalog, updated: new Date(Date.now() - 8 * 3600000).toISOString() };
+  db.saveCatalog(store, previous);
+  const cache = catalogCache({ RELAY_STORE_URL: store }, db, () => {
+    calls++;
+    return new Promise((resolve) => {
+      finish = resolve;
+    });
+  });
+  try {
+    const [first, second] = await Promise.all([cache.read(), cache.read()]);
+    assert.equal(first.fresh, false);
+    assert.equal(second.catalog.updated, previous.updated);
+    const settlement = cache.read({ requireFresh: true });
+    assert.equal(calls, 1);
+    finish({ ...catalog, updated: new Date().toISOString() });
+    assert.equal((await settlement).fresh, true);
+    assert.equal((await cache.read()).fresh, true);
+    assert.equal(calls, 1);
+  } finally {
+    db.close();
+  }
+});
+test('invalid, future and expired inventory cannot be displayed after refresh failure', async () => {
+  const store = 'https://gear.example';
+  for (const updated of [
+    'invalid',
+    new Date(Date.now() + 2 * 86400000).toISOString(),
+    new Date(Date.now() - 31 * 86400000).toISOString(),
+  ]) {
+    const db = tradeLedger(':memory:');
+    try {
+      db.saveCatalog(store, { ...catalog, updated });
+      const cache = catalogCache({ RELAY_STORE_URL: store }, db, async () => {
+        throw Error('offline');
+      });
+      await assert.rejects(cache.read(), /unavailable/);
+      await assert.rejects(cache.read({ requireFresh: true }), /unavailable/);
+    } finally {
+      db.close();
+    }
   }
 });
 test('a physical item creates one credit, keeps its original amount on retry, and cannot overspend', () => {

@@ -33,26 +33,25 @@ export function RiderQuestions({ draft: d, step, update, history, issue, saving 
       </nav>
       <div className="question-layout">
         <section className="question-main">
-          <div
-            className="step-ruler"
-            role="progressbar"
-            aria-valuemin={1}
-            aria-valuemax={4}
-            aria-valuenow={index + 1}
-            aria-label={'Step ' + (index + 1) + ' of 4'}
-          >
-            {stages.map((s, i) => (
-              <i key={s} className={i <= index ? 'lit' : ''} />
+          <ol className="question-progress" aria-label="Trade-in steps">
+            {['Garment', 'History', 'Fit', 'Photos'].map((label, i) => (
+              <li
+                key={label}
+                aria-current={index === i ? 'step' : undefined}
+                className={i < index ? 'done' : ''}
+              >
+                <span>{i < index ? <Icon name="check" size={13} /> : i + 1}</span>
+                {label}
+              </li>
             ))}
-          </div>
-          <div className="section-overline">Step {String(index + 1).padStart(2, '0')} / 04</div>
+          </ol>
           <h1 ref={title} tabIndex={-1}>
             {step === 'garment'
               ? 'What are you trading in?'
               : step === 'history'
                 ? 'What’s the gear’s history?'
                 : step === 'fit'
-                  ? 'What do you ride in?'
+                  ? 'What fit are you looking for?'
                   : 'How will you add photos?'}
           </h1>
           {step === 'garment' ? (
@@ -60,8 +59,8 @@ export function RiderQuestions({ draft: d, step, update, history, issue, saving 
               <p>Pick the closest match. We’ll use it to frame your photos.</p>
               <div className="choice-grid">
                 {[
-                  ['jacket', 'Riding jacket', 'meridian'],
-                  ['pants', 'Riding trousers', 'selvedge'],
+                  ['jacket', 'Riding jacket', 'meridian-card'],
+                  ['pants', 'Riding trousers', 'selvedge-card'],
                 ].map(([v, l, img]) => (
                   <button
                     key={v}
@@ -110,7 +109,8 @@ export function RiderQuestions({ draft: d, step, update, history, issue, saving 
           ) : step === 'fit' ? (
             <>
               <p>
-                These details help us find new gear you might like. You can leave any of them blank.
+                All three answers are optional. They help the shop suggest new gear in your size and
+                riding style.
               </p>
               <div className="rider-fields">
                 <label className="field">
@@ -224,9 +224,11 @@ export function RiderQuestions({ draft: d, step, update, history, issue, saving 
                   ? d.garment === 'pants'
                     ? 'selvedge-label'
                     : 'meridian-label'
-                  : d.garment === 'pants'
-                    ? 'selvedge'
-                    : 'fieldway',
+                  : step === 'garment'
+                    ? 'workbench'
+                    : d.garment === 'pants'
+                      ? 'selvedge-card'
+                      : 'fieldway-card',
             )}
             alt=""
           />

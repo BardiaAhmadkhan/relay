@@ -62,6 +62,7 @@ export function RecordScreen({
     [removing, setRemoving] = useState(false);
   const { token, name: staffName } = staff;
   const pick = manual ?? (card?.rehearsal ? 'custody_clear' : 'actual'),
+    waitingForCard = mode === 'workshop' && listLoading && !card,
     stableId = card?.id,
     changed = useCallback(() => {
       setEpoch((n) => n + 1);
@@ -81,7 +82,7 @@ export function RecordScreen({
     };
   }, [mode]);
   useEffect(() => {
-    if (listLoading && !card) return;
+    if (waitingForCard) return;
     const ac = new AbortController();
     setErr('');
     const placeholder: Card = card ?? {
@@ -105,7 +106,7 @@ export function RecordScreen({
         if (!ac.signal.aborted) setErr(e.message);
       });
     return () => ac.abort();
-  }, [mode, id, pick, epoch, stableId, listLoading, card?.name, card?.outcome]);
+  }, [mode, id, pick, epoch, stableId, waitingForCard, card?.name, card?.outcome]);
   const frame = data?.frames.find((f) => f.id === select) ?? data?.frames[0];
   function open(f: string) {
     setSelect(f);
@@ -126,7 +127,7 @@ export function RecordScreen({
         </Empty>
       </div>
     );
-  if (!data && listError)
+  if (!data && mode === 'workshop' && listError)
     return (
       <div className="utility-page">
         <Alert>{listError}</Alert>
@@ -151,6 +152,7 @@ export function RecordScreen({
           : 'overview'
         : requestedTab;
   const firstSource = story.lines.find((l) => l.sources.length)?.sources[0];
+  const decisionFrame = r.frames.find((f) => f.id === firstSource);
   const historyNext = /has it been in a crash|choose yes, no|history question/i.test(r.next ?? ''),
     canUpload = !!r.next && !historyNext && ['specialist', 'request'].includes(r.card.outcome);
   const viewGroup = viewer.startsWith('zone:')
@@ -162,8 +164,9 @@ export function RecordScreen({
     backHref = origin?.hash ?? '#/notebook';
   const goPrimary = () => {
     if (tradeEligible) location.hash = recordHref(id, 'trade');
-    else if (r.card.outcome === 'replace') location.hash = recordHref(id, 'shop');
-    else if (r.card.outcome === 'retire') location.hash = '/notebook';
+    else if (r.card.outcome === 'replace')
+      location.hash = recordHref(id, mode === 'rider' ? 'evidence' : 'shop');
+    else if (r.card.outcome === 'retire') location.hash = backHref;
     else if (mode === 'rider' && r.card.outcome === 'specialist') {
       if (canUpload) setFollow(true);
       else document.querySelector('.reason-sheet')?.scrollIntoView({ block: 'center' });
@@ -260,7 +263,7 @@ export function RecordScreen({
                   <div className="source-caption">
                     <div>
                       <span className="micro">Source photograph</span>
-                      <h3>{frame.name}</h3>
+                      <h2>{frame.name}</h2>
                     </div>
                     <button className="text-button" onClick={() => open(frame.id)}>
                       Inspect photo <Icon name="upRight" size={14} />
@@ -295,10 +298,14 @@ export function RecordScreen({
                 </div>
                 <h2>{story.heading}</h2>
                 <p>{story.lead}</p>
-                {firstSource && (
-                  <button className="source-link decision-source" onClick={() => open(firstSource)}>
-                    <Icon name="image" size={15} />
-                    See the photo behind this decision
+                {decisionFrame && (
+                  <button className="decision-source" onClick={() => open(decisionFrame.id)}>
+                    <img src={decisionFrame.crop || decisionFrame.src} alt="" />
+                    <span>
+                      <small>See the photo behind this decision</small>
+                      <strong>{decisionFrame.name}</strong>
+                    </span>
+                    <Icon name="expand" size={17} />
                   </button>
                 )}
                 {story.next && (
@@ -311,7 +318,9 @@ export function RecordScreen({
                   {tradeEligible
                     ? 'See my trade-in value'
                     : r.card.outcome === 'replace'
-                      ? 'See shop details'
+                      ? mode === 'rider'
+                        ? 'Review the evidence'
+                        : 'See shop details'
                       : r.card.outcome === 'retire'
                         ? 'Back to notebook'
                         : r.card.outcome === 'specialist'

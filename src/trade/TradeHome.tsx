@@ -16,11 +16,10 @@ export function TradeHome({
           <source media="(max-width:640px)" srcSet={asset('coast-rider-phone')} />
           <img
             src={asset('coast-rider')}
-            alt="A rider in a weathered jacket overlooking the coast"
+            alt="A motorcyclist in a worn jacket looking out over the water"
             fetchPriority="high"
           />
         </picture>
-        <div className="ride-shadow" />
         <div className="ride-copy">
           {retailer && (
             <div className="ride-kicker">
@@ -36,10 +35,15 @@ export function TradeHome({
           <p>
             See what your used jacket or riding trousers could be worth toward new gear at the shop.
           </p>
-          <a className="button signal" href="#/intake">
-            {draft ? 'Continue your trade-in' : 'Start a trade-in'}
-            <Icon name="arrow" />
-          </a>
+          <div className="ride-actions">
+            <a className="button signal" href="#/intake">
+              {draft ? 'Continue your trade-in' : 'Start a trade-in'}
+              <Icon name="arrow" />
+            </a>
+            <a className="cover-guide" href="#/guide">
+              <Icon name="book" size={17} /> Photo guide
+            </a>
+          </div>
         </div>
       </header>
       <section className="trade-steps" aria-label="How a trade-in works">
@@ -52,8 +56,8 @@ export function TradeHome({
           ],
           [
             '03',
-            'Get your trade-in offer',
-            'Bring in eligible gear to receive credit toward something new.',
+            'Review the decision',
+            'If your gear qualifies, bring it to the shop to collect your credit.',
           ],
         ].map(([n, h, p]) => (
           <div key={n}>
@@ -91,14 +95,14 @@ export function TradeHome({
                 'RW-003',
                 'fieldway-card',
                 'Fieldway touring jacket',
-                'Eligible for trade-in',
+                'See the trade-in estimate',
                 'trade',
               ],
               [
                 'RW-001',
                 'meridian-card',
                 'Meridian café jacket',
-                'Why a closer look matters',
+                'Inspect the shoulder seam',
                 'overview',
               ],
             ].map(([id, file, title, caption, tab]) => (
